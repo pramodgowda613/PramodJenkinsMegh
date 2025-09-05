@@ -1,0 +1,52 @@
+>> Console logging redirected to data/console.log
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\AllReports.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054240.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054242.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054245.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054247.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054249.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054251.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054254.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054256.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054306.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-13-08-25_17_42_01\screenshot\13-08-2025-054308.png
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Status Code: 200
+Response Body: {"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6InRnWHN2V3RrcWwrV2ZRQXNEcmZxUExKUGd6TS1zNUNTNUN3cndVVTdxSGdAIiwiUm9sZXMiOiJpTjJwQjBsenBRTjJtZkUwQWs1RGd5Z1Vxc2RuR2VXTFJtWlRGamlLekgwYU1kUlFNeE1mTytKTjNqc05KNCtBIiwiQ29tcGFueUlkIjoiVklVTEt2dDV0YVlXM21UV2x1bU5CV1ppMkZ4QVdaMXVSbm5EM2hyRWFQSUAiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjg2YXYweUJRRUxISm8rV1BKd293Qy11UmQrNU1xdTkwWndFY0dMbklIOTE4RXg3RVBEVFozd281WWl3YVl2UCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMGIwOTE0YjctNTI3OC00MzkwLTgzYzEtODdiZjllZDBmNGQyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiQXVnIFR1ZSAxOSAyMDI1IDEyOjE2OjU5IFBNIiwiRW50aXR5SWQiOiI2blJpVmlidmtUMlpBd3pKMjhiMUx0YjJIUGNEK2hnS2dEempYaENaZVpnQCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6InJUMENRbHFacHZrbkl6YXd0UE5uVThtTHZPb0x2b3phRHNMR3l2bDBFdU1AIiwiQ29tcGFueU1vZHVsZSI6InRNcGgwbEJ4TXBmUTVESTJ4bkUwTFpBTnNNOU1TNU52aXcrdTlYc05jSlFAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJwLWcwZTlEdzdjakpFWHJoMU9PMFZQNHVQbzhEbndkOEJHUTNUODJLYUk0QCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6InJlSG1HRmJnV1RlZHE4YmlsLS10bmpGNXRjMWVLc0c1Y1I5SlpnY0UyR01AIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTU0OTk2MTksImV4cCI6MTc1NTUwMTQxOSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.oUP50XjFJohjO0UxrvgUTwo2VduNu1vaNzLxsHfDhgQ","UserName":"286av0yBQELHJo+WPJwowC-uRd+5Mqu90ZwEcGLnIH918Ex7EPDTZ3wo5YiwaYvP","Validaty":"12:46:59.9358384","RefreshToken":null,"RefreshTokenExpiration":"0001-01-01 00:00:00","Id":"tgXsvWtkql+WfQAsDrfqPLJPgzM-s5CS5CwrwUU7qHg@","Roles":"iN2pB0lzpQN2mfE0Ak5DgygUqsdnGeWLRmZTFjiKzH0aMdRQMxMfO+JN3jsNJ4+A","CompanyId":"VIULKvt5taYW3mTWlumNBWZi2FxAWZ1uRnnD3hrEaPI@","GuidId":"0b0914b7-5278-4390-83c1-87bf9ed0f4d2","ExpiredTime":"2025-08-18 12:46:59","EntityId":"6nRiVibvkT2ZAwzJ28b1Ltb2HPcD+hgKgDzjXhCZeZg@","EncId":"6E6AAC45E4BE403F9607EF130488327B","EntityName":"pramod gowda","Designation":"AutodnWUIZWX","WidgetIds":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,43,44,18,19,20,40],"IsPwdResetRequired":false,"IsGettingStartedProcessDone":"rT0CQlqZpvknIzawtPNnU8mLvOoLvozaDsLGyvl0EuM@","Theme":1,"ModuleName":"tMph0lBxMpfQ5DI2xnE0LZANsM9MS5Nviw+u9XsNcJQ@","CompanyConfigDto":{"TimeFormat":"24","DateFormat":"MM-DD-YYYY","TimeZone":"UTC-12:00: Baker Island, Howland Island","Language":"en","CountryName":"India","Currency":"Indian Rupee (INR)","IsEnableHistory":false,"GeneralHasTwoStepVerification":false},"IsForceUpdate":false,"Url":null,"IsEmployeeLogin":false,"IsSwitchShow":true,"AccessAllEntity":true,"ViewAllTickets":false,"IsPaymentCompleted":"p-g0e9Dw7cjJEXrh1OO0VP4uPo8Dnwd8BGQ3T82KaI4@","MaskedPIIConfigStatus":"reHmGFbgWTedq8bil--tnjF5tc1eKsG5cR9JZgcE2GM@","HasTwoStepVerification":true,"TwoStepFromCompanyConfig":false,"UserRights":null,"ModuleNames":null}
+✅ Token Saved: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6InRnWHN2V3RrcWwrV2ZRQXNEcmZxUExKUGd6TS1zNUNTNUN3cndVVTdxSGdAIiwiUm9sZXMiOiJpTjJwQjBsenBRTjJtZkUwQWs1RGd5Z1Vxc2RuR2VXTFJtWlRGamlLekgwYU1kUlFNeE1mTytKTjNqc05KNCtBIiwiQ29tcGFueUlkIjoiVklVTEt2dDV0YVlXM21UV2x1bU5CV1ppMkZ4QVdaMXVSbm5EM2hyRWFQSUAiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiMjg2YXYweUJRRUxISm8rV1BKd293Qy11UmQrNU1xdTkwWndFY0dMbklIOTE4RXg3RVBEVFozd281WWl3YVl2UCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMGIwOTE0YjctNTI3OC00MzkwLTgzYzEtODdiZjllZDBmNGQyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiQXVnIFR1ZSAxOSAyMDI1IDEyOjE2OjU5IFBNIiwiRW50aXR5SWQiOiI2blJpVmlidmtUMlpBd3pKMjhiMUx0YjJIUGNEK2hnS2dEempYaENaZVpnQCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6InJUMENRbHFacHZrbkl6YXd0UE5uVThtTHZPb0x2b3phRHNMR3l2bDBFdU1AIiwiQ29tcGFueU1vZHVsZSI6InRNcGgwbEJ4TXBmUTVESTJ4bkUwTFpBTnNNOU1TNU52aXcrdTlYc05jSlFAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJwLWcwZTlEdzdjakpFWHJoMU9PMFZQNHVQbzhEbndkOEJHUTNUODJLYUk0QCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6InJlSG1HRmJnV1RlZHE4YmlsLS10bmpGNXRjMWVLc0c1Y1I5SlpnY0UyR01AIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTU0OTk2MTksImV4cCI6MTc1NTUwMTQxOSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.oUP50XjFJohjO0UxrvgUTwo2VduNu1vaNzLxsHfDhgQ
+Aug 18, 2025 5:47:14 PM base.LogResults createLogs
+INFO:  - 
+===== Employee Creation Request Data =====
+Company Location : 58
+First Name       : onehunderedandten
+Last Name        : Morning shift
+Emp ID           : Emp0110
+Phone No         : 9951054262
+Email            : onehunderedandten@mailinator.com
+Reporting To     : 642
+Date of Joining  : 1996-06-07T23:13:00.461Z
+Entity Type Id   : 482
+Send Email Invite: true
+=========================================
+Status Code : 200
+Response Body: {
+    "CompanyId": 0,
+    "Id": 1560,
+    "CreatedBy": null,
+    "CreatedDate": "0001-01-01 00:00:00",
+    "UpdatedBy": "pramod.c@mantratec.com",
+    "UpdatedDate": "2025-08-18 17:47:01",
+    "IsActive": true
+}
+Employee Creation Status: null
+Created Employee ID     : null
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 2, Passes: 1, Failures: 1, Skips: 0
+===============================================
+

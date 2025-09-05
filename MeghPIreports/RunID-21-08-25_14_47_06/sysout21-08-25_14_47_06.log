@@ -1,0 +1,89 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 21, 2025 2:47:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 21, 2025 2:47:12 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 21, 2025 2:47:18 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARBX
+Aug 21, 2025 2:47:21 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 21, 2025 2:47:27 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 21, 2025 2:47:29 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE190825091637@mailinator.com
+Aug 21, 2025 2:47:31 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 21, 2025 2:47:34 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 21, 2025 2:47:36 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 21, 2025 2:47:38 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 21, 2025 2:47:41 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 21, 2025 2:47:47 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 21, 2025 2:47:49 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 21, 2025 2:47:51 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Aug 21, 2025 2:47:54 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Aug 21, 2025 2:48:08 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Aug 21, 2025 2:48:10 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Aug 21, 2025 2:48:13 PM base.LogResults createLogs
+INFO: PASS - AddWeekOffPolicyButton Clicked Successfully: 
+Aug 21, 2025 2:48:19 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted Successfully: AutoWOPN190825091637
+Aug 21, 2025 2:48:21 PM base.LogResults createLogs
+INFO: PASS - ThursdayButton Clicked Successfully: 
+Aug 21, 2025 2:48:24 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Aug 21, 2025 2:48:26 PM base.LogResults createLogs
+INFO: PASS - SundayButton Clicked Successfully: 
+Aug 21, 2025 2:48:28 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Aug 21, 2025 2:48:30 PM base.LogResults createLogs
+INFO: PASS - AddEmpCriteria Button Successfully : 
+Aug 21, 2025 2:48:37 PM base.LogResults createLogs
+INFO: PASS - Office Name Selected  Successfully : AutoON190825091637
+Aug 21, 2025 2:48:42 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked  Dept DropDown: AutoDN190825091637
+Aug 21, 2025 2:48:47 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Dept: AutoDN190825091637
+Aug 21, 2025 2:48:53 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On  Team  Dropdown: AutoTN190825091637
+Aug 21, 2025 2:48:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Team From Dropdown: AutoTN190825091637
+Aug 21, 2025 2:49:02 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoDESN190825091637
+Aug 21, 2025 2:49:09 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Employee Type From Dropdown: AutoEN190825091637
+Aug 21, 2025 2:49:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ApplyButton: 
+Aug 21, 2025 2:49:14 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Aug 21, 2025 2:49:22 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Aug 21, 2025 2:49:22 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_848_WeekOff_Policy_12-To verify this, create an policy and add emp criteria to the policy and ensure matching criteria employees are assigned to the created policy
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_848_WeekOff_Policy_12
+Aug 21, 2025 2:49:22 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 133.4727 seconds
+Total TC Time: 00:02:13
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

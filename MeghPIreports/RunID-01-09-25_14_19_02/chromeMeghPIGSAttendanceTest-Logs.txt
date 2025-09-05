@@ -1,0 +1,8 @@
+Sep 01, 2025 2:19:20 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sep 01, 2025 2:19:23 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 01, 2025 2:19:23 PM base.LogResults onlyLog
+INFO: Passed - MeghPIGSAttendanceTest-MPI_730_Normal_Attendance_58-Check the status when the employee applies for a half-day leave but performs only a single punch-in  
+Sep 01, 2025 2:19:23 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

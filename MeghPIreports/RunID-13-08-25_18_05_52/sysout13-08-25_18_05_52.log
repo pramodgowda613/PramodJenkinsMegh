@@ -1,0 +1,141 @@
+>> Console logging redirected to data/console.log
+cmpcode and emailidAYKYAutoE130825091642@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 13, 2025 6:05:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+(1386, 788)
+Aug 13, 2025 6:05:59 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 13, 2025 6:06:05 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AYKY
+Aug 13, 2025 6:06:07 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 13, 2025 6:06:13 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 13, 2025 6:06:16 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE130825091642@mailinator.com
+Aug 13, 2025 6:06:18 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 13, 2025 6:06:20 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 13, 2025 6:06:22 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 13, 2025 6:06:25 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 13, 2025 6:06:27 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 13, 2025 6:06:37 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 13, 2025 6:06:40 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 13, 2025 6:06:42 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 13, 2025 6:06:44 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 13, 2025 6:06:46 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 13, 2025 6:06:49 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 13, 2025 6:06:51 PM base.LogResults createLogs
+INFO: PASS - Add Team Button  Clicked Successfully: 
+Aug 13, 2025 6:06:53 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTNITHWI
+Aug 13, 2025 6:06:56 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Aug 13, 2025 6:06:58 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 13, 2025 6:07:00 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Aug 13, 2025 6:07:02 PM base.LogResults createLogs
+INFO: PASS - AddTeamMapping Button  Clicked Successfully: 
+Aug 13, 2025 6:07:09 PM base.LogResults createLogs
+INFO: PASS - Team Name Selected Successfully: AutoTNITHWI
+Aug 13, 2025 6:07:11 PM base.LogResults createLogs
+INFO: PASS - Department DropDown Clicked Successfully: 
+Aug 13, 2025 6:07:13 PM base.LogResults createLogs
+INFO: PASS - Department Name Inputted Successfully: 
+Aug 13, 2025 6:07:19 PM base.LogResults createLogs
+INFO: PASS - Department Name Selected Successfully: 
+Aug 13, 2025 6:07:21 PM base.LogResults createLogs
+INFO: PASS - Add Team Mapping Saved Successfully: 
+Aug 13, 2025 6:07:23 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 13, 2025 6:07:26 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 13, 2025 6:07:36 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Inputted Successfully: AutoTNITHWI
+Aug 13, 2025 6:07:42 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Aug 13, 2025 6:07:44 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 13, 2025 6:07:47 PM base.LogResults createLogs
+INFO: PASS - Error Message is Displayed: 
+Aug 13, 2025 6:07:47 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamMappingTest-MPI_529_TeamMapping_12-"To verify this, try to disable the team which is not assigned to the employee and ensure that team is disabled.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_529_TeamMapping_12
+Aug 13, 2025 6:07:47 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 111.3459 seconds
+Total TC Time: 00:01:51
+Launching Driver...
+Aug 13, 2025 6:07:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+(1386, 788)
+Aug 13, 2025 6:07:53 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 13, 2025 6:07:59 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AYKY
+Aug 13, 2025 6:08:01 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 13, 2025 6:08:07 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 13, 2025 6:08:10 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE130825091642@mailinator.com
+Aug 13, 2025 6:08:12 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 13, 2025 6:08:14 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 13, 2025 6:08:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 13, 2025 6:08:19 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 13, 2025 6:08:21 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 13, 2025 6:08:31 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 13, 2025 6:08:34 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 13, 2025 6:08:36 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 13, 2025 6:08:38 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 13, 2025 6:08:41 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 13, 2025 6:08:51 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Inputted Successfully: 
+Aug 13, 2025 6:08:57 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Aug 13, 2025 6:09:02 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 13, 2025 6:09:04 PM base.LogResults createLogs
+INFO: PASS -  Successfully Displayed Error Message : 
+Aug 13, 2025 6:09:04 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamMappingTest-MPI_533_TeamMapping_15-To verify this, after assigning a mapped team to any employee, try to disable the team and ensure that a proper error message is displayed.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_533_TeamMapping_15
+Aug 13, 2025 6:09:04 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 74.5963 seconds
+Total TC Time: 00:03:05
+
+===============================================
+Suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+

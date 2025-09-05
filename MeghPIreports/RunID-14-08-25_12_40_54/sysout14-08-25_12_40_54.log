@@ -1,0 +1,13 @@
+>> Console logging redirected to data/console.log
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 14, 2025 12:41:00 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying  WeekOffPolicy AssignedEmp: Status Code: 401 | Response: 
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

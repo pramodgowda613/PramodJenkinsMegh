@@ -1,0 +1,46 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+(1386, 788)
+Login Response: {"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IkppeWN1LWxYSkNDTTNhZk9Eb085UERWK3ZiZkZDbU1ZMWkrcm56S29zRjhAIiwiUm9sZXMiOiJWSGRzeGlWTWx1VXFCbW5MN1htWWpYbUlvc3RFSG0yM21rZmVLR2dQQzdTWHV6cXMxV3NDeGtURURTNjQ1LUs2IiwiQ29tcGFueUlkIjoibTk2TzA2VDlnbnU1dmRmTDEyV0UwUjBPcUZZeWlUUnlTMlhWRVhTdmpJd0AiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTU9oelNaeDBEQmhqZm9Nb3hJWDl4STFUVzNNdmNxZGFRZjkrRmpPa3NLOTNVVDVxblc4MDZkLURjODFyREdrWSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiNDUxYTRkOGItODQ3MC00Y2Q3LTkxMzgtZTQxMGQ4MmI2ZmJmIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiU2VwIFRodSAwNCAyMDI1IDA1OjE3OjA3IEFNIiwiRW50aXR5SWQiOiJJRUZkWnpmS0QtVzhmU3daSnVTNkE0ejRZaXVqeDlSQ2pqeHJDTmJHdi1nQCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6IklKQWp0NGxXRnVNNml3US1lVW9MWWlVVU0tK1lLbnlNU3Q3bnktenBRclVAIiwiQ29tcGFueU1vZHVsZSI6IlBnd00zb04wU1duLVpxY0d4SVhMUUFGQXdnR2Y5djRZN2JjQmxENjc5R1lAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJOYzVRc0t5TnRQN3FFOGRLckpKYjJHVXQ2RnRsa1FFbnYwS21lazBoemNjQCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6IkhkenpZOGRvZE4zYWlvTUJkYmdTWkdaZCttWmdmOUZ1aDNpcy1HUEF1KzRAIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTY4NTY4MjcsImV4cCI6MTc1Njg1ODYyNywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.2yUSbOusbT_u1cCIPsXiZf5Y7SKEst4q3OCH_G7VpEM","UserName":"MOhzSZx0DBhjfoMoxIX9xI1TW3MvcqdaQf9+FjOksK93UT5qnW806d-Dc81rDGkY","Validaty":"05:47:07.5675660","RefreshToken":null,"RefreshTokenExpiration":"0001-01-01 00:00:00","Id":"Jiycu-lXJCCM3afODoO9PDV+vbfFCmMY1i+rnzKosF8@","Roles":"VHdsxiVMluUqBmnL7XmYjXmIostEHm23mkfeKGgPC7SXuzqs1WsCxkTEDS645-K6","CompanyId":"m96O06T9gnu5vdfL12WE0R0OqFYyiTRyS2XVEXSvjIw@","GuidId":"451a4d8b-8470-4cd7-9138-e410d82b6fbf","ExpiredTime":"2025-09-03 05:47:07","EntityId":"IEFdZzfKD-W8fSwZJuS6A4z4Yiujx9RCjjxrCNbGv-g@","EncId":"6E6AAC45E4BE403F9607EF130488327B","EntityName":"pramod gowda","Designation":"AutodnWUIZWX","WidgetIds":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,43,44,18,19,20,40],"IsPwdResetRequired":false,"IsGettingStartedProcessDone":"IJAjt4lWFuM6iwQ-eUoLYiUUM-+YKnyMSt7ny-zpQrU@","Theme":1,"ModuleName":"PgwM3oN0SWn-ZqcGxIXLQAFAwgGf9v4Y7bcBlD679GY@","CompanyConfigDto":{"TimeFormat":"24","DateFormat":"MM-DD-YYYY","TimeZone":"UTC-12:00: Baker Island, Howland Island","Language":"en","CountryName":"India","Currency":"Indian Rupee (INR)","IsEnableHistory":false,"GeneralHasTwoStepVerification":false},"IsForceUpdate":false,"Url":null,"IsEmployeeLogin":false,"IsSwitchShow":true,"AccessAllEntity":true,"ViewAllTickets":false,"IsPaymentCompleted":"Nc5QsKyNtP7qE8dKrJJb2GUt6FtlkQEnv0Kmek0hzcc@","MaskedPIIConfigStatus":"HdzzY8dodN3aioMBdbgSZGZd+mZgf9Fuh3is-GPAu+4@","HasTwoStepVerification":true,"TwoStepFromCompanyConfig":false,"UserRights":null,"ModuleNames":null}
+Extracted Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IkppeWN1LWxYSkNDTTNhZk9Eb085UERWK3ZiZkZDbU1ZMWkrcm56S29zRjhAIiwiUm9sZXMiOiJWSGRzeGlWTWx1VXFCbW5MN1htWWpYbUlvc3RFSG0yM21rZmVLR2dQQzdTWHV6cXMxV3NDeGtURURTNjQ1LUs2IiwiQ29tcGFueUlkIjoibTk2TzA2VDlnbnU1dmRmTDEyV0UwUjBPcUZZeWlUUnlTMlhWRVhTdmpJd0AiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTU9oelNaeDBEQmhqZm9Nb3hJWDl4STFUVzNNdmNxZGFRZjkrRmpPa3NLOTNVVDVxblc4MDZkLURjODFyREdrWSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiNDUxYTRkOGItODQ3MC00Y2Q3LTkxMzgtZTQxMGQ4MmI2ZmJmIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiU2VwIFRodSAwNCAyMDI1IDA1OjE3OjA3IEFNIiwiRW50aXR5SWQiOiJJRUZkWnpmS0QtVzhmU3daSnVTNkE0ejRZaXVqeDlSQ2pqeHJDTmJHdi1nQCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6IklKQWp0NGxXRnVNNml3US1lVW9MWWlVVU0tK1lLbnlNU3Q3bnktenBRclVAIiwiQ29tcGFueU1vZHVsZSI6IlBnd00zb04wU1duLVpxY0d4SVhMUUFGQXdnR2Y5djRZN2JjQmxENjc5R1lAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJOYzVRc0t5TnRQN3FFOGRLckpKYjJHVXQ2RnRsa1FFbnYwS21lazBoemNjQCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6IkhkenpZOGRvZE4zYWlvTUJkYmdTWkdaZCttWmdmOUZ1aDNpcy1HUEF1KzRAIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTY4NTY4MjcsImV4cCI6MTc1Njg1ODYyNywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.2yUSbOusbT_u1cCIPsXiZf5Y7SKEst4q3OCH_G7VpEM
+Transaction Response: {"ErrorCode":"0","ErrorDescription":"Success"}
+Sept 03, 2025 10:47:26 AM base.LogResults createLogs
+INFO: PASS - Transaction executed successfully
+Sept 03, 2025 10:47:28 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 03, 2025 10:47:34 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: MAN0
+Sept 03, 2025 10:47:37 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Sept 03, 2025 10:47:43 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Sept 03, 2025 10:47:45 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: pramod.c@mantratec.com
+Sept 03, 2025 10:47:47 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Sept 03, 2025 10:47:50 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Sept 03, 2025 10:47:52 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Sept 03, 2025 10:47:54 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Sept 03, 2025 10:47:56 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 03, 2025 10:47:56 AM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_630_Normal_Attendance_02-Check the status when the employee performs only a single punch in a day.
+---------------------------------------------------------------
+MeghPIMSAttendanceTestMPI_630_Normal_Attendance_02
+Sept 03, 2025 10:47:56 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 47.1492 seconds
+Total TC Time: 00:00:47
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

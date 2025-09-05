@@ -1,0 +1,87 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:060825-040825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 06, 2025 11:26:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 11:26:22 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 11:26:27 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.
+Aug 06, 2025 11:26:27 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 11:27:18 AM base.LogResults createLogs
+INFO: FAIL - Login Is Failed: Sign-in section load failed: Sign-in section not displayed.
+Aug 06, 2025 11:27:42 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On Directery Button: Failed to click Directory button: Expected condition failed: waiting for element to be clickable: By.xpath: //li[@id='v-pills-Directory-tab'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51797}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51797/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e4453e7b55064d33bd7039ecbf00ec
+Screenshot not captured : invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26e4453e7b55064d33bd7039ecbf00ec, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51797}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51797/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e4453e7b55064d33bd7039ecbf00ec
+Aug 06, 2025 11:27:57 AM base.LogResults createLogs
+INFO: FAIL - Directory Page Isn't Loaded Completely: DirectoryPageLoaded failed after retry: invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26e4453e7b55064d33bd7039ecbf00ec, refresh {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51797}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51797/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e4453e7b55064d33bd7039ecbf00ec
+Screenshot not captured : invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26e4453e7b55064d33bd7039ecbf00ec, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51797}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51797/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e4453e7b55064d33bd7039ecbf00ec
+Aug 06, 2025 11:28:07 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On Company Tab : invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26e4453e7b55064d33bd7039ecbf00ec, findElement {using=xpath, value=//a[text()='Company']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51797}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51797/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e4453e7b55064d33bd7039ecbf00ec
+Screenshot not captured : invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26e4453e7b55064d33bd7039ecbf00ec, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51797}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51797/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e4453e7b55064d33bd7039ecbf00ec
+Aug 06, 2025 11:28:18 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On Grade Button : invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26e4453e7b55064d33bd7039ecbf00ec, findElement {using=xpath, value=//button[@id='tab_Grade']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51797}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51797/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26e4453e7b55064d33bd7039ecbf00ec
+Aug 06, 2025 11:28:18 AM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 06, 2025 11:28:18 AM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_289_Grade_01-Create a newÂ GradeÂ and ensure that theÂ created GradeÂ is displayed in theÂ Grade dropdownÂ under theÂ Employee/User Manage ProfileÂ section
+---------------------------------------------------------------
+AttendanceMPI_289_Grade_01
+Aug 06, 2025 11:28:18 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 116.5738 seconds
+Total TC Time: 00:01:56
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+Configuration Failures: 1, Skips: 0
+===============================================
+

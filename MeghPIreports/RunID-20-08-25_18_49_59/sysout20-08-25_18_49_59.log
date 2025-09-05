@@ -1,0 +1,89 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 20, 2025 6:50:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 20, 2025 6:50:05 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 20, 2025 6:50:11 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARBX
+Aug 20, 2025 6:50:13 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 20, 2025 6:50:20 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 20, 2025 6:50:22 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE190825091637@mailinator.com
+Aug 20, 2025 6:50:24 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 20, 2025 6:50:26 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 20, 2025 6:50:29 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 20, 2025 6:50:31 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 20, 2025 6:50:33 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 20, 2025 6:50:40 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 20, 2025 6:50:42 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 20, 2025 6:50:44 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Aug 20, 2025 6:50:46 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Aug 20, 2025 6:50:57 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Aug 20, 2025 6:50:59 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Aug 20, 2025 6:51:05 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted In Search TextField Successfully: 
+Aug 20, 2025 6:51:07 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy First Record Displayed Successfully: 
+Aug 20, 2025 6:51:14 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy DeleteButton Clicked Successfully: 
+Aug 20, 2025 6:51:16 PM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully : 
+Aug 20, 2025 6:51:23 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 20, 2025 6:51:27 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 20, 2025 6:51:30 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 20, 2025 6:51:32 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 20, 2025 6:51:35 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 20, 2025 6:51:37 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Aug 20, 2025 6:51:39 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 20, 2025 6:51:46 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: 
+Aug 20, 2025 6:51:51 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: 
+Aug 20, 2025 6:51:53 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Aug 20, 2025 6:51:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Aug 20, 2025 6:52:18 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Aug 20, 2025 6:52:26 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying Created WeekOff PolicyName : Attempt 2 failed: Assigned Policy Name mismatch: Expected to contain 'Default', but found 'AutoWOPN190825091637ZJK'
+Aug 20, 2025 6:52:26 PM base.LogResults onlyLog
+INFO: Failed - MeghWeekOffPolicyTest-MPI_581_WeekOff_Policy_06-To verify this, inactivate the Week Off Policy that was created using specific employee criteria. Once the policy is deactivated, ensure that the employees who were previously assigned to this policy are automatically reassigned to the default Week Off Policy.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_581_WeekOff_Policy_06
+Aug 20, 2025 6:52:26 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 144.4041 seconds
+Total TC Time: 00:02:24
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

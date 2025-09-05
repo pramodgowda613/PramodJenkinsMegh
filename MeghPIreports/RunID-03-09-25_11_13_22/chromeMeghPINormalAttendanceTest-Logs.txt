@@ -1,0 +1,8 @@
+Sept 03, 2025 11:13:29 AM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sept 03, 2025 11:13:32 AM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sept 03, 2025 11:13:32 AM base.LogResults onlyLog
+INFO: Passed - MeghPINormalAttendanceTest-MPI_637_Normal_Attendance_09-Check the status after the employee raises a regularization request for an absent day and it is approved. 
+Sept 03, 2025 11:13:32 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

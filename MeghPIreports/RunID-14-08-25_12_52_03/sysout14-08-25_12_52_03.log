@@ -1,0 +1,13 @@
+>> Console logging redirected to data/console.log
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 14, 2025 12:52:05 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying  WeekOffPolicy AssignedEmp: Status Code: 400 | Response: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"":["The supplied value is invalid."],"request":["The request field is required."]},"traceId":"00-788f107ddf1e8c8070dc26b24141fc00-f51e5c43500ae12a-00"}
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

@@ -1,0 +1,468 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:060825-060825-ThreSld->3
+cmpcode and emailidAGFCAutoE060825091631@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 06, 2025 1:07:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 1:07:12 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 1:07:16 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 1:07:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 1:07:21 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 1:07:21 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 1:07:21 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 1:07:21 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 1:07:22 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 1:07:26 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 1:07:26 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 1:07:30 PM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Aug 06, 2025 1:07:37 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 1:07:40 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 1:07:40 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 1:07:44 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:07:44 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 06, 2025 1:07:45 PM base.LogResults createLogs
+INFO: PASS - Team Page Loaded Successfully: 
+Aug 06, 2025 1:07:45 PM base.LogResults createLogs
+INFO: PASS - Add Team Button  Clicked Successfully: 
+Aug 06, 2025 1:07:46 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTN060825091631UFG
+Aug 06, 2025 1:07:46 PM base.LogResults createLogs
+INFO: PASS - Team Description Is Entered In Team Description Text Field: Autoteamdescription060825091631
+Aug 06, 2025 1:07:47 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Aug 06, 2025 1:07:50 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:07:51 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Aug 06, 2025 1:07:51 PM base.LogResults createLogs
+INFO: PASS - AddTeamMapping Button  Clicked Successfully: 
+Aug 06, 2025 1:07:53 PM base.LogResults createLogs
+INFO: PASS - TeamDropDown  Clicked Successfully: 
+Aug 06, 2025 1:07:56 PM base.LogResults createLogs
+INFO: PASS - Team Name Inputted In TeamDropDwonTextField  Successfully: 
+Aug 06, 2025 1:07:58 PM base.LogResults createLogs
+INFO: PASS - Team Displayed Successfully: 
+Aug 06, 2025 1:07:58 PM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_212_Team_01-To verify this, create an team and check whether created team is displayed in the team mapping  > team dropdown
+---------------------------------------------------------------
+AttendanceMPI_212_Team_01
+Aug 06, 2025 1:07:58 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 47.0920 seconds
+Total TC Time: 00:00:47
+Launching Driver...
+Aug 06, 2025 1:08:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 1:08:02 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 1:08:06 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 1:08:06 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 1:08:11 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 1:08:11 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 1:08:11 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 1:08:11 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 1:08:11 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 1:08:15 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 1:08:16 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 1:08:22 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 1:08:28 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 1:08:28 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 1:08:33 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:08:33 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 06, 2025 1:08:34 PM base.LogResults createLogs
+INFO: PASS - Team Page Loaded Successfully: 
+Aug 06, 2025 1:08:34 PM base.LogResults createLogs
+INFO: PASS - Add Team Button  Clicked Successfully: 
+Aug 06, 2025 1:08:35 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTNBIN
+Aug 06, 2025 1:08:35 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Aug 06, 2025 1:08:47 PM base.LogResults createLogs
+INFO: PASS - Updated Team Name Entered In Search TextField Successfully: AutoTNBIN
+Aug 06, 2025 1:08:51 PM base.LogResults createLogs
+INFO: PASS - Team First Record  3Dots Clicked Successfully: 
+Aug 06, 2025 1:08:51 PM base.LogResults createLogs
+INFO: PASS - Team First Record  Edit Button Clicked Successfully: 
+Aug 06, 2025 1:08:52 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTNBIN9986
+Aug 06, 2025 1:08:52 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Aug 06, 2025 1:09:03 PM base.LogResults createLogs
+INFO: PASS - Updated Team Name Entered In Search TextField Successfully: AutoTNBIN9986
+Aug 06, 2025 1:09:03 PM base.LogResults createLogs
+INFO: PASS - Updated Team Name Record Displayed Successfully: 
+Aug 06, 2025 1:09:05 PM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_213_Team_02-To verify this, edit the team details and confirm that the changes are reflected by searching using the updated team name.
+---------------------------------------------------------------
+AttendanceMPI_213_Team_02
+Aug 06, 2025 1:09:05 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 64.0876 seconds
+Total TC Time: 00:01:51
+Launching Driver...
+Aug 06, 2025 1:09:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 1:09:08 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 1:09:13 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 1:09:13 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 1:09:17 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 1:09:17 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 1:09:17 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 1:09:18 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 1:09:18 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 1:09:20 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 1:09:20 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 1:09:25 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 1:09:27 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 1:09:27 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 1:09:28 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:09:28 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 06, 2025 1:09:28 PM base.LogResults createLogs
+INFO: PASS - Team Page Loaded Successfully: 
+Aug 06, 2025 1:09:28 PM base.LogResults createLogs
+INFO: PASS - Add Team Button  Clicked Successfully: 
+Aug 06, 2025 1:09:30 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTNBIN
+Aug 06, 2025 1:09:30 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Aug 06, 2025 1:09:31 PM base.LogResults createLogs
+INFO: PASS -  Successfully Displayed Error Message : 
+Aug 06, 2025 1:09:33 PM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_226_Team_14-To verify this, try to create duplicate team and ensure proper error message is displayed
+---------------------------------------------------------------
+AttendanceMPI_226_Team_14
+Aug 06, 2025 1:09:33 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 25.7755 seconds
+Total TC Time: 00:02:16
+Launching Driver...
+Aug 06, 2025 1:09:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 1:09:37 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 1:09:41 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 1:09:41 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 1:09:45 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 1:09:46 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 1:09:46 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 1:09:46 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 1:09:46 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 1:09:49 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 1:09:49 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 1:09:53 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 1:09:55 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 1:09:55 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 1:09:56 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:09:56 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 06, 2025 1:09:57 PM base.LogResults createLogs
+INFO: PASS - Team Page Loaded Successfully: 
+Aug 06, 2025 1:10:05 PM base.LogResults createLogs
+INFO: PASS - Updated Team Name Entered In Search TextField Successfully: AutoTN060825091631UFG
+Aug 06, 2025 1:10:09 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Aug 06, 2025 1:10:10 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 06, 2025 1:10:14 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:10:24 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On TeamMapping Button : element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [078b360bb190847db7fcf4473a07c5fb, clickElement {id=f.3ED5D5183FCD3DA6114F71DCD3E9C3AE.d.31EFDE09D8C3A1F6FF21A8B0390444E6.e.1498}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (078b360bb190847db7fcf4473a07c5fb)] -> xpath: //button[@id='tab_teamMapping']]
+Session ID: 078b360bb190847db7fcf4473a07c5fb
+Aug 06, 2025 1:10:36 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On AddTeamMapping Button : no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='btnAddTeamDepartmentMapping'])[2]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [078b360bb190847db7fcf4473a07c5fb, findElement {value=(//button[@id='btnAddTeamDepartmentMapping'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 078b360bb190847db7fcf4473a07c5fb
+Aug 06, 2025 1:10:49 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On TeamDropDown : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='select2-drpTeam-container']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [078b360bb190847db7fcf4473a07c5fb, findElement {value=//span[@id='select2-drpTeam-container'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 078b360bb190847db7fcf4473a07c5fb
+Aug 06, 2025 1:11:01 PM base.LogResults createLogs
+INFO: FAIL - Error while Inputting Team Name On TeamDropDown : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-controls='select2-drpTeam-results']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [078b360bb190847db7fcf4473a07c5fb, findElement {value=//input[@aria-controls='select2-drpTeam-results'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 078b360bb190847db7fcf4473a07c5fb
+Aug 06, 2025 1:11:13 PM base.LogResults createLogs
+INFO: FAIL - Error while Displaying Error Msg : no such element: Unable to locate element: {"method":"xpath","selector":"//li[text()='No results found']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [078b360bb190847db7fcf4473a07c5fb, findElement {value=//li[text()='No results found'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 078b360bb190847db7fcf4473a07c5fb
+Aug 06, 2025 1:11:13 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 06, 2025 1:11:13 PM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_227_Team_15-To verify this, disable the team and ensure team name is't displayed in the team dropdown in "team mapping" module
+---------------------------------------------------------------
+AttendanceMPI_227_Team_15
+Aug 06, 2025 1:11:13 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 1  Total TC : 4
+---------------------------------------------------------------
+Test case took: 97.7686 seconds
+Total TC Time: 00:03:54
+Launching Driver...
+Aug 06, 2025 1:11:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 1:11:17 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 1:11:21 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 1:11:21 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 1:11:26 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 1:11:26 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 1:11:26 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 1:11:26 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 1:11:26 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 1:11:29 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 1:11:29 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 1:11:34 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 1:11:35 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 1:11:36 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 1:11:36 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:11:37 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 06, 2025 1:11:37 PM base.LogResults createLogs
+INFO: PASS - Team Page Loaded Successfully: 
+Aug 06, 2025 1:11:45 PM base.LogResults createLogs
+INFO: PASS - Updated Team Name Entered In Search TextField Successfully: AutoTN060825091631UFG
+Aug 06, 2025 1:11:49 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn On The Toggle Switch : 
+Aug 06, 2025 1:11:51 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 06, 2025 1:11:51 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:12:01 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On TeamMapping Button : element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28972904a8367e7f856f53abe4b7c120, clickElement {id=f.8E968FFD52D59190C670CE813281EB39.d.49F9275EDEADFB096E1F81D09259263F.e.1473}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58224}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58224/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28972904a8367e7f856f53abe4b7c120)] -> xpath: //button[@id='tab_teamMapping']]
+Session ID: 28972904a8367e7f856f53abe4b7c120
+Aug 06, 2025 1:12:12 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On AddTeamMapping Button : no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='btnAddTeamDepartmentMapping'])[2]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28972904a8367e7f856f53abe4b7c120, findElement {value=(//button[@id='btnAddTeamDepartmentMapping'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58224}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58224/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28972904a8367e7f856f53abe4b7c120
+Aug 06, 2025 1:12:24 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On TeamDropDown : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='select2-drpTeam-container']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28972904a8367e7f856f53abe4b7c120, findElement {value=//span[@id='select2-drpTeam-container'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58224}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58224/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28972904a8367e7f856f53abe4b7c120
+Aug 06, 2025 1:12:36 PM base.LogResults createLogs
+INFO: FAIL - Error while Inputting Team Name On TeamDropDown : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-controls='select2-drpTeam-results']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28972904a8367e7f856f53abe4b7c120, findElement {value=//input[@aria-controls='select2-drpTeam-results'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58224}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58224/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28972904a8367e7f856f53abe4b7c120
+Aug 06, 2025 1:12:49 PM base.LogResults createLogs
+INFO: FAIL - Error while Displaying Team Name : no such element: Unable to locate element: {"method":"xpath","selector":"(//li[contains(@id, 'select2-drpTeam-result')])[1]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28972904a8367e7f856f53abe4b7c120, findElement {value=(//li[contains(@id, 'select2-drpTeam-result')])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58224}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58224/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28972904a8367e7f856f53abe4b7c120
+Aug 06, 2025 1:12:49 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 06, 2025 1:12:49 PM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_228_Team_16- To verify this, enable a previously disabled team record and ensure that, after enabling, the team name appears in the 'Team' dropdown within the team mapping "add team mapping" module
+---------------------------------------------------------------
+AttendanceMPI_228_Team_16
+Aug 06, 2025 1:12:49 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 2  Total TC : 5
+---------------------------------------------------------------
+Test case took: 93.0418 seconds
+Total TC Time: 00:05:27
+Launching Driver...
+Aug 06, 2025 1:12:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 1:12:53 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 1:12:57 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 1:12:57 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 1:13:01 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 1:13:02 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 1:13:02 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 1:13:02 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 1:13:02 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 1:13:05 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 1:13:05 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 1:13:10 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 1:13:11 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 1:13:11 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 1:13:12 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 1:13:13 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 06, 2025 1:13:13 PM base.LogResults createLogs
+INFO: PASS - Team Page Loaded Successfully: 
+Aug 06, 2025 1:13:21 PM base.LogResults createLogs
+INFO: PASS - Status as 'Inactive' Entered In Search TextField Successfully: AutoTN060825091631UFG
+Aug 06, 2025 1:13:21 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Aug 06, 2025 1:13:22 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 06, 2025 1:13:23 PM base.LogResults createLogs
+INFO: PASS -  Search DropDown  Clicked Successfully: 
+Aug 06, 2025 1:13:23 PM base.LogResults createLogs
+INFO: PASS -  Status Checkbox  Clicked Successfully: 
+Aug 06, 2025 1:13:25 PM base.LogResults createLogs
+INFO: PASS -  Search DropDown  Clicked Successfully: 
+Aug 06, 2025 1:13:33 PM base.LogResults createLogs
+INFO: PASS - Status as 'Inactive' Entered In Search TextField Successfully: Inactive
+Aug 06, 2025 1:13:36 PM base.LogResults createLogs
+INFO: PASS - Inactive Team Name Record Displayed Successfully: AutoTN060825091631UFG
+Aug 06, 2025 1:13:38 PM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_229_Team_17-To verify this, test the search functionality by selecting the 'Status' filter, entering 'Inactive', and ensuring that only inactive records are displayed
+---------------------------------------------------------------
+AttendanceMPI_229_Team_17
+Aug 06, 2025 1:13:38 PM base.LogResults onlyLog
+INFO: Total Pass : 4 Total Fail : 2  Total TC : 6
+---------------------------------------------------------------
+Test case took: 46.0410 seconds
+Total TC Time: 00:06:13
+
+===============================================
+Suite
+Total tests run: 6, Passes: 4, Failures: 0, Skips: 2
+===============================================
+

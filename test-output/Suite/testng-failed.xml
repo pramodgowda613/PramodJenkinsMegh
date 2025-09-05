@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="sendEmail" value="N"/>
+  <parameter name="projName" value="Megh"/>
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="device" value="21"/>
+    <classes>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterOfficeTest">
+        <methods>
+          <include name="MPI_180_Office_02"/>
+          <include name="launchDriver"/>
+          <include name="MPI_198_Office_12"/>
+          <include name="MPI_200_Office_14"/>
+          <include name="MPI_182_Office_04"/>
+          <include name="MPI_196_Office_10"/>
+          <include name="runOnce"/>
+          <include name="MPI_186_Office_08"/>
+          <include name="MPI_161_Office_01"/>
+          <include name="MPI_181_Office_03"/>
+          <include name="MPI_201_Office_15"/>
+          <include name="cleanUp"/>
+          <include name="Aftermethod"/>
+          <include name="MPI_184_Office_06"/>
+          <include name="MPI_197_Office_11"/>
+          <include name="MPI_187_Office_09"/>
+        </methods>
+      </class> <!-- com.MeghPI.Attendance.tests.MeghMasterOfficeTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

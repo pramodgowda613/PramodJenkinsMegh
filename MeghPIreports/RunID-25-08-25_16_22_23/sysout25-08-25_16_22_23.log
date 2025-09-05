@@ -1,0 +1,88 @@
+>> Console logging redirected to data/console.log
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\json\chromeMeghAttendancePolicyTest.json
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\chromeMeghAttendancePolicyTest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\chromeMeghAttendancePolicyTest-Logs.txt.lck
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\chromeMeghAttendancePolicyTest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041756.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041802.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041804.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041811.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041813.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041815.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041818.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041820.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041822.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041824.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041831.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041833.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041835.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041837.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041842.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041850.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041912.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041926.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041929.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041931.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041933.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-041956.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-042012.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_16_17_42\screenshot\20-08-2025-042018.png
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 25, 2025 4:22:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 25, 2025 4:22:30 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 25, 2025 4:22:36 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AEWK
+Aug 25, 2025 4:22:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 25, 2025 4:22:44 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 25, 2025 4:22:47 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE250825101437@mailinator.com
+Aug 25, 2025 4:22:49 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 25, 2025 4:22:51 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 25, 2025 4:22:53 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 25, 2025 4:22:56 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 25, 2025 4:22:58 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 25, 2025 4:23:00 PM base.LogResults createLogs
+INFO: PASS - Leave Button Clicked Successfully Of HR Account: 
+Aug 25, 2025 4:23:05 PM base.LogResults createLogs
+INFO: PASS -  EmpLeaveRequestsTab Clicked Successfully Of HR Account: 
+Aug 25, 2025 4:23:09 PM base.LogResults createLogs
+INFO: PASS -  Filter Button Clicked Successfully : 
+Aug 25, 2025 4:23:15 PM base.LogResults createLogs
+INFO: PASS -  Office DrpDown Clicked Successfully : 
+Aug 25, 2025 4:23:21 PM base.LogResults createLogs
+INFO: PASS -  Office Selected Successfully : AutoON250825101437
+Aug 25, 2025 4:23:25 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Dept DropDown: element click intercepted: Element <span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="2" style="width: 414px;">...</span> is not clickable at point (1139, 187). Other element would receive the click: <li class="select2-results__option" id="select2-drpFilterCompanyLocation-result-xk1p-424" role="option" aria-selected="false" data-select2-id="select2-drpFilterCompanyLocation-result-xk1p-424">...</li>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19bd4a87afd78a24f03831c55a49b4a0, clickElement {id=f.7FD7A1A8DFE624039BF72A3541D72A59.d.BC757FA458BDB2FA66E84E7C69A8EDCE.e.1141}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51885}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51885/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (19bd4a87afd78a24f03831c55a49b4a0)] -> xpath: //select[@id='drpFilterDepartment']/../span]
+Session ID: 19bd4a87afd78a24f03831c55a49b4a0
+Aug 25, 2025 4:23:37 PM base.LogResults createLogs
+INFO: FAIL - Error While Selecting Dept Name: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='select2-drpFilterDepartment-results']/li"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19bd4a87afd78a24f03831c55a49b4a0, findElement {value=//ul[@id='select2-drpFilterDepartment-results']/li, using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51885}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51885/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19bd4a87afd78a24f03831c55a49b4a0
+Aug 25, 2025 4:23:39 PM base.LogResults createLogs
+INFO: PASS -  Team DropDown Clicked   Successfully : AutoTN250825101437

@@ -1,0 +1,71 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:060825-060825-ThreSld->3
+cmpcode and emailidAGFCAutoE060825091631@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 06, 2025 2:15:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 2:15:26 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 2:15:30 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 2:15:31 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 2:15:35 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 2:15:35 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 2:15:35 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 2:15:35 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 2:15:36 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 2:15:39 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 2:15:39 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 2:15:47 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 2:15:48 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 2:15:48 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 2:15:49 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 06, 2025 2:15:50 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Aug 06, 2025 2:15:50 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Inputted Successfully: 
+Aug 06, 2025 2:15:54 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Toggle Switch Enabled Successfully: 
+Aug 06, 2025 2:15:56 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 06, 2025 2:16:07 PM base.LogResults createLogs
+INFO: FAIL - Error while Displaying Error Message : no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='toast toast-error']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43485f75598a9b1c148d36e7045f3bb0, findElement {value=//div[@class='toast toast-error'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62874}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62874/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43485f75598a9b1c148d36e7045f3bb0
+Aug 06, 2025 2:16:07 PM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_533_TeamMapping_15-To verify this, after assigning a mapped team to any employee, try to disable the team and ensure that a proper error message is displayed.
+---------------------------------------------------------------
+AttendanceMPI_533_TeamMapping_15
+Aug 06, 2025 2:16:07 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 41.8559 seconds
+Total TC Time: 00:00:41
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

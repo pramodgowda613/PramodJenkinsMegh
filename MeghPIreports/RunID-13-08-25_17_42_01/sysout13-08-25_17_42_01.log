@@ -1,0 +1,65 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 13, 2025 5:42:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+(1386, 788)
+Aug 13, 2025 5:42:07 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 13, 2025 5:42:13 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AYKY
+Aug 13, 2025 5:42:15 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 13, 2025 5:42:21 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 13, 2025 5:42:24 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE130825091642@mailinator.com
+Aug 13, 2025 5:42:26 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 13, 2025 5:42:28 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 13, 2025 5:42:30 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 13, 2025 5:42:33 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 13, 2025 5:42:35 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 13, 2025 5:42:42 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 13, 2025 5:42:45 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 13, 2025 5:42:47 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 13, 2025 5:42:49 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Aug 13, 2025 5:42:51 PM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Aug 13, 2025 5:42:54 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Aug 13, 2025 5:42:56 PM base.LogResults createLogs
+INFO: PASS - OfficeType Selected Successfully: 
+Aug 13, 2025 5:42:58 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Aug 13, 2025 5:43:08 PM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: Manufacturing Unit
+
+Aug 13, 2025 5:43:11 PM base.LogResults createLogs
+INFO: PASS - OfficeType Search Results Displayed Successfully: Manufacturing Unit
+
+Aug 13, 2025 5:43:11 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterOfficeTest-MPI_186_Office_08-To verify this, check the functionality of the search text field by selecting "Headquarter" as the office type and ensure that only the records having Headquarter as their office type are displayed in the filtered results.
+---------------------------------------------------------------
+MeghMasterOfficeTestMPI_186_Office_08
+Aug 13, 2025 5:43:11 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 67.3920 seconds
+Total TC Time: 00:01:07
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

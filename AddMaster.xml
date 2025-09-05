@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="projName" value="Megh" />
+	<parameter name="sendEmail" value="N" />
+	<test name="Chrome">
+		<parameter name="device" value="21" />
+		<groups>
+			<run>
+				<include name="AddMaster" />
+			</run>
+		</groups>
+		<classes>
+			<class name="utils.GlobalSetup" />
+			
+		 	
+	<!-- 		
+  	
+ 	 <class name="com.MeghPI.Attendance.tests.MeghLoginTest" />   
+
+-->
+
+	<class name="com.MeghPI.Attendance.tests.MeghMasterEntityTypeTest" />   
+		<class name="com.MeghPI.Attendance.tests.MeghMasterDesignationTest" />
+			<class name="com.MeghPI.Attendance.tests.MeghMasterGradeTest" />
+			<class name="com.MeghPI.Attendance.tests.MeghMasterTeamMappingTest" />
+			
+
+			
+		
+		</classes>
+	</test>
+</suite>

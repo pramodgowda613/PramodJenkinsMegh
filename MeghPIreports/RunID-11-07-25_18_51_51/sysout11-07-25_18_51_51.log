@@ -1,0 +1,347 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:110725-110725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 11, 2025 6:51:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 6:51:55 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 6:51:59 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 6:51:59 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 6:52:03 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 6:52:04 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 6:52:04 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 6:52:04 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 6:52:04 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 6:52:06 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 6:52:10 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 11, 2025 6:52:10 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 11, 2025 6:52:10 PM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Jul 11, 2025 6:52:11 PM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Jul 11, 2025 6:52:12 PM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Jul 11, 2025 6:52:12 PM base.LogResults createLogs
+INFO: PASS - CreateShiftButton Clicked Successfully : 
+Jul 11, 2025 6:52:13 PM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNSRIEDQQ
+Jul 11, 2025 6:52:14 PM base.LogResults createLogs
+INFO: PASS - Shift Code Inputted Successfully : Au359
+Jul 11, 2025 6:52:14 PM base.LogResults createLogs
+INFO: PASS - Shift Start Time Clicked Successfully : 
+Jul 11, 2025 6:52:16 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift Start Time: invalid element state
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e7b1229373594d49c303135b8737169, clearElement {id=f.152E8C8E6DE2DFF723AD2195E9FC2E04.d.3D475B78231388A5EBDBA5E2DEABACA7.e.354}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57752}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57752/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1e7b1229373594d49c303135b8737169)] -> xpath: //input[@id='ShiftStartTime']]
+Session ID: 1e7b1229373594d49c303135b8737169
+Jul 11, 2025 6:52:16 PM base.LogResults createLogs
+INFO: PASS - Shift Start Time Inputted Successfully : 
+Jul 11, 2025 6:52:16 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift End Time: invalid element state
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e7b1229373594d49c303135b8737169, clearElement {id=f.152E8C8E6DE2DFF723AD2195E9FC2E04.d.3D475B78231388A5EBDBA5E2DEABACA7.e.355}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57752}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57752/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1e7b1229373594d49c303135b8737169)] -> xpath: //input[@id='ShiftEndTime']]
+Session ID: 1e7b1229373594d49c303135b8737169
+Jul 11, 2025 6:52:19 PM base.LogResults createLogs
+INFO: PASS - Shift Buffer Time Inputted Successfully : 1:00
+Jul 11, 2025 6:52:19 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift Buffer Time: invalid element state
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e7b1229373594d49c303135b8737169, clearElement {id=f.152E8C8E6DE2DFF723AD2195E9FC2E04.d.3D475B78231388A5EBDBA5E2DEABACA7.e.449}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57752}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57752/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1e7b1229373594d49c303135b8737169)] -> xpath: //input[@id='BufferingAllTime']]
+Session ID: 1e7b1229373594d49c303135b8737169
+Jul 11, 2025 6:52:21 PM base.LogResults createLogs
+INFO: PASS - Shift Full Day Time Inputted Successfully : 9:00
+Jul 11, 2025 6:52:21 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift Full Day Time: invalid element state
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e7b1229373594d49c303135b8737169, clearElement {id=f.152E8C8E6DE2DFF723AD2195E9FC2E04.d.3D475B78231388A5EBDBA5E2DEABACA7.e.358}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57752}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57752/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1e7b1229373594d49c303135b8737169)] -> xpath: //input[@id='FullDayMin']]
+Session ID: 1e7b1229373594d49c303135b8737169
+Jul 11, 2025 6:52:23 PM base.LogResults createLogs
+INFO: PASS - Shift Half Day Time Inputted Successfully : 4:30
+Jul 11, 2025 6:52:24 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift Half Day Time: invalid element state
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e7b1229373594d49c303135b8737169, clearElement {id=f.152E8C8E6DE2DFF723AD2195E9FC2E04.d.3D475B78231388A5EBDBA5E2DEABACA7.e.359}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57752}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57752/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1e7b1229373594d49c303135b8737169)] -> xpath: //input[@id='HalfDayMin']]
+Session ID: 1e7b1229373594d49c303135b8737169
+Jul 11, 2025 6:52:24 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Jul 11, 2025 6:52:24 PM base.LogResults onlyLog
+INFO: Failed - MeghShiftTest-MPI_162_MeghPi_Shift_01-To verify this, create an 'A shift' by selecting 6 to 2 timings and check whether the created shift is displayed in the shift policy module
+---------------------------------------------------------------
+MeghShiftTestMPI_162_MeghPi_Shift_01
+Jul 11, 2025 6:52:24 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 29.2571 seconds
+Total TC Time: 00:00:29
+Launching Driver...
+Jul 11, 2025 6:52:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 6:52:26 PM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_540_MeghPi_Shift_16-To verify this, assign the created shift to any shift policy, and ensure that when attempting to delete the shift after assignment, an appropriate error message is displayed.
+---------------------------------------------------------------
+MeghShiftTestMPI_540_MeghPi_Shift_16
+Jul 11, 2025 6:52:26 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 1  Total TC : 2
+---------------------------------------------------------------
+Test case took: 0.0279 seconds
+Total TC Time: 00:00:29
+Launching Driver...
+Jul 11, 2025 6:52:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 6:52:29 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 6:52:34 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 6:52:34 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 6:52:38 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 6:52:38 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 6:52:38 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 6:52:38 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 6:52:39 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 6:52:40 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 6:52:44 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 11, 2025 6:52:45 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 11, 2025 6:52:45 PM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Jul 11, 2025 6:52:45 PM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Jul 11, 2025 6:52:46 PM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Jul 11, 2025 6:52:47 PM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNSRIEDQQ
+Jul 11, 2025 6:53:01 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On ShiftEditButton: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='dtShift']/tbody/tr[1]/td[5]/a/button/img"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3bdcf7ecfa91c8c7603d112914d750bb, findElement {using=xpath, value=//table[@id='dtShift']/tbody/tr[1]/td[5]/a/button/img}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57827}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57827/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3bdcf7ecfa91c8c7603d112914d750bb
+Jul 11, 2025 6:53:11 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift Name: element not interactable
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3bdcf7ecfa91c8c7603d112914d750bb, clearElement {id=f.B91CEBBABC69C2A81C6682C48392ADAD.d.2DF88251BFC01522DF858F0E5E5DC463.e.337}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57827}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57827/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3bdcf7ecfa91c8c7603d112914d750bb)] -> xpath: //input[@id='txtShiftName']]
+Session ID: 3bdcf7ecfa91c8c7603d112914d750bb
+Jul 11, 2025 6:53:22 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Shift Start Time: element not interactable
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3bdcf7ecfa91c8c7603d112914d750bb, clickElement {id=f.B91CEBBABC69C2A81C6682C48392ADAD.d.2DF88251BFC01522DF858F0E5E5DC463.e.339}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57827}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57827/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3bdcf7ecfa91c8c7603d112914d750bb)] -> xpath: //input[@id='ShiftStartTime']]
+Session ID: 3bdcf7ecfa91c8c7603d112914d750bb
+Jul 11, 2025 6:53:34 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift Start Time: invalid element state
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3bdcf7ecfa91c8c7603d112914d750bb, clearElement {id=f.B91CEBBABC69C2A81C6682C48392ADAD.d.2DF88251BFC01522DF858F0E5E5DC463.e.339}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57827}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57827/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3bdcf7ecfa91c8c7603d112914d750bb)] -> xpath: //input[@id='ShiftStartTime']]
+Session ID: 3bdcf7ecfa91c8c7603d112914d750bb
+Jul 11, 2025 6:53:45 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting Shift Start Time: element not interactable
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3bdcf7ecfa91c8c7603d112914d750bb, clickElement {id=f.B91CEBBABC69C2A81C6682C48392ADAD.d.2DF88251BFC01522DF858F0E5E5DC463.e.340}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57827}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57827/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3bdcf7ecfa91c8c7603d112914d750bb)] -> xpath: //input[@id='ShiftEndTime']]
+Session ID: 3bdcf7ecfa91c8c7603d112914d750bb
+Jul 11, 2025 6:53:45 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Jul 11, 2025 6:53:45 PM base.LogResults onlyLog
+INFO: Failed - MeghShiftTest-MPI_537_MeghPi_Shift_13-To verify this, edit the shift and ensure that the updated shift name, timings, and other changes are saved and reflected correctly.
+---------------------------------------------------------------
+MeghShiftTestMPI_537_MeghPi_Shift_13
+Jul 11, 2025 6:53:45 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 2  Total TC : 3
+---------------------------------------------------------------
+Test case took: 75.7743 seconds
+Total TC Time: 00:01:45
+Launching Driver...
+Jul 11, 2025 6:53:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 6:53:48 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 6:53:52 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 6:53:53 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 6:53:57 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 6:53:57 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 6:53:57 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 6:53:57 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 6:53:58 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 6:53:59 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 6:54:03 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 11, 2025 6:54:04 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 11, 2025 6:54:04 PM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Jul 11, 2025 6:54:04 PM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Jul 11, 2025 6:54:05 PM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Jul 11, 2025 6:54:05 PM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNCUFXYZZ
+Jul 11, 2025 6:54:20 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On ShiftDeleteIcon: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='dtShift']/tbody/tr[1]/td[5]/button/img"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8973304b3504f23a02f80fdcd8fe2fa, findElement {using=xpath, value=//table[@id='dtShift']/tbody/tr[1]/td[5]/button/img}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57916}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57916/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8973304b3504f23a02f80fdcd8fe2fa
+Jul 11, 2025 6:54:30 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On DeleteButton: element not interactable
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8973304b3504f23a02f80fdcd8fe2fa, clickElement {id=f.1290C235D6BB3DD8703FC1A909E1DC8D.d.2730CF64FC108CC13E38EEF175DB24C7.e.535}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57916}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57916/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e8973304b3504f23a02f80fdcd8fe2fa)] -> xpath: //button[text()='Delete']]
+Session ID: e8973304b3504f23a02f80fdcd8fe2fa
+Jul 11, 2025 6:54:30 PM base.LogResults createLogs
+INFO: PASS - ShiftPolicyTab Clicked Successfully : 
+Jul 11, 2025 6:54:35 PM base.LogResults createLogs
+INFO: PASS - AddShiftPolicyButton Clicked Successfully : 
+Jul 11, 2025 6:54:35 PM base.LogResults createLogs
+INFO: PASS - AddShiftButton Clicked Successfully : 
+Jul 11, 2025 6:54:35 PM base.LogResults createLogs
+INFO: PASS - Shift Name Validated And Not Present In The Shift Policy 'add shift' Module : AutoSNCUFXYZZ
+Jul 11, 2025 6:54:35 PM base.LogResults onlyLog
+INFO: Failed - MeghShiftTest-MPI_538_MeghPi_Shift_14-To verify this, create a shift without assigning it to any shift policy, then delete it, and ensure that the deleted shift is not displayed in the shift policy.
+---------------------------------------------------------------
+MeghShiftTestMPI_538_MeghPi_Shift_14
+Jul 11, 2025 6:54:35 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 3  Total TC : 4
+---------------------------------------------------------------
+Test case took: 48.3130 seconds
+Total TC Time: 00:02:33
+Launching Driver...
+Jul 11, 2025 6:54:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 6:54:38 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 6:54:42 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 6:54:43 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 6:54:47 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 6:54:47 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 6:54:47 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 6:54:47 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 6:54:48 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 6:54:49 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 6:54:53 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 11, 2025 6:54:54 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 11, 2025 6:54:54 PM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Jul 11, 2025 6:54:54 PM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Jul 11, 2025 6:54:55 PM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Jul 11, 2025 6:54:56 PM base.LogResults createLogs
+INFO: PASS - First Row Name Fetched Successfully : 
+Jul 11, 2025 6:54:56 PM base.LogResults createLogs
+INFO: PASS - ShiftSearchDropDwon Clicked Successfully : 
+Jul 11, 2025 6:54:56 PM base.LogResults createLogs
+INFO: PASS - ShiftCodeCheckBox Clicked Successfully : 
+Jul 11, 2025 6:54:56 PM base.LogResults createLogs
+INFO: PASS - ShiftSearchDropDwon Clicked Successfully : 
+Jul 11, 2025 6:54:56 PM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : Au688
+Jul 11, 2025 6:55:01 PM base.LogResults createLogs
+INFO: PASS - Shift Code Validated Successfully : Au688
+Jul 11, 2025 6:55:01 PM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_543_MeghPi_Shift_19-To verify this, check the functionality of search feature by selecting shift code
+---------------------------------------------------------------
+MeghShiftTestMPI_543_MeghPi_Shift_19
+Jul 11, 2025 6:55:01 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 3  Total TC : 5
+---------------------------------------------------------------
+Test case took: 22.7591 seconds
+Total TC Time: 00:02:56
+
+===============================================
+Suite
+Total tests run: 5, Passes: 2, Failures: 1, Skips: 2
+===============================================
+

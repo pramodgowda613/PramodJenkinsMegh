@@ -1,0 +1,24 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 29, 2025 5:28:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 29, 2025 5:28:34 PM base.LogResults onlyLog
+INFO: Passed - MeghPIGSAttendanceTest-MPI_672_Normal_Attendance_39-Check the status when the employee completes half day and apply half day leave  
+---------------------------------------------------------------
+MeghPIGSAttendanceTestMPI_672_Normal_Attendance_39
+Aug 29, 2025 5:28:34 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 0.0731 seconds
+Total TC Time: 00:00:00
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

@@ -1,0 +1,43 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 21, 2025 6:26:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 21, 2025 6:26:34 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 21, 2025 6:26:40 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ADKK
+Aug 21, 2025 6:26:42 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 21, 2025 6:26:49 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 21, 2025 6:26:51 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoEID9779
+Aug 21, 2025 6:26:53 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: AutoEID9779
+Aug 21, 2025 6:26:55 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 21, 2025 6:26:58 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 21, 2025 6:27:00 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 21, 2025 6:27:02 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 21, 2025 6:27:02 PM base.LogResults onlyLog
+INFO: Passed - MeghLeaveTest-MPI_612_Leave_14-To verify this, configure the sick leave on leave policy with 2 per month from joining date and as a employee apply sick leave and ensure status is pending 
+---------------------------------------------------------------
+MeghLeaveTestMPI_612_Leave_14
+Aug 21, 2025 6:27:02 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 31.5059 seconds
+Total TC Time: 00:00:31
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

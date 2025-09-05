@@ -1,0 +1,34 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:140725-140725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 14, 2025 12:08:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 12:08:53 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 12:08:57 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:08:57 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 12:08:58 PM base.LogResults createLogs
+INFO: PASS - Forgot Password Link is Clicked Successfully: 
+Jul 14, 2025 12:09:02 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:09:02 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Email Text Field: 
+Jul 14, 2025 12:09:02 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:09:02 PM base.LogResults createLogs
+INFO: PASS - Request OTP is Clicked Successfully: 
+Jul 14, 2025 12:09:05 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 14, 2025 12:09:07 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 14, 2025 12:09:08 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 14, 2025 12:09:14 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE140725101157
+Jul 14, 2025 12:09:14 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 

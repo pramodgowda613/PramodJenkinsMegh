@@ -1,0 +1,152 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:120825-120825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 12, 2025 5:36:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Aug 12, 2025 5:36:18 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 12, 2025 5:36:22 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 5:36:22 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 12, 2025 5:36:26 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 12, 2025 5:36:26 PM base.LogResults createLogs
+INFO: PASS - Forgot Password Link is Clicked Successfully: 
+Aug 12, 2025 5:36:31 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 5:36:31 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Email Text Field: AutoE120825091619@mailinator.com
+Aug 12, 2025 5:36:31 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 12, 2025 5:36:31 PM base.LogResults createLogs
+INFO: PASS - Request OTP is Clicked Successfully: 
+Aug 12, 2025 5:36:32 PM base.LogResults createLogs
+INFO: PASS -  OTP Sent Success Msg Displayed Successfully: 
+Aug 12, 2025 5:36:32 PM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_12_Login_Page_12-Verify that after clicking the Forgot Password link, the user is redirected to the Forgot Password page. After entering a valid company code and username/phone number, an OTP should be sent to the provided contact details.
+---------------------------------------------------------------
+AttendanceMPI_12_Login_Page_12
+Aug 12, 2025 5:36:32 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 16.1701 seconds
+Total TC Time: 00:00:16
+Launching Driver...
+Aug 12, 2025 5:36:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Aug 12, 2025 5:36:36 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 12, 2025 5:36:40 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 5:36:41 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 12, 2025 5:36:41 PM base.LogResults createLogs
+INFO: PASS - Forgot Password Link is Clicked Successfully: 
+Aug 12, 2025 5:36:45 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 5:36:45 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Email Text Field: 8217025074
+Aug 12, 2025 5:36:45 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 12, 2025 5:36:46 PM base.LogResults createLogs
+INFO: PASS - Request OTP is Clicked Successfully: 
+Aug 12, 2025 5:36:48 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Aug 12, 2025 5:36:50 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Aug 12, 2025 5:36:51 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Aug 12, 2025 5:36:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE120825091619
+Aug 12, 2025 5:36:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Aug 12, 2025 5:37:01 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ForgotPasswordMail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (98a9141103841d198ce95cf4d02bedbe)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: We received a request to reset the password for your account. To verify your identity and proceed with the password reset, please use the following One-Time Password (OTP):<br><br>Your OTP: <b>489698</b><br>
+Aug 12, 2025 5:37:05 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+489698 this is OTP
+Aug 12, 2025 5:37:05 PM base.LogResults createLogs
+INFO: PASS - Get The OTP from Email Successfully: 
+Aug 12, 2025 5:37:14 PM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully: 
+Aug 12, 2025 5:37:14 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+489698testOTP
+Aug 12, 2025 5:37:14 PM base.LogResults createLogs
+INFO: PASS - OTP Entered On OTP Text Field: 489698
+Aug 12, 2025 5:37:14 PM base.LogResults createLogs
+INFO: PASS - Verify And Continue Clicked Successfully: 
+Aug 12, 2025 5:37:25 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputing New Password: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a9141103841d198ce95cf4d02bedbe, sendKeysToElement {value=[Ljava.lang.CharSequence;@11cadb32, id=f.31C615C7E624FE87FDFBC1D6830CF9FB.d.2014E380A5D010164B247AD7EDEE2CF8.e.68}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49279}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49279/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98a9141103841d198ce95cf4d02bedbe)] -> xpath: //input[@id='txtNewPassword']]
+Session ID: 98a9141103841d198ce95cf4d02bedbe
+Aug 12, 2025 5:37:36 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputing Confirm Password: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a9141103841d198ce95cf4d02bedbe, sendKeysToElement {value=[Ljava.lang.CharSequence;@5fb44964, id=f.31C615C7E624FE87FDFBC1D6830CF9FB.d.2014E380A5D010164B247AD7EDEE2CF8.e.69}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49279}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49279/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98a9141103841d198ce95cf4d02bedbe)] -> xpath: //input[@id='txtConfirmPassword']]
+Session ID: 98a9141103841d198ce95cf4d02bedbe
+Aug 12, 2025 5:37:46 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On PasswordSetButton: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a9141103841d198ce95cf4d02bedbe, clickElement {id=f.31C615C7E624FE87FDFBC1D6830CF9FB.d.2014E380A5D010164B247AD7EDEE2CF8.e.76}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49279}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49279/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98a9141103841d198ce95cf4d02bedbe)] -> xpath: //button[@id='btnResetPW']]
+Session ID: 98a9141103841d198ce95cf4d02bedbe
+Aug 12, 2025 5:37:57 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On ContinueToLogin: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a9141103841d198ce95cf4d02bedbe, clickElement {id=f.31C615C7E624FE87FDFBC1D6830CF9FB.d.2014E380A5D010164B247AD7EDEE2CF8.e.77}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49279}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49279/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98a9141103841d198ce95cf4d02bedbe)] -> xpath: //button[@id='LoginContinue']]
+Session ID: 98a9141103841d198ce95cf4d02bedbe
+Aug 12, 2025 5:38:11 PM base.LogResults createLogs
+INFO: FAIL - Error While Entering Companycode Name: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a9141103841d198ce95cf4d02bedbe, sendKeysToElement {value=[Ljava.lang.CharSequence;@34bf66af, id=f.31C615C7E624FE87FDFBC1D6830CF9FB.d.2014E380A5D010164B247AD7EDEE2CF8.e.64}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49279}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49279/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98a9141103841d198ce95cf4d02bedbe)] -> xpath: //input[@name='CompanyCode']]
+Session ID: 98a9141103841d198ce95cf4d02bedbe
+Aug 12, 2025 5:38:11 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 12, 2025 5:38:11 PM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_140_Login_page_22-To verify this, enter a phone number in the User Name / Phone Number text field of the Forgot Password step, check whether the user receives an OTP to change the password, and then change the password.
+---------------------------------------------------------------
+AttendanceMPI_140_Login_page_22
+Aug 12, 2025 5:38:11 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 1  Total TC : 2
+---------------------------------------------------------------
+Test case took: 96.0595 seconds
+Total TC Time: 00:01:52
+
+===============================================
+Suite
+Total tests run: 2, Passes: 1, Failures: 0, Skips: 1
+===============================================
+

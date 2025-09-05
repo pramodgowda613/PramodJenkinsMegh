@@ -1,0 +1,105 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sept 01, 2025 10:42:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Sept 01, 2025 10:42:59 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 01, 2025 10:43:05 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARZO
+Sept 01, 2025 10:43:07 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Sept 01, 2025 10:43:14 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Sept 01, 2025 10:43:16 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE010925091520@mailinator.com
+Sept 01, 2025 10:43:18 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Sept 01, 2025 10:43:20 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Sept 01, 2025 10:43:23 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Sept 01, 2025 10:43:25 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Sept 01, 2025 10:43:27 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 10:43:33 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Sept 01, 2025 10:43:36 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Sept 01, 2025 10:43:38 AM base.LogResults createLogs
+INFO: PASS - AttendancePolicy Clicked Successfully : 
+Sept 01, 2025 10:43:40 AM base.LogResults createLogs
+INFO: PASS - AttendancePolicy Page Loaded Successfully : 
+Sept 01, 2025 10:43:44 AM base.LogResults createLogs
+INFO: PASS - On SearchTextField Policy Name Inputted Successfully : 
+Sept 01, 2025 10:43:53 AM base.LogResults createLogs
+INFO: PASS - Clicked On AssignedEmpCount Successfully : 
+Sept 01, 2025 10:43:59 AM base.LogResults createLogs
+INFO: PASS - Emp Record Loaded Validated Successfully : 
+Cleaned Emp ID: autoEIDGVNIMP
+Sept 01, 2025 10:44:03 AM base.LogResults createLogs
+INFO: PASS - First Row Emp ID Fetched Successfully : 
+Sept 01, 2025 10:44:06 AM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully : 
+Sept 01, 2025 10:44:08 AM base.LogResults createLogs
+INFO: PASS - EmpIdCheckBox Clicked Successfully : 
+Sept 01, 2025 10:44:10 AM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully : 
+Sept 01, 2025 10:44:22 AM base.LogResults createLogs
+INFO: PASS - FirstRow Emp ID Inputted Successfully : autoEIDGVNIMP
+Sept 01, 2025 10:44:29 AM base.LogResults createLogs
+INFO: PASS - CloseIcon Clicked Successfully : 
+Sept 01, 2025 10:44:35 AM base.LogResults createLogs
+INFO: PASS - On SearchTextField Policy Name Inputted Successfully : 
+Sept 01, 2025 10:44:42 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On DeleteIcon: element click intercepted: Element <button class="btn actionBtnDelete " disabled="" onclick="mpSystem.util.dt.grid.Delete(this)" data-key="547" data-bs-toggle="modal" data-bs-target="#confirmDeleteModel">...</button> is not clickable at point (1128, 173). Other element would receive the click: <td>...</td>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3000466308cef0a8e9e4075ee07eb8e, clickElement {id=f.F5E5EFC261310400C697F50CA0EC9D0F.d.06E89F3290ED4CA732B194ADAFDF02D5.e.1225}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52520}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52520/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e3000466308cef0a8e9e4075ee07eb8e)] -> xpath: //button[@data-bs-target='#confirmDeleteModel']]
+Session ID: e3000466308cef0a8e9e4075ee07eb8e
+Sept 01, 2025 10:44:55 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On DeleteButton: element not interactable
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3000466308cef0a8e9e4075ee07eb8e, clickElement {id=f.F5E5EFC261310400C697F50CA0EC9D0F.d.06E89F3290ED4CA732B194ADAFDF02D5.e.1226}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52520}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52520/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e3000466308cef0a8e9e4075ee07eb8e)] -> xpath: //button[text()='Delete']]
+Session ID: e3000466308cef0a8e9e4075ee07eb8e
+Sept 01, 2025 10:45:00 AM base.LogResults createLogs
+INFO: PASS - On SearchTextField Policy Name Inputted Successfully : 
+Sept 01, 2025 10:45:06 AM base.LogResults createLogs
+INFO: PASS - No of Employees Assigned Get Successfully : 
+Sept 01, 2025 10:45:16 AM base.LogResults createLogs
+INFO: FAIL - Error While Comparing Actual Assigned Emp Count : Assigned employee comparison failed: values do not match.02
+Sept 01, 2025 10:45:27 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 10:45:32 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 10:45:34 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Sept 01, 2025 10:45:37 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 10:45:39 AM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Sept 01, 2025 10:45:42 AM base.LogResults createLogs
+INFO: PASS - Selected  EmpID  Successfully: 
+Sept 01, 2025 10:45:44 AM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Sept 01, 2025 10:45:50 AM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Employee EmpID Successfully: autoEIDGVNIMP
+Sept 01, 2025 10:45:56 AM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: 
+Sept 01, 2025 10:45:58 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Sept 01, 2025 10:46:00 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 

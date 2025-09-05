@@ -1,0 +1,50 @@
+>> Console logging redirected to data/console.log
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_37_01\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_37_01\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_37_01\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_39_54\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_39_54\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_39_54\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_43_10\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_43_10\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_43_10\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_47_38\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_47_38\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_47_38\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_54_26\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_54_26\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_54_26\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_05_04\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_05_04\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_05_04\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_14_32\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_14_32\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_14_32\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_16_02\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_16_02\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_16_02\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_17_39\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_17_39\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_17_39\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_31_39\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_31_39\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_17_31_39\Dashboard.html
+Error while reading excel : API_login_createemp_enroll-Sheet index (-1) is out of range (0..28)
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+HTTP/1.1 401 Unauthorized
+Transfer-Encoding: chunked
+Server: Microsoft-IIS/10.0
+WWW-Authenticate: Bearer error="invalid_token"
+X-Powered-By: ASP.NET
+Date: Tue, 19 Aug 2025 12:21:34 GMT
+Status Code: 401
+Response Body: 
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 2, Passes: 0, Failures: 2, Skips: 0
+===============================================
+

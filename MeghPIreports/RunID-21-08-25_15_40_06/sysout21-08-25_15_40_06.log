@@ -1,0 +1,85 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 21, 2025 3:40:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 21, 2025 3:40:12 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 21, 2025 3:40:19 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARBX
+Aug 21, 2025 3:40:21 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 21, 2025 3:40:27 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 21, 2025 3:40:30 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE190825091637@mailinator.com
+Aug 21, 2025 3:40:32 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 21, 2025 3:40:34 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 21, 2025 3:40:36 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 21, 2025 3:40:39 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 21, 2025 3:40:41 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 21, 2025 3:40:47 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 21, 2025 3:40:49 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 21, 2025 3:40:52 PM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Aug 21, 2025 3:40:54 PM base.LogResults createLogs
+INFO: PASS - ShiftPolicyButton Clicked Successfully : 
+Aug 21, 2025 3:40:56 PM base.LogResults createLogs
+INFO: PASS - ShiftPolicy Page Loaded Successfully : 
+Aug 21, 2025 3:40:59 PM base.LogResults createLogs
+INFO: PASS - AddShiftPolicyButton Clicked Successfully : 
+Aug 21, 2025 3:41:01 PM base.LogResults createLogs
+INFO: PASS - Shift PolicyName Inputted Successfully : AutoshiftPN190825091637
+Aug 21, 2025 3:41:03 PM base.LogResults createLogs
+INFO: PASS - AddShiftButton Clicked Successfully : 
+Aug 21, 2025 3:41:05 PM base.LogResults createLogs
+INFO: PASS - GeneralShiftCheckBox Selected Successfully : 
+Aug 21, 2025 3:41:08 PM base.LogResults createLogs
+INFO: PASS - AddShiftSaveButton Clicked Successfully : 
+Aug 21, 2025 3:41:10 PM base.LogResults createLogs
+INFO: PASS - AddEmpCriteria Button Successfully : 
+Aug 21, 2025 3:41:16 PM base.LogResults createLogs
+INFO: PASS - Office Name Selected  Successfully : AutoON190825091637
+Aug 21, 2025 3:41:24 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked  Dept DropDown: AutoDN190825091637
+Aug 21, 2025 3:41:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Dept: AutoDN190825091637
+Aug 21, 2025 3:41:34 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On  Team  Dropdown: AutoTN190825091637
+Aug 21, 2025 3:41:39 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Team From Dropdown: AutoTN190825091637
+Aug 21, 2025 3:41:47 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoDESN190825091637
+Aug 21, 2025 3:41:54 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Employee Type From Dropdown: AutoEN190825091637
+Aug 21, 2025 3:41:56 PM base.LogResults createLogs
+INFO: PASS - Clicked On Apply Button Successfully : 
+Aug 21, 2025 3:41:59 PM base.LogResults createLogs
+INFO: PASS - CreatePolicySave Button Clicked Successfully : 
+Aug 21, 2025 3:42:07 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Aug 21, 2025 3:42:07 PM base.LogResults onlyLog
+INFO: Passed - MeghShiftPolicyTest-MPI_850_Shift_policy_22-To verify this, create an shift policy and add emp criteria to the policy and ensure criteria matching employee's are assigned to the created policy
+---------------------------------------------------------------
+MeghShiftPolicyTestMPI_850_Shift_policy_22
+Aug 21, 2025 3:42:07 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 117.7444 seconds
+Total TC Time: 00:01:57
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

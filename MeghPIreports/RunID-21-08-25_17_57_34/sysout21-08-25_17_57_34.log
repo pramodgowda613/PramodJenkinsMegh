@@ -1,0 +1,155 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 21, 2025 5:57:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 21, 2025 5:57:40 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 21, 2025 5:57:46 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ADKK
+Aug 21, 2025 5:57:48 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 21, 2025 5:57:55 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 21, 2025 5:57:57 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE210825171640@mailinator.com
+Aug 21, 2025 5:57:59 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 21, 2025 5:58:01 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 21, 2025 5:58:04 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 21, 2025 5:58:06 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 21, 2025 5:58:08 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 21, 2025 5:58:15 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 21, 2025 5:58:18 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 21, 2025 5:58:20 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 21, 2025 5:58:23 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 21, 2025 5:58:31 PM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Aug 21, 2025 5:58:34 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Aug 21, 2025 5:58:36 PM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Aug 21, 2025 5:58:43 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN210825171640
+Aug 21, 2025 5:58:45 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Aug 21, 2025 5:58:50 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Aug 21, 2025 5:58:54 PM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Aug 21, 2025 5:58:56 PM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: AutoEID210825171640
+Aug 21, 2025 5:59:01 PM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON210825171640
+Aug 21, 2025 5:59:04 PM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoEmpCJNXFF
+Aug 21, 2025 5:59:06 PM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoempODNTZ
+Aug 21, 2025 5:59:08 PM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE210825171640TGQ@mailinator.com
+Aug 21, 2025 5:59:10 PM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851422558
+Aug 21, 2025 5:59:13 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Aug 21, 2025 5:59:15 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 03-01-2025
+Aug 21, 2025 5:59:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Aug 21, 2025 5:59:24 PM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Aug 21, 2025 5:59:33 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoEmpCJNXFF
+Aug 21, 2025 5:59:38 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoEmpCJNXFF
+Aug 21, 2025 5:59:41 PM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Aug 21, 2025 5:59:53 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On WebEnrollment: element not interactable
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3bf887967efebce37cde0269e523c95, clickElement {id=f.C3A7C5FE371689797C04275BEAF1A712.d.D3FBAA75BAECA30A348ABAB43E194F33.e.2130}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55070}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55070/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3bf887967efebce37cde0269e523c95)] -> xpath: (//a[text()='Web Enrollment'])[1]]
+Session ID: b3bf887967efebce37cde0269e523c95
+Aug 21, 2025 6:00:08 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On FaceEnrollmentTab: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnFaceTab']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3bf887967efebce37cde0269e523c95, findElement {using=xpath, value=//button[@id='btnFaceTab']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55070}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55070/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3bf887967efebce37cde0269e523c95
+Aug 21, 2025 6:00:28 PM base.LogResults createLogs
+INFO: FAIL - Error while Selecting Image For WebEnrollment: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='fileInput']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3bf887967efebce37cde0269e523c95, findElement {using=xpath, value=//input[@id='fileInput']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55070}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55070/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3bf887967efebce37cde0269e523c95
+Aug 21, 2025 6:00:41 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On CropImage: element click intercepted: Element <button type="button" id="cropButton" class="btn btn-theme-common mt-2 me-2 " title="Crop image" disabled="disabled">...</button> is not clickable at point (774, 154). Other element would receive the click: <div class="d-flex align-items-center justify-content-center">...</div>
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3bf887967efebce37cde0269e523c95, clickElement {id=f.C3A7C5FE371689797C04275BEAF1A712.d.F1306E98C857F63B12E35E970CAA4A76.e.3367}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55070}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55070/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3bf887967efebce37cde0269e523c95)] -> xpath: //button[@id='cropButton']]
+Session ID: b3bf887967efebce37cde0269e523c95
+Aug 21, 2025 6:00:51 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveEnrollmentButton: 
+Aug 21, 2025 6:01:03 PM base.LogResults createLogs
+INFO: PASS - Success Msg Is Displayed: 
+Aug 21, 2025 6:01:10 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 21, 2025 6:01:13 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 21, 2025 6:01:15 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 21, 2025 6:01:18 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 21, 2025 6:01:24 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoEmpCJNXFF
+Aug 21, 2025 6:01:30 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoempODNTZ
+Aug 21, 2025 6:01:32 PM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Aug 21, 2025 6:01:34 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Aug 21, 2025 6:01:46 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Edit Icon Of Manage Profile : null
+Aug 21, 2025 6:01:46 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 21, 2025 6:01:46 PM base.LogResults onlyLog
+INFO: Failed - MeghEmployeeTest-MPI_626_Directory_AddEmployee_19-To verify this, create an employee and enroll the employee and ensure created employee record is displayed in the attendance module
+---------------------------------------------------------------
+MeghEmployeeTestMPI_626_Directory_AddEmployee_19
+Aug 21, 2025 6:01:46 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 249.2112 seconds
+Total TC Time: 00:04:09
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+===============================================
+

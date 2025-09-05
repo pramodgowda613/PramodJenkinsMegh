@@ -1,0 +1,88 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:080825-080825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 08, 2025 11:45:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 08, 2025 11:45:54 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 08, 2025 11:45:58 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARRD
+Aug 08, 2025 11:45:58 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 08, 2025 11:46:02 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 08, 2025 11:46:03 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE080825091623@mailinator.com
+Aug 08, 2025 11:46:03 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 08, 2025 11:46:03 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 08, 2025 11:46:03 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 08, 2025 11:46:06 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 08, 2025 11:46:06 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 08, 2025 11:46:10 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 08, 2025 11:46:10 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 08, 2025 11:46:11 AM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Aug 08, 2025 11:46:11 AM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Aug 08, 2025 11:46:17 AM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Aug 08, 2025 11:46:17 AM base.LogResults createLogs
+INFO: PASS - AddLeavePolicyButton Clicked Successfully : 
+Aug 08, 2025 11:46:21 AM base.LogResults createLogs
+INFO: PASS - LeavePolicy Name Inputted Successfully: AutoLPN080825091623NHY
+Aug 08, 2025 11:46:21 AM base.LogResults createLogs
+INFO: PASS - SelectLeavePolicyButton Clicked Successfully : 
+Aug 08, 2025 11:46:24 AM base.LogResults createLogs
+INFO: PASS - SickLeave Selected Successfully: Sick_Leave (SL) 
+Aug 08, 2025 11:46:27 AM base.LogResults createLogs
+INFO: FAIL - Error While Selecting Maternity Leave: Leave ID 'Travel Leave (TL)' not found in AllLeaves list.
+Aug 08, 2025 11:46:30 AM base.LogResults createLogs
+INFO: PASS - Casual Leave Selected Successfully: Casual_Leave (CL) 
+Aug 08, 2025 11:46:31 AM base.LogResults createLogs
+INFO: PASS - AddLeaveSaveButton Clicked Successfully: 
+Aug 08, 2025 11:46:31 AM base.LogResults createLogs
+INFO: PASS - CreateLeavePolicyButton Clicked Successfully: 
+Aug 08, 2025 11:46:38 AM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Aug 08, 2025 11:46:43 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 08, 2025 11:46:45 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 11:46:45 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 08, 2025 11:46:48 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 11:46:48 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Aug 08, 2025 11:46:48 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Aug 08, 2025 11:47:08 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Aug 08, 2025 11:47:11 AM base.LogResults createLogs
+INFO: PASS - Leave Policy Name Compared And Same Only Displayed Successfully: AutoLPN080825091623NHY=AutoLPN080825091623NHY
+Aug 08, 2025 11:47:12 AM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_544_Leave_Policy_01-To verify this, create a leave policy without selecting any employee criteria, make it active, and ensure that the policy is assigned to all users. Also, check in an existing user's profile under the policy module to confirm that the created policy is assigned.
+---------------------------------------------------------------
+AttendanceMPI_544_Leave_Policy_01
+Aug 08, 2025 11:47:12 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 78.9886 seconds
+Total TC Time: 00:01:18
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

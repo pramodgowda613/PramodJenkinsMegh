@@ -1,0 +1,8 @@
+Sep 01, 2025 7:23:00 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sep 01, 2025 7:23:03 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 01, 2025 7:23:03 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_644_Normal_Attendance_16-Check the status when the employee completes a half day.  
+Sep 01, 2025 7:23:03 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

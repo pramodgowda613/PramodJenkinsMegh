@@ -1,0 +1,68 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 22, 2025 12:03:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 22, 2025 12:03:13 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 22, 2025 12:03:19 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ADKK
+Aug 22, 2025 12:03:21 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 22, 2025 12:03:28 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 22, 2025 12:03:30 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoEID9779
+Aug 22, 2025 12:03:32 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: AutoEID9779
+Aug 22, 2025 12:03:34 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 22, 2025 12:03:37 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 22, 2025 12:03:39 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 22, 2025 12:03:41 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 22, 2025 12:03:43 PM base.LogResults createLogs
+INFO: PASS - Leave Button Clicked Successfully Of Employee Account: 
+Aug 22, 2025 12:03:48 PM base.LogResults createLogs
+INFO: PASS -  EmpLeaveRequestsTab Clicked Successfully Of Employee Account: 
+Aug 22, 2025 12:03:52 PM base.LogResults createLogs
+INFO: PASS -  Apply Leave Button Clicked Successfully Of Employee Account: 
+Aug 22, 2025 12:03:54 PM base.LogResults createLogs
+INFO: PASS -  LeaveTypeDropdown Clicked Successfully Of Employee Account: 
+Aug 22, 2025 12:03:57 PM base.LogResults createLogs
+INFO: PASS -  SickLeave Selected  Successfully: 
+Aug 22, 2025 12:03:59 PM base.LogResults createLogs
+INFO: PASS -  FromDateTextField Clicked Successfully : 
+Aug 22, 2025 12:04:04 PM base.LogResults createLogs
+INFO: PASS -  FromDate Inputted Successfully : 
+Aug 22, 2025 12:04:10 PM base.LogResults createLogs
+INFO: PASS -  LeaveDurationOne Clicked Successfully Of Employee Account: 
+Aug 22, 2025 12:04:13 PM base.LogResults createLogs
+INFO: PASS -  FullDay DurationOne Selected  Successfully: 
+Aug 22, 2025 12:04:15 PM base.LogResults createLogs
+INFO: PASS -  ToDateTextField Clicked Successfully : 
+Aug 22, 2025 12:04:20 PM base.LogResults createLogs
+INFO: PASS -  ToDate Selected Inputted Successfully : 
+Aug 22, 2025 12:04:22 PM base.LogResults createLogs
+INFO: PASS -  LeaveDurationTwo Clicked Successfully Of Employee Account: 
+Aug 22, 2025 12:04:25 PM base.LogResults createLogs
+INFO: PASS -  FullDayDurationTwo Clicked Successfully Of Employee Account: 
+Aug 22, 2025 12:04:27 PM base.LogResults createLogs
+INFO: PASS -  Reason Inputted  Successfully Of Employee Account: Test
+Aug 22, 2025 12:04:29 PM base.LogResults createLogs
+INFO: PASS - Leave Request Apply Button Clicked  Successfully Of Employee Account: 
+Aug 22, 2025 12:04:35 PM base.LogResults createLogs
+INFO: PASS -  Leave Name Inputted  Successfully : Sick Leave
+Aug 22, 2025 12:04:38 PM base.LogResults createLogs
+INFO: PASS -  Applied Leave Validated  Successfully : Sick Leave2025-08-02Pending
+Aug 22, 2025 12:04:44 PM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Aug 22, 2025 12:04:47 PM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Aug 22, 2025 12:04:49 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.

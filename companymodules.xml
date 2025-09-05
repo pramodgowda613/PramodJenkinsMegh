@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="projName" value="Megh" />
+	<parameter name="sendEmail" value="N" />
+	<test name="Chrome">
+		<parameter name="device" value="21" />
+		<classes>
+		<class name="utils.GlobalSetup"> </class>  
+			
+				<class name="com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest"></class>	
+	
+		<!-- 
+			<class name="com.MeghPI.Attendance.tests.MeghMasterRolePermissionTest"></class>
+			
+				<class name="com.MeghPI.Attendance.tests.MeghEmployeeTest"></class>
+				<class name="com.MeghPI.Attendance.tests.MeghShiftPolicyTest"></class>
+				<class name="com.MeghPI.Attendance.tests.MeghHolidayPolicyTest"></class>
+				<class name="com.MeghPI.Attendance.tests.MeghWeekOffPolicyTest"></class>
+				<class name="com.MeghPI.Attendance.tests.MeghAttendancePolicyTest"></class>
+					<class name="com.MeghPI.Attendance.tests.MeghLeavePolicyTest"></class>
+			
+				-->
+				
+				
+				
+			
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

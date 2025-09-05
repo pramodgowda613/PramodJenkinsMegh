@@ -1,0 +1,24 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:110725-110725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 11, 2025 2:31:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 2:31:33 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 2:31:33 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 2:31:33 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 2:31:37 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 2:31:38 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 2:31:38 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: 
+Jul 11, 2025 2:31:38 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 
+Jul 11, 2025 2:31:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 

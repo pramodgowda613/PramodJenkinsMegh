@@ -1,0 +1,72 @@
+>> Console logging redirected to data/console.log
+cmpcode and emailidARBXAutoE190825091637@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 20, 2025 6:39:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 20, 2025 6:39:54 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 20, 2025 6:40:00 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARBX
+Aug 20, 2025 6:40:02 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 20, 2025 6:40:09 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 20, 2025 6:40:11 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE190825091637@mailinator.com
+Aug 20, 2025 6:40:13 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 20, 2025 6:40:15 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 20, 2025 6:40:18 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 20, 2025 6:40:20 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 20, 2025 6:40:22 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 20, 2025 6:40:29 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 20, 2025 6:40:32 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 20, 2025 6:40:34 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 20, 2025 6:40:36 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Aug 20, 2025 6:40:39 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Aug 20, 2025 6:40:41 PM base.LogResults createLogs
+INFO: PASS - Team Page Loaded Successfully: 
+Aug 20, 2025 6:40:51 PM base.LogResults createLogs
+INFO: PASS - Status as 'Inactive' Entered In Search TextField Successfully: 
+Aug 20, 2025 6:40:54 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Aug 20, 2025 6:40:56 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 20, 2025 6:40:58 PM base.LogResults createLogs
+INFO: PASS -  Search DropDown  Clicked Successfully: 
+Aug 20, 2025 6:41:00 PM base.LogResults createLogs
+INFO: PASS -  Status Checkbox  Clicked Successfully: 
+Aug 20, 2025 6:41:05 PM base.LogResults createLogs
+INFO: PASS -  Search DropDown  Clicked Successfully: 
+Aug 20, 2025 6:41:15 PM base.LogResults createLogs
+INFO: PASS - Status as 'Inactive' Entered In Search TextField Successfully: Inactive
+Aug 20, 2025 6:41:19 PM base.LogResults createLogs
+INFO: PASS - Inactive Team Name Record Displayed Successfully: 
+Aug 20, 2025 6:41:21 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamtest-MPI_229_Team_17-To verify this, test the search functionality by selecting the 'Status' filter, entering 'Inactive', and ensuring that only inactive records are displayed
+---------------------------------------------------------------
+MeghMasterTeamtestMPI_229_Team_17
+Aug 20, 2025 6:41:21 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 90.7014 seconds
+Total TC Time: 00:01:30
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

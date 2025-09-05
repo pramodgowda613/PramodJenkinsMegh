@@ -1,0 +1,10 @@
+Sep 05, 2025 11:54:33 AM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully at 09:00:10
+Sep 05, 2025 11:54:34 AM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully at 18:00:10
+Sep 05, 2025 11:54:34 AM base.LogResults createLogs
+INFO: PASS - ✅ Check the status when the employee present on day – This Employee Emp0008 on 2025-07-02, Did punched IN at 09:00:10 and OUT at 18:00:10. Final Status = P (Expected = P)
+Sep 05, 2025 11:54:34 AM base.LogResults onlyLog
+INFO: Passed - MeghPINormalAttendanceTest-MPI_652_Normal_Attendance_24-Check the status when the employee present on day
+Sep 05, 2025 11:54:34 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

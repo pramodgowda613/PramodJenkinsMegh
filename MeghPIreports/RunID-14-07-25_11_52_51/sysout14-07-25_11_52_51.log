@@ -1,0 +1,85 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:140725-140725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 14, 2025 11:52:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 11:52:55 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 11:52:59 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 11:53:00 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 11:53:04 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 14, 2025 11:53:04 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140725101157@mailinator.com
+Jul 14, 2025 11:53:04 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 14, 2025 11:53:04 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 11:53:05 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 14, 2025 11:53:07 AM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 14, 2025 11:53:07 AM base.LogResults createLogs
+INFO: PASS - SettingIcon   Clicked Successfully: 
+Jul 14, 2025 11:53:08 AM base.LogResults createLogs
+INFO: PASS - GeneralSettings   Clicked Successfully: 
+Jul 14, 2025 11:53:09 AM base.LogResults createLogs
+INFO: PASS - WebEnrollmentSelectOption Selected Successfully: 
+Jul 14, 2025 11:53:09 AM base.LogResults createLogs
+INFO: PASS - Yes Selected Successfully: 
+Jul 14, 2025 11:53:09 AM base.LogResults createLogs
+INFO: PASS - WebEnrollmentTypesFace Selected Successfully: 
+Jul 14, 2025 11:53:10 AM base.LogResults createLogs
+INFO: PASS - WebEnrollmentTypesCard Selected Successfully: 
+Jul 14, 2025 11:53:10 AM base.LogResults createLogs
+INFO: PASS - SaveChangesButton Clicked Successfully: 
+Jul 14, 2025 11:53:15 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 14, 2025 11:53:16 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 14, 2025 11:53:16 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 14, 2025 11:53:17 AM base.LogResults createLogs
+INFO: PASS - EntityTypeButton  Clicked Successfully: 
+Jul 14, 2025 11:53:18 AM base.LogResults createLogs
+INFO: PASS - EntityType Page Loaded Successfully: 
+Jul 14, 2025 11:53:18 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On AddEntityTypeButton: 
+Jul 14, 2025 11:53:19 AM base.LogResults createLogs
+INFO: PASS -  Entityname Entered In The Entiry Name TextField: AutoEN140725101157
+Jul 14, 2025 11:53:19 AM base.LogResults createLogs
+INFO: PASS -  Entity Card Type Selected Successfullly: STAFF
+Jul 14, 2025 11:53:19 AM base.LogResults createLogs
+INFO: PASS -  Successfullly Clicked On AddEntityTypeSave Button: 
+Jul 14, 2025 11:53:20 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 14, 2025 11:53:22 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 14, 2025 11:53:28 AM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Jul 14, 2025 11:53:29 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Jul 14, 2025 11:53:32 AM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Jul 14, 2025 11:53:34 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Added EntityName Displayed Successfully: AutoEN140725101157
+Jul 14, 2025 11:53:37 AM base.LogResults onlyLog
+INFO: Passed - MeghMasterEntityTypeTest-MPI_308_EntityType_01-To verify this, create a new entity type and ensure that the added entity is displayed in the entity dropdown on the Add New Employee form.
+---------------------------------------------------------------
+MeghMasterEntityTypeTestMPI_308_EntityType_01
+Jul 14, 2025 11:53:37 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 42.9840 seconds
+Total TC Time: 00:00:42
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

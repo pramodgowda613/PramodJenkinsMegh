@@ -1,0 +1,203 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:140725-140725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 14, 2025 12:11:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 12:11:31 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 12:11:36 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:11:36 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 12:11:40 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 14, 2025 12:11:40 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140725101157@mailinator.com
+Jul 14, 2025 12:11:40 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 14, 2025 12:11:41 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:11:41 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 14, 2025 12:11:43 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Jul 14, 2025 12:11:48 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 14, 2025 12:11:50 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 14, 2025 12:11:50 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 14, 2025 12:11:51 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 14, 2025 12:11:52 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 14, 2025 12:11:52 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 14, 2025 12:11:55 PM base.LogResults createLogs
+INFO: PASS - Emp Code Extracted Successfully: 
+Jul 14, 2025 12:11:59 PM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Jul 14, 2025 12:12:00 PM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Jul 14, 2025 12:12:01 PM base.LogResults createLogs
+INFO: PASS - Except Application All Other Tabs Are Closed Successfully: 
+Jul 14, 2025 12:12:01 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 12:12:05 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:12:05 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 12:12:05 PM base.LogResults createLogs
+INFO: PASS - Forgot Password Link is Clicked Successfully: 
+Jul 14, 2025 12:12:10 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:12:10 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Email Text Field: AutoDNZYJF
+Jul 14, 2025 12:12:10 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:12:10 PM base.LogResults createLogs
+INFO: PASS - Request OTP is Clicked Successfully: 
+Jul 14, 2025 12:12:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 14, 2025 12:12:15 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 14, 2025 12:12:16 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 14, 2025 12:12:22 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE140725101157
+Jul 14, 2025 12:12:23 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 14, 2025 12:12:24 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ForgotPasswordMail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (f1ca11df284190b195e19056bec79082)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: We received a request to reset the password for your account. To verify your identity and proceed with the password reset, please use the following One-Time Password (OTP):<br><br>Your OTP: <b>424202</b><br>
+Jul 14, 2025 12:12:28 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+424202 this is OTP
+Jul 14, 2025 12:12:28 PM base.LogResults createLogs
+INFO: PASS - Get The OTP from Email Successfully: 
+Jul 14, 2025 12:12:36 PM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully: 
+Jul 14, 2025 12:12:36 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+424202testOTP
+Jul 14, 2025 12:12:37 PM base.LogResults createLogs
+INFO: PASS - OTP Entered On OTP Text Field: 424202
+Jul 14, 2025 12:12:37 PM base.LogResults createLogs
+INFO: PASS - Verify And Continue Clicked Successfully: 
+Jul 14, 2025 12:12:38 PM base.LogResults createLogs
+INFO: PASS - New Password Entered Successfully: Pramod@1234
+Jul 14, 2025 12:12:38 PM base.LogResults createLogs
+INFO: PASS - New Confirm Password Entered Successfully: Pramod@1234
+Jul 14, 2025 12:12:38 PM base.LogResults createLogs
+INFO: PASS - PasswordSetButton Clicked Successfully: 
+Jul 14, 2025 12:12:40 PM base.LogResults createLogs
+INFO: PASS - ContinueToLogin Clicked Successfully: 
+Jul 14, 2025 12:12:44 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:12:44 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 12:12:48 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 14, 2025 12:12:48 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140725101157@mailinator.com
+Jul 14, 2025 12:12:49 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 14, 2025 12:12:49 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:12:49 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 14, 2025 12:12:51 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 14, 2025 12:12:54 PM base.LogResults onlyLog
+INFO: Passed - MeghLoginTest-MPI_141_Login_page_23-To verify this, enter a employee id in the User Name / Phone Number text field of the Forgot Password step, check whether the user receives an OTP to change the password, and then change the password.
+---------------------------------------------------------------
+MeghLoginTestMPI_141_Login_page_23
+Jul 14, 2025 12:12:54 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 83.7198 seconds
+Total TC Time: 00:01:23
+Launching Driver...
+Jul 14, 2025 12:12:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 12:12:57 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 12:12:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ForgotCompanyCode: 
+Jul 14, 2025 12:12:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Username: AutoE140725101157@mailinator.com
+Jul 14, 2025 12:12:58 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:12:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked on RequestCompanyCode Button: 
+Jul 14, 2025 12:13:00 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 14, 2025 12:13:02 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 14, 2025 12:13:03 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 14, 2025 12:13:10 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE140725101157
+Jul 14, 2025 12:13:10 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 14, 2025 12:13:16 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On CompanyCodeRetrievalLink: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (980e3a2909071009ccad9100d2ce3752)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: TO : AutoE140725101157@mailinator.com<br>CC : <br>BCC : <br>                                                 <div class="container">            <div class="date" style="margin-left: 517px ; font-size: 12px ; font-weight: bold">   </div>  <p>Dear AutoAFNEHU AutoLNENVZ ,</p>          <p>We received a request to retrieve your company code. To assist you with this, please find your company code(s) below:<br><br>Your Company Code(s): <b>AGIB </b> <br></p><p>If you did not request this information, please disregard this email. If you have any questions or need further assistance, feel free to contact at Admin/HR Department.</p>  <p>Thank you,</p>MeghPI<br>101, Shreeji Complex  
+Near ABC Circle, Satellite Road  
+Ahmedabad, Gujarat 380015  
+India<br>mantra@mantratec.com<br></div>    
+
+<br><p style="text-align: justify ; margin: 0px" class="">This email and any files
+transmitted with it are confidential and intended solely for the use of the
+individual or entity to whom they are addressed. If you are not the named
+addressee you should not disseminate, distribute or copy this e-mail. Please notify
+the sender immediately by e-mail if you have received this e-mail by mistake
+and delete this e-mail from your system.<br></p><div><b><i>?</i>?</b><br></div>
+<br><br><br><br><br><br><br>
+Jul 14, 2025 12:13:20 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+AGIB is the extracted Company Code
+Jul 14, 2025 12:13:20 PM base.LogResults createLogs
+INFO: PASS - Get The Company Code from Email Successfully: 
+Jul 14, 2025 12:13:29 PM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully: 
+Jul 14, 2025 12:13:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+Jul 14, 2025 12:13:29 PM base.LogResults createLogs
+INFO: PASS - ContinueToLogin Clicked Successfully: 
+Jul 14, 2025 12:13:33 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:13:33 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 12:13:37 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 14, 2025 12:13:38 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140725101157@mailinator.com
+Jul 14, 2025 12:13:38 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: 
+Jul 14, 2025 12:13:38 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:13:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 14, 2025 12:13:38 PM base.LogResults onlyLog
+INFO: Passed - MeghLoginTest-MPI_144_Login_Page_26-To verify this, check the functionality of the 'Forgot Company Code?' feature by entering a valid email ID, ensure that the user receives the company code, and use it to log in
+---------------------------------------------------------------
+MeghLoginTestMPI_144_Login_Page_26
+Jul 14, 2025 12:13:38 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 42.0248 seconds
+Total TC Time: 00:02:05
+
+===============================================
+Suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+

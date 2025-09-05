@@ -1,0 +1,21 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:150725-150725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 3:28:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+hello
+Jul 15, 2025 3:29:09 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 3:29:14 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 3:29:16 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 3:29:16 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 3:29:17 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Jul 15, 2025 3:29:17 PM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 

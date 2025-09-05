@@ -1,0 +1,25 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 21, 2025 2:46:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Error while reading excel : week_off_policy-Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.LinkedHashMap.get(Object)" is null
+Aug 21, 2025 2:46:01 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_848_WeekOff_Policy_12-To verify this, create an policy and add emp criteria to the policy and ensure matching criteria employees are assigned to the created policy
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_848_WeekOff_Policy_12
+Aug 21, 2025 2:46:01 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 0.0820 seconds
+Total TC Time: 00:00:00
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+

@@ -1,0 +1,25 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:060825-060825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 06, 2025 11:31:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Aug 06, 2025 11:31:18 AM base.LogResults createLogs
+INFO: INFO - Skip Adding New Data. Continue with Old Test Data.
+Aug 06, 2025 11:31:19 AM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_289_Grade_01-Create a newÂ GradeÂ and ensure that theÂ created GradeÂ is displayed in theÂ Grade dropdownÂ under theÂ Employee/User Manage ProfileÂ section
+---------------------------------------------------------------
+AttendanceMPI_289_Grade_01
+Aug 06, 2025 11:31:19 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 0.5174 seconds
+Total TC Time: 00:00:00
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+===============================================
+

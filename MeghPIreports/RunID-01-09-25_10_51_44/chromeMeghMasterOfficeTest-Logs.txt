@@ -1,0 +1,68 @@
+Sept 01, 2025 10:51:50 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 01, 2025 10:51:57 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARZO
+Sept 01, 2025 10:51:59 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Sept 01, 2025 10:52:05 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Sept 01, 2025 10:52:07 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE010925091520@mailinator.com
+Sept 01, 2025 10:52:10 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Sept 01, 2025 10:52:12 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Sept 01, 2025 10:52:14 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Sept 01, 2025 10:52:17 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Sept 01, 2025 10:52:19 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 10:52:26 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 10:52:28 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 10:52:31 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 10:52:33 AM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Sept 01, 2025 10:52:35 AM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Sept 01, 2025 10:52:47 AM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON010925091520
+Sept 01, 2025 10:52:54 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Office Record 3dots : 
+Sept 01, 2025 10:52:56 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On OfficeEditButton : 
+Sept 01, 2025 10:52:58 AM base.LogResults createLogs
+INFO: PASS -  OfficeName Entered In the Office Name TextField : AutoON010925091520JN
+Sept 01, 2025 10:53:04 AM base.LogResults createLogs
+INFO: PASS -  Office Type Selected In the Office Type Dropdown : 
+Sept 01, 2025 10:53:06 AM base.LogResults createLogs
+INFO: PASS -  Office Address Entered In the Office Address TextField : Autoofficeaddress010925091520
+Sept 01, 2025 10:53:11 AM base.LogResults createLogs
+INFO: PASS -  Country Selected In the Country  Dropdown : 
+Sept 01, 2025 10:53:19 AM base.LogResults createLogs
+INFO: PASS -  State Selected In the State  Dropdown : Gujarat
+Sept 01, 2025 10:53:21 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On CompanyLocationSaveButton : 
+Sept 01, 2025 10:53:33 AM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON010925091520JN
+Sept 01, 2025 10:53:39 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Office Record 3dots : 
+Sept 01, 2025 10:53:42 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On OfficeEditButton : 
+Sept 01, 2025 10:53:44 AM base.LogResults createLogs
+INFO: PASS -  OfficeName Entered In the Office Name TextField : AutoON010925091520
+Sept 01, 2025 10:53:49 AM base.LogResults createLogs
+INFO: PASS -  Office Type Selected In the Office Type Dropdown : 
+Sept 01, 2025 10:53:51 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On CompanyLocationSaveButton : 
+Sept 01, 2025 10:54:02 AM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON010925091520
+Sept 01, 2025 10:54:04 AM base.LogResults createLogs
+INFO: PASS -  Successfully Fetched The First Record Company Name : 
+Sept 01, 2025 10:54:04 AM base.LogResults onlyLog
+INFO: Passed - MeghMasterOfficeTest-MPI_180_Office_02-To verify this, edit the office address and ensure that the updated address is reflected correctly as per the changes made 
+Sept 01, 2025 10:54:04 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

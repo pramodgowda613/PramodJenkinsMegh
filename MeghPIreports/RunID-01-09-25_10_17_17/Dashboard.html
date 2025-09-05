@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Dashboard Summary Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sept 1, 2025 10:25:50 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Module Summary</p>
+            <p class="text-sm">
+              <span>10:25:50</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Module Summary</h5>
+<span class='badge badge-success'>09.01.2025 10:25:50</span>
+<span class='badge badge-danger'>09.01.2025 10:25:50</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:50</td>
+        <td>
+          <table border='1' style='width:100%'><tr><th>Sr</th><th>Module Name</th><th>Pass</th><th>Fail</th><th>Total</th><th>Time</th></tr><tr><td>1</td><td>MeghLoginTest-chrome</td><td>0</td><td>1</td><td>1</td><td>00:08:24</td></tr><tr style='font-weight: bold; background-color: #f0f0f0;'><td colspan='2'>Total</td><td>0</td><td>1</td><td>1</td><td>00:08:24</td></tr></table>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Cases Summary</p>
+            <p class="text-sm">
+              <span>10:25:50</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Cases Summary</h5>
+<span class='badge badge-success'>09.01.2025 10:25:50</span>
+<span class='badge badge-danger'>09.01.2025 10:25:50</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:25:50</td>
+        <td>
+          <table border='1' style='width:100%'><tr><th>Sr</th><th>Module</th><th>Test Case</th><th>Step</th><th>Status</th><th>Date</th></tr><tr><td>1</td><td>MeghLoginTest</td><td>Attendance</td><td>Application Loaded Successfully: </td><td>Pass</td><td>01/09/25 10:17:25</td></tr><tr><td></td><td></td><td></td><td>Create An Account Button Is Clicked: </td><td>Pass</td><td>01/09/25 10:17:29</td></tr><tr><td></td><td></td><td></td><td>First Name Entered in Text Box: AutoAFNXMP</td><td>Pass</td><td>01/09/25 10:17:31</td></tr><tr><td></td><td></td><td></td><td>Last Name Entered in Text Box: AutoLNQGIQ</td><td>Pass</td><td>01/09/25 10:17:34</td></tr><tr><td></td><td></td><td></td><td>Email  Entered in Text Box: AutoE290825111705@mailinator.com</td><td>Pass</td><td>01/09/25 10:17:36</td></tr><tr><td></td><td></td><td></td><td>Phone Number Entered in Text Box: 8217018010</td><td>Pass</td><td>01/09/25 10:17:38</td></tr><tr><td></td><td></td><td></td><td>Create Password Entered in Text Box: Pramod@1234</td><td>Pass</td><td>01/09/25 10:17:40</td></tr><tr><td></td><td></td><td></td><td>Confirm Password Entered in Text Box: Pramod@1234</td><td>Pass</td><td>01/09/25 10:17:43</td></tr><tr><td></td><td></td><td></td><td>Successfully Cliked On SignUp Button: </td><td>Pass</td><td>01/09/25 10:17:45</td></tr><tr><td></td><td></td><td></td><td>Company Name Entered in Text Box: AutoCNIFMGD</td><td>Pass</td><td>01/09/25 10:17:47</td></tr><tr><td></td><td></td><td></td><td>Company Code Entered in Text Box: ALJT</td><td>Pass</td><td>01/09/25 10:17:53</td></tr><tr><td></td><td></td><td></td><td>Company HeadCount Selected In the Dropdown: 51 To 100</td><td>Pass</td><td>01/09/25 10:17:59</td></tr><tr><td></td><td></td><td></td><td>Industry Type Selected In the Dropdown: Software Industry</td><td>Pass</td><td>01/09/25 10:18:01</td></tr><tr><td></td><td></td><td></td><td>Your Role Selected In the Dropdown: Admin</td><td>Pass</td><td>01/09/25 10:18:03</td></tr><tr><td></td><td></td><td></td><td>Your Role Selected In the Dropdown: </td><td>Pass</td><td>01/09/25 10:18:06</td></tr><tr><td></td><td></td><td></td><td>OTP Sent To YOP Mail: </td><td>Pass</td><td>01/09/25 10:18:10</td></tr><tr><td></td><td></td><td></td><td>Successfully Open The New Tab And URL Is Passed: </td><td>Pass</td><td>01/09/25 10:18:14</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On GetFreeTrailButton: </td><td>Pass</td><td>01/09/25 10:18:17</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On PopupCloseButton: </td><td>Pass</td><td>01/09/25 10:18:19</td></tr><tr><td></td><td></td><td></td><td>Successfully Inputted Emp Name: AutoE290825111705</td><td>Pass</td><td>01/09/25 10:18:27</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On SearchButtonOfMailinator: </td><td>Pass</td><td>01/09/25 10:18:29</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On SignUp OTP Mail: </td><td>Pass</td><td>01/09/25 10:18:31</td></tr><tr><td></td><td></td><td></td><td>Successfully Navigated To IFrame: </td><td>Pass</td><td>01/09/25 10:18:38</td></tr><tr><td></td><td></td><td></td><td>Successfully Extracted The OTP: 503328</td><td>Pass</td><td>01/09/25 10:18:40</td></tr><tr><td></td><td></td><td></td><td>Successfully Navigated Back To Application: </td><td>Pass</td><td>01/09/25 10:18:42</td></tr><tr><td></td><td></td><td></td><td>OTP Sent To YOP Mail: 503328</td><td>Pass</td><td>01/09/25 10:18:44</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Captcha: 12345</td><td>Pass</td><td>01/09/25 10:18:46</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On VerifyAndLoginButton: </td><td>Pass</td><td>01/09/25 10:18:49</td></tr><tr><td></td><td></td><td></td><td>Successfully Selected VMS: </td><td>Pass</td><td>01/09/25 10:18:51</td></tr><tr><td></td><td></td><td></td><td>Successfully Selected CMS: </td><td>Pass</td><td>01/09/25 10:18:53</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On SaveButton: </td><td>Pass</td><td>01/09/25 10:18:55</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On PlanF: </td><td>Pass</td><td>01/09/25 10:19:02</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On MakePaymentButton: </td><td>Pass</td><td>01/09/25 10:19:08</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On Cards For Payment: </td><td>Pass</td><td>01/09/25 10:19:14</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Card Number: 5123456789012346</td><td>Pass</td><td>01/09/25 10:19:17</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Card ExpiryDate: 1225</td><td>Pass</td><td>01/09/25 10:19:19</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Card CVV: 123</td><td>Pass</td><td>01/09/25 10:19:21</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Card OwnerName: Test </td><td>Pass</td><td>01/09/25 10:19:23</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On ProccedButton: </td><td>Pass</td><td>01/09/25 10:19:25</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On Continue Without Saving Button: </td><td>Pass</td><td>01/09/25 10:19:28</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Payment OTP: 123456</td><td>Pass</td><td>01/09/25 10:19:32</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On OTPConfirmButton: </td><td>Pass</td><td>01/09/25 10:19:34</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On BackToLoginButton: </td><td>Pass</td><td>01/09/25 10:19:38</td></tr><tr><td></td><td></td><td></td><td>Application Loaded Successfully: </td><td>Pass</td><td>01/09/25 10:19:41</td></tr><tr><td></td><td></td><td></td><td>Company Code Entered in Text Box: ALJT</td><td>Pass</td><td>01/09/25 10:19:47</td></tr><tr><td></td><td></td><td></td><td>Login With Password Button Is Clicked: </td><td>Pass</td><td>01/09/25 10:19:49</td></tr><tr><td></td><td></td><td></td><td>Sign in Text Is Displayed: </td><td>Pass</td><td>01/09/25 10:19:55</td></tr><tr><td></td><td></td><td></td><td>Username Is Entered In Username Text Field: AutoE290825111705@mailinator.com</td><td>Pass</td><td>01/09/25 10:19:58</td></tr><tr><td></td><td></td><td></td><td>Password Is Entered In Password Text Field: Pramod@1234</td><td>Pass</td><td>01/09/25 10:20:00</td></tr><tr><td></td><td></td><td></td><td>Captcha Entered On Captcha Text Field: 12345</td><td>Pass</td><td>01/09/25 10:20:02</td></tr><tr><td></td><td></td><td></td><td>Clicked On Login Button: </td><td>Pass</td><td>01/09/25 10:20:04</td></tr><tr><td></td><td></td><td></td><td>Clicked On MailCheck Button: </td><td>Pass</td><td>01/09/25 10:20:07</td></tr><tr><td></td><td></td><td></td><td>Successfully Open The New Tab And URL Is Passed: </td><td>Pass</td><td>01/09/25 10:20:11</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On GetFreeTrailButton: </td><td>Pass</td><td>01/09/25 10:20:13</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On PopupCloseButton: </td><td>Pass</td><td>01/09/25 10:20:15</td></tr><tr><td></td><td></td><td></td><td>Successfully Inputted Emp Name: AutoE290825111705</td><td>Pass</td><td>01/09/25 10:20:24</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On SearchButtonOfMailinator: </td><td>Pass</td><td>01/09/25 10:20:26</td></tr><tr><td></td><td></td><td></td><td>Except Application All Other Tabs Are Closed Successfully: </td><td>Pass</td><td>01/09/25 10:20:28</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On Activation Mail Link: </td><td>Pass</td><td>01/09/25 10:20:30</td></tr><tr><td></td><td></td><td></td><td>Successfully Navigated To IFrame: </td><td>Pass</td><td>01/09/25 10:20:37</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On ActivationLink: </td><td>Pass</td><td>01/09/25 10:20:39</td></tr><tr><td></td><td></td><td></td><td>Successfully Navigated Back To Application: </td><td>Pass</td><td>01/09/25 10:20:45</td></tr><tr><td></td><td></td><td></td><td>Clicked On LoginHere Button: </td><td>Pass</td><td>01/09/25 10:20:47</td></tr><tr><td></td><td></td><td></td><td>Company Code Entered in Text Box: ALJT</td><td>Pass</td><td>01/09/25 10:20:53</td></tr><tr><td></td><td></td><td></td><td>Login With Password Button Is Clicked: </td><td>Pass</td><td>01/09/25 10:20:56</td></tr><tr><td></td><td></td><td></td><td>Sign in Text Is Displayed: </td><td>Pass</td><td>01/09/25 10:21:02</td></tr><tr><td></td><td></td><td></td><td>Username Is Entered In Username Text Field: AutoE290825111705@mailinator.com</td><td>Pass</td><td>01/09/25 10:21:04</td></tr><tr><td></td><td></td><td></td><td>Password Is Entered In Password Text Field: Pramod@1234</td><td>Pass</td><td>01/09/25 10:21:06</td></tr><tr><td></td><td></td><td></td><td>Captcha Entered On Captcha Text Field: 12345</td><td>Pass</td><td>01/09/25 10:21:09</td></tr><tr><td></td><td></td><td></td><td>Clicked On Login Button: </td><td>Pass</td><td>01/09/25 10:21:11</td></tr><tr><td></td><td></td><td></td><td>Clicked On CompanyDetails: </td><td>Pass</td><td>01/09/25 10:21:15</td></tr><tr><td></td><td></td><td></td><td>Industry Type Selected In the Dropdown: Software Industry</td><td>Pass</td><td>01/09/25 10:21:17</td></tr><tr><td></td><td></td><td></td><td>Image Is Selected As Logo: ./data/images/Testing.jpg</td><td>Pass</td><td>01/09/25 10:21:33</td></tr><tr><td></td><td></td><td></td><td>Entered CompanyWebsite Successfully: https://demo.meghpi.com/</td><td>Pass</td><td>01/09/25 10:21:35</td></tr><tr><td></td><td></td><td></td><td>AddDetails Button Clicked Successfully: </td><td>Pass</td><td>01/09/25 10:21:37</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On Add AddreessButton: </td><td>Pass</td><td>01/09/25 10:21:40</td></tr><tr><td></td><td></td><td></td><td>Successfully Selected Country From CountryDropdown: India</td><td>Pass</td><td>01/09/25 10:21:42</td></tr><tr><td></td><td></td><td></td><td>Successfully Selected State From StateDropdown: Gujarat </td><td>Pass</td><td>01/09/25 10:21:48</td></tr><tr><td></td><td></td><td></td><td>Successfully Enter The Company Address: #47  5th cross  park view  shapath hexa  gujarat highcourt</td><td>Pass</td><td>01/09/25 10:21:50</td></tr><tr><td></td><td></td><td></td><td>Successfully Enter The Company Address Zipcode: 560091</td><td>Pass</td><td>01/09/25 10:21:53</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On AddAddress Button: </td><td>Pass</td><td>01/09/25 10:21:59</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On ContactDetails: </td><td>Pass</td><td>01/09/25 10:22:05</td></tr><tr><td></td><td></td><td></td><td>Contact Name Entered in Text Box: AutoAFNXMP</td><td>Pass</td><td>01/09/25 10:22:08</td></tr><tr><td></td><td></td><td></td><td>Phone Number Entered in Text Box: 8217018010</td><td>Pass</td><td>01/09/25 10:22:10</td></tr><tr><td></td><td></td><td></td><td>Email Id Entered in Text Box: AutoE290825111705@mailinator.com</td><td>Pass</td><td>01/09/25 10:22:12</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On AddContactButton: </td><td>Pass</td><td>01/09/25 10:22:14</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On OfficeSetup: </td><td>Pass</td><td>01/09/25 10:22:16</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On AddOffice: </td><td>Pass</td><td>01/09/25 10:22:19</td></tr><tr><td></td><td></td><td></td><td>Office Name Entered in Text Box: AutoONBBIKV</td><td>Pass</td><td>01/09/25 10:22:21</td></tr><tr><td></td><td></td><td></td><td>Company OfficeType Selected In the Dropdown: Head Quarter </td><td>Pass</td><td>01/09/25 10:22:23</td></tr><tr><td></td><td></td><td></td><td>Office Address Entered in Text Box: #47  5th cross  park view  shapath hexa  gujarat highcourt</td><td>Pass</td><td>01/09/25 10:22:25</td></tr><tr><td></td><td></td><td></td><td>Company's Country Selected In the Dropdown: India</td><td>Pass</td><td>01/09/25 10:22:28</td></tr><tr><td></td><td></td><td></td><td>Company's State Selected In the Dropdown: Gujarat </td><td>Pass</td><td>01/09/25 10:22:34</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On AddOfficeSave: </td><td>Pass</td><td>01/09/25 10:22:36</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On AddDept: </td><td>Pass</td><td>01/09/25 10:22:38</td></tr><tr><td></td><td></td><td></td><td>Dept Name Entered in Text Box: AutoDNBIOO</td><td>Pass</td><td>01/09/25 10:22:41</td></tr><tr><td></td><td></td><td></td><td>Company's Assign Office Selected In the Dropdown: AutoONBBIKV</td><td>Pass</td><td>01/09/25 10:22:46</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On AddDeptSave: </td><td>Pass</td><td>01/09/25 10:22:48</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On Policy Button: </td><td>Pass</td><td>01/09/25 10:22:50</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On UseAsDefaultButton Button: </td><td>Pass</td><td>01/09/25 10:23:01</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On GeneralSettings Button: </td><td>Pass</td><td>01/09/25 10:23:03</td></tr><tr><td></td><td></td><td></td><td>TimeFormat Selected In the Dropdown: </td><td>Pass</td><td>01/09/25 10:23:08</td></tr><tr><td></td><td></td><td></td><td> TimeZone Selected In the Dropdown: </td><td>Pass</td><td>01/09/25 10:23:13</td></tr><tr><td></td><td></td><td></td><td>TwoStepVerification Selected In the Dropdown: </td><td>Pass</td><td>01/09/25 10:23:19</td></tr><tr><td></td><td></td><td></td><td>DateFormat Selected In the Dropdown: </td><td>Pass</td><td>01/09/25 10:23:24</td></tr><tr><td></td><td></td><td></td><td>FinancialYear Selected In the Dropdown: </td><td>Pass</td><td>01/09/25 10:23:29</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On GeneralSettingsSave: </td><td>Pass</td><td>01/09/25 10:23:31</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On PersonalSetting: </td><td>Pass</td><td>01/09/25 10:23:34</td></tr><tr><td></td><td></td><td></td><td>EmployeeIDDropdown Selected In the Dropdown: </td><td>Pass</td><td>01/09/25 10:23:39</td></tr><tr><td></td><td></td><td></td><td>Employee id Entered In The Text Field: AutoDNBIOO</td><td>Pass</td><td>01/09/25 10:23:41</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On PersonalSettingSave: </td><td>Pass</td><td>01/09/25 10:23:43</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On GoToDashBoard: </td><td>Pass</td><td>01/09/25 10:24:00</td></tr><tr><td></td><td></td><td></td><td>Login Done  And Validated Successfully: </td><td>Pass</td><td>01/09/25 10:24:02</td></tr><tr><td></td><td></td><td></td><td>Error Message is Clicked: </td><td>Pass</td><td>01/09/25 10:24:09</td></tr><tr><td></td><td></td><td></td><td>Admin Manage Button Clicked Successfully: </td><td>Pass</td><td>01/09/25 10:24:15</td></tr><tr><td></td><td></td><td></td><td>Admin Logout Button Clicked Successfully: </td><td>Pass</td><td>01/09/25 10:24:18</td></tr><tr><td></td><td></td><td></td><td>Except Application All Other Tabs Are Closed Successfully: </td><td>Pass</td><td>01/09/25 10:24:20</td></tr><tr><td></td><td></td><td></td><td>Application Loaded Successfully: </td><td>Pass</td><td>01/09/25 10:24:22</td></tr><tr><td></td><td></td><td></td><td>Company Code Entered in Text Box: ALJT</td><td>Pass</td><td>01/09/25 10:24:29</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On Login With OTP Button: </td><td>Pass</td><td>01/09/25 10:24:31</td></tr><tr><td></td><td></td><td></td><td>Successfully Loaded LoginWithOTPPage: </td><td>Pass</td><td>01/09/25 10:24:36</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Username: AutoE290825111705@mailinator.com</td><td>Pass</td><td>01/09/25 10:24:38</td></tr><tr><td></td><td></td><td></td><td>Successfully Entered The Captcha: 12345</td><td>Pass</td><td>01/09/25 10:24:40</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked on RequestOTP Button: </td><td>Pass</td><td>01/09/25 10:24:43</td></tr><tr><td></td><td></td><td></td><td>Successfully Open The New Tab And URL Is Passed: </td><td>Pass</td><td>01/09/25 10:24:47</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On GetFreeTrailButton: </td><td>Pass</td><td>01/09/25 10:24:49</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On PopupCloseButton: </td><td>Pass</td><td>01/09/25 10:24:51</td></tr><tr><td></td><td></td><td></td><td>Successfully Inputted Emp Name: AutoE290825111705</td><td>Pass</td><td>01/09/25 10:25:00</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On SearchButtonOfMailinator: </td><td>Pass</td><td>01/09/25 10:25:02</td></tr><tr><td></td><td></td><td></td><td>Successfully Clicked On FirstRecievedMailClick: </td><td>Pass</td><td>01/09/25 10:25:24</td></tr><tr><td></td><td></td><td></td><td>Successfully Navigated To IFrame: </td><td>Pass</td><td>01/09/25 10:25:30</td></tr><tr><td></td><td></td><td></td><td>Successfully Fetch The OTP From Mail: </td><td>Pass</td><td>01/09/25 10:25:32</td></tr><tr><td></td><td></td><td></td><td>Successfully Navigated Back To Application: </td><td>Pass</td><td>01/09/25 10:25:34</td></tr><tr><td></td><td></td><td></td><td>OTP Entered In The Enter OTP Text Field: 267106</td><td>Pass</td><td>01/09/25 10:25:37</td></tr><tr><td></td><td></td><td></td><td>Captcha Entered In The Enter Captcha Text Field: 12345</td><td>Pass</td><td>01/09/25 10:25:39</td></tr><tr><td></td><td></td><td></td><td>Error While Clicking On The VerifyAndLoginButtonOTP Button: element click intercepted: Element <button type="button" id="btnOTPVerfiy" class="btn btn-primary password_btn w-100">...</button> is not clickable at point (1016  528). Other element would receive the click: <div class="sign_up_url">...</div>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0'  revision: 'ac342546e9'
+System info: os.name: 'Windows 10'  os.arch: 'amd64'  os.version: '10.0'  java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cf4d9dc67fba3fd126aafdd33270273  clickEl</td><td>Fail</td><td>01/09/25 10:25:46</td></tr></table>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sept 1, 2025 10:25:50 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sept 1, 2025 10:25:50 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>2</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Module Summary":0.001,"Test Cases Summary":0
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Environment</td>
+<td>qc</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 2
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

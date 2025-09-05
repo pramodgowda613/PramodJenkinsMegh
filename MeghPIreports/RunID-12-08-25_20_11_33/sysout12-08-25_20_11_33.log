@@ -1,0 +1,95 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:120825-120825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 12, 2025 8:11:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 12, 2025 8:11:37 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 12, 2025 8:11:42 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 8:11:42 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 12, 2025 8:11:46 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 12, 2025 8:11:46 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE120825091619@mailinator.com
+Aug 12, 2025 8:11:46 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 12, 2025 8:11:47 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 12, 2025 8:11:47 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 12, 2025 8:11:49 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 12, 2025 8:11:49 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 12, 2025 8:11:53 PM base.LogResults createLogs
+INFO: PASS - FileButton Clicked Successfully: 
+Aug 12, 2025 8:11:54 PM base.LogResults createLogs
+INFO: PASS - UploadFile Clicked Successfully: 
+Aug 12, 2025 8:12:07 PM base.LogResults createLogs
+INFO: PASS - File Selected Successfully: ./data/Files/TestFile1.pdf
+Aug 12, 2025 8:12:12 PM base.LogResults createLogs
+INFO: PASS - Company FileTag Selected Successfully: Appraisal 
+Aug 12, 2025 8:12:12 PM base.LogResults createLogs
+INFO: PASS - Date TextField Is Clicked Successfully: 
+Aug 12, 2025 8:12:20 PM base.LogResults createLogs
+INFO: PASS - Month Selected Successfully: 
+Aug 12, 2025 8:12:21 PM base.LogResults createLogs
+INFO: PASS - Day Selected Successfully: 
+Aug 12, 2025 8:12:21 PM base.LogResults createLogs
+INFO: PASS - Upload FileSave Button Clicked Successfully: 
+Aug 12, 2025 8:12:27 PM base.LogResults createLogs
+INFO: PASS - UploadFile Clicked Successfully: 
+Aug 12, 2025 8:12:39 PM base.LogResults createLogs
+INFO: PASS - File Selected Successfully: ./data/Files/TestFile1.pdf
+Aug 12, 2025 8:12:45 PM base.LogResults createLogs
+INFO: PASS - Company FileTag Selected Successfully: Educational
+Aug 12, 2025 8:12:45 PM base.LogResults createLogs
+INFO: PASS - Date TextField Is Clicked Successfully: 
+Aug 12, 2025 8:12:53 PM base.LogResults createLogs
+INFO: PASS - Month Selected Successfully: 
+Aug 12, 2025 8:12:53 PM base.LogResults createLogs
+INFO: PASS - Day Selected Successfully: 
+Aug 12, 2025 8:12:54 PM base.LogResults createLogs
+INFO: PASS - Upload FileSave Button Clicked Successfully: 
+Aug 12, 2025 8:13:02 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 12, 2025 8:13:05 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 12, 2025 8:13:05 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 12, 2025 8:13:06 PM base.LogResults createLogs
+INFO: PASS - FileTag Button  Clicked Successfully: 
+Aug 12, 2025 8:13:07 PM base.LogResults createLogs
+INFO: PASS - FileTag Page Loaded Successfully: 
+Aug 12, 2025 8:13:07 PM base.LogResults createLogs
+INFO: PASS - MoveFileDropDown  Clicked Successfully: 
+Aug 12, 2025 8:13:11 PM base.LogResults createLogs
+INFO: PASS - From Tag Name Selected Successfully: Appraisal 
+Aug 12, 2025 8:13:14 PM base.LogResults createLogs
+INFO: PASS - To Tag Name Selected Successfully: Educational
+Aug 12, 2025 8:13:14 PM base.LogResults createLogs
+INFO: PASS - MoveSaveButton Clicked Successfully: 
+Files: 0 movedResult
+Aug 12, 2025 8:13:19 PM base.LogResults createLogs
+INFO: PASS - Moved Validation Done Successfully: 
+Aug 12, 2025 8:13:23 PM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_342_FileTags_12-To verify this, upload two files in the File module — select the 'Company' file tag for one file and the 'Employee' file tag for the other. After uploading, go to the File Tag module and move the file tagged under the Company section type to the Employee section type. Ensure the file  is moved successfully from compay to employee filetag
+---------------------------------------------------------------
+AttendanceMPI_342_FileTags_12
+Aug 12, 2025 8:13:23 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 107.3064 seconds
+Total TC Time: 00:01:47
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

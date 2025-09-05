@@ -1,0 +1,488 @@
+Sept 01, 2025 11:16:24 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:16:30 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:16:32 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:16:38 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:16:41 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520@mailinator.com
+Sept 01, 2025 11:16:43 AM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Sept 01, 2025 11:16:45 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:16:48 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:16:50 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:16:52 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:17:03 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:17:06 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:17:08 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Sept 01, 2025 11:17:11 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:17:19 AM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Sept 01, 2025 11:17:21 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Sept 01, 2025 11:17:24 AM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Sept 01, 2025 11:17:31 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN010925091520
+Sept 01, 2025 11:17:33 AM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Sept 01, 2025 11:17:37 AM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Sept 01, 2025 11:17:42 AM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Sept 01, 2025 11:17:44 AM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: 
+Sept 01, 2025 11:17:49 AM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON010925091520
+Sept 01, 2025 11:17:51 AM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNJAMMGE
+Sept 01, 2025 11:17:54 AM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNYPVEZX
+Sept 01, 2025 11:17:56 AM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: 
+Sept 01, 2025 11:17:58 AM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851469601
+Sept 01, 2025 11:18:01 AM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Sept 01, 2025 11:18:03 AM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 03-01-2025
+Sept 01, 2025 11:18:05 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Sept 01, 2025 11:18:11 AM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Sept 01, 2025 11:18:17 AM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoFNJAMMGE
+Sept 01, 2025 11:18:22 AM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNYPVEZX
+Sept 01, 2025 11:18:25 AM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Sept 01, 2025 11:18:27 AM base.LogResults createLogs
+INFO: PASS - Clicked On WebEnrollment Successfully: 
+Sept 01, 2025 11:18:32 AM base.LogResults createLogs
+INFO: PASS - Clicked On FaceEnrollmentTab Successfully: 
+Sept 01, 2025 11:18:51 AM base.LogResults createLogs
+INFO: PASS - Image Selected For WebEnrollment Successfully: ./data/images/enrollmentimage.jpg
+Sept 01, 2025 11:18:57 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On CropImage: 
+Sept 01, 2025 11:19:07 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveEnrollmentButton: 
+Sept 01, 2025 11:19:19 AM base.LogResults createLogs
+INFO: PASS - Success Msg Is Displayed: 
+Sept 01, 2025 11:19:30 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:19:33 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:19:35 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Sept 01, 2025 11:19:38 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:19:44 AM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoFNJAMMGE
+Sept 01, 2025 11:19:50 AM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNYPVEZX
+Sept 01, 2025 11:19:52 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Sept 01, 2025 11:19:54 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Sept 01, 2025 11:20:06 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Manage Profile EditIcon: 
+Sept 01, 2025 11:20:11 AM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Dept: AutoDN010925091520
+Sept 01, 2025 11:20:18 AM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoDESN010925091520
+Sept 01, 2025 11:20:33 AM base.LogResults createLogs
+INFO: PASS - Created Role Name Entered In DropDown Of Manage Profile: employee
+Sept 01, 2025 11:20:39 AM base.LogResults createLogs
+INFO: PASS - Created Role Name Displayed Successfully In Manage Profile  : employee
+Sept 01, 2025 11:20:47 AM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Team From Dropdown: AutoTN010925091520
+Sept 01, 2025 11:20:56 AM base.LogResults createLogs
+INFO: PASS - Successfully Enter The Pin: 1525
+Sept 01, 2025 11:21:04 AM base.LogResults createLogs
+INFO: PASS - SaveChanges Button Clicked Successfully: 
+Sept 01, 2025 11:21:14 AM base.LogResults createLogs
+INFO: PASS - DefaultPolicy Button Clicked Successfully: 
+Sept 01, 2025 11:21:23 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:21:26 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:21:28 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:21:31 AM base.LogResults createLogs
+INFO: PASS - Role Button  Clicked Successfully: 
+Sept 01, 2025 11:21:33 AM base.LogResults createLogs
+INFO: PASS - Role Permission Page  Loaded Successfully: 
+Sept 01, 2025 11:21:35 AM base.LogResults createLogs
+INFO: PASS - Add RolePermission Button  Clicked Successfully: 
+Sept 01, 2025 11:21:37 AM base.LogResults createLogs
+INFO: PASS - Role DropDown Clicked Successfully: 
+Sept 01, 2025 11:21:40 AM base.LogResults createLogs
+INFO: PASS - Role Selected Successfully: employee
+Sept 01, 2025 11:21:42 AM base.LogResults createLogs
+INFO: PASS - Role Selected  Successfully: 
+Sept 01, 2025 11:21:44 AM base.LogResults createLogs
+INFO: PASS - Attendance Permission Selected  Successfully: 
+Sept 01, 2025 11:21:50 AM base.LogResults createLogs
+INFO: PASS - RolePermissionSaveButton Clicked Successfully: 
+Sept 01, 2025 11:22:01 AM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Sept 01, 2025 11:22:03 AM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Sept 01, 2025 11:22:05 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:22:12 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:22:14 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:22:20 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:22:22 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520UZKE@mailinator.com
+Sept 01, 2025 11:22:25 AM base.LogResults createLogs
+INFO: PASS -  Password entered.AutoEIDHEZRH709
+Sept 01, 2025 11:22:27 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:22:29 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:22:31 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:22:33 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:22:50 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Toggle Switch: element not interactable
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [451b7c414a07c0d0c9cc71b2b6314048, clickElement {id=f.5C6C1813506C8DF127262F6C56551CAE.d.591C532C13B785C81B7B5CBB2C8CAC13.e.7306}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54503}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54503/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (451b7c414a07c0d0c9cc71b2b6314048)] -> xpath: //input[@id='ManageRole']]
+Session ID: 451b7c414a07c0d0c9cc71b2b6314048
+Sept 01, 2025 11:22:55 AM base.LogResults createLogs
+INFO: PASS - Employee Attendance Module Clicked Successfully: 
+Sept 01, 2025 11:23:02 AM base.LogResults createLogs
+INFO: PASS - Employee Can Access His Attendance Successfully: 
+Sept 01, 2025 11:23:04 AM base.LogResults createLogs
+INFO: PASS - Employee Can Access His EmpRegulationRequest Successfully: 
+Sept 01, 2025 11:23:06 AM base.LogResults createLogs
+INFO: PASS - Employee Can Access His EmpOverTimeRequest Successfully: 
+Sept 01, 2025 11:23:08 AM base.LogResults createLogs
+INFO: PASS - Employee Can Access His EmpShiftRequest Successfully: 
+Sept 01, 2025 11:23:11 AM base.LogResults createLogs
+INFO: PASS - Employee Can Access His EmpWeekOffRequest Successfully: 
+Sept 01, 2025 11:23:11 AM base.LogResults onlyLog
+INFO: Failed - MeghMasterRolePermissionTest-MPI_280_RolePermission_15-To verify this, assign Attendance permissions to an employee, then log in using that employee’s account and ensure that all Attendance-related options—My Regularization, My OT Approval, My Shift Request, and My Week Off Request—are displayed as per the assigned permissions.
+Sept 01, 2025 11:23:11 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+Sept 01, 2025 11:23:17 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:23:23 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:23:26 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:23:32 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:23:34 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520@mailinator.com
+Sept 01, 2025 11:23:37 AM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Sept 01, 2025 11:23:39 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:23:41 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:23:44 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:23:46 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:23:53 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:23:55 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:23:58 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:24:00 AM base.LogResults createLogs
+INFO: PASS - Role Button  Clicked Successfully: 
+Sept 01, 2025 11:24:02 AM base.LogResults createLogs
+INFO: PASS - Role Permission Page  Loaded Successfully: 
+Sept 01, 2025 11:24:04 AM base.LogResults createLogs
+INFO: PASS - Add RolePermission Button  Clicked Successfully: 
+Sept 01, 2025 11:24:07 AM base.LogResults createLogs
+INFO: PASS - Role DropDown Clicked Successfully: 
+Sept 01, 2025 11:24:09 AM base.LogResults createLogs
+INFO: PASS - Role Selected Successfully: employee
+Sept 01, 2025 11:24:11 AM base.LogResults createLogs
+INFO: PASS - Role Selected  Successfully: 
+Sept 01, 2025 11:24:13 AM base.LogResults createLogs
+INFO: PASS - Leave Permission Selected  Successfully: 
+Sept 01, 2025 11:24:20 AM base.LogResults createLogs
+INFO: PASS - RolePermissionSaveButton Clicked Successfully: 
+Sept 01, 2025 11:24:30 AM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Sept 01, 2025 11:24:33 AM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Sept 01, 2025 11:24:35 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:24:41 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:24:43 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:24:50 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:24:52 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520UZKE@mailinator.com
+Sept 01, 2025 11:24:54 AM base.LogResults createLogs
+INFO: PASS -  Password entered.AutoEIDHEZRH709
+Sept 01, 2025 11:24:56 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:24:59 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:25:01 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:25:03 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:25:19 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Toggle Switch: element not interactable
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a7b72c7242b82fd06f85ff21eb2af9a, clickElement {id=f.F1B707F1FE8BD0E4782E738A4E072CB0.d.2624273622E92C280AD530B2549245CA.e.3179}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54920}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54920/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5a7b72c7242b82fd06f85ff21eb2af9a)] -> xpath: //input[@id='ManageRole']]
+Session ID: 5a7b72c7242b82fd06f85ff21eb2af9a
+Sept 01, 2025 11:25:22 AM base.LogResults createLogs
+INFO: PASS - Leave Button Clicked Successfully Of Employee Account: 
+Sept 01, 2025 11:25:26 AM base.LogResults createLogs
+INFO: PASS -  EmpLeaveRequestsTab Clicked Successfully Of Employee Account: 
+Sept 01, 2025 11:25:30 AM base.LogResults createLogs
+INFO: PASS -  EmpLeaveBalanceTab Clicked Successfully Of Employee Account: 
+Sept 01, 2025 11:25:30 AM base.LogResults onlyLog
+INFO: Failed - MeghMasterRolePermissionTest-MPI_281_RolePermission_16-To verify this, log in using the employee account where Leave module permissions have been assigned, and ensure that My Leave Request, Comp-off Request, and My Leave Balance are displayed as per the assigned permissions.
+Sept 01, 2025 11:25:30 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 2  Total TC : 2
+Sept 01, 2025 11:25:36 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:25:43 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:25:45 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:25:51 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:25:53 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520@mailinator.com
+Sept 01, 2025 11:25:56 AM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Sept 01, 2025 11:25:58 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:26:00 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:26:03 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:26:05 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:26:12 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:26:14 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:26:17 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:26:19 AM base.LogResults createLogs
+INFO: PASS - Role Button  Clicked Successfully: 
+Sept 01, 2025 11:26:21 AM base.LogResults createLogs
+INFO: PASS - Role Permission Page  Loaded Successfully: 
+Sept 01, 2025 11:26:23 AM base.LogResults createLogs
+INFO: PASS - Add RolePermission Button  Clicked Successfully: 
+Sept 01, 2025 11:26:26 AM base.LogResults createLogs
+INFO: PASS - Role DropDown Clicked Successfully: 
+Sept 01, 2025 11:26:28 AM base.LogResults createLogs
+INFO: PASS - Role Selected Successfully: employee
+Sept 01, 2025 11:26:30 AM base.LogResults createLogs
+INFO: PASS - Role Selected  Successfully: 
+Sept 01, 2025 11:26:32 AM base.LogResults createLogs
+INFO: PASS - EmpReport Permission Selected  Successfully: 
+Sept 01, 2025 11:26:38 AM base.LogResults createLogs
+INFO: PASS - RolePermissionSaveButton Clicked Successfully: 
+Sept 01, 2025 11:26:49 AM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Sept 01, 2025 11:26:51 AM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Sept 01, 2025 11:26:53 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:27:00 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:27:02 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:27:08 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:27:10 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520UZKE@mailinator.com
+Sept 01, 2025 11:27:13 AM base.LogResults createLogs
+INFO: PASS -  Password entered.AutoEIDHEZRH709
+Sept 01, 2025 11:27:15 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:27:17 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:27:19 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:27:21 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:27:38 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Toggle Switch: element not interactable
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb214a627753e0104eb2ac298d69b9b1, clickElement {id=f.414EF2668EB503279CA819AAA61BEE0B.d.DA09ABAB643BC8551A52156096FB2909.e.3181}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55083}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55083/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb214a627753e0104eb2ac298d69b9b1)] -> xpath: //input[@id='ManageRole']]
+Session ID: bb214a627753e0104eb2ac298d69b9b1
+Sept 01, 2025 11:27:44 AM base.LogResults createLogs
+INFO: PASS - Employee EmpReprt Button Clicked Successfully Of Employee Account: 
+Sept 01, 2025 11:27:48 AM base.LogResults createLogs
+INFO: PASS - AttendanceReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:27:51 AM base.LogResults createLogs
+INFO: PASS - PunchReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:27:53 AM base.LogResults createLogs
+INFO: PASS - InOutReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:27:55 AM base.LogResults createLogs
+INFO: PASS - Employee EmpReprt Button Clicked Successfully Of Employee Account: 
+Sept 01, 2025 11:28:00 AM base.LogResults createLogs
+INFO: PASS - TimeLogReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:28:02 AM base.LogResults createLogs
+INFO: PASS - RegulationReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:28:05 AM base.LogResults createLogs
+INFO: PASS - OverTimeReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:28:07 AM base.LogResults createLogs
+INFO: PASS - OverTimeReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:28:09 AM base.LogResults createLogs
+INFO: PASS - WeekOffReport Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:28:09 AM base.LogResults onlyLog
+INFO: Failed - MeghMasterRolePermissionTest-MPI_282_RolePermission_17-To verify this, log in using the employee account and ensure that the following reports are displayed:In/Out Reports, Early & Late In/Out, Regularization Report, Overtime, Total Leaves Taken, Weekly Off Report, Punch Report, and Attendance Report.
+Sept 01, 2025 11:28:09 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 3  Total TC : 3
+Sept 01, 2025 11:28:15 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:28:21 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:28:24 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:28:30 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:28:32 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520@mailinator.com
+Sept 01, 2025 11:28:34 AM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Sept 01, 2025 11:28:37 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:28:39 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:28:41 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:28:43 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:28:50 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:28:53 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:28:55 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:28:58 AM base.LogResults createLogs
+INFO: PASS - Role Button  Clicked Successfully: 
+Sept 01, 2025 11:29:00 AM base.LogResults createLogs
+INFO: PASS - Role Permission Page  Loaded Successfully: 
+Sept 01, 2025 11:29:02 AM base.LogResults createLogs
+INFO: PASS - Add RolePermission Button  Clicked Successfully: 
+Sept 01, 2025 11:29:04 AM base.LogResults createLogs
+INFO: PASS - Role DropDown Clicked Successfully: 
+Sept 01, 2025 11:29:06 AM base.LogResults createLogs
+INFO: PASS - Role Selected Successfully: employee
+Sept 01, 2025 11:29:09 AM base.LogResults createLogs
+INFO: PASS - Role Selected  Successfully: 
+Sept 01, 2025 11:29:11 AM base.LogResults createLogs
+INFO: PASS - Shift Permission Selected  Successfully: 
+Sept 01, 2025 11:29:17 AM base.LogResults createLogs
+INFO: PASS - Directory Permission Selected  Successfully: 
+Sept 01, 2025 11:29:23 AM base.LogResults createLogs
+INFO: PASS - File Permission Selected  Successfully: 
+Sept 01, 2025 11:29:30 AM base.LogResults createLogs
+INFO: PASS - RolePermissionSaveButton Clicked Successfully: 
+Sept 01, 2025 11:29:40 AM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Sept 01, 2025 11:29:43 AM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Sept 01, 2025 11:29:45 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:29:51 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:29:53 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:30:00 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:30:02 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520UZKE@mailinator.com
+Sept 01, 2025 11:30:04 AM base.LogResults createLogs
+INFO: PASS -  Password entered.AutoEIDHEZRH709
+Sept 01, 2025 11:30:06 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:30:09 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:30:11 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:30:13 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:30:29 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Toggle Switch: element not interactable
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33ac4ac14eaca13d825cb46199560a74, clickElement {id=f.ED9AFFDECF0DF3E99C129FB0BC3FF557.d.E3AD843811B162971B16773EE0F6CE82.e.3185}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55297}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55297/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (33ac4ac14eaca13d825cb46199560a74)] -> xpath: //input[@id='ManageRole']]
+Session ID: 33ac4ac14eaca13d825cb46199560a74
+Sept 01, 2025 11:30:36 AM base.LogResults createLogs
+INFO: PASS - Shift Button Clicked Successfully In Employee Account: 
+Sept 01, 2025 11:30:51 AM base.LogResults createLogs
+INFO: FAIL - Error While Displaying MyShiftTab In Shift Module: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='myShift_tab']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33ac4ac14eaca13d825cb46199560a74, findElement {value=//a[@id='myShift_tab'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55297}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55297/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33ac4ac14eaca13d825cb46199560a74
+Sept 01, 2025 11:30:53 AM base.LogResults createLogs
+INFO: PASS - EmpFileButton Clicked Successfully In Employee Account: 
+Sept 01, 2025 11:30:57 AM base.LogResults createLogs
+INFO: PASS - MyFilesTab Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:31:10 AM base.LogResults createLogs
+INFO: FAIL - Error While Displaying CompanyFilesTab In Files Module: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='empCompanyFiles_tab']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33ac4ac14eaca13d825cb46199560a74, findElement {value=//a[@id='empCompanyFiles_tab'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55297}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55297/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33ac4ac14eaca13d825cb46199560a74
+Sept 01, 2025 11:31:12 AM base.LogResults createLogs
+INFO: PASS - EmpDirectoryButton Clicked Successfully In Employee Account: 
+Sept 01, 2025 11:31:16 AM base.LogResults createLogs
+INFO: PASS - MyEmployeeTab Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:31:18 AM base.LogResults createLogs
+INFO: PASS - ORGChartTab Displayed Successfully In Employee Account: 
+Sept 01, 2025 11:31:18 AM base.LogResults onlyLog
+INFO: Failed - MeghMasterRolePermissionTest-MPI_283_RolePermission_18-To verify this, log in using the employee account and ensure that only the following are displayed: In the Directory module, My Employee table and Org Chart; In the Shift module, My Shift section only; In the File module, My Files and Employee Company Files are displayed.
+Sept 01, 2025 11:31:18 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 4  Total TC : 4

@@ -1,0 +1,340 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:150725-150725-ThreSld->3
+cmpcode and emailidASJLAutoE150725142816@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 2:51:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 2:52:01 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 2:52:06 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ASJL
+Jul 15, 2025 2:52:06 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 15, 2025 2:52:10 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 15, 2025 2:52:10 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE150725142816@mailinator.com
+Jul 15, 2025 2:52:10 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 15, 2025 2:52:11 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 15, 2025 2:52:11 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 15, 2025 2:52:13 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 15, 2025 2:52:18 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:52:20 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:52:20 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:52:21 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Jul 15, 2025 2:52:21 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On AddOfficeButton : 
+Jul 15, 2025 2:52:22 PM base.LogResults createLogs
+INFO: PASS -  OfficeName Entered In the Office Name TextField : AutoON150725142816
+Jul 15, 2025 2:52:26 PM base.LogResults createLogs
+INFO: PASS -  Office Type Selected In the Office Type Dropdown : 
+Jul 15, 2025 2:52:29 PM base.LogResults createLogs
+INFO: PASS -  Country Selected In the Country  Dropdown : 
+Jul 15, 2025 2:52:32 PM base.LogResults createLogs
+INFO: PASS -  State Selected In the State  Dropdown : Gujarat
+Jul 15, 2025 2:52:32 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On CompanyLocationSaveButton : 
+Jul 15, 2025 2:52:39 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:52:41 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:52:41 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:52:42 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Jul 15, 2025 2:52:42 PM base.LogResults createLogs
+INFO: PASS - Add Department Tab  Clicked Successfully: 
+Jul 15, 2025 2:52:43 PM base.LogResults createLogs
+INFO: PASS - Department Name Entered Successfully: AutoDN150725142816
+Jul 15, 2025 2:52:43 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Add Department Save Button: 
+Jul 15, 2025 2:52:47 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On DepartmentMapping Button: 
+Jul 15, 2025 2:52:47 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddDepartmentMapping Button: 
+Jul 15, 2025 2:52:50 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected Department: AutoDN150725142816
+Jul 15, 2025 2:52:53 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected OfficeName: AutoON150725142816
+Jul 15, 2025 2:52:54 PM base.LogResults createLogs
+INFO: PASS - AddDeptMappingSaveButton Clicked Successfully: 
+Jul 15, 2025 2:53:01 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:53:01 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:53:02 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 15, 2025 2:53:04 PM base.LogResults createLogs
+INFO: PASS - Add Team Button  Clicked Successfully: 
+Jul 15, 2025 2:53:04 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTN150725142816
+Jul 15, 2025 2:53:04 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Jul 15, 2025 2:53:07 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 15, 2025 2:53:07 PM base.LogResults createLogs
+INFO: PASS - AddTeamMapping Button  Clicked Successfully: 
+Jul 15, 2025 2:53:11 PM base.LogResults createLogs
+INFO: PASS - Team Name Selected Successfully: AutoTN150725142816
+Jul 15, 2025 2:53:11 PM base.LogResults createLogs
+INFO: PASS - Department DropDown Clicked Successfully: 
+Jul 15, 2025 2:53:11 PM base.LogResults createLogs
+INFO: PASS - Department Name Inputted Successfully: AutoDN150725142816
+Jul 15, 2025 2:53:14 PM base.LogResults createLogs
+INFO: PASS - Department Name Selected Successfully: 
+Jul 15, 2025 2:53:15 PM base.LogResults createLogs
+INFO: PASS - Add Team Mapping Saved Successfully: 
+Jul 15, 2025 2:53:23 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:53:25 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:53:25 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 2:53:27 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:53:37 PM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Jul 15, 2025 2:53:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Jul 15, 2025 2:53:41 PM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Jul 15, 2025 2:53:44 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN150725142816
+Jul 15, 2025 2:53:44 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Jul 15, 2025 2:53:46 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Jul 15, 2025 2:53:48 PM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Jul 15, 2025 2:53:49 PM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: autoEIDMTUWNA
+Jul 15, 2025 2:53:52 PM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON150725142816
+Jul 15, 2025 2:53:52 PM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNHHCTE
+Jul 15, 2025 2:53:52 PM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNBVROR
+Jul 15, 2025 2:53:53 PM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE150725142816GDA@mailinator.com
+Jul 15, 2025 2:53:53 PM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851454709
+Jul 15, 2025 2:53:53 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Jul 15, 2025 2:53:53 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 
+Jul 15, 2025 2:53:53 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Jul 15, 2025 2:53:57 PM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Jul 15, 2025 2:53:58 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 2:53:59 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 15, 2025 2:53:59 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 2:54:03 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNBVROR
+Jul 15, 2025 2:54:06 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNBVROR
+Jul 15, 2025 2:54:07 PM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Jul 15, 2025 2:54:07 PM base.LogResults createLogs
+INFO: PASS - Clicked On WebEnrollment Successfully: 
+Jul 15, 2025 2:54:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On FaceEnrollmentTab Successfully: 
+Jul 15, 2025 2:54:25 PM base.LogResults createLogs
+INFO: PASS - Image Selected For WebEnrollment Successfully: ./data/images/enrollmentimage.jpg
+Jul 15, 2025 2:54:25 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On CropImage: 
+Jul 15, 2025 2:54:25 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveEnrollmentButton: 
+Jul 15, 2025 2:54:35 PM base.LogResults createLogs
+INFO: PASS - Success Msg Is Displayed: 
+Jul 15, 2025 2:54:43 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:54:45 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:54:45 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 2:54:47 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:54:47 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 2:54:47 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 15, 2025 2:54:47 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 2:54:52 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNBVROR
+Jul 15, 2025 2:54:55 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNBVROR
+Jul 15, 2025 2:54:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 2:54:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 2:55:06 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Manage Profile EditIcon: 
+Jul 15, 2025 2:55:10 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On DepartmentDropDown : 
+Jul 15, 2025 2:55:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Input The DeptName : AutoDN150725142816
+Jul 15, 2025 2:55:14 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected DeptName : 
+Jul 15, 2025 2:55:17 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On TeamDropDown: 
+Jul 15, 2025 2:55:19 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Team Name: AutoTN150725142816
+Jul 15, 2025 2:55:21 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamMappingTest-MPI_518_TeamMapping_01-To verify this, create a department and map it with an office. Then, navigate to Team Mapping, click on 'Add Team Mapping', select the created team, select the mapped department, and save. After saving, create an employee for the selected location. Navigate to the employee's profile, select the department, click on the team field, enter the team name, and ensure that the mapped team is displayed.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_518_TeamMapping_01
+Jul 15, 2025 2:55:21 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 201.2065 seconds
+Total TC Time: 00:03:21
+Launching Driver...
+Jul 15, 2025 2:55:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 2:55:25 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 2:55:29 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ASJL
+Jul 15, 2025 2:55:29 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 15, 2025 2:55:34 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 15, 2025 2:55:34 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE150725142816@mailinator.com
+Jul 15, 2025 2:55:34 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 15, 2025 2:55:34 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 15, 2025 2:55:34 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 15, 2025 2:55:37 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 15, 2025 2:55:42 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:55:44 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:55:44 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:55:45 PM base.LogResults createLogs
+INFO: PASS - Designation Button  Clicked Successfully: 
+Jul 15, 2025 2:55:46 PM base.LogResults createLogs
+INFO: PASS - Designation Page Loaded Successfully: 
+Jul 15, 2025 2:55:46 PM base.LogResults createLogs
+INFO: PASS - Add Designation Button  Clicked Successfully: 
+Jul 15, 2025 2:55:48 PM base.LogResults createLogs
+INFO: PASS -  Designation Entered In The Input Successfully: AutoDN150725142816
+Jul 15, 2025 2:55:48 PM base.LogResults createLogs
+INFO: PASS -  Designation Description Entered In The Input Successfully: Autodesignationdescription150725142816
+Jul 15, 2025 2:55:48 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Designation Save Button : 
+Jul 15, 2025 2:55:50 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 2:55:52 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:55:52 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 2:55:52 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 2:56:02 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Manage Profile EditIcon: 
+Jul 15, 2025 2:56:08 PM base.LogResults createLogs
+INFO: PASS - Manage Profile Designation DropDown Clicked Successfully: 
+Jul 15, 2025 2:56:08 PM base.LogResults createLogs
+INFO: PASS -  Created Designation Name Entered In The Input Successfully: AutoDN150725142816
+Jul 15, 2025 2:56:08 PM base.LogResults createLogs
+INFO: PASS - Created Designation Displayed Successfully: 
+Jul 15, 2025 2:56:11 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterDesignationTest-MPI_232_Designation_01-To verify this, create a new designation and ensure that the created designation appears in the 'Designation' dropdown within the Employee Manage Profile section.
+---------------------------------------------------------------
+MeghMasterDesignationTestMPI_232_Designation_01
+Jul 15, 2025 2:56:11 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 46.7048 seconds
+Total TC Time: 00:00:46
+Launching Driver...
+Jul 15, 2025 2:56:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 2:56:14 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 2:56:19 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ASJL
+Jul 15, 2025 2:56:19 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 15, 2025 2:56:23 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 15, 2025 2:56:23 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE150725142816@mailinator.com
+Jul 15, 2025 2:56:23 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 15, 2025 2:56:23 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 15, 2025 2:56:24 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 15, 2025 2:56:26 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 15, 2025 2:56:31 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:56:32 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:56:33 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:56:34 PM base.LogResults createLogs
+INFO: PASS - Grade Button  Clicked Successfully: 
+Jul 15, 2025 2:56:35 PM base.LogResults createLogs
+INFO: PASS - Grade Page Loaded Successfully: 
+Jul 15, 2025 2:56:35 PM base.LogResults createLogs
+INFO: PASS - Add Grade Button  Clicked Successfully: 
+Jul 15, 2025 2:56:36 PM base.LogResults createLogs
+INFO: PASS -  Grade Name Entered Successfully: AutoGN150725142816
+Jul 15, 2025 2:56:37 PM base.LogResults createLogs
+INFO: PASS -  Grade Description Entered Successfully: Autogdescription150725142816
+Jul 15, 2025 2:56:37 PM base.LogResults createLogs
+INFO: PASS - AddGradeSaveButton Clicked Successfully: 
+Jul 15, 2025 2:56:41 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 2:56:43 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:56:43 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 2:56:43 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 2:56:52 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Manage Profile EditIcon: 
+Jul 15, 2025 2:57:05 PM base.LogResults createLogs
+INFO: PASS - ManageProfileGradeDropDown Clicked Successfully: 
+Jul 15, 2025 2:57:08 PM base.LogResults createLogs
+INFO: PASS - Grade Name Entered In ManageProfileGradeTextField Successfully: AutoGN150725142816
+Jul 15, 2025 2:57:12 PM base.LogResults createLogs
+INFO: PASS - Manage Profile Grade SearchResult Displayed Successfully: 
+Jul 15, 2025 2:57:12 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterGradeTest-MPI_289_Grade_01-Create a newÂ GradeÂ and ensure that theÂ created GradeÂ is displayed in theÂ Grade dropdownÂ under theÂ Employee/User Manage ProfileÂ section
+---------------------------------------------------------------
+MeghMasterGradeTestMPI_289_Grade_01
+Jul 15, 2025 2:57:12 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 58.9602 seconds
+Total TC Time: 00:00:58
+
+===============================================
+Suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+

@@ -1,0 +1,48 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:140725-140725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 14, 2025 6:04:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 6:04:11 PM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_540_MeghPi_Shift_16-To verify this, assign the created shift to any shift policy, and ensure that when attempting to delete the shift after assignment, an appropriate error message is displayed.
+---------------------------------------------------------------
+MeghShiftTestMPI_540_MeghPi_Shift_16
+Jul 14, 2025 6:04:11 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 0.0766 seconds
+Total TC Time: 00:00:00
+Launching Driver...
+Jul 14, 2025 6:04:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 6:04:14 PM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_540_MeghPi_Shift_16-
+---------------------------------------------------------------
+MeghShiftTestMPI_540_MeghPi_Shift_16
+Jul 14, 2025 6:04:14 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 0.0242 seconds
+Total TC Time: 00:00:00
+Launching Driver...
+Jul 14, 2025 6:04:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 6:04:17 PM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_540_MeghPi_Shift_16-
+---------------------------------------------------------------
+MeghShiftTestMPI_540_MeghPi_Shift_16
+Jul 14, 2025 6:04:17 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 0.0345 seconds
+Total TC Time: 00:00:00
+
+===============================================
+Suite
+Total tests run: 3, Passes: 0, Failures: 1, Skips: 2
+Configuration Failures: 3, Skips: 0
+===============================================
+

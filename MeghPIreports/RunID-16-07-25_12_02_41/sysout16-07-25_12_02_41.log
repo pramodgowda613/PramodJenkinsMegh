@@ -1,0 +1,187 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:160725-150725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 16, 2025 12:02:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 16, 2025 12:02:45 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 16, 2025 12:02:49 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.AZPK
+Jul 16, 2025 12:02:50 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 16, 2025 12:02:54 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 16, 2025 12:02:54 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725091521@mailinator.com
+Jul 16, 2025 12:02:54 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 16, 2025 12:02:54 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 16, 2025 12:02:55 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 16, 2025 12:02:57 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 16, 2025 12:02:57 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 16, 2025 12:03:02 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 16, 2025 12:03:02 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 16, 2025 12:03:02 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 16, 2025 12:03:02 PM base.LogResults createLogs
+INFO: PASS - HolidaysButtonFromSidebar Clicked Successfully: 
+Jul 16, 2025 12:03:04 PM base.LogResults createLogs
+INFO: PASS - AddHolidayPolicyButton Clicked Successfully: 
+Jul 16, 2025 12:03:12 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicyName Inputted In TextField Successfully: AutoHPN150725091521CGJ
+Jul 16, 2025 12:03:18 PM base.LogResults createLogs
+INFO: PASS - Year Selected Successfully: 2024-2025 
+Jul 16, 2025 12:03:19 PM base.LogResults createLogs
+INFO: PASS - NextStepButton Clicked Successfully: 
+Jul 16, 2025 12:03:19 PM base.LogResults createLogs
+INFO: PASS - NextStepButton Clicked Successfully: 
+Jul 16, 2025 12:03:19 PM base.LogResults createLogs
+INFO: PASS - CreatePolicySaveButton Clicked Successfully: 
+Jul 16, 2025 12:03:26 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 16, 2025 12:03:31 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 16, 2025 12:03:33 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 16, 2025 12:03:33 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 16, 2025 12:03:34 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 16, 2025 12:03:35 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 16, 2025 12:03:35 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 16, 2025 12:03:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 16, 2025 12:04:04 PM base.LogResults createLogs
+INFO: PASS - Created Holiday Policy Is Assigned To All Emp Successfully: AutoHPN150725091521CGJ=AutoHPN150725091521CGJ
+Jul 16, 2025 12:04:04 PM base.LogResults onlyLog
+INFO: Passed - MeghHolidayPolicyTest-MPI_586_Holiday_Policy_01-To verify this, create a holiday policy by selecting 2024-2025 as duration year and ensure that the created policy is displayed in the employee profile.
+---------------------------------------------------------------
+MeghHolidayPolicyTestMPI_586_Holiday_Policy_01
+Jul 16, 2025 12:04:04 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 80.3498 seconds
+Total TC Time: 00:01:20
+Launching Driver...
+Jul 16, 2025 12:04:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 16, 2025 12:04:08 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 16, 2025 12:04:12 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.AZPK
+Jul 16, 2025 12:04:12 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 16, 2025 12:04:17 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 16, 2025 12:04:17 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725091521@mailinator.com
+Jul 16, 2025 12:04:17 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 16, 2025 12:04:17 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 16, 2025 12:04:17 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 16, 2025 12:04:20 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 16, 2025 12:04:20 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 16, 2025 12:04:24 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 16, 2025 12:04:24 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 16, 2025 12:04:25 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 16, 2025 12:04:26 PM base.LogResults createLogs
+INFO: PASS - HolidaysButtonFromSidebar Clicked Successfully: 
+Jul 16, 2025 12:04:34 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicy Name Inutted In SearchTextField Successfully: AutoHPN150725091521CGJ
+Jul 16, 2025 12:04:38 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicy Displayed Successfully: AutoHPN150725091521CGJ
+Jul 16, 2025 12:04:38 PM base.LogResults onlyLog
+INFO: Passed - MeghHolidayPolicyTest-MPI_587_Holiday_Policy_02-To verify this, check the functionality of search feature 
+---------------------------------------------------------------
+MeghHolidayPolicyTestMPI_587_Holiday_Policy_02
+Jul 16, 2025 12:04:38 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 31.6326 seconds
+Total TC Time: 00:01:51
+Launching Driver...
+Jul 16, 2025 12:04:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 16, 2025 12:04:42 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 16, 2025 12:04:46 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.AZPK
+Jul 16, 2025 12:04:47 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 16, 2025 12:04:51 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 16, 2025 12:04:51 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725091521@mailinator.com
+Jul 16, 2025 12:04:51 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 16, 2025 12:04:52 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 16, 2025 12:04:52 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 16, 2025 12:04:54 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 16, 2025 12:04:54 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 16, 2025 12:04:59 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 16, 2025 12:04:59 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 16, 2025 12:04:59 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 16, 2025 12:05:00 PM base.LogResults createLogs
+INFO: PASS - HolidaysButtonFromSidebar Clicked Successfully: 
+Jul 16, 2025 12:05:09 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicy Name Inutted In SearchTextField Successfully: AutoHPN150725091521CGJ
+Jul 16, 2025 12:05:13 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicy Displayed Successfully: AutoHPN150725091521CGJ
+Jul 16, 2025 12:05:13 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicyEditIcon Clicked Successfully: 
+Jul 16, 2025 12:05:21 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicyName Inputted In TextField Successfully: AutoHPNPPES
+Jul 16, 2025 12:05:28 PM base.LogResults createLogs
+INFO: PASS - Year Selected Successfully: 2024-2025 
+Jul 16, 2025 12:05:28 PM base.LogResults createLogs
+INFO: PASS - NextStepButton Clicked Successfully: 
+Jul 16, 2025 12:05:28 PM base.LogResults createLogs
+INFO: PASS - NextStepButton Clicked Successfully: 
+Jul 16, 2025 12:05:28 PM base.LogResults createLogs
+INFO: PASS - CreatePolicySaveButton Clicked Successfully: 
+Jul 16, 2025 12:05:35 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 16, 2025 12:05:44 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicy Name Inutted In SearchTextField Successfully: AutoHPNPPES
+Jul 16, 2025 12:05:48 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicy Displayed Successfully: AutoHPNPPES
+Jul 16, 2025 12:05:48 PM base.LogResults onlyLog
+INFO: Passed - MeghHolidayPolicyTest-MPI_590_Holiday_Policy_05-To verify this, edit the holiday policy and add another holiday and ensure added holiday is added to the policy 
+---------------------------------------------------------------
+MeghHolidayPolicyTestMPI_590_Holiday_Policy_05
+Jul 16, 2025 12:05:48 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 66.9347 seconds
+Total TC Time: 00:02:58
+
+===============================================
+Suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+

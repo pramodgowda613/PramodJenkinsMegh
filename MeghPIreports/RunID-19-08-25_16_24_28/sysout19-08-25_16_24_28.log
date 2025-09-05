@@ -1,0 +1,35 @@
+>> Console logging redirected to data/console.log
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_04_50\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_04_50\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_04_50\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_06_47\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_06_47\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_06_47\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_09_07\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_09_07\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_09_07\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_10_23\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_10_23\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_10_23\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_15_09\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_15_09\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_15_09\Dashboard.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_18_51\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_18_51\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_16_18_51\Dashboard.html
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Status Code: 200
+Response Body: {"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IkxGK2dPTm9qbE1Rclk4NG02K2tOaURQMzBxV2lCMEZQT0I0eTlLeHhzaThAIiwiUm9sZXMiOiJIRjlkWnktWTZQLUprM1E5d0ZjbzgtaEJXNTZzN29JcE5WMW5XZFc0WC0wa2JZM1gtZW9FZkdaQ3laZmM3SnFNIiwiQ29tcGFueUlkIjoiQXRoRTdUM1Y0dDFrZS1aWVRHbm5iSmw4bVZVZGtNeVJvc2ppMEVVeDV6d0AiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiY2tMeUxjWGUtWEdRdVVqZjJaZlMrZVFpMHpXaTZSVDlHOEgwQmdIaHFPSXNwZlI1S0pncHQ3T1dPTmZFY3d4RCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiN2UyZjRiYTktY2FiMC00NDk5LTllYzAtODA5NjhhNDdlMTVlIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiQXVnIFdlZCAyMCAyMDI1IDEwOjU0OjI5IEFNIiwiRW50aXR5SWQiOiItczktZDN3S2JpcGZJWUpXdCszVDlTMS1nNWVzLVZhNkorSDhmcWF1K0R3QCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6IitIT0FKaDJsY1NUa3NSUWtUMkdoNmRpVDd1NllDb2JGZjhqVVFRUEdyVk1AIiwiQ29tcGFueU1vZHVsZSI6IjBVdlZXUTFjUGpodVo0MDE0dUJ0YnRDcWlpS1lsZTMrZmxJbU9WMER1NVVAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJCSThUNmUrK3FKQmVOWFdwUnNUYklTRThMOGJXZ0trK0RQNm5ZaXlBTnhnQCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6ImlTYjNwTUZyV25KNXErSEpvT1N6MmNtUzRiY0w5NFVPTE1GVGFlbVRORE1AIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTU1ODEwNjksImV4cCI6MTc1NTU4Mjg2OSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.TgANJQHphMcj1_S7FWaZD5C3RaDkrbppxDLqONcvFOw","UserName":"ckLyLcXe-XGQuUjf2ZfS+eQi0zWi6RT9G8H0BgHhqOIspfR5KJgpt7OWONfEcwxD","Validaty":"11:24:29.8378363","RefreshToken":null,"RefreshTokenExpiration":"0001-01-01 00:00:00","Id":"LF+gONojlMQrY84m6+kNiDP30qWiB0FPOB4y9Kxxsi8@","Roles":"HF9dZy-Y6P-Jk3Q9wFco8-hBW56s7oIpNV1nWdW4X-0kbY3X-eoEfGZCyZfc7JqM","CompanyId":"AthE7T3V4t1ke-ZYTGnnbJl8mVUdkMyRosji0EUx5zw@","GuidId":"7e2f4ba9-cab0-4499-9ec0-80968a47e15e","ExpiredTime":"2025-08-19 11:24:29","EntityId":"-s9-d3wKbipfIYJWt+3T9S1-g5es-Va6J+H8fqau+Dw@","EncId":"6E6AAC45E4BE403F9607EF130488327B","EntityName":"pramod gowda","Designation":"AutodnWUIZWX","WidgetIds":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,43,44,18,19,20,40],"IsPwdResetRequired":false,"IsGettingStartedProcessDone":"+HOAJh2lcSTksRQkT2Gh6diT7u6YCobFf8jUQQPGrVM@","Theme":1,"ModuleName":"0UvVWQ1cPjhuZ4014uBtbtCqiiKYle3+flImOV0Du5U@","CompanyConfigDto":{"TimeFormat":"24","DateFormat":"MM-DD-YYYY","TimeZone":"UTC-12:00: Baker Island, Howland Island","Language":"en","CountryName":"India","Currency":"Indian Rupee (INR)","IsEnableHistory":false,"GeneralHasTwoStepVerification":false},"IsForceUpdate":false,"Url":null,"IsEmployeeLogin":false,"IsSwitchShow":true,"AccessAllEntity":true,"ViewAllTickets":false,"IsPaymentCompleted":"BI8T6e++qJBeNXWpRsTbISE8L8bWgKk+DP6nYiyANxg@","MaskedPIIConfigStatus":"iSb3pMFrWnJ5q+HJoOSz2cmS4bcL94UOLMFTaemTNDM@","HasTwoStepVerification":true,"TwoStepFromCompanyConfig":false,"UserRights":null,"ModuleNames":null}
+✅ Token Saved: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IkxGK2dPTm9qbE1Rclk4NG02K2tOaURQMzBxV2lCMEZQT0I0eTlLeHhzaThAIiwiUm9sZXMiOiJIRjlkWnktWTZQLUprM1E5d0ZjbzgtaEJXNTZzN29JcE5WMW5XZFc0WC0wa2JZM1gtZW9FZkdaQ3laZmM3SnFNIiwiQ29tcGFueUlkIjoiQXRoRTdUM1Y0dDFrZS1aWVRHbm5iSmw4bVZVZGtNeVJvc2ppMEVVeDV6d0AiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiY2tMeUxjWGUtWEdRdVVqZjJaZlMrZVFpMHpXaTZSVDlHOEgwQmdIaHFPSXNwZlI1S0pncHQ3T1dPTmZFY3d4RCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiN2UyZjRiYTktY2FiMC00NDk5LTllYzAtODA5NjhhNDdlMTVlIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiQXVnIFdlZCAyMCAyMDI1IDEwOjU0OjI5IEFNIiwiRW50aXR5SWQiOiItczktZDN3S2JpcGZJWUpXdCszVDlTMS1nNWVzLVZhNkorSDhmcWF1K0R3QCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6IitIT0FKaDJsY1NUa3NSUWtUMkdoNmRpVDd1NllDb2JGZjhqVVFRUEdyVk1AIiwiQ29tcGFueU1vZHVsZSI6IjBVdlZXUTFjUGpodVo0MDE0dUJ0YnRDcWlpS1lsZTMrZmxJbU9WMER1NVVAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJCSThUNmUrK3FKQmVOWFdwUnNUYklTRThMOGJXZ0trK0RQNm5ZaXlBTnhnQCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6ImlTYjNwTUZyV25KNXErSEpvT1N6MmNtUzRiY0w5NFVPTE1GVGFlbVRORE1AIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTU1ODEwNjksImV4cCI6MTc1NTU4Mjg2OSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.TgANJQHphMcj1_S7FWaZD5C3RaDkrbppxDLqONcvFOw
+Aug 19, 2025 4:24:44 PM base.LogResults createLogs
+INFO:  - 
+Error while reading excel : APIcustomholidayandAttenreprocess-Sheet index (-1) is out of range (0..27)
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 2, Passes: 1, Failures: 1, Skips: 0
+===============================================
+

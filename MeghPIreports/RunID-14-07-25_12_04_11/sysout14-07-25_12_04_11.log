@@ -1,0 +1,92 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:140725-140725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 14, 2025 12:04:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 12:04:16 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 12:04:20 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:04:20 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 12:04:20 PM base.LogResults createLogs
+INFO: PASS - Forgot Password Link is Clicked Successfully: 
+Jul 14, 2025 12:04:25 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:04:25 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Email Text Field: AutoE140725101157@mailinator.com
+Jul 14, 2025 12:04:25 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:04:25 PM base.LogResults createLogs
+INFO: PASS - Request OTP is Clicked Successfully: 
+Jul 14, 2025 12:04:27 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 14, 2025 12:04:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 14, 2025 12:04:31 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 14, 2025 12:04:37 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE140725101157
+Jul 14, 2025 12:04:37 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 14, 2025 12:04:38 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ForgotPasswordMail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (f9df7962c435205c3a1e1884d602a75b)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: We received a request to reset the password for your account. To verify your identity and proceed with the password reset, please use the following One-Time Password (OTP):<br><br>Your OTP: <b>127937</b><br>
+Jul 14, 2025 12:04:43 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+127937 this is OTP
+Jul 14, 2025 12:04:43 PM base.LogResults createLogs
+INFO: PASS - Get The OTP from Email Successfully: 
+Jul 14, 2025 12:04:51 PM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully: 
+Jul 14, 2025 12:04:51 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+127937testOTP
+Jul 14, 2025 12:04:51 PM base.LogResults createLogs
+INFO: PASS - OTP Entered On OTP Text Field: 127937
+Jul 14, 2025 12:04:52 PM base.LogResults createLogs
+INFO: PASS - Verify And Continue Clicked Successfully: 
+Jul 14, 2025 12:04:53 PM base.LogResults createLogs
+INFO: PASS - New Password Entered Successfully: Pramod@1234
+Jul 14, 2025 12:04:53 PM base.LogResults createLogs
+INFO: PASS - New Confirm Password Entered Successfully: Pramod@1234
+Jul 14, 2025 12:04:53 PM base.LogResults createLogs
+INFO: PASS - PasswordSetButton Clicked Successfully: 
+Jul 14, 2025 12:04:54 PM base.LogResults createLogs
+INFO: PASS - ContinueToLogin Clicked Successfully: 
+Jul 14, 2025 12:04:59 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 12:04:59 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 12:05:03 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 14, 2025 12:05:03 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140725101157@mailinator.com
+Jul 14, 2025 12:05:03 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 14, 2025 12:05:04 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 12:05:04 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 14, 2025 12:05:06 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 14, 2025 12:05:06 PM base.LogResults onlyLog
+INFO: Passed - MeghLoginTest-MPI_139_Login_page_21-To verify this, enter a email in the User Name / Phone Number text field of the Forgot Password step, check whether the user receives an OTP to change the password, and then change the password.
+---------------------------------------------------------------
+MeghLoginTestMPI_139_Login_page_21
+Jul 14, 2025 12:05:06 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 51.8150 seconds
+Total TC Time: 00:00:51
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

@@ -1,0 +1,186 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:060825-060825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 06, 2025 12:30:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 12:30:18 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 12:30:23 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 12:30:23 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 12:30:27 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 12:30:27 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 12:30:27 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 12:30:28 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 12:30:28 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 12:30:30 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 12:30:30 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 12:30:35 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 12:30:37 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 12:30:37 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 12:30:38 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Aug 06, 2025 12:30:38 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On AddOfficeButton : 
+Aug 06, 2025 12:30:39 PM base.LogResults createLogs
+INFO: PASS -  OfficeName Entered In the Office Name TextField : AutoON060825091631XRI
+Aug 06, 2025 12:30:43 PM base.LogResults createLogs
+INFO: PASS -  Office Type Selected In the Office Type Dropdown : 
+Aug 06, 2025 12:30:46 PM base.LogResults createLogs
+INFO: PASS -  Country Selected In the Country  Dropdown : 
+Aug 06, 2025 12:30:49 PM base.LogResults createLogs
+INFO: PASS -  State Selected In the State  Dropdown : Gujarat
+Aug 06, 2025 12:30:49 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On CompanyLocationSaveButton : 
+Aug 06, 2025 12:31:00 PM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON060825091631XRI
+Aug 06, 2025 12:31:04 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Aug 06, 2025 12:31:05 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 06, 2025 12:31:10 PM base.LogResults createLogs
+INFO: PASS - Department Drop Icon Clicked Successfully: 
+Aug 06, 2025 12:31:13 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Aug 06, 2025 12:31:15 PM base.LogResults createLogs
+INFO: PASS - Department Drop Icon Clicked Successfully: 
+Aug 06, 2025 12:31:25 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On DepartmentMapping Button : element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6a063c2d51331ef61677fe58ff46fa, clickElement {id=f.4D56023657EC94D648CDFF2CA0EC64AB.d.8F62A9944C13BFDECF3D369F9A8B89B5.e.1511}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f6a063c2d51331ef61677fe58ff46fa)] -> xpath: //button[@id='tab_deptMapping']]
+Session ID: 5f6a063c2d51331ef61677fe58ff46fa
+Aug 06, 2025 12:31:36 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On AddDepartmentMapping Button : no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='btnAddDepartmentLocationMapping'])[2]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6a063c2d51331ef61677fe58ff46fa, findElement {value=(//button[@id='btnAddDepartmentLocationMapping'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6a063c2d51331ef61677fe58ff46fa
+Aug 06, 2025 12:31:46 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On OfficeDropDown Button : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='select2-drpAssignOfc-container']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6a063c2d51331ef61677fe58ff46fa, findElement {value=//span[@id='select2-drpAssignOfc-container'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6a063c2d51331ef61677fe58ff46fa
+Aug 06, 2025 12:31:56 PM base.LogResults createLogs
+INFO: FAIL - Error while Inputting OfficeName : no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-controls='select2-drpAssignOfc-results']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6a063c2d51331ef61677fe58ff46fa, findElement {value=//input[@aria-controls='select2-drpAssignOfc-results'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6a063c2d51331ef61677fe58ff46fa
+Aug 06, 2025 12:32:07 PM base.LogResults createLogs
+INFO: FAIL - Error while Displaying Error Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[text()='No results found']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6a063c2d51331ef61677fe58ff46fa, findElement {value=//li[text()='No results found'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6a063c2d51331ef61677fe58ff46fa
+Aug 06, 2025 12:32:07 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 06, 2025 12:32:07 PM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_203_Department_10-To verify this, disable the company location and check whether the disabled location is not displayed in the "assign office" dropdown in the department mapping form. 
+---------------------------------------------------------------
+AttendanceMPI_203_Department_10
+Aug 06, 2025 12:32:07 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 109.6631 seconds
+Total TC Time: 00:01:49
+Launching Driver...
+Aug 06, 2025 12:32:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 06, 2025 12:32:11 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 06, 2025 12:32:15 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.AGFC
+Aug 06, 2025 12:32:15 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 06, 2025 12:32:19 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 06, 2025 12:32:19 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE060825091631@mailinator.com
+Aug 06, 2025 12:32:20 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 06, 2025 12:32:20 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 06, 2025 12:32:20 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 06, 2025 12:32:22 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 06, 2025 12:32:22 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 06, 2025 12:32:27 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 06, 2025 12:32:29 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 06, 2025 12:32:29 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 06, 2025 12:32:30 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Aug 06, 2025 12:32:38 PM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON060825091631XRI
+Aug 06, 2025 12:32:42 PM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Aug 06, 2025 12:32:44 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Aug 06, 2025 12:32:49 PM base.LogResults createLogs
+INFO: PASS - Department Drop Icon Clicked Successfully: 
+Aug 06, 2025 12:32:51 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Aug 06, 2025 12:32:53 PM base.LogResults createLogs
+INFO: PASS - Department Drop Icon Clicked Successfully: 
+Aug 06, 2025 12:33:04 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On DepartmentMapping Button : element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e67460120d8c263613b1195882f452bb, clickElement {id=f.63EEE54F8FDEFB51EF19E946698FD09E.d.EBB1D53461E51E2FD8984CE95D617D86.e.1499}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55303}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55303/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e67460120d8c263613b1195882f452bb)] -> xpath: //button[@id='tab_deptMapping']]
+Session ID: e67460120d8c263613b1195882f452bb
+Aug 06, 2025 12:33:14 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On AddDepartmentMapping Button : no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='btnAddDepartmentLocationMapping'])[2]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e67460120d8c263613b1195882f452bb, findElement {value=(//button[@id='btnAddDepartmentLocationMapping'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55303}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55303/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e67460120d8c263613b1195882f452bb

@@ -1,0 +1,102 @@
+>> Console logging redirected to data/console.log
+Created NEW EXEC ID IN data/addmaster.properties as Exceeds Threshold value120825-080825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 12, 2025 9:59:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 12, 2025 9:59:51 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 12, 2025 9:59:55 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: 
+Aug 12, 2025 9:59:55 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 12, 2025 10:00:09 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 12, 2025 10:00:09 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE120825095941@mailinator.com
+Aug 12, 2025 10:00:09 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 12, 2025 10:00:09 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 12, 2025 10:00:09 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 12, 2025 10:00:23 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 12, 2025 10:00:23 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 12, 2025 10:00:28 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 12, 2025 10:00:30 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 12, 2025 10:00:31 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 12, 2025 10:00:32 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 12, 2025 10:00:42 AM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Aug 12, 2025 10:00:43 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Aug 12, 2025 10:00:45 AM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Aug 12, 2025 10:00:50 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On EmployeeTypeDropdown  : Cannot locate option with text: AutoEN120825095941
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Aug 12, 2025 10:00:51 AM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Aug 12, 2025 10:00:53 AM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Aug 12, 2025 10:01:05 AM base.LogResults createLogs
+INFO: FAIL - Error While Selecting Entity Name   : no such element: Unable to locate element: {"method":"xpath","selector":"//li[@role='option']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90b98f701b4b058d39d2fb49b9e3f222, findElement {value=//li[@role='option'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64641}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64641/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90b98f701b4b058d39d2fb49b9e3f222
+Aug 12, 2025 10:01:06 AM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: AutoEIDTDESF
+Aug 12, 2025 10:01:09 AM base.LogResults createLogs
+INFO: FAIL - Error while Selecting Office Name: Cannot locate option with text: AutoON120825095941
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Aug 12, 2025 10:01:09 AM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNPLWEK
+Aug 12, 2025 10:01:09 AM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNFNXKF
+Aug 12, 2025 10:01:09 AM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE120825095941LXFI@mailinator.com
+Aug 12, 2025 10:01:10 AM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851485563
+Aug 12, 2025 10:01:10 AM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Aug 12, 2025 10:01:10 AM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 03-01-2025
+Aug 12, 2025 10:01:10 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Screenshot not captured : invalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90b98f701b4b058d39d2fb49b9e3f222, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64641}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64641/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90b98f701b4b058d39d2fb49b9e3f222
+Aug 12, 2025 10:01:17 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On GoToDirectory: Failed to click 'Go to Directory' link: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90b98f701b4b058d39d2fb49b9e3f222, findElement {value=//a[text()='Go to Directory']/.., using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64641}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64641/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90b98f701b4b058d39d2fb49b9e3f222

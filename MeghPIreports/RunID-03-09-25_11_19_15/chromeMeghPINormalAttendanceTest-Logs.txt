@@ -1,0 +1,10 @@
+Sept 03, 2025 11:19:22 AM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sept 03, 2025 11:19:25 AM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sept 03, 2025 11:19:28 AM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sept 03, 2025 11:19:28 AM base.LogResults onlyLog
+INFO: Passed - MeghPINormalAttendanceTest-MPI_728_Normal_Attendance_56-Check the status for emp by applying half day regulization request and half day leave
+Sept 03, 2025 11:19:28 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

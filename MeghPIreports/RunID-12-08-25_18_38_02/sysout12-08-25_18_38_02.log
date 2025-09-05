@@ -1,0 +1,118 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:120825-120825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 12, 2025 6:38:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 12, 2025 6:38:07 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 12, 2025 6:38:12 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 6:38:12 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 12, 2025 6:38:16 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 12, 2025 6:38:16 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE120825091619@mailinator.com
+Aug 12, 2025 6:38:16 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 12, 2025 6:38:16 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 12, 2025 6:38:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 12, 2025 6:38:20 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 12, 2025 6:38:20 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 12, 2025 6:38:25 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 12, 2025 6:38:27 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 12, 2025 6:38:27 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 12, 2025 6:38:28 PM base.LogResults createLogs
+INFO: PASS - Designation Button  Clicked Successfully: 
+Aug 12, 2025 6:38:31 PM base.LogResults createLogs
+INFO: PASS - Designation Page Loaded Successfully: 
+Aug 12, 2025 6:38:31 PM base.LogResults createLogs
+INFO: PASS - Add Designation Button  Clicked Successfully: 
+Aug 12, 2025 6:38:32 PM base.LogResults createLogs
+INFO: PASS -  Designation Entered In The Input Successfully: AutoDESNNMMQPW
+Aug 12, 2025 6:38:32 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Designation Save Button : 
+Aug 12, 2025 6:38:35 PM base.LogResults createLogs
+INFO: PASS - Successfully Enter The Designation Name On Search Text Field : AutoDESNNMMQPW
+Aug 12, 2025 6:38:39 PM base.LogResults createLogs
+INFO: PASS - Designation 3 Dots  Clicked Successfully: 
+Aug 12, 2025 6:38:49 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On Designation Edit Button : element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8728e868ef66db5412264ba93030d432, clickElement {id=f.0DE770636710064572CACA298D1D48C5.d.4CA636B494F552AE134586505552DE8F.e.1610}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51585}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51585/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8728e868ef66db5412264ba93030d432)] -> xpath: (//a[@data-bs-target='#phDesignationEditor'])[1]/..]
+Session ID: 8728e868ef66db5412264ba93030d432
+Aug 12, 2025 6:39:00 PM base.LogResults createLogs
+INFO: FAIL - Error while Inputting Designation Name : element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8728e868ef66db5412264ba93030d432, clearElement {id=f.0DE770636710064572CACA298D1D48C5.d.4CA636B494F552AE134586505552DE8F.e.1200}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51585}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51585/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8728e868ef66db5412264ba93030d432)] -> xpath: //input[@id='txtDesignationName']]
+Session ID: 8728e868ef66db5412264ba93030d432
+Aug 12, 2025 6:39:10 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking Designation Save Button : element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8728e868ef66db5412264ba93030d432, clickElement {id=f.0DE770636710064572CACA298D1D48C5.d.4CA636B494F552AE134586505552DE8F.e.1591}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51585}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51585/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8728e868ef66db5412264ba93030d432)] -> xpath: //button[@id='btnDesignationSave']]
+Session ID: 8728e868ef66db5412264ba93030d432
+Aug 12, 2025 6:39:13 PM base.LogResults createLogs
+INFO: PASS - Successfully Enter The Designation Name On Search Text Field : AutoDESNNMMQPW853
+Aug 12, 2025 6:39:17 PM base.LogResults createLogs
+INFO: PASS - Successfully Display The Searched Designation : No matching records found
+Aug 12, 2025 6:39:20 PM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_233_Designation_02-To verify this, edit the designation and confirm that the update is successful by searching for the updated designation
+---------------------------------------------------------------
+AttendanceMPI_233_Designation_02
+Aug 12, 2025 6:39:20 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 74.0180 seconds
+Total TC Time: 00:01:14
+Launching Driver...
+Aug 12, 2025 6:39:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 12, 2025 6:39:24 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 12, 2025 6:39:28 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 6:39:28 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 12, 2025 6:39:32 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 12, 2025 6:39:33 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE120825091619@mailinator.com
+Aug 12, 2025 6:39:33 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 12, 2025 6:39:33 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 12, 2025 6:39:33 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 12, 2025 6:39:36 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 12, 2025 6:39:36 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 12, 2025 6:39:42 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 

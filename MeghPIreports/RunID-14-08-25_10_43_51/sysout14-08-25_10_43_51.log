@@ -1,0 +1,388 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 14, 2025 10:43:52 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+Aug 14, 2025 10:43:55 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 14, 2025 10:44:02 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AZBF
+Aug 14, 2025 10:44:04 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 14, 2025 10:44:10 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 14, 2025 10:44:12 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140825091638@mailinator.com
+Aug 14, 2025 10:44:15 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 14, 2025 10:44:17 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 14, 2025 10:44:20 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 14, 2025 10:44:22 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 14, 2025 10:44:24 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 14, 2025 10:44:30 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 14, 2025 10:44:33 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 14, 2025 10:44:35 AM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Aug 14, 2025 10:44:38 AM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Aug 14, 2025 10:44:40 AM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Aug 14, 2025 10:44:42 AM base.LogResults createLogs
+INFO: PASS - CreateShiftButton Clicked Successfully : 
+Aug 14, 2025 10:44:48 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNNTDTTMG
+Aug 14, 2025 10:44:51 AM base.LogResults createLogs
+INFO: PASS - Shift Code Inputted Successfully : Au854
+Aug 14, 2025 10:44:56 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Clicked Successfully : 
+Aug 14, 2025 10:45:00 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Inputted Successfully : 09:00
+Aug 14, 2025 10:45:07 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Inputted Successfully : 
+Aug 14, 2025 10:45:09 AM base.LogResults createLogs
+INFO: PASS - Shift End Time Inputted Successfully : 18:00
+Aug 14, 2025 10:45:13 AM base.LogResults createLogs
+INFO: PASS - Shift Buffer Time Inputted Successfully : 1:00
+Aug 14, 2025 10:45:16 AM base.LogResults createLogs
+INFO: PASS - Shift Buffer Time Inputted Successfully : 1:00
+Aug 14, 2025 10:45:20 AM base.LogResults createLogs
+INFO: PASS - Shift Full Day Time Inputted Successfully : 9:00
+Aug 14, 2025 10:45:22 AM base.LogResults createLogs
+INFO: PASS - Shift Full Day Time Inputted Successfully : 9:00
+Aug 14, 2025 10:45:26 AM base.LogResults createLogs
+INFO: PASS - Shift Half Day Time Inputted Successfully : 4:30
+Aug 14, 2025 10:45:29 AM base.LogResults createLogs
+INFO: PASS - Shift Half Day Time Inputted Successfully : 4:30
+Aug 14, 2025 10:45:31 AM base.LogResults createLogs
+INFO: PASS - AddBreakButton Clicked Successfully : 
+Aug 14, 2025 10:45:33 AM base.LogResults createLogs
+INFO: PASS - Break Name Inputted Successfully : AutoBNMOLJF
+Aug 14, 2025 10:45:36 AM base.LogResults createLogs
+INFO: PASS - BreakStartTime Clicked Successfully : 
+Aug 14, 2025 10:45:38 AM base.LogResults createLogs
+INFO: PASS - BreakStartTime Inputted Successfully : 13:00
+Aug 14, 2025 10:45:40 AM base.LogResults createLogs
+INFO: PASS - BreakEndTime Clicked Successfully : 
+Aug 14, 2025 10:45:42 AM base.LogResults createLogs
+INFO: PASS - BreakEndTime Clicked Successfully : 14:00
+Aug 14, 2025 10:45:45 AM base.LogResults createLogs
+INFO: PASS - Break Name Inputted Successfully : AutoBNMOLJF
+Aug 14, 2025 10:45:51 AM base.LogResults createLogs
+INFO: PASS - BreakBufferTime Clicked Successfully : 
+Aug 14, 2025 10:45:56 AM base.LogResults createLogs
+INFO: PASS - BreakBufferTime Inputted Successfully : 13:30
+Aug 14, 2025 10:45:59 AM base.LogResults createLogs
+INFO: PASS - Create Shift Save Button Clicked Successfully : 
+Aug 14, 2025 10:46:05 AM base.LogResults createLogs
+INFO: PASS - ShiftPolicyTab Clicked Successfully : 
+Aug 14, 2025 10:46:12 AM base.LogResults createLogs
+INFO: PASS - AddShiftPolicyButton Clicked Successfully : 
+Aug 14, 2025 10:46:15 AM base.LogResults createLogs
+INFO: PASS - AddShiftButton Clicked Successfully : 
+Aug 14, 2025 10:46:21 AM base.LogResults createLogs
+INFO: PASS - Shift Name Validated And Present In The Shift Policy 'add shift' Successfully : AutoSNNTDTTMG
+Aug 14, 2025 10:46:21 AM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_162_MeghPi_Shift_01-To verify this, create an 'A shift' by selecting 6 to 2 timings and check whether the created shift is displayed in the shift policy module
+---------------------------------------------------------------
+MeghShiftTestMPI_162_MeghPi_Shift_01
+Aug 14, 2025 10:46:21 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 148.3042 seconds
+Total TC Time: 00:02:28
+Launching Driver...
+Aug 14, 2025 10:46:26 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 14, 2025 10:46:32 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AZBF
+Aug 14, 2025 10:46:35 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 14, 2025 10:46:41 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 14, 2025 10:46:43 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140825091638@mailinator.com
+Aug 14, 2025 10:46:46 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 14, 2025 10:46:48 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 14, 2025 10:46:50 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 14, 2025 10:46:55 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 14, 2025 10:46:57 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 14, 2025 10:47:03 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 14, 2025 10:47:06 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 14, 2025 10:47:08 AM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Aug 14, 2025 10:47:10 AM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Aug 14, 2025 10:47:14 AM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Aug 14, 2025 10:47:17 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNNTDTTMG
+Aug 14, 2025 10:47:23 AM base.LogResults createLogs
+INFO: PASS - ShiftEditButton Clicked Successfully : 
+Aug 14, 2025 10:47:29 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNVHHYNUJ
+Aug 14, 2025 10:47:35 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Clicked Successfully : 
+Aug 14, 2025 10:47:39 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Inputted Successfully : 06:00
+Aug 14, 2025 10:47:45 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Inputted Successfully : 
+Aug 14, 2025 10:47:47 AM base.LogResults createLogs
+INFO: PASS - Shift End Time Inputted Successfully : 02:00
+Aug 14, 2025 10:47:52 AM base.LogResults createLogs
+INFO: PASS - Create Shift Save Button Clicked Successfully : 
+Aug 14, 2025 10:47:58 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNVHHYNUJ
+Aug 14, 2025 10:48:04 AM base.LogResults createLogs
+INFO: PASS - Updated Shift Name Validated Successfully : AutoSNVHHYNUJ
+Aug 14, 2025 10:48:07 AM base.LogResults createLogs
+INFO: PASS - Updated Shift Start Time Validated Successfully : 06:00
+Aug 14, 2025 10:48:09 AM base.LogResults createLogs
+INFO: PASS - Updated Shift End Time Validated Successfully : 02:00
+Aug 14, 2025 10:48:09 AM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_537_MeghPi_Shift_13-To verify this, edit the shift and ensure that the updated shift name, timings, and other changes are saved and reflected correctly.
+---------------------------------------------------------------
+MeghShiftTestMPI_537_MeghPi_Shift_13
+Aug 14, 2025 10:48:09 AM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 106.3224 seconds
+Total TC Time: 00:04:14
+Launching Driver...
+Aug 14, 2025 10:48:13 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 14, 2025 10:48:20 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AZBF
+Aug 14, 2025 10:48:22 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 14, 2025 10:48:28 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 14, 2025 10:48:31 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140825091638@mailinator.com
+Aug 14, 2025 10:48:33 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 14, 2025 10:48:35 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 14, 2025 10:48:38 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 14, 2025 10:48:40 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 14, 2025 10:48:42 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 14, 2025 10:48:49 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 14, 2025 10:48:51 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 14, 2025 10:48:53 AM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Aug 14, 2025 10:48:55 AM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Aug 14, 2025 10:48:58 AM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Aug 14, 2025 10:49:00 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNVHHYNUJ
+Aug 14, 2025 10:49:06 AM base.LogResults createLogs
+INFO: PASS - ShiftDeleteIcon Clicked Successfully : 
+Aug 14, 2025 10:49:09 AM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully : 
+Aug 14, 2025 10:49:11 AM base.LogResults createLogs
+INFO: PASS - ShiftPolicyTab Clicked Successfully : 
+Aug 14, 2025 10:49:17 AM base.LogResults createLogs
+INFO: PASS - AddShiftPolicyButton Clicked Successfully : 
+Aug 14, 2025 10:49:20 AM base.LogResults createLogs
+INFO: PASS - AddShiftButton Clicked Successfully : 
+Aug 14, 2025 10:49:22 AM base.LogResults createLogs
+INFO: PASS - Shift Name Validated And Not Present In The Shift Policy 'add shift' Module : AutoSNVHHYNUJ
+Aug 14, 2025 10:49:22 AM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_538_MeghPi_Shift_14-To verify this, create a shift without assigning it to any shift policy, then delete it, and ensure that the deleted shift is not displayed in the shift policy.
+---------------------------------------------------------------
+MeghShiftTestMPI_538_MeghPi_Shift_14
+Aug 14, 2025 10:49:22 AM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 71.3656 seconds
+Total TC Time: 00:05:25
+Launching Driver...
+Aug 14, 2025 10:49:26 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 14, 2025 10:49:32 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AZBF
+Aug 14, 2025 10:49:35 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 14, 2025 10:49:41 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 14, 2025 10:49:43 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140825091638@mailinator.com
+Aug 14, 2025 10:49:46 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 14, 2025 10:49:48 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 14, 2025 10:49:50 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 14, 2025 10:49:53 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 14, 2025 10:49:55 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 14, 2025 10:50:01 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 14, 2025 10:50:04 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 14, 2025 10:50:06 AM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Aug 14, 2025 10:50:08 AM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Aug 14, 2025 10:50:10 AM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Aug 14, 2025 10:50:13 AM base.LogResults createLogs
+INFO: PASS - CreateShiftButton Clicked Successfully : 
+Aug 14, 2025 10:50:19 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNVFAUKTP
+Aug 14, 2025 10:50:21 AM base.LogResults createLogs
+INFO: PASS - Shift Code Inputted Successfully : Au896
+Aug 14, 2025 10:50:27 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Clicked Successfully : 
+Aug 14, 2025 10:50:31 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Inputted Successfully : 09:00
+Aug 14, 2025 10:50:37 AM base.LogResults createLogs
+INFO: PASS - Shift Start Time Inputted Successfully : 
+Aug 14, 2025 10:50:39 AM base.LogResults createLogs
+INFO: PASS - Shift End Time Inputted Successfully : 18:00
+Aug 14, 2025 10:50:44 AM base.LogResults createLogs
+INFO: PASS - Shift Buffer Time Inputted Successfully : 1:00
+Aug 14, 2025 10:50:46 AM base.LogResults createLogs
+INFO: PASS - Shift Buffer Time Inputted Successfully : 1:00
+Aug 14, 2025 10:50:50 AM base.LogResults createLogs
+INFO: PASS - Shift Full Day Time Inputted Successfully : 9:00
+Aug 14, 2025 10:50:53 AM base.LogResults createLogs
+INFO: PASS - Shift Full Day Time Inputted Successfully : 9:00
+Aug 14, 2025 10:50:57 AM base.LogResults createLogs
+INFO: PASS - Shift Half Day Time Inputted Successfully : 4:30
+Aug 14, 2025 10:50:59 AM base.LogResults createLogs
+INFO: PASS - Shift Half Day Time Inputted Successfully : 4:30
+Aug 14, 2025 10:51:01 AM base.LogResults createLogs
+INFO: PASS - AddBreakButton Clicked Successfully : 
+Aug 14, 2025 10:51:04 AM base.LogResults createLogs
+INFO: PASS - Break Name Inputted Successfully : AutoBNCSBKV
+Aug 14, 2025 10:51:06 AM base.LogResults createLogs
+INFO: PASS - BreakStartTime Clicked Successfully : 
+Aug 14, 2025 10:51:08 AM base.LogResults createLogs
+INFO: PASS - BreakStartTime Inputted Successfully : 13:00
+Aug 14, 2025 10:51:11 AM base.LogResults createLogs
+INFO: PASS - BreakEndTime Clicked Successfully : 
+Aug 14, 2025 10:51:13 AM base.LogResults createLogs
+INFO: PASS - BreakEndTime Clicked Successfully : 14:00
+Aug 14, 2025 10:51:15 AM base.LogResults createLogs
+INFO: PASS - Break Name Inputted Successfully : AutoBNCSBKV
+Aug 14, 2025 10:51:22 AM base.LogResults createLogs
+INFO: PASS - BreakBufferTime Clicked Successfully : 
+Aug 14, 2025 10:51:27 AM base.LogResults createLogs
+INFO: PASS - BreakBufferTime Clicked Successfully : 13:30
+Aug 14, 2025 10:51:29 AM base.LogResults createLogs
+INFO: PASS - Create Shift Save Button Clicked Successfully : 
+Aug 14, 2025 10:51:35 AM base.LogResults createLogs
+INFO: PASS - ShiftPolicyTab Clicked Successfully : 
+Aug 14, 2025 10:51:42 AM base.LogResults createLogs
+INFO: PASS - AddShiftPolicyButton Clicked Successfully : 
+Aug 14, 2025 10:51:44 AM base.LogResults createLogs
+INFO: PASS - PolicyName Inputted Successfully : AutoPNNRZZR
+Aug 14, 2025 10:51:46 AM base.LogResults createLogs
+INFO: PASS - AddShiftButton Clicked Successfully : 
+Aug 14, 2025 10:51:55 AM base.LogResults createLogs
+INFO: PASS - Created Shift Selected Successfully : AutoSNVFAUKTP
+Aug 14, 2025 10:51:57 AM base.LogResults createLogs
+INFO: PASS - AddShiftSaveButton Clicked Successfully : 
+Aug 14, 2025 10:51:59 AM base.LogResults createLogs
+INFO: PASS - CreatePolicySave Button Clicked Successfully : 
+Aug 14, 2025 10:52:08 AM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Aug 14, 2025 10:52:13 AM base.LogResults createLogs
+INFO: PASS - ShiftTab Clicked Successfully : 
+Aug 14, 2025 10:52:19 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : AutoSNVFAUKTP
+Aug 14, 2025 10:52:26 AM base.LogResults createLogs
+INFO: PASS - ShiftDeleteIcon Clicked Successfully : 
+Aug 14, 2025 10:52:28 AM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully : 
+Aug 14, 2025 10:52:30 AM base.LogResults createLogs
+INFO: PASS - Error Message Displayed Successfully : 
+Aug 14, 2025 10:52:30 AM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_540_MeghPi_Shift_16-To verify this, assign the created shift to any shift policy, and ensure that when attempting to delete the shift after assignment, an appropriate error message is displayed.
+---------------------------------------------------------------
+MeghShiftTestMPI_540_MeghPi_Shift_16
+Aug 14, 2025 10:52:30 AM base.LogResults onlyLog
+INFO: Total Pass : 4 Total Fail : 0  Total TC : 4
+---------------------------------------------------------------
+Test case took: 186.4689 seconds
+Total TC Time: 00:08:32
+Launching Driver...
+Aug 14, 2025 10:52:35 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 14, 2025 10:52:41 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AZBF
+Aug 14, 2025 10:52:44 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 14, 2025 10:52:50 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 14, 2025 10:52:52 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140825091638@mailinator.com
+Aug 14, 2025 10:52:54 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 14, 2025 10:52:57 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 14, 2025 10:52:59 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 14, 2025 10:53:02 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 14, 2025 10:53:04 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 14, 2025 10:53:10 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 14, 2025 10:53:12 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 14, 2025 10:53:15 AM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Aug 14, 2025 10:53:17 AM base.LogResults createLogs
+INFO: PASS - ShiftButton Clicked Successfully : 
+Aug 14, 2025 10:53:19 AM base.LogResults createLogs
+INFO: PASS - Shift Page Loaded Successfully : 
+Aug 14, 2025 10:53:22 AM base.LogResults createLogs
+INFO: PASS - First Row Name Fetched Successfully : 
+Aug 14, 2025 10:53:24 AM base.LogResults createLogs
+INFO: PASS - ShiftSearchDropDwon Clicked Successfully : 
+Aug 14, 2025 10:53:26 AM base.LogResults createLogs
+INFO: PASS - ShiftCodeCheckBox Clicked Successfully : 
+Aug 14, 2025 10:53:28 AM base.LogResults createLogs
+INFO: PASS - ShiftSearchDropDwon Clicked Successfully : 
+Aug 14, 2025 10:53:31 AM base.LogResults createLogs
+INFO: PASS - Shift Name Inputted Successfully : Au896
+Aug 14, 2025 10:53:37 AM base.LogResults createLogs
+INFO: PASS - Shift Code Validated Successfully : Au896
+Aug 14, 2025 10:53:37 AM base.LogResults onlyLog
+INFO: Passed - MeghShiftTest-MPI_543_MeghPi_Shift_19-To verify this, check the functionality of search feature by selecting shift code
+---------------------------------------------------------------
+MeghShiftTestMPI_543_MeghPi_Shift_19
+Aug 14, 2025 10:53:37 AM base.LogResults onlyLog
+INFO: Total Pass : 5 Total Fail : 0  Total TC : 5
+---------------------------------------------------------------
+Test case took: 64.4009 seconds
+Total TC Time: 00:09:36
+
+===============================================
+Suite
+Total tests run: 5, Passes: 5, Failures: 0, Skips: 0
+===============================================
+

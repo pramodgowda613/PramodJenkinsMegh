@@ -1,0 +1,16 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 2:17:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Launching Driver...
+Jul 15, 2025 2:17:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 2:17:07 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 2:17:12 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: 
+Jul 15, 2025 2:17:12 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 

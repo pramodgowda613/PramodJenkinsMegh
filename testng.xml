@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="projName" value="Megh" />
+	<parameter name="sendEmail" value="N" />
+	<test name="Init">
+		<classes>
+			<class name="utils.GlobalSetup"> </class>   
+		</classes>
+	</test>
+
+	<test name="Chrome">
+		<parameter name="device" value="21" />
+		<classes>
+		
+		<class name="browsertest.MeghLoginTest"></class> 
+<!--		<class name="browsertest.MeghEmployeeTest"></class>  
+		<class name="browsertest.MeghOfficeTest"></class> -->
+		
+		</classes>
+	</test>
+</suite> <!-- Suite -->

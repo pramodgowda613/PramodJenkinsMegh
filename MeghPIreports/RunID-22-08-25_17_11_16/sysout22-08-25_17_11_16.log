@@ -1,0 +1,25 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 22, 2025 5:11:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 22, 2025 5:11:22 PM base.LogResults createLogs
+INFO: INFO - Skip Adding New Data. Continue with Old Test Data.
+Aug 22, 2025 5:11:22 PM base.LogResults onlyLog
+INFO: Passed - MeghEmployeeTest-MPI_626_Directory_AddEmployee_19-To verify this, create an employee and enroll the employee and ensure created employee record is displayed in the attendance module
+---------------------------------------------------------------
+MeghEmployeeTestMPI_626_Directory_AddEmployee_19
+Aug 22, 2025 5:11:22 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 2.6366 seconds
+Total TC Time: 00:00:02
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+===============================================
+

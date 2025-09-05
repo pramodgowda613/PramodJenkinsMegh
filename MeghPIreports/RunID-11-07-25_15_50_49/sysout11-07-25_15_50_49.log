@@ -1,0 +1,283 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:110725-110725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 11, 2025 3:50:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 3:50:53 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 3:50:55 PM base.LogResults createLogs
+INFO: PASS - Create An Account Button Is Clicked: 
+Jul 11, 2025 3:50:55 PM base.LogResults createLogs
+INFO: PASS - First Name Entered in Text Box: AutoAFNVUL
+Jul 11, 2025 3:50:55 PM base.LogResults createLogs
+INFO: PASS - Last Name Entered in Text Box: AutoLNATWQ
+Jul 11, 2025 3:50:56 PM base.LogResults createLogs
+INFO: PASS - Email  Entered in Text Box: AutoE110725095836@mailinator.com
+Jul 11, 2025 3:50:56 PM base.LogResults createLogs
+INFO: PASS - Phone Number Entered in Text Box: 8217093797
+Jul 11, 2025 3:50:56 PM base.LogResults createLogs
+INFO: PASS - Create Password Entered in Text Box: Pramod@1234
+Jul 11, 2025 3:50:56 PM base.LogResults createLogs
+INFO: PASS - Confirm Password Entered in Text Box: Pramod@1234
+Jul 11, 2025 3:50:56 PM base.LogResults createLogs
+INFO: PASS - Successfully Cliked On SignUp Button: 
+Jul 11, 2025 3:50:57 PM base.LogResults createLogs
+INFO: PASS - Company Name Entered in Text Box: AutoCNPDKJQ
+Jul 11, 2025 3:50:57 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AEXN
+Jul 11, 2025 3:50:57 PM base.LogResults createLogs
+INFO: PASS - Company HeadCount Selected In the Dropdown: 51 To 100
+Jul 11, 2025 3:50:57 PM base.LogResults createLogs
+INFO: PASS - Industry Type Selected In the Dropdown: Software Industry
+Jul 11, 2025 3:50:57 PM base.LogResults createLogs
+INFO: PASS - Your Role Selected In the Dropdown: Admin
+Jul 11, 2025 3:50:58 PM base.LogResults createLogs
+INFO: PASS - Your Role Selected In the Dropdown: 
+Jul 11, 2025 3:51:08 PM base.LogResults createLogs
+INFO: PASS - OTP Sent To YOP Mail: 
+Jul 11, 2025 3:51:08 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 11, 2025 3:51:10 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 11, 2025 3:51:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 11, 2025 3:51:18 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE110725095836
+Jul 11, 2025 3:51:18 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 11, 2025 3:51:19 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SignUp OTP Mail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (34e88fa78ff35263c43fc574bdbdc38b)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: <div class="container">            <div class="date" style="margin-left: 517px ; font-size: 12px ; font-weight: bold">   </div> <p>Dear User,</p><p>Thank you for signing up! To complete your registration, please enter the following One-Time Password (OTP) on the sign-up page: <b>297676</b> <br></p><p>This OTP is valid for <b>10</b> minutes.</p><p>If you encounter any issues or have any further questions, feel free to contact at Admin/HR Department.</p><p>Thank you,</p>MeghPI<br>101, Shreeji Complex  
+Near ABC Circle, Satellite Road  
+Ahmedabad, Gujarat 380015  
+India<br>mantra@mantratec.com<br></div>    
+
+<br><p style="text-align: justify ; margin: 0px" class="">This email and any files
+transmitted with it are confidential and intended solely for the use of the
+individual or entity to whom they are addressed. If you are not the named
+addressee you should not disseminate, distribute or copy this e-mail. Please notify
+the sender immediately by e-mail if you have received this e-mail by mistake
+and delete this e-mail from your system.<br></p><div><b><i>?</i>?</b><br></div>
+<br><br><br><br><br><br><br>
+Jul 11, 2025 3:51:23 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+297676this is OTP
+Jul 11, 2025 3:51:23 PM base.LogResults createLogs
+INFO: PASS - Successfully Extracted The OTP: 297676
+Jul 11, 2025 3:51:24 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+Jul 11, 2025 3:51:24 PM base.LogResults createLogs
+INFO: PASS - OTP Sent To YOP Mail: 297676
+Jul 11, 2025 3:51:24 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Captcha: 12345
+Jul 11, 2025 3:51:24 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On VerifyAndLoginButton: 
+Jul 11, 2025 3:51:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected VMS: 
+Jul 11, 2025 3:51:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected CMS: 
+Jul 11, 2025 3:51:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveButton: 
+Jul 11, 2025 3:51:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PlanF: 
+Jul 11, 2025 3:51:30 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On MakePaymentButton: 
+Jul 11, 2025 3:51:39 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Cards For Payment: 
+5123456789012346
+Jul 11, 2025 3:51:39 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card Number: 5123456789012346
+Jul 11, 2025 3:51:40 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card ExpiryDate: 1225
+Jul 11, 2025 3:51:40 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card CVV: 123
+Jul 11, 2025 3:51:40 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card OwnerName: Test 
+Jul 11, 2025 3:51:40 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ProccedButton: 
+Jul 11, 2025 3:51:45 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Payment OTP: 123456
+Jul 11, 2025 3:51:46 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On OTPConfirmButton: 
+Jul 11, 2025 3:51:48 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On BackToLoginButton: 
+Jul 11, 2025 3:51:48 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 3:51:48 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AEXN
+Jul 11, 2025 3:51:48 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 3:51:52 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 3:51:53 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 3:51:53 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 3:51:53 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 3:51:53 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 3:51:54 PM base.LogResults createLogs
+INFO: PASS - Clicked On MailCheck Button: 
+Jul 11, 2025 3:51:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 11, 2025 3:51:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 11, 2025 3:51:57 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 11, 2025 3:52:03 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE110725095836
+Jul 11, 2025 3:52:03 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 11, 2025 3:52:03 PM base.LogResults createLogs
+INFO: PASS - Except Application All Other Tabs Are Closed Successfully: 
+Jul 11, 2025 3:52:03 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Activation Mail Link: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (34e88fa78ff35263c43fc574bdbdc38b)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: TO : AutoE110725095836@mailinator.com<br>CC : <br>BCC : <br>                                                 <div class="container">            <div class="date" style="margin-left: 517px ; font-size: 12px ; font-weight: bold">   </div> <p>Dear, AutoCNPDKJQ110725095836</p><p>Please click below link to activate your company:<br><b><a href="https://demo.meghpi.com/CompanyActivation?enc=54I4ATVOY7SreycAWed8yBu-3kG8N14neHspPvT0P077c9Mv56a9JRp5kNwLTPKVp3KMiTAwujyx7DKZsESNng@@" target="_other" rel="nofollow">ACTIVATION_LINK</a></b><br></p><p>If you encounter any issues or have any further questions, feel free to contact at Admin/HR Department.</p><p>Thank you,</p>MeghPI<br>101, Shreeji Complex  
+Near ABC Circle, Satellite Road  
+Ahmedabad, Gujarat 380015  
+India<br>mantra@mantratec.com<br></div>    
+
+<br><p style="text-align: justify ; margin: 0px" class="">This email and any files
+transmitted with it are confidential and intended solely for the use of the
+individual or entity to whom they are addressed. If you are not the named
+addressee you should not disseminate, distribute or copy this e-mail. Please notify
+the sender immediately by e-mail if you have received this e-mail by mistake
+and delete this e-mail from your system.<br></p><div><b><i>?</i>?</b><br></div>
+<br><br><br><br><br><br><br>
+Jul 11, 2025 3:52:08 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+Jul 11, 2025 3:52:08 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ActivationLink: 
+Jul 11, 2025 3:52:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+Jul 11, 2025 3:52:12 PM base.LogResults createLogs
+INFO: PASS - Clicked On LoginHere Button: 
+Jul 11, 2025 3:52:12 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AEXN
+Jul 11, 2025 3:52:13 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 3:52:17 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 3:52:17 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 3:52:17 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 3:52:17 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 3:52:18 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 3:52:20 PM base.LogResults createLogs
+INFO: PASS - Clicked On CompanyDetails: 
+Jul 11, 2025 3:52:21 PM base.LogResults createLogs
+INFO: PASS - Industry Type Selected In the Dropdown: Software Industry
+Jul 11, 2025 3:52:31 PM base.LogResults createLogs
+INFO: PASS - Image Is Selected As Logo: ./data/images/Testing.jpg
+Jul 11, 2025 3:52:32 PM base.LogResults createLogs
+INFO: PASS - Entered CompanyWebsite Successfully: https://demo.meghpi.com/
+Jul 11, 2025 3:52:32 PM base.LogResults createLogs
+INFO: PASS - AddDetails Button Clicked Successfully: 
+Jul 11, 2025 3:52:33 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Add AddreessButton: 
+Jul 11, 2025 3:52:34 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected Country From CountryDropdown: India
+Jul 11, 2025 3:52:34 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected State From StateDropdown: Gujarat 
+Jul 11, 2025 3:52:34 PM base.LogResults createLogs
+INFO: PASS - Successfully Enter The Company Address: #47, 5th cross, park view, shapath hexa, gujarat highcourt
+Jul 11, 2025 3:52:34 PM base.LogResults createLogs
+INFO: PASS - Successfully Enter The Company Address Zipcode: 560091
+Jul 11, 2025 3:52:35 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddAddress Button: 
+Jul 11, 2025 3:52:39 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ContactDetails: 
+Jul 11, 2025 3:52:40 PM base.LogResults createLogs
+INFO: PASS - Contact Name Entered in Text Box: AutoAFNVUL
+Jul 11, 2025 3:52:40 PM base.LogResults createLogs
+INFO: PASS - Phone Number Entered in Text Box: 8217093797
+Jul 11, 2025 3:52:40 PM base.LogResults createLogs
+INFO: PASS - Email Id Entered in Text Box: AutoE110725095836@mailinator.com
+Jul 11, 2025 3:52:41 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddContactButton: 
+Jul 11, 2025 3:52:41 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On OfficeSetup: 
+Jul 11, 2025 3:52:42 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddOffice: 
+Jul 11, 2025 3:52:43 PM base.LogResults createLogs
+INFO: PASS - Office Name Entered in Text Box: AutoONEOSTX
+Jul 11, 2025 3:52:44 PM base.LogResults createLogs
+INFO: PASS - Company OfficeType Selected In the Dropdown: Head Quarter 
+Jul 11, 2025 3:52:44 PM base.LogResults createLogs
+INFO: PASS - Office Address Entered in Text Box: #47, 5th cross, park view, shapath hexa, gujarat highcourt
+Jul 11, 2025 3:52:44 PM base.LogResults createLogs
+INFO: PASS - Company's Country Selected In the Dropdown: India
+Jul 11, 2025 3:52:44 PM base.LogResults createLogs
+INFO: PASS - Company's State Selected In the Dropdown: Gujarat 
+Jul 11, 2025 3:52:44 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddOfficeSave: 
+Jul 11, 2025 3:52:45 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddDept: 
+Jul 11, 2025 3:52:46 PM base.LogResults createLogs
+INFO: PASS - Dept Name Entered in Text Box: AutoDNEJSI
+Jul 11, 2025 3:52:46 PM base.LogResults createLogs
+INFO: PASS - Company's Assign Office Selected In the Dropdown: AutoONEOSTX
+Jul 11, 2025 3:52:46 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddDeptSave: 
+Jul 11, 2025 3:52:47 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Policy Button: 
+Jul 11, 2025 3:52:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On UseAsDefaultButton Button: 
+Jul 11, 2025 3:52:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GeneralSettings Button: 
+Jul 11, 2025 3:52:57 PM base.LogResults createLogs
+INFO: PASS - TimeFormat Selected In the Dropdown: 
+Jul 11, 2025 3:52:57 PM base.LogResults createLogs
+INFO: PASS -  TimeZone Selected In the Dropdown: 
+Jul 11, 2025 3:52:57 PM base.LogResults createLogs
+INFO: PASS - TwoStepVerification Selected In the Dropdown: 
+Jul 11, 2025 3:52:57 PM base.LogResults createLogs
+INFO: PASS - DateFormat Selected In the Dropdown: 
+Jul 11, 2025 3:52:57 PM base.LogResults createLogs
+INFO: PASS - FinancialYear Selected In the Dropdown: 
+Jul 11, 2025 3:52:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GeneralSettingsSave: 
+Jul 11, 2025 3:52:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PersonalSetting: 
+Jul 11, 2025 3:52:58 PM base.LogResults createLogs
+INFO: PASS - EmployeeIDDropdown Selected In the Dropdown: 
+Jul 11, 2025 3:52:58 PM base.LogResults createLogs
+INFO: PASS - Employee id Entered In The Text Field: AutoDNEJSI
+Jul 11, 2025 3:52:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PersonalSettingSave: 
+Jul 11, 2025 3:58:15 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On  GoToDashBoard: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[text()='Go to Dashboard'])[2]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34e88fa78ff35263c43fc574bdbdc38b, findElement {value=(//button[text()='Go to Dashboard'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49562}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49562/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34e88fa78ff35263c43fc574bdbdc38b
+Jul 11, 2025 3:58:15 PM base.LogResults onlyLog
+INFO: Failed - Minops-MPI_4_Login_Page_04-Verify that upon entering a valid company code and clicking the Login with OTP button, the user is redirected to the Login with OTP page and an OTP is sent to the provided email address.
+---------------------------------------------------------------
+MinopsMPI_4_Login_Page_04
+Jul 11, 2025 3:58:15 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 442.8657 seconds
+Total TC Time: 00:07:22
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

@@ -1,0 +1,84 @@
+Sept 01, 2025 11:36:33 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:36:39 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:36:41 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:36:47 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:36:50 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE010925091520@mailinator.com
+Sept 01, 2025 11:36:52 AM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Sept 01, 2025 11:36:54 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:36:56 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:36:59 AM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sept 01, 2025 11:37:01 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:37:08 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:37:11 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:37:13 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:37:15 AM base.LogResults createLogs
+INFO: PASS - Role Button  Clicked Successfully: 
+Sept 01, 2025 11:37:17 AM base.LogResults createLogs
+INFO: PASS - Role Permission Page  Loaded Successfully: 
+Sept 01, 2025 11:37:20 AM base.LogResults createLogs
+INFO: PASS - Add RolePermission Button  Clicked Successfully: 
+Sept 01, 2025 11:37:22 AM base.LogResults createLogs
+INFO: PASS - Role DropDown Clicked Successfully: 
+Sept 01, 2025 11:37:24 AM base.LogResults createLogs
+INFO: PASS - Role Selected Successfully: employee
+Sept 01, 2025 11:37:26 AM base.LogResults createLogs
+INFO: PASS - Role Selected  Successfully: 
+Sept 01, 2025 11:37:29 AM base.LogResults createLogs
+INFO: PASS - Shift Permission Selected  Successfully: 
+Sept 01, 2025 11:37:35 AM base.LogResults createLogs
+INFO: PASS - Directory Permission Selected  Successfully: 
+Sept 01, 2025 11:37:41 AM base.LogResults createLogs
+INFO: PASS - File Permission Selected  Successfully: 
+Sept 01, 2025 11:37:48 AM base.LogResults createLogs
+INFO: PASS - RolePermissionSaveButton Clicked Successfully: 
+Sept 01, 2025 11:37:58 AM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Sept 01, 2025 11:38:01 AM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Sept 01, 2025 11:38:03 AM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sept 01, 2025 11:38:09 AM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ARZO
+Sept 01, 2025 11:38:11 AM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sept 01, 2025 11:38:17 AM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sept 01, 2025 11:38:20 AM base.LogResults createLogs
+INFO: PASS -  Email Id entered.
+Sept 01, 2025 11:38:22 AM base.LogResults createLogs
+INFO: PASS -  Password entered.
+Sept 01, 2025 11:38:24 AM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sept 01, 2025 11:38:26 AM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sept 01, 2025 11:39:13 AM base.LogResults createLogs
+INFO: FAIL - Login Is Failed: Login failed after retry: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(), 'Good')]"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [863af0b7e892043bd94a38429af61244, findElement {using=xpath, value=//span[contains(text(), 'Good')]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55844/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 863af0b7e892043bd94a38429af61244
+Sept 01, 2025 11:39:30 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Shift Button: java.lang.reflect.InvocationTargetException
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [863af0b7e892043bd94a38429af61244, actions {actions=[org.openqa.selenium.interactions.Sequence@1bdafb01]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55844}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55844/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 863af0b7e892043bd94a38429af61244

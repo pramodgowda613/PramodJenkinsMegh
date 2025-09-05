@@ -1,0 +1,129 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 13, 2025 5:36:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+(1386, 788)
+Aug 13, 2025 5:36:23 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 13, 2025 5:36:29 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AYKY
+Aug 13, 2025 5:36:31 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 13, 2025 5:36:37 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 13, 2025 5:36:40 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE130825091642@mailinator.com
+Aug 13, 2025 5:36:42 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 13, 2025 5:36:44 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 13, 2025 5:36:46 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 13, 2025 5:36:49 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 13, 2025 5:36:51 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 13, 2025 5:36:58 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 13, 2025 5:37:01 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 13, 2025 5:37:03 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 13, 2025 5:37:05 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Aug 13, 2025 5:37:07 PM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Aug 13, 2025 5:37:10 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Aug 13, 2025 5:37:12 PM base.LogResults createLogs
+INFO: PASS - OfficeType Selected Successfully: 
+Aug 13, 2025 5:37:14 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Aug 13, 2025 5:37:24 PM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: Manufacturing Unit
+
+Aug 13, 2025 5:37:37 PM base.LogResults createLogs
+INFO: FAIL - Error while Displaying OfficeType In Search Results : no such element: Unable to locate element: {"method":"xpath","selector":"(//td[text()='Head Quarter'])[1]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [144fa2432f0005c123af020af349d842, findElement {value=(//td[text()='Head Quarter'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51764}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51764/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 144fa2432f0005c123af020af349d842
+Aug 13, 2025 5:37:37 PM base.LogResults onlyLog
+INFO: Failed - MeghMasterOfficeTest-MPI_186_Office_08-To verify this, check the functionality of the search text field by selecting "Headquarter" as the office type and ensure that only the records having Headquarter as their office type are displayed in the filtered results.
+---------------------------------------------------------------
+MeghMasterOfficeTestMPI_186_Office_08
+Aug 13, 2025 5:37:37 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 77.4607 seconds
+Total TC Time: 00:01:17
+Launching Driver...
+Aug 13, 2025 5:37:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+(1386, 788)
+Aug 13, 2025 5:37:43 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 13, 2025 5:37:49 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AYKY
+Aug 13, 2025 5:37:51 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 13, 2025 5:37:57 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 13, 2025 5:38:00 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE130825091642@mailinator.com
+Aug 13, 2025 5:38:02 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 13, 2025 5:38:04 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 13, 2025 5:38:07 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 13, 2025 5:38:09 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 13, 2025 5:38:11 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 13, 2025 5:38:18 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 13, 2025 5:38:21 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 13, 2025 5:38:23 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Aug 13, 2025 5:38:26 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Aug 13, 2025 5:38:28 PM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Aug 13, 2025 5:38:30 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On AddOfficeButton : 
+Aug 13, 2025 5:38:32 PM base.LogResults createLogs
+INFO: PASS -  OfficeName Entered In the Office Name TextField : AutoON130825091642
+Aug 13, 2025 5:38:38 PM base.LogResults createLogs
+INFO: PASS -  Office Type Selected In the Office Type Dropdown : 
+Aug 13, 2025 5:38:43 PM base.LogResults createLogs
+INFO: PASS -  Country Selected In the Country  Dropdown : 
+Aug 13, 2025 5:38:48 PM base.LogResults createLogs
+INFO: PASS -  State Selected In the State  Dropdown : Gujarat
+Aug 13, 2025 5:38:50 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On CompanyLocationSaveButton : 
+Aug 13, 2025 5:38:53 PM base.LogResults createLogs
+INFO: PASS -  Successfully Displayed Error Message : 
+Aug 13, 2025 5:38:53 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterOfficeTest-MPI_187_Office_09-To verify this, create a duplicate address and check whether an appropriate error message is displayed indicating that the address already exists. 
+---------------------------------------------------------------
+MeghMasterOfficeTestMPI_187_Office_09
+Aug 13, 2025 5:38:53 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 1  Total TC : 2
+---------------------------------------------------------------
+Test case took: 73.1585 seconds
+Total TC Time: 00:02:30
+
+===============================================
+Suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+

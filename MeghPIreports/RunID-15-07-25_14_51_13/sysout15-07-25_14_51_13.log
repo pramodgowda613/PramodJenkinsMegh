@@ -1,0 +1,45 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:150725-150725-ThreSld->3
+cmpcode and emailidASJLAutoE150725142816@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 2:51:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 2:51:18 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 2:51:22 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ASJL
+Jul 15, 2025 2:51:22 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 15, 2025 2:51:26 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 15, 2025 2:51:26 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE150725142816@mailinator.com
+Jul 15, 2025 2:51:26 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 15, 2025 2:51:27 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 15, 2025 2:51:27 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 15, 2025 2:51:30 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 15, 2025 2:51:35 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:51:37 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:51:37 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:51:38 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Jul 15, 2025 2:51:39 PM base.LogResults createLogs
+INFO: PASS - Add Department Tab  Clicked Successfully: 
+Jul 15, 2025 2:51:40 PM base.LogResults createLogs
+INFO: PASS - Department Name Entered Successfully: AutoDN150725142816
+Jul 15, 2025 2:51:40 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Add Department Save Button: 
+Jul 15, 2025 2:51:44 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On DepartmentMapping Button: 
+Jul 15, 2025 2:51:44 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddDepartmentMapping Button: 

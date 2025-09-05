@@ -1,0 +1,44 @@
+Sep 03, 2025 7:26:29 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 03, 2025 7:26:29 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_686_Normal_Attendance_42-Check the status when Casual Leave is applied for a day marked as Absent.
+Sep 03, 2025 7:26:29 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+Sep 03, 2025 7:26:29 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 03, 2025 7:26:29 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_666_Normal_Attendance_41-Check the status when user is Absent but is on Paid Leave
+Sep 03, 2025 7:26:29 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+Sep 03, 2025 7:26:30 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 03, 2025 7:26:30 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_671_Normal_Attendance_38-Check the status when the employee applies for first-half leave without working during the second half of the day
+Sep 03, 2025 7:26:30 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+Sep 03, 2025 7:26:31 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sep 03, 2025 7:26:31 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 03, 2025 7:26:32 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 03, 2025 7:26:32 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_672_Normal_Attendance_39-Check the status when the employee completes half day and apply half day leave  
+Sep 03, 2025 7:26:32 PM base.LogResults onlyLog
+INFO: Total Pass : 4 Total Fail : 0  Total TC : 4
+Sep 03, 2025 7:26:32 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 03, 2025 7:26:33 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sep 03, 2025 7:26:34 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 03, 2025 7:26:34 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_673_Normal_Attendance_40-Check the status when the employee applies for the first half as a leave and completes the second half (half-day) 
+Sep 03, 2025 7:26:34 PM base.LogResults onlyLog
+INFO: Total Pass : 5 Total Fail : 0  Total TC : 5
+Sep 03, 2025 7:26:35 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 03, 2025 7:26:35 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_729_Normal_Attendance_57-Check the status when the employee applies for second-half leave without working during the first half of the day 
+Sep 03, 2025 7:26:35 PM base.LogResults onlyLog
+INFO: Total Pass : 6 Total Fail : 0  Total TC : 6

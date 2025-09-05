@@ -1,0 +1,92 @@
+>> Console logging redirected to data/console.log
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\chromeMeghWeekOffPolicyTest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\chromeMeghWeekOffPolicyTest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065003.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065009.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065011.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065017.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065020.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065022.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065024.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065026.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065029.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065031.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065037.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065040.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065042.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065044.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065054.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065057.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065103.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065105.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065111.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065114.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065120.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065125.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065127.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065130.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065132.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065135.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065137.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065143.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065149.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065151.png
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-20-08-25_18_49_59\screenshot\20-08-2025-065153.png
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 25, 2025 6:52:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 25, 2025 6:52:13 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 25, 2025 6:52:19 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AEWK
+Aug 25, 2025 6:52:21 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 25, 2025 6:52:28 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 25, 2025 6:52:30 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: autoEIDYNULDF
+Aug 25, 2025 6:52:32 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: autoEIDYNULDF
+Aug 25, 2025 6:52:34 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 25, 2025 6:52:37 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 25, 2025 6:52:39 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 25, 2025 6:52:41 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 25, 2025 6:52:43 PM base.LogResults createLogs
+INFO: PASS - Leave Button Clicked Successfully Of Employee Account: 
+Aug 25, 2025 6:52:48 PM base.LogResults createLogs
+INFO: PASS -  EmpLeaveRequestsTab Clicked Successfully Of Employee Account: 
+Aug 25, 2025 6:52:58 PM base.LogResults createLogs
+INFO: PASS - Leave Request Page 100 Per Page Selected  Successfully Of Employee Account: 
+Aug 25, 2025 6:53:05 PM base.LogResults createLogs
+INFO: PASS - Monthly Leave Summary DrpIcon Clicked  Successfully : 
+5Applied
+1pending
+1Approved
+2Rejected
+1Revoked
+Comparison Passed: UI and Table values match.
+Aug 25, 2025 6:53:08 PM base.LogResults createLogs
+INFO: PASS - Monthly Leave Summary Count Is Verified With No Of Records Present In Table  Successfully : 
+Aug 25, 2025 6:53:08 PM base.LogResults onlyLog
+INFO: Passed - MeghLeaveTest-MPI_856_Leave_31-To verify this, check whether the counts for 'Pending', 'Approved', 'Rejected', 'Revoked', and the total 'Applied Leaves' are displayed accurately according to the number of records in employee account
+---------------------------------------------------------------
+MeghLeaveTestMPI_856_Leave_31
+Aug 25, 2025 6:53:08 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 58.1317 seconds
+Total TC Time: 00:00:58
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

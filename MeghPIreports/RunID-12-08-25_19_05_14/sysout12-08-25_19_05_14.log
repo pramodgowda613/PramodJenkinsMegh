@@ -1,0 +1,112 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:120825-120825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 12, 2025 7:05:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 12, 2025 7:05:18 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 12, 2025 7:05:22 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AJZU
+Aug 12, 2025 7:05:22 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 12, 2025 7:05:27 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 12, 2025 7:05:27 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE120825091619@mailinator.com
+Aug 12, 2025 7:05:27 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 12, 2025 7:05:27 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 12, 2025 7:05:27 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 12, 2025 7:05:30 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 12, 2025 7:05:30 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 12, 2025 7:05:34 PM base.LogResults createLogs
+INFO: PASS - FileButton Clicked Successfully: 
+Aug 12, 2025 7:05:35 PM base.LogResults createLogs
+INFO: PASS - UploadFile Clicked Successfully: 
+Aug 12, 2025 7:05:48 PM base.LogResults createLogs
+INFO: PASS - File Selected Successfully: ./data/Files/TestFile1.pdf
+Aug 12, 2025 7:05:53 PM base.LogResults createLogs
+INFO: PASS - Company FileTag Selected Successfully: Appraisal 
+Aug 12, 2025 7:05:53 PM base.LogResults createLogs
+INFO: PASS - Date Selected Successfully: 
+Aug 12, 2025 7:05:53 PM base.LogResults createLogs
+INFO: PASS - Month Selected Successfully: 23-12-2025
+Aug 12, 2025 7:05:53 PM base.LogResults createLogs
+INFO: PASS - Upload FileSave Button Clicked Successfully: 
+Aug 12, 2025 7:05:57 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On UploadFile Button: element click intercepted: Element <button style="background:none;" class="btn d-flex align-items-center py-0" id="btnAddEmployeeFiles" data-bs-target="#phEmployeeFilesEditor" data-bs-toggle="modal" data-id="1518" data-name="AutoFNBZFDZNS AutoLNUXDWMI" onclick="mpSystem.admin.employeeFiles.bindEmployeeName(this)">...</button> is not clickable at point (1127, 271). Other element would receive the click: <form id="frmEmployeeFiles">...</form>
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [405a6335acdc7aeec591a9efd447f421, clickElement {id=f.F41121AEC7643DF36B341803EB04E21F.d.F081E6DA60DFC86EE3976EA8BD28325C.e.708}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53161}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (405a6335acdc7aeec591a9efd447f421)] -> xpath: (//button[@id='btnAddEmployeeFiles'])[2]]
+Session ID: 405a6335acdc7aeec591a9efd447f421
+Aug 12, 2025 7:06:09 PM base.LogResults createLogs
+INFO: PASS - File Selected Successfully: ./data/Files/TestFile1.pdf
+Aug 12, 2025 7:06:25 PM base.LogResults createLogs
+INFO: FAIL - Error While Selecting Company FileTag From Dropdown: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [405a6335acdc7aeec591a9efd447f421, clickElement {id=f.F41121AEC7643DF36B341803EB04E21F.d.F081E6DA60DFC86EE3976EA8BD28325C.e.784}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53161}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (405a6335acdc7aeec591a9efd447f421)] -> xpath: //select[@id='drpFileTag1']]] -> xpath: .//option[normalize-space(.) = "Educational"]]
+Session ID: 405a6335acdc7aeec591a9efd447f421
+Aug 12, 2025 7:06:35 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Date TextField: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [405a6335acdc7aeec591a9efd447f421, clickElement {id=f.F41121AEC7643DF36B341803EB04E21F.d.F081E6DA60DFC86EE3976EA8BD28325C.e.774}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53161}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (405a6335acdc7aeec591a9efd447f421)] -> xpath: //input[@id='fileValidUntil1']/../input[2]]
+Session ID: 405a6335acdc7aeec591a9efd447f421
+Aug 12, 2025 7:06:56 PM base.LogResults createLogs
+INFO: FAIL - Error While Selecting Month : element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [405a6335acdc7aeec591a9efd447f421, clickElement {id=f.F41121AEC7643DF36B341803EB04E21F.d.F081E6DA60DFC86EE3976EA8BD28325C.e.788}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53161}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (405a6335acdc7aeec591a9efd447f421)] -> xpath: (//select[@aria-label='Month'])[14]]] -> xpath: .//option[normalize-space(.) = "December"]]
+Session ID: 405a6335acdc7aeec591a9efd447f421
+Aug 12, 2025 7:07:16 PM base.LogResults createLogs
+INFO: FAIL - Error While Selecting Day : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@aria-label='December 1, 2025']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [405a6335acdc7aeec591a9efd447f421, findElement {using=xpath, value=//span[@aria-label='December 1, 2025']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53161}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 405a6335acdc7aeec591a9efd447f421
+Aug 12, 2025 7:07:16 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 12, 2025 7:07:17 PM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_342_FileTags_12-To verify this, upload two files in the File module — select the 'Company' file tag for one file and the 'Employee' file tag for the other. After uploading, go to the File Tag module and move the file tagged under the Company section type to the Employee section type. Ensure the file  is moved successfully from compay to employee filetag
+---------------------------------------------------------------
+AttendanceMPI_342_FileTags_12
+Aug 12, 2025 7:07:17 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 119.9052 seconds
+Total TC Time: 00:01:59
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+===============================================
+

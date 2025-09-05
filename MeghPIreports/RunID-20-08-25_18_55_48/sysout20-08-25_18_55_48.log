@@ -1,0 +1,67 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 20, 2025 6:55:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 20, 2025 6:55:54 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 20, 2025 6:56:00 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARBX
+Aug 20, 2025 6:56:03 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 20, 2025 6:56:09 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 20, 2025 6:56:11 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE190825091637@mailinator.com
+Aug 20, 2025 6:56:13 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 20, 2025 6:56:16 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 20, 2025 6:56:18 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 20, 2025 6:56:20 PM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 20, 2025 6:56:22 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 20, 2025 6:56:29 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 20, 2025 6:56:31 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 20, 2025 6:56:33 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Aug 20, 2025 6:56:35 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Aug 20, 2025 6:56:44 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Aug 20, 2025 6:56:46 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Aug 20, 2025 6:56:52 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted In Search TextField Successfully: 
+Aug 20, 2025 6:56:54 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy First Record Displayed Successfully: 
+Aug 20, 2025 6:57:01 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On WeekOffPolicy Delete Button: stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e54bf215c6105596a09977d1dd651c54, clickElement {id=f.35A6826EBD941B73EFFDABE702722C8E.d.E3133BB39F335492A920D2DF561B2E90.e.982}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58102}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58102/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e54bf215c6105596a09977d1dd651c54)] -> xpath: //table[@id='dtWeeklyoffPolicy']/tbody/tr[1]/td[5]/button]
+Session ID: e54bf215c6105596a09977d1dd651c54
+Aug 20, 2025 6:57:14 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On DeleteButton: element not interactable
+  (Session info: chrome=139.0.7258.128)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e54bf215c6105596a09977d1dd651c54, clickElement {id=f.35A6826EBD941B73EFFDABE702722C8E.d.E3133BB39F335492A920D2DF561B2E90.e.984}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58102}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58102/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e54bf215c6105596a09977d1dd651c54)] -> xpath: //button[text()='Delete']]
+Session ID: e54bf215c6105596a09977d1dd651c54
+Aug 20, 2025 6:57:21 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 

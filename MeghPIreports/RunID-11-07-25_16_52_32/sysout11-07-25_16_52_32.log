@@ -1,0 +1,255 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:110725-110725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 11, 2025 4:52:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 4:52:35 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 4:52:40 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 4:52:40 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 4:52:40 PM base.LogResults createLogs
+INFO: PASS - Forgot Password Link is Clicked Successfully: 
+Jul 11, 2025 4:52:44 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 4:52:45 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Email Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 4:52:45 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 4:52:45 PM base.LogResults createLogs
+INFO: PASS - Request OTP is Clicked Successfully: 
+Jul 11, 2025 4:52:45 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 11, 2025 4:52:47 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 11, 2025 4:52:49 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 11, 2025 4:52:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE110725095836
+Jul 11, 2025 4:52:55 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 11, 2025 4:53:15 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ForgotPasswordMail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (dbab3ca806425c9e304af96e2ae75de0)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: We received a request to reset the password for your account. To verify your identity and proceed with the password reset, please use the following One-Time Password (OTP):<br><br>Your OTP: <b>514155</b><br>
+Jul 11, 2025 4:53:19 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+514155 this is OTP
+Jul 11, 2025 4:53:19 PM base.LogResults createLogs
+INFO: PASS - Get The OTP from Email Successfully: 
+Jul 11, 2025 4:53:50 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On DeleteButton: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='email_pane']/div/div[2]/div[2]/div/a"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbab3ca806425c9e304af96e2ae75de0, findElement {using=xpath, value=//div[@id='email_pane']/div/div[2]/div[2]/div/a}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52291}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52291/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dbab3ca806425c9e304af96e2ae75de0
+Jul 11, 2025 4:54:06 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On PopupCloseButton: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@aria-label='Close'])[2]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbab3ca806425c9e304af96e2ae75de0, findElement {using=xpath, value=(//button[@aria-label='Close'])[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52291}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52291/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dbab3ca806425c9e304af96e2ae75de0
+Jul 11, 2025 4:54:06 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+514155testOTP
+Jul 11, 2025 4:54:06 PM base.LogResults createLogs
+INFO: PASS - OTP Entered On OTP Text Field: 514155
+Jul 11, 2025 4:54:06 PM base.LogResults createLogs
+INFO: PASS - Verify And Continue Clicked Successfully: 
+Jul 11, 2025 4:54:06 PM base.LogResults createLogs
+INFO: PASS - New Password Entered Successfully: Pramod@1234
+Jul 11, 2025 4:54:07 PM base.LogResults createLogs
+INFO: PASS - New Confirm Password Entered Successfully: Pramod@1234
+Jul 11, 2025 4:54:07 PM base.LogResults createLogs
+INFO: PASS - PasswordSetButton Clicked Successfully: 
+Jul 11, 2025 4:54:08 PM base.LogResults createLogs
+INFO: PASS - ContinueToLogin Clicked Successfully: 
+Jul 11, 2025 4:54:12 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 4:54:13 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 4:54:17 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 4:54:17 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 4:54:17 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 4:54:17 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 4:54:18 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 4:54:19 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 4:54:19 PM base.LogResults onlyLog
+INFO: Failed - MeghLoginTest-MPI_139_Login_page_21-To verify this, enter a email in the User Name / Phone Number text field of the Forgot Password step, check whether the user receives an OTP to change the password, and then change the password.
+---------------------------------------------------------------
+MeghLoginTestMPI_139_Login_page_21
+Jul 11, 2025 4:54:19 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 104.3970 seconds
+Total TC Time: 00:01:44
+Launching Driver...
+Jul 11, 2025 4:54:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 4:54:22 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 4:54:26 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 4:54:26 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 4:54:31 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 4:54:31 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 4:54:31 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 4:54:31 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 4:54:32 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 4:54:32 PM base.LogResults createLogs
+INFO: FAIL - Error While Login Validation: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='CompanyCode']"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a04406fa99000aa9c046061612daa9e, findElement {using=xpath, value=//input[@name='CompanyCode']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a04406fa99000aa9c046061612daa9e
+Jul 11, 2025 4:54:37 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 4:54:38 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 4:54:39 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 11, 2025 4:54:40 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 4:54:40 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 11, 2025 4:54:41 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 11, 2025 4:54:44 PM base.LogResults createLogs
+INFO: PASS - Emp Code Extracted Successfully: 
+Jul 11, 2025 4:54:48 PM base.LogResults createLogs
+INFO: PASS - Admin Manage Button Clicked Successfully: 
+Jul 11, 2025 4:54:49 PM base.LogResults createLogs
+INFO: PASS - Admin Logout Button Clicked Successfully: 
+Jul 11, 2025 4:54:49 PM base.LogResults createLogs
+INFO: PASS - Except Application All Other Tabs Are Closed Successfully: 
+Jul 11, 2025 4:54:49 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 4:54:54 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 4:54:54 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 4:54:54 PM base.LogResults createLogs
+INFO: PASS - Forgot Password Link is Clicked Successfully: 
+Jul 11, 2025 4:54:58 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 4:54:58 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Email Text Field: AutoDNGCVH
+Jul 11, 2025 4:54:59 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 4:54:59 PM base.LogResults createLogs
+INFO: PASS - Request OTP is Clicked Successfully: 
+Jul 11, 2025 4:54:59 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 11, 2025 4:55:01 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 11, 2025 4:55:03 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 11, 2025 4:55:09 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE110725095836
+Jul 11, 2025 4:55:09 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 11, 2025 4:55:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ForgotPasswordMail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (7a04406fa99000aa9c046061612daa9e)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: We received a request to reset the password for your account. To verify your identity and proceed with the password reset, please use the following One-Time Password (OTP):<br><br>Your OTP: <b>280222</b><br>
+Jul 11, 2025 4:55:33 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+280222 this is OTP
+Jul 11, 2025 4:55:33 PM base.LogResults createLogs
+INFO: PASS - Get The OTP from Email Successfully: 
+Jul 11, 2025 4:56:04 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On DeleteButton: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='email_pane']/div/div[2]/div[2]/div/a"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a04406fa99000aa9c046061612daa9e, findElement {using=xpath, value=//div[@id='email_pane']/div/div[2]/div[2]/div/a}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a04406fa99000aa9c046061612daa9e
+Jul 11, 2025 4:56:20 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On PopupCloseButton: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@aria-label='Close'])[2]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a04406fa99000aa9c046061612daa9e, findElement {using=xpath, value=(//button[@aria-label='Close'])[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52411/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a04406fa99000aa9c046061612daa9e
+Jul 11, 2025 4:56:20 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+280222testOTP
+Jul 11, 2025 4:56:20 PM base.LogResults createLogs
+INFO: PASS - OTP Entered On OTP Text Field: 280222
+Jul 11, 2025 4:56:20 PM base.LogResults createLogs
+INFO: PASS - Verify And Continue Clicked Successfully: 
+Jul 11, 2025 4:56:20 PM base.LogResults createLogs
+INFO: PASS - New Password Entered Successfully: Pramod@1234
+Jul 11, 2025 4:56:21 PM base.LogResults createLogs
+INFO: PASS - New Confirm Password Entered Successfully: Pramod@1234
+Jul 11, 2025 4:56:21 PM base.LogResults createLogs
+INFO: PASS - PasswordSetButton Clicked Successfully: 
+Jul 11, 2025 4:56:21 PM base.LogResults createLogs
+INFO: PASS - ContinueToLogin Clicked Successfully: 
+Jul 11, 2025 4:56:25 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 4:56:26 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 4:56:30 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 4:56:30 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 4:56:30 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 4:56:30 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 4:56:31 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 4:56:32 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 4:56:35 PM base.LogResults onlyLog
+INFO: Failed - MeghLoginTest-MPI_141_Login_page_23-To verify this, enter a employee id in the User Name / Phone Number text field of the Forgot Password step, check whether the user receives an OTP to change the password, and then change the password.
+---------------------------------------------------------------
+MeghLoginTestMPI_141_Login_page_23
+Jul 11, 2025 4:56:35 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 2  Total TC : 2
+---------------------------------------------------------------
+Test case took: 133.1632 seconds
+Total TC Time: 00:03:57
+
+===============================================
+Suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+

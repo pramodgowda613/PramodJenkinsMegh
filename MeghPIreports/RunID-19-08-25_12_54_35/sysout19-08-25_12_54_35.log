@@ -1,0 +1,66 @@
+>> Console logging redirected to data/console.log
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_12_52_03\chromeMeghPIAttenAPITest-Logs.txt
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_12_52_03\chromeMeghPIAttenAPITest.html
+Deleted: E:\MeghPiFw\MeghPIreports\RunID-14-08-25_12_52_03\Dashboard.html
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Status Code: 200
+Response Body: {"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6Impmdm1tV0dHS3RJWlNJUFlwVXgyS1JJVSt6NzNmMEYrQU5TYlhzRlZHczRAIiwiUm9sZXMiOiJiVDY1WFVhZityWm9tMVRLb3hkTm9QRUp0MVd6QVA0WmhsWjNaOFpCbjE3WmI0VVl0MEs3K0kyblBkSTE5MEc2IiwiQ29tcGFueUlkIjoic09yT1ZnZUxSNEZ2N0sxT0FHMlhLekljVmRxU0ZTRGJQVng5OG53RVdWVUAiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoialV0WWtJcGtZOFE2SjNCcUNYczQyUFl3ZnQxbXVtOWJ1RlpOODBuc01wVk5DdVgxVnF5NDhTWDUxK1B6dUZ4ciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMmE3ZmMwYmQtZGQyMy00ZDQ0LWI2ZjktOWVjYjNiZWFjNWRkIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiQXVnIFdlZCAyMCAyMDI1IDA3OjI0OjIyIEFNIiwiRW50aXR5SWQiOiJPUzZ0OTYrODUta3gwUW85bjdnY1pWSWRyNm8zbzVkT1ZMY2UxZUF6dk5zQCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6IjRXVUdCQ1FGK0JEcDNmaEV1dndHWEpYb2cyWnhUWXZGZVVKN0NEd09kd0FAIiwiQ29tcGFueU1vZHVsZSI6IlpHSStyY3JsQXNUS25QaEM0b3lhQzh3MkZHTFhNOXZhUS1tTmFoNEhUTjRAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJ0VTZSTW5qOEtOM3NQWHVqU29RNzdwRmFTYjNQUjEyR0tNTGFPbEUtSDVzQCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6ImgzRVJ5aU9GOWhWNWFHaWJKRmFBQUEwZGNUTVl1cVFHeVQ1aDJZN1pqMkFAIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTU1Njg0NjIsImV4cCI6MTc1NTU3MDI2MiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.dyoPFm2AzEuY3hYGyw3AOvI-xAk4TzANMdImDSDiIjU","UserName":"jUtYkIpkY8Q6J3BqCXs42PYwft1mum9buFZN80nsMpVNCuX1Vqy48SX51+PzuFxr","Validaty":"07:54:22.9043408","RefreshToken":null,"RefreshTokenExpiration":"0001-01-01 00:00:00","Id":"jfvmmWGGKtIZSIPYpUx2KRIU+z73f0F+ANSbXsFVGs4@","Roles":"bT65XUaf+rZom1TKoxdNoPEJt1WzAP4ZhlZ3Z8ZBn17Zb4UYt0K7+I2nPdI190G6","CompanyId":"sOrOVgeLR4Fv7K1OAG2XKzIcVdqSFSDbPVx98nwEWVU@","GuidId":"2a7fc0bd-dd23-4d44-b6f9-9ecb3beac5dd","ExpiredTime":"2025-08-19 07:54:22","EntityId":"OS6t96+85-kx0Qo9n7gcZVIdr6o3o5dOVLce1eAzvNs@","EncId":"6E6AAC45E4BE403F9607EF130488327B","EntityName":"pramod gowda","Designation":"AutodnWUIZWX","WidgetIds":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,43,44,18,19,20,40],"IsPwdResetRequired":false,"IsGettingStartedProcessDone":"4WUGBCQF+BDp3fhEuvwGXJXog2ZxTYvFeUJ7CDwOdwA@","Theme":1,"ModuleName":"ZGI+rcrlAsTKnPhC4oyaC8w2FGLXM9vaQ-mNah4HTN4@","CompanyConfigDto":{"TimeFormat":"24","DateFormat":"MM-DD-YYYY","TimeZone":"UTC-12:00: Baker Island, Howland Island","Language":"en","CountryName":"India","Currency":"Indian Rupee (INR)","IsEnableHistory":false,"GeneralHasTwoStepVerification":false},"IsForceUpdate":false,"Url":null,"IsEmployeeLogin":false,"IsSwitchShow":true,"AccessAllEntity":true,"ViewAllTickets":false,"IsPaymentCompleted":"tU6RMnj8KN3sPXujSoQ77pFaSb3PR12GKMLaOlE-H5s@","MaskedPIIConfigStatus":"h3ERyiOF9hV5aGibJFaAAA0dcTMYuqQGyT5h2Y7Zj2A@","HasTwoStepVerification":true,"TwoStepFromCompanyConfig":false,"UserRights":null,"ModuleNames":null}
+✅ Token Saved: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6Impmdm1tV0dHS3RJWlNJUFlwVXgyS1JJVSt6NzNmMEYrQU5TYlhzRlZHczRAIiwiUm9sZXMiOiJiVDY1WFVhZityWm9tMVRLb3hkTm9QRUp0MVd6QVA0WmhsWjNaOFpCbjE3WmI0VVl0MEs3K0kyblBkSTE5MEc2IiwiQ29tcGFueUlkIjoic09yT1ZnZUxSNEZ2N0sxT0FHMlhLekljVmRxU0ZTRGJQVng5OG53RVdWVUAiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoialV0WWtJcGtZOFE2SjNCcUNYczQyUFl3ZnQxbXVtOWJ1RlpOODBuc01wVk5DdVgxVnF5NDhTWDUxK1B6dUZ4ciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMmE3ZmMwYmQtZGQyMy00ZDQ0LWI2ZjktOWVjYjNiZWFjNWRkIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiQXVnIFdlZCAyMCAyMDI1IDA3OjI0OjIyIEFNIiwiRW50aXR5SWQiOiJPUzZ0OTYrODUta3gwUW85bjdnY1pWSWRyNm8zbzVkT1ZMY2UxZUF6dk5zQCIsIklzR2V0dGluZ1N0YXJ0ZWRQcm9jZXNzRG9uZSI6IjRXVUdCQ1FGK0JEcDNmaEV1dndHWEpYb2cyWnhUWXZGZVVKN0NEd09kd0FAIiwiQ29tcGFueU1vZHVsZSI6IlpHSStyY3JsQXNUS25QaEM0b3lhQzh3MkZHTFhNOXZhUS1tTmFoNEhUTjRAIiwiSXNFbXBsb3llZUxvZ2luIjoiRmFsc2UiLCJJc1N3aXRjaFNob3ciOiJUcnVlIiwiQWNjZXNzQWxsRW50aXR5IjoiVHJ1ZSIsIlZpZXdBbGxUaWNrZXRzIjoiRmFsc2UiLCJJc1BheW1lbnRDb21wbGV0ZWQiOiJ0VTZSTW5qOEtOM3NQWHVqU29RNzdwRmFTYjNQUjEyR0tNTGFPbEUtSDVzQCIsIk1hc2tlZFBJSUNvbmZpZ1N0YXR1cyI6ImgzRVJ5aU9GOWhWNWFHaWJKRmFBQUEwZGNUTVl1cVFHeVQ1aDJZN1pqMkFAIiwiSGFzVHdvU3RlcFZlcmlmaWNhdGlvbiI6IlRydWUiLCJuYmYiOjE3NTU1Njg0NjIsImV4cCI6MTc1NTU3MDI2MiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAyIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzU3MiJ9.dyoPFm2AzEuY3hYGyw3AOvI-xAk4TzANMdImDSDiIjU
+Aug 19, 2025 12:54:37 PM base.LogResults createLogs
+INFO:  - 
+HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Content-Type: application/problem+json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Date: Tue, 19 Aug 2025 07:24:24 GMT
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "ToDate": [
+            "'To Date' must not be empty.",
+            "To Date is required field."
+        ],
+        "Remarks": [
+            "'Remarks' must not be empty.",
+            "Reason is required field."
+        ],
+        "FromDate": [
+            "'From Date' must not be empty.",
+            "From Date is required field."
+        ],
+        "TotalDays": [
+            "'Total Days' must not be empty.",
+            "Total Days is required field."
+        ],
+        "LeaveTypeId": [
+            "'Leave Type Id' must not be empty.",
+            "Leave Type is required field."
+        ],
+        "ToDurationType": [
+            "'To Duration Type' must not be empty.",
+            "To Duration Type is required field.",
+            "To Duration Type is Required"
+        ],
+        "FromDurationType": [
+            "'From Duration Type' must not be empty.",
+            "From Duration Type is required field.",
+            "From Duration Type is Required"
+        ]
+    },
+    "traceId": "00-107e1f48ef26ca6b16e840c0b12a08b6-c58257558f6ae25b-00"
+}
+Status Code: 400
+Response Body: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"ToDate":["'To Date' must not be empty.","To Date is required field."],"Remarks":["'Remarks' must not be empty.","Reason is required field."],"FromDate":["'From Date' must not be empty.","From Date is required field."],"TotalDays":["'Total Days' must not be empty.","Total Days is required field."],"LeaveTypeId":["'Leave Type Id' must not be empty.","Leave Type is required field."],"ToDurationType":["'To Duration Type' must not be empty.","To Duration Type is required field.","To Duration Type is Required"],"FromDurationType":["'From Duration Type' must not be empty.","From Duration Type is required field.","From Duration Type is Required"]},"traceId":"00-107e1f48ef26ca6b16e840c0b12a08b6-c58257558f6ae25b-00"}
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 2, Passes: 1, Failures: 1, Skips: 0
+===============================================
+

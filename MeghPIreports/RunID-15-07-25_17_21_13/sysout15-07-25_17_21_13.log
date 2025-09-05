@@ -1,0 +1,787 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:150725-150725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 5:21:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:21:20 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 5:21:24 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.ASJL
+Jul 15, 2025 5:21:24 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 5:21:29 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 5:21:29 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725142816@mailinator.com
+Jul 15, 2025 5:21:29 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 15, 2025 5:21:29 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 15, 2025 5:21:29 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 5:21:32 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 5:21:33 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 5:21:37 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 5:21:37 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 5:21:37 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:21:37 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:21:44 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 5:21:44 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:21:45 PM base.LogResults createLogs
+INFO: PASS - AddWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:21:50 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted Successfully: 
+Jul 15, 2025 5:21:50 PM base.LogResults createLogs
+INFO: PASS - ThursdayButton Clicked Successfully: 
+Jul 15, 2025 5:21:50 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 5:21:50 PM base.LogResults createLogs
+INFO: PASS - FridayButton Clicked Successfully: 
+Jul 15, 2025 5:21:50 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:21:51 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:21:58 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 15, 2025 5:22:02 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:22:05 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:22:05 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:22:07 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:22:07 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 5:22:07 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 5:22:28 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 15, 2025 5:22:35 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicy Is Assigned To All Emp Successfully: AutoWOPN150725142816NSI=AutoWOPN150725142816NSI
+Jul 15, 2025 5:22:35 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_576_WeekOff_Policy_01-To verify this, add a Week Off Policy by selecting 2nd Half on Thursday and Full Day on Friday, then make the policy active. When the system prompts with the message "Do you want to change weekly-off policy in Employee Profile based on current policy employee criteria?", select "Yes". Finally, ensure that all applicable employees are assigned to the newly created Week Off Policy based on the defined criteria.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_576_WeekOff_Policy_01
+Jul 15, 2025 5:22:35 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 76.2768 seconds
+Total TC Time: 00:01:16
+Launching Driver...
+Jul 15, 2025 5:22:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:22:39 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 5:22:43 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.ASJL
+Jul 15, 2025 5:22:43 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 5:22:47 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 5:22:48 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725142816@mailinator.com
+Jul 15, 2025 5:22:48 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 15, 2025 5:22:48 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 15, 2025 5:22:48 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 5:22:51 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 5:22:51 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 5:22:55 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 5:22:55 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 5:22:55 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:22:56 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:23:02 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 5:23:02 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:23:06 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted In Search TextField Successfully: AutoWOPN150725142816NSI
+Jul 15, 2025 5:23:07 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy First Record Displayed Successfully: 
+Jul 15, 2025 5:23:11 PM base.LogResults createLogs
+INFO: PASS - WeekOffEditButton Clicked Successfully: 
+Jul 15, 2025 5:23:11 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton1stWeek Clicked Successfully: 
+Jul 15, 2025 5:23:12 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 5:23:12 PM base.LogResults createLogs
+INFO: PASS - SundayButton1stWeek Clicked Successfully: 
+Jul 15, 2025 5:23:12 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:23:12 PM base.LogResults createLogs
+INFO: PASS - SundayButton4thWeek Clicked Successfully: 
+Jul 15, 2025 5:23:12 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:23:13 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton4thWeek Clicked Successfully: 
+Jul 15, 2025 5:23:13 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 5:23:13 PM base.LogResults createLogs
+INFO: PASS - SundayButton2ndWeek Clicked Successfully: 
+Jul 15, 2025 5:23:13 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:23:14 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton2ndWeek Clicked Successfully: 
+Jul 15, 2025 5:23:14 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:23:14 PM base.LogResults createLogs
+INFO: PASS - SundayButton3rdWeek Clicked Successfully: 
+Jul 15, 2025 5:23:14 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:23:14 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton3rdWeek Clicked Successfully: 
+Jul 15, 2025 5:23:15 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:23:15 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:23:22 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 15, 2025 5:23:26 PM base.LogResults createLogs
+INFO: PASS - Edited WeekOff Data Displayed Successfully : 
+Jul 15, 2025 5:23:26 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_577_WeekOff_Policy_02-To verify this, navigate to the Week Off Policy module and edit an existing policy. Update the week-off configuration by setting Saturday as a 2nd half day off and Sunday as a full day off for the 1st and 4th weeks. For the 2nd and 3rd weeks, configure both Saturday and Sunday as full day offs. Save the changes to the policy and ensure that the system reflects the updated configuration accurately, confirming that the record has been successfully updated as per the changes made.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_577_WeekOff_Policy_02
+Jul 15, 2025 5:23:26 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 48.7605 seconds
+Total TC Time: 00:02:05
+Launching Driver...
+Jul 15, 2025 5:23:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:23:30 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 5:23:34 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.ASJL
+Jul 15, 2025 5:23:35 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 5:23:39 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 5:23:39 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725142816@mailinator.com
+Jul 15, 2025 5:23:39 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 15, 2025 5:23:39 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 15, 2025 5:23:39 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 5:23:42 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 5:23:42 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 5:23:47 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:23:48 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:23:49 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:23:50 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:24:01 PM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Jul 15, 2025 5:24:02 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Jul 15, 2025 5:24:04 PM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Jul 15, 2025 5:24:08 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN150725142816
+Jul 15, 2025 5:24:08 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Jul 15, 2025 5:24:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Jul 15, 2025 5:24:12 PM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Jul 15, 2025 5:24:12 PM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: AutoEIDTWMEY
+Jul 15, 2025 5:24:16 PM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON150725142816
+Jul 15, 2025 5:24:16 PM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNJGIJO
+Jul 15, 2025 5:24:16 PM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNGRQKO
+Jul 15, 2025 5:24:16 PM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE150725142816UQTU@mailinator.com
+Jul 15, 2025 5:24:16 PM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851457723
+Jul 15, 2025 5:24:17 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Jul 15, 2025 5:24:17 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 
+Jul 15, 2025 5:24:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Jul 15, 2025 5:24:20 PM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Jul 15, 2025 5:24:22 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:24:22 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 15, 2025 5:24:22 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:24:27 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNGRQKO
+Jul 15, 2025 5:24:30 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNGRQKO
+Jul 15, 2025 5:24:30 PM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Jul 15, 2025 5:24:30 PM base.LogResults createLogs
+INFO: PASS - Clicked On WebEnrollment Successfully: 
+Jul 15, 2025 5:24:34 PM base.LogResults createLogs
+INFO: PASS - Clicked On FaceEnrollmentTab Successfully: 
+Jul 15, 2025 5:24:48 PM base.LogResults createLogs
+INFO: PASS - Image Selected For WebEnrollment Successfully: ./data/images/enrollmentimage.jpg
+Jul 15, 2025 5:24:48 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On CropImage: 
+Jul 15, 2025 5:24:49 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveEnrollmentButton: 
+Jul 15, 2025 5:24:58 PM base.LogResults createLogs
+INFO: PASS - Success Msg Is Displayed: 
+Jul 15, 2025 5:25:07 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:25:08 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:25:08 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:25:10 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:25:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:25:10 PM base.LogResults createLogs
+INFO: PASS - Selected  LastName  Successfully: 
+Jul 15, 2025 5:25:11 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:25:15 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNGRQKO
+Jul 15, 2025 5:25:18 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNGRQKO
+Jul 15, 2025 5:25:18 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 5:25:19 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 5:25:28 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Manage Profile EditIcon: 
+Jul 15, 2025 5:25:31 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Dept: AutoDN150725142816
+Jul 15, 2025 5:25:36 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoDN150725142816
+Jul 15, 2025 5:25:43 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Team From Dropdown: AutoTN150725142816
+Jul 15, 2025 5:25:49 PM base.LogResults createLogs
+INFO: PASS - Successfully Enter The Pin: 1871
+Jul 15, 2025 5:25:55 PM base.LogResults createLogs
+INFO: PASS - SaveChanges Button Clicked Successfully: 
+Jul 15, 2025 5:26:04 PM base.LogResults createLogs
+INFO: PASS - DefaultPolicy Button Clicked Successfully: 
+Jul 15, 2025 5:26:10 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 5:26:10 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 5:26:10 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:26:11 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:26:17 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 5:26:17 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:26:18 PM base.LogResults createLogs
+INFO: PASS - AddWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:26:23 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted Successfully: AutoWOPN150725142816UZ
+Jul 15, 2025 5:26:23 PM base.LogResults createLogs
+INFO: PASS - ThursdayButton Clicked Successfully: 
+Jul 15, 2025 5:26:23 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 5:26:23 PM base.LogResults createLogs
+INFO: PASS - FridayButton Clicked Successfully: 
+Jul 15, 2025 5:26:23 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:26:24 PM base.LogResults createLogs
+INFO: PASS - AddEmpCriteria Button Successfully : 
+Jul 15, 2025 5:26:27 PM base.LogResults createLogs
+INFO: PASS - Office Name Selected  Successfully : AutoON150725142816
+Jul 15, 2025 5:26:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Dept: AutoDN150725142816
+Jul 15, 2025 5:26:33 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoDN150725142816
+Jul 15, 2025 5:26:36 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoTN150725142816
+Jul 15, 2025 5:26:39 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Employee Type From Dropdown: AutoEN150725142816
+Jul 15, 2025 5:26:39 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ApplyButton: 
+Jul 15, 2025 5:26:40 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:26:47 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 15, 2025 5:26:52 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:26:55 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:26:55 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:26:56 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:26:57 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:26:57 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 15, 2025 5:26:57 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:27:01 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNGRQKO
+Jul 15, 2025 5:27:05 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNGRQKO
+Jul 15, 2025 5:27:05 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 5:27:05 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 5:27:25 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 15, 2025 5:27:31 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicy Is Assigned To All Emp Successfully: =AutoWOPN150725142816UZ
+Jul 15, 2025 5:27:31 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_578_WeekOff_Policy_03-To verify this, create a user and assign them to the "QC" department with "For Grade" as the team, "QC Head" as the designation, and "Staff" as the employee type. Then, create a Week Off Policy and define the same employee criteria within the policy. After saving the policy, ensure that the employee matching the specified criteria is correctly assigned to the newly created Week Off Policy, confirming that the policy assignment based on employee attributes is functioning as expected. 
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_578_WeekOff_Policy_03
+Jul 15, 2025 5:27:31 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 242.4974 seconds
+Total TC Time: 00:06:07
+Launching Driver...
+Jul 15, 2025 5:27:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:27:35 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 5:27:39 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.ASJL
+Jul 15, 2025 5:27:40 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 5:27:44 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 5:27:44 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725142816@mailinator.com
+Jul 15, 2025 5:27:44 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 15, 2025 5:27:44 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 15, 2025 5:27:45 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 5:27:47 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 5:27:47 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 5:27:51 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 5:27:52 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 5:27:52 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:27:52 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:27:58 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 5:27:59 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:28:00 PM base.LogResults createLogs
+INFO: PASS - AddWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:28:04 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted Successfully: AutoWOPN150725142816YRQ
+Jul 15, 2025 5:28:04 PM base.LogResults createLogs
+INFO: PASS - DefaultCheckBox Clicked Successfully: 
+Jul 15, 2025 5:28:05 PM base.LogResults createLogs
+INFO: PASS - ThursdayButton Clicked Successfully: 
+Jul 15, 2025 5:28:05 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 5:28:05 PM base.LogResults createLogs
+INFO: PASS - FridayButton Clicked Successfully: 
+Jul 15, 2025 5:28:05 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 5:28:06 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:28:13 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 15, 2025 5:28:17 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:28:19 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:28:19 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:28:21 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:28:31 PM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Jul 15, 2025 5:28:32 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Jul 15, 2025 5:28:35 PM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Jul 15, 2025 5:28:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN150725142816
+Jul 15, 2025 5:28:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Jul 15, 2025 5:28:41 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Jul 15, 2025 5:28:43 PM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Jul 15, 2025 5:28:43 PM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: AutoEIDHULRH
+Jul 15, 2025 5:28:46 PM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON150725142816
+Jul 15, 2025 5:28:46 PM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNKNRSJ
+Jul 15, 2025 5:28:47 PM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNRMWUI
+Jul 15, 2025 5:28:47 PM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE150725142816EINM@mailinator.com
+Jul 15, 2025 5:28:47 PM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851421681
+Jul 15, 2025 5:28:47 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Jul 15, 2025 5:28:47 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 
+Jul 15, 2025 5:28:47 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Jul 15, 2025 5:28:51 PM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Jul 15, 2025 5:28:56 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:28:59 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:28:59 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:29:00 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:29:01 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:29:01 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 15, 2025 5:29:01 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:29:05 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNRMWUI
+Jul 15, 2025 5:29:09 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNRMWUI
+Jul 15, 2025 5:29:09 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 5:29:09 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 5:29:29 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 15, 2025 5:29:35 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicy Is Assigned To All Emp Successfully: =
+Jul 15, 2025 5:29:35 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_579_WeekOff_Policy_04-To verify this, create a Week Off Policy and set it as the "Default" policy. Then, create a new employee account. Ensure that the newly created employee is automatically assigned to the default Week Off Policy, confirming that the system correctly applies the default policy to new employees.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_579_WeekOff_Policy_04
+Jul 15, 2025 5:29:35 PM base.LogResults onlyLog
+INFO: Total Pass : 4 Total Fail : 0  Total TC : 4
+---------------------------------------------------------------
+Test case took: 121.4105 seconds
+Total TC Time: 00:08:08
+Launching Driver...
+Jul 15, 2025 5:29:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:29:39 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 5:29:44 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.ASJL
+Jul 15, 2025 5:29:44 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 5:29:48 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 5:29:48 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725142816@mailinator.com
+Jul 15, 2025 5:29:48 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 15, 2025 5:29:48 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 15, 2025 5:29:49 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 5:29:51 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 5:29:51 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 5:29:55 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 5:29:56 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 5:29:56 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:29:56 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:30:02 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 5:30:02 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:30:07 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted In Search TextField Successfully: AutoWOPN150725142816UZ
+Jul 15, 2025 5:30:07 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy First Record Displayed Successfully: 
+Jul 15, 2025 5:30:11 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy DeleteButton Clicked Successfully: 
+Jul 15, 2025 5:30:12 PM base.LogResults createLogs
+INFO: PASS - DeleteButton Clicked Successfully : 
+Jul 15, 2025 5:30:17 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:30:20 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:30:20 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:30:22 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:30:22 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:30:22 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 15, 2025 5:30:22 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:30:27 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNGRQKO
+Jul 15, 2025 5:30:30 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNGRQKO
+Jul 15, 2025 5:30:30 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 5:30:30 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 5:30:51 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 15, 2025 5:30:57 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying Created WeekOff PolicyName : Assigned Policy Name comparison failed: Expected='Default', Actual='AutoWOPN150725142816YRQ'
+Jul 15, 2025 5:30:57 PM base.LogResults onlyLog
+INFO: Failed - MeghWeekOffPolicyTest-MPI_581_WeekOff_Policy_06-To verify this, inactivate the Week Off Policy that was created using specific employee criteria. Once the policy is deactivated, ensure that the employees who were previously assigned to this policy are automatically reassigned to the default Week Off Policy.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_581_WeekOff_Policy_06
+Jul 15, 2025 5:30:57 PM base.LogResults onlyLog
+INFO: Total Pass : 4 Total Fail : 1  Total TC : 5
+---------------------------------------------------------------
+Test case took: 78.6588 seconds
+Total TC Time: 00:09:27
+Launching Driver...
+Jul 15, 2025 5:30:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:31:00 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 5:31:05 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.ASJL
+Jul 15, 2025 5:31:05 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 5:31:09 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 5:31:09 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725142816@mailinator.com
+Jul 15, 2025 5:31:09 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 15, 2025 5:31:10 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 15, 2025 5:31:10 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 5:31:12 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 5:31:12 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 5:31:17 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 5:31:17 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 5:31:17 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:31:17 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:31:23 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 5:31:24 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:31:28 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted In Search TextField Successfully: AutoWOPN150725142816UZ
+Jul 15, 2025 5:31:28 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy First Record Displayed Successfully: 
+Jul 15, 2025 5:31:32 PM base.LogResults createLogs
+INFO: PASS - WeekOffEditButton Clicked Successfully: 
+Jul 15, 2025 5:31:37 PM base.LogResults createLogs
+INFO: PASS - ActiveCheckBox Clicked Successfully: 
+Jul 15, 2025 5:31:37 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:31:44 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 15, 2025 5:31:49 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 5:31:52 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:31:52 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 5:31:53 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 5:31:54 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:31:54 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 15, 2025 5:31:54 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 15, 2025 5:31:59 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNGRQKO
+Jul 15, 2025 5:32:02 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNGRQKO
+Jul 15, 2025 5:32:02 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 5:32:02 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 5:32:22 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 15, 2025 5:32:29 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicy Is Assigned To All Emp Successfully: =AutoWOPN150725142816UZ
+Jul 15, 2025 5:32:29 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_582_WeekOff_Policy_07-To verify this, activate the Week Off Policy that was previously created with specific employee criteria. After activation, ensure that all employees who match the defined criteria are reassigned to this policy. This confirms that the system automatically reassigns employees to the reactivated policy based on their eligibility.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_582_WeekOff_Policy_07
+Jul 15, 2025 5:32:29 PM base.LogResults onlyLog
+INFO: Total Pass : 5 Total Fail : 1  Total TC : 6
+---------------------------------------------------------------
+Test case took: 89.2385 seconds
+Total TC Time: 00:10:56
+Launching Driver...
+Jul 15, 2025 5:32:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:32:32 PM base.LogResults createLogs
+INFO: PASS - This Test Case Already passed In MPI_577_WeekOff_Policy_02 TestCase: 
+Jul 15, 2025 5:32:32 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_584_WeekOff_Policy_09-To verify this, check the functionality of the search feature by entering relevant keywords or criteria in the search field. Ensure that the search results are displayed accurately, matching the entered input, and that only the relevant records are shown in the results.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_584_WeekOff_Policy_09
+Jul 15, 2025 5:32:32 PM base.LogResults onlyLog
+INFO: Total Pass : 6 Total Fail : 1  Total TC : 7
+---------------------------------------------------------------
+Test case took: 0.3147 seconds
+Total TC Time: 00:10:57
+Launching Driver...
+Jul 15, 2025 5:32:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 5:32:35 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 5:32:40 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.ASJL
+Jul 15, 2025 5:32:40 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 5:32:44 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 5:32:44 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725142816@mailinator.com
+Jul 15, 2025 5:32:44 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 15, 2025 5:32:45 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 15, 2025 5:32:45 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 5:32:47 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 5:32:47 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 5:32:52 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 5:32:52 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 5:32:52 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:32:52 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 5:32:58 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 5:32:59 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 5:33:03 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted In Search TextField Successfully: AutoWOPN150725142816UZ
+Jul 15, 2025 5:33:03 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy First Record Displayed Successfully: 
+Jul 15, 2025 5:33:08 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCount Clicked Successfully: 
+Jul 15, 2025 5:33:16 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCountFirstRecord Loaded Successfully: 
+Jul 15, 2025 5:33:24 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Assigned Employee Name  Successfully: AutoFNJGIJO
+Jul 15, 2025 5:33:32 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCountFirstRecord Loaded Successfully: 
+Jul 15, 2025 5:33:32 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Jul 15, 2025 5:33:33 PM base.LogResults createLogs
+INFO: PASS - LastNameCheckBox Clicked Successfully: 
+Jul 15, 2025 5:33:33 PM base.LogResults createLogs
+INFO: PASS - EmployeeIDCheckBox Clicked Successfully: 
+Jul 15, 2025 5:33:33 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Jul 15, 2025 5:33:41 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Assigned Employee Last Name  Successfully: AutoLNGRQKO
+Jul 15, 2025 5:33:49 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCountFirstRecord Loaded Successfully: 
+Jul 15, 2025 5:33:58 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Assigned Employee Id Entered Successfully: AutoEIDTWMEY
+Jul 15, 2025 5:34:06 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCountFirstRecord Loaded Successfully: 
+Jul 15, 2025 5:34:06 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Jul 15, 2025 5:34:06 PM base.LogResults createLogs
+INFO: PASS - LastNameCheckBox Clicked Successfully: 
+Jul 15, 2025 5:34:06 PM base.LogResults createLogs
+INFO: PASS - EmployeeIDCheckBox Clicked Successfully: 
+Jul 15, 2025 5:34:07 PM base.LogResults createLogs
+INFO: PASS - DesignationCheckBox Clicked Successfully: 
+Jul 15, 2025 5:34:07 PM base.LogResults createLogs
+INFO: PASS - DepartmentCheckBox Clicked Successfully: 
+Jul 15, 2025 5:34:07 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Jul 15, 2025 5:34:15 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Assigned Employee Name  Successfully: AutoDN150725142816
+Jul 15, 2025 5:34:23 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCountFirstRecord Loaded Successfully: 
+Jul 15, 2025 5:34:32 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Assigned Employee Name  Successfully: AutoDN150725142816
+Jul 15, 2025 5:34:40 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCountFirstRecord Loaded Successfully: 
+Jul 15, 2025 5:34:40 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Jul 15, 2025 5:34:40 PM base.LogResults createLogs
+INFO: PASS - DesignationCheckBox Clicked Successfully: 
+Jul 15, 2025 5:34:41 PM base.LogResults createLogs
+INFO: PASS - DepartmentCheckBox Clicked Successfully: 
+Jul 15, 2025 5:34:41 PM base.LogResults createLogs
+INFO: PASS - OfficeCheckBox Clicked Successfully: 
+Jul 15, 2025 5:34:41 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Jul 15, 2025 5:34:49 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Assigned Employee Name  Successfully: AutoON150725142816
+Jul 15, 2025 5:34:57 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy AssignedEmpLinkCountFirstRecord Loaded Successfully: 
+Jul 15, 2025 5:34:57 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_585_WeekOff_Policy_10-To verify this, click on the "Assign Employees" count link for the employee criteria-added policy and check the functionality of the search feature in the mini window that appears. Ensure that the search works correctly using various options such as First Name, Last Name, Employee ID, Enroll ID, Designation, Department, and Office. Verify that relevant records are displayed based on the entered search input.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_585_WeekOff_Policy_10
+Jul 15, 2025 5:34:57 PM base.LogResults onlyLog
+INFO: Total Pass : 7 Total Fail : 1  Total TC : 8
+---------------------------------------------------------------
+Test case took: 143.1850 seconds
+Total TC Time: 00:13:20
+
+===============================================
+Suite
+Total tests run: 8, Passes: 8, Failures: 0, Skips: 0
+===============================================
+

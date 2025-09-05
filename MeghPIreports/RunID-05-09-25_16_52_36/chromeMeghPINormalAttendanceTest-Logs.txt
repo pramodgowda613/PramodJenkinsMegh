@@ -1,0 +1,8 @@
+Sep 05, 2025 4:52:39 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully at 09:11:10
+Sep 05, 2025 4:52:54 PM base.LogResults createLogs
+INFO: FAIL - ❌ Check the status when the employee performs only a single punch in a day. – Employee Emp0001 on 2025-07-17 punched IN at 09:11:10 and did not perform any further punch OUT. Final Status = A (Expected = SP)
+Sep 05, 2025 4:52:54 PM base.LogResults onlyLog
+INFO: Failed - MeghPINormalAttendanceTest-MPI_630_Normal_Attendance_02-Check the status when the employee performs only a single punch in a day.
+Sep 05, 2025 4:52:54 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1

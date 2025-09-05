@@ -1,0 +1,20 @@
+Sep 03, 2025 3:16:10 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sep 03, 2025 3:16:13 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 03, 2025 3:16:13 PM base.LogResults onlyLog
+INFO: Passed - MeghPINormalAttendanceTest-MPI_860_Normal_Attendance_69-To verify this, check the total working hours of an employee who worked half an hour more than the shift duration 
+Sep 03, 2025 3:16:13 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+Sep 03, 2025 3:16:18 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sep 03, 2025 3:16:21 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 03, 2025 3:16:24 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 03, 2025 3:16:26 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 03, 2025 3:16:26 PM base.LogResults onlyLog
+INFO: Passed - MeghPINormalAttendanceTest-MPI_861_Normal_Attendance_70-To verify this, check the working hours of an employee who took a 2-hour break and did punch out at the end of the shift. 
+Sep 03, 2025 3:16:26 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2

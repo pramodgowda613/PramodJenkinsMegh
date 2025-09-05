@@ -1,0 +1,4 @@
+Sept 03, 2025 10:42:11 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 03, 2025 10:42:19 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARZO

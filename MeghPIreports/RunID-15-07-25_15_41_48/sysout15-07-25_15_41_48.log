@@ -1,0 +1,59 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:150725-150725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 3:41:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+hello
+Jul 15, 2025 3:41:52 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 15, 2025 3:41:56 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.
+Jul 15, 2025 3:41:57 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 15, 2025 3:42:01 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 15, 2025 3:42:01 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.
+Jul 15, 2025 3:42:01 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.
+Jul 15, 2025 3:42:01 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.
+Jul 15, 2025 3:42:02 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 15, 2025 3:42:04 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 15, 2025 3:42:04 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 15, 2025 3:42:09 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 3:42:11 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 3:42:11 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 3:42:12 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Jul 15, 2025 3:42:12 PM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Jul 15, 2025 3:42:20 PM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON150725142816
+scrollaction doneAutoON150725142816
+Jul 15, 2025 3:42:20 PM base.LogResults createLogs
+INFO: PASS -  Successfully Fetched The First Record Company Name : 
+Jul 15, 2025 3:42:20 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterOfficeTest-MPI_161_Office_01-To verify this, create an office and ensure the created office is displayed in the list.
+---------------------------------------------------------------
+MeghMasterOfficeTestMPI_161_Office_01
+Jul 15, 2025 3:42:20 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 29.4568 seconds
+Total TC Time: 00:00:29
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

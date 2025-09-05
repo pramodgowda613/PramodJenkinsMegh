@@ -1,0 +1,172 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:070825-070825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 07, 2025 12:04:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 07, 2025 12:04:06 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Aug 07, 2025 12:04:10 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.ANHZ
+Aug 07, 2025 12:04:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Aug 07, 2025 12:04:14 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Aug 07, 2025 12:04:14 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.AutoE070825091624@mailinator.com
+Aug 07, 2025 12:04:15 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Aug 07, 2025 12:04:15 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Aug 07, 2025 12:04:15 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Aug 07, 2025 12:04:18 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Aug 07, 2025 12:04:18 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 07, 2025 12:04:23 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 07, 2025 12:04:24 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 07, 2025 12:04:25 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 07, 2025 12:04:26 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 07, 2025 12:04:37 PM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Aug 07, 2025 12:04:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Aug 07, 2025 12:04:40 PM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Aug 07, 2025 12:04:44 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN070825091624
+Aug 07, 2025 12:04:44 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Aug 07, 2025 12:04:46 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Aug 07, 2025 12:04:48 PM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Aug 07, 2025 12:04:49 PM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: AutoEIDMGTITM
+Aug 07, 2025 12:04:52 PM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON070825091624
+Aug 07, 2025 12:04:52 PM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNBPWCG
+Aug 07, 2025 12:04:52 PM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNQXDOI
+Aug 07, 2025 12:04:52 PM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE070825091624PMQ@mailinator.com
+Aug 07, 2025 12:04:53 PM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851479031
+Aug 07, 2025 12:04:53 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Aug 07, 2025 12:04:53 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 03-01-2025
+Aug 07, 2025 12:04:53 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Aug 07, 2025 12:04:57 PM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Aug 07, 2025 12:04:58 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 07, 2025 12:04:59 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Aug 07, 2025 12:04:59 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 07, 2025 12:05:03 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNQXDOI
+Aug 07, 2025 12:05:06 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNQXDOI
+Aug 07, 2025 12:05:07 PM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Aug 07, 2025 12:05:07 PM base.LogResults createLogs
+INFO: PASS - Clicked On WebEnrollment Successfully: 
+Aug 07, 2025 12:05:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On FaceEnrollmentTab Successfully: 
+Aug 07, 2025 12:05:25 PM base.LogResults createLogs
+INFO: PASS - Image Selected For WebEnrollment Successfully: ./data/images/enrollmentimage.jpg
+Aug 07, 2025 12:05:25 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On CropImage: 
+Aug 07, 2025 12:05:25 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveEnrollmentButton: 
+Aug 07, 2025 12:05:56 PM base.LogResults createLogs
+INFO: PASS - Success Msg Is Displayed: 
+Aug 07, 2025 12:06:05 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 07, 2025 12:06:07 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 07, 2025 12:06:07 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 07, 2025 12:06:09 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 07, 2025 12:06:09 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 07, 2025 12:06:09 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Aug 07, 2025 12:06:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 07, 2025 12:06:14 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNQXDOI
+Aug 07, 2025 12:06:17 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNQXDOI
+Aug 07, 2025 12:06:17 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Aug 07, 2025 12:06:17 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Aug 07, 2025 12:06:27 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Manage Profile EditIcon: 
+Aug 07, 2025 12:06:30 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Dept: AutoDN070825091624
+Aug 07, 2025 12:06:37 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoDN070825091624
+Aug 07, 2025 12:06:44 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Team From Dropdown: AutoTN070825091624
+Aug 07, 2025 12:06:50 PM base.LogResults createLogs
+INFO: PASS - Successfully Enter The Pin: 1325
+Aug 07, 2025 12:06:56 PM base.LogResults createLogs
+INFO: PASS - SaveChanges Button Clicked Successfully: 
+Aug 07, 2025 12:07:05 PM base.LogResults createLogs
+INFO: PASS - DefaultPolicy Button Clicked Successfully: 
+Aug 07, 2025 12:07:11 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Aug 07, 2025 12:07:11 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Aug 07, 2025 12:07:11 PM base.LogResults createLogs
+INFO: PASS - AttendancePolicy Clicked Successfully : 
+Aug 07, 2025 12:07:13 PM base.LogResults createLogs
+INFO: PASS - AttendancePolicy Page Loaded Successfully : 
+Aug 07, 2025 12:07:13 PM base.LogResults createLogs
+INFO: PASS - AddAttendancePolicyButton Clicked Successfully : 
+Aug 07, 2025 12:07:14 PM base.LogResults createLogs
+INFO: PASS - AttendancePolicy Name Entered Successfully : AutoAPN070825091624KRA
+Aug 07, 2025 12:07:14 PM base.LogResults createLogs
+INFO: PASS - WebPunchButton Button Successfully : 
+Aug 07, 2025 12:07:14 PM base.LogResults createLogs
+INFO: PASS - EnableGracePeriod Button  Successfully : 
+Aug 07, 2025 12:07:15 PM base.LogResults createLogs
+INFO: PASS - EarlyClockOut CheckBox Clicked  Successfully : 
+Aug 07, 2025 12:07:15 PM base.LogResults createLogs
+INFO: PASS - Clicked On GraceHours  Successfully : 
+Aug 07, 2025 12:07:19 PM base.LogResults createLogs
+INFO: PASS -  GraceHours Inputted  Successfully : 1:00
+Aug 07, 2025 12:07:19 PM base.LogResults createLogs
+INFO: PASS - Clicked On GraceTimeApply Button  Successfully : 
+Aug 07, 2025 12:07:19 PM base.LogResults createLogs
+INFO: PASS - EnableGracePeriod CheckBox Clicked  Successfully : 
+Aug 07, 2025 12:07:19 PM base.LogResults createLogs
+INFO: PASS - RegulationRequest CheckBox Clicked  Successfully : 
+Aug 07, 2025 12:07:20 PM base.LogResults createLogs
+INFO: PASS - AddEmpCriteria Button Successfully : 
+Aug 07, 2025 12:07:24 PM base.LogResults createLogs
+INFO: PASS - Office Name Selected  Successfully : AutoON070825091624
+Aug 07, 2025 12:07:41 PM base.LogResults createLogs
+INFO: FAIL - Error while Selecting Dept : Exception while selecting department 'AutoDN070825091624': Expected condition failed: waiting for com.MeghPI.Attendance.pages.MeghAttendancePolicyPage$$Lambda$900/0x000001ce224d2000@554e9509 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64081}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a64d3739a48eb0cfb52c974748d64b3
+Aug 07, 2025 12:07:48 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected  Designation From Dropdown: AutoDN070825091624

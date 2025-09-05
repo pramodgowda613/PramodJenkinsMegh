@@ -1,0 +1,114 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:080825-080825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 08, 2025 10:46:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 08, 2025 10:46:10 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 08, 2025 10:46:14 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARRD
+Aug 08, 2025 10:46:14 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 08, 2025 10:46:18 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 08, 2025 10:46:18 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE080825091623@mailinator.com
+Aug 08, 2025 10:46:19 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 08, 2025 10:46:19 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 08, 2025 10:46:19 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 08, 2025 10:46:22 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 08, 2025 10:46:22 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 08, 2025 10:46:27 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 08, 2025 10:46:29 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 10:46:29 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 08, 2025 10:46:31 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 10:46:31 AM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 08, 2025 10:46:32 AM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Aug 08, 2025 10:46:36 AM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: 
+Aug 08, 2025 10:46:39 AM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: 
+Aug 08, 2025 10:46:39 AM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Aug 08, 2025 10:46:50 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On WebEnrollment: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3582a04001abd938b3783b4dab04038, clickElement {id=f.F815FACD72CA0E8F63628AC43D603A48.d.15E21A2643BF0B2C39FABDCBC4B27A05.e.1406}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f3582a04001abd938b3783b4dab04038)] -> xpath: (//a[text()='Web Enrollment'])[1]]
+Session ID: f3582a04001abd938b3783b4dab04038
+Aug 08, 2025 10:47:03 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On FaceEnrollmentTab: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnFaceTab']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3582a04001abd938b3783b4dab04038, findElement {value=//button[@id='btnFaceTab'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3582a04001abd938b3783b4dab04038
+Aug 08, 2025 10:47:21 AM base.LogResults createLogs
+INFO: FAIL - Error while Selecting Image For WebEnrollment: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='fileInput']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3582a04001abd938b3783b4dab04038, findElement {value=//input[@id='fileInput'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3582a04001abd938b3783b4dab04038
+Aug 08, 2025 10:47:34 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On CropImage: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='cropButton']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3582a04001abd938b3783b4dab04038, findElement {value=//button[@id='cropButton'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3582a04001abd938b3783b4dab04038
+Aug 08, 2025 10:47:44 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On SaveEnrollmentButton: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnFaceSubmit']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3582a04001abd938b3783b4dab04038, findElement {value=//button[@id='btnFaceSubmit'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3582a04001abd938b3783b4dab04038
+Aug 08, 2025 10:47:44 AM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Aug 08, 2025 10:47:44 AM base.LogResults onlyLog
+INFO: Failed - Attendance-MPI_159_Directory_AddEmployee_14-To verify this, enroll the newly added employee and check whether the enrolled employee is displayed in the 'Reporting To' dropdown on the 'Add New Employee' page
+---------------------------------------------------------------
+AttendanceMPI_159_Directory_AddEmployee_14
+Aug 08, 2025 10:47:44 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 95.9292 seconds
+Total TC Time: 00:01:35
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+===============================================
+

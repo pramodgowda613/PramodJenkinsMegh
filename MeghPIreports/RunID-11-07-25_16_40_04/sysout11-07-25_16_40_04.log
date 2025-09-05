@@ -1,0 +1,28 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:110725-110725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 11, 2025 4:40:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 4:40:07 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 4:40:07 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ForgotCompanyCode: 
+Jul 11, 2025 4:40:08 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Username: AutoE110725095836@mailinator.com
+Jul 11, 2025 4:40:08 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 4:40:08 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked on RequestCompanyCode Button: 
+Jul 11, 2025 4:40:08 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 11, 2025 4:40:10 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 11, 2025 4:40:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 11, 2025 4:40:18 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE110725095836
+Jul 11, 2025 4:40:18 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 

@@ -1,0 +1,168 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 7:30:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 7:30:17 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 7:30:19 PM base.LogResults createLogs
+INFO: PASS - Create An Account Button Is Clicked: 
+Jul 15, 2025 7:30:20 PM base.LogResults createLogs
+INFO: PASS - First Name Entered in Text Box: AutoAFNIWW
+Jul 15, 2025 7:30:20 PM base.LogResults createLogs
+INFO: PASS - Last Name Entered in Text Box: AutoLNDQGW
+Jul 15, 2025 7:30:20 PM base.LogResults createLogs
+INFO: PASS - Email  Entered in Text Box: AutoE150725193012@mailinator.com
+Jul 15, 2025 7:30:21 PM base.LogResults createLogs
+INFO: PASS - Phone Number Entered in Text Box: 8217050453
+Jul 15, 2025 7:30:21 PM base.LogResults createLogs
+INFO: PASS - Create Password Entered in Text Box: Pramod@1234
+Jul 15, 2025 7:30:21 PM base.LogResults createLogs
+INFO: PASS - Confirm Password Entered in Text Box: Pramod@1234
+Jul 15, 2025 7:30:21 PM base.LogResults createLogs
+INFO: PASS - Successfully Cliked On SignUp Button: 
+Jul 15, 2025 7:30:21 PM base.LogResults createLogs
+INFO: PASS - Company Name Entered in Text Box: AutoCNTRKEO
+Jul 15, 2025 7:30:26 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ACKW
+Jul 15, 2025 7:30:29 PM base.LogResults createLogs
+INFO: PASS - Company HeadCount Selected In the Dropdown: 51 To 100
+Jul 15, 2025 7:30:29 PM base.LogResults createLogs
+INFO: PASS - Industry Type Selected In the Dropdown: Software Industry
+Jul 15, 2025 7:30:29 PM base.LogResults createLogs
+INFO: PASS - Your Role Selected In the Dropdown: Admin
+Jul 15, 2025 7:30:29 PM base.LogResults createLogs
+INFO: PASS - Your Role Selected In the Dropdown: 
+Jul 15, 2025 7:30:38 PM base.LogResults createLogs
+INFO: PASS - OTP Sent To YOP Mail: 
+Jul 15, 2025 7:30:40 PM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 15, 2025 7:30:44 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 15, 2025 7:30:45 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 15, 2025 7:30:51 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE150725193012
+Jul 15, 2025 7:30:52 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 15, 2025 7:30:53 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SignUp OTP Mail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (47f8baeee7c3f61d58110f8bb7c3f312)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: <div class="container">            <div class="date" style="margin-left: 517px ; font-size: 12px ; font-weight: bold">   </div> <p>Dear User,</p><p>Thank you for signing up! To complete your registration, please enter the following One-Time Password (OTP) on the sign-up page: <b>660223</b> <br></p><p>This OTP is valid for <b>10</b> minutes.</p><p>If you encounter any issues or have any further questions, feel free to contact at Admin/HR Department.</p><p>Thank you,</p>MeghPI<br>101, Shreeji Complex  
+Near ABC Circle, Satellite Road  
+Ahmedabad, Gujarat 380015  
+India<br>mantra@mantratec.com<br></div>    
+
+<br><p style="text-align: justify ; margin: 0px" class="">This email and any files
+transmitted with it are confidential and intended solely for the use of the
+individual or entity to whom they are addressed. If you are not the named
+addressee you should not disseminate, distribute or copy this e-mail. Please notify
+the sender immediately by e-mail if you have received this e-mail by mistake
+and delete this e-mail from your system.<br></p><div><b><i>?</i>?</b><br></div>
+<br><br><br><br><br><br><br>
+Jul 15, 2025 7:30:57 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+660223this is OTP
+Jul 15, 2025 7:30:57 PM base.LogResults createLogs
+INFO: PASS - Successfully Extracted The OTP: 660223
+Jul 15, 2025 7:30:57 PM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+Jul 15, 2025 7:30:57 PM base.LogResults createLogs
+INFO: PASS - OTP Sent To YOP Mail: 660223
+Jul 15, 2025 7:30:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Captcha: 12345
+Jul 15, 2025 7:30:58 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On VerifyAndLoginButton: 
+Jul 15, 2025 7:31:00 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected VMS: 
+Jul 15, 2025 7:31:00 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected CMS: 
+Jul 15, 2025 7:31:01 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveButton: 
+Jul 15, 2025 7:31:05 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PlanF: 
+Jul 15, 2025 7:31:09 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On MakePaymentButton: 
+Jul 15, 2025 7:31:13 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Cards For Payment: 
+5123456789012346
+Jul 15, 2025 7:31:15 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card Number: 5123456789012346
+Jul 15, 2025 7:31:15 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card ExpiryDate: 1225
+Jul 15, 2025 7:31:15 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card CVV: 123
+Jul 15, 2025 7:31:15 PM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Card OwnerName: Test 
+Jul 15, 2025 7:31:15 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On ProccedButton: 
+Jul 15, 2025 7:31:26 PM base.LogResults createLogs
+INFO: FAIL - Error While Entering The Payment OTP: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='password']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47f8baeee7c3f61d58110f8bb7c3f312, findElement {using=xpath, value=//input[@id='password']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64573}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64573/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47f8baeee7c3f61d58110f8bb7c3f312
+Jul 15, 2025 7:31:36 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On OTPConfirmButton: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='submitBtn']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47f8baeee7c3f61d58110f8bb7c3f312, findElement {using=xpath, value=//input[@id='submitBtn']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64573}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64573/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47f8baeee7c3f61d58110f8bb7c3f312
+Jul 15, 2025 7:31:48 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On BackToLoginButton: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnBackToLogin']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47f8baeee7c3f61d58110f8bb7c3f312, findElement {using=xpath, value=//button[@id='btnBackToLogin']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64573}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64573/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47f8baeee7c3f61d58110f8bb7c3f312
+Jul 15, 2025 7:32:19 PM base.LogResults createLogs
+INFO: FAIL - Application Is Not Loaded Completely: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='divCompanyCode']/div[1]/h2"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47f8baeee7c3f61d58110f8bb7c3f312, findElement {using=xpath, value=//div[@id='divCompanyCode']/div[1]/h2}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64573}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64573/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47f8baeee7c3f61d58110f8bb7c3f312
+Jul 15, 2025 7:32:33 PM base.LogResults createLogs
+INFO: FAIL - Error While Entering Companycode Name: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='CompanyCode']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47f8baeee7c3f61d58110f8bb7c3f312, findElement {using=xpath, value=//input[@name='CompanyCode']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64573}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64573/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47f8baeee7c3f61d58110f8bb7c3f312
+Jul 15, 2025 7:32:33 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Jul 15, 2025 7:32:33 PM base.LogResults onlyLog
+INFO: Failed - MeghLoginTest-MPI_4_Login_Page_04-Verify that upon entering a valid company code and clicking the Login with OTP button, the user is redirected to the Login with OTP page and an OTP is sent to the provided email address.
+---------------------------------------------------------------
+MeghLoginTestMPI_4_Login_Page_04
+Jul 15, 2025 7:32:33 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 137.4895 seconds
+Total TC Time: 00:02:17
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+===============================================
+

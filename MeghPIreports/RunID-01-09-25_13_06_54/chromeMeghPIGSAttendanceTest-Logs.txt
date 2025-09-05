@@ -1,0 +1,6 @@
+Sep 01, 2025 1:07:19 PM base.LogResults createLogs
+INFO: PASS - Leave Created successfully
+Sep 01, 2025 1:07:19 PM base.LogResults onlyLog
+INFO: Passed - MeghPIGSAttendanceTest-MPI_729_Normal_Attendance_57-Check the status when the employee applies for second-half leave without working during the first half of the day 
+Sep 01, 2025 1:07:19 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -1,0 +1,72 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:290725-290725-ThreSld->3
+cmpcode and emailidAGFAAutoE290725091629@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 29, 2025 7:11:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Jul 29, 2025 7:11:33 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 29, 2025 7:11:37 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.AGFA
+Jul 29, 2025 7:11:38 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 29, 2025 7:11:42 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 29, 2025 7:11:42 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE290725091629@mailinator.com
+Jul 29, 2025 7:11:42 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 29, 2025 7:11:42 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 29, 2025 7:11:43 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 29, 2025 7:11:45 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 29, 2025 7:11:45 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 29, 2025 7:11:50 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 29, 2025 7:11:51 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 29, 2025 7:11:52 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Jul 29, 2025 7:11:52 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 29, 2025 7:11:52 PM base.LogResults createLogs
+INFO: PASS - Add Team Button  Clicked Successfully: 
+Jul 29, 2025 7:11:53 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTN290725091629
+Jul 29, 2025 7:11:54 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Jul 29, 2025 7:11:57 PM base.LogResults createLogs
+INFO: PASS - Team Drop Icon  Clicked Successfully: 
+Jul 29, 2025 7:11:58 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 29, 2025 7:11:58 PM base.LogResults createLogs
+INFO: PASS - AddTeamMapping Button  Clicked Successfully: 
+Jul 29, 2025 7:12:03 PM base.LogResults createLogs
+INFO: FAIL - Error while Selecting Team Name : Cannot locate option with text: AutoTN290725091629
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Jul 29, 2025 7:12:03 PM base.LogResults createLogs
+INFO: PASS - Department DropDown Clicked Successfully: 
+Jul 29, 2025 7:12:03 PM base.LogResults createLogs
+INFO: PASS - Department Name Inputted Successfully: AutoDN290725091629
+Jul 29, 2025 7:12:06 PM base.LogResults createLogs
+INFO: PASS - Department Name Selected Successfully: 
+Jul 29, 2025 7:12:07 PM base.LogResults createLogs
+INFO: PASS - Add Team Mapping Saved Successfully: 
+Jul 29, 2025 7:12:16 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 29, 2025 7:12:17 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 29, 2025 7:12:18 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 29, 2025 7:12:20 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 

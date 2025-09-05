@@ -1,0 +1,55 @@
+>> Console logging redirected to data/console.log
+=== Request Payload ===
+=== Request Payload ===
+{
+  "EmployeeList" : [ {
+    "CompanyLocation" : 58,
+    "ContactNo" : "9901054252",
+    "EmailID" : "onehunderedandone@mailinator.com",
+    "FirstName" : "onehunderedandone",
+    "EntityTypeId" : 482,
+    "ReportingTo" : 642,
+    "SendEmailInvitation" : true,
+    "LastName" : "Morning shift",
+    "EmployeeID" : "Emp0101",
+    "DOJ" : "1996-06-07T23:13:00.461Z"
+  } ]
+}
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Request method:	POST
+Request URI:	https://your-api-base-url.com/your-endpoint
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "EmployeeList": [
+        {
+            "CompanyLocation": 58,
+            "ContactNo": "9901054252",
+            "EmailID": "onehunderedandone@mailinator.com",
+            "FirstName": "onehunderedandone",
+            "EntityTypeId": 482,
+            "ReportingTo": 642,
+            "SendEmailInvitation": true,
+            "LastName": "Morning shift",
+            "EmployeeID": "Emp0101",
+            "DOJ": "1996-06-07T23:13:00.461Z"
+        }
+    ]
+}
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+===============================================
+

@@ -1,0 +1,163 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:110725-110725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 11, 2025 1:35:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 1:35:32 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 1:35:32 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 1:35:32 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 1:35:36 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 1:35:37 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 1:35:37 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 1:35:37 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 1:35:37 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 1:35:46 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 1:35:51 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 11, 2025 1:35:51 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 11, 2025 1:35:51 PM base.LogResults createLogs
+INFO: PASS - ShiftDropDown Clicked Successfully : 
+Jul 11, 2025 1:35:51 PM base.LogResults createLogs
+INFO: PASS - ShiftPolicyButton Clicked Successfully : 
+Jul 11, 2025 1:35:53 PM base.LogResults createLogs
+INFO: PASS - ShiftPolicy Page Loaded Successfully : 
+Jul 11, 2025 1:35:55 PM base.LogResults createLogs
+INFO: PASS - AddShiftPolicyButton Clicked Successfully : 
+Jul 11, 2025 1:35:56 PM base.LogResults createLogs
+INFO: PASS - PolicyName Inputted Successfully : 2nd shiftWWZ
+Jul 11, 2025 1:35:56 PM base.LogResults createLogs
+INFO: PASS - AddShiftButton Clicked Successfully : 
+Jul 11, 2025 1:35:57 PM base.LogResults createLogs
+INFO: PASS - GeneralShiftCheckBox Selected Successfully : 
+Jul 11, 2025 1:35:57 PM base.LogResults createLogs
+INFO: PASS - AddShiftSaveButton Clicked Successfully : 
+Jul 11, 2025 1:35:58 PM base.LogResults createLogs
+INFO: PASS - CreatePolicySave Button Clicked Successfully : 
+Jul 11, 2025 1:36:05 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 11, 2025 1:36:13 PM base.LogResults createLogs
+INFO: PASS - PolicyName Inputted Successfully : 2nd shiftWWZ
+Jul 11, 2025 1:36:20 PM base.LogResults createLogs
+INFO: PASS - Shift Policy Edit Button Clicked Successfully : 
+Jul 11, 2025 1:36:21 PM base.LogResults createLogs
+INFO: PASS - Shift Policy Default CheckBox Clicked Successfully : 
+Jul 11, 2025 1:36:25 PM base.LogResults createLogs
+INFO: PASS - Shift Policy Active CheckBox Clicked Successfully : 
+Jul 11, 2025 1:36:25 PM base.LogResults createLogs
+INFO: PASS - AddShiftButton Clicked Successfully : 
+Jul 11, 2025 1:36:26 PM base.LogResults createLogs
+INFO: PASS - GeneralShiftCheckBox Selected Successfully : 
+Jul 11, 2025 1:36:27 PM base.LogResults createLogs
+INFO: PASS - AddShiftSaveButton Clicked Successfully : 
+Jul 11, 2025 1:36:27 PM base.LogResults createLogs
+INFO: PASS - CreatePolicySave Button Clicked Successfully : 
+Jul 11, 2025 1:36:34 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 11, 2025 1:36:42 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 1:36:44 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 1:36:45 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 11, 2025 1:36:46 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 1:36:56 PM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Jul 11, 2025 1:36:57 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Jul 11, 2025 1:36:59 PM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Jul 11, 2025 1:36:59 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN110725095836
+Jul 11, 2025 1:36:59 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Jul 11, 2025 1:37:02 PM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Jul 11, 2025 1:37:04 PM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Jul 11, 2025 1:37:04 PM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: AutoEID3761FYW
+Jul 11, 2025 1:37:04 PM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON110725095836
+Jul 11, 2025 1:37:04 PM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNGVJUAKI
+Jul 11, 2025 1:37:05 PM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNAWASTDS
+Jul 11, 2025 1:37:05 PM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE11072509583619@mailinator.com
+Jul 11, 2025 1:37:05 PM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851433528
+Jul 11, 2025 1:37:05 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Jul 11, 2025 1:37:05 PM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 
+Jul 11, 2025 1:37:06 PM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Jul 11, 2025 1:37:09 PM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Jul 11, 2025 1:37:13 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee First Name Successfully: AutoFNGVJUAKI
+Jul 11, 2025 1:37:17 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNAWASTDS
+Jul 11, 2025 1:37:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Jul 11, 2025 1:37:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On WebEnrollment Successfully: 
+Jul 11, 2025 1:37:20 PM base.LogResults createLogs
+INFO: PASS - Clicked On FaceEnrollmentTab Successfully: 
+Jul 11, 2025 1:37:31 PM base.LogResults createLogs
+INFO: PASS - Image Selected For WebEnrollment Successfully: ./data/images/enrollmentimage.jpg
+Jul 11, 2025 1:37:31 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On CropImage: 
+Jul 11, 2025 1:37:31 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveEnrollmentButton: 
+Jul 11, 2025 1:37:40 PM base.LogResults createLogs
+INFO: PASS - Success Msg Is Displayed: 
+Jul 11, 2025 1:37:49 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 1:37:51 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 1:37:53 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 11, 2025 1:37:54 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 1:37:59 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoFNGVJUAKI
+Jul 11, 2025 1:38:02 PM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: 
+Jul 11, 2025 1:38:02 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 11, 2025 1:38:03 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 11, 2025 1:38:23 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 11, 2025 1:38:26 PM base.LogResults createLogs
+INFO: FAIL - Error while Validating Employee's Shift Policy Name : null
+Jul 11, 2025 1:38:26 PM base.LogResults onlyLog
+INFO: Failed - MeghShiftPolicyTest-MPI_489_Shift_Policy_12-To verify this, edit the 2nd shift policy and set it as the default policy. Then, create a new employee and ensure the newly added employee is automatically assigned to the 2nd shift.
+---------------------------------------------------------------
+MeghShiftPolicyTestMPI_489_Shift_Policy_12
+Jul 11, 2025 1:38:26 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 175.4703 seconds
+Total TC Time: 00:02:55
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

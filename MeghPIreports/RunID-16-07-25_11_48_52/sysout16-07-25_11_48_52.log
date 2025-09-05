@@ -1,0 +1,72 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:160725-150725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 16, 2025 11:49:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 16, 2025 11:49:01 AM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 16, 2025 11:49:05 AM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.AZPK
+Jul 16, 2025 11:49:05 AM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 16, 2025 11:49:09 AM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 16, 2025 11:49:09 AM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725091521@mailinator.com
+Jul 16, 2025 11:49:10 AM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 16, 2025 11:49:10 AM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 16, 2025 11:49:10 AM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 16, 2025 11:49:13 AM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 16, 2025 11:49:13 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 16, 2025 11:49:17 AM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 16, 2025 11:49:17 AM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 16, 2025 11:49:17 AM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 16, 2025 11:49:19 AM base.LogResults createLogs
+INFO: PASS - HolidaysButtonFromSidebar Clicked Successfully: 
+Jul 16, 2025 11:49:20 AM base.LogResults createLogs
+INFO: PASS - AddHolidayPolicyButton Clicked Successfully: 
+Jul 16, 2025 11:49:28 AM base.LogResults createLogs
+INFO: PASS - HolidayPolicyName Inputted In TextField Successfully: AutoHPN150725091521DZB
+Jul 16, 2025 11:49:31 AM base.LogResults createLogs
+INFO: PASS - Year Selected Successfully: 2024-2025 
+Jul 16, 2025 11:49:31 AM base.LogResults createLogs
+INFO: PASS - NextStepButton Clicked Successfully: 
+Jul 16, 2025 11:49:31 AM base.LogResults createLogs
+INFO: PASS - NextStepButton Clicked Successfully: 
+Jul 16, 2025 11:49:42 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On CreatePolicySaveButton: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb3efb8d3a9ffe6f469e37e78dba95cf, clickElement {id=f.FDA3EE128B6C00F243550687B486B54B.d.F52C2A0AF3E17A601EE058107D9AE021.e.895}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61308}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61308/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cb3efb8d3a9ffe6f469e37e78dba95cf)] -> xpath: //a[@id='btnHolidayPolicySave']]
+Session ID: cb3efb8d3a9ffe6f469e37e78dba95cf
+Jul 16, 2025 11:49:52 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Yes Button : element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb3efb8d3a9ffe6f469e37e78dba95cf, clickElement {id=f.FDA3EE128B6C00F243550687B486B54B.d.F52C2A0AF3E17A601EE058107D9AE021.e.906}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61308}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61308/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cb3efb8d3a9ffe6f469e37e78dba95cf)] -> xpath: //button[@id='btnPolicyConfirmYes']]
+Session ID: cb3efb8d3a9ffe6f469e37e78dba95cf
+Jul 16, 2025 11:49:57 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 16, 2025 11:50:04 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 16, 2025 11:50:04 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 

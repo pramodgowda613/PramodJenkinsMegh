@@ -1,0 +1,158 @@
+Sept 01, 2025 10:59:56 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 01, 2025 11:00:02 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARZO
+Sept 01, 2025 11:00:04 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Sept 01, 2025 11:00:11 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Sept 01, 2025 11:00:13 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE010925091520@mailinator.com
+Sept 01, 2025 11:00:15 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Sept 01, 2025 11:00:17 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Sept 01, 2025 11:00:20 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Sept 01, 2025 11:00:22 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Sept 01, 2025 11:00:24 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:00:31 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:00:34 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:00:36 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:00:38 AM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Sept 01, 2025 11:00:41 AM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Sept 01, 2025 11:00:51 AM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON010925091520
+Sept 01, 2025 11:00:56 AM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Sept 01, 2025 11:00:58 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Sept 01, 2025 11:01:01 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Sept 01, 2025 11:01:03 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:01:12 AM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Sept 01, 2025 11:01:14 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Sept 01, 2025 11:01:16 AM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Sept 01, 2025 11:01:18 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On The Company Location DropDown : 
+Sept 01, 2025 11:01:24 AM base.LogResults createLogs
+INFO: PASS -  Successfully Entered  The Disabled Company Location In The Search Field : AutoON010925091520
+Sept 01, 2025 11:01:29 AM base.LogResults createLogs
+INFO: PASS -  Disabled Location Name Isn't Displayed And Respective Message Is Displayed: 
+Sept 01, 2025 11:01:29 AM base.LogResults onlyLog
+INFO: Passed - MeghMasterOfficeTest-MPI_181_Office_03-To verify this, update the location status to 'Inactive' and ensure that during the 'Add Employee' process, the location is not displayed in the Company Location dropdown.
+Sept 01, 2025 11:01:29 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+Sept 01, 2025 11:01:35 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 01, 2025 11:01:41 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARZO
+Sept 01, 2025 11:01:43 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Sept 01, 2025 11:01:50 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Sept 01, 2025 11:01:52 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE010925091520@mailinator.com
+Sept 01, 2025 11:01:54 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Sept 01, 2025 11:01:56 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Sept 01, 2025 11:01:59 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Sept 01, 2025 11:02:02 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Sept 01, 2025 11:02:04 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:02:11 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:02:14 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:02:16 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:02:19 AM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Sept 01, 2025 11:02:21 AM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Sept 01, 2025 11:02:31 AM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: AutoON010925091520
+Sept 01, 2025 11:02:36 AM base.LogResults createLogs
+INFO: PASS -  Successfully Turn Off The Toggle Switch : 
+Sept 01, 2025 11:02:39 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Sept 01, 2025 11:02:41 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Sept 01, 2025 11:02:44 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:02:52 AM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Sept 01, 2025 11:02:54 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Sept 01, 2025 11:02:56 AM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Sept 01, 2025 11:02:59 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On The Company Location DropDown : 
+Sept 01, 2025 11:03:04 AM base.LogResults createLogs
+INFO: PASS -  Successfully Entered  The Status enabled Company Location In The Search Field : AutoON010925091520
+Sept 01, 2025 11:03:09 AM base.LogResults createLogs
+INFO: PASS -  Enabled Location Name Is Displayed: 
+Sept 01, 2025 11:03:09 AM base.LogResults onlyLog
+INFO: Passed - MeghMasterOfficeTest-MPI_182_Office_04-To verify this, update the location status to 'Active' and ensure that the location is displayed in the Company Location dropdown during the 'Add Employee' process
+Sept 01, 2025 11:03:09 AM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+Sept 01, 2025 11:03:15 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 01, 2025 11:03:22 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARZO
+Sept 01, 2025 11:03:24 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Sept 01, 2025 11:03:30 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Sept 01, 2025 11:03:32 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE010925091520@mailinator.com
+Sept 01, 2025 11:03:35 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Sept 01, 2025 11:03:37 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Sept 01, 2025 11:03:39 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Sept 01, 2025 11:03:42 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Sept 01, 2025 11:03:44 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 01, 2025 11:03:51 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Sept 01, 2025 11:03:53 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Sept 01, 2025 11:03:56 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Sept 01, 2025 11:03:58 AM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Sept 01, 2025 11:04:00 AM base.LogResults createLogs
+INFO: PASS - Office Page  Validated Successfully: 
+Sept 01, 2025 11:04:02 AM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Sept 01, 2025 11:04:05 AM base.LogResults createLogs
+INFO: PASS - OfficeType Selected Successfully: 
+Sept 01, 2025 11:04:07 AM base.LogResults createLogs
+INFO: PASS - SearchDropDown Clicked Successfully: 
+Sept 01, 2025 11:04:17 AM base.LogResults createLogs
+INFO: PASS - OfficeType Entered In The TextField Successfully: Manufacturing Unit
+
+Sept 01, 2025 11:04:19 AM base.LogResults createLogs
+INFO: PASS - OfficeType Search Results Displayed Successfully: Manufacturing Unit
+
+Sept 01, 2025 11:04:19 AM base.LogResults onlyLog
+INFO: Passed - MeghMasterOfficeTest-MPI_186_Office_08-To verify this, check the functionality of the search text field by selecting "Headquarter" as the office type and ensure that only the records having Headquarter as their office type are displayed in the filtered results.
+Sept 01, 2025 11:04:19 AM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3

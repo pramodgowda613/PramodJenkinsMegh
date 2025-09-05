@@ -1,0 +1,129 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 14, 2025 9:57:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 9:57:59 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 9:58:01 AM base.LogResults createLogs
+INFO: PASS - Create An Account Button Is Clicked: 
+Jul 14, 2025 9:58:02 AM base.LogResults createLogs
+INFO: PASS - First Name Entered in Text Box: AutoAFNKVK
+Jul 14, 2025 9:58:02 AM base.LogResults createLogs
+INFO: PASS - Last Name Entered in Text Box: AutoLNHQWU
+Jul 14, 2025 9:58:02 AM base.LogResults createLogs
+INFO: PASS - Email  Entered in Text Box: AutoE140725095755@mailinator.com
+Jul 14, 2025 9:58:02 AM base.LogResults createLogs
+INFO: PASS - Phone Number Entered in Text Box: 8217082569
+Jul 14, 2025 9:58:02 AM base.LogResults createLogs
+INFO: PASS - Create Password Entered in Text Box: Pramod@1234
+Jul 14, 2025 9:58:03 AM base.LogResults createLogs
+INFO: PASS - Confirm Password Entered in Text Box: Pramod@1234
+Jul 14, 2025 9:58:03 AM base.LogResults createLogs
+INFO: PASS - Successfully Cliked On SignUp Button: 
+Jul 14, 2025 9:58:03 AM base.LogResults createLogs
+INFO: PASS - Company Name Entered in Text Box: AutoCNSESGY
+Jul 14, 2025 9:58:07 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AMQZ
+Jul 14, 2025 9:58:07 AM base.LogResults createLogs
+INFO: PASS - Company HeadCount Selected In the Dropdown: 51 To 100
+Jul 14, 2025 9:58:08 AM base.LogResults createLogs
+INFO: PASS - Industry Type Selected In the Dropdown: Software Industry
+Jul 14, 2025 9:58:08 AM base.LogResults createLogs
+INFO: PASS - Your Role Selected In the Dropdown: Admin
+Jul 14, 2025 9:58:08 AM base.LogResults createLogs
+INFO: PASS - Your Role Selected In the Dropdown: 
+Jul 14, 2025 9:58:12 AM base.LogResults createLogs
+INFO: PASS - OTP Sent To YOP Mail: 
+Jul 14, 2025 9:58:15 AM base.LogResults createLogs
+INFO: PASS - Successfully Open The New Tab And URL Is Passed: 
+Jul 14, 2025 9:58:17 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On GetFreeTrailButton: 
+Jul 14, 2025 9:58:18 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PopupCloseButton: 
+Jul 14, 2025 9:58:24 AM base.LogResults createLogs
+INFO: PASS - Successfully Inputted Emp Name: AutoE140725095755
+Jul 14, 2025 9:58:24 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SearchButtonOfMailinator: 
+Jul 14, 2025 9:58:26 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SignUp OTP Mail: 
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (13c209835ea7a55489366422d56a2f1a)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: <div class="container">            <div class="date" style="margin-left: 517px ; font-size: 12px ; font-weight: bold">   </div> <p>Dear User,</p><p>Thank you for signing up! To complete your registration, please enter the following One-Time Password (OTP) on the sign-up page: <b>269608</b> <br></p><p>This OTP is valid for <b>10</b> minutes.</p><p>If you encounter any issues or have any further questions, feel free to contact at Admin/HR Department.</p><p>Thank you,</p>MeghPI<br>101, Shreeji Complex  
+Near ABC Circle, Satellite Road  
+Ahmedabad, Gujarat 380015  
+India<br>mantra@mantratec.com<br></div>    
+
+<br><p style="text-align: justify ; margin: 0px" class="">This email and any files
+transmitted with it are confidential and intended solely for the use of the
+individual or entity to whom they are addressed. If you are not the named
+addressee you should not disseminate, distribute or copy this e-mail. Please notify
+the sender immediately by e-mail if you have received this e-mail by mistake
+and delete this e-mail from your system.<br></p><div><b><i>?</i>?</b><br></div>
+<br><br><br><br><br><br><br>
+Jul 14, 2025 9:58:30 AM base.LogResults createLogs
+INFO: PASS - Successfully Navigated To IFrame: 
+269608this is OTP
+Jul 14, 2025 9:58:30 AM base.LogResults createLogs
+INFO: PASS - Successfully Extracted The OTP: 269608
+Jul 14, 2025 9:58:30 AM base.LogResults createLogs
+INFO: PASS - Successfully Navigated Back To Application: 
+Jul 14, 2025 9:58:30 AM base.LogResults createLogs
+INFO: PASS - OTP Sent To YOP Mail: 269608
+Jul 14, 2025 9:58:30 AM base.LogResults createLogs
+INFO: PASS - Successfully Entered The Captcha: 12345
+Jul 14, 2025 9:58:31 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On VerifyAndLoginButton: 
+Jul 14, 2025 9:58:33 AM base.LogResults createLogs
+INFO: PASS - Successfully Selected VMS: 
+Jul 14, 2025 9:58:33 AM base.LogResults createLogs
+INFO: PASS - Successfully Selected CMS: 
+Jul 14, 2025 9:58:33 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On SaveButton: 
+Jul 14, 2025 9:58:37 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On PlanF: 
+Jul 14, 2025 9:58:37 AM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On MakePaymentButton: 
+Jul 14, 2025 9:58:47 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Cards/Credit: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Cards (Credit/Debit)']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13c209835ea7a55489366422d56a2f1a, findElement {using=xpath, value=//p[text()='Cards (Credit/Debit)']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57058}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57058/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13c209835ea7a55489366422d56a2f1a
+5123456789012346
+Jul 14, 2025 9:58:58 AM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Card Number: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='cardNumber']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13c209835ea7a55489366422d56a2f1a, findElement {using=xpath, value=//input[@id='cardNumber']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57058}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57058/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13c209835ea7a55489366422d56a2f1a
+Jul 14, 2025 9:59:08 AM base.LogResults createLogs
+INFO: FAIL - Error While Entering The Card ExpiryDate: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='cardExpiry']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13c209835ea7a55489366422d56a2f1a, findElement {using=xpath, value=//input[@id='cardExpiry']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57058}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57058/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13c209835ea7a55489366422d56a2f1a
+Jul 14, 2025 9:59:18 AM base.LogResults createLogs
+INFO: FAIL - Error While Entering The Card CVV: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='cardCvv']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13c209835ea7a55489366422d56a2f1a, findElement {using=xpath, value=//input[@id='cardCvv']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57058}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57058/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13c209835ea7a55489366422d56a2f1a

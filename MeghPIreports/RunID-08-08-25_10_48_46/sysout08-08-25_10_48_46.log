@@ -1,0 +1,140 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:080825-080825-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 08, 2025 10:48:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 08, 2025 10:48:50 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 08, 2025 10:48:55 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARRD
+Aug 08, 2025 10:48:55 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 08, 2025 10:48:59 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 08, 2025 10:48:59 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE080825091623@mailinator.com
+Aug 08, 2025 10:48:59 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 08, 2025 10:49:00 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 08, 2025 10:49:00 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 08, 2025 10:49:03 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 08, 2025 10:49:03 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 08, 2025 10:49:08 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 08, 2025 10:49:10 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 10:49:10 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 08, 2025 10:49:12 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 10:49:22 AM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Aug 08, 2025 10:49:23 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Aug 08, 2025 10:49:26 AM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Aug 08, 2025 10:49:29 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Selected EntityName Successfully: AutoEN080825091623
+Aug 08, 2025 10:49:29 AM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingToDropdown Successfully: 
+Aug 08, 2025 10:49:32 AM base.LogResults createLogs
+INFO: PASS - Clicked On ReportingTo Search Text Field And Input Is Passed: AutoAFN
+Aug 08, 2025 10:49:34 AM base.LogResults createLogs
+INFO: PASS - Entity Name Selected Successfully: 
+Aug 08, 2025 10:49:34 AM base.LogResults createLogs
+INFO: PASS - EmployeeID Entered On Employee ID Text Field: AutoEIDVMRPQ
+Aug 08, 2025 10:49:37 AM base.LogResults createLogs
+INFO: PASS -  CompanyLocation Selected From The DropDown : AutoON080825091623
+Aug 08, 2025 10:49:37 AM base.LogResults createLogs
+INFO: PASS - Employee First Name Entered On Employee FirstName Text Field: AutoFNQHGBIR
+Aug 08, 2025 10:49:38 AM base.LogResults createLogs
+INFO: PASS - Employee Last Name Entered On Employee Last Name Text Field: AutoLNWYNYU
+Aug 08, 2025 10:49:38 AM base.LogResults createLogs
+INFO: PASS - Employee Email Entered On Email ID Text Field: AutoE080825091623EHD@mailinator.com
+Aug 08, 2025 10:49:38 AM base.LogResults createLogs
+INFO: PASS - Employee Phone Number Entered On Phone Number Text Field: 9851412446
+Aug 08, 2025 10:49:38 AM base.LogResults createLogs
+INFO: PASS - Employee Joining Date  Text Field Is Clicked: 
+Aug 08, 2025 10:49:38 AM base.LogResults createLogs
+INFO: PASS - Employee Joining Date Entered On Joining Date Text Field: 03-01-2025
+Aug 08, 2025 10:49:39 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddEmployeeSave Successfully: 
+Aug 08, 2025 10:49:43 AM base.LogResults createLogs
+INFO: PASS - Clicked On GoToDirectory Successfully: 
+Aug 08, 2025 10:49:46 AM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 08, 2025 10:49:47 AM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Aug 08, 2025 10:49:51 AM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNWYNYU
+Aug 08, 2025 10:49:54 AM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNWYNYU
+Aug 08, 2025 10:49:54 AM base.LogResults onlyLog
+INFO: Passed - Attendance-MPI_150_Directory_AddEmployee_05-Create a new employee by selecting the previously created 'Employee Type'. Then, search and select a name for the 'Reporting To' field from the users already created. Choose the appropriate 'Company Location' that was added earlier, and complete the employee creation process. Finally, verify that the newly added employee appears in the Employee List
+---------------------------------------------------------------
+AttendanceMPI_150_Directory_AddEmployee_05
+Aug 08, 2025 10:49:54 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 65.0119 seconds
+Total TC Time: 00:01:05
+Launching Driver...
+Aug 08, 2025 10:49:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Error Index 1 out of bounds for length 1
+Aug 08, 2025 10:49:58 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 08, 2025 10:50:02 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ARRD
+Aug 08, 2025 10:50:02 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 08, 2025 10:50:06 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 08, 2025 10:50:07 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE080825091623@mailinator.com
+Aug 08, 2025 10:50:07 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 08, 2025 10:50:07 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 08, 2025 10:50:07 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Aug 08, 2025 10:50:10 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Aug 08, 2025 10:50:10 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Aug 08, 2025 10:50:15 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Aug 08, 2025 10:50:17 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 10:50:17 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Aug 08, 2025 10:50:19 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Aug 08, 2025 10:50:20 AM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Aug 08, 2025 10:50:20 AM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Aug 08, 2025 10:50:24 AM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNWYNYU
+Aug 08, 2025 10:50:27 AM base.LogResults createLogs
+INFO: PASS - Created Employee Displayed Successfully: AutoLNWYNYU
+Aug 08, 2025 10:50:27 AM base.LogResults createLogs
+INFO: PASS - Clicked On 3Dots Successfully: 
+Aug 08, 2025 10:50:38 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On WebEnrollment: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9df32ce5fa6b1f3f9b08bd1ece0e487, clickElement {id=f.BCF209FAEF8214B6636A9CEC1B00C932.d.012308BF983E8FBC18D5FCC26BB5C122.e.1406}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54001}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54001/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9df32ce5fa6b1f3f9b08bd1ece0e487)] -> xpath: (//a[text()='Web Enrollment'])[1]]
+Session ID: f9df32ce5fa6b1f3f9b08bd1ece0e487

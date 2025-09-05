@@ -1,0 +1,73 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sep 01, 2025 6:56:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Sep 01, 2025 6:56:27 PM base.LogResults createLogs
+INFO: PASS -  Application loaded successfully.
+Sep 01, 2025 6:56:34 PM base.LogResults createLogs
+INFO: PASS -  Company code entered successfully.MAN0
+Sep 01, 2025 6:56:36 PM base.LogResults createLogs
+INFO: PASS - Clicked On 'Login with Password' successfully.
+Sep 01, 2025 6:56:42 PM base.LogResults createLogs
+INFO: PASS -  Sign-in section appeared.
+Sep 01, 2025 6:56:44 PM base.LogResults createLogs
+INFO: PASS -  Email Id entered.pramod.c@mantratec.com
+Sep 01, 2025 6:56:47 PM base.LogResults createLogs
+INFO: PASS -  Password entered.Pramod@1234
+Sep 01, 2025 6:56:49 PM base.LogResults createLogs
+INFO: PASS -  Captcha entered.12345
+Sep 01, 2025 6:56:51 PM base.LogResults createLogs
+INFO: PASS -  Sign-in button clicked.
+Sep 01, 2025 6:56:53 PM base.LogResults createLogs
+INFO: PASS -  Login validated successfully And Good Text Is Displayed.
+Sep 01, 2025 6:56:55 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sep 01, 2025 6:56:58 PM base.LogResults createLogs
+INFO: PASS -  Attendance Module Clicked Successfully: 
+Sep 01, 2025 6:57:00 PM base.LogResults createLogs
+INFO: PASS -  Attendance Page Loaded Successfully: 
+Sep 01, 2025 6:57:02 PM base.LogResults createLogs
+INFO: PASS -  Apply Regularization Button Clicked Successfully: 
+Sep 01, 2025 6:57:04 PM base.LogResults createLogs
+INFO: PASS -  Apply Regularization For Others Button Clicked Successfully: 
+Sep 01, 2025 6:57:07 PM base.LogResults createLogs
+INFO: PASS -  Employee Selection DropDown Clicked Successfully: 
+Sep 01, 2025 6:57:11 PM base.LogResults createLogs
+INFO: PASS -  Employee Name Inputted Successfully: onehunderedandfour
+Sep 01, 2025 6:57:44 PM base.LogResults createLogs
+INFO: FAIL - Error While Selecting Employee Name: invalid selector: Unable to locate an element with the xpath expression ///ul[@id='select2-drpEntityQuickOther-results']/li[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///ul[@id='select2-drpEntityQuickOther-results']/li[1]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0eb528493cbd18d75427c292bf69e3fd, findElement {value=///ul[@id='select2-drpEntityQuickOther-results']/li[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60219}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60219/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eb528493cbd18d75427c292bf69e3fd
+Sep 01, 2025 6:57:47 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Regularization FromDate : element click intercepted: Element <input class="form-control form-control input" placeholder="date" tabindex="0" type="text" readonly="readonly"> is not clickable at point (1033, 179). Other element would receive the click: <li class="select2-results__option select2-results__option--highlighted" role="option" aria-selected="false" data-select2-id="283">...</li>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0eb528493cbd18d75427c292bf69e3fd, clickElement {id=f.00A6CA106585707A6EB40E18E478C786.d.BFF25ED8FCA82E3A5D4DA84ACCD66FE8.e.620}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60219}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60219/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0eb528493cbd18d75427c292bf69e3fd)] -> xpath: //input[@id='PunchQuickOtherInDate']/../input[2]]
+Session ID: 0eb528493cbd18d75427c292bf69e3fd
+Sep 01, 2025 6:57:52 PM base.LogResults createLogs
+INFO: PASS -  Regularization FromDate Inputted  Successfully: 2025-07-01
+Sep 01, 2025 6:57:56 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On Regularization From Time TextField : element click intercepted: Element <input class="form-control form-control input" placeholder="" tabindex="0" type="text" readonly="readonly"> is not clickable at point (1244, 179). Other element would receive the click: <li class="select2-results__option select2-results__option--highlighted" role="option" aria-selected="false" data-select2-id="283">...</li>
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0eb528493cbd18d75427c292bf69e3fd, clickElement {id=f.00A6CA106585707A6EB40E18E478C786.d.BFF25ED8FCA82E3A5D4DA84ACCD66FE8.e.621}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60219}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60219/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0eb528493cbd18d75427c292bf69e3fd)] -> xpath: //input[@id='RegQuickOtherInTime']/../input[2]]
+Session ID: 0eb528493cbd18d75427c292bf69e3fd

@@ -1,0 +1,23 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 14, 2025 10:41:55 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+Aug 14, 2025 10:42:00 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Aug 14, 2025 10:42:06 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AYKY
+Aug 14, 2025 10:42:09 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Aug 14, 2025 10:42:15 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Aug 14, 2025 10:42:17 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE130825091642@mailinator.com
+Aug 14, 2025 10:42:20 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Aug 14, 2025 10:42:22 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Aug 14, 2025 10:42:25 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 

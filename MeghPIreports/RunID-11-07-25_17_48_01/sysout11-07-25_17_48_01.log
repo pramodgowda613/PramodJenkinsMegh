@@ -1,0 +1,680 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:110725-110725-ThreSld->3
+cmpcode and emailidAFHUAutoE110725095836@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 11, 2025 5:48:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:48:04 PM base.LogResults createLogs
+INFO: INFO - Skip Adding New Data. Continue with Old Test Data.
+Jul 11, 2025 5:48:04 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamMappingTest-MPI_518_TeamMapping_01-To verify this, create a department and map it with an office. Then, navigate to Team Mapping, click on 'Add Team Mapping', select the created team, select the mapped department, and save. After saving, create an employee for the selected location. Navigate to the employee's profile, select the department, click on the team field, enter the team name, and ensure that the mapped team is displayed.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_518_TeamMapping_01
+Jul 11, 2025 5:48:04 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 0.2866 seconds
+Total TC Time: 00:00:00
+Launching Driver...
+Jul 11, 2025 5:48:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:48:07 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 5:48:11 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 5:48:11 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 5:48:15 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 5:48:16 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 5:48:16 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 5:48:16 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 5:48:16 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 5:48:18 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 5:48:22 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:48:24 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:48:24 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:48:25 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Jul 11, 2025 5:48:25 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On AddOfficeButton : 
+Jul 11, 2025 5:48:27 PM base.LogResults createLogs
+INFO: PASS -  OfficeName Entered In the Office Name TextField : AutoONUJPGBGA
+Jul 11, 2025 5:48:27 PM base.LogResults createLogs
+INFO: PASS -  Office Type Selected In the Office Type Dropdown : 
+Jul 11, 2025 5:48:27 PM base.LogResults createLogs
+INFO: PASS -  Country Selected In the Country  Dropdown : 
+Jul 11, 2025 5:48:27 PM base.LogResults createLogs
+INFO: PASS -  State Selected In the State  Dropdown : Gujarat
+Jul 11, 2025 5:48:27 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On CompanyLocationSaveButton : 
+Jul 11, 2025 5:48:30 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:48:30 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Jul 11, 2025 5:48:31 PM base.LogResults createLogs
+INFO: PASS - Add Department Tab  Clicked Successfully: 
+Jul 11, 2025 5:48:32 PM base.LogResults createLogs
+INFO: PASS - Department Name Entered Successfully: AutoDNJMRYM
+Jul 11, 2025 5:48:32 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Add Department Save Button: 
+Jul 11, 2025 5:48:35 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On DepartmentMapping Button: 
+Jul 11, 2025 5:48:36 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On AddDepartmentMapping Button: 
+Jul 11, 2025 5:48:37 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected Department: AutoDNJMRYM
+Jul 11, 2025 5:48:37 PM base.LogResults createLogs
+INFO: PASS - Successfully Selected OfficeName: AutoONUJPGBGA
+Jul 11, 2025 5:48:37 PM base.LogResults createLogs
+INFO: PASS - AddDeptMappingSaveButton Clicked Successfully: 
+Jul 11, 2025 5:48:40 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:48:40 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Jul 11, 2025 5:48:41 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On DepartmentMapping Button: 
+Jul 11, 2025 5:48:41 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted DeptName In Search TextField: AutoDNJMRYM
+Jul 11, 2025 5:48:45 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Mapped Dept Toggle Switch: 
+Jul 11, 2025 5:48:46 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Jul 11, 2025 5:48:51 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:48:51 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 11, 2025 5:48:55 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:48:55 PM base.LogResults createLogs
+INFO: PASS - AddTeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:48:56 PM base.LogResults createLogs
+INFO: PASS - Department DropDown Clicked Successfully: 
+Jul 11, 2025 5:48:56 PM base.LogResults createLogs
+INFO: PASS - Department Name Inputted Successfully: AutoDNJMRYM
+Jul 11, 2025 5:49:00 PM base.LogResults createLogs
+INFO: PASS - Disabled Team Name Isn't Displayed And Error Msg Displayed Successfully: 
+Jul 11, 2025 5:49:02 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamMappingTest-MPI_521_TeamMapping_04-To verify this, disable the mapped department which isn't mapped with team and ensure the disabled mapped department is not displayed in the 'Team Department' dropdown of the 'Add Team Department Mapping' form.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_521_TeamMapping_04
+Jul 11, 2025 5:49:02 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 55.1843 seconds
+Total TC Time: 00:00:55
+Launching Driver...
+Jul 11, 2025 5:49:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:49:05 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 5:49:10 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 5:49:10 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 5:49:14 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 5:49:14 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 5:49:14 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 5:49:15 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 5:49:15 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 5:49:16 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 5:49:21 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:49:23 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:49:23 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:49:24 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Jul 11, 2025 5:49:24 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On DepartmentMapping Button: 
+Jul 11, 2025 5:49:24 PM base.LogResults createLogs
+INFO: PASS - Successfully Inputted DeptName In Search TextField: AutoDNJMRYM
+Jul 11, 2025 5:49:28 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Mapped Dept Toggle Switch: 
+Jul 11, 2025 5:49:30 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Jul 11, 2025 5:49:34 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:49:35 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 11, 2025 5:49:38 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:49:38 PM base.LogResults createLogs
+INFO: PASS - AddTeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:49:40 PM base.LogResults createLogs
+INFO: PASS - Department DropDown Clicked Successfully: 
+Jul 11, 2025 5:49:40 PM base.LogResults createLogs
+INFO: PASS - Department Name Inputted Successfully: AutoDNJMRYM
+Jul 11, 2025 5:49:43 PM base.LogResults createLogs
+INFO: PASS - Department Name Selected Successfully: 
+Jul 11, 2025 5:49:45 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamMappingTest-MPI_522_TeamMapping_05-To verify this, enable the previously disabled mapped department and ensure that after enabling, the mapped department is displayed in the 'Team Department' dropdown of the 'Add Team Department Mapping' form.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_522_TeamMapping_05
+Jul 11, 2025 5:49:45 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 40.7559 seconds
+Total TC Time: 00:01:36
+Launching Driver...
+Jul 11, 2025 5:49:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:49:49 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 5:49:53 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 5:49:53 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 5:49:57 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 5:49:57 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 5:49:57 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 5:49:58 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 5:49:58 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 5:49:59 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 5:50:04 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:50:06 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:50:06 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:50:07 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 11, 2025 5:50:07 PM base.LogResults createLogs
+INFO: PASS - Add Team Button  Clicked Successfully: 
+Jul 11, 2025 5:50:08 PM base.LogResults createLogs
+INFO: PASS - Team Name Is Entered In Team Name Text Field: AutoTN110725095836WMO
+Jul 11, 2025 5:50:08 PM base.LogResults createLogs
+INFO: PASS - Team Save Button  Clicked Successfully: 
+Jul 11, 2025 5:50:12 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:50:12 PM base.LogResults createLogs
+INFO: PASS - AddTeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:50:13 PM base.LogResults createLogs
+INFO: PASS - Team Name Selected Successfully: AutoTN110725095836WMO
+Jul 11, 2025 5:50:13 PM base.LogResults createLogs
+INFO: PASS - Department DropDown Clicked Successfully: 
+Jul 11, 2025 5:50:14 PM base.LogResults createLogs
+INFO: PASS - Department Name Inputted Successfully: AutoDN110725095836
+Jul 11, 2025 5:50:17 PM base.LogResults createLogs
+INFO: PASS - Department Name Selected Successfully: 
+Jul 11, 2025 5:50:17 PM base.LogResults createLogs
+INFO: PASS - Add Team Mapping Saved Successfully: 
+Jul 11, 2025 5:50:26 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:50:28 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:50:28 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 11, 2025 5:50:30 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:50:30 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:50:30 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 11, 2025 5:50:31 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:50:35 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNXNAPY
+Jul 11, 2025 5:50:49 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying Employee: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='user_details'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd2ab2cf71c991e44bb81a3f82b9fddd, findElement {value=(//div[@class='user_details'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55631}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55631/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd2ab2cf71c991e44bb81a3f82b9fddd
+Jul 11, 2025 5:50:59 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record 3dots : no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-bs-toggle='dropdown'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd2ab2cf71c991e44bb81a3f82b9fddd, findElement {value=(//div[@data-bs-toggle='dropdown'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55631}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55631/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd2ab2cf71c991e44bb81a3f82b9fddd
+Jul 11, 2025 5:51:09 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record ManageProfileButton : no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Manage Profile'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd2ab2cf71c991e44bb81a3f82b9fddd, findElement {value=(//a[text()='Manage Profile'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55631}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55631/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd2ab2cf71c991e44bb81a3f82b9fddd
+Jul 11, 2025 5:51:20 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Edit Icon Of Manage Profile : java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd2ab2cf71c991e44bb81a3f82b9fddd, actions {actions=[org.openqa.selenium.interactions.Sequence@5b01b3f8]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55631}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55631/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd2ab2cf71c991e44bb81a3f82b9fddd
+Jul 11, 2025 5:51:31 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On DepartmentDropDown  : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='select2-drpDepartment-container']"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd2ab2cf71c991e44bb81a3f82b9fddd, findElement {value=//span[@id='select2-drpDepartment-container'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55631}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55631/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd2ab2cf71c991e44bb81a3f82b9fddd
+Jul 11, 2025 5:51:31 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Jul 11, 2025 5:51:31 PM base.LogResults onlyLog
+INFO: Failed - MeghMasterTeamMappingTest-MPI_528_TeamMapping_11-To verify this, create a new team, click the edit icon of an already mapped team record, select the new team name and map it. Then, navigate to the employee profile and ensure that after selecting the department, the new mapped team name is displayed in the team dropdown.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_528_TeamMapping_11
+Jul 11, 2025 5:51:31 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 1  Total TC : 4
+---------------------------------------------------------------
+Test case took: 103.4922 seconds
+Total TC Time: 00:03:19
+Launching Driver...
+Jul 11, 2025 5:51:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:51:35 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 5:51:39 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 5:51:39 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 5:51:44 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 5:51:44 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 5:51:44 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 5:51:44 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 5:51:44 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 5:51:46 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 5:51:54 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:51:55 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:51:55 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:51:56 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 11, 2025 5:51:57 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:51:58 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Inputted Successfully: AutoTN110725095836
+Jul 11, 2025 5:52:02 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Toggle Switch Enabled Successfully: 
+Jul 11, 2025 5:52:04 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Jul 11, 2025 5:52:13 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:52:15 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:52:15 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 11, 2025 5:52:16 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:52:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:52:17 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 11, 2025 5:52:17 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:52:22 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNXNAPY
+Jul 11, 2025 5:52:35 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying Employee: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='user_details'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [757b7ed0b4fe10810f9c2ac2787d2318, findElement {value=(//div[@class='user_details'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55705}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55705/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 757b7ed0b4fe10810f9c2ac2787d2318
+Jul 11, 2025 5:52:45 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record 3dots : no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-bs-toggle='dropdown'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [757b7ed0b4fe10810f9c2ac2787d2318, findElement {value=(//div[@data-bs-toggle='dropdown'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55705}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55705/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 757b7ed0b4fe10810f9c2ac2787d2318
+Jul 11, 2025 5:52:56 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record ManageProfileButton : no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Manage Profile'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [757b7ed0b4fe10810f9c2ac2787d2318, findElement {value=(//a[text()='Manage Profile'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55705}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55705/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 757b7ed0b4fe10810f9c2ac2787d2318
+Jul 11, 2025 5:53:07 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Edit Icon Of Manage Profile : java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [757b7ed0b4fe10810f9c2ac2787d2318, actions {actions=[org.openqa.selenium.interactions.Sequence@4cdb7fd9]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55705}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55705/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 757b7ed0b4fe10810f9c2ac2787d2318
+Jul 11, 2025 5:53:19 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On DepartmentDropDown  : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='select2-drpDepartment-container']"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [757b7ed0b4fe10810f9c2ac2787d2318, findElement {value=//span[@id='select2-drpDepartment-container'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55705}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55705/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 757b7ed0b4fe10810f9c2ac2787d2318
+Jul 11, 2025 5:53:19 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Jul 11, 2025 5:53:19 PM base.LogResults onlyLog
+INFO: Failed - MeghMasterTeamMappingTest-MPI_529_TeamMapping_12-To verify this, disable the team that is mapped with the QC (Mantra) department, and ensure that after disabling the team, when the QC department is selected in the employee profile and the team dropdown is clicked, the disabled team is not displayed.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_529_TeamMapping_12
+Jul 11, 2025 5:53:19 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 2  Total TC : 5
+---------------------------------------------------------------
+Test case took: 105.7224 seconds
+Total TC Time: 00:05:05
+Launching Driver...
+Jul 11, 2025 5:53:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:53:23 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 5:53:27 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 5:53:28 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 5:53:32 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 5:53:32 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 5:53:32 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 5:53:32 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 5:53:33 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 5:53:34 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 5:53:42 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:53:43 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:53:44 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:53:44 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 11, 2025 5:53:46 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:53:46 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Inputted Successfully: AutoTN110725095836
+Jul 11, 2025 5:53:50 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Toggle Switch Enabled Successfully: 
+Jul 11, 2025 5:53:52 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On Ok Button : 
+Jul 11, 2025 5:54:01 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:54:03 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:54:03 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 11, 2025 5:54:04 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:54:05 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:54:05 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 11, 2025 5:54:05 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:54:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNXNAPY
+Jul 11, 2025 5:54:23 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying Employee: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='user_details'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28fc6cacfb933e61c3cf58053b2c4f9e, findElement {value=(//div[@class='user_details'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55782}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55782/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28fc6cacfb933e61c3cf58053b2c4f9e
+Jul 11, 2025 5:54:34 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record 3dots : no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-bs-toggle='dropdown'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28fc6cacfb933e61c3cf58053b2c4f9e, findElement {value=(//div[@data-bs-toggle='dropdown'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55782}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55782/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28fc6cacfb933e61c3cf58053b2c4f9e
+Jul 11, 2025 5:54:44 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record ManageProfileButton : no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Manage Profile'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28fc6cacfb933e61c3cf58053b2c4f9e, findElement {value=(//a[text()='Manage Profile'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55782}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55782/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28fc6cacfb933e61c3cf58053b2c4f9e
+Jul 11, 2025 5:54:55 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Edit Icon Of Manage Profile : java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28fc6cacfb933e61c3cf58053b2c4f9e, actions {actions=[org.openqa.selenium.interactions.Sequence@7a337217]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55782}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55782/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28fc6cacfb933e61c3cf58053b2c4f9e
+Jul 11, 2025 5:55:08 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On DepartmentDropDown  : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='select2-drpDepartment-container']"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28fc6cacfb933e61c3cf58053b2c4f9e, findElement {value=//span[@id='select2-drpDepartment-container'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55782}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55782/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28fc6cacfb933e61c3cf58053b2c4f9e
+Jul 11, 2025 5:55:08 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Jul 11, 2025 5:55:08 PM base.LogResults onlyLog
+INFO: Failed - MeghMasterTeamMappingTest-MPI_535_TeamMapping_16-"To verify this, enable the mapped team that was previously inactivated and ensure that after enabling, the mapped team name is displayed in the team dropdown of the employee profile."
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_535_TeamMapping_16
+Jul 11, 2025 5:55:08 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 3  Total TC : 6
+---------------------------------------------------------------
+Test case took: 105.7533 seconds
+Total TC Time: 00:06:51
+Launching Driver...
+Jul 11, 2025 5:55:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:55:10 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 5:55:14 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 5:55:15 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 5:55:19 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 5:55:19 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 5:55:19 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 5:55:19 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 5:55:20 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 5:55:21 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 5:55:29 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:55:31 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:55:31 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 11, 2025 5:55:32 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:55:33 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:55:33 PM base.LogResults createLogs
+INFO: PASS - Selected  LasTName  Successfully: 
+Jul 11, 2025 5:55:33 PM base.LogResults createLogs
+INFO: PASS - Clicked On SearchDropDown Successfully: 
+Jul 11, 2025 5:55:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully: AutoLNXNAPY
+Jul 11, 2025 5:55:51 PM base.LogResults createLogs
+INFO: FAIL - Error While Displaying Employee: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='user_details'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae7e88f3ce9601b0380b6fa3915792eb, findElement {value=(//div[@class='user_details'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55864}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55864/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae7e88f3ce9601b0380b6fa3915792eb
+Jul 11, 2025 5:56:01 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record 3dots : no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-bs-toggle='dropdown'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae7e88f3ce9601b0380b6fa3915792eb, findElement {value=(//div[@data-bs-toggle='dropdown'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55864}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55864/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae7e88f3ce9601b0380b6fa3915792eb
+Jul 11, 2025 5:56:12 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Record ManageProfileButton : no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Manage Profile'])[1]"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae7e88f3ce9601b0380b6fa3915792eb, findElement {value=(//a[text()='Manage Profile'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55864}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55864/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae7e88f3ce9601b0380b6fa3915792eb
+Jul 11, 2025 5:56:23 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On First Employee Edit Icon Of Manage Profile : java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae7e88f3ce9601b0380b6fa3915792eb, actions {actions=[org.openqa.selenium.interactions.Sequence@5b1e336c]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55864}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55864/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae7e88f3ce9601b0380b6fa3915792eb
+Jul 11, 2025 5:56:33 PM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On DepartmentDropDown  : no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='select2-drpDepartment-container']"}
+  (Session info: chrome=138.0.7204.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae7e88f3ce9601b0380b6fa3915792eb, findElement {value=//span[@id='select2-drpDepartment-container'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55864}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55864/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae7e88f3ce9601b0380b6fa3915792eb
+Jul 11, 2025 5:56:33 PM base.LogResults createLogs
+INFO: FAIL - Skipping rest steps as error count reached configured value : 5
+Jul 11, 2025 5:56:33 PM base.LogResults onlyLog
+INFO: Failed - MeghMasterTeamMappingTest-MPI_533_TeamMapping_15-To verify this, after assigning a mapped team to any employee, try to disable the team and ensure that a proper error message is displayed.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_533_TeamMapping_15
+Jul 11, 2025 5:56:33 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 4  Total TC : 7
+---------------------------------------------------------------
+Test case took: 83.4504 seconds
+Total TC Time: 00:08:14
+Launching Driver...
+Jul 11, 2025 5:56:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 11, 2025 5:56:37 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 11, 2025 5:56:41 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AFHU
+Jul 11, 2025 5:56:41 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 11, 2025 5:56:46 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 11, 2025 5:56:46 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE110725095836@mailinator.com
+Jul 11, 2025 5:56:46 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 11, 2025 5:56:46 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 11, 2025 5:56:46 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 11, 2025 5:56:48 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 11, 2025 5:56:56 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 11, 2025 5:56:57 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 11, 2025 5:56:57 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 11, 2025 5:56:58 PM base.LogResults createLogs
+INFO: PASS - Team Button  Clicked Successfully: 
+Jul 11, 2025 5:56:58 PM base.LogResults createLogs
+INFO: PASS - TeamMapping Button  Clicked Successfully: 
+Jul 11, 2025 5:56:59 PM base.LogResults createLogs
+INFO: PASS - TeamMapping First Row Name Fetched Successfully: 
+Jul 11, 2025 5:56:59 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown  Clicked Successfully: 
+Jul 11, 2025 5:56:59 PM base.LogResults createLogs
+INFO: PASS - FirstNameCheckBox  Clicked Successfully: 
+Jul 11, 2025 5:56:59 PM base.LogResults createLogs
+INFO: PASS - LastNameCheckBox  Clicked Successfully: 
+Jul 11, 2025 5:56:59 PM base.LogResults createLogs
+INFO: PASS - SearchDropDown  Clicked Successfully: 
+Jul 11, 2025 5:57:00 PM base.LogResults createLogs
+INFO: PASS - Team Name Inputted Successfully: AutoTN110725095836
+Jul 11, 2025 5:57:04 PM base.LogResults createLogs
+INFO: PASS - Mapped Team Name Validated Successfully: AutoTN110725095836
+Jul 11, 2025 5:57:08 PM base.LogResults onlyLog
+INFO: Passed - MeghMasterTeamMappingTest-MPI_524_TeamMapping_07-To verify this, check the functionality of the search feature for the first name and last name of the HOD.
+---------------------------------------------------------------
+MeghMasterTeamMappingTestMPI_524_TeamMapping_07
+Jul 11, 2025 5:57:08 PM base.LogResults onlyLog
+INFO: Total Pass : 4 Total Fail : 4  Total TC : 8
+---------------------------------------------------------------
+Test case took: 32.0912 seconds
+Total TC Time: 00:08:46
+
+===============================================
+Suite
+Total tests run: 8, Passes: 3, Failures: 0, Skips: 5
+===============================================
+

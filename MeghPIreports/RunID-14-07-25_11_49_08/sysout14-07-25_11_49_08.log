@@ -1,0 +1,94 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:140725-140725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 14, 2025 11:49:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 14, 2025 11:49:12 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 14, 2025 11:49:17 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: AGIB
+Jul 14, 2025 11:49:17 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 14, 2025 11:49:21 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 14, 2025 11:49:21 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE140725101157@mailinator.com
+Jul 14, 2025 11:49:21 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 14, 2025 11:49:22 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 14, 2025 11:49:22 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 14, 2025 11:49:24 AM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 14, 2025 11:49:25 AM base.LogResults createLogs
+INFO: PASS - SettingIcon   Clicked Successfully: 
+Jul 14, 2025 11:49:25 AM base.LogResults createLogs
+INFO: PASS - GeneralSettings   Clicked Successfully: 
+Jul 14, 2025 11:49:26 AM base.LogResults createLogs
+INFO: PASS - WebEnrollmentSelectOption Selected Successfully: 
+Jul 14, 2025 11:49:26 AM base.LogResults createLogs
+INFO: PASS - Yes Selected Successfully: 
+Jul 14, 2025 11:49:27 AM base.LogResults createLogs
+INFO: PASS - WebEnrollmentTypesFace Selected Successfully: 
+Jul 14, 2025 11:49:27 AM base.LogResults createLogs
+INFO: PASS - WebEnrollmentTypesCard Selected Successfully: 
+Jul 14, 2025 11:49:27 AM base.LogResults createLogs
+INFO: PASS - SaveChangesButton Clicked Successfully: 
+Jul 14, 2025 11:49:32 AM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 14, 2025 11:49:33 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 14, 2025 11:49:34 AM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 14, 2025 11:49:34 AM base.LogResults createLogs
+INFO: PASS - EntityTypeButton  Clicked Successfully: 
+Jul 14, 2025 11:49:36 AM base.LogResults createLogs
+INFO: PASS - EntityType Page Loaded Successfully: 
+Jul 14, 2025 11:49:36 AM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On AddEntityTypeButton: 
+Jul 14, 2025 11:49:37 AM base.LogResults createLogs
+INFO: PASS -  Entityname Entered In The Entiry Name TextField: AutoEN140725101157
+Jul 14, 2025 11:49:37 AM base.LogResults createLogs
+INFO: PASS -  Entity Card Type Selected Successfullly: STAFF
+Jul 14, 2025 11:49:38 AM base.LogResults createLogs
+INFO: PASS -  Successfullly Clicked On AddEntityTypeSave Button: 
+Jul 14, 2025 11:49:39 AM base.LogResults createLogs
+INFO: FAIL - Error while Clicking On EmployeeTab: element click intercepted: Element <a class="nav-link " href="/Directory/...
+            " id="dir_employee_tab">Employee</a> is not clickable at point (138, 26). Other element would receive the click: <div class="modal fade right-align drawer my_model show" id="phEntityTypeEditor" data-bs-backdrop="true" tabindex="-1" data-keyword="true" aria-modal="true" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [891e1b54879fde93f2be31373b729c4e, clickElement {id=f.C75356898C1BBDF6AF184BF835DCCB8E.d.870F15BA79F62336F6A4CB445F4220F5.e.1798}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60747}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60747/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (891e1b54879fde93f2be31373b729c4e)] -> xpath: //a[text()='Employee']]
+Session ID: 891e1b54879fde93f2be31373b729c4e
+Jul 14, 2025 11:50:14 AM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 14, 2025 11:50:20 AM base.LogResults createLogs
+INFO: PASS - Clicked On TotalCountDropDown Successfully: 
+Jul 14, 2025 11:50:22 AM base.LogResults createLogs
+INFO: PASS - Clicked On AddNewButton Successfully: 
+Jul 14, 2025 11:50:24 AM base.LogResults createLogs
+INFO: PASS - Employee Form Loaded Successfully: 
+Jul 14, 2025 11:50:26 AM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTypeDropdown Successfully And Added EntityName Displayed Successfully: AutoEN140725101157
+Jul 14, 2025 11:50:29 AM base.LogResults onlyLog
+INFO: Failed - MeghMasterEntityTypeTest-MPI_308_EntityType_01-To verify this, create a new entity type and ensure that the added entity is displayed in the entity dropdown on the Add New Employee form.
+---------------------------------------------------------------
+MeghMasterEntityTypeTestMPI_308_EntityType_01
+Jul 14, 2025 11:50:29 AM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 78.3358 seconds
+Total TC Time: 00:01:18
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

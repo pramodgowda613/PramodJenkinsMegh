@@ -1,0 +1,26 @@
+Sept 03, 2025 11:09:25 AM base.LogResults createLogs
+INFO: PASS - Transaction executed successfully
+Sept 03, 2025 11:09:27 AM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Sept 03, 2025 11:09:33 AM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: MAN0
+Sept 03, 2025 11:09:36 AM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Sept 03, 2025 11:09:42 AM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Sept 03, 2025 11:09:44 AM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: pramod.c@mantratec.com
+Sept 03, 2025 11:09:46 AM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Sept 03, 2025 11:09:49 AM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Sept 03, 2025 11:09:51 AM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Sept 03, 2025 11:09:53 AM base.LogResults createLogs
+INFO: PASS - Login Done  And Validated Successfully: 
+Sept 03, 2025 11:09:55 AM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Sept 03, 2025 11:09:55 AM base.LogResults onlyLog
+INFO: Passed - MeghPINormalAttendanceTest-MPI_630_Normal_Attendance_02-Check the status when the employee performs only a single punch in a day.
+Sept 03, 2025 11:09:55 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

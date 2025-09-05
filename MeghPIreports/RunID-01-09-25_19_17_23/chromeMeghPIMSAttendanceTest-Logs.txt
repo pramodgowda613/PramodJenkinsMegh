@@ -1,0 +1,8 @@
+Sep 01, 2025 7:17:30 PM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sep 01, 2025 7:17:33 PM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sep 01, 2025 7:17:33 PM base.LogResults onlyLog
+INFO: Passed - MeghPIMSAttendanceTest-MPI_641_Normal_Attendance_13-Check the status when the employee is present on a week off 
+Sep 01, 2025 7:17:33 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

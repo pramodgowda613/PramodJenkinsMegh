@@ -1,0 +1,83 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:160725-150725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 16, 2025 12:30:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 16, 2025 12:30:53 PM base.LogResults createLogs
+INFO: PASS - Step 1: Application loaded successfully.
+Jul 16, 2025 12:30:57 PM base.LogResults createLogs
+INFO: PASS - Step 2: Company code entered successfully.AZPK
+Jul 16, 2025 12:30:57 PM base.LogResults createLogs
+INFO: PASS - Step 3: Clicked 'Login with Password' successfully.
+Jul 16, 2025 12:31:02 PM base.LogResults createLogs
+INFO: PASS - Step 4: Sign-in section appeared.
+Jul 16, 2025 12:31:02 PM base.LogResults createLogs
+INFO: PASS - Step 5: Username entered.AutoE150725091521@mailinator.com
+Jul 16, 2025 12:31:02 PM base.LogResults createLogs
+INFO: PASS - Step 6: Password entered.Pramod@1234
+Jul 16, 2025 12:31:02 PM base.LogResults createLogs
+INFO: PASS - Step 7: Captcha entered.12345
+Jul 16, 2025 12:31:03 PM base.LogResults createLogs
+INFO: PASS - Step 8: Sign-in button clicked.
+Jul 16, 2025 12:31:05 PM base.LogResults createLogs
+INFO: PASS - Step 9: Login validated successfully.
+Jul 16, 2025 12:31:05 PM base.LogResults createLogs
+INFO: PASS - Login Done Successfully: 
+Jul 16, 2025 12:31:09 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 16, 2025 12:31:10 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 16, 2025 12:31:10 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 16, 2025 12:31:10 PM base.LogResults createLogs
+INFO: PASS - HolidaysButtonFromSidebar Clicked Successfully: 
+Jul 16, 2025 12:31:12 PM base.LogResults createLogs
+INFO: PASS - AddHolidayPolicyButton Clicked Successfully: 
+Jul 16, 2025 12:31:20 PM base.LogResults createLogs
+INFO: PASS - HolidayPolicyName Inputted In TextField Successfully: AutoHPN150725091521NCF
+Jul 16, 2025 12:31:26 PM base.LogResults createLogs
+INFO: PASS - Year Selected Successfully: 2024-2025 
+Jul 16, 2025 12:31:26 PM base.LogResults createLogs
+INFO: PASS - NextStepButton Clicked Successfully: 
+Jul 16, 2025 12:31:28 PM base.LogResults createLogs
+INFO: PASS - CreateCustomHoliday Clicked Successfully: 
+Jul 16, 2025 12:31:36 PM base.LogResults createLogs
+INFO: PASS - HolidayName Inputted In TextField  Successfully: AutoHN150725091521
+Jul 16, 2025 12:31:44 PM base.LogResults createLogs
+INFO: PASS - HolidayName Inputted In TextField  Successfully: AutoHN150725091521
+Jul 16, 2025 12:32:03 PM base.LogResults createLogs
+INFO: FAIL - Error While Inputting DateOfHoliday : invalid element state
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0e94f74e86bce3a806b60bd3674ab6e, clearElement {id=f.832BAF06DCB6115BEAB022E035A1BFF5.d.1DA381F0B8E75D95DFEF0C4EA89877BC.e.646}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62675}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62675/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e0e94f74e86bce3a806b60bd3674ab6e)] -> xpath: //input[@id='txtCustomHolidayDate']]
+Session ID: e0e94f74e86bce3a806b60bd3674ab6e
+Jul 16, 2025 12:32:05 PM base.LogResults createLogs
+INFO: PASS - Country Selected Successfully: 
+Jul 16, 2025 12:32:07 PM base.LogResults createLogs
+INFO: PASS - State Selected Successfully: 
+Jul 16, 2025 12:32:07 PM base.LogResults createLogs
+INFO: PASS - Holiday Button Clicked Successfully: 
+Jul 16, 2025 12:32:08 PM base.LogResults createLogs
+INFO: FAIL - Error While Clicking On HolidaySave Button : Holiday name not found in the list: AutoHN150725091521
+Jul 16, 2025 12:32:08 PM base.LogResults onlyLog
+INFO: Failed - MeghHolidayPolicyTest-MPI_591_Holiday_Policy_06-To verify this, add a new holiday and ensure added holiday is displaying in the list during policy creation
+---------------------------------------------------------------
+MeghHolidayPolicyTestMPI_591_Holiday_Policy_06
+Jul 16, 2025 12:32:08 PM base.LogResults onlyLog
+INFO: Total Pass : 0 Total Fail : 1  Total TC : 1
+---------------------------------------------------------------
+Test case took: 75.8208 seconds
+Total TC Time: 00:01:15
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

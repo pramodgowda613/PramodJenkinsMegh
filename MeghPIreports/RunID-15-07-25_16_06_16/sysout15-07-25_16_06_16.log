@@ -1,0 +1,244 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:150725-150725-ThreSld->3
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 4:06:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:06:21 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 4:06:25 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ASJL
+Jul 15, 2025 4:06:25 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 15, 2025 4:06:29 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 15, 2025 4:06:29 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE150725142816@mailinator.com
+Jul 15, 2025 4:06:30 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 15, 2025 4:06:30 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 15, 2025 4:06:30 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 15, 2025 4:06:34 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 15, 2025 4:06:38 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 4:06:38 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 4:06:38 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 4:06:38 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 4:06:48 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 4:06:48 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 4:06:49 PM base.LogResults createLogs
+INFO: PASS - AddWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 4:06:54 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted Successfully: 
+Jul 15, 2025 4:06:54 PM base.LogResults createLogs
+INFO: PASS - ThursdayButton Clicked Successfully: 
+Jul 15, 2025 4:06:54 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 4:06:54 PM base.LogResults createLogs
+INFO: PASS - FridayButton Clicked Successfully: 
+Jul 15, 2025 4:06:55 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 4:06:55 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 4:07:02 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 15, 2025 4:07:07 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 4:07:10 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 4:07:10 PM base.LogResults createLogs
+INFO: PASS - Clicked On EmployeeTab Successfully: 
+Jul 15, 2025 4:07:11 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 4:07:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record 3dots: 
+Jul 15, 2025 4:07:12 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record ManageProfileButton: 
+Jul 15, 2025 4:07:32 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On First Employee Record Policy Button: 
+Jul 15, 2025 4:07:39 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicy Is Assigned To All Emp Successfully: AutoWOPN150725142816LQH=AutoWOPN150725142816LQH
+Jul 15, 2025 4:07:39 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_576_WeekOff_Policy_01-To verify this, add a Week Off Policy by selecting 2nd Half on Thursday and Full Day on Friday, then make the policy active. When the system prompts with the message "Do you want to change weekly-off policy in Employee Profile based on current policy employee criteria?", select "Yes". Finally, ensure that all applicable employees are assigned to the newly created Week Off Policy based on the defined criteria.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_576_WeekOff_Policy_01
+Jul 15, 2025 4:07:39 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 80.0850 seconds
+Total TC Time: 00:01:20
+Launching Driver...
+Jul 15, 2025 4:07:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:07:43 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 4:07:47 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ASJL
+Jul 15, 2025 4:07:48 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 15, 2025 4:07:52 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 15, 2025 4:07:52 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE150725142816@mailinator.com
+Jul 15, 2025 4:07:52 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 15, 2025 4:07:52 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 15, 2025 4:07:53 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 15, 2025 4:07:55 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 15, 2025 4:07:59 PM base.LogResults createLogs
+INFO: PASS - PolicyIcon Clicked Successfully: 
+Jul 15, 2025 4:07:59 PM base.LogResults createLogs
+INFO: PASS - PolicyMaster Loaded Successfully: 
+Jul 15, 2025 4:08:00 PM base.LogResults createLogs
+INFO: PASS - LeaveDropDownFromSideBar Clicked Successfully: 
+Jul 15, 2025 4:08:00 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyButtonFromSideBar Clicked Successfully: 
+Jul 15, 2025 4:08:06 PM base.LogResults createLogs
+INFO: PASS - LeavePolicyPageLoaded Successfully: 
+Jul 15, 2025 4:08:06 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 4:08:11 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy Name Inputted In Search TextField Successfully: AutoWOPN150725142816LQH
+Jul 15, 2025 4:08:11 PM base.LogResults createLogs
+INFO: PASS - WeekOffPolicy First Record Displayed Successfully: 
+Jul 15, 2025 4:08:15 PM base.LogResults createLogs
+INFO: PASS - WeekOffEditButton Clicked Successfully: 
+Jul 15, 2025 4:08:16 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton1stWeek Clicked Successfully: 
+Jul 15, 2025 4:08:16 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 4:08:16 PM base.LogResults createLogs
+INFO: PASS - SundayButton1stWeek Clicked Successfully: 
+Jul 15, 2025 4:08:16 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 4:08:17 PM base.LogResults createLogs
+INFO: PASS - SundayButton4thWeek Clicked Successfully: 
+Jul 15, 2025 4:08:17 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 4:08:17 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton4thWeek Clicked Successfully: 
+Jul 15, 2025 4:08:17 PM base.LogResults createLogs
+INFO: PASS - SecondHalf Clicked Successfully: 
+Jul 15, 2025 4:08:17 PM base.LogResults createLogs
+INFO: PASS - SundayButton2ndWeek Clicked Successfully: 
+Jul 15, 2025 4:08:18 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 4:08:18 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton2ndWeek Clicked Successfully: 
+Jul 15, 2025 4:08:18 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 4:08:18 PM base.LogResults createLogs
+INFO: PASS - SundayButton3rdWeek Clicked Successfully: 
+Jul 15, 2025 4:08:18 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 4:08:19 PM base.LogResults createLogs
+INFO: PASS - SaturdayButton3rdWeek Clicked Successfully: 
+Jul 15, 2025 4:08:19 PM base.LogResults createLogs
+INFO: PASS - FullDayButton Clicked Successfully: 
+Jul 15, 2025 4:08:19 PM base.LogResults createLogs
+INFO: PASS - CreateWeekOffPolicyButton Clicked Successfully: 
+Jul 15, 2025 4:08:26 PM base.LogResults createLogs
+INFO: PASS - Yes Button Button Successfully : 
+Jul 15, 2025 4:08:30 PM base.LogResults createLogs
+INFO: PASS - Edited WeekOff Data Displayed Successfully : 
+Jul 15, 2025 4:08:31 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_577_WeekOff_Policy_02-To verify this, navigate to the Week Off Policy module and edit an existing policy. Update the week-off configuration by setting Saturday as a 2nd half day off and Sunday as a full day off for the 1st and 4th weeks. For the 2nd and 3rd weeks, configure both Saturday and Sunday as full day offs. Save the changes to the policy and ensure that the system reflects the updated configuration accurately, confirming that the record has been successfully updated as per the changes made.
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_577_WeekOff_Policy_02
+Jul 15, 2025 4:08:31 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 48.4454 seconds
+Total TC Time: 00:02:08
+Launching Driver...
+Jul 15, 2025 4:08:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:08:34 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_578_WeekOff_Policy_03-To verify this, create a user and assign them to the "QC" department with "For Grade" as the team, "QC Head" as the designation, and "Staff" as the employee type. Then, create a Week Off Policy and define the same employee criteria within the policy. After saving the policy, ensure that the employee matching the specified criteria is correctly assigned to the newly created Week Off Policy, confirming that the policy assignment based on employee attributes is functioning as expected. 
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_578_WeekOff_Policy_03
+Jul 15, 2025 4:08:34 PM base.LogResults onlyLog
+INFO: Total Pass : 3 Total Fail : 0  Total TC : 3
+---------------------------------------------------------------
+Test case took: 0.0805 seconds
+Total TC Time: 00:02:08
+Launching Driver...
+Jul 15, 2025 4:08:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:08:37 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_578_WeekOff_Policy_03-
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_578_WeekOff_Policy_03
+Jul 15, 2025 4:08:37 PM base.LogResults onlyLog
+INFO: Total Pass : 4 Total Fail : 0  Total TC : 4
+---------------------------------------------------------------
+Test case took: 0.0310 seconds
+Total TC Time: 00:02:08
+Launching Driver...
+Jul 15, 2025 4:08:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:08:40 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_578_WeekOff_Policy_03-
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_578_WeekOff_Policy_03
+Jul 15, 2025 4:08:40 PM base.LogResults onlyLog
+INFO: Total Pass : 5 Total Fail : 0  Total TC : 5
+---------------------------------------------------------------
+Test case took: 0.0158 seconds
+Total TC Time: 00:02:08
+Launching Driver...
+Jul 15, 2025 4:08:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:08:44 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_578_WeekOff_Policy_03-
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_578_WeekOff_Policy_03
+Jul 15, 2025 4:08:44 PM base.LogResults onlyLog
+INFO: Total Pass : 6 Total Fail : 0  Total TC : 6
+---------------------------------------------------------------
+Test case took: 0.0259 seconds
+Total TC Time: 00:02:08
+Launching Driver...
+Jul 15, 2025 4:08:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:08:47 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_578_WeekOff_Policy_03-
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_578_WeekOff_Policy_03
+Jul 15, 2025 4:08:47 PM base.LogResults onlyLog
+INFO: Total Pass : 7 Total Fail : 0  Total TC : 7
+---------------------------------------------------------------
+Test case took: 0.0166 seconds
+Total TC Time: 00:02:08
+Launching Driver...
+Jul 15, 2025 4:08:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 4:08:51 PM base.LogResults onlyLog
+INFO: Passed - MeghWeekOffPolicyTest-MPI_578_WeekOff_Policy_03-
+---------------------------------------------------------------
+MeghWeekOffPolicyTestMPI_578_WeekOff_Policy_03
+Jul 15, 2025 4:08:51 PM base.LogResults onlyLog
+INFO: Total Pass : 8 Total Fail : 0  Total TC : 8
+---------------------------------------------------------------
+Test case took: 0.0243 seconds
+Total TC Time: 00:02:08
+
+===============================================
+Suite
+Total tests run: 8, Passes: 2, Failures: 1, Skips: 5
+Configuration Failures: 6, Skips: 0
+===============================================
+

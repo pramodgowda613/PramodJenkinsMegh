@@ -1,0 +1,65 @@
+>> Console logging redirected to data/console.log
+Continuing with Existing Master Data due to threshold value:150725-150725-ThreSld->3
+cmpcode and emailidASJLAutoE150725142816@mailinator.com
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 15, 2025 2:39:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 15, 2025 2:39:28 PM base.LogResults createLogs
+INFO: PASS - Application Loaded Successfully: 
+Jul 15, 2025 2:39:32 PM base.LogResults createLogs
+INFO: PASS - Company Code Entered in Text Box: ASJL
+Jul 15, 2025 2:39:33 PM base.LogResults createLogs
+INFO: PASS - Login With Password Button Is Clicked: 
+Jul 15, 2025 2:39:37 PM base.LogResults createLogs
+INFO: PASS - Sign in Text Is Displayed: 
+Jul 15, 2025 2:39:37 PM base.LogResults createLogs
+INFO: PASS - Username Is Entered In Username Text Field: AutoE150725142816@mailinator.com
+Jul 15, 2025 2:39:37 PM base.LogResults createLogs
+INFO: PASS - Password Is Entered In Password Text Field: Pramod@1234
+Jul 15, 2025 2:39:37 PM base.LogResults createLogs
+INFO: PASS - Captcha Entered On Captcha Text Field: 12345
+Jul 15, 2025 2:39:38 PM base.LogResults createLogs
+INFO: PASS - Clicked On Login Button: 
+Jul 15, 2025 2:39:40 PM base.LogResults createLogs
+INFO: PASS - login Validated Successfully: 
+Jul 15, 2025 2:39:45 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:39:46 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:39:46 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:39:47 PM base.LogResults createLogs
+INFO: PASS - Office Button  Clicked Successfully: 
+Jul 15, 2025 2:39:47 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On AddOfficeButton : 
+Jul 15, 2025 2:39:49 PM base.LogResults createLogs
+INFO: PASS -  OfficeName Entered In the Office Name TextField : AutoON150725142816
+Jul 15, 2025 2:39:49 PM base.LogResults createLogs
+INFO: PASS -  Office Type Selected In the Office Type Dropdown : 
+Jul 15, 2025 2:39:49 PM base.LogResults createLogs
+INFO: PASS -  Country Selected In the Country  Dropdown : 
+Jul 15, 2025 2:39:49 PM base.LogResults createLogs
+INFO: FAIL - Error while Selecting The State : Cannot locate option with text: Gujarat
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+Jul 15, 2025 2:39:50 PM base.LogResults createLogs
+INFO: PASS -  Successfully Clicked On CompanyLocationSaveButton : 
+Jul 15, 2025 2:39:57 PM base.LogResults createLogs
+INFO: PASS - Directory Button Clicked Successfully: 
+Jul 15, 2025 2:39:58 PM base.LogResults createLogs
+INFO: PASS - Directory Page Loaded Successfully: 
+Jul 15, 2025 2:39:58 PM base.LogResults createLogs
+INFO: PASS - Company Tab  Clicked Successfully: 
+Jul 15, 2025 2:39:59 PM base.LogResults createLogs
+INFO: PASS - Department Tab  Clicked Successfully: 
+Jul 15, 2025 2:40:00 PM base.LogResults createLogs
+INFO: PASS - Add Department Tab  Clicked Successfully: 
+Jul 15, 2025 2:40:02 PM base.LogResults createLogs
+INFO: PASS - Department Name Entered Successfully: AutoDN150725142816
+Jul 15, 2025 2:40:02 PM base.LogResults createLogs
+INFO: PASS - Successfully Clicked On Add Department Save Button: 

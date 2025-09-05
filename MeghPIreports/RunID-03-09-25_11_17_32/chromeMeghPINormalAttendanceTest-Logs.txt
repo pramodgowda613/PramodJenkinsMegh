@@ -1,0 +1,8 @@
+Sept 03, 2025 11:17:39 AM base.LogResults createLogs
+INFO: PASS - Punch IN executed successfully
+Sept 03, 2025 11:17:41 AM base.LogResults createLogs
+INFO: PASS - Punch OUT executed successfully
+Sept 03, 2025 11:17:41 AM base.LogResults onlyLog
+INFO: Passed - MeghPINormalAttendanceTest-MPI_727_Normal_Attendance_55-Check the status when the employee applies a Half Day Regularization Request 
+Sept 03, 2025 11:17:41 AM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

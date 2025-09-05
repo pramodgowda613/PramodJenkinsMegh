@@ -1,0 +1,40 @@
+>> Console logging redirected to data/console.log
+Launching Driver...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 21, 2025 1:04:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 21, 2025 1:04:28 PM base.LogResults createLogs
+INFO: INFO - Skip Adding New Data. Continue with Old Test Data.
+Aug 21, 2025 1:04:28 PM base.LogResults onlyLog
+INFO: Passed - MeghLeavePolicyTest-MPI_847_Leave_Policy_37-To verify this, create an policy and add the employee criteria to the policy and ensure only matching criteria employees are assigned to that created policy
+---------------------------------------------------------------
+MeghLeavePolicyTestMPI_847_Leave_Policy_37
+Aug 21, 2025 1:04:29 PM base.LogResults onlyLog
+INFO: Total Pass : 1 Total Fail : 0  Total TC : 1
+---------------------------------------------------------------
+Test case took: 2.3619 seconds
+Total TC Time: 00:00:02
+Launching Driver...
+Aug 21, 2025 1:04:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 139
+(1386, 788)
+Aug 21, 2025 1:04:33 PM base.LogResults createLogs
+INFO: INFO - Skip Adding New Data. Continue with Old Test Data.
+Aug 21, 2025 1:04:33 PM base.LogResults onlyLog
+INFO: Passed - MeghAttendancePolicyTest-MPI_846_Attendance_Policy_71-To verify this, create an attendance policy and add employee criteria and ensure matching criteria employee are assigned to the created policy
+---------------------------------------------------------------
+MeghAttendancePolicyTestMPI_846_Attendance_Policy_71
+Aug 21, 2025 1:04:33 PM base.LogResults onlyLog
+INFO: Total Pass : 2 Total Fail : 0  Total TC : 2
+---------------------------------------------------------------
+Test case took: 2.2402 seconds
+Total TC Time: 00:00:02
+
+===============================================
+Suite
+Total tests run: 2, Passes: 0, Failures: 0, Skips: 2
+===============================================
+

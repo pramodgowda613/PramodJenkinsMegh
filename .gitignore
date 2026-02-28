@@ -1,1 +1,34 @@
+# Maven target folder
 /target/
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ files (if used)
+.idea/
+*.iml
+
+# Test output
+/test-output/
+
+# Temporary files
+*.tmp
+*.bak
+
+# WebDriver binaries (if stored locally)
+*.exe
+chromedriver*
+geckodriver*
+
+# Extent reports
+/ExtentReports/
+/Reports/

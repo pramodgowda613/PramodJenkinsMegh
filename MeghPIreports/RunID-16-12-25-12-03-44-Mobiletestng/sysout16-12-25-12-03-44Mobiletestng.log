@@ -1,0 +1,29 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 12:03:45
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Error while reading excel column: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because the return value of "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" is null
+No values found in Excel Data for column : qc_totalothour
+✅ Shift button clicked successfully.
+Target Month-Year: Nov 2025
+Current UI Month-Year: Dec 2025
+⬅ Clicked Previous month... Attempt 1
+Current UI Month-Year: Nov 2025
+✅ Month matched successfully
+🔍 Searching Shift Date: Nov 03
+✅ Clicked Shift Date: Nov 03
+---------------------------------------------------------------
+MeghPIAttendAndroidShiftTestMPI_1540_Android_Shift_09
+---------------------------------------------------------------
+Test case took: 69.6094 seconds
+Total TC Time: 00:01:09
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

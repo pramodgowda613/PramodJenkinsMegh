@@ -1,0 +1,1 @@
+[12:47:04] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-17-12-25-12-47-03-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidWeekOffTest.txt

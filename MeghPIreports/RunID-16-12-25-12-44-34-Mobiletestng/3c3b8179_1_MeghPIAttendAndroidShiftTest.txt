@@ -1,0 +1,16 @@
+[12:44:35] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-12-44-34-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[12:44:51] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[12:44:54] INFO  - PASS - Login With Password Button Is Clicked.
+[12:45:01] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[12:45:07] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[12:45:15] INFO  - PASS - Clicked On Login Button.
+[12:45:19] INFO  - PASS - Shift Button Clicked Successfully On Admin Account.
+[12:45:22] ERROR - FAIL - Error While Navigating To Shift Requested Month .Exception in navigateToRequiredMonth(): An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [34c828c1-2d55-452b-b9cd-9f20d2ec1161, findElement {value=//android.view.View[contains(@content-desc,'Nov')], using=xpath}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 34c828c1-2d55-452b-b9cd-9f20d2ec1161
+[12:45:25] INFO  - PASS - Pending Shift Request Button Clicked Successfully On Admin Account.

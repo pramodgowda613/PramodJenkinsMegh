@@ -3,7 +3,6 @@ package com.MeghPI.Attendance.pages;
 import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,7 +16,7 @@ import utils.Utils;
 public class MeghShiftPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String RoleNames = "";
 	public String firstrow = "";
@@ -98,6 +97,17 @@ public class MeghShiftPage {
 	
 	 @FindBy(xpath = "//div[text()='Shift Code']")
 	    private WebElement ShiftPageLoaded; //5th TestCase 
+	 
+	 @FindBy(xpath = "//div[@id='divShift']/div/div/label")
+	    private List<WebElement> AllShiftsInShiftPolicy; //5th TestCase 
+	 
+	 
+	 
+	 @FindBy(xpath = "//button[@id='btnPolicyConfirmNo']")
+	    private WebElement NoOptionSelected; //5th TestCase 
+	
+	 
+	 
 	 
 	
 	//1st TestCase
@@ -277,7 +287,7 @@ Thread.sleep(4000);
 	
 	public boolean ShiftPolicyTab() {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(ShiftPolicyTab, "visible", "", 10);
 			ShiftPolicyTab.isDisplayed();
 			ShiftPolicyTab.click();
@@ -309,11 +319,12 @@ Thread.sleep(4000);
 	}
 
 	
-	public boolean loginValidate() throws InterruptedException {
-	    int attempts = 0;
+	public boolean loginValidate()  {
+		   int attempts = 0;
 
 	    while (attempts < 2) {
 	        try {
+	        	Thread.sleep(2000);
 	            // Wait for login validation element
 	            utils.waitForEle(loginValidate, "visible", "", 20);
 
@@ -329,7 +340,7 @@ Thread.sleep(4000);
 
 	            if (attempts < 2) {
 	                driver.navigate().refresh();
-	                Thread.sleep(4000); // Wait after refresh
+	                 // Wait after refresh
 	            } else {
 	                return false; // Fail after 2 attempts
 	            }
@@ -346,7 +357,7 @@ Thread.sleep(4000);
 	//2nd TestCase
 	public boolean ShiftEditButton() {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(ShiftEditButton, "visible", "", 10);
 			ShiftEditButton.isDisplayed();
 			ShiftEditButton.click();
@@ -360,7 +371,7 @@ Thread.sleep(4000);
 	
 	public boolean ShiftSearchTextField(String shiftname) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(ShiftSearchTextField,  "visible", "", 10);
 			ShiftSearchTextField.isDisplayed();
 			ShiftSearchTextField.clear();
@@ -375,6 +386,7 @@ Thread.sleep(4000);
 	
 	public boolean ShiftFirstRowName(String shiftname) {
 	    try {
+	    	Thread.sleep(2000);
 	        utils.waitForEle(ShiftFirstRowName, "visible", "", 10);
 	        String actualName = ShiftFirstRowName.getText().trim();
 	        if (actualName.equalsIgnoreCase(shiftname)) {
@@ -425,6 +437,7 @@ Thread.sleep(4000);
 	public boolean ShiftDeleteIcon() {
 		try {
 
+			Thread.sleep(2000);
 			utils.waitForEle(ShiftDeleteIcon, "visible", "", 10);
 			ShiftDeleteIcon.isDisplayed();
 			ShiftDeleteIcon.click();
@@ -504,7 +517,7 @@ Thread.sleep(4000);
 			utils.waitForEle(ShiftTab, "visible", "", 10);
 			ShiftTab.isDisplayed();
 			ShiftTab.click();
-			
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -573,6 +586,7 @@ Thread.sleep(4000);
 	
 	public boolean ShiftCodeValidation(String shiftcode) {
 	    try {
+	    	Thread.sleep(2000);
 	        String actualCode = ShiftCode.getText();
 	        if (actualCode.equalsIgnoreCase(shiftcode)) {
 	            return true;
@@ -602,14 +616,57 @@ Thread.sleep(4000);
 		return true;
 	}
 	
+	 public boolean AllShiftsInShiftPolicy(String shiftName) {
+	        boolean foundAndClicked = false;
+	        try {
+	            for (WebElement eachShiftLabel : AllShiftsInShiftPolicy) {
+	                // Using .getText().trim() to handle potential leading/trailing whitespace
+	                if (eachShiftLabel.getText().trim().contains(shiftName)) {
+	                    eachShiftLabel.click();
+	                    foundAndClicked = true;
+	                    // Optional: Add a 'break;' here if you only expect one match and want efficiency
+	                    // break; 
+	                }
+	            }
+	            
+	            // Optional: Add logging to know if a matching shift was actually found
+	            if (!foundAndClicked) {
+	                System.out.println("Note: No shift label containing '" + shiftName + "' was found or clicked.");
+	            }
+
+	        } catch (Exception e) {
+	            // Catching the exception details and returning false indicates failure during execution
+	            exceptionDesc = e.getMessage();
+	            System.err.println("An error occurred: " + exceptionDesc);
+	            return false;
+	        }
+	        // Returning true indicates that the iteration completed without a Selenium exception
+	        return true;
+	    }
 	
+	 
 	
+	 public boolean NoOptionSelected() {
+			try {
+
+				utils.waitForEle(NoOptionSelected, "visible", "", 20);
+				NoOptionSelected.click();
+				
+				
+			} catch (Exception e) {
+				exceptionDesc = e.getMessage().toString();
+				return false;
+			}
+			return true;
+		}
+	
+
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 }

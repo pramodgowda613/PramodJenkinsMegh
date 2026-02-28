@@ -12,7 +12,7 @@ import utils.Utils;
 public class MeghMasterRolePage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String RoleNames = "";
 	 
@@ -26,7 +26,7 @@ public class MeghMasterRolePage {
 	
 	
 	
-	@FindBy(xpath = "//a[@id='tab_Role']")
+	@FindBy(xpath = "//button[@id='tab_Role']")
 	private WebElement RoleButton; //1st TestCase
 	
 	@FindBy(xpath = "(//button[@id='btnAddRole'])[2]")
@@ -96,6 +96,7 @@ public class MeghMasterRolePage {
 	public boolean AddRoleButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(AddRoleButton, "visible", "", 10);
 			AddRoleButton.isDisplayed();
 			AddRoleButton.click();
@@ -165,7 +166,7 @@ public class MeghMasterRolePage {
 	public boolean ManageProfileRoleTextField(String rolename) {
 		try {
 			
-			Thread.sleep(10000);
+			Thread.sleep(4000);
 
 			utils.waitForEle(ManageProfileRoleTextField,  "visible", "", 10);
 			ManageProfileRoleTextField.isDisplayed();
@@ -182,7 +183,7 @@ public class MeghMasterRolePage {
 	{
 		
 		try {
-			Thread.sleep(4000);
+			Thread.sleep(2000);
 			utils.waitForEle(ManageProfileRoleSearchResult, "visible", "", 10);
 			ManageProfileRoleSearchResult.isDisplayed();
 			
@@ -196,7 +197,7 @@ public class MeghMasterRolePage {
 	//2nd TestCase
 	public boolean Role3Dots2ndRow() {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(Role3Dots2ndRow, "visible", "", 10);
 			Role3Dots2ndRow.isDisplayed();
 			Role3Dots2ndRow.click();
@@ -224,7 +225,7 @@ public class MeghMasterRolePage {
 	
 	public boolean RoleSearchTextField(String rolename) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(RoleSearchTextField,  "visible", "", 10);
 			RoleSearchTextField.isDisplayed();
 			RoleSearchTextField.clear();
@@ -239,7 +240,7 @@ public class MeghMasterRolePage {
 	
 	public boolean RoleFirstRowName() {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(RoleFirstRowName, "visible", "", 10);
 			RoleFirstRowName.isDisplayed();
 		RoleNames =	RoleFirstRowName.getText();
@@ -255,7 +256,7 @@ public class MeghMasterRolePage {
 	
 	public boolean RoleToggleSwitch() {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(RoleToggleSwitch, "visible", "", 10);
 			RoleToggleSwitch.isDisplayed();
 			RoleToggleSwitch.click();
@@ -317,7 +318,7 @@ public class MeghMasterRolePage {
 	       
 	        driver.get("http://demo.meghpi.com/Directory/Company");
 	        Thread.sleep(2000);
-	        driver.findElement(By.xpath("//a[@id='tab_Role']")).click();
+	        driver.findElement(By.xpath("//button[@id='tab_Role']")).click();
 	        Thread.sleep(2000);
 	        
 	        
@@ -387,8 +388,8 @@ return recordList2;
 	 
 	 public boolean ManageProfileRoleSearchResultselect() {
 			try {
-
-				utils.waitForEle(ManageProfileRoleSearchResult, "visible", "", 10);
+				Thread.sleep(2000);
+				utils.waitForEle(ManageProfileRoleSearchResult, "visible", "", 20);
 				ManageProfileRoleSearchResult.isDisplayed();
 				ManageProfileRoleSearchResult.click();
 				
@@ -418,7 +419,7 @@ return recordList2;
 	 
 	 public boolean RoleModulePageLoaded() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(RoleModulePageLoaded, "visible", "", 20);
 				RoleModulePageLoaded.isDisplayed();
 				
@@ -433,13 +434,14 @@ return recordList2;
 	
 	
 	
-	public String getExceptionDesc() {
-		return this.exceptionDesc;
-	}
 
-	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
-	}
+		public String getExceptionDesc() {
+			return this.exceptionDesc;
+		}
+
+		public  void setExceptionDesc(String exceptionDesc) {  
+			exceptionDesc = this.exceptionDesc;
+		}
 	
 	
 }

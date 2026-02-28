@@ -1,0 +1,7 @@
+[13:50:26] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-13-50-26-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[13:50:42] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[13:50:45] INFO  - PASS - Login With Password Button Is Clicked.
+[13:50:51] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[13:50:57] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[13:51:05] INFO  - PASS - Clicked On Login Button.
+[13:51:09] INFO  - PASS - Shift Button Clicked Successfully On Admin Account.

@@ -1,0 +1,31 @@
+[10:45:55] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-10-45-55-companymodules/chromeMeghPIAttendanceEmployeeTest.txt
+[10:46:10] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp042
+[10:46:10] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:00:00
+[10:46:10] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:30:00
+[10:46:25] INFO  - PASS - UpdateAttendance API executed successfully for Emp042
+[10:46:53] INFO  - PASS - Application Loaded Successfully.
+[10:46:55] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[10:46:57] INFO  - PASS - Login With Password Button Is Clicked.
+[10:46:59] INFO  - PASS - Sign in Text Is Displayed.
+[10:47:02] INFO  - PASS - Username Is Entered In Username Text Field.AutoE111225093016@mailinator.com
+[10:47:04] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[10:47:06] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[10:47:08] INFO  - PASS - Clicked On Login Button.
+[10:47:11] INFO  - PASS - Login Done  And Validated Successfully.
+[10:47:13] INFO  - PASS - Login Done Successfully.
+[10:47:16] INFO  - PASS -  Attendance Module Clicked Successfully.
+[10:47:18] INFO  - PASS - Employee Attendance Tab Clicked Successfully.
+[10:47:25] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[10:47:27] INFO  - PASS - Regularization Rejected Emp Name Inputted Successfully.Empfourtytwo
+[10:47:29] INFO  - PASS - Emp Present Attendance Validated Successfully.Emp042 2025-11-03 P
+[10:47:32] INFO  - PASS - Fetch the Current Month Holiday Count Successfully.Empfourtytwo
+[10:48:10] ERROR - FAIL - Error While Validating Emp Attendance Present Count, Absent Count And OT Hours Count.null
+[10:48:11] INFO  - Failed - MeghPIAttendanceEmployeeTest-MPI_1546_Attendance_Employee_01-To verify this, create a new employee, mark one day as Present, and ensure the Present count increases correctly and the Absent count adjusts accordingly for the current month.
+[10:48:11] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1
+[10:48:16] INFO  - PASS -  Application loaded successfully.
+[10:48:18] INFO  - PASS -  Company code entered successfully.ACZO
+[10:48:20] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[10:48:24] INFO  - PASS -  Sign-in section appeared.
+[10:48:27] INFO  - PASS -  Email Id entered.Emp042
+[10:48:29] INFO  - PASS -  Password entered.Emp042
+[10:48:31] INFO  - PASS -  Captcha entered.12345

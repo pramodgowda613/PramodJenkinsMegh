@@ -1,0 +1,9 @@
+[14:24:18] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-18-12-25-14-24-18-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[14:24:23] INFO  - PASS - Punch IN executed successfully at 2025-11-04 09:10:00
+[14:24:23] INFO  - PASS - Punch OUT executed successfully at 2025-11-04 18:12:00
+[14:24:39] INFO  - PASS - UpdateAttendance API executed successfully for Emp051
+[14:25:06] INFO  - PASS - Application Loaded Successfully.
+[14:25:08] INFO  - PASS - Company Code Entered in Text Box.ATQI
+[14:25:11] INFO  - PASS - Login With Password Button Is Clicked.
+[14:25:13] INFO  - PASS - Sign in Text Is Displayed.
+[14:25:15] INFO  - PASS - Username Is Entered In Username Text Field.Emp051

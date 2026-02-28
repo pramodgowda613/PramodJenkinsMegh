@@ -1,0 +1,12 @@
+[12:51:37] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-12-51-36-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[12:51:52] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[12:51:55] INFO  - PASS - Login With Password Button Is Clicked.
+[12:52:02] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[12:52:08] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[12:52:16] INFO  - PASS - Clicked On Login Button.
+[12:52:21] INFO  - PASS - Shift Button Clicked Successfully On Admin Account.
+[12:53:28] ERROR - FAIL - Error While Navigating To Shift Requested Month .Failed to navigate to target month: Nov 2025
+[12:53:48] INFO  - PASS - Pending Shift Request Button Clicked Successfully On Admin Account.
+[12:54:07] ERROR - FAIL - Error While Clicking On Emp Shift Request Approve Button .No matching shift card found for EmpID: #Emp025 and Date: Monday - 03 Nov 2025
+[12:54:07] INFO  - Failed - MeghPIAttendAndroidShiftTest-MPI_1541_Android_Shift_10-To verify that when the admin approves a shift request, the approved status is correctly displayed in the employee’s Shift module.
+[12:54:07] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

@@ -1,0 +1,30 @@
+[12:18:46] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-12-18-46-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[12:18:50] INFO  - PASS - Application Loaded Successfully.
+[12:18:52] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[12:18:55] INFO  - PASS - Login With Password Button Is Clicked.
+[12:18:57] INFO  - PASS - Sign in Text Is Displayed.
+[12:18:59] INFO  - PASS - Username Is Entered In Username Text Field.Emp050
+[12:19:01] INFO  - PASS - Password Is Entered In Password Text Field.Emp050
+[12:19:04] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[12:19:06] INFO  - PASS - Clicked On Login Button.
+[12:19:08] INFO  - PASS - Login Done  And Validated Successfully.
+[12:19:10] INFO  - PASS - Login Done Successfully.
+[12:19:16] INFO  - PASS - Report Button Clicked Successfully.
+[12:19:21] INFO  - PASS - AttendanceReport Displayed Successfully .
+[12:19:23] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[12:19:25] INFO  - PASS - Filter Button Clicked Successfully.
+[12:19:32] INFO  - PASS - Year Selected Successfully.2025
+[12:19:39] INFO  - PASS - Month Selected Successfully.November
+[12:19:45] INFO  - PASS - Week Selected Successfully.
+[12:19:47] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[12:19:52] INFO  - PASS - From Date Selected Successfully.2025-11-07
+[12:19:55] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[12:20:00] INFO  - PASS - To Date Selected Successfully.2025-11-07
+[12:20:02] INFO  - PASS - From Time TextField Clicked Successfully.
+[12:20:07] INFO  - PASS - FromTime Selected Successfully.09:40:00
+[12:20:09] INFO  - PASS - To Time TextField Clicked Successfully.
+[12:20:14] INFO  - PASS - ToTime Selected Successfully.12:30:00
+[12:20:17] INFO  - PASS - Filter Save Button Clicked Successfully.
+[12:20:19] ERROR - FAIL - Error While Displaying Attendance Final Status Record.Expected text to contain '12:30:00' but was 'Single Punch'
+[12:20:19] INFO  - Failed - MeghPIEmpAttendanceReportsTest-MPI_1745_MissingPunch_Reports_05-To verify this, check the functionality of filter feature by selecting specific date ensure specific date missing punch record is displayed 
+[12:20:19] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

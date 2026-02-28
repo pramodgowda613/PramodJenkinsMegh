@@ -1,0 +1,16 @@
+[17:15:38] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-17-15-37-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[17:15:54] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[17:15:58] INFO  - PASS - Login With Password Button Is Clicked.
+[17:16:04] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[17:16:10] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[17:16:19] INFO  - PASS - Clicked On Login Button.
+[17:16:22] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[17:16:25] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[17:16:31] INFO  - PASS - Clicked On OverTime Tab On Emp Attendance.
+[17:16:35] INFO  - PASS -  Shift Tab Clicked Successfully On Admin Account.
+[17:16:40] INFO  - PASS - Navigated To Shift Requested Data Month.2025-11-05
+[17:16:43] INFO  - PASS - Pending Shift Request Button Clicked Successfully On Admin Account.
+[17:16:48] INFO  - PASS - Clicked On Revoke Button Of Shift Request.
+[17:16:52] INFO  - PASS - Regularization Reason Inputted Successfully.Shift change request for revoke
+[17:16:58] INFO  - PASS - Clicked On Shift Request Revoke Confirm Button.
+[17:17:01] INFO  - PASS - Revoked Shift Request Button Clicked Successfully On Admin Account.

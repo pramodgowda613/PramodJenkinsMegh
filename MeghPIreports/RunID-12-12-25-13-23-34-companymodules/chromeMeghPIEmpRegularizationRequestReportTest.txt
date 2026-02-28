@@ -1,0 +1,22 @@
+[13:23:34] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-13-23-34-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[13:23:39] INFO  - PASS - Application Loaded Successfully.
+[13:23:41] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[13:23:43] INFO  - PASS - Login With Password Button Is Clicked.
+[13:23:45] INFO  - PASS - Sign in Text Is Displayed.
+[13:23:47] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[13:23:50] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[13:23:52] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[13:23:54] INFO  - PASS - Clicked On Login Button.
+[13:23:56] INFO  - PASS - Login Done  And Validated Successfully.
+[13:23:58] INFO  - PASS - Login Done Successfully.
+[13:24:05] INFO  - PASS - Report Button Clicked Successfully.
+[13:24:09] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[13:24:11] INFO  - PASS - Pending Report Clicked Successfully.
+[13:24:13] INFO  - PASS - Filter Button Clicked Successfully.
+[13:24:21] INFO  - PASS - Year Selected Successfully.2025
+[13:24:27] INFO  - PASS - Month Selected Successfully.December
+[13:24:32] INFO  - PASS - Week selected successfully: 1
+[13:24:35] INFO  - PASS - Filter Save Button Clicked Successfully.
+[13:24:37] INFO  - PASS - Filtered Data Displayed Successfully.03-12-2025
+[13:24:37] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1788_Emp_PendingRegularization_Reports_05-To verify this, raise a regularization request during the last week. In the Regularization Request Reports module, apply the filter for the last week and ensure that the corresponding regularization request record is displayed.
+[13:24:37] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

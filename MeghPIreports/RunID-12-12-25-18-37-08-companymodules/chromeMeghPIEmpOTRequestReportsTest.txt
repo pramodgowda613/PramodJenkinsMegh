@@ -1,0 +1,65 @@
+[18:37:08] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-18-37-08-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[18:37:13] INFO  - PASS - Application Loaded Successfully.
+[18:37:16] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[18:37:18] INFO  - PASS - Login With Password Button Is Clicked.
+[18:37:20] INFO  - PASS - Sign in Text Is Displayed.
+[18:37:22] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[18:37:24] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[18:37:27] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:37:29] INFO  - PASS - Clicked On Login Button.
+[18:37:31] INFO  - PASS - Login Done  And Validated Successfully.
+[18:37:33] INFO  - PASS - Login Done Successfully.
+[18:37:40] INFO  - PASS - Report Button Clicked Successfully.
+[18:37:42] INFO  - PASS - OverTime Button Clicked Successfully.
+[18:37:44] INFO  - PASS - OverTime Report Approved Tab button Clicked Successfully.
+[18:37:46] INFO  - PASS - Filter Button Clicked Successfully.
+[18:37:54] INFO  - PASS - Year Selected Successfully.2025
+[18:38:00] INFO  - PASS - Month Selected Successfully.November
+[18:38:03] ERROR - FAIL - Error while Clicking On SearchDropDown .element click intercepted: Element <button id="btnHeaderFilter" name="btnHeaderFilter" type="Button" data-toggle="dropdown" aria-haspopup="true" class="btn btn_col_search dropdown-toggle"></button> is not clickable at point (261, 85). Other element would receive the click: <div class="modal fade right-align drawer my_model Testing show" id="divFilter_OTReport" tabindex="-1" data-bs-backdrop="true" data-keyword="true" aria-modal="true" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff1908e82cb87990a3867ad7d79f06df, clickElement {id=f.40C9FC092411804F5042A4C80AF5BB9F.d.B8DC24411277600CBC80E68B63584C54.e.1098}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60536}, goog:processID: 4720, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60536/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ff1908e82cb87990a3867ad7d79f06df)] -> xpath: //button[@id='btnHeaderFilter']]
+Session ID: ff1908e82cb87990a3867ad7d79f06df
+[18:38:21] ERROR - FAIL - Error While Selecting Emp ID Search Option Checkbox.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff1908e82cb87990a3867ad7d79f06df, clickElement {id=f.40C9FC092411804F5042A4C80AF5BB9F.d.B8DC24411277600CBC80E68B63584C54.e.1099}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60536}, goog:processID: 4720, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60536/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ff1908e82cb87990a3867ad7d79f06df)] -> xpath: //label[text()='Employee ID']]
+Session ID: ff1908e82cb87990a3867ad7d79f06df
+[18:38:24] ERROR - FAIL - Error while Clicking On SearchDropDown .element click intercepted: Element <button id="btnHeaderFilter" name="btnHeaderFilter" type="Button" data-toggle="dropdown" aria-haspopup="true" class="btn btn_col_search dropdown-toggle"></button> is not clickable at point (261, 85). Other element would receive the click: <div class="modal fade right-align drawer my_model Testing show" id="divFilter_OTReport" tabindex="-1" data-bs-backdrop="true" data-keyword="true" aria-modal="true" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff1908e82cb87990a3867ad7d79f06df, clickElement {id=f.40C9FC092411804F5042A4C80AF5BB9F.d.B8DC24411277600CBC80E68B63584C54.e.1098}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60536}, goog:processID: 4720, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60536/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ff1908e82cb87990a3867ad7d79f06df)] -> xpath: //button[@id='btnHeaderFilter']]
+Session ID: ff1908e82cb87990a3867ad7d79f06df
+[18:38:26] ERROR - FAIL - Error While Inputting Emp ID.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff1908e82cb87990a3867ad7d79f06df, sendKeysToElement {id=f.40C9FC092411804F5042A4C80AF5BB9F.d.B8DC24411277600CBC80E68B63584C54.e.990, value=[Ljava.lang.CharSequence;@75ed7512}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60536}, goog:processID: 4720, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60536/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ff1908e82cb87990a3867ad7d79f06df)] -> xpath: //input[@aria-controls='dtOTReport']]
+Session ID: ff1908e82cb87990a3867ad7d79f06df
+[18:38:39] ERROR - FAIL - Error While Validating  Emp Approved Record.no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='dtOTReport']/tbody/tr[1]/td[1]/div/div/p[1]"}
+  (Session info: chrome=143.0.7499.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff1908e82cb87990a3867ad7d79f06df, findElement {using=xpath, value=//table[@id='dtOTReport']/tbody/tr[1]/td[1]/div/div/p[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60536}, goog:processID: 4720, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60536/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff1908e82cb87990a3867ad7d79f06df
+[18:38:39] INFO  - Skipping rest steps as error count reached configured value: 5
+[18:38:39] INFO  - Failed - MeghPIEmpOTRequestReportsTest-MPI_1805_EmpOTApproved_Reports_01-To verify this, check the functionalities of search feature by selecting each search option 
+[18:38:39] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

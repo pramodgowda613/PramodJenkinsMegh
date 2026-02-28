@@ -1,0 +1,25 @@
+[17:26:50] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-17-26-49-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[17:27:02] INFO  - PASS - Punch IN executed successfully at 2025-11-28 09:40:00
+[17:27:02] INFO  - PASS - Punch OUT executed successfully at 2025-11-28 18:45:00
+[17:27:03] INFO  - PASS - UpdateAttendance API executed successfully for Emp051
+[17:27:25] INFO  - PASS - Application Loaded Successfully.
+[17:27:28] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[17:27:30] INFO  - PASS - Login With Password Button Is Clicked.
+[17:27:32] INFO  - PASS - Sign in Text Is Displayed.
+[17:27:34] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[17:27:36] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[17:27:39] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:27:41] INFO  - PASS - Clicked On Login Button.
+[17:27:44] INFO  - PASS - Login Done  And Validated Successfully.
+[17:27:46] INFO  - PASS - Login Done Successfully.
+[17:27:53] INFO  - PASS - Report Button Clicked Successfully.
+[17:27:59] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[17:28:01] INFO  - PASS - LateInTab Clicked Successfully.
+[17:28:03] INFO  - PASS - Filter Button Clicked Successfully.
+[17:28:11] INFO  - PASS - Year Selected Successfully.2025
+[17:28:17] INFO  - PASS - Month Selected Successfully.November
+[17:28:22] INFO  - PASS - Week selected successfully: 5
+[17:28:24] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:28:27] INFO  - PASS - Filtered Data Displayed Successfully.2025-11-28
+[17:28:27] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1762_Emp_LateIn_Reports_05-To verify this, punch in as an employee during the last week of the previous month and then, in the late in reports, validate the filter functionality by selecting the last week. Ensure that the corresponding late punch in record is displayed.
+[17:28:27] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

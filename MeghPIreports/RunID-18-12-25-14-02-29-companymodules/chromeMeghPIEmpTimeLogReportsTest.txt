@@ -1,0 +1,17 @@
+[14:02:29] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-18-12-25-14-02-29-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[14:02:34] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1758_Emp_LateIn_Reports_01-To verify this, check the functionality of search feature using each search option.
+[14:02:34] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1
+[14:02:37] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1759_Emp_LateIn_Reports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email
+[14:02:37] INFO  - Total Pass : 2 Total Fail : 0  Total TC : 2
+[14:02:39] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1761_Emp_LateIn_Reports_04-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date 
+[14:02:39] INFO  - Total Pass : 3 Total Fail : 0  Total TC : 3
+[14:02:40] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1762_Emp_LateIn_Reports_05-To verify this, Do Late punch in as an employee during the last week of the previous month and then, in the late in reports, validate the filter functionality by selecting the last week. Ensure that the corresponding late punch in record is displayed.
+[14:02:40] INFO  - Total Pass : 4 Total Fail : 0  Total TC : 4
+[14:02:43] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1763_Emp_LateOut_Reports_01-To verify this, check the functionality of search feature using each search option
+[14:02:43] INFO  - Total Pass : 5 Total Fail : 0  Total TC : 5
+[14:02:44] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1764_Emp_LateOut_Reports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email
+[14:02:44] INFO  - Total Pass : 6 Total Fail : 0  Total TC : 6
+[14:02:47] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1766_Emp_LateOut_Reports_04-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date 
+[14:02:47] INFO  - Total Pass : 7 Total Fail : 0  Total TC : 7
+[14:02:48] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1767_Emp_LateOut_Reports_05-To verify this, Do Late punch out as an employee during the last week of the previous month and then, in the late out reports, validate the filter functionality by selecting the last week. Ensure that the corresponding late punch out record is displayed..
+[14:02:48] INFO  - Total Pass : 8 Total Fail : 0  Total TC : 8

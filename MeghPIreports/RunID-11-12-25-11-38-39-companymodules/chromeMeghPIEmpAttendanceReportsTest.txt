@@ -1,0 +1,3 @@
+[11:38:39] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-11-38-39-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[11:38:41] INFO  - Passed - MeghPIEmpAttendanceReportsTest-MPI_990_missingpunch_report_02-To verify this, check the functionality ofÂ Schedule Report by adding email and selecting frequency as "daily"Â  and ensure report is delivered to inputted email
+[11:38:41] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

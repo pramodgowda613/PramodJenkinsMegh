@@ -3,17 +3,14 @@ package com.MeghPI.Attendance.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
-
 import utils.Utils;
 
 public class MeghMasterAttendanceStatusPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String HDHrow = "";
 	public String updatedcuststatus = "";
@@ -90,7 +87,7 @@ public class MeghMasterAttendanceStatusPage {
 	
 	public boolean AttendanceSearchTextField(String custstatus) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(AttendanceSearchTextField,  "visible", "", 10);
 			AttendanceSearchTextField.isDisplayed();
 			AttendanceSearchTextField.clear();
@@ -106,6 +103,7 @@ public class MeghMasterAttendanceStatusPage {
 	public boolean AttendanceStatus3Dots()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(AttendanceStatus3Dots, "visible", "", 10);
 			AttendanceStatus3Dots.isDisplayed();
 			AttendanceStatus3Dots.click();
@@ -163,6 +161,7 @@ public class MeghMasterAttendanceStatusPage {
 	public boolean AttendanceStatusSaveButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(AttendanceStatusSaveButton, "visible", "", 10);
 			AttendanceStatusSaveButton.isDisplayed();
 			AttendanceStatusSaveButton.click();
@@ -176,6 +175,7 @@ public class MeghMasterAttendanceStatusPage {
 	public boolean UpdatedCustStatusRowName()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(UpdatedCustStatusRowName, "visible", "", 10);
 			UpdatedCustStatusRowName.isDisplayed();
 			 updatedcuststatus = UpdatedCustStatusRowName.getText();
@@ -231,6 +231,7 @@ public class MeghMasterAttendanceStatusPage {
 	public boolean DescriptionRow()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(DescriptionRow, "visible", "", 10);
 			DescriptionRow.isDisplayed();
 		desc=	DescriptionRow.getText();
@@ -265,13 +266,12 @@ public class MeghMasterAttendanceStatusPage {
 	
 	
 	
-	
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 }

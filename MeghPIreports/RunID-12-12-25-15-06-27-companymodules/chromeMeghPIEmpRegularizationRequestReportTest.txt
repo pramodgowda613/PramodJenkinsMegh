@@ -1,0 +1,26 @@
+[15:06:28] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-15-06-27-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[15:06:33] INFO  - PASS - Application Loaded Successfully.
+[15:06:35] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[15:06:37] INFO  - PASS - Login With Password Button Is Clicked.
+[15:06:39] INFO  - PASS - Sign in Text Is Displayed.
+[15:06:41] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[15:06:44] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[15:06:46] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:06:48] INFO  - PASS - Clicked On Login Button.
+[15:06:50] INFO  - PASS - Login Done  And Validated Successfully.
+[15:06:52] INFO  - PASS - Login Done Successfully.
+[15:06:59] INFO  - PASS - Report Button Clicked Successfully.
+[15:07:03] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[15:07:07] INFO  - PASS - Rejected Report Tab Clicked Successfully.
+[15:07:09] INFO  - PASS - Filter Button Clicked Successfully.
+[15:07:16] INFO  - PASS - Year Selected Successfully.2025
+[15:07:23] INFO  - PASS - Month Selected Successfully.December
+[15:07:25] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:07:27] INFO  - PASS - MailReportButton Clicked Successfully.
+[15:07:29] INFO  - PASS - Mail Subject Inputted Successfully.Emp Rejected Regularization Request Testing
+[15:07:32] INFO  - PASS - Mail CC Inputted Successfully.Empfiftytwo@mailinator.com
+[15:07:34] INFO  - PASS - Mail BCC Inputted Successfully.Empfiftytwo@mailinator.com
+[15:07:40] INFO  - PASS - Frequency Selected Successfully.
+[15:07:42] INFO  - PASS - MailSendSaveButton Clicked Successfully.
+[15:07:43] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1795_Emp_RejectedRegularization_Reports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email
+[15:07:43] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -12,7 +12,7 @@ import utils.Utils;
 public class MeghMasterEntityTypePage {
 
 	 WebDriver driver;
-		private static String exceptionDesc;
+		private String exceptionDesc;
 		Utils utils = new Utils(driver);
 	public String entityname = "";
 		
@@ -111,7 +111,7 @@ public class MeghMasterEntityTypePage {
 		
 		public boolean EntitySearchField(String cardtype) {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(EntitySearchField,  "visible", "", 10);
 				EntitySearchField.isDisplayed();
 				EntitySearchField.clear();
@@ -177,6 +177,7 @@ public class MeghMasterEntityTypePage {
 		public boolean  Entity3Dots()
 		{
 			try {
+				Thread.sleep(2000);
 				utils.waitForEle(Entity3Dots, "visible", "", 10);
 				Entity3Dots.isDisplayed();
 				Entity3Dots.click();
@@ -191,8 +192,9 @@ public class MeghMasterEntityTypePage {
 		public boolean  EntityEditButton()
 		{
 			try {
+				Thread.sleep(2000);
 				utils.waitForEle(EntityEditButton, "visible", "", 10);
-				EntityEditButton.isDisplayed();
+			
 				Thread.sleep(2000);
 				EntityEditButton.click();
 				
@@ -209,8 +211,9 @@ public class MeghMasterEntityTypePage {
 		public boolean  EntityToggleSwitch()
 		{
 			try {
-				utils.waitForEle(EntityToggleSwitch, "visible", "", 10);
-				EntityToggleSwitch.isDisplayed();
+				Thread.sleep(2000);
+				utils.waitForEle(EntityToggleSwitch, "visible", "", 20);
+				
 				
 				EntityToggleSwitch.click();
 				
@@ -247,7 +250,7 @@ public class MeghMasterEntityTypePage {
 		public boolean  EntityTypePageLoaded()
 		{
 			try {
-				utils.waitForEle(EntityTypePageLoaded, "visible", "", 10);
+				utils.waitForEle(EntityTypePageLoaded, "visible", "", 20);
 				EntityTypePageLoaded.isDisplayed();
 				
 		
@@ -266,7 +269,7 @@ public class MeghMasterEntityTypePage {
 		}
 
 		public  void setExceptionDesc(String exceptionDesc) {  
-			exceptionDesc = exceptionDesc;
+			exceptionDesc = this.exceptionDesc;
 		}	
 	
 }

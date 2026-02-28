@@ -1,0 +1,43 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 13:28:11
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Target Month-Year: Nov 2025
+⬅ Clicked Previous month... Attempt 1
+✅ Target month container visible now: Nov 2025
+Searching Emp: #Emp025 | Date: Monday - 03 Nov 2025
+✅ Matching card found:
+Emptwentyfive Morning shift
+#Emp025
+Monday - 03 Nov 2025
+Pending
+Assigned Shift Policy
+ - 
+Assigned Shift
+ - 
+Applied Shift
+Morning Shift
+Reason
+ - 
+Failed to capture browser screenshot: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a11f616d-82eb-42cd-9e62-220fcf512a85, screenshot {}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a11f616d-82eb-42cd-9e62-220fcf512a85
+---------------------------------------------------------------
+MeghPIAttendAndroidShiftTestMPI_1541_Android_Shift_10
+---------------------------------------------------------------
+Test case took: 45.8792 seconds
+Total TC Time: 00:00:45
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

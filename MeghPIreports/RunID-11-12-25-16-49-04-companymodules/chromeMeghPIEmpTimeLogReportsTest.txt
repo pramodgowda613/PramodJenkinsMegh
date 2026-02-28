@@ -1,0 +1,25 @@
+[16:49:04] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-16-49-04-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[16:49:21] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp051
+[16:49:21] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:40:00
+[16:49:21] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:45:00
+[16:49:37] INFO  - PASS - UpdateAttendance API executed successfully for Emp051
+[16:50:04] INFO  - PASS -  Application loaded successfully.
+[16:50:07] INFO  - PASS -  Company code entered successfully.ACZO
+[16:50:09] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[16:50:13] INFO  - PASS -  Sign-in section appeared.
+[16:50:15] INFO  - PASS -  Email Id entered.Emp051
+[16:50:18] INFO  - PASS -  Password entered.Emp051
+[16:50:20] INFO  - PASS -  Captcha entered.12345
+[16:50:22] INFO  - PASS -  Sign-in button clicked.
+[16:50:24] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[16:50:27] INFO  - PASS - Login Done Successfully As a Employee.Pramod@1234
+[16:50:33] INFO  - PASS - Report Button Clicked Successfully.
+[16:50:54] ERROR - FAIL - Error While Clicking On TimeLog Report Button.no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='reports-tab-details']/div/div/div[2]/div[2]/div/div[3]/a/div"}
+  (Session info: chrome=143.0.7499.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47367d667ee9242b8cf9479e640b30f0, findElement {value=//div[@id='reports-tab-details']/div/div/div[2]/div[2]/div/div[3]/a/div, using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56411}, goog:processID: 4304, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56411/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47367d667ee9242b8cf9479e640b30f0

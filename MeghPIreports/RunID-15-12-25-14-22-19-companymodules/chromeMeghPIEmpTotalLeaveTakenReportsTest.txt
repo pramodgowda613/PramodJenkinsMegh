@@ -1,0 +1,27 @@
+[14:22:19] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-14-22-19-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[14:22:24] INFO  - PASS - Application Loaded Successfully.
+[14:22:26] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[14:22:28] INFO  - PASS - Login With Password Button Is Clicked.
+[14:22:31] INFO  - PASS - Sign in Text Is Displayed.
+[14:22:33] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[14:22:35] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[14:22:37] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[14:22:39] INFO  - PASS - Clicked On Login Button.
+[14:22:42] INFO  - PASS - Login Done  And Validated Successfully.
+[14:22:44] INFO  - PASS - Login Done Successfully.
+[14:22:50] INFO  - PASS - Report Button Clicked Successfully.
+[14:22:55] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[14:22:57] INFO  - PASS - TotalLeavesTaken Report Approved Tab Clicked Successfully.
+[14:22:59] INFO  - PASS - Filter Button Clicked Successfully.
+[14:23:06] INFO  - PASS - Year Selected Successfully.2025
+[14:23:13] INFO  - PASS - Month Selected Successfully.November
+[14:23:19] INFO  - PASS - Week Selected Successfully.
+[14:23:21] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[14:23:26] INFO  - PASS - From Date Selected Successfully.2025-11-03
+[14:23:29] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[14:23:34] INFO  - PASS - To Date Selected Successfully.2025-11-03
+[14:23:36] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[14:23:38] INFO  - PASS - Filter Save Button Clicked Successfully.
+[14:23:40] INFO  - PASS - Filtered Record Displayed Successfully.2025-11-03
+[14:23:41] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1840_EmpTotalLeaveTakenApproved_Reports_03-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date.
+[14:23:41] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -1,0 +1,32 @@
+[10:34:25] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-10-34-24-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[10:34:29] INFO  - PASS - Punch IN executed successfully at 2025-11-04 09:30:00
+[10:34:29] INFO  - PASS - Punch OUT executed successfully at 2025-11-04 18:35:00
+[10:34:31] INFO  - PASS - Application Loaded Successfully.
+[10:34:33] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[10:34:36] INFO  - PASS - Login With Password Button Is Clicked.
+[10:34:38] INFO  - PASS - Sign in Text Is Displayed.
+[10:34:40] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[10:34:42] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[10:34:44] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[10:34:47] INFO  - PASS - Clicked On Login Button.
+[10:34:49] INFO  - PASS - Login Done  And Validated Successfully.
+[10:34:51] INFO  - PASS - Login Done Successfully.
+[10:34:51] INFO  - PASS - UpdateAttendance API executed successfully for Emp053
+[10:35:18] INFO  - PASS - Report Button Clicked Successfully.
+[10:35:20] INFO  - PASS - OverTime Button Clicked Successfully.
+[10:35:22] INFO  - PASS - OverTime Report Pending Tab button Clicked Successfully.
+[10:35:24] INFO  - PASS - Filter Button Clicked Successfully.
+[10:35:32] INFO  - PASS - Year Selected Successfully.2025
+[10:35:38] INFO  - PASS - Month Selected Successfully.November
+[10:35:40] INFO  - PASS - Filter Save Button Clicked Successfully.
+[10:35:42] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:35:45] INFO  - PASS - Emp ID Search Option CheckBox Clicked Successfully.
+[10:35:47] INFO  - PASS - Emp LastName Search Option CheckBox Clicked Successfully.
+[10:35:49] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:35:51] INFO  - PASS - Emp ID Inputted Successfully.Emp053
+[10:35:54] INFO  - PASS - Emp ID Displayed Successfully.Emp053
+[10:35:56] INFO  - PASS - Emp Last Name Inputted Successfully.Empfiftythree
+[10:35:58] INFO  - PASS - Inputted Emp Last Name Record Displayed Successfully.Empfiftythree
+[10:35:58] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1809_EmpPendingOT_Reports_01-To verify this, check the functionalities of search feature by selecting each search option.
+[10:35:58] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1
+[10:36:31] INFO  - PASS - Application Loaded Successfully.

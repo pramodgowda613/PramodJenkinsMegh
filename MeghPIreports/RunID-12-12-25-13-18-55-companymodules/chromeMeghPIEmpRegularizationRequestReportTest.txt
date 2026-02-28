@@ -1,0 +1,27 @@
+[13:18:55] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-13-18-55-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[13:19:00] INFO  - PASS - Application Loaded Successfully.
+[13:19:02] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[13:19:04] INFO  - PASS - Login With Password Button Is Clicked.
+[13:19:07] INFO  - PASS - Sign in Text Is Displayed.
+[13:19:09] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[13:19:11] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[13:19:13] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[13:19:16] INFO  - PASS - Clicked On Login Button.
+[13:19:18] INFO  - PASS - Login Done  And Validated Successfully.
+[13:19:20] INFO  - PASS - Login Done Successfully.
+[13:19:26] INFO  - PASS - Report Button Clicked Successfully.
+[13:19:30] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[13:19:33] INFO  - PASS - Pending Report Clicked Successfully.
+[13:19:35] INFO  - PASS - Filter Button Clicked Successfully.
+[13:19:42] INFO  - PASS - Year Selected Successfully.2025
+[13:19:48] INFO  - PASS - Month Selected Successfully.December
+[13:19:55] INFO  - PASS - Week Selected Successfully.
+[13:19:57] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[13:20:02] INFO  - PASS - From Date Selected Successfully.2025-12-11
+[13:20:04] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[13:20:09] INFO  - PASS - To Date Selected Successfully.2025-12-11
+[13:20:12] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[13:20:14] INFO  - PASS - Filter Save Button Clicked Successfully.
+[13:20:16] INFO  - PASS - Filtered Data Displayed Successfully.11-12-2025
+[13:20:16] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1787_Emp_PendingRegularization_Reports_04-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date 
+[13:20:16] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

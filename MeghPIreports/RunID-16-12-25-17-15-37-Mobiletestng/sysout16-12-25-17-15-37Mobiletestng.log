@@ -1,0 +1,14 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 17:15:38
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+✅ Attendance button clicked successfully.
+Target Month-Year: Nov 2025
+⬅ Clicked Previous month... Attempt 1
+✅ Target month container visible now: Nov 2025
+✅ Clicked on 'Revoked' tab successfully.
+Searching for card with Date: Wednesday - 05 Nov 2025 | Status: Revoked

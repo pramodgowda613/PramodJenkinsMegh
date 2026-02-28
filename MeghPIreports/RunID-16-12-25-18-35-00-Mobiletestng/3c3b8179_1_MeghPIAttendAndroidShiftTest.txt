@@ -1,0 +1,13 @@
+[18:35:01] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-18-35-00-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[18:35:16] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[18:35:20] INFO  - PASS - Login With Password Button Is Clicked.
+[18:35:26] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[18:35:33] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:35:41] INFO  - PASS - Clicked On Login Button.
+[18:35:45] INFO  - PASS - Shift Button Clicked Successfully On Admin Account.
+[18:35:49] INFO  - PASS - Navigated To Shift Requested Data Month.2025-11-04
+[18:35:52] ERROR - FAIL - Error While Validating Approved Count .Count mismatch! Expected: 1 | UI: 2
+[18:35:55] ERROR - FAIL - Error While Validating Rejected Count .Count mismatch! Expected: 1 | UI: 2
+[18:35:57] INFO  - PASS - Revoked Count Validated Successfully.1
+[18:35:58] INFO  - Failed - MeghPIAttendAndroidShiftTest-MPI_1535_Android_Shift_07-To verify the shift request summary count for Approved, Rejected, Revoked, and Pending statuses on admin account.
+[18:35:58] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

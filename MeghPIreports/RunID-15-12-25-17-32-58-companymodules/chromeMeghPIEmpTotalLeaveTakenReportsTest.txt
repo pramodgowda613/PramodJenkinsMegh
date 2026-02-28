@@ -1,0 +1,26 @@
+[17:32:59] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-17-32-58-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[17:33:04] INFO  - PASS -  Application loaded successfully.
+[17:33:06] INFO  - PASS -  Company code entered successfully.ARAK
+[17:33:08] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[17:33:12] INFO  - PASS -  Sign-in section appeared.
+[17:33:15] INFO  - PASS -  Email Id entered.Emp054
+[17:33:17] INFO  - PASS -  Password entered.Emp054
+[17:33:19] INFO  - PASS -  Captcha entered.12345
+[17:33:21] INFO  - PASS -  Sign-in button clicked.
+[17:33:24] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[17:33:26] INFO  - PASS - Login Done Successfully.
+[17:33:32] INFO  - PASS - Report Button Clicked Successfully.
+[17:33:37] INFO  - PASS - WeekOff Report Button Clicked Successfully.
+[17:33:39] INFO  - PASS - WeekOff Report Page Loaded Successfully.
+[17:33:41] INFO  - PASS - Filter Button Clicked Successfully.
+[17:33:47] INFO  - PASS - Year Selected Successfully.2025
+[17:33:54] INFO  - PASS - Month Selected Successfully.November
+[17:33:56] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:33:58] INFO  - PASS - MailReportButton Clicked Successfully.
+[17:34:00] INFO  - PASS - Mail Subject Inputted Successfully.Weekly Off   Reports
+[17:34:03] INFO  - PASS - Mail CC Inputted Successfully.Empfiftyfour@mailinator.com
+[17:34:05] INFO  - PASS - Mail BCC Inputted Successfully.Empfiftyfour@mailinator.com
+[17:34:11] INFO  - PASS - Frequency Selected Successfully.
+[17:34:13] INFO  - PASS - MailSendSaveButton Clicked Successfully.
+[17:34:14] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1851_EmpWeeklyOffReports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email
+[17:34:14] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

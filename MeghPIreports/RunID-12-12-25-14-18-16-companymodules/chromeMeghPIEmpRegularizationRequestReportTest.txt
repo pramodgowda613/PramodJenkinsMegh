@@ -1,0 +1,40 @@
+[14:18:16] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-14-18-16-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[14:18:21] INFO  - PASS - Application Loaded Successfully.
+[14:18:23] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[14:18:25] INFO  - PASS - Login With Password Button Is Clicked.
+[14:18:27] INFO  - PASS - Sign in Text Is Displayed.
+[14:18:30] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[14:18:32] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[14:18:34] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[14:18:36] INFO  - PASS - Clicked On Login Button.
+[14:18:39] INFO  - PASS - Login Done  And Validated Successfully.
+[14:18:41] INFO  - PASS - Login Done Successfully.
+[14:18:44] INFO  - PASS -  Attendance Module Clicked Successfully.
+[14:18:48] INFO  - PASS - Regularization Rquest Tab Displayed Successfully.
+[14:18:50] INFO  - PASS - Regularization Month Data Displayed Successfully.December
+[14:18:52] INFO  - PASS - Regularization Emp Name Inputted Successfully.Empfiftytwo
+[14:18:57] ERROR - FAIL - Error While Approving Regularization Request.null
+[14:19:14] ERROR - FAIL - Error While Clicking On Approve Button.null
+[14:19:21] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[14:19:33] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[14:19:35] INFO  - PASS - Application Loaded Successfully.
+[14:19:37] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[14:19:40] INFO  - PASS - Login With Password Button Is Clicked.
+[14:19:42] INFO  - PASS - Sign in Text Is Displayed.
+[14:19:44] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[14:19:46] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[14:19:48] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[14:19:51] INFO  - PASS - Clicked On Login Button.
+[14:19:53] INFO  - PASS - Login Done  And Validated Successfully.
+[14:19:55] INFO  - PASS - Login Done Successfully.
+[14:20:01] INFO  - PASS - Report Button Clicked Successfully.
+[14:20:06] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[14:20:08] INFO  - PASS - Approved Report Tab Clicked Successfully.
+[14:20:10] INFO  - PASS - Filter Button Clicked Successfully.
+[14:20:17] INFO  - PASS - Year Selected Successfully.2025
+[14:20:24] INFO  - PASS - Month Selected Successfully.December
+[14:20:29] INFO  - PASS - Week selected successfully: 1
+[14:20:31] INFO  - PASS - Filter Save Button Clicked Successfully.
+[14:20:49] ERROR - FAIL - Error While Displaying  Filtered Data.null
+[14:20:49] INFO  - Failed - MeghPIEmpRegularizationRequestReportTest-MPI_1793_Emp_ApprovedRegularization_Reports_04-To verify this, raise a regularization request during the last week get approved. In the approved Regularization Request Reports module, apply the filter for the last week and ensure that the corresponding approved regularization request record is displayed.
+[14:20:49] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

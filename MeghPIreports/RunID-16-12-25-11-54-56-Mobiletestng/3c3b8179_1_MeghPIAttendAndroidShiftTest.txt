@@ -1,0 +1,16 @@
+[11:54:56] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-11-54-56-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[11:55:12] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[11:55:15] INFO  - PASS - Login With Password Button Is Clicked.
+[11:55:22] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[11:55:28] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[11:55:35] INFO  - PASS - Clicked On Login Button.
+[11:55:38] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[11:55:45] INFO  - PASS - Emp Shift Button On DashBoard Clicked Successfully.
+[11:55:48] ERROR - FAIL - Error While Navigating To Punch In Did Month .Exception in navigateToRequiredMonth(): An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [0ccac720-f4cb-4f41-bac1-873459ce8fdf, findChildElement {id=00000000-0000-006f-0000-006b00000003, value=./android.widget.ImageView[1], using=xpath}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0ccac720-f4cb-4f41-bac1-873459ce8fdf

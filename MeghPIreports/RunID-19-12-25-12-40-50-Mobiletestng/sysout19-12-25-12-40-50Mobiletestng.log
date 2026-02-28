@@ -1,0 +1,12 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-19 12:40:50
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Error validating leave & clicking APPROVE: Expected condition failed: waiting for presence of element located by: By.xpath: //android.view.View[contains(@content-desc,'#Emp021') and contains(@content-desc,'From') and contains(@content-desc,'03 Nov, 2025') and contains(@content-desc,'To')] (tried for 20 second(s) with 500 milliseconds interval)
+🔁 Attempt 1 to open Manage screen
+⚠ Manage not opened, retrying...
+🔁 Attempt 2 to open Manage screen

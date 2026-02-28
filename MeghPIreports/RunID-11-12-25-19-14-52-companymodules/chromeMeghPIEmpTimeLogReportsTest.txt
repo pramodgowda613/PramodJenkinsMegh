@@ -1,0 +1,25 @@
+[19:14:52] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-19-14-52-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[19:14:57] INFO  - PASS - Punch IN executed successfully at 2025-11-27 09:10:00
+[19:14:57] INFO  - PASS - Punch OUT executed successfully at 2025-11-27 18:12:00
+[19:14:57] INFO  - PASS - UpdateAttendance API executed successfully for Emp051
+[19:15:20] INFO  - PASS - Application Loaded Successfully.
+[19:15:22] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[19:15:24] INFO  - PASS - Login With Password Button Is Clicked.
+[19:15:26] INFO  - PASS - Sign in Text Is Displayed.
+[19:15:28] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[19:15:31] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[19:15:33] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[19:15:35] INFO  - PASS - Clicked On Login Button.
+[19:15:39] INFO  - PASS - Login Done  And Validated Successfully.
+[19:15:41] INFO  - PASS - Login Done Successfully.
+[19:15:47] INFO  - PASS - Report Button Clicked Successfully.
+[19:15:53] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[19:15:56] INFO  - PASS - EarlyInTab Clicked Successfully.
+[19:15:58] INFO  - PASS - Filter Button Clicked Successfully.
+[19:16:05] INFO  - PASS - Year Selected Successfully.2025
+[19:16:11] INFO  - PASS - Month Selected Successfully.November
+[19:16:17] INFO  - PASS - Week selected successfully: 5
+[19:16:19] INFO  - PASS - Filter Save Button Clicked Successfully.
+[19:16:21] INFO  - PASS - Filtered Data Displayed Successfully.2025-11-27
+[19:16:21] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1772_Emp_Early_In_Reports_05-To verify this, Do early punch in as an employee during the last week of the previous month and then, in the early in reports, validate the filter functionality by selecting the last week. Ensure that the corresponding early punch in record is displayed.
+[19:16:21] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

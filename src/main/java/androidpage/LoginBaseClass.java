@@ -20,6 +20,8 @@ public class LoginBaseClass {
         try {
             System.out.println("Step 1: Setting capabilities...");
             DesiredCapabilities caps = new DesiredCapabilities();
+            
+            
             caps.setCapability("platformName", "Android");
             caps.setCapability("appium:deviceName", "3c3b8179");
             caps.setCapability("appium:automationName", "UiAutomator2");

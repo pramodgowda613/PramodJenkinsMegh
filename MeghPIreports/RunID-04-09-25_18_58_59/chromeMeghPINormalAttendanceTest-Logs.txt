@@ -1,6 +1,0 @@
-Sep 04, 2025 6:59:11 PM base.LogResults createLogs
-INFO: FAIL - ❌ GetUserStatus failed: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"":["The supplied value is invalid."],"request":["The request field is required."]},"traceId":"00-1226958ed429429673a12d9e84b3605e-35bd1bd5a0fb7975-00"}
-Sep 04, 2025 6:59:11 PM base.LogResults onlyLog
-INFO: Failed - MeghPINormalAttendanceTest-MPI_652_Normal_Attendance_24-Verify final attendance status after Punch IN/OUT
-Sep 04, 2025 6:59:11 PM base.LogResults onlyLog
-INFO: Total Pass : 0 Total Fail : 1  Total TC : 1

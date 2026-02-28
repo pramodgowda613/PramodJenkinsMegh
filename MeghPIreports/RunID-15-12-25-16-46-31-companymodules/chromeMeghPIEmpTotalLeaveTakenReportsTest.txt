@@ -1,0 +1,42 @@
+[16:46:31] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-16-46-31-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[16:46:35] INFO  - PASS -  Application loaded successfully.
+[16:46:37] INFO  - PASS -  Company code entered successfully.ARAK
+[16:46:40] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[16:46:44] INFO  - PASS -  Sign-in section appeared.
+[16:46:46] INFO  - PASS -  Email Id entered.AutoE151225091529@mailinator.com
+[16:46:48] INFO  - PASS -  Password entered.Pramod@1234
+[16:46:51] INFO  - PASS -  Captcha entered.12345
+[16:46:53] INFO  - PASS -  Sign-in button clicked.
+[16:46:55] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[16:46:57] INFO  - PASS - Login Done Successfully.
+[16:47:01] INFO  - PASS - Leave Button Clicked Successfully Of HR Account.
+[16:47:08] INFO  - PASS -  EmpLeaveRequestsTab Clicked Successfully Of HR Account.
+[16:47:14] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-27
+[16:47:21] INFO  - PASS - Monthly Leave Summary DrpIcon Clicked  Successfully .
+[16:47:24] INFO  - PASS - Monthly Pending Leave Count Clicked  Successfully .
+[16:47:36] INFO  - PASS -  Leave Rejected   Successfully .2025-11-27
+[16:47:42] INFO  - PASS -  Leave Rejection Reason Inputted  Successfully .Emp Reports testing
+[16:47:44] INFO  - PASS -  Leave Rejection  Button Clicked  Successfully .Emp Reports testing
+[16:47:51] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[16:48:03] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[16:48:05] INFO  - PASS -  Application loaded successfully.
+[16:48:07] INFO  - PASS -  Company code entered successfully.ARAK
+[16:48:09] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[16:48:14] INFO  - PASS -  Sign-in section appeared.
+[16:48:16] INFO  - PASS -  Email Id entered.Emp054
+[16:48:18] INFO  - PASS -  Password entered.Emp054
+[16:48:20] INFO  - PASS -  Captcha entered.12345
+[16:48:22] INFO  - PASS -  Sign-in button clicked.
+[16:48:25] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[16:48:27] INFO  - PASS - Login Done Successfully.
+[16:48:33] INFO  - PASS - Report Button Clicked Successfully.
+[16:48:38] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[16:48:40] INFO  - PASS - TotalLeavesTaken Report Rejected Tab Clicked Successfully.
+[16:48:42] INFO  - PASS - Filter Button Clicked Successfully.
+[16:48:48] INFO  - PASS - Year Selected Successfully.2025
+[16:48:55] INFO  - PASS - Month Selected Successfully.November
+[16:49:00] INFO  - PASS - Week selected successfully: 5
+[16:49:02] INFO  - PASS - Filter Save Button Clicked Successfully.
+[16:49:04] INFO  - PASS - Filtered Record Displayed Successfully.2025-11-27
+[16:49:05] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1849_EmpTotalLeaveTakenRejected_Reports_04-To verify this, Check the functionality of search feature by selecting each search option.
+[16:49:05] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

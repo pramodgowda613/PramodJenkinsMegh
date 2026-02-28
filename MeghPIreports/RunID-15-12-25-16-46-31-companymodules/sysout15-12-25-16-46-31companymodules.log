@@ -1,0 +1,27 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-15 16:46:31
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Dec 15, 2025 4:46:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-15-12-25-16-46-31-companymodules
+Expected Month: November 2025
+UI Month: December 2025
+UI Month: November 2025
+Row 0 | UI EmpID: #AutoEID5307 | UI Date: Tue, 11-11-2025
+Row 1 | UI EmpID: #AutoEID5307 | UI Date: Wed, 12-11-2025
+Row 2 | UI EmpID: #Emp054 | UI Date: Thu, 27-11-2025
+Fallback JS click performed.
+---------------------------------------------------------------
+MeghPIEmpTotalLeaveTakenReportsTestMPI_1849_EmpTotalLeaveTakenRejected_Reports_04
+---------------------------------------------------------------
+Test case took: 151.6280 seconds
+Total TC Time: 00:02:31
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

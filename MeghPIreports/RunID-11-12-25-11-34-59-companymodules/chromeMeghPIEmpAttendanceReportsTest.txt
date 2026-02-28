@@ -1,0 +1,7 @@
+[11:34:59] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-11-34-59-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[11:35:04] INFO  - PASS - Application Loaded Successfully.
+[11:35:06] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[11:35:08] INFO  - PASS - Login With Password Button Is Clicked.
+[11:35:11] INFO  - PASS - Sign in Text Is Displayed.
+[11:35:13] INFO  - PASS - Username Is Entered In Username Text Field.
+[11:35:15] INFO  - PASS - Password Is Entered In Password Text Field.

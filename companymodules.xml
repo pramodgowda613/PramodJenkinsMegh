@@ -8,9 +8,11 @@
 		<classes>
 		<class name="utils.GlobalSetup"> </class>  
 			
-				<class name="com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest"></class>	
-	
-		<!-- 
+			
+					<class name="com.MeghPI.Attendance.tests.MeghLoginTest"></class>
+	<!--
+	<class name="com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest"></class>	
+	 
 			<class name="com.MeghPI.Attendance.tests.MeghMasterRolePermissionTest"></class>
 			
 				<class name="com.MeghPI.Attendance.tests.MeghEmployeeTest"></class>

@@ -5,15 +5,22 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
+
 
 //ctrl shift numpad divide to collapse all /
 //Ctrl Shift P last line in method put on braces
 // Alt shift j for header
-//-ctrl + 9 = exand all. shift . copy same line below
+//-ctrl + 9 = exand all.
+//shift . copy same line below
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -21,8 +28,7 @@ import javax.swing.JOptionPane;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.CellValue;
-import org.apache.poi.ss.usermodel.DateUtil;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.FormulaEvaluator;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -34,17 +40,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
-//Windowsdesktopdriver
-import io.appium.java_client.windows.WindowsDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 /**
  * Tapan Gandhi 12/12/2021
  */
 public class initBase {
-	public static String jenEnv = "", jenSendEmail = ""; // Jenkins related variables
+	public static String jenEnv = "", jenSendEmail = "", jenRerun = "";// Jenkins related variables
 	public static String remoteIP = "";
 	// ExcelSettings variables
 	public static String browser;
@@ -76,7 +77,7 @@ public class initBase {
 	public static String implicitlyWait = "15";
 	public static int explicitWait = 20;
 	public static String runDir = System.getProperty("user.dir");
-	public static String urlID, URL, wkDay, results, modeDebug = "";
+	public static String urlID, URL, wkDay, results;
 	boolean headLess = false;
 	// ExcelSettings variables
 	public static String testenv;
@@ -85,6 +86,7 @@ public class initBase {
 	// Report the Module wise counts
 	public static LinkedHashMap<String, String> mapModuleResults = new LinkedHashMap<String, String>();
 	public static LinkedHashMap<String, String> mapMethodResults = new LinkedHashMap<String, String>();
+	public static Map<String, String> allmapPubVar = new HashMap<>();
 	// log File Name
 	public static String logFileName = "log.txt", logFileName1 = "log1.txt";
 	public static File logFile = new File(currDir + "\\data\\", logFileName),
@@ -95,8 +97,15 @@ public class initBase {
 	public static String jsonPostLoginURL1, jsonPostLoginURL2;
 	// Hashmap
 //	public static HashMap<String, Integer> hashMapTestCaseData = new HashMap<String, Integer>();
-	public static LinkedHashMap<String, Integer> hashMapTestCaseData = new LinkedHashMap<String, Integer>();
-	public static String allSheetNames = "";
+
+//	private static final ConcurrentMap<String, Integer> hashMapTestCaseData = new ConcurrentHashMap<>();
+	private static final Map<String, Integer> hashMapTestCaseData =
+	        Collections.synchronizedMap(new LinkedHashMap<>());
+
+	private static final Set<String> allSheetNames = ConcurrentHashMap.newKeySet();
+
+//	public static LinkedHashMap<String, Integer> hashMapTestCaseData = new LinkedHashMap<String, Integer>();
+//	private static String allSheetNames = "";
 	public static String executionRunTime = new SimpleDateFormat("ddMMyyHHmmss").format(new Date()); // Unique
 	public static String fmtDate = new SimpleDateFormat("dd/MM/yy HH:mm:ss").format(new Date()); // Unique
 	// Total Pass/Fail/TC Count
@@ -125,6 +134,18 @@ public class initBase {
 		return atotalFail.get();
 	}
 
+	// Return read-only view
+	public static Set<String> getAllTestCaseKeys() {
+		return hashMapTestCaseData.keySet();
+	}
+
+	public static void clearAllTestCaseKeys() {
+		hashMapTestCaseData.clear();
+	}
+	
+	public static void clearAllSheetNames() {
+		allSheetNames.clear();
+	}
 	/**
 	 * @param infoMessage
 	 * @param titleBar
@@ -220,6 +241,7 @@ public class initBase {
 			browserstackuser = getSafeCellValue(j, i++);
 			browserstackkey = getSafeCellValue(j, i++);
 
+			allmapPubVar = getAllPublicVarMap(); // Oct 25 Make sure to redeclare all excel in here.
 			int k = workbook.getSheetIndex("device");
 			if (k > 0) {
 				sheet = workbook.getSheetAt(workbook.getSheetIndex("device"));
@@ -258,113 +280,127 @@ public class initBase {
 		}
 	}
 
-	public static String getCellValueAsString(XSSFCell cell, FormulaEvaluator evaluator) {
+	/*
+	 * Tapan, Sep 25 This method will return the cell value as String irrespective
+	 * of the cell
+	 */
+	// Utility: Safe string conversion for any Excel cell
+	public static String getCellValueAsString(Cell cell, FormulaEvaluator evaluator) {
 		if (cell == null) {
 			return "";
 		}
-		switch (cell.getCellType()) {
-		case STRING:
-			String value = cell.getStringCellValue();
-			if (value.startsWith("'")) {
-				value = value.substring(1); // remove only the first character if it's a quote
-			}
-			return value;
-		case NUMERIC:
-			if (DateUtil.isCellDateFormatted(cell)) {
-				return cell.getDateCellValue().toString().replace("'", "");
-			} else {
-				int intValue = (int) Math.floor(cell.getNumericCellValue());
-				return String.valueOf(intValue);
-			}
-		case BOOLEAN:
-			return String.valueOf(cell.getBooleanCellValue());
-		case FORMULA:
-			// Evaluate the formula and return the computed value
-			CellValue cellValue = evaluator.evaluate(cell);
-			switch (cellValue.getCellType()) {
-			case STRING:
-				value = cell.getStringCellValue();
-				if (value.startsWith("'")) {
-					value = value.substring(1); // remove only the first character if it's a quote
-				}
-				return value;
-			case NUMERIC:
-				return String.valueOf(cellValue.getNumberValue());
-			case BOOLEAN:
-				return String.valueOf(cellValue.getBooleanValue());
-			default:
-				return "Unsupported Formula Result";
-			}
-		case BLANK:
+		String temp = "";
+		DataFormatter formatter = new DataFormatter();
+		try {
+			temp = formatter.formatCellValue(cell, evaluator).trim();
+			temp = temp.replace("'", ""); // Remove all single quotes
+			return temp;
+		} catch (Exception e) {
+			System.out.println("getCellValueAsString Error : " + e.getMessage());
 			return "";
-		default:
-			return "Unknown Cell Type";
 		}
 	}
+
+//		if (cell == null) {
+//			return "";
+//		}
+//		switch (cell.getCellType()) {
+//		case STRING:
+//			String value = cell.getStringCellValue();
+//			if (value.startsWith("'")) {
+//				value = value.substring(1); // remove only the first character if it's a quote
+//			}
+//			return value;
+//		case NUMERIC:
+//			if (DateUtil.isCellDateFormatted(cell)) {
+//				return cell.getDateCellValue().toString().replace("'", "");
+//			} else {
+//				int intValue = (int) Math.floor(cell.getNumericCellValue());
+//				return String.valueOf(intValue);
+//			}
+//		case BOOLEAN:
+//			return String.valueOf(cell.getBooleanCellValue());
+//		case FORMULA:
+//			// Evaluate the formula and return the computed value
+//			CellValue cellValue = evaluator.evaluate(cell);
+//			switch (cellValue.getCellType()) {
+//			case STRING:
+//				value = cell.getStringCellValue();
+//				if (value.startsWith("'")) {
+//					value = value.substring(1); // remove only the first character if it's a quote
+//				}
+//				return value;
+//			case NUMERIC:
+//				return String.valueOf(cellValue.getNumberValue());
+//			case BOOLEAN:
+//				return String.valueOf(cellValue.getBooleanValue());
+//			default:
+//				return "Unsupported Formula Result";
+//			}
+//		case BLANK:
+//			return "";
+//		default:
+//			return "Unknown Cell Type";
+//		}
 
 	/**
 	 * Java hashmap for storing all the test cases value as key and values pair
 	 */
+
 	public static ArrayList<String> loadExcelData(String sheetName, String tcName, String fieldNames) {
-		ArrayList<String> cellValues = new ArrayList<String>();
+		ArrayList<String> cellValues = new ArrayList<>();
+
 		try {
-			sheet = workbook.getSheetAt(workbook.getSheetIndex(sheetName));
-			int i = 1, j = 0, k;
-			if (allSheetNames.contains(sheetName) == false) {
-				// Retrieve all the test case names into HashMap.
-				allSheetNames = allSheetNames + sheetName + ",";
-				j = retExcelLastRow(sheet); // sheet.getLastRowNum();
-				String excelTCName = "";
-				for (i = 1; i < j; i++) {
+			XSSFSheet sheet = workbook.getSheetAt(workbook.getSheetIndex(sheetName));
+
+			// Load sheet data only once
+			if (allSheetNames.add(sheetName)) {
+				int lastRow = retExcelLastRow(sheet);
+				for (int i = 1; i < lastRow; i++) {
 					try {
-						excelTCName = sheet.getRow(i).getCell(0).getStringCellValue();
-						if (excelTCName.length() < 2) {
-							continue;
+						String excelTCName = sheet.getRow(i).getCell(0).getStringCellValue();
+						if (excelTCName != null && excelTCName.length() > 1) {
+							hashMapTestCaseData.putIfAbsent(excelTCName, i);
 						}
-						hashMapTestCaseData.put(excelTCName, i);
 					} catch (Exception e) {
 						System.out.println("The total TS are : " + hashMapTestCaseData.size());
 						break;
-					} // Add Scenario name in future if required.
+					}
 				}
 			}
-			// Retrieve all the values based on the required columns
-			i = hashMapTestCaseData.get(tcName);
+
+			// Now fetch requested values
+			Integer rowIndex = hashMapTestCaseData.get(tcName);
+			if (rowIndex == null) {
+				System.out.println("Test case not found: " + tcName);
+				return cellValues;
+			}
+
 			int noOfColumns = sheet.getRow(0).getLastCellNum();
-			Boolean found = false;
-			String columnName;
 			String[] temp = fieldNames.split(",");
-			for (k = 0; k < temp.length; k++) {
-				found = false;
-				String col = testenv + "_" + temp[k]; // Take the current Environment and club with the passed column
-														// name from @Test Method
-				for (j = 1; j <= noOfColumns; j++) {
+			FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
+
+			for (String field : temp) {
+				String colName = testenv + "_" + field;
+				boolean found = false;
+
+				for (int j = 1; j <= noOfColumns; j++) {
 					try {
-						columnName = sheet.getRow(0).getCell(j).getStringCellValue();
-						if (col.equalsIgnoreCase(columnName)) {
-							String rowvalue = "";
-							try {
-								// rowvalue = sheet.getRow(i).getCell(j).getStringCellValue();
-								cell = sheet.getRow(i).getCell(j);
-								if (cell != null) {
-									FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
-									rowvalue = getCellValueAsString(cell, evaluator);
-								} else {
-									rowvalue = "";
-								}
-							} catch (Exception e) {
-							}
+						String columnName = sheet.getRow(0).getCell(j).getStringCellValue();
+						if (colName.equalsIgnoreCase(columnName)) {
+							Cell cell = sheet.getRow(rowIndex).getCell(j);
+							String rowvalue = (cell != null) ? getCellValueAsString(cell, evaluator) : "";
 							cellValues.add(rowvalue);
 							found = true;
 							break;
 						}
 					} catch (Exception e) {
-						System.out.println("Error while reading excel : " + e.getMessage());
+						System.out.println("Error while reading excel column: " + e.getMessage());
 					}
 				}
-				if (found != true) {
+				if (!found) {
 					cellValues.add("");
-					System.out.println("No values found in Excel Data for column : " + col);
+					System.out.println("No values found in Excel Data for column : " + colName);
 				}
 			}
 		} catch (Exception e) {
@@ -372,6 +408,74 @@ public class initBase {
 		}
 		return cellValues;
 	}
+
+//	public static ArrayList<String> loadExcelData(String sheetName, String tcName, String fieldNames) {
+//		ArrayList<String> cellValues = new ArrayList<String>();
+//		XSSFSheet sheet = null;
+//		try {
+//			sheet = workbook.getSheetAt(workbook.getSheetIndex(sheetName));
+//			int i = 1, j = 0, k;
+//			if (allSheetNames.contains(sheetName) == false) {
+//				// Retrieve all the test case names into HashMap.
+//				allSheetNames = allSheetNames + sheetName + ",";
+//				j = retExcelLastRow(sheet); // sheet.getLastRowNum();
+//				String excelTCName = "";
+//				for (i = 1; i < j; i++) {
+//					try {
+//						excelTCName = sheet.getRow(i).getCell(0).getStringCellValue();
+//						if (excelTCName.length() < 2) {
+//							continue;
+//						}
+//						hashMapTestCaseData.put(excelTCName, i);
+//					} catch (Exception e) {
+//						System.out.println("The total TS are : " + hashMapTestCaseData.size());
+//						break;
+//					} // Add Scenario name in future if required.
+//				}
+//			}
+//			// Retrieve all the values based on the required columns
+//			i = hashMapTestCaseData.get(tcName);
+//			int noOfColumns = sheet.getRow(0).getLastCellNum();
+//			Boolean found = false;
+//			String columnName;
+//			String[] temp = fieldNames.split(",");
+//			for (k = 0; k < temp.length; k++) {
+//				found = false;
+//				String col = testenv + "_" + temp[k]; // Take the current Environment and club with the passed column
+//														// name from @Test Method
+//				for (j = 1; j <= noOfColumns; j++) {
+//					try {
+//						columnName = sheet.getRow(0).getCell(j).getStringCellValue();
+//						if (col.equalsIgnoreCase(columnName)) {
+//							String rowvalue = "";
+//							try {
+//								cell = sheet.getRow(i).getCell(j);
+//								if (cell != null) {
+//									FormulaEvaluator evaluator = workbook.getCreationHelper().createFormulaEvaluator();
+//									rowvalue = getCellValueAsString(cell, evaluator);
+//								} else {
+//									rowvalue = "";
+//								}
+//							} catch (Exception e) {
+//							}
+//							cellValues.add(rowvalue);
+//							found = true;
+//							break;
+//						}
+//					} catch (Exception e) {
+//						System.out.println("Error while reading excel : " + e.getMessage());
+//					}
+//				}
+//				if (found != true) {
+//					cellValues.add("");
+//					System.out.println("No values found in Excel Data for column : " + col);
+//				}
+//			}
+//		} catch (Exception e) {
+//			System.out.println("Error while reading excel : " + sheetName + "-" + e.getMessage());
+//		}
+//		return cellValues;
+//	}
 
 	/**
 	 * This function verifies file exist on the given path
@@ -427,42 +531,80 @@ public class initBase {
 	public static String maskPassword(String password) {
 		return "*".repeat(password.length());
 	}
+	
+	/** Tapan Oct 25
+	 * Returns a map of all public variables and their values.
+	 *
+	 * @return A map containing variable names as keys and their corresponding
+	 *         values.
+	 */
+	static Map<String, String> getAllPublicVarMap() {
+        Map<String, String> map = new HashMap<>();
 
-	public class WindowsDriverFactory {
-		/**
-		 * Creates and returns a WindowsDriver instance for automating Windows desktop
-		 * apps.
-		 *
-		 * @param appIdOrExecutable The Application User Model ID or executable path of
-		 *                          the Windows app to automate.
-		 * @param winAppDriverUrl   The URL where WinAppDriver server is running
-		 *                          (default: http://127.0.0.1:4723)
-		 * @return WindowsDriver instance if created successfully, otherwise null.
-		 */
-		public static WindowsDriver createWindowsDriver(String appIdOrExecutable, String winAppDriverUrl) {
-			WindowsDriver driver = null;
-			try {
-				DesiredCapabilities capabilities = new DesiredCapabilities();
-				capabilities.setCapability("app", appIdOrExecutable);
-				capabilities.setCapability("platformName", "Windows");
-				capabilities.setCapability("deviceName", "WindowsPC");
+        map.put("browser", browser);
+        map.put("URL", URL);
+        map.put("sleep", sleep);
+        map.put("testenv", testenv);
+        map.put("pageLoadTimeout", pageLoadTimeout);
+        map.put("implicitlyWait", implicitlyWait);
+        map.put("reportName", reportName);
+        map.put("screenShot", screenShot);
+        map.put("SkipCount", String.valueOf(SkipCount));
+        map.put("explicitWait", String.valueOf(explicitWait));
+        map.put("mySQLString", mySQLString);
+        map.put("strDeleteHTML", strDeleteHTML);
+        map.put("strEmailTo", strEmailTo);
+        map.put("strEmailCC", strEmailCC);
+        map.put("jsonPostLoginURL1", jsonPostLoginURL1);
+        map.put("jsonPostLoginURL2", jsonPostLoginURL2);
+        map.put("remoteIP", remoteIP);
+        map.put("reportFld", reportFld);
+        map.put("reportDash", reportDash);
+        map.put("hideBrowser", hideBrowser);
+        map.put("pvtBrowser", pvtBrowser);
+        map.put("holdNewData", holdNewData);
+        map.put("launchChromeNewProf", launchChromeNewProf);
+        map.put("browserstackuser", browserstackuser);
+        map.put("browserstackkey", browserstackkey);
 
-				driver = new WindowsDriver(new URL(winAppDriverUrl), capabilities);
-				// Optionally add implicit wait or other driver setup here
-				driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
-				System.out.println("WindowsDriver started successfully.");
-			} catch (MalformedURLException e) {
-				System.err.println("Invalid WinAppDriver URL: " + winAppDriverUrl);
-				e.printStackTrace();
-				System.exit(0);
-			} catch (Exception e) {
-				System.err.println("Failed to create WindowsDriver.");
-				e.printStackTrace();
-				System.exit(0);
-			}
-			return driver;
-		}
-	}
+        return map;
+    }
+
+//	public class WindowsDriverFactory {
+//		/**
+//		 * Creates and returns a WindowsDriver instance for automating Windows desktop
+//		 * apps.
+//		 *
+//		 * @param appIdOrExecutable The Application User Model ID or executable path of
+//		 *                          the Windows app to automate.
+//		 * @param winAppDriverUrl   The URL where WinAppDriver server is running
+//		 *                          (default: http://127.0.0.1:4723)
+//		 * @return WindowsDriver instance if created successfully, otherwise null.
+//		 */
+//		public static WindowsDriver createWindowsDriver(String appIdOrExecutable, String winAppDriverUrl) {
+//			WindowsDriver driver = null;
+//			try {
+//				DesiredCapabilities capabilities = new DesiredCapabilities();
+//				capabilities.setCapability("app", appIdOrExecutable);
+//				capabilities.setCapability("platformName", "Windows");
+//				capabilities.setCapability("deviceName", "WindowsPC");
+//
+//				driver = new WindowsDriver(new URL(winAppDriverUrl), capabilities);
+//				// Optionally add implicit wait or other driver setup here
+//				driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
+//				System.out.println("WindowsDriver started successfully.");
+//			} catch (MalformedURLException e) {
+//				System.err.println("Invalid WinAppDriver URL: " + winAppDriverUrl);
+//				e.printStackTrace();
+//				System.exit(0);
+//			} catch (Exception e) {
+//				System.err.println("Failed to create WindowsDriver.");
+//				e.printStackTrace();
+//				System.exit(0);
+//			}
+//			return driver;
+//		}
+//	}
 
 	// Tips
 	// 1. When 500 error comes run below

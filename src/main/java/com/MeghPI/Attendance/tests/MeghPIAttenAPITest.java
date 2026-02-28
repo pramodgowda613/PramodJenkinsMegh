@@ -486,7 +486,7 @@ public class MeghPIAttenAPITest {
      
     
      // Clear Data API Test
-        @Test(enabled = false, priority = 10, groups = { "API" })
+        @Test(enabled = true, priority = 10, groups = { "API" })
         public void API_ClearData() throws Exception {
             String currTC = "API_ClearData";
             logResults.createExtentReport(currTC);
@@ -596,7 +596,7 @@ public class MeghPIAttenAPITest {
             }
             
          // GetUserStatus Test
-            @Test(enabled = true, priority = 12, groups = { "API" })
+            @Test(enabled = false, priority = 12, groups = { "API" })
             public void API_GetUserStatus() throws Exception {
                 // Get current test case name dynamically
                 String currTC = Thread.currentThread().getStackTrace()[1].getMethodName();
@@ -643,7 +643,10 @@ public class MeghPIAttenAPITest {
                 Assert.assertEquals(resp.statusCode(), 200, "❌ GetUserStatus API failed");
             }
 
-        
+       
+            
+            
+            
 
         
 

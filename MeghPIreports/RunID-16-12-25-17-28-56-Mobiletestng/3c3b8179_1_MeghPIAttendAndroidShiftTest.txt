@@ -1,0 +1,29 @@
+[17:28:56] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-17-28-56-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[17:29:07] INFO  - PASS - Punch IN executed successfully at 2025-11-06 09:00:00
+[17:29:08] INFO  - PASS - Punch OUT executed successfully at 2025-11-06 18:30:00
+[17:29:09] INFO  - PASS - UpdateAttendance API executed successfully for Emp025
+[17:29:15] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[17:29:18] INFO  - PASS - Login With Password Button Is Clicked.
+[17:29:24] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[17:29:30] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[17:29:38] INFO  - PASS - Clicked On Login Button.
+[17:29:41] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[17:29:47] INFO  - PASS - Emp Shift Button On DashBoard Clicked Successfully.
+[17:29:52] INFO  - PASS - Navigated To Punch In Data Month.2025-11-06
+[17:29:55] INFO  - PASS - Clicked On First Working Date  Successfully.2025-11-06
+[17:29:58] INFO  - PASS - Shift Policy DropDown Clicked Successfully.
+[17:30:01] INFO  - PASS - Shift Policy  Selected Successfully.
+[17:30:04] INFO  - PASS - Shift  DropDown Clicked Successfully.
+[17:30:07] INFO  - PASS - Morning Shift  Selected Successfully.
+[17:30:11] INFO  - PASS - Regularization Reason Inputted Successfully.for revoke
+[17:30:15] INFO  - PASS - Regulirization Apply Button Clicked Successfully.
+[17:30:18] INFO  - PASS - Back Button Clicked Successfully.
+[17:30:22] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[17:30:28] INFO  - PASS - Clicked On OverTime Tab On Emp Attendance.
+[17:30:31] INFO  - PASS -  Shift Tab Clicked Successfully On Admin Account.
+[17:30:36] INFO  - PASS - Navigated To Shift Requested Data Month.2025-11-06
+[17:30:39] INFO  - PASS - Pending Shift Request Button Clicked Successfully On Admin Account.
+[17:30:45] INFO  - PASS - Clicked On Revoke Button Of Shift Request.
+[17:30:49] INFO  - PASS - Regularization Reason Inputted Successfully.for revoke
+[17:30:56] INFO  - PASS - Clicked On Shift Request Revoke Confirm Button.
+[17:31:00] INFO  - PASS - Revoked Shift Request Button Clicked Successfully On Admin Account.

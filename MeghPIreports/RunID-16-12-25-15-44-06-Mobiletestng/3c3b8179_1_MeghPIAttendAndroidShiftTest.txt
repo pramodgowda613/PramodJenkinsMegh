@@ -1,0 +1,11 @@
+[15:44:07] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-15-44-06-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[15:44:23] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[15:44:26] INFO  - PASS - Login With Password Button Is Clicked.
+[15:44:32] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[15:44:38] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[15:44:45] INFO  - PASS - Clicked On Login Button.
+[15:44:49] INFO  - PASS - Navigated To Shift Requested Month Successfully On Emp Account.2025-11-03
+[15:44:53] INFO  - PASS - Clicked On Shift Requested Day Successfully On Emp Account.2025-11-03
+[15:44:56] INFO  - PASS - Approved New Shift validated Successfully On Emp Account.Morning shift
+[15:44:56] INFO  - Passed - MeghPIAttendAndroidShiftTest-MPI_1531_Android_Shift_03-To verify that, complete general shift  and as employee apply a shift-change request to Morning Shift for the same date, approve the request, and ensure that the attendance status is displayed correctly with the updated Morning Shift label.
+[15:44:56] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

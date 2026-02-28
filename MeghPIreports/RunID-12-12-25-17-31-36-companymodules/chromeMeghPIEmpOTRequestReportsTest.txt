@@ -1,0 +1,60 @@
+[17:31:37] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-17-31-36-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[17:31:49] INFO  - PASS - Punch IN executed successfully at 2025-11-28 09:40:00
+[17:31:49] INFO  - PASS - Punch OUT executed successfully at 2025-11-28 18:45:00
+[17:31:52] INFO  - PASS - Application Loaded Successfully.
+[17:31:54] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[17:31:56] INFO  - PASS - Login With Password Button Is Clicked.
+[17:31:58] INFO  - PASS - Sign in Text Is Displayed.
+[17:32:01] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[17:32:03] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[17:32:05] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:32:07] INFO  - PASS - Clicked On Login Button.
+[17:32:11] INFO  - PASS - Login Done  And Validated Successfully.
+[17:32:13] INFO  - PASS - Login Done Successfully.
+[17:32:14] INFO  - PASS - UpdateAttendance API executed successfully for Emp053
+[17:32:37] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[17:32:39] INFO  - PASS - OverTime Tab Clicked Successfully.
+[17:32:45] INFO  - PASS - Leave Request Applied Month Selected  Successfully Of Employee Account.2025-11-28
+[17:32:48] INFO  - PASS - Emp Name Inputted Successfully.Empfiftythree
+[17:32:50] ERROR - FAIL - Error While Clicking On Same Emp Approve Button.Index 1 out of bounds for length 1
+[17:33:13] ERROR - FAIL - Error While Inputting Approve Comments.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c609fe9b5cee6ee73e2b1bcad666a818, clearElement {id=f.0D7A4AC6EE0D6AF2EDC74B2996468AD4.d.1EF70F7FB1B82F051006324C00E95AAA.e.1016}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59978}, goog:processID: 6332, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59978/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c609fe9b5cee6ee73e2b1bcad666a818)] -> xpath: //input[@id='txtApprovalComments']]
+Session ID: c609fe9b5cee6ee73e2b1bcad666a818
+[17:33:30] ERROR - FAIL - Error While Clicking On Approve Confirm Button.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c609fe9b5cee6ee73e2b1bcad666a818, clickElement {id=f.0D7A4AC6EE0D6AF2EDC74B2996468AD4.d.1EF70F7FB1B82F051006324C00E95AAA.e.1179}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59978}, goog:processID: 6332, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59978/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c609fe9b5cee6ee73e2b1bcad666a818)] -> xpath: //button[@id='btnApprove']]
+Session ID: c609fe9b5cee6ee73e2b1bcad666a818
+[17:33:37] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[17:33:49] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[17:33:51] INFO  - PASS - Application Loaded Successfully.
+[17:33:53] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[17:33:56] INFO  - PASS - Login With Password Button Is Clicked.
+[17:33:58] INFO  - PASS - Sign in Text Is Displayed.
+[17:34:00] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[17:34:02] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[17:34:04] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:34:07] INFO  - PASS - Clicked On Login Button.
+[17:34:09] INFO  - PASS - Login Done  And Validated Successfully.
+[17:34:11] INFO  - PASS - Login Done Successfully.
+[17:34:17] INFO  - PASS - Report Button Clicked Successfully.
+[17:34:19] INFO  - PASS - OverTime Button Clicked Successfully.
+[17:34:22] INFO  - PASS - OverTime Report All Tab button Clicked Successfully.
+[17:34:24] INFO  - PASS - Filter Button Clicked Successfully.
+[17:34:31] INFO  - PASS - Year Selected Successfully.2025
+[17:34:37] INFO  - PASS - Month Selected Successfully.November
+[17:34:43] INFO  - PASS - Week selected successfully: 5
+[17:34:45] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:34:47] INFO  - PASS - Filtered Data Displayed Successfully.28-11-2025
+[17:34:47] INFO  - Failed - MeghPIEmpOTRequestReportsTest-MPI_1804_EmpOTAllTab_Reports_04-To verify this, do OT during the last week of last month. In the OT All Request Reports module, apply the filter for the last week of last month and ensure that the corresponding OT request record is displayed.
+[17:34:47] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

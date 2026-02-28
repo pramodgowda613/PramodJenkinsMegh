@@ -1,0 +1,14 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-17 12:47:29
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device ENU7N15A28011045
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+✅ Attendance button clicked successfully.
+📅 Searching for date: 13, Saturday, December 13, 2025
+✅ Clicked on date: 13-12-2025
+🔎 Normal Desc = 15, Monday, December 15, 2025
+🔎 Today Desc  = 15, Monday, December 15, 2025, Today
+✅ Date clicked: 15-12-2025

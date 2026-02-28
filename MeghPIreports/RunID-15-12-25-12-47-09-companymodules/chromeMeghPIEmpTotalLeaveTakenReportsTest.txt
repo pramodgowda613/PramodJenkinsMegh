@@ -1,0 +1,9 @@
+[12:47:09] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-12-47-09-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[12:47:14] INFO  - PASS - Application Loaded Successfully.
+[12:47:16] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[12:47:18] INFO  - PASS - Login With Password Button Is Clicked.
+[12:47:20] INFO  - PASS - Sign in Text Is Displayed.
+[12:47:22] INFO  - PASS - Username Is Entered In Username Text Field.
+[12:47:25] INFO  - PASS - Password Is Entered In Password Text Field.
+[12:47:27] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[12:47:29] INFO  - PASS - Clicked On Login Button.

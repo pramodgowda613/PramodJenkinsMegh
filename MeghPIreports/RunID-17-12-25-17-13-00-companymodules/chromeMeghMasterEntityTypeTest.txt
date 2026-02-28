@@ -1,0 +1,15 @@
+[17:13:01] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-17-12-25-17-13-00-companymodules/chromeMeghMasterEntityTypeTest.txt
+[17:13:17] INFO  - PASS - Application Loaded Successfully.
+[17:13:19] INFO  - PASS - Company Code Entered in Text Box.AOJK
+[17:13:21] INFO  - PASS - Login With Password Button Is Clicked.
+[17:13:24] INFO  - PASS - Sign in Text Is Displayed.
+[17:13:26] INFO  - PASS - Username Is Entered In Username Text Field.AutoE171225092618@mailinator.com
+[17:13:28] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[17:13:30] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:13:33] INFO  - PASS - Clicked On Login Button.
+[17:13:42] INFO  - PASS - Login Done  And Validated Successfully.
+[17:13:44] INFO  - PASS - Login Done Successfully.
+[17:13:46] INFO  - Passed - MeghMasterEntityTypeTest-MPI_308_EntityType_01-To verify this, create a new entity type and ensure that the added entity is displayed in the entity dropdown on the Add New Employee form.
+[17:13:46] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1
+[17:13:52] INFO  - PASS - Dashboard Page Displayed Successfully.
+[17:13:59] INFO  - PASS - Directory Button Clicked Successfully.

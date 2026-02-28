@@ -1,0 +1,39 @@
+[12:31:45] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-12-31-45-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[12:31:49] INFO  - PASS -  Application loaded successfully.
+[12:31:51] INFO  - PASS -  Company code entered successfully.ACZO
+[12:31:53] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[12:31:57] INFO  - PASS -  Sign-in section appeared.
+[12:32:00] INFO  - PASS -  Email Id entered.Emp050
+[12:32:02] INFO  - PASS -  Password entered.Emp050
+[12:32:04] INFO  - PASS -  Captcha entered.12345
+[12:32:06] INFO  - PASS -  Sign-in button clicked.
+[12:32:09] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[12:32:11] INFO  - PASS - Login Done Successfully As a Employee.
+[12:32:17] INFO  - PASS - Report Button Clicked Successfully.
+[12:32:21] INFO  - PASS - AttendanceReport Displayed Successfully .
+[12:32:24] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[12:32:26] INFO  - PASS - Filter Button Clicked Successfully.
+[12:32:33] INFO  - PASS - Year Selected Successfully.2025
+[12:32:39] INFO  - PASS - Month Selected Successfully.December
+[12:32:42] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[12:32:47] INFO  - PASS - From Date Selected Successfully.2025-12-11
+[12:32:49] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[12:32:54] INFO  - PASS - To Date Selected Successfully.2025-12-11
+[12:32:57] ERROR - FAIL - Error While Clicking On Filter Save Button.element click intercepted: Element <button id="btnFilterReport" type="button" class="btn btn-submit">...</button> is not clickable at point (1295, 561). Other element would receive the click: <span class="flatpickr-day nextMonthDay" aria-label="January ..., 2026" tabindex="-1">9</span>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [617f176285b65fee3de1017c106843b5, clickElement {id=f.FDFBAF1949A6C1E4F2D3BDDF2A1AA5B4.d.C18FCFF0C076A1A69C18198539D9E702.e.1102}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62455}, goog:processID: 12612, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62455/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (617f176285b65fee3de1017c106843b5)] -> xpath: //button[@id='btnFilterReport']]
+Session ID: 617f176285b65fee3de1017c106843b5
+[12:33:01] ERROR - FAIL - Error While Clicking On Edit Column Button.element click intercepted: Element <button class="btn add_action_column me-3  py-0" id="btnRptColumnsMissingPunchReport" data-bs-toggle="modal" data-bs-target="#divRptColumnsMissingPunchReport"></button> is not clickable at point (929, 85). Other element would receive the click: <div class="col-2 position-relative">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [617f176285b65fee3de1017c106843b5, clickElement {id=f.FDFBAF1949A6C1E4F2D3BDDF2A1AA5B4.d.C18FCFF0C076A1A69C18198539D9E702.e.1103}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62455}, goog:processID: 12612, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62455/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (617f176285b65fee3de1017c106843b5)] -> xpath: (//button[@id='btnRptColumnsMissingPunchReport'])[2]]
+Session ID: 617f176285b65fee3de1017c106843b5

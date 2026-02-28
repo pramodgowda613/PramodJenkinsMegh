@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -51,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>E:\MeghPiFw\companymodules.xml</span>
+                    <span>D:\Selenium\MeghPiFw\companymodules.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -61,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest" class="method navigator-link" hash-for-method="MPI_659_Normal_Attendance_46">MPI_659_Normal_Attendance_46</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.MeghPI.Attendance.tests.MeghLoginTest" class="method navigator-link" hash-for-method="MPI_4_Login_Page_04">MPI_4_Login_Page_04</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,14 +121,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest</span>
+              <span class="class-name">com.MeghPI.Attendance.tests.MeghLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="MPI_659_Normal_Attendance_46">
-                  </a> <!-- MPI_659_Normal_Attendance_46 -->
-                  <span class="method-name">MPI_659_Normal_Attendance_46</span>
+                  <a name="MPI_4_Login_Page_04">
+                  </a> <!-- MPI_4_Login_Page_04 -->
+                  <span class="method-name">MPI_4_Login_Page_04</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +136,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\MeghPiFw\companymodules.xml</span>
+            <span class="header-content">D:\Selenium\MeghPiFw\companymodules.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -150,7 +149,7 @@
     &lt;parameter name=&quot;device&quot; value=&quot;21&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;utils.GlobalSetup&quot;/&gt;
-      &lt;class name=&quot;com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest&quot;/&gt;
+      &lt;class name=&quot;com.MeghPI.Attendance.tests.MeghLoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Chrome --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -175,10 +174,18 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
+              <span class="test-group-name">AddMaster</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">MPI_4_Login_Page_04</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">MPI_659_Normal_Attendance_46</span>
+                <span class="method-in-group-name">MPI_4_Login_Page_04</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -200,14 +207,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'MPI_659_Normal_Attendance_46')
-data.setCell(0, 2, 'com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest')
-data.setCell(0, 3, 18160);
+data.setCell(0, 1, 'MPI_4_Login_Page_04')
+data.setCell(0, 2, 'com.MeghPI.Attendance.tests.MeghLoginTest')
+data.setCell(0, 3, 521714);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -222,79 +229,51 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">34 ignored methods</span>
+            <span class="header-content">20 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest</span>
+              <span class="ignored-class-name">com.MeghPI.Attendance.tests.MeghLoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">MPI_724_Normal_Attendance_54</span>
+                <span class="ignored-method-name">MPI_138_Login_page_20</span>
                 <br/>
-                <span class="ignored-method-name">MPI_652_Normal_Attendance_24</span>
+                <span class="ignored-method-name">MPI_144_Login_Page_26</span>
                 <br/>
-                <span class="ignored-method-name">MPI_646_Normal_Attendance_18</span>
+                <span class="ignored-method-name">MPI_49_Login_Page_18</span>
                 <br/>
-                <span class="ignored-method-name">MPI_678_Normal_Attendance_28</span>
+                <span class="ignored-method-name">MPI_12_Login_Page_12</span>
                 <br/>
-                <span class="ignored-method-name">MPI_684_Normal_Attendance_30</span>
+                <span class="ignored-method-name">MPI_9_Login_Page_09</span>
                 <br/>
-                <span class="ignored-method-name">MPI_729_Normal_Attendance_57</span>
+                <span class="ignored-method-name">MPI_10_Login_Page_10</span>
                 <br/>
-                <span class="ignored-method-name">MPI_861_Normal_Attendance_70</span>
+                <span class="ignored-method-name">MPI_7_Login_Page_07</span>
                 <br/>
-                <span class="ignored-method-name">MPI_641_Normal_Attendance_13</span>
+                <span class="ignored-method-name">MPI_14_Login_Page_14</span>
                 <br/>
-                <span class="ignored-method-name">MPI_672_Normal_Attendance_39</span>
+                <span class="ignored-method-name">MPI_141_Login_page_23</span>
                 <br/>
-                <span class="ignored-method-name">MPI_442_Normal_Attendance_45</span>
+                <span class="ignored-method-name">MPI_11_Login_Page_11</span>
                 <br/>
-                <span class="ignored-method-name">MPI_440_Normal_Attendance_48</span>
+                <span class="ignored-method-name">MPI_137_Login_page_19</span>
                 <br/>
-                <span class="ignored-method-name">MPI_673_Normal_Attendance_40</span>
+                <span class="ignored-method-name">MPI_139_Login_page_21</span>
                 <br/>
-                <span class="ignored-method-name">MPI_630_Normal_Attendance_02</span>
+                <span class="ignored-method-name">MPI_1_Login_Page_01</span>
                 <br/>
-                <span class="ignored-method-name">MPI_697_Normal_Attendance_52</span>
+                <span class="ignored-method-name">MPI_140_Login_page_22</span>
                 <br/>
-                <span class="ignored-method-name">MPI_727_Normal_Attendance_55</span>
+                <span class="ignored-method-name">MPI_15_Login_Page_15</span>
                 <br/>
-                <span class="ignored-method-name">MPI_730_Normal_Attendance_58</span>
+                <span class="ignored-method-name">MPI_13_Login_Page_13</span>
                 <br/>
-                <span class="ignored-method-name">MPI_671_Normal_Attendance_38</span>
+                <span class="ignored-method-name">MPI_16_Login_Page_16</span>
                 <br/>
-                <span class="ignored-method-name">MPI_637_Normal_Attendance_09</span>
+                <span class="ignored-method-name">MPI_3_Login_Page_03</span>
                 <br/>
-                <span class="ignored-method-name">MPI_632_Normal_Attendance_04</span>
+                <span class="ignored-method-name">MPI_8_Login_Page_08</span>
                 <br/>
-                <span class="ignored-method-name">MPI_638_Normal_Attendance_10</span>
-                <br/>
-                <span class="ignored-method-name">MPI_685_Normal_Attendance_31</span>
-                <br/>
-                <span class="ignored-method-name">MPI_686_Normal_Attendance_42</span>
-                <br/>
-                <span class="ignored-method-name">MPI_656_Normal_Attendance_44</span>
-                <br/>
-                <span class="ignored-method-name">MPI_647_Normal_Attendance_19</span>
-                <br/>
-                <span class="ignored-method-name">MPI_668_Normal_Attendance_43</span>
-                <br/>
-                <span class="ignored-method-name">MPI_728_Normal_Attendance_56</span>
-                <br/>
-                <span class="ignored-method-name">MPI_655_Normal_Attendance_27</span>
-                <br/>
-                <span class="ignored-method-name">MPI_683_Normal_Attendance_29</span>
-                <br/>
-                <span class="ignored-method-name">MPI_666_Normal_Attendance_41</span>
-                <br/>
-                <span class="ignored-method-name">MPI_860_Normal_Attendance_69</span>
-                <br/>
-                <span class="ignored-method-name">MPI_644_Normal_Attendance_16</span>
-                <br/>
-                <span class="ignored-method-name">MPI_657_Normal_Attendance_47</span>
-                <br/>
-                <span class="ignored-method-name">MPI_731_Normal_Attendance_59</span>
-                <br/>
-                <span class="ignored-method-name">MPI_698_Normal_Attendance_53</span>
+                <span class="ignored-method-name">MPI_2_Login_Page_02</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -308,38 +287,38 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">utils.GlobalSetup</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">beforeSuite(Megh, , org.testng.TestRunner@4e4af370)</span>
+                <span class="method-name">beforeSuite(Megh, , org.testng.TestRunner@627dfd9f)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.MeghPI.Attendance.tests.MeghLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">runOnce(21)</span>
-                <span class="method-start">1538 ms</span>
+                <span class="method-name">runOnce(21, null)</span>
+                <span class="method-start">4736 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">launchDriver(21)</span>
-                <span class="method-start">1873 ms</span>
+                <span class="method-name">launchDriver(21, null)</span>
+                <span class="method-start">5464 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">MPI_659_Normal_Attendance_46</span>
-                <span class="method-start">1874 ms</span>
+                <span class="method-name">MPI_4_Login_Page_04</span>
+                <span class="method-start">18280 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">Aftermethod</span>
-                <span class="method-start">20035 ms</span>
+                <span class="method-name">AfterEachmethod</span>
+                <span class="method-start">540006 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">20087 ms</span>
+                <span class="method-start">543592 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">utils.GlobalSetup</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">globalTeardown(N)</span>
-                <span class="method-start">20107 ms</span>
+                <span class="method-start">543613 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,3 @@
+[14:56:47] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-14-56-47-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[14:56:50] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1794_Emp_RejectedRegularization_Reports_01-To verify this, check the functionality of search feature using each search option.
+[14:56:50] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

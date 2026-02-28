@@ -1,8 +1,0 @@
-Sep 01, 2025 7:26:21 PM base.LogResults createLogs
-INFO: PASS - Punch IN executed successfully
-Sep 01, 2025 7:26:24 PM base.LogResults createLogs
-INFO: PASS - Punch OUT executed successfully
-Sep 01, 2025 7:26:24 PM base.LogResults onlyLog
-INFO: Passed - MeghPIMSAttendanceTest-MPI_646_Normal_Attendance_18-Check the status when the employee has not completed the minimum hours required for half day on a week off 
-Sep 01, 2025 7:26:24 PM base.LogResults onlyLog
-INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -1,0 +1,32 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 18:35:01
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Target Month-Year: Nov 2025
+⬅ Clicked Previous month... Attempt 1
+✅ Target month container visible now: Nov 2025
+UI Card Text:
+2
+Approved
+UI Card Text:
+2
+Rejected
+UI Card Text:
+1
+Revoked
+✅ Status & Count matched successfully
+---------------------------------------------------------------
+MeghPIAttendAndroidShiftTestMPI_1535_Android_Shift_07
+---------------------------------------------------------------
+Test case took: 48.2894 seconds
+Total TC Time: 00:00:48
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+===============================================
+

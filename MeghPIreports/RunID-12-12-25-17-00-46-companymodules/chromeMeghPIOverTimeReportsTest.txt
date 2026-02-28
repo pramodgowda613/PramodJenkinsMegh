@@ -1,0 +1,47 @@
+[17:00:46] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-17-00-46-companymodules/chromeMeghPIOverTimeReportsTest.txt
+[17:00:59] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp0009
+[17:01:00] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:00:00
+[17:01:00] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:40:00
+[17:01:13] INFO  - PASS - UpdateAttendance API executed successfully for Emp0009
+[17:01:38] ERROR - FAIL - ❌ To verify this, perform OT, approve it as an admin, and ensure that the record is displayed in the Approved tab. – This Employee Emp0009 on 2025-11-03, punched IN at 09:00:00 and Punch Out at 2025-11-03 18:40:00. Final Status = P (Expected = P), OT Hours = 00:00 (Expected = 00:40)
+[17:01:40] INFO  - PASS - Application Loaded Successfully.
+[17:01:43] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[17:01:45] INFO  - PASS - Login With Password Button Is Clicked.
+[17:01:47] INFO  - PASS - Sign in Text Is Displayed.
+[17:01:49] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[17:01:51] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[17:01:54] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:01:56] INFO  - PASS - Clicked On Login Button.
+[17:01:58] INFO  - PASS - Login Done  And Validated Successfully.
+[17:02:00] INFO  - PASS - Login Done Successfully.
+[17:02:04] INFO  - PASS - Dashboard Page Displayed Successfully.
+[17:02:07] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[17:02:10] INFO  - PASS - OverTime Tab Clicked Successfully.
+[17:02:16] INFO  - PASS - Leave Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[17:02:18] INFO  - PASS - Emp Name Inputted Successfully.EmpNine
+[17:02:35] INFO  - PASS - Emp Approve Button Clicked Successfully.EmpNine 2025-11-03
+[17:02:38] INFO  - PASS - Approve Comments Inputted Successfully.EmpNine
+[17:02:40] INFO  - PASS - Approve Confirm Button Clicked Successfully.
+[17:02:46] INFO  - PASS - Report Button Clicked Successfully.
+[17:02:48] INFO  - PASS - OverTime Button Clicked Successfully.
+[17:02:51] INFO  - PASS - OverTime Report Approved Tab button Clicked Successfully.
+[17:02:53] INFO  - PASS - Location DropDown Clicked Successfully.
+[17:02:55] INFO  - PASS - Location Name Inputted Successfully.AutoON121225092628
+[17:02:57] INFO  - PASS - Location Selected Successfully.
+[17:03:04] INFO  - PASS - Dept Selected Successfully.  --Select--
+[17:03:06] INFO  - PASS - Filter Button Clicked Successfully.
+[17:03:13] INFO  - PASS - Year Selected Successfully.2025
+[17:03:19] INFO  - PASS - Month Selected Successfully.November
+[17:03:26] INFO  - PASS - Week Selected Successfully.
+[17:03:28] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[17:03:33] INFO  - PASS - From Date Selected Successfully.2025-11-03
+[17:03:35] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[17:03:41] INFO  - PASS - To Date Selected Successfully.2025-11-03
+[17:03:43] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:03:45] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:03:47] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[17:03:50] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:03:52] INFO  - PASS - Emp ID Inputted Successfully.Emp0009
+[17:03:54] INFO  - PASS - Emp Regulirization Apporved Record Validated Successfully.EmpNine
+[17:03:54] INFO  - Failed - MeghPIOverTimeReportsTest-MPI_1202_Approved_OT_Reports_11-To verify this, perform OT, approve it as an admin, and ensure that the record is displayed in the Approved tab.
+[17:03:54] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

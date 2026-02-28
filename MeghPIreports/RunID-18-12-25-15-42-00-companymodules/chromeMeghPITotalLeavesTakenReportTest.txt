@@ -1,0 +1,110 @@
+[15:42:00] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-18-12-25-15-42-00-companymodules/chromeMeghPITotalLeavesTakenReportTest.txt
+[15:42:14] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp060
+[15:42:14] INFO  - PASS - UpdateAttendance API executed successfully for Emp060
+[15:42:17] INFO  - PASS - Application Loaded Successfully.
+[15:42:19] INFO  - PASS - Company Code Entered in Text Box.ATQI
+[15:42:21] INFO  - PASS - Login With Password Button Is Clicked.
+[15:42:24] INFO  - PASS - Sign in Text Is Displayed.
+[15:42:26] INFO  - PASS - Username Is Entered In Username Text Field.AutoE181225092628@mailinator.com
+[15:42:28] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[15:42:30] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:42:32] INFO  - PASS - Clicked On Login Button.
+[15:42:37] INFO  - PASS - Login Done  And Validated Successfully.
+[15:42:39] INFO  - PASS - Login Done Successfully.
+[15:42:45] INFO  - PASS - Directory Button Clicked Successfully.
+[15:42:48] INFO  - PASS - Directory Page Loaded Successfully.
+[15:42:52] INFO  - PASS - Clicked On EmployeeTab Successfully.
+[15:42:55] INFO  - PASS - Directory Page Loaded Successfully.
+[15:43:03] INFO  - PASS - Clicked On Search Text Field And Pass The Created Employee LastName Successfully.Empsixty
+[15:43:08] INFO  - PASS - Created Employee Displayed Successfully.Empsixty
+[15:43:10] INFO  - PASS - Clicked On 3Dots Successfully.
+[15:43:12] INFO  - PASS - Successfully Clicked On First Employee Record ManageProfileButton.
+[15:43:19] INFO  - PASS - Successfully Clicked On First Employee Manage Profile EditIcon.
+[15:43:25] INFO  - PASS - Successfully Selected  Dept.AutoDN181225092628
+[15:43:31] INFO  - PASS - Successfully Selected  Designation From Dropdown.AutoDESN181225092628
+[15:43:37] INFO  - PASS - Successfully Selected  Team From Dropdown.AutoTN181225092628
+[15:43:44] INFO  - PASS - Successfully Enter The Pin.1235
+[15:43:50] INFO  - PASS - SaveChanges Button Clicked Successfully.
+[15:43:56] INFO  - PASS - AutoSetPolicy Button Clicked Successfully.
+[15:44:02] INFO  - PASS - PolicyIcon Clicked Successfully.
+[15:44:05] INFO  - PASS - PolicyMaster Loaded Successfully.
+[15:44:07] INFO  - PASS - LeaveDropDownFromSideBar Clicked Successfully.
+[15:44:09] INFO  - PASS - LeavePolicyButtonFromSideBar Clicked Successfully.
+[15:44:17] INFO  - PASS - LeavePolicyPageLoaded Successfully.
+[15:44:24] INFO  - PASS - Created Policy Name Inputted Successfully.AutoLeavePN181225092628
+[15:44:30] INFO  - PASS - Created Policy Name Displayed Successfully.
+[15:44:36] INFO  - PASS - Created Policy Edit Icon Clicked Successfully.
+[15:44:38] INFO  - PASS - CreateLeavePolicyButton Clicked Successfully.
+[15:44:47] INFO  - PASS - Yes Button Button Successfully .
+[15:44:49] INFO  - PASS - Leave Button Clicked Successfully Of HR Account.
+[15:44:56] INFO  - PASS -  EmpLeaveRequestsTab Clicked Successfully Of HR Account.
+[15:45:00] INFO  - PASS -  Apply Leave Button Clicked Successfully .
+[15:45:05] INFO  - PASS -   Leave For Others Button Clicked Successfully .
+[15:45:10] INFO  - PASS -   Employee Selection DropDown Clicked Successfully .
+[15:45:16] INFO  - PASS -  Emp Name Inputted  Successfully .Empsixty
+[15:45:18] INFO  - PASS -   Employee Selected  Successfully .
+[15:45:20] INFO  - PASS -   LeaveType DropDown OnAdmin Clicked Successfully .
+[15:45:22] INFO  - PASS -  Leave Name Inputted  Successfully .Sick Leave
+[15:45:25] INFO  - PASS -   Leave Type Selected  Successfully .
+[15:45:27] INFO  - PASS -  Clicked On FromDate TextField In Admin  Successfully .
+[15:45:32] INFO  - PASS -   FromDate Inputted On TextField   Successfully .2025-11-03
+[15:45:34] INFO  - PASS -  Clicked On FromLeaveDuration Dropdown In Admin  Successfully .
+[15:45:36] INFO  - PASS -  Selected  FromLeaveDuration From Dropdown In Admin  Successfully .
+[15:45:39] INFO  - PASS -  Clicked On ToDate TextField In Admin  Successfully .
+[15:45:44] INFO  - PASS -   ToDate Inputted On TextField   Successfully .2025-11-04
+[15:45:46] INFO  - PASS -  Clicked On ToLeaveDuration Dropdown In Admin  Successfully .
+[15:45:48] INFO  - PASS -  Selected  ToLeaveDuration From Dropdown In Admin  Successfully .
+[15:45:50] INFO  - PASS -  Reason Inputted  Successfully Of Employee Account.Reports to display
+[15:45:57] INFO  - PASS - Leave Request Apply Button Clicked  Successfully .
+[15:46:03] INFO  - PASS - Report Button Clicked Successfully.
+[15:46:08] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[15:46:10] INFO  - PASS - TotalLeavesTaken Report All Tab Clicked Successfully.
+[15:46:16] INFO  - PASS - TotalLeavesTaken Report Page Loaded Successfully.
+[15:46:18] INFO  - PASS - Location DropDown Clicked Successfully.
+[15:46:20] INFO  - PASS - Location Name Inputted Successfully.AutoON181225092628
+[15:46:23] INFO  - PASS - Location Selected Successfully.
+[15:46:29] INFO  - PASS - Dept Selected Successfully.AutoDN181225092628
+[15:46:31] INFO  - PASS - Filter Button Clicked Successfully.
+[15:46:38] INFO  - PASS - Team Selected Successfully.AutoTN181225092628
+[15:46:44] INFO  - PASS - Year Selected Successfully.2025
+[15:46:50] INFO  - PASS - Month Selected Successfully.November
+[15:46:52] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:46:59] INFO  - PASS - Leave Applied Emp Name Inputted Successfully.Empsixty
+[15:47:01] INFO  - PASS - Leave Applied Emp Record All Data Validated Successfully.Empsixty Sick Leave 2025-11-03 2025-11-04 2 Approved
+[15:47:01] INFO  - Passed - MeghPITotalLeavesTakenReportTest-MPI_1291_LeavesTaken_Reports_01-To verify this, Create an new emp and apply leave for 2 days check the total days count is 2 is displayed .
+[15:47:01] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1
+[15:47:06] INFO  - PASS - Application Loaded Successfully.
+[15:47:08] INFO  - PASS - Company Code Entered in Text Box.ATQI
+[15:47:10] INFO  - PASS - Login With Password Button Is Clicked.
+[15:47:12] INFO  - PASS - Sign in Text Is Displayed.
+[15:47:15] INFO  - PASS - Username Is Entered In Username Text Field.AutoE181225092628@mailinator.com
+[15:47:17] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[15:47:19] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:47:21] INFO  - PASS - Clicked On Login Button.
+[15:47:26] INFO  - PASS - Login Done  And Validated Successfully.
+[15:47:28] INFO  - PASS - Login Done Successfully.
+[15:47:34] INFO  - PASS - Report Button Clicked Successfully.
+[15:47:39] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[15:47:43] INFO  - PASS - TotalLeavesTaken Report All Tab Clicked Successfully.
+[15:47:49] INFO  - PASS - TotalLeavesTaken Report Page Loaded Successfully.
+[15:47:51] INFO  - PASS - Filter Button Clicked Successfully.
+[15:47:57] INFO  - PASS - Year Selected Successfully.2025
+[15:48:04] INFO  - PASS - Month Selected Successfully.November
+[15:48:06] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:48:08] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:48:10] INFO  - PASS - LeaveType Checkbox Selected Successfully.
+[15:48:12] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:48:19] INFO  - PASS - Leave Name Inputted Successfully.Sick Leave
+[15:48:21] INFO  - PASS - Emp Applied Leave Validated Successfully.Sick Leave
+[15:48:23] INFO  - PASS - Emp Applied Leave TotalDays Validated Successfully.2
+[15:48:25] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:48:27] INFO  - PASS - LeaveType Checkbox Selected Successfully.
+[15:48:30] INFO  - PASS - Status CheckBox Selected Successfully.
+[15:48:32] INFO  - PASS - Leave Reason CheckBox Selected Successfully.
+[15:48:34] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:48:40] INFO  - PASS - Leave Status Inputted Successfully.Approved
+[15:48:43] INFO  - PASS - Emp Applied Leave Status Validated Successfully.Approved
+[15:48:49] INFO  - PASS - Leave Reason Inputted Successfully.Reports to display
+[15:48:51] INFO  - PASS - Emp Applied Leave Reason Validated Successfully.Reports to display
+[15:48:51] INFO  - Passed - MeghPITotalLeavesTakenReportTest-MPI_1312_LeavesTaken_Reports_11-To verify this, check the functionality of search feature for each search option.
+[15:48:51] INFO  - Total Pass : 2 Total Fail : 0  Total TC : 2

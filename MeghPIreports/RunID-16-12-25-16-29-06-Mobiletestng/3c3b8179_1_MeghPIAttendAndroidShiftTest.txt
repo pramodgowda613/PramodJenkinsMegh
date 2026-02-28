@@ -1,0 +1,36 @@
+[16:29:06] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-16-29-06-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[16:29:23] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[16:29:27] INFO  - PASS - Login With Password Button Is Clicked.
+[16:29:33] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[16:29:39] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[16:29:49] INFO  - PASS - Clicked On Login Button.
+[16:29:53] INFO  - PASS - Shift Button Clicked Successfully On Admin Account.
+[16:29:58] INFO  - PASS - Navigated To Shift Requested Data Month.2025-11-04
+[16:30:01] INFO  - PASS - Pending Shift Request Button Clicked Successfully On Admin Account.
+[16:30:04] INFO  - PASS - Reject Button Clicked On Emp Shift Request.2025-11-04
+[16:30:09] INFO  - PASS - Regularization Reason Inputted Successfully.Shift change request for Reject
+[16:30:15] INFO  - PASS - Shift Request Reject Confirm Button Clicked On Admin Account.
+[16:30:19] INFO  - PASS - Rejected Shift Request Button Clicked Successfully On Admin Account.
+[16:30:22] INFO  - PASS - Approved Validated For Emp Shift Request.Rejected
+[16:30:24] INFO  - PASS - Back Button Clicked Successfully.
+[16:30:30] INFO  - PASS - Manage Profile Button Is Clicked.
+[16:30:33] INFO  - PASS - LogOut Button Is Clicked.
+[16:30:37] INFO  - PASS - Logout Confirm Button Is Clicked.
+[16:30:43] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[16:30:46] INFO  - PASS - Login With Password Button Is Clicked.
+[16:30:52] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[16:30:59] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[16:31:06] INFO  - PASS - Clicked On Login Button.
+[16:31:09] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[16:31:13] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[16:31:19] INFO  - PASS - Clicked On OverTime Tab On Emp Attendance.
+[16:31:23] INFO  - PASS -  Shift Tab Clicked Successfully On Admin Account.
+[16:31:27] INFO  - PASS - Navigated To Shift Requested Data Month.2025-11-04
+[16:31:31] INFO  - PASS - Rejected Shift Request Button Clicked Successfully On Admin Account.
+[16:31:34] INFO  - PASS - Rejected Shift Request Validated Successfully On Emp Account.2025-11-04
+[16:31:37] INFO  - PASS - Back Button Clicked Successfully.
+[16:31:41] INFO  - PASS - Navigated To Shift Requested Month Successfully On Emp Account.2025-11-04
+[16:31:46] INFO  - PASS - Clicked On Shift Requested Day Successfully On Emp Account.2025-11-04
+[16:32:00] ERROR - FAIL - Error While Validating Approved Shift .Shift not found in any card. Expected: Rejected
+[16:32:00] INFO  - Failed - MeghPIAttendAndroidShiftTest-MPI_1532_Android_Shift_04-To verify that, complete general shift  and as employee apply a shift-change request to Morning Shift for the same date, reject the request, and ensure that the attendance status is displayed correctly with the General Shift label and status is rejected.
+[16:32:00] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

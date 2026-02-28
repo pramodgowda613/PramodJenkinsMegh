@@ -2,13 +2,16 @@
 
 
 import java.time.Duration;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,13 +21,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import groovyjarjarantlr4.v4.parse.ANTLRParser.element_return;
 import utils.Utils;
 
 public class MeghLeavePage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private  String exceptionDesc;
 	Utils utils = new Utils(driver);
 	
 	
@@ -68,7 +70,7 @@ public class MeghLeavePage {
 	@FindBy(xpath = "(//button[@id='btnApplyMyLeave'])[1]")
 	private WebElement RequestApplyButton; //1stTestCase
 	
-	@FindBy(xpath = "//input[@type='search']")
+	@FindBy(xpath = "(//input[@type='search'])[1]")
 	private WebElement LeaveSearchTextField; //1stTestCase
 	
 	
@@ -76,10 +78,10 @@ public class MeghLeavePage {
 	private WebElement LeaveTypeInTableInEmp; //1stTestCase
 	
 	@FindBy(xpath = "//table[@id='dtMyLeaveRequest']/tbody/tr/td[2]")
-	private WebElement LeaveFromDateInTableInEmp; //1stTestCase
+	private List<WebElement> LeaveFromDateInTableInEmp; //1stTestCase
 	
 	@FindBy(xpath = "//table[@id='dtMyLeaveRequest']/tbody/tr/td[7]")
-	private WebElement LeaveStatusInTableInEmp; //1stTestCase
+	private List<WebElement> LeaveStatusInTableInEmp; //1stTestCase
 	
 	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[3]")
 	private WebElement LeaveFromDateInTableInAdmin; //1stTestCase
@@ -190,13 +192,13 @@ public class MeghLeavePage {
 	@FindBy(xpath = "//input[@id='chkdivDrpItemLeave-Entity-EmployeeIddtLeave']")
 	private WebElement EmpIDCheckBoxSearchOption; //7th TestCase
 	
-	@FindBy(xpath = "//input[@id='chkdivDrpItemRemarksdtLeave']")
+	@FindBy(xpath = "//label[text()='Leave Reason']")
 	private WebElement ReasonCheckBoxSearchOption;//7th TestCase
 	
 	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr[1]/td[1]/div[1]/div/p[2]")
 	private WebElement EmpIDInTable; //7th TestCase
 	
-	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr[1]/td[6]/span")
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr[1]/td[6]")
 	private WebElement ReasonInTable; //7th TestCase
 	
 	@FindBy(xpath = "(//button[@id='AttendanceFilter'])[2]")
@@ -218,6 +220,11 @@ public class MeghLeavePage {
 	@FindBy(xpath = "//ul[@id='select2-drpFilterTeam-results']/li")
 	private WebElement TeamDropDownSelected; //8th TestCase
 	
+	@FindBy(xpath = "//table[@id='dtMyLeaveRequest']/tbody/tr[1]/td[1]")
+	private WebElement EmpLeaveRequestOnEmp; //8th TestCase
+	
+	
+	
 	
 	@FindBy(xpath = "//button[@id='btnFilter']")
 	private WebElement SaveFilterButton; //8th TestCase
@@ -235,7 +242,7 @@ public class MeghLeavePage {
 	private List<WebElement> LeaveTypesearchResults; //8th TestCase
 	
 	
-	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[8]")
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[9]")
 	private List<WebElement> LeaveStatusSearchResults; //8th TestCase
 	
 	
@@ -255,10 +262,271 @@ public class MeghLeavePage {
 	@FindBy(xpath = "//p[text()='Applied Leaves']/../..")
 	private WebElement StatisticsDisplayed; //8th TestCase
 	
+	@FindBy(xpath = "(//span[@id='showMonthyear'])[2]")
+	private WebElement MonthFilterContains; //8th TestCase
+	
+	@FindBy(xpath = "(//button[@id='btnPrevious'])[2]")
+	private WebElement MonthFilterBackButton; //8th TestCase
+	
+	@FindBy(xpath = "//p[@id='PendingLeaves']")
+	private WebElement PendingLeaveCount; //8th TestCase
+	
+	@FindBy(xpath = "(//button[@id='btnRejectAllModel'])[2]")
+	private WebElement RejectAllButton; //8th TestCase
+	
+	@FindBy(xpath = "//p[@id='RejectedLeaves']")
+	private WebElement RejectSummaryCount; //8th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[1]/div/div/p[2]")
+	private List<WebElement> EmpIDOnAdmin; //8th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[2]")
+	private List<WebElement> EmpLeaveTypeOnAdmin; //8th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[3]")
+	private List<WebElement> EmpLeaveDateOnAdmin; //8th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[9]")
+	private List<WebElement> EmpLeaveStatusOnAdmin; //8th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr[1]/td[1]/div/div/p[2]")
+	private WebElement EmpIDRow; //8th TestCase
+	
+	@FindBy(xpath = "(//button[text()=' Approve All'])[2]")
+	private WebElement ApproveAllButtonOnAdmin; //8th TestCase
+	
+	@FindBy(xpath = "//button[text()='Approve All']")
+	private WebElement ApproveAllConfirmButtonOnAdmin; //8th TestCase
+	
+	@FindBy(xpath = "//p[@id='ApprovedLeaves']")
+	private WebElement ApproveSummaryCount; //8th TestCase
+	
+	@FindBy(xpath = "//p[@id='RevokedLeaves']")
+	private WebElement RevokedSummaryCount; //8th TestCase
+	
+	@FindBy(xpath = "//label[text()='Leave Type']")
+	private WebElement LeaveTypeSearchOption; //8th TestCase
+	
+	@FindBy(xpath = "//label[text()='Remarks']")
+	private WebElement LeaveRemarksSearchOption; //8th TestCase
+	
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr[1]/td[2]")
+	private WebElement LeaveNameInTable; //7th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr[1]/td[7]")
+	private WebElement LeaveRejectReasonInTable; //7th TestCase
+	
+	@FindBy(xpath = "(//label[text()='Status'])[1]")
+	private WebElement LeaveStatusInTable; //7th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtMyLeaveRequest']/tbody/tr[1]/td[5]")
+	private WebElement LeaveReasonInEmpTable; //7th TestCase
+	
+	@FindBy(xpath = "//table[@id='dtMyLeaveRequest']/tbody/tr[1]/td[7]")
+	private WebElement LeaveStatusInEmpTable; //7th TestCase
+	
+	
+	@FindBy(xpath = "//table[@id='tblLeaveType']/tbody/tr[1]/td[1]")
+	private WebElement EditLeaveBalanceForSickLeave; //7th TestCase
+	
+	
+	@FindBy(xpath = "//table[@id='tblLeaveType']/tbody/tr[2]/td[1]")
+	private WebElement EditLeaveBalanceForTravelLeave; //7th TestCase
+	
+	@FindBy(xpath = "//table[@id='tblLeaveType']/tbody/tr[3]/td[1]")
+	private WebElement EditLeaveBalanceForCasualLeave; //7th TestCase
+	
+	@FindBy(xpath = "//table[@id='tblLeaveType']/tbody/tr[1]/td[4]/button")
+	private WebElement EditButtonForSickLeave; //7th TestCase
+	
+	@FindBy(xpath = "//table[@id='tblLeaveType']/tbody/tr[2]/td[4]/button")
+	private WebElement EditButtonForTravelLeave; //7th TestCase
+	
+	@FindBy(xpath = "//table[@id='tblLeaveType']/tbody/tr[3]/td[4]/button")
+	private WebElement EditButtonForCasualLeave; //7th TestCase
+	
+	
+	@FindBy(xpath = "//button[@id='fixed-balanced-tab']")
+	private WebElement FixedBalanceButton; //7th TestCase
+	
+	
+	@FindBy(xpath = "//button[@id='btnChangeCreditRuleConfirmYes']")
+	private WebElement FixedBalanceConfirmButton; //7th TestCase
+	
+	@FindBy(xpath = "//input[@id='NoOfCredit']")
+	private WebElement NoOfCreditInput; //7th TestCase
+	
+	@FindBy(xpath = "//select[@id='RepeatingCredit']")
+	private WebElement RepeatCreditSelected; //7th TestCase
+	
+	@FindBy(xpath = "//button[@id='btnEditLeavePolicyDetail']")
+	private WebElement EditLeaveSaveButton; //7th TestCase
+	
+	@FindBy(xpath = "//input[@id='AllowHalfDayLeaves']")
+	private WebElement AllowhalfDayLeave; //7th TestCase
+	
+	@FindBy(xpath = "//input[@aria-controls='dtLeaveBalance']")
+	private WebElement LeaveBalanceSearchTextField; //7th TestCase
+	
+	@FindBy(xpath = "//input[@aria-controls='dtWeeklyLeaveCalender']")
+	private WebElement WeeklyLeaveCalendarSearchTextField; //7th TestCase
+	
+	
+	
+	@FindBy(xpath = "//table[@id='dtLeaveBalance']/tbody/tr")
+	private List<WebElement> LeaveBalanceRows;
+
+	@FindBy(xpath = "//table[@id='dtLeaveBalance']/tbody/tr[1]/td[1]/div/div/p[2]")
+	private WebElement LeaveBalanceEmpIDRow;
+
+	
+	@FindBy(xpath = "//table[@id='dtWeeklyLeaveCalender']/tbody/tr")
+	private List<WebElement> weeklyLeaveRows;
+
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[10]/div/button[text()= 'Approve']")
+	private List<WebElement> LeaveApproveButtonList;
+	
+	
+	@FindBy(xpath = "//table[@id='dtLeave']/tbody/tr/td[10]/div/button[text()= 'Reject']")
+	private List<WebElement> LeaveRejectButtonList;
+	
+	public boolean WeeklyLeaveCalendarSearchTextField(String LeaveReason) {
+		try {
+
+			utils.waitForEle(WeeklyLeaveCalendarSearchTextField,  "visible", "", 10);
+			WeeklyLeaveCalendarSearchTextField.clear();
+			WeeklyLeaveCalendarSearchTextField.sendKeys(LeaveReason);
+			
+		} catch (Exception e) {
+			exceptionDesc = e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	
+	
+	
+	public boolean LeaveBalanceSearchTextField(String LeaveReason) {
+		try {
+
+			utils.waitForEle(LeaveBalanceSearchTextField,  "visible", "", 10);
+			LeaveBalanceSearchTextField.clear();
+			LeaveBalanceSearchTextField.sendKeys(LeaveReason);
+			
+		} catch (Exception e) {
+			exceptionDesc = e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean LeaveStatusInTable()
+	{
+		try {
+			utils.waitForEle(LeaveStatusInTable, "visible", "", 10);
+			
+			LeaveStatusInTable.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean LeaveRemarksSearchOption()
+	{
+		try {
+			utils.waitForEle(LeaveRemarksSearchOption, "visible", "", 10);
+			
+			LeaveRemarksSearchOption.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean LeaveTypeSearchOption()
+	{
+		try {
+			utils.waitForEle(LeaveTypeSearchOption, "visible", "", 10);
+			
+			LeaveTypeSearchOption.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	public boolean RevokedSummaryCount()
+	{
+		try {
+			utils.waitForEle(RevokedSummaryCount, "visible", "", 10);
+			
+			RevokedSummaryCount.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean ApproveSummaryCount()
+	{
+		try {
+			utils.waitForEle(ApproveSummaryCount, "visible", "", 10);
+			
+			ApproveSummaryCount.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean ApproveAllButtonOnAdmin()
+	{
+		try {
+			utils.waitForEle(ApproveAllButtonOnAdmin, "visible", "", 10);
+			
+			ApproveAllButtonOnAdmin.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean ApproveAllConfirmButtonOnAdmin()
+	{
+		try {
+			Thread.sleep(2000);
+			utils.waitForEle(ApproveAllConfirmButtonOnAdmin, "visible", "", 30);
+			
+			ApproveAllConfirmButtonOnAdmin.click();
+			Thread.sleep(4000);
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
 	
 	public boolean ApplyLeaveButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(ApplyLeaveButton, "visible", "", 10);
 			
 			ApplyLeaveButton.click();
@@ -348,7 +616,8 @@ public class MeghLeavePage {
 	public boolean LeaveDurationOne()
 	{
 		try {
-			utils.waitForEle(LeaveDurationOne, "visible", "", 10);
+			Thread.sleep(3000);
+			utils.waitForEle(LeaveDurationOne, "visible", "", 15);
 			
 			LeaveDurationOne.click();
 		} catch (Exception e) {
@@ -453,6 +722,7 @@ public class MeghLeavePage {
 			utils.waitForEle(RequestApplyButton, "visible", "", 10);
 			
 			RequestApplyButton.click();
+			Thread.sleep(4000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -476,75 +746,67 @@ public class MeghLeavePage {
 		return true;
 	}
 	
-	public boolean verifyLeaveRowInAdmin(String expectedEmpName, String expectedLeaveType, String expectedDate, String expectedStatus) {
+	public boolean verifyLeaveRowInAdmin(String empName, String expectedLeaveType, String expectedDate, String expectedStatus) {
 	    try {
-	        JavascriptExecutor js = (JavascriptExecutor) driver;
 	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	        // Convert yyyy-MM-dd → dd-MM-yyyy
-	        String formattedDate = expectedDate.substring(8, 10) + "-" +
-	                               expectedDate.substring(5, 7) + "-" +
-	                               expectedDate.substring(0, 4);
+	        // Format yyyy-MM-dd → dd-MM-yyyy
+	        String formattedExpectedDate = expectedDate.substring(8, 10) + "-"
+	                                     + expectedDate.substring(5, 7) + "-"
+	                                     + expectedDate.substring(0, 4);
 
-	        int previousRowCount = 0;
-	        int scrollAttempts = 0;
-
-	        while (scrollAttempts < 15) {
-	            wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("table tbody tr")));
-	            List<WebElement> rows = driver.findElements(By.cssSelector("table tbody tr"));
+	        for (int scrollAttempt = 0; scrollAttempt < 10; scrollAttempt++) {
+	            wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("#dtLeave tbody tr")));
+	            List<WebElement> rows = driver.findElements(By.cssSelector("#dtLeave tbody tr"));
 
 	            for (WebElement row : rows) {
 	                try {
-	                    List<WebElement> cells = row.findElements(By.cssSelector("td"));
-	                    if (cells.size() < 8) continue;
+	                    String name = row.findElement(By.cssSelector("td:nth-child(1) p.font_weight_medium")).getText().trim();
+	                    String leaveType = row.findElement(By.cssSelector("td:nth-child(2)")).getText().trim();
+	                    String fromDate = row.findElement(By.cssSelector("td:nth-child(3)")).getText().trim();
+	                    String toDate = row.findElement(By.cssSelector("td:nth-child(4)")).getText().trim();
+	                    String status = row.findElement(By.cssSelector("td:nth-child(9) p")).getText().trim();
 
-	                    // Extract employee name from first cell (inside .user_details p)
-	                    String empName = cells.get(0).findElement(By.cssSelector(".user_details p.font_weight_medium"))
-	                                          .getText().trim();
+	                    // Remove weekday part (e.g., "Thu, ")
+	                    if (fromDate.contains(",")) {
+	                        fromDate = fromDate.split(",")[1].trim();
+	                    }
+	                    if (toDate.contains(",")) {
+	                        toDate = toDate.split(",")[1].trim();
+	                    }
 
-	                    String leaveType = cells.get(1).getText().trim();
-	                    String fromDate = cells.get(2).getText().trim();
-	                    String toDate = cells.get(3).getText().trim();
-	                    String status = cells.get(7).getText().trim();
+	                    // ✅ Check all parameters
+	                    if (name.contains(empName)
+	                            && leaveType.contains(expectedLeaveType)
+	                            && (fromDate.contains(formattedExpectedDate) || toDate.equals(formattedExpectedDate))
+	                            && status.contains(expectedStatus)) {
 
-	                    // Normalize dates (remove weekday prefix)
-	                    fromDate = fromDate.replaceAll("^[A-Za-z]{3},\\s*", "");
-	                    toDate = toDate.replaceAll("^[A-Za-z]{3},\\s*", "");
-
-	                    // Match employee name (contains check to allow partial matches)
-	                    if (empName.contains(expectedEmpName)
-	                            && leaveType.equalsIgnoreCase(expectedLeaveType)
-	                            && (fromDate.equals(formattedDate) || toDate.equals(formattedDate))
-	                            && status.equalsIgnoreCase(expectedStatus)) {
+	                        System.out.println("✅ Matching row found: " + name + " | " + leaveType + " | " + fromDate + " | " + status);
 	                        return true;
 	                    }
-	                } catch (StaleElementReferenceException ignored) {
-	                    // Row may have reloaded; skip
-	                }
+
+	                } catch (StaleElementReferenceException ignored) {}
 	            }
 
-	            // Scroll down for more rows
-	            js.executeScript("window.scrollBy(0, 500);");
-	            Thread.sleep(800);
-
-	            if (rows.size() == previousRowCount) {
-	                scrollAttempts++;
-	            } else {
-	                previousRowCount = rows.size();
-	                scrollAttempts = 0;
-	            }
+	            // Scroll down and retry
+	            js.executeScript("window.scrollBy(0, 600);");
+	            Thread.sleep(700);
 	        }
 
-	        throw new Exception("No matching row found for EmpName: " + expectedEmpName +
-	                ", LeaveType: " + expectedLeaveType +
-	                ", Date: " + expectedDate +
-	                ", Status: " + expectedStatus);
+	        exceptionDesc = String.format(
+	                "❌ No matching row found for EmpName: %s, LeaveType: %s, Date: %s, Status: %s",
+	                empName, expectedLeaveType, expectedDate, expectedStatus);
+	        System.out.println(exceptionDesc);
+	        return false;
 
 	    } catch (Exception e) {
-	        exceptionDesc = e.getMessage();
+	        exceptionDesc = "❌ Error while verifying leave row in Admin Table: " + e.getMessage();
+	        System.out.println(exceptionDesc);
 	        return false;
 	    }
 	}
+
 
 
 
@@ -559,55 +821,53 @@ public class MeghLeavePage {
 	                                     + expectedDate.substring(5, 7) + "-"
 	                                     + expectedDate.substring(0, 4);
 
-	        int previousRowCount = 0;
-	        int scrollAttempts = 0;
-
-	        while (scrollAttempts < 15) {
-	            wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("table tbody tr")));
-	            List<WebElement> rows = driver.findElements(By.cssSelector("table tbody tr"));
+	        for (int scrollAttempt = 0; scrollAttempt < 15; scrollAttempt++) {
+	            wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("#dtMyLeaveRequest tbody tr")));
+	            List<WebElement> rows = driver.findElements(By.cssSelector("#dtMyLeaveRequest tbody tr"));
 
 	            for (WebElement row : rows) {
 	                try {
-	                    // Fetch values dynamically
-	                    String leaveType = row.findElement(By.cssSelector("td:nth-child(1) span")).getText().trim();
+	                    // ✅ Extract all required fields
+	                    String leaveType = row.findElement(By.cssSelector("td:nth-child(1) span.font_weight_medium")).getText().trim();
 	                    String fromDate = row.findElement(By.cssSelector("td:nth-child(2)")).getText().trim();
 	                    String toDate = row.findElement(By.cssSelector("td:nth-child(3)")).getText().trim();
 	                    String status = row.findElement(By.cssSelector("td:nth-child(7) p")).getText().trim();
 
-	                    // Normalize table dates
+	                    // Normalize date (remove day name like "Wed,")
 	                    fromDate = fromDate.replaceAll("^[A-Za-z]{3},\\s*", "").trim();
 	                    toDate = toDate.replaceAll("^[A-Za-z]{3},\\s*", "").trim();
 
-	                    // Match all conditions
+	                    // ✅ Match all expected fields
 	                    if (leaveType.equalsIgnoreCase(expectedLeaveType)
 	                            && (fromDate.equals(formattedExpectedDate) || toDate.equals(formattedExpectedDate))
 	                            && status.equalsIgnoreCase(expectedStatus)) {
+
+	                        System.out.println("✅ Matching leave record found: "
+	                                + leaveType + " | " + fromDate + " | " + status);
 	                        return true;
 	                    }
 
 	                } catch (StaleElementReferenceException ignored) {}
 	            }
 
-	            // Scroll and retry if not found
-	            js.executeScript("window.scrollBy(0, 500);");
+	            // Scroll & retry
+	            js.executeScript("window.scrollBy(0, 600);");
 	            Thread.sleep(800);
-
-	            if (rows.size() == previousRowCount) {
-	                scrollAttempts++;
-	            } else {
-	                previousRowCount = rows.size();
-	                scrollAttempts = 0;
-	            }
 	        }
 
-	        throw new Exception("Row not found for LeaveType: " + expectedLeaveType +
-	                ", Date: " + expectedDate + ", Status: " + expectedStatus);
+	        exceptionDesc = String.format("❌ No matching leave record found — LeaveType: %s | Date: %s | Status: %s",
+	                expectedLeaveType, expectedDate, expectedStatus);
+	        System.out.println(exceptionDesc);
+	        return false;
 
 	    } catch (Exception e) {
-	        exceptionDesc = e.getMessage();
+	        exceptionDesc = "❌ Error while verifying leave row: " + e.getMessage();
+	        System.out.println(exceptionDesc);
 	        return false;
 	    }
 	}
+
+
 
 
 	
@@ -627,64 +887,38 @@ public class MeghLeavePage {
 	
 	//2nd TestCase
 	
-	public boolean approveLeaveByDate(String excelDate) {
+	public boolean approveLeaveByDateAndEmp(String empId, String excelDate) {
 	    try {
-	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	        // Convert Excel date "2025-08-04" → "04-08-2025"
-	        String formattedDate = excelDate.substring(8, 10) + "-" +
-	                               excelDate.substring(5, 7) + "-" +
-	                               excelDate.substring(0, 4);
+	        // Convert yyyy-MM-dd → Tue, 11-11-2025 (UI format)
+	        DateTimeFormatter inputFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.ENGLISH);
+	        DateTimeFormatter uiFormat = DateTimeFormatter.ofPattern("E, dd-MM-yyyy", Locale.ENGLISH);
+	        String expectedUIDate = LocalDate.parse(excelDate, inputFormat).format(uiFormat);
 
-	        int previousRowCount = 0;
-	        int scrollAttempts = 0;
-	        boolean found = false;
+	        // Wait till table is visible
+	        utils.waitForEle(EmpIDOnAdmin.get(0), "visible", "", 20);
 
-	        while (scrollAttempts < 15) {
-	            wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("table tbody tr")));
-	            List<WebElement> rows = driver.findElements(By.cssSelector("table tbody tr"));
+	        int rowCount = EmpIDOnAdmin.size();
 
-	            for (WebElement row : rows) {
-	                // Extract From and To dates (columns 3 & 4)
-	                List<WebElement> dateCells = row.findElements(By.cssSelector("td"));
-	                if (dateCells.size() < 4) continue;
+	        for (int i = 0; i < rowCount; i++) {
 
-	                String fromDate = dateCells.get(2).getText().trim();
-	                String toDate = dateCells.get(3).getText().trim();
+	            String uiEmpId = EmpIDOnAdmin.get(i).getText().trim();
+	            String uiDate = EmpLeaveDateOnAdmin.get(i).getText().trim();
 
-	                // Remove day names (Mon, Tue, etc.)
-	                fromDate = fromDate.replaceAll("^[A-Za-z]{3},\\s*", "");
-	                toDate = toDate.replaceAll("^[A-Za-z]{3},\\s*", "");
+	            System.out.println("Row " + i + " | UI EmpID: " + uiEmpId + " | UI Date: " + uiDate);
 
-	                // Match formatted date
-	                if (fromDate.equals(formattedDate) || toDate.equals(formattedDate)) {
-	                    List<WebElement> approveButtons = row.findElements(By.cssSelector(".approve_btn"));
-	                    if (!approveButtons.isEmpty() && approveButtons.get(0).isDisplayed()) {
-	                        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", approveButtons.get(0));
-	                        Thread.sleep(500);
-	                        approveButtons.get(0).click();
-	                        found = true;
-	                        break;
-	                    }
-	                }
-	            }
+	            if (uiEmpId.contains(empId) && uiDate.contains(expectedUIDate)) {
 
-	            if (found) return true;
+	                utils.waitForEle(LeaveApproveButtonList.get(i), "clickable", "", 10);
+	                LeaveApproveButtonList.get(i).click();
 
-	            // Scroll to load more rows
-	            js.executeScript("window.scrollBy(0, 500);");
-	            Thread.sleep(800);
-
-	            if (rows.size() == previousRowCount) {
-	                scrollAttempts++;
-	            } else {
-	                previousRowCount = rows.size();
-	                scrollAttempts = 0;
+	                return true;
 	            }
 	        }
 
-	        throw new Exception("No matching row with Approve button found for date: " + excelDate);
+	        exceptionDesc = "No matching leave record found. EmpID: " + empId +
+	                        " | Expected Date: " + expectedUIDate;
+	        return false;
 
 	    } catch (Exception e) {
 	        exceptionDesc = e.getMessage();
@@ -692,66 +926,48 @@ public class MeghLeavePage {
 	    }
 	}
 
-	public boolean clickRejectButtonByDate(String excelDate) {
+
+	public boolean clickRejectButtonByEmpAndDate(String empId, String excelDate) {
 	    try {
-	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	        // Convert Excel date "2025-08-04" → "04-08-2025"
-	        String formattedDate = excelDate.substring(8, 10) + "-" +
-	                               excelDate.substring(5, 7) + "-" +
-	                               excelDate.substring(0, 4);
+	        // Convert yyyy-MM-dd → Tue, 11-11-2025 (UI format)
+	        DateTimeFormatter inputFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.ENGLISH);
+	        DateTimeFormatter uiFormat = DateTimeFormatter.ofPattern("E, dd-MM-yyyy", Locale.ENGLISH);
+	        String expectedUIDate = LocalDate.parse(excelDate, inputFormat).format(uiFormat);
 
-	        int previousRowCount = 0;
-	        int scrollAttempts = 0;
-	        boolean found = false;
+	        // Wait till table data is visible
+	        utils.waitForEle(EmpIDOnAdmin.get(0), "visible", "", 20);
 
-	        while (scrollAttempts < 15) {
-	            wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("table tbody tr")));
-	            List<WebElement> rows = driver.findElements(By.cssSelector("table tbody tr"));
+	        int rowCount = EmpIDOnAdmin.size();
 
-	            for (WebElement row : rows) {
-	                // Adjusted to correct date column index (3rd td)
-	                List<WebElement> dateCells = row.findElements(By.cssSelector("td"));
-	                if (dateCells.size() < 3) continue;
+	        for (int i = 0; i < rowCount; i++) {
 
-	                String leaveDate = dateCells.get(2).getText().trim();
-	                leaveDate = leaveDate.replaceAll("^[A-Za-z]{3},\\s*", "");
+	            String uiEmpId = EmpIDOnAdmin.get(i).getText().trim();
+	            String uiDate = EmpLeaveDateOnAdmin.get(i).getText().trim();
 
-	                if (leaveDate.equals(formattedDate)) {
-	                    // Search for Reject button dynamically
-	                    List<WebElement> rejectButtons = row.findElements(By.cssSelector(".reject_btn"));
-	                    if (!rejectButtons.isEmpty() && rejectButtons.get(0).isDisplayed()) {
-	                        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", rejectButtons.get(0));
-	                        Thread.sleep(500);
-	                        rejectButtons.get(0).click();
-	                        found = true;
-	                        break;
-	                    }
-	                }
-	            }
+	            System.out.println("Row " + i + 
+	                               " | UI EmpID: " + uiEmpId + 
+	                               " | UI Date: " + uiDate);
 
-	            if (found) return true;
+	            if (uiEmpId.contains(empId) && uiDate.contains(expectedUIDate)) {
 
-	            // Scroll down to load more rows dynamically
-	            js.executeScript("window.scrollBy(0, 500);");
-	            Thread.sleep(800);
+	                utils.waitForEle(LeaveRejectButtonList.get(i), "clickable", "", 10);
+	                LeaveRejectButtonList.get(i).click();
 
-	            if (rows.size() == previousRowCount) {
-	                scrollAttempts++;
-	            } else {
-	                previousRowCount = rows.size();
-	                scrollAttempts = 0;
+	                return true;
 	            }
 	        }
 
-	        throw new Exception("No matching row with Reject button found for date: " + excelDate);
+	        exceptionDesc = "No matching leave record found. EmpID: " + empId +
+	                        " | Expected Date: " + expectedUIDate;
+	        return false;
 
 	    } catch (Exception e) {
 	        exceptionDesc = e.getMessage();
 	        return false;
 	    }
 	}
+
 
 
 
@@ -1153,10 +1369,11 @@ public class MeghLeavePage {
 	public boolean ApplyForOthersButton()
 	{
 		try {
-			utils.waitForEle(ApplyForOthersButton, "visible", "", 10);
+			
+			utils.waitForEle(ApplyForOthersButton, "visible", "", 30);
 			
 			ApplyForOthersButton.click();
-			
+			Thread.sleep(4000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -1409,6 +1626,79 @@ public class MeghLeavePage {
 	    }
 	}
 
+	public boolean LeaveStatusInEmpTable(String reason) {
+	    try {
+	        utils.waitForEle(LeaveStatusInEmpTable, "visible", "", 10);
+
+	        String actualText = LeaveStatusInEmpTable.getText().trim();
+	        if (actualText.contains(reason)) {
+	            return true;
+	        } else {
+	            throw new Exception("Employee Leave Request  Status not found in table. Expected: " + reason + ", Found: " + actualText);
+	        }
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+	
+	
+	public boolean LeaveReasonInEmpTable(String reason) {
+	    try {
+	        utils.waitForEle(LeaveReasonInEmpTable, "visible", "", 10);
+
+	        String actualText = LeaveReasonInEmpTable.getText().trim();
+	        if (actualText.contains(reason)) {
+	            return true;
+	        } else {
+	            throw new Exception("Employee Leave Request  Reason not found in table. Expected: " + reason + ", Found: " + actualText);
+	        }
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+	
+	
+	public boolean LeaveRejectReasonInTable(String reason) {
+	    try {
+	        utils.waitForEle(LeaveRejectReasonInTable, "visible", "", 10);
+
+	        String actualText = LeaveRejectReasonInTable.getText().trim();
+	        if (actualText.contains(reason)) {
+	            return true;
+	        } else {
+	            throw new Exception("Employee Leave Request  Reject Reason not found in table. Expected: " + reason + ", Found: " + actualText);
+	        }
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+	
+	
+	
+	
+	public boolean LeaveNameInTable(String reason) {
+	    try {
+	        utils.waitForEle(LeaveNameInTable, "visible", "", 10);
+
+	        String actualText = LeaveNameInTable.getText().trim();
+	        if (actualText.contains(reason)) {
+	            return true;
+	        } else {
+	            throw new Exception("Employee Request Leave Name not found in table. Expected: " + reason + ", Found: " + actualText);
+	        }
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+	
 	public boolean ReasonInTable(String reason) {
 	    try {
 	        utils.waitForEle(ReasonInTable, "visible", "", 10);
@@ -1430,7 +1720,8 @@ public class MeghLeavePage {
 	public boolean FilterButton()
 	{
 		try {
-			utils.waitForEle(FilterButton, "visible", "", 10);
+			
+			utils.waitForEle(FilterButton, "visible", "", 15);
 			
 			FilterButton.click();
 			
@@ -1535,21 +1826,6 @@ public class MeghLeavePage {
 	}
 	
 	
-	public boolean FilterResults() {
-	    try {
-	        utils.waitForEle(FilterResults, "visible", "", 10);
-
-	        if (FilterResults.isDisplayed()) {
-	            return true;
-	        } else {
-	            throw new Exception("FilterResults element is not displayed.");
-	        }
-
-	    } catch (Exception e) {
-	        exceptionDesc = e.getMessage();
-	        return false;
-	    }
-	}
 
 	public boolean LeaveTypesFilter(String LeaveType) {
 	    try {
@@ -1598,16 +1874,20 @@ public class MeghLeavePage {
 	
 	public boolean LeaveTypesearchResults(String LeaveType) {
 	    try {
-	        // Small wait to ensure elements are present
-	        Thread.sleep(2000);
+	        Thread.sleep(2000);  // ensure results loaded
 
 	        for (WebElement leave : LeaveTypesearchResults) {
-	            if (leave.getText().trim().toLowerCase().contains(LeaveType.toLowerCase())) {
-	                return true; // Found matching leave type (partial match)
+	            String actual = leave.getText().trim();
+
+	            if (actual.equalsIgnoreCase(LeaveType) || actual.toLowerCase().contains(LeaveType.toLowerCase())) {
+	                driver.navigate().refresh();  // refresh ONLY after success
+	                return true;
 	            }
 	        }
 
-	        throw new Exception("No matching leave type found: " + LeaveType);
+	        // If no match found
+	        driver.navigate().refresh();  // refresh even after failure
+	        return false;
 
 	    } catch (Exception e) {
 	        exceptionDesc = e.getMessage();
@@ -1687,23 +1967,35 @@ public class MeghLeavePage {
 	
 	public boolean compareLeaveStatistics() {
 	    try {
-	        // --- Step 1: Get UI Statistics ---
-	        int uiApplied = Integer.parseInt(driver.findElement(By.id("AppliedLeaves")).getText().trim());
-	        int uiPending = Integer.parseInt(driver.findElement(By.id("PendingLeaves")).getText().trim());
-	        int uiApproved = Integer.parseInt(driver.findElement(By.id("ApprovedLeaves")).getText().trim());
-	        int uiRejected = Integer.parseInt(driver.findElement(By.id("RejectedLeaves")).getText().trim());
-	        int uiRevoked = Integer.parseInt(driver.findElement(By.id("RevokedLeaves")).getText().trim());
-	        int uiCancelled = Integer.parseInt(driver.findElement(By.id("CancelledLeaves")).getText().trim());
-	        
-	        System.out.println(uiApplied + "Applied");
-	        System.out.println(uiPending + "pending");
-	        System.out.println(uiApproved + "Approved");
-	        System.out.println(uiRejected + "Rejected");
-	        System.out.println(uiRevoked + "Revoked");
-	       
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-	        // --- Step 2: Get Table Data ---
-	        List<WebElement> statusCells = driver.findElements(By.xpath("//table[@id='dtLeave']/tbody/tr/td[8]"));
+	        // ✅ Ensure accordion is expanded before reading counts
+	        WebElement accordionBody = driver.findElement(By.id("collapseOneLeaveTab"));
+	        if (!accordionBody.getAttribute("class").contains("show")) {
+	            WebElement accordionHeader = driver.findElement(By.id("headingOne"));
+	            accordionHeader.click();
+	            wait.until(ExpectedConditions.attributeContains(accordionBody, "class", "show"));
+	        }
+
+	        // ✅ Wait for counts to be visible
+	        int uiApplied = Integer.parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("AppliedLeaves"))).getText().trim());
+	        int uiPending = Integer.parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("PendingLeaves"))).getText().trim());
+	        int uiApproved = Integer.parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ApprovedLeaves"))).getText().trim());
+	        int uiRejected = Integer.parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("RejectedLeaves"))).getText().trim());
+	        int uiRevoked = Integer.parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("RevokedLeaves"))).getText().trim());
+	        int uiCancelled = Integer.parseInt(wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("CancelledLeaves"))).getText().trim());
+
+	        System.out.println(uiApplied + " Applied");
+	        System.out.println(uiPending + " Pending");
+	        System.out.println(uiApproved + " Approved");
+	        System.out.println(uiRejected + " Rejected");
+	        System.out.println(uiRevoked + " Revoked");
+	        System.out.println(uiCancelled + " Cancelled");
+
+	        // --- Step 2: Wait for Table Data to Load ---
+	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("dtLeave")));
+	        List<WebElement> statusCells = driver.findElements(By.xpath("//table[@id='dtLeave']/tbody/tr/td[9]"));
+
 	        int tableTotal = statusCells.size();
 	        int tablePending = 0, tableApproved = 0, tableRejected = 0, tableRevoked = 0, tableCancelled = 0;
 
@@ -1744,9 +2036,9 @@ public class MeghLeavePage {
 	        }
 
 	        if (allMatch) {
-	            System.out.println("Comparison Passed: UI and Table values match.");
+	            System.out.println("✅ Comparison Passed: UI and Table values match.");
 	        } else {
-	            System.out.println("Comparison Failed: UI and Table values do not match.");
+	            System.out.println("❌ Comparison Failed: UI and Table values do not match.");
 	        }
 
 	        return allMatch;
@@ -1757,16 +2049,11 @@ public class MeghLeavePage {
 	        return false;
 	    }
 	}
-
-
-
-
-
 	
 	public Map<String, Integer> getLeaveStatusCounts() {
 	    Map<String, Integer> statusCountMap = new HashMap<>();
 	    try {
-	        List<WebElement> statusCells = driver.findElements(By.xpath("//table[@id='dtLeave']/tbody/tr/td[8]"));
+	        List<WebElement> statusCells = driver.findElements(By.xpath("//table[@id='dtLeave']/tbody/tr/td[9]"));
 
 	        for (WebElement cell : statusCells) {
 	            String statusText = cell.getText().trim();
@@ -1876,11 +2163,465 @@ public class MeghLeavePage {
 	
 	
 	
+	public boolean MonthFilterContains(String date) {
+	    try {
+	    	Thread.sleep(4000);
+	        // Convert "2025-08-13" → "August 2025"
+	        LocalDate inputDate = LocalDate.parse(date);
+	        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM yyyy", Locale.ENGLISH);
+	        String expectedMonth = inputDate.format(formatter);
+
+	        System.out.println("Expected Month: " + expectedMonth);
+
+	        // loop max 12 times (full year), avoid infinite loop
+	        for (int i = 0; i < 12; i++) {
+
+	            utils.waitForEle(MonthFilterContains, "visible", "", 20);
+
+	            String uiMonth = MonthFilterContains.getText().trim();
+	            System.out.println("UI Month: " + uiMonth);
+
+	            // ✅ If match found, return true
+	            if (uiMonth.equalsIgnoreCase(expectedMonth)) {
+	                return true;
+	            }
+
+	            // ✅ If not match → click back and retry
+	            MonthFilterBackButton.click();
+	          
+
+	            // Now go again inside Attendance > Month filter (since you returned back)
+	            // NOTE: You must call your AttendanceButton method here
+	            
+	        }
+
+	        // ❌ Month never found after 12 checks
+	        exceptionDesc = "Month not matched within navigation loops";
+	        return false;
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+
+
+	
+	public boolean PendingLeaveCount()
+	{
+		try {
+			utils.waitForEle(PendingLeaveCount, "visible", "", 10);
+			
+			PendingLeaveCount.click();
+			
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
 	
 	
 	
 	
 	
+	public boolean LeaveValidationInEmp(String inputDate, String expectedStatus) {
+	    try {
+	        utils.waitForEle(EmpLeaveRequestOnEmp, "visible", "", 10);
+
+	        // --- Convert yyyy-MM-dd → Tue, 04-11-2025 ---
+	        String expectedDateUI = "";
+	        try {
+	            DateTimeFormatter sourceFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+	            DateTimeFormatter uiFormat = DateTimeFormatter.ofPattern("EEE, dd-MM-yyyy");
+
+	            LocalDate date = LocalDate.parse(inputDate, sourceFormat);
+	            expectedDateUI = date.format(uiFormat);
+	        } catch (Exception e) {
+	            return false; // invalid date input
+	        }
+
+	        boolean dateMatch = false;
+	        boolean statusMatch = false;
+
+	        // --- Validate Date ---
+	        for (WebElement dateEle : LeaveFromDateInTableInEmp) {
+	            String actualDate = dateEle.getText().trim();
+
+	            if (actualDate.contains(expectedDateUI)) {
+	                dateMatch = true;
+	                break;
+	            }
+	        }
+
+	        // --- Validate Status ---
+	        for (WebElement statusEle : LeaveStatusInTableInEmp) {
+	            String actualStatus = statusEle.getText().trim();
+
+	            if (actualStatus.contains(expectedStatus)) {
+	                statusMatch = true;
+	                break;
+	            }
+	        }
+
+	        return dateMatch && statusMatch;
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+
+	
+	
+	public boolean RejectSummaryCount()
+	{
+		try {
+			utils.waitForEle(RejectSummaryCount, "visible", "", 10);
+			
+			RejectSummaryCount.click();
+			
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	
+	
+	public boolean LeaveValidationInAdmin(String inputDate, String expectedStatus, String empid, String leavetype) {
+	    try {
+	        utils.waitForEle(EmpIDRow, "visible", "", 10);
+
+	        // --- Convert yyyy-MM-dd → Tue, 04-11-2025 ---
+	        String expectedDateUI;
+	        try {
+	            DateTimeFormatter sourceFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+	            DateTimeFormatter uiFormat = DateTimeFormatter.ofPattern("EEE, dd-MM-yyyy");
+
+	            LocalDate date = LocalDate.parse(inputDate, sourceFormat);
+	            expectedDateUI = date.format(uiFormat);
+	        } catch (Exception e) {
+	            return false; // invalid date input
+	        }
+
+	        // --- Validate row-wise data ---
+	        for (int i = 0; i < EmpIDOnAdmin.size(); i++) {
+
+	            String actualEmpId = EmpIDOnAdmin.get(i).getText().trim();
+	            String actualLeaveType = EmpLeaveTypeOnAdmin.get(i).getText().trim();
+	            String actualLeaveDate = EmpLeaveDateOnAdmin.get(i).getText().trim();
+	            String actualLeaveStatus = EmpLeaveStatusOnAdmin.get(i).getText().trim();
+
+	            if (actualEmpId.contains(empid)
+	                    && actualLeaveType.contains(leavetype)
+	                    && actualLeaveDate.contains(expectedDateUI)
+	                    && actualLeaveStatus.contains(expectedStatus)) {
+
+	                return true;   // Found matching row
+	            }
+	        }
+
+	        return false;   // No matching row found
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+
+	
+	public boolean EditLeaveBalanceForSickLeave() {
+	    try {
+	        utils.waitForEle(EditLeaveBalanceForSickLeave, "visible", "", 20);
+
+	        EditButtonForSickLeave.click();
+	       
+	       
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+
+	public boolean EditLeaveBalanceForTravelLeave() {
+	    try {
+	        utils.waitForEle(EditLeaveBalanceForTravelLeave, "visible", "", 20);
+
+	        EditButtonForTravelLeave.click();
+	       
+	       
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	
+	public boolean EditLeaveBalanceForCasualLeave() {
+	    try {
+	        utils.waitForEle(EditLeaveBalanceForCasualLeave, "visible", "", 20);
+
+	        EditButtonForCasualLeave.click();
+	       
+	       
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	
+	public boolean FixedBalanceButton() {
+	    try {
+	        utils.waitForEle(FixedBalanceButton, "visible", "", 20);
+
+	        FixedBalanceButton.click();
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	public boolean FixedBalanceConfirmButton() {
+	    try {
+	        utils.waitForEle(FixedBalanceConfirmButton, "visible", "", 20);
+
+	        FixedBalanceConfirmButton.click();
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	public boolean NoOfCreditInput(String days) {
+	    try {
+	        utils.waitForEle(NoOfCreditInput, "visible", "", 20);
+
+	        NoOfCreditInput.clear();
+	        NoOfCreditInput.sendKeys(days);
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	public boolean RepeatCreditSelected() {
+	    try {
+	    	Thread.sleep(4000);
+	        utils.waitForEle(RepeatCreditSelected, "visible", "", 20);
+
+	   Select sel = new Select(RepeatCreditSelected);
+	   sel.selectByVisibleText("Monthly");
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	
+	public boolean AllowhalfDayLeave() {
+	    try {
+	        utils.waitForEle(AllowhalfDayLeave, "visible", "", 20);
+
+	        AllowhalfDayLeave.click();
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	public boolean EditLeaveSaveButton() {
+	    try {
+	        utils.waitForEle(EditLeaveSaveButton, "visible", "", 20);
+
+	        EditLeaveSaveButton.click();
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
+	}
+	
+	
+
+
+
+	private String normalize(String text) {
+	    return text.toLowerCase()
+	               .replace("(", "")
+	               .replace(")", "")
+	               .replace("_", " ")
+	               .trim();
+	}
+
+	public boolean validateLeaveBalance(String empId, String leaveType, String expectedCount) {
+	    try {
+	        utils.waitForEle(LeaveBalanceEmpIDRow, "visible", "", 10);
+
+	        String normalizedEmpId = empId.startsWith("#") ? empId : ("#" + empId);
+
+	        int rowCount = LeaveBalanceRows.size();
+
+	        for (int i = 1; i <= rowCount; i++) {
+
+	            String uiEmpId = driver.findElement(
+	                    By.xpath("//table[@id='dtLeaveBalance']/tbody/tr[" + i + "]/td[1]//p[2]")
+	            ).getText().trim();
+
+	            String uiLeaveType = driver.findElement(
+	                    By.xpath("//table[@id='dtLeaveBalance']/thead/tr[" + i + "]/th[4]/div")
+	            ).getText().trim();
+
+	            String uiCount = driver.findElement(
+	                    By.xpath("//table[@id='dtLeaveBalance']/tbody/tr[" + i + "]/td[4]//span[@class='text_success-light']")
+	            ).getText().trim();
+
+	            // Logging
+	            System.out.println("ROW-" + i +
+	                    " | UI EmpID: " + uiEmpId +
+	                    " | UI LeaveType: " + uiLeaveType +
+	                    " | UI Count: " + uiCount);
+
+	            if (!uiEmpId.equalsIgnoreCase(normalizedEmpId))
+	                continue;
+
+	            // normalize both UI and input
+	            if (!normalize(uiLeaveType).equals(normalize(leaveType)))
+	                continue;
+
+	            if (uiCount.equalsIgnoreCase(expectedCount)) {
+	                return true;
+	            } else {
+	                exceptionDesc = "Count mismatch → Expected: " + expectedCount + ", UI: " + uiCount;
+	                return false;
+	            }
+	        }
+
+	        exceptionDesc = "No matching row found for EmpID: " + normalizedEmpId +
+	                        ", LeaveType: " + leaveType +
+	                        ", ExpectedCount: " + expectedCount;
+	        return false;
+
+	    } catch (Exception e) {
+	        exceptionDesc = "Exception: " + e.getMessage();
+	        return false;
+	    }
+	}
+	
+	
+	
+	public boolean validateLeaveBalanceRow(
+	        String empId,
+	        String expectedLeaveType,
+	        String expectedDayCount,
+	        String inputDateYMD) {
+
+	    try {
+
+	        // Convert yyyy-MM-dd → dd MMM (UI format)
+	        String expectedDateUI = "";
+	        try {
+	            LocalDate dt = LocalDate.parse(inputDateYMD);
+	            expectedDateUI = dt.format(DateTimeFormatter.ofPattern("dd MMM", Locale.ENGLISH));
+	        } catch (Exception ex) {
+	            exceptionDesc = "Invalid date format: " + inputDateYMD;
+	            return false;
+	        }
+
+	        // -------------------------
+	        // 1. Validate Date in Header
+	        // -------------------------
+	        List<WebElement> headerDates = driver.findElements(
+	                By.xpath("//table[@id='dtWeeklyLeaveCalender']/thead/tr[1]/th")
+	        );
+
+	        boolean dateFoundInHeader = false;
+
+	        for (WebElement th : headerDates) {
+	            String uiHeaderDate = th.getText().trim();
+	            if (uiHeaderDate.contains(expectedDateUI)) {
+	                dateFoundInHeader = true;
+	                break;
+	            }
+	        }
+
+	        if (!dateFoundInHeader) {
+	            exceptionDesc = "Date not found in header. Expected: " + expectedDateUI;
+	            return false;
+	        }
+
+	        // -------------------------
+	        // 2. Validate Table Row
+	        // -------------------------
+	        for (WebElement row : weeklyLeaveRows) {
+
+	            WebElement empIdCell     = row.findElement(By.xpath("./td[1]"));
+	            WebElement leaveTypeCell = row.findElement(By.xpath("./td[2]"));
+	            WebElement dayCountCell  = row.findElement(By.xpath("./td[3]"));
+
+	            String uiEmpId     = empIdCell.getText().trim();
+	            String uiLeaveType = leaveTypeCell.getText().trim();
+	            String uiDayCount  = dayCountCell.getText().trim()
+	                                    .replace("\n", " ")
+	                                    .replaceAll("\\s+", " ");
+
+	            // Match Emp
+	            if (!uiEmpId.contains(empId)) continue;
+
+	            // Validate Leave Type
+	            if (!uiLeaveType.contains(expectedLeaveType)) {
+	                exceptionDesc = "LeaveType mismatch. Expected: " + expectedLeaveType +
+	                        ", UI: " + uiLeaveType;
+	                return false;
+	            }
+
+	            // Validate Day Count
+	            String expectedDayText = expectedDayCount + " Day";
+	            if (!uiDayCount.contains(expectedDayText)) {
+	                exceptionDesc = "DayCount mismatch. Expected: " + expectedDayText +
+	                        ", UI: " + uiDayCount;
+	                return false;
+	            }
+
+	            // ✔ All validations passed
+	            return true;
+	        }
+
+	        exceptionDesc = "No matching row found for EmpID: " + empId;
+	        return false;
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+
+
+
+
 	
 	
 	
@@ -1901,7 +2642,7 @@ public class MeghLeavePage {
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 	

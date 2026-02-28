@@ -1,0 +1,21 @@
+[11:19:27] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-17-12-25-11-19-27-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidRegularizationTest.txt
+[11:19:43] INFO  - PASS - Company Code Inputted Successfully.AOJK
+[11:19:46] INFO  - PASS - Login With Password Button Is Clicked.
+[11:19:53] INFO  - PASS - Username Is Entered In Username Text Field.Emp022
+[11:19:59] INFO  - PASS - Password Is Entered In Password Text Field.Emp022
+[11:20:09] INFO  - PASS - Clicked On Login Button.
+[11:20:12] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[11:20:16] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[11:20:51] ERROR - FAIL - Error While Clicking On Regulirization Tab On Emp Attendance.An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e9f1df32-c10c-4146-b853-d4cf1d76cc73, findElement {using=xpath, value=//android.view.View[contains(@content-desc,'Regularization') and contains(@content-desc,'Tab 2 of 4')]}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: e9f1df32-c10c-4146-b853-d4cf1d76cc73
+[11:20:55] INFO  - PASS - Clicked On Quick Action On Emp Attendance.
+[11:20:58] INFO  - PASS - Clicked On Apply Regulirization Button On Quick Action.
+[11:21:06] INFO  - PASS - Clicked On Regulirization From Date.
+[11:21:10] INFO  - PASS - Clicked On 2nd Date.2025-12-02
+[11:21:13] INFO  - PASS - Regulirization From Date Selected Successfully.

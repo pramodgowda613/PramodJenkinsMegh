@@ -1,0 +1,27 @@
+[19:10:32] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-19-10-31-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[19:10:36] INFO  - PASS - Application Loaded Successfully.
+[19:10:38] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[19:10:41] INFO  - PASS - Login With Password Button Is Clicked.
+[19:10:43] INFO  - PASS - Sign in Text Is Displayed.
+[19:10:45] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[19:10:47] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[19:10:50] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[19:10:52] INFO  - PASS - Clicked On Login Button.
+[19:10:54] INFO  - PASS - Login Done  And Validated Successfully.
+[19:10:56] INFO  - PASS - Login Done Successfully.
+[19:11:02] INFO  - PASS - Report Button Clicked Successfully.
+[19:11:09] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[19:11:11] INFO  - PASS - EarlyInTab Clicked Successfully.
+[19:11:13] INFO  - PASS - Filter Button Clicked Successfully.
+[19:11:20] INFO  - PASS - Year Selected Successfully.2025
+[19:11:27] INFO  - PASS - Month Selected Successfully.November
+[19:11:33] INFO  - PASS - Week Selected Successfully.
+[19:11:35] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[19:11:40] INFO  - PASS - From Date Selected Successfully.2025-11-04
+[19:11:42] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[19:11:48] INFO  - PASS - To Date Selected Successfully.2025-11-04
+[19:11:50] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[19:11:52] INFO  - PASS - Filter Save Button Clicked Successfully.
+[19:11:54] INFO  - PASS - Filtered Data Displayed Successfully.2025-11-04
+[19:11:54] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1771_Emp_Early_In_Reports_04-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date  
+[19:11:54] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

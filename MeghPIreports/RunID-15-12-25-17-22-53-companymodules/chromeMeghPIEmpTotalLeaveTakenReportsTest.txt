@@ -1,0 +1,22 @@
+[17:22:53] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-17-22-53-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[17:22:58] INFO  - PASS -  Application loaded successfully.
+[17:23:00] INFO  - PASS -  Company code entered successfully.ARAK
+[17:23:03] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[17:23:07] INFO  - PASS -  Sign-in section appeared.
+[17:23:09] INFO  - PASS -  Email Id entered.Emp054
+[17:23:11] INFO  - PASS -  Password entered.Emp054
+[17:23:13] INFO  - PASS -  Captcha entered.12345
+[17:23:15] INFO  - PASS -  Sign-in button clicked.
+[17:23:18] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[17:23:20] INFO  - PASS - Login Done Successfully.
+[17:23:26] INFO  - PASS - Report Button Clicked Successfully.
+[17:23:31] INFO  - PASS - WeekOff Report Button Clicked Successfully.
+[17:23:33] INFO  - PASS - WeekOff Report Page Loaded Successfully.
+[17:23:35] INFO  - PASS - Filter Button Clicked Successfully.
+[17:23:41] INFO  - PASS - Year Selected Successfully.2025
+[17:23:48] INFO  - PASS - Month Selected Successfully.November
+[17:23:50] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:23:52] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:23:55] INFO  - PASS - Date CheckBox Selected Successfully.
+[17:23:58] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:24:00] INFO  - PASS - Emp WeekOff Date Inputted Successfully.2025-11-02

@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -15,7 +14,7 @@ import utils.Utils;
 public class MeghMasterDepartmentMappingPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String EmployeeName = "";
 	public String GetOfficeName = "";
@@ -179,7 +178,8 @@ public class MeghMasterDepartmentMappingPage {
 			utils.waitForEle(AddDeptMappingSaveButton, "visible", "", 10);
 			AddDeptMappingSaveButton.isDisplayed();
 			AddDeptMappingSaveButton.click();
-		} catch (Exception e) {
+			Thread.sleep(2000);
+			} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
 		}
@@ -219,6 +219,7 @@ public class MeghMasterDepartmentMappingPage {
 	public boolean SearchDropDown()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(SearchDropDown, "visible", "", 10);
 			SearchDropDown.isDisplayed();
 			SearchDropDown.click();
@@ -274,7 +275,7 @@ public class MeghMasterDepartmentMappingPage {
 	
 	public boolean  SearchTextField(String input) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(SearchTextField,  "visible", "", 10);
 			SearchTextField.isDisplayed();
 			SearchTextField.clear();
@@ -373,7 +374,7 @@ public class MeghMasterDepartmentMappingPage {
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 	

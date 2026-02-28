@@ -1,0 +1,23 @@
+[11:47:06] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-11-47-05-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[11:47:10] INFO  - PASS - Punch IN executed successfully at 2025-11-07 09:40:00
+[11:47:10] INFO  - PASS - UpdateAttendance API executed successfully for Emp050
+[11:47:37] INFO  - PASS -  Application loaded successfully.
+[11:47:40] INFO  - PASS -  Company code entered successfully.ACZO
+[11:47:42] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[11:47:46] INFO  - PASS -  Sign-in section appeared.
+[11:47:48] INFO  - PASS -  Email Id entered.Emp050
+[11:47:50] INFO  - PASS -  Password entered.Emp050
+[11:47:53] INFO  - PASS -  Captcha entered.12345
+[11:47:55] INFO  - PASS -  Sign-in button clicked.
+[11:47:57] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[11:47:59] INFO  - PASS - Login Done Successfully As a Employee.Pramod@1234
+[11:48:05] INFO  - PASS - Report Button Clicked Successfully.
+[11:48:10] INFO  - PASS - AttendanceReport Displayed Successfully .
+[11:48:12] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[11:48:14] INFO  - PASS - Filter Button Clicked Successfully.
+[11:48:21] INFO  - PASS - Year Selected Successfully.2025
+[11:48:28] INFO  - PASS - Month Selected Successfully.November
+[11:48:30] INFO  - PASS - Filter Save Button Clicked Successfully.
+[11:48:32] INFO  - PASS - Filtered Data Displayed Successfully.
+[11:48:32] INFO  - Passed - MeghPIEmpAttendanceReportsTest-MPI_1744_MissingPunch_Reports_04-To verify this, Do single punch in last month and validate the missing punch record is displayed.
+[11:48:32] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

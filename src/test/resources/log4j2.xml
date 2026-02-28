@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG" monitorInterval="30">
+    <Appenders>
+
+        <!-- Console output -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss.SSS}] [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- Dynamic file routing based on logFilePath -->
+        <Routing name="Routing">
+            <Routes pattern="$${ctx:logFileName}">
+                <Route>
+                    <File name="DynamicFile"
+                          fileName="${ctx:logFileName}"
+                          append="false">
+                        <PatternLayout pattern="[%d{HH:mm:ss}] %-5level - %msg%n"/>
+                    </File>
+                </Route>
+            </Routes>
+        </Routing>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Routing"/>
+        </Root>
+    </Loggers>
+</Configuration>

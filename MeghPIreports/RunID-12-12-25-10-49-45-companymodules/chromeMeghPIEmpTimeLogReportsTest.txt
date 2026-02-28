@@ -1,0 +1,22 @@
+[10:49:45] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-10-49-45-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[10:49:49] INFO  - PASS - Application Loaded Successfully.
+[10:49:52] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[10:49:54] INFO  - PASS - Login With Password Button Is Clicked.
+[10:49:56] INFO  - PASS - Sign in Text Is Displayed.
+[10:49:58] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[10:50:00] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[10:50:03] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[10:50:05] INFO  - PASS - Clicked On Login Button.
+[10:50:07] INFO  - PASS - Login Done  And Validated Successfully.
+[10:50:09] INFO  - PASS - Login Done Successfully.
+[10:50:16] INFO  - PASS - Report Button Clicked Successfully.
+[10:50:22] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[10:50:24] INFO  - PASS - EarlyOutTab Clicked Successfully.
+[10:50:26] INFO  - PASS - Filter Button Clicked Successfully.
+[10:50:34] INFO  - PASS - Year Selected Successfully.2025
+[10:50:40] INFO  - PASS - Month Selected Successfully.November
+[10:50:45] INFO  - PASS - Week selected successfully: 5
+[10:50:47] INFO  - PASS - Filter Save Button Clicked Successfully.
+[10:50:50] INFO  - PASS - Filtered Data Displayed Successfully.2025-11-27
+[10:50:50] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1778_Emp_EarlyOut_Reports_05-To verify this, Do early punch out as an employee during the last week of the previous month and then, in the early out reports, validate the filter functionality by selecting the last week. Ensure that the corresponding early punch out record is displayed.
+[10:50:50] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

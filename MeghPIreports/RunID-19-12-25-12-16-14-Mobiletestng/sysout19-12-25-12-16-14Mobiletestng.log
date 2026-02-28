@@ -1,0 +1,24 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-19 12:16:15
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+✅ Attendance button clicked successfully.
+📅 Looking for date element: 18, Thursday, December 18, 2025
+✅ Clicked on date: 2025-12-18
+Looking for button with content-desc: 18, Thursday, December 18, 2025
+✅ Clicked on date: 2025-12-18
+---------------------------------------------------------------
+MeghPIAttendAndroidAttendanceTestMPI_1388_Attendance_Tab_01
+---------------------------------------------------------------
+Test case took: 170.5499 seconds
+Total TC Time: 00:02:50
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

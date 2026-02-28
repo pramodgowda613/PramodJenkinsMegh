@@ -1,0 +1,13 @@
+[11:29:31] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-11-29-30-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[11:29:53] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp025
+[11:29:53] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:00:00
+[11:29:53] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:30:00
+[11:30:09] INFO  - PASS - UpdateAttendance API executed successfully for Emp025
+[11:30:41] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[11:30:45] INFO  - PASS - Login With Password Button Is Clicked.
+[11:30:51] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[11:30:58] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[11:31:05] INFO  - PASS - Clicked On Login Button.
+[11:31:08] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[11:31:15] INFO  - PASS - Emp Shift Button On DashBoard Clicked Successfully.
+[11:32:00] ERROR - FAIL - Error While Clicking On First Working Date.null

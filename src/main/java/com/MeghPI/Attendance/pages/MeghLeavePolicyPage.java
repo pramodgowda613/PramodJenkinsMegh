@@ -4,10 +4,8 @@ package com.MeghPI.Attendance.pages;
 import java.time.Duration;
 import java.util.List;
 
-import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,7 +20,7 @@ import utils.Utils;
 public class MeghLeavePolicyPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String actualPolicyName = "";
 	public String fullLeaveName = "";
@@ -115,7 +113,7 @@ public class MeghLeavePolicyPage {
 	@FindBy(xpath = "//input[@id='chkActive']")
 	private WebElement ActiveCheckBox;	 //2nd TestCase
 	
-	@FindBy(xpath = "//table[@id='dtLeavePolicy']/tbody/tr[1]/td[1]/p/span")
+	@FindBy(xpath = "//table[@id='dtLeavePolicy']/tbody/tr[1]/td[1]/p")
 	private WebElement SearchInputtedPolicyvalidation;	 //2nd TestCase
 	
 	@FindBy(xpath = "//select[@id='drpCompanyLocation']")
@@ -182,10 +180,19 @@ public class MeghLeavePolicyPage {
 	@FindBy(xpath = "//li[contains(@id, 'select2-drpDepartment-result')]")
 	private WebElement DeptOptionSelected;   //9th TestCase
 	
+	@FindBy(xpath = "//button[@id='btnPolicyFilterYes']")
+	private WebElement DefaultConfirm;   //9th TestCase
+	
+	
+	
+	
+	
+	
 	
 	public boolean EditButton()
 	{
 		try {
+			Thread.sleep(3000);
 			utils.waitForEle(EditButton, "visible", "", 10);
 			EditButton.isDisplayed();
 			EditButton.click();
@@ -220,7 +227,7 @@ public class MeghLeavePolicyPage {
 
 	public boolean LeavePolicySearchTextField(String LeavePolicyName) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(LeavePolicySearchTextField,  "visible", "", 10);
 			LeavePolicySearchTextField.isDisplayed();
 			LeavePolicySearchTextField.sendKeys(LeavePolicyName);
@@ -259,6 +266,7 @@ public class MeghLeavePolicyPage {
 	public boolean AddLeaveButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(AddLeaveButton, "visible", "", 10);
 			AddLeaveButton.isDisplayed();
 			AddLeaveButton.click();
@@ -272,6 +280,7 @@ public class MeghLeavePolicyPage {
 	public boolean SavePolicyButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(SavePolicyButton, "visible", "", 10);
 			SavePolicyButton.isDisplayed();
 			SavePolicyButton.click();
@@ -288,7 +297,7 @@ public class MeghLeavePolicyPage {
 	        // Get all delete buttons in the table
 	        List<WebElement> deleteButtons = driver.findElements(By.xpath("//table[@id='tblLeaveType']/tbody/tr/td[5]/button"));
 
-	        boolean found = false;
+	       // boolean found = false;
 	        for (WebElement button : deleteButtons) {
 	            String leaveTypeName = button.getAttribute("data-leavetypename").trim();
 
@@ -316,7 +325,7 @@ public class MeghLeavePolicyPage {
 	public boolean DeleteConfirm()
 	{
 		try {
-			utils.waitForEle(DeleteConfirm, "visible", "", 10);
+			utils.waitForEle(DeleteConfirm, "visible", "", 20);
 			DeleteConfirm.isDisplayed();
 			DeleteConfirm.click();
 		} catch (Exception e) {
@@ -393,7 +402,7 @@ Thread.sleep(3000);
 	        for (WebElement eachLeave : AllLeaves) {
 	            String leaveId = eachLeave.getAttribute("id").trim();
 
-	            if (leaveId.equalsIgnoreCase(sickleave.trim())) {
+	            if (leaveId.contains(sickleave.trim())) {
 	                if (!eachLeave.isSelected()) {
 	                    eachLeave.click();
 	                }
@@ -442,7 +451,7 @@ Thread.sleep(3000);
 	        for (WebElement eachLeave : AllLeaves) {
 	            String leaveId = eachLeave.getAttribute("id").trim();
 
-	            if (leaveId.equalsIgnoreCase(casualleave.trim())) {
+	            if (leaveId.contains(casualleave.trim())) {
 	                if (!eachLeave.isSelected()) {
 	                    eachLeave.click();
 	                }
@@ -515,7 +524,7 @@ Thread.sleep(3000);
 	public boolean LeavePolicySearchTextFields(String leavepolicyname) {
 		try {
 			
-Thread.sleep(3000);
+Thread.sleep(4000);
 			utils.waitForEle(LeavePolicySearchTextFields,  "visible", "", 10);
 			LeavePolicySearchTextFields.isDisplayed();
 			LeavePolicySearchTextFields.clear();
@@ -594,17 +603,21 @@ Thread.sleep(3000);
 
 	    while (attempts < 2) {
 	        try {
-	            Thread.sleep(4000); // slight delay to allow UI rendering
+	            Thread.sleep(4000); // Allow UI rendering
 	            utils.waitForEle(SearchInputtedPolicyvalidation, "visible", "", 10);
 
 	            if (SearchInputtedPolicyvalidation.isDisplayed()) {
 	                String displayedText = SearchInputtedPolicyvalidation.getText().trim();
 
+	                // ✅ Ignore "(Default)" text completely
+	                displayedText = displayedText.replace("(Default)", "").trim();
+
 	                // Convert both to lowercase for case-insensitive comparison
 	                if (displayedText.toLowerCase().contains(leavepolicyname.toLowerCase())) {
 	                    return true;
 	                } else {
-	                    throw new Exception("Policy name mismatch. Expected to find: " + leavepolicyname + " but found: " + displayedText);
+	                    throw new Exception("Policy name mismatch. Expected to find: " 
+	                            + leavepolicyname + " but found: " + displayedText);
 	                }
 	            } else {
 	                throw new Exception("SearchInputtedPolicyvalidation element is not displayed.");
@@ -614,7 +627,9 @@ Thread.sleep(3000);
 	            attempts++;
 
 	            if (attempts < 2) {
-	                try { Thread.sleep(2000); } catch (InterruptedException ie) {
+	                try {
+	                    Thread.sleep(2000);
+	                } catch (InterruptedException ie) {
 	                    Thread.currentThread().interrupt();
 	                }
 	            } else {
@@ -624,6 +639,7 @@ Thread.sleep(3000);
 	    }
 	    return false;
 	}
+
 	
 	//3rd TestCase
 	public boolean OfficeDropDown(String officename)
@@ -1087,12 +1103,62 @@ Thread.sleep(3000);
 		return true;
 	}
 	
+	public boolean AllLeaves4(String casualleave) {
+	    try {
+	        Thread.sleep(3000);  // Consider replacing with proper wait if possible
+
+	        for (WebElement eachLeave : AllLeaves) {
+	            String leaveId = eachLeave.getAttribute("id").trim();
+
+	            if (leaveId.contains(casualleave.trim())) {
+	                if (!eachLeave.isSelected()) {
+	                    eachLeave.click();
+	                }
+	                return true; // Successfully found and clicked
+	            }
+	        }
+
+	        // If no matching leave was found
+	        throw new Exception("Leave ID '" + casualleave + "' not found in AllLeaves list.");
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+	
+	
+	public boolean DefaultConfirmButton()
+	{
+		try {
+		Thread.sleep(2000);
+		utils.waitForEle(DefaultConfirm, "visible", "", 10);
+			
+		DefaultConfirm.click();
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
-	}	
+		exceptionDesc = this.exceptionDesc;
+	}
 	
 }

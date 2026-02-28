@@ -1,0 +1,38 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 14:04:21
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Target Month-Year: Nov 2025
+⬅ Clicked Previous month... Attempt 1
+✅ Target month container visible now: Nov 2025
+✅ Found matching card:
+Emptwentyfive Morning shift
+#Emp025
+Monday - 03 Nov 2025
+Approved
+Assigned Shift Policy
+ - 
+Assigned Shift
+ - 
+Applied Shift
+Morning Shift
+Reason
+ - 
+🔁 Attempt 1 to open Manage screen
+✅ Manage screen opened successfully on attempt 1
+✅ Attendance button clicked successfully.
+---------------------------------------------------------------
+MeghPIAttendAndroidShiftTestMPI_1541_Android_Shift_10
+---------------------------------------------------------------
+Test case took: 103.0949 seconds
+Total TC Time: 00:01:43
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+===============================================
+

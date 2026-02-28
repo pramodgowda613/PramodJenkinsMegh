@@ -1,0 +1,43 @@
+[15:18:31] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-15-18-31-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[15:18:36] INFO  - PASS - Application Loaded Successfully.
+[15:18:38] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[15:18:41] INFO  - PASS - Login With Password Button Is Clicked.
+[15:18:43] INFO  - PASS - Sign in Text Is Displayed.
+[15:18:45] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[15:18:47] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[15:18:49] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:18:52] INFO  - PASS - Clicked On Login Button.
+[15:18:54] INFO  - PASS - Login Done  And Validated Successfully.
+[15:18:56] INFO  - PASS - Login Done Successfully.
+[15:18:59] INFO  - PASS -  Attendance Module Clicked Successfully.
+[15:19:03] INFO  - PASS - Regularization Rquest Tab Displayed Successfully.
+[15:19:09] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-12-02
+[15:19:16] INFO  - PASS - Regularization Summary Clicked Successfully On Admin.
+[15:19:18] INFO  - PASS - Pending Tab Clicked On Admin Successfully.
+[15:19:20] INFO  - PASS - Regularization Emp Name Inputted Successfully.Empfiftytwo
+[15:19:35] INFO  - PASS - Admin Rejected To Regulirization Request Successfully.Empfiftytwo 02-12-2025
+[15:19:37] INFO  - PASS -  Reject Reason Inputted Successfully.1week ago Reject report test
+[15:19:39] INFO  - PASS -  Reject Button Clicked Successfully.
+[15:19:45] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[15:19:58] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[15:20:00] INFO  - PASS - Application Loaded Successfully.
+[15:20:02] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[15:20:04] INFO  - PASS - Login With Password Button Is Clicked.
+[15:20:07] INFO  - PASS - Sign in Text Is Displayed.
+[15:20:09] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[15:20:11] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[15:20:13] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:20:15] INFO  - PASS - Clicked On Login Button.
+[15:20:18] INFO  - PASS - Login Done  And Validated Successfully.
+[15:20:20] INFO  - PASS - Login Done Successfully.
+[15:20:26] INFO  - PASS - Report Button Clicked Successfully.
+[15:20:31] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[15:20:33] INFO  - PASS - Rejected Report Tab Clicked Successfully.
+[15:20:35] INFO  - PASS - Filter Button Clicked Successfully.
+[15:20:42] INFO  - PASS - Year Selected Successfully.2025
+[15:20:49] INFO  - PASS - Month Selected Successfully.December
+[15:20:54] INFO  - PASS - Week selected successfully: 1
+[15:20:56] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:20:58] INFO  - PASS - Filtered Data Displayed Successfully.02-12-2025
+[15:20:59] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1797_Emp_RejectedRegularization_Reports_04-To verify this, raise a regularization request during the last week get rejected. In the emp account rejected Regularization Request Reports module, apply the filter for the last week and ensure that the corresponding rejected regularization request record is displayed.
+[15:20:59] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -4,6 +4,7 @@ package com.MeghPI.Attendance.pages;
 
 import java.io.File;
 import java.time.Duration;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
@@ -22,7 +23,7 @@ import utils.Utils;
 public class MeghMasterEmployeePage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String selectedentityname = "";
 	
@@ -209,6 +210,23 @@ public class MeghMasterEmployeePage {
 	private WebElement  EntityTypeSelected; // 14th TestCase
 	
 	
+	@FindBy(xpath = "//select[@id= 'drpLocationTimeZone']")
+	private WebElement  TimeZoneInOfficeSelected; // 14th TestCase
+	
+	@FindBy(xpath = "//input[@id='txtGeoFencingRange']")
+	private WebElement  GeoFencingRange; // 14th TestCase
+	
+	@FindBy(xpath = "//input[@id='txtLatitude']")
+	private WebElement  LatitudeTextField; // 14th TestCase
+	
+	
+	@FindBy(xpath = "//input[@id='txtLongitude']")
+	private WebElement  LongitudeTextField; // 14th TestCase
+	
+
+	
+	
+	
 	
 	// 1st TestCase
 	public boolean DirectoryButton() {
@@ -242,8 +260,9 @@ Thread.sleep(2000);
 	public boolean EmployeeTab()
 	{
 		try {
-			utils.waitForEle(EmployeeTab, "visible", "", 10);
-			EmployeeTab.isDisplayed();
+			Thread.sleep(2000);
+			utils.waitForEle(EmployeeTab, "visible", "", 20);
+			
 			EmployeeTab.click();
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
@@ -255,7 +274,7 @@ Thread.sleep(2000);
 	public boolean TotalCountDropDown()
 	{
 		try {
-			Thread.sleep(6000);
+			Thread.sleep(4000);
 			utils.waitForEle(TotalCountDropDown, "visible", "", 10);
 		
 			TotalCountDropDown.click();
@@ -270,7 +289,6 @@ Thread.sleep(2000);
 	{
 		try {
 			utils.waitForEle(AddNewButton, "visible", "", 10);
-			AddNewButton.isDisplayed();
 			AddNewButton.click();
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
@@ -294,18 +312,35 @@ Thread.sleep(2000);
 	
 	
 //2nd TestCase
-	public boolean CompanyTab()
-	{
-		try {
-			utils.waitForEle(CompanyTab, "visible", "", 10);
-			CompanyTab.isDisplayed();
-			CompanyTab.click();
-		} catch (Exception e) {
-			exceptionDesc=	e.getMessage().toString();
-			return false;
-		}
-		return true;
+	public boolean CompanyTab() {
+	    try {
+
+	        // Wait for Company tab and click
+	        utils.waitForEle(CompanyTab, "visible", "", 20);
+	        CompanyTab.click();
+
+	        // If Office button not visible → refresh page and retry
+	        if (!OfficeButton.isDisplayed()) {
+
+	            driver.navigate().refresh();
+
+	            utils.waitForEle(CompanyTab, "visible", "", 20);
+	            CompanyTab.click();
+
+	            // Final validation
+	            if (!OfficeButton.isDisplayed()) {
+	                throw new Exception("Office button not visible even after page refresh");
+	            }
+	        }
+
+	        return true;
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
 	}
+
 	
 	
 	public boolean EntityTypeButton()
@@ -337,8 +372,8 @@ Thread.sleep(2000);
 	public boolean AddEntityTypeName(String entityname) {
 		try {
 
-			utils.waitForEle(AddEntityTypeName,  "visible", "", 10);
-			AddEntityTypeName.isDisplayed();
+			utils.waitForEle(AddEntityTypeName,  "visible", "", 20);
+		
 			AddEntityTypeName.clear();
 			AddEntityTypeName.sendKeys(entityname);
 			
@@ -369,6 +404,7 @@ Thread.sleep(2000);
 			utils.waitForEle(AddEntityTypeSave, "visible", "", 10);
 			AddEntityTypeSave.isDisplayed();
 			AddEntityTypeSave.click();
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -378,19 +414,44 @@ Thread.sleep(2000);
 	
 	public boolean EmployeeTypeDropdown(String emptype) {
 	    try {
-	    	Thread.sleep(5000);
-	    	utils.waitForEle(EmployeeTypeDropdown,  "visible", "", 10);
-	     Select select = new Select(EmployeeTypeDropdown);
-	        select.selectByVisibleText(emptype);
-	      WebElement entity = select.getFirstSelectedOption();
-	    selectedentityname = entity.getText();
-	       
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+	        // Wait until dropdown is visible
+	        WebElement dropdown = wait.until(ExpectedConditions.visibilityOfElementLocated(
+	                By.id("drpEntityType1")));
+
+	        // Wait until options are loaded (more than just "--Select--")
+	        wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(
+	                By.xpath("//select[@id='drpEntityType1']/option"), 1));
+
+	        // Now create Select
+	        Select select = new Select(dropdown);
+
+	        boolean found = false;
+	        for (WebElement opt : select.getOptions()) {
+	            if (opt.getText().trim().equalsIgnoreCase(emptype.trim())) {
+	                opt.click();
+	                found = true;
+	                break;
+	            }
+	        }
+
+	        if (!found) {
+	            throw new NoSuchElementException("Option not found: " + emptype);
+	        }
+
+	        WebElement selected = select.getFirstSelectedOption();
+	        selectedentityname = selected.getText().trim();
+
+	        return true;
+
 	    } catch (Exception e) {
-	    	exceptionDesc = e.getMessage().toString();
-			return false;
-		}
-		return true;
+	        exceptionDesc = "Error while selecting Employee Type: " + e.getMessage();
+	        return false;
+	    }
 	}
+
+
 	
 	//3rd TestCase
 	
@@ -480,7 +541,7 @@ Thread.sleep(2000);
 	
 	public boolean StateDropdown(String state) {
 	    try {
-	    	Thread.sleep(3000);
+	    	Thread.sleep(4000);
 	    	utils.waitForEle(StateDropdown,  "visible", "", 10);
 	     Select select = new Select(StateDropdown);
 	        select.selectByVisibleText(state);
@@ -555,6 +616,7 @@ Thread.sleep(2000);
 			utils.waitForEle(CompanyLocationSaveButton, "visible", "", 20);
 		
 			CompanyLocationSaveButton.click();
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -613,8 +675,8 @@ Thread.sleep(2000);
 	public boolean ReportingToDropdown() {
 		try {
 			utils.waitForEle(ReportingToDropdown, "visible", "", 10);
-			ReportingToDropdown.isDisplayed();
 			ReportingToDropdown.click();
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -625,11 +687,10 @@ Thread.sleep(2000);
 	
 	public boolean ReportingToSearchInput(String reportingto) {
 		try {
-
+			Thread.sleep(1000);
 			utils.waitForEle(ReportingToSearchInput,  "visible", "", 10);
-			ReportingToSearchInput.isDisplayed();
 			ReportingToSearchInput.sendKeys(reportingto);
-			
+			Thread.sleep(1000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -639,8 +700,8 @@ Thread.sleep(2000);
 	
 	public boolean ReportingToSearchResult() {
 		try {
+			Thread.sleep(1000);
 			utils.waitForEle(ReportingToSearchResult, "visible", "", 10);
-			ReportingToSearchResult.isDisplayed();
 			ReportingToSearchResult.click();
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
@@ -655,7 +716,7 @@ Thread.sleep(2000);
 		try {
 
 			utils.waitForEle(EmployeeId,  "visible", "", 10);
-			EmployeeId.isDisplayed();
+			
 			EmployeeId.sendKeys(empid);
 			
 		} catch (Exception e) {
@@ -739,7 +800,7 @@ Thread.sleep(2000);
 	{
 		try {
 			utils.waitForEle(SendEmailInvitationCheckBox, "visible", "", 10);
-			SendEmailInvitationCheckBox.isDisplayed();
+
 			SendEmailInvitationCheckBox.click();
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
@@ -758,6 +819,7 @@ Thread.sleep(2000);
 			AddEmployeeSave.isDisplayed();
 			
 			AddEmployeeSave.click();
+			Thread.sleep(3000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -802,6 +864,7 @@ Thread.sleep(2000);
 	public boolean SearchDropDown()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(SearchDropDown, "visible", "", 10);
 			SearchDropDown.isDisplayed();
 			SearchDropDown.click();
@@ -829,10 +892,10 @@ Thread.sleep(2000);
 		try {
 			Thread.sleep(4000);
 
-			utils.waitForEle(SearchTextField,  "visible", "", 10);
-			SearchTextField.isDisplayed();
+			utils.waitForEle(SearchTextField,  "visible", "", 20);
+			SearchTextField.clear();
 			SearchTextField.sendKeys(emplastname);
-			
+			  Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -843,7 +906,8 @@ Thread.sleep(2000);
 	public boolean SearchResult()
 	{
 		try {
-			utils.waitForEle(SearchResult, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(SearchResult, "visible", "", 20);
 			SearchResult.isDisplayed();
 		
 		} catch (Exception e) {
@@ -870,9 +934,10 @@ Thread.sleep(2000);
 	public boolean WebEnrollment()
 	{
 		try {
-			utils.waitForEle(WebEnrollment, "visible", "", 10);
+			utils.waitForEle(WebEnrollment, "visible", "", 20);
 			WebEnrollment.isDisplayed();
 			WebEnrollment.click();
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -912,6 +977,7 @@ Thread.sleep(2000);
 	public boolean CropImage()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(CropImage, "visible", "", 10);
 			CropImage.isDisplayed();
 			CropImage.click();
@@ -941,7 +1007,9 @@ Thread.sleep(2000);
 	        utils.waitForEle(SaveEnrollmentSuccessMsg, "visible", "", 10);
 
 	        if (SaveEnrollmentSuccessMsg.isDisplayed()) {
+	        	Thread.sleep(2000);
 	            return true; // Success message displayed
+	          
 	        } else {
 	            exceptionDesc = "INFO: Success message not displayed, but enrollment might be completed.";
 	            return true; // Still return true since you don't want the test to fail
@@ -976,6 +1044,7 @@ Thread.sleep(2000);
 	public boolean FaceEnrollmentTab()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(FaceEnrollmentTab, "visible", "", 10);
 			FaceEnrollmentTab.isDisplayed();
 			FaceEnrollmentTab.click();
@@ -991,9 +1060,10 @@ Thread.sleep(2000);
 	public boolean EmployeeFormDisplayValidated()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(EmployeeFormDisplayValidated, "visible", "", 15);
 			EmployeeFormDisplayValidated.isDisplayed();
-		
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -1128,14 +1198,86 @@ Thread.sleep(2000);
 	
 	
 	
+	public boolean TimeZoneInOfficeSelected()
+	{
+		try {
+			Thread.sleep(4000);
+			
+			utils.waitForEle(TimeZoneInOfficeSelected, "visible", "", 15);
+		Select sel = new Select(TimeZoneInOfficeSelected);
+		sel.selectByVisibleText("(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi (India Standard Time)");
+		
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	public boolean GeoFencingRange(String GeoValue)
+	{
+		try {
+			utils.waitForEle(GeoFencingRange, "visible", "", 15);
+			GeoFencingRange.clear();
+			GeoFencingRange.sendKeys(GeoValue);
+		
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean LatitudeTextField(String GeoValue)
+	{
+		try {
+			utils.waitForEle(LatitudeTextField, "visible", "", 15);
+			LatitudeTextField.clear();
+			LatitudeTextField.sendKeys(GeoValue);
+		
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean LongitudeTextField(String GeoValue)
+	{
+		try {
+			utils.waitForEle(LongitudeTextField, "visible", "", 15);
+			LongitudeTextField.clear();
+			LongitudeTextField.sendKeys(GeoValue);
+		
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
-	
 	
 	
 }

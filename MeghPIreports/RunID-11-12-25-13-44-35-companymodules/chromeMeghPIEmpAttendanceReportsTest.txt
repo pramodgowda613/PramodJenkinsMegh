@@ -1,0 +1,29 @@
+[13:44:35] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-13-44-35-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[13:44:40] INFO  - PASS - Application Loaded Successfully.
+[13:44:42] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[13:44:44] INFO  - PASS - Login With Password Button Is Clicked.
+[13:44:46] INFO  - PASS - Sign in Text Is Displayed.
+[13:44:48] INFO  - PASS - Username Is Entered In Username Text Field.Emp050
+[13:44:51] INFO  - PASS - Password Is Entered In Password Text Field.Emp050
+[13:44:53] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[13:44:55] INFO  - PASS - Clicked On Login Button.
+[13:44:57] INFO  - PASS - Login Done  And Validated Successfully.
+[13:44:59] INFO  - PASS - Login Done Successfully.
+[13:45:06] INFO  - PASS - Report Button Clicked Successfully.
+[13:45:10] INFO  - PASS - AttendanceReport Displayed Successfully .
+[13:45:12] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[13:45:14] INFO  - PASS - Filter Button Clicked Successfully.
+[13:45:21] INFO  - PASS - Year Selected Successfully.2025
+[13:45:28] INFO  - PASS - Month Selected Successfully.November
+[13:45:34] INFO  - PASS - Week Selected Successfully.
+[13:45:36] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[13:45:42] INFO  - PASS - From Date Selected Successfully.2025-11-07
+[13:45:44] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[13:45:49] INFO  - PASS - To Date Selected Successfully.2025-11-07
+[13:45:51] INFO  - PASS - From Time TextField Clicked Successfully.
+[13:45:53] INFO  - PASS - Filter Save Button Clicked Successfully.
+[13:45:56] INFO  - PASS - Final Status Record Displayed Successfully.Single Punch
+[13:45:58] INFO  - PASS - In Punch Validated Successfully.09:40:00
+[13:46:00] INFO  - PASS - Attendance Date Validated Successfully.07-11-2025
+[13:46:00] INFO  - Passed - MeghPIEmpAttendanceReportsTest-MPI_1747_MissingPunch_Reports_07-To verify this, for the single punch in Missing Punch, validate that the In-Time is displayed correctly for the given date. 
+[13:46:00] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

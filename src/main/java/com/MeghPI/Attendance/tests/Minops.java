@@ -2,9 +2,26 @@ package com.MeghPI.Attendance.tests;
 
 
 
+import java.io.File;
+import java.security.Key;
+import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap.KeySetView;
+import java.util.logging.FileHandler;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Timeouts;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -13,14 +30,13 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.MeghPI.Attendance.pages.MeghLoginPage;
-import com.MeghPI.Attendance.pages.MeghMasterRolePermissionPage;
+import com.microsoft.playwright.Keyboard;
 
 import base.LoadDriver;
 import base.LogResults;
 import base.initBase;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.Pramod;
-import utils.Utils;
 
 public class Minops {
 
@@ -33,9 +49,7 @@ public class Minops {
 	public String emailids = "";
 	public String phonenumber = "";
 
-	private String cmpcode = "";
-	private String Emailid = "";
-	private String EmailForMailinator = "";
+	
 	
 	
 	
@@ -54,9 +68,6 @@ public class Minops {
 	void runOnce(int device) {
 		logResults.createReport(device);
 		logResults.setTestMethodErrorCount(0);
-		cmpcode = Utils.propsReadWrite("data/addmaster.properties", "get", "cmpcode", "");
-		Emailid = "AutoE" + initBase.executionRunTime + "@mailinator.com";
-		EmailForMailinator = "AutoE" + initBase.executionRunTime;
 		
 	}
 
@@ -71,7 +82,6 @@ public class Minops {
 					"Verify that upon entering a valid company code and clicking the Login with OTP button, the user is redirected to the Login with OTP page and an OTP is sent to the provided email address.");
 
 			MeghLoginPage MeghLoginPage = new MeghLoginPage(driver);
-			MeghMasterRolePermissionPage RolePermissionpage = new MeghMasterRolePermissionPage(driver);
 
 			ArrayList<String> data = initBase.loadExcelData("login", currTC,
 					"firstname,lastname,emailid,phonenumber,createpassword,confirmpassword,companyname,companycode,headcount,industrytype,yourrole,captcha,cardnumber,cardexpiry,cardcvv,cardownername,paymentotp,companywebsite,country,state,city,companyaddress,zipcode,officename,officetype,deptname,mailinator,imagepath,topassmailinator");
@@ -109,7 +119,7 @@ public class Minops {
 			String imagepath = data.get(27);
 			String URL = data.get(28);
 
-			String LoginOTP = "";
+		
 
 			// String Unique = initBase.executionRunTime;
 			String emailid = data.get(2);
@@ -126,6 +136,56 @@ public class Minops {
 				logResults.createLogs("Y", "FAIL",
 						"Application Is Not Loaded Completely: " + MeghLoginPage.getExceptionDesc());
 			}
+			
+		
+//			WebElement ele = driver.findElement(By.id("Name"));
+//			ele.clear();
+//			ele.sendKeys(null);
+//			ele.click();
+//			ele.getText();
+//			ele.getSize();
+//			ele.getScreenshotAs(null);
+//			ele.isDisplayed();
+//			ele.isEnabled();
+//			ele.isSelected();
+//			ele.getAttribute(deptname);
+//			ele.getLocation();
+//			ele.sendKeys(key);
+//			
+//			ele.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+//
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//			wait.until(ExpectedConditions.elementToBeClickable(By.id("dd")));
+//			Alert ss = driver.switchTo().alert();
+//			
+//			ss.accept();
+//			ss.dismiss();
+//		driver.switchTo().frame("tagname");
+//	JavascriptExecutor jse = (JavascriptExecutor) driver;
+//	jse.executeScript("arguments[0].scrollInToView();", ele);
+//	Set<String> sss = driver.getWindowHandles();
+//	ArrayList<String> rrr = new ArrayList<String>(sss);
+//	for(String eachtab:rrr)
+//	{
+//		
+//		
+//		driver.switchTo().window(rrr.get(0));
+//	}
+//	TakesScreenshot tse = (TakesScreenshot) driver;
+//	File me = tse.getScreenshotAs(OutputType.FILE);
+//	File fil = new File("");
+//	org.openqa.selenium.io.FileHandler.copy(me, fil);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 			if (MeghLoginPage.CreateAnAccount()) {
 				logResults.createLogs("Y", "PASS", "Create An Account Button Is Clicked: ");
@@ -884,6 +944,34 @@ public class Minops {
 				logResults.createLogs("Y", "FAIL",
 						"Error While Clicking On  GoToDashBoard: " + MeghLoginPage.getExceptionDesc());
 			}}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 			@AfterMethod(alwaysRun = true)
 			void AfterEachmethod() {

@@ -1,0 +1,22 @@
+[11:39:21] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-11-39-21-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[11:39:26] INFO  - PASS - Application Loaded Successfully.
+[11:39:28] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[11:39:30] INFO  - PASS - Login With Password Button Is Clicked.
+[11:39:32] INFO  - PASS - Sign in Text Is Displayed.
+[11:39:35] INFO  - PASS - Username Is Entered In Username Text Field.Emp050
+[11:39:37] INFO  - PASS - Password Is Entered In Password Text Field.Emp050
+[11:39:39] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[11:39:41] INFO  - PASS - Clicked On Login Button.
+[11:39:43] INFO  - PASS - Login Done  And Validated Successfully.
+[11:39:46] INFO  - PASS - Login Done Successfully.
+[11:39:52] INFO  - PASS - Report Button Clicked Successfully.
+[11:39:56] INFO  - PASS - AttendanceReport Displayed Successfully .
+[11:39:58] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[11:40:00] INFO  - PASS - MailReportButton Clicked Successfully.
+[11:40:03] INFO  - PASS - Mail Subject Inputted Successfully.Emp punch Reports
+[11:40:05] INFO  - PASS - Mail CC Inputted Successfully.Empfifty@mailinator.com
+[11:40:07] INFO  - PASS - Mail BCC Inputted Successfully.Empfifty@mailinator.com
+[11:40:13] INFO  - PASS - Frequency Selected Successfully.
+[11:40:16] INFO  - PASS - MailSendSaveButton Clicked Successfully.
+[11:40:16] INFO  - Passed - MeghPIEmpAttendanceReportsTest-MPI_1742_MissingPunch_Reports_02-To verify this, check the functionality ofÂ Schedule Report by adding email and selecting frequency as "daily"Â  and ensure report is delivered to inputted email
+[11:40:16] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

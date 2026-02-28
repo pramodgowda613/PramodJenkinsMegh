@@ -1,0 +1,24 @@
+[18:45:42] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-18-12-25-18-45-42-companymodules/chromeMeghPITimeLogReportsTest.txt
+[18:45:47] INFO  - PASS - Punch IN executed successfully at 2025-11-04 09:45:00
+[18:45:47] INFO  - PASS - Punch OUT executed successfully at 2025-11-04 12:30:00
+[18:45:47] INFO  - PASS - 2nd Punch In executed successfully at 2025-11-04 13:00:00
+[18:45:48] INFO  - PASS - Last Punch OUT executed successfully at 2025-11-04 19:45:00
+[18:45:58] INFO  - PASS - UpdateAttendance API executed successfully for Emp0150
+[18:46:25] INFO  - PASS - âœ… To verify this, as a employee do late punch in and late punch out for 2 days and ensure "late in count" and "late out count" displayed for the employee â€“ This Employee Emp0150 on 2025-11-04, punched IN at 09:45:00 and Punch Out at 19:45:00. Final Status = P (Expected = P), OT Hours = 60 (Expected = 60)
+[18:46:37] INFO  - PASS - Dashboard Page Displayed Successfully.
+[18:46:44] INFO  - PASS - Report Button Clicked Successfully.
+[18:46:50] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[18:46:56] INFO  - PASS - PunchStatisticsTab Clicked Successfully.
+[18:46:58] INFO  - PASS - Location DropDown Clicked Successfully.
+[18:47:01] INFO  - PASS - Location Name Inputted Successfully.AutoON181225092628
+[18:47:03] INFO  - PASS - Location Selected Successfully.
+[18:47:09] INFO  - PASS - Dept Selected Successfully.AutoDN181225092628
+[18:47:16] INFO  - PASS - Filter Button Clicked Successfully.
+[18:47:22] INFO  - PASS - Year Selected Successfully.2025
+[18:47:28] INFO  - PASS - Month Selected Successfully.November
+[18:47:30] INFO  - PASS - Filter Save Button Clicked Successfully.
+[18:47:37] INFO  - PASS - EmpID Inputted Successfully.Empoonehundrendandfifty
+[18:47:43] ERROR - FAIL - Error While Displaying  Late In Count Data.null
+[18:47:49] ERROR - FAIL - Error While Displaying  Late Out Count Data.null
+[18:47:49] INFO  - Failed - MeghPITimeLogReportsTest-MPI_1050_Punch_statistics_12-To verify this, as a employee do late punch in and late punch out for 2 days and ensure "late in count" and "late out count" displayed for the employee
+[18:47:49] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

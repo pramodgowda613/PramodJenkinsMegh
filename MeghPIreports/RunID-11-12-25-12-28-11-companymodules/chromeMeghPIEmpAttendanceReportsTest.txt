@@ -1,0 +1,71 @@
+[12:28:11] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-12-28-11-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[12:28:16] INFO  - PASS -  Application loaded successfully.
+[12:28:19] INFO  - PASS -  Company code entered successfully.ACZO
+[12:28:21] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[12:28:25] INFO  - PASS -  Sign-in section appeared.
+[12:28:27] INFO  - PASS -  Email Id entered.Emp050
+[12:28:29] INFO  - PASS -  Password entered.Emp050
+[12:28:32] INFO  - PASS -  Captcha entered.12345
+[12:28:34] INFO  - PASS -  Sign-in button clicked.
+[12:28:36] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[12:28:38] INFO  - PASS - Login Done Successfully As a Employee.
+[12:28:44] INFO  - PASS - CheckIn Button Clicked Successfully.
+[12:28:55] INFO  - PASS - UpdateAttendance API executed successfully for Emp050
+[12:29:21] INFO  - PASS - Report Button Clicked Successfully.
+[12:29:25] INFO  - PASS - AttendanceReport Displayed Successfully .
+[12:29:27] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[12:29:29] INFO  - PASS - Filter Button Clicked Successfully.
+[12:29:37] INFO  - PASS - Year Selected Successfully.2025
+[12:29:43] INFO  - PASS - Month Selected Successfully.December
+[12:29:45] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[12:29:50] INFO  - PASS - From Date Selected Successfully.2025-12-11
+[12:29:53] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[12:29:58] INFO  - PASS - To Date Selected Successfully.2025-12-11
+[12:30:01] ERROR - FAIL - Error While Clicking On Filter Save Button.element click intercepted: Element <button id="btnFilterReport" type="button" class="btn btn-submit">...</button> is not clickable at point (1295, 561). Other element would receive the click: <span class="flatpickr-day nextMonthDay" aria-label="January ..., 2026" tabindex="-1">9</span>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4faea31052acdc6d230746704f3ec1c, clickElement {id=f.B3EA91206C4632F3DE316F3961F82EAE.d.20651BB307F46F0EA454B9412E2D19ED.e.1109}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62264}, goog:processID: 10948, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62264/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e4faea31052acdc6d230746704f3ec1c)] -> xpath: //button[@id='btnFilterReport']]
+Session ID: e4faea31052acdc6d230746704f3ec1c
+[12:30:04] ERROR - FAIL - Error While Clicking On Edit Column Button.element click intercepted: Element <button class="btn add_action_column me-3  py-0" id="btnRptColumnsMissingPunchReport" data-bs-toggle="modal" data-bs-target="#divRptColumnsMissingPunchReport"></button> is not clickable at point (929, 85). Other element would receive the click: <div class="col-2 position-relative">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4faea31052acdc6d230746704f3ec1c, clickElement {id=f.B3EA91206C4632F3DE316F3961F82EAE.d.20651BB307F46F0EA454B9412E2D19ED.e.1110}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62264}, goog:processID: 10948, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62264/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e4faea31052acdc6d230746704f3ec1c)] -> xpath: (//button[@id='btnRptColumnsMissingPunchReport'])[2]]
+Session ID: e4faea31052acdc6d230746704f3ec1c
+[12:30:34] ERROR - FAIL - Error While Selecting InPunchFrom CheckBox.element click intercepted: Element <button class="btn add_action_column me-3  py-0" id="btnRptColumnsMissingPunchReport" data-bs-toggle="modal" data-bs-target="#divRptColumnsMissingPunchReport"></button> is not clickable at point (929, 85). Other element would receive the click: <div class="col-2 position-relative">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4faea31052acdc6d230746704f3ec1c, clickElement {id=f.B3EA91206C4632F3DE316F3961F82EAE.d.20651BB307F46F0EA454B9412E2D19ED.e.1110}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62264}, goog:processID: 10948, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62264/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e4faea31052acdc6d230746704f3ec1c)] -> xpath: (//button[@id='btnRptColumnsMissingPunchReport'])[2]]
+Session ID: e4faea31052acdc6d230746704f3ec1c
+[12:30:52] ERROR - FAIL - Error While Clicking On Save Changes Button.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4faea31052acdc6d230746704f3ec1c, clickElement {id=f.B3EA91206C4632F3DE316F3961F82EAE.d.20651BB307F46F0EA454B9412E2D19ED.e.1111}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62264}, goog:processID: 10948, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62264/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e4faea31052acdc6d230746704f3ec1c)] -> xpath: //button[@id='btnRptColumnSave']]
+Session ID: e4faea31052acdc6d230746704f3ec1c
+[12:30:54] ERROR - FAIL - Error While Displaying  In Punch From Column Data.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4faea31052acdc6d230746704f3ec1c, clickElement {id=f.B3EA91206C4632F3DE316F3961F82EAE.d.20651BB307F46F0EA454B9412E2D19ED.e.1111}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62264}, goog:processID: 10948, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62264/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e4faea31052acdc6d230746704f3ec1c)] -> xpath: //button[@id='btnRptColumnSave']]
+Session ID: e4faea31052acdc6d230746704f3ec1c
+[12:30:54] INFO  - Skipping rest steps as error count reached configured value: 5
+[12:30:54] INFO  - Failed - MeghPIEmpAttendanceReportsTest-MPI_1746_MissingPunch_Reports_06-To verify this, do punch in from web and ensure "in punch from" displaying as "web" 
+[12:30:54] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

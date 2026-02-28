@@ -1,0 +1,3 @@
+[12:10:43] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-19-12-25-12-10-39-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidAttendanceTest.txt
+[12:10:49] INFO  - Passed - MeghPIAttendAndroidAttendanceTest-MPI_1388_Attendance_Tab_01-To verify this, login as employee and Click on quick action and choose apply regularization and raise the regularization request and ensure request is created.
+[12:10:49] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

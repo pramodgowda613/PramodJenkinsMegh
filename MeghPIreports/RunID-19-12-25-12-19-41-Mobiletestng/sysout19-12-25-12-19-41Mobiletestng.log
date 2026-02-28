@@ -1,0 +1,37 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-19 12:19:41
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+🔍 Searching for PENDING card with EmpID: Emp021 and Date: 18 Dec 2025
+✅ Found Pending card:
+Emptwentyone Morning shift
+#Emp021
+Thursday - 18 Dec 2025
+Pending
+In Time
+09:00 AM
+Out Time
+07:00 PM
+Reason
+ - 
+⚠️ APPROVE button became stale after click (expected — UI refreshed). Click was successful.
+🔁 Attempt 1 to open Manage screen
+✅ Manage screen opened successfully on attempt 1
+✅ Attendance button clicked successfully.
+Checking for first date: Monday - 01 Dec 2025
+Checking for first date: Monday - 01 Dec 2025
+---------------------------------------------------------------
+MeghPIAttendAndroidAttendanceTestMPI_1389_Attendance_Tab_02
+---------------------------------------------------------------
+Test case took: 222.9258 seconds
+Total TC Time: 00:03:42
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+===============================================
+

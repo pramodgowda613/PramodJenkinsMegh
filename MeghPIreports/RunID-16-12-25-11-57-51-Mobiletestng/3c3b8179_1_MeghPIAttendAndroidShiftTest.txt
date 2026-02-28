@@ -1,0 +1,12 @@
+[11:57:52] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-11-57-51-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[11:58:07] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[11:58:10] INFO  - PASS - Login With Password Button Is Clicked.
+[11:58:16] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[11:58:22] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[11:58:31] INFO  - PASS - Clicked On Login Button.
+[11:58:34] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[11:58:41] INFO  - PASS - Emp Shift Button On DashBoard Clicked Successfully.
+[11:58:45] INFO  - PASS - Navigated To Punch In Data Month.2025-11-03
+[11:58:47] INFO  - PASS - Clicked On First Working Date  Successfully.2025-11-03
+[11:58:50] INFO  - PASS - Shift Policy DropDown Clicked Successfully.
+[11:59:13] ERROR - FAIL - Error While Selecting Shift Policy.null

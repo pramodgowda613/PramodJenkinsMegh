@@ -1,0 +1,18 @@
+[14:16:55] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-14-16-55-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[14:17:11] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[14:17:14] INFO  - PASS - Login With Password Button Is Clicked.
+[14:17:20] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[14:17:27] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[14:17:36] INFO  - PASS - Clicked On Login Button.
+[14:17:39] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[14:17:43] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[14:17:49] INFO  - PASS - Clicked On OverTime Tab On Emp Attendance.
+[14:18:13] ERROR - FAIL - Error While Clicking On Shift  Button .An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [02ea29a9-0e85-472a-a228-51b1fb31aa59, findElement {value=//android.view.View[contains(@content-desc,'Shift Tab')], using=xpath}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 02ea29a9-0e85-472a-a228-51b1fb31aa59
+[14:18:28] ERROR - FAIL - Error While Navigating To Shift Requested Month .Failed to navigate to target month: Nov 2025

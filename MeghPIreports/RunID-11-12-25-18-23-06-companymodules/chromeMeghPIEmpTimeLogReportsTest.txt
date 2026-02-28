@@ -1,0 +1,27 @@
+[18:23:06] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-18-23-06-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[18:23:11] INFO  - PASS - Application Loaded Successfully.
+[18:23:13] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[18:23:15] INFO  - PASS - Login With Password Button Is Clicked.
+[18:23:18] INFO  - PASS - Sign in Text Is Displayed.
+[18:23:20] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[18:23:22] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[18:23:24] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:23:27] INFO  - PASS - Clicked On Login Button.
+[18:23:29] INFO  - PASS - Login Done  And Validated Successfully.
+[18:23:31] INFO  - PASS - Login Done Successfully.
+[18:23:37] INFO  - PASS - Report Button Clicked Successfully.
+[18:23:43] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[18:23:46] INFO  - PASS - LateOutTab Clicked Successfully.
+[18:23:48] INFO  - PASS - Filter Button Clicked Successfully.
+[18:23:55] INFO  - PASS - Year Selected Successfully.2025
+[18:24:01] INFO  - PASS - Month Selected Successfully.November
+[18:24:08] INFO  - PASS - Week Selected Successfully.
+[18:24:10] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[18:24:15] INFO  - PASS - From Date Selected Successfully.2025-11-03
+[18:24:17] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[18:24:23] INFO  - PASS - To Date Selected Successfully.2025-11-03
+[18:24:25] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[18:24:27] INFO  - PASS - Filter Save Button Clicked Successfully.
+[18:24:29] INFO  - PASS - Filtered Data Displayed Successfully.
+[18:24:29] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1766_Emp_LateOut_Reports_04-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date 
+[18:24:29] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

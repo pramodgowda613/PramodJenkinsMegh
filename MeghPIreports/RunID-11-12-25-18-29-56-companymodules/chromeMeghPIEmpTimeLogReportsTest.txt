@@ -1,0 +1,22 @@
+[18:29:56] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-18-29-56-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[18:30:01] INFO  - PASS - Application Loaded Successfully.
+[18:30:03] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[18:30:05] INFO  - PASS - Login With Password Button Is Clicked.
+[18:30:07] INFO  - PASS - Sign in Text Is Displayed.
+[18:30:10] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[18:30:12] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[18:30:14] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:30:16] INFO  - PASS - Clicked On Login Button.
+[18:30:18] INFO  - PASS - Login Done  And Validated Successfully.
+[18:30:21] INFO  - PASS - Login Done Successfully.
+[18:30:27] INFO  - PASS - Report Button Clicked Successfully.
+[18:30:33] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[18:30:35] INFO  - PASS - LateOutTab Clicked Successfully.
+[18:30:38] INFO  - PASS - Filter Button Clicked Successfully.
+[18:30:45] INFO  - PASS - Year Selected Successfully.2025
+[18:30:51] INFO  - PASS - Month Selected Successfully.November
+[18:30:56] INFO  - PASS - Week selected successfully: 5
+[18:30:59] INFO  - PASS - Filter Save Button Clicked Successfully.
+[18:31:01] INFO  - PASS - Filtered Data Displayed Successfully.2025-11-28
+[18:31:01] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1767_Emp_LateOut_Reports_05-To verify this, Do Late punch out as an employee during the last week of the previous month and then, in the late out reports, validate the filter functionality by selecting the last week. Ensure that the corresponding late punch out record is displayed..
+[18:31:01] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -5,12 +5,10 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.TimeoutException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -22,17 +20,15 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import base.LogResults;
-import base.initBase;
 import utils.Pramod;
 import utils.Utils;
 
 public class MeghLoginPage {
-
+	
 	WebDriver driver;
 	//LogResults logResults = new LogResults();
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String extractedOTP = "";
 	public String SignupOTP = "";
@@ -41,7 +37,10 @@ public class MeghLoginPage {
 	public String bodyText = "";
 	public String Empid = "";
 
+
 	public ArrayList<String> windowList;
+	
+	
 
 	public MeghLoginPage(WebDriver driver) {
 		this.driver = driver;
@@ -493,11 +492,15 @@ public class MeghLoginPage {
 	@FindBy(xpath = "//button[text()='Continue without saving']")
 	private WebElement ContinueWithoutSaving;
 	
+	@FindBy(xpath = "//img[@id='imgCaptcha']")
+	private WebElement CaptchaLoaded;
+	
+	
 
 	public boolean enterCompanyCode(String cmpcode) {
 		try {
-			Thread.sleep(4000);
-			utils.waitForEle(CompanyCode, "visible", "", 10);
+			
+			utils.waitForEle(CompanyCode, "visible", "", 30);
 			CompanyCode.sendKeys(cmpcode);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -510,7 +513,7 @@ public class MeghLoginPage {
 	public boolean loginWithPassButton() {
 		try {
 
-			utils.waitForEle(loginWithPasswrdButton, "visible", "", 10);
+			utils.waitForEle(loginWithPasswrdButton, "visible", "", 20);
 
 			loginWithPasswrdButton.click();
 
@@ -523,7 +526,7 @@ public class MeghLoginPage {
 
 	public boolean enterUserName(String user) {
 		try {
-			utils.waitForEle(userName, "visible", "", 10);
+			utils.waitForEle(userName, "visible", "", 20);
 			userName.sendKeys(user);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -535,7 +538,7 @@ public class MeghLoginPage {
 
 	public boolean enterPassword(String password) {
 		try {
-			utils.waitForEle(Passords, "visible", "", 10);
+			utils.waitForEle(Passords, "visible", "", 20);
 			Passords.sendKeys(password);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -547,9 +550,9 @@ public class MeghLoginPage {
 
 	public boolean captchaText(String captcha) {
 		try {
-
-			utils.waitForEle(captchaTextField, "visible", captcha);
-			captchaTextField.isDisplayed();
+			utils.waitForEle(captchaTextField, "visible", "", 20);
+			
+			
 			captchaTextField.sendKeys(captcha);
 
 		} catch (Exception e) {
@@ -562,8 +565,8 @@ public class MeghLoginPage {
 	public boolean clickLoginButton() {
 
 		try {
-			utils.waitForEle(signinButton, "visible", "", 10);
-			signinButton.isDisplayed();
+			utils.waitForEle(signinButton, "visible", "", 30);
+			
 
 			signinButton.click();
 		} catch (Exception e) {
@@ -579,7 +582,7 @@ public class MeghLoginPage {
 		try {
 
 			// Wait until login validation element is visible
-			utils.waitForEle(loginValidate, "visible", "", 20);
+			utils.waitForEle(loginValidate, "visible", "", 50);
 
 			// If notification icon is not displayed, throw error
 
@@ -591,56 +594,102 @@ public class MeghLoginPage {
 	}
 
 	public boolean loginValidation() {
-		try {
-			if (utils.waitForEle(loginValidate, "visible", "", 20)) {
-				return true;
-			}
-			if (utils.waitForEle(loginValidateNotificationIcon, "visible", "", 5)) {
-				return true;
-			}
-			if (CompanyCode.isDisplayed()) {
-				exceptionDesc ="Still the company signin page is displayed.";
-				return false;
-			}
-		} catch (Exception e) {
-			exceptionDesc = e.getMessage();
-		}
-		return false;
+
+	    int maxRetries = 5;
+	    int delay = 2000;
+	    exceptionDesc = "";
+
+	    try {
+
+	        for (int attempt = 1; attempt <= maxRetries; attempt++) {
+
+	            // ------------------------------------------------
+	            // 1️⃣ Check Login Success Indicators
+	            // ------------------------------------------------
+	            if (utils.waitForEle(loginValidate, "visible", "", 30)
+	                    || utils.waitForEle(loginValidateNotificationIcon, "visible", "", 30)) {
+
+	                // 🔄 Refresh AFTER login success to load all modules
+	                driver.navigate().refresh();
+	                Thread.sleep(delay);
+
+	                // Optional safety re-check after refresh
+	                if (utils.waitForEle(loginValidate, "visible", "", 30)
+	                        || utils.waitForEle(loginValidateNotificationIcon, "visible", "", 30)) {
+	                    return true;
+	                }
+	            }
+
+	            // ------------------------------------------------
+	            // 2️⃣ Login not successful → Refresh & Retry
+	            // ------------------------------------------------
+	            driver.navigate().refresh();
+	            Thread.sleep(delay);
+
+	            // ------------------------------------------------
+	            // 3️⃣ Still on Company sign-in page
+	            // ------------------------------------------------
+	            if (CompanyCode.isDisplayed()) {
+	                exceptionDesc = "Attempt " + attempt +
+	                        ": Login page still visible after refresh.";
+	            }
+
+	            if (attempt < maxRetries) {
+	                Thread.sleep(delay);
+	            }
+	        }
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	    }
+
+	    return false;
 	}
+
+
+
 
 	// firstcase
 	public boolean signinTextValidation() {
-		int attempts = 0;
-		while (attempts < 2) {
-			try {
-				Thread.sleep(4000);
-				utils.waitForEle(signInText, "visible", "", 20);
-				if (signInText.isDisplayed()) {
-					return true;
-				} else {
-					throw new Exception("Sign-in text not visible.");
-				}
-			} catch (Exception e) {
-				attempts++;
-				if (attempts >= 2) {
-					exceptionDesc = "Sign-in text validation failed: " + e.getMessage();
-					return false;
-				}
-				// Small wait before retry
-				try {
-					Thread.sleep(2000);
-				} catch (InterruptedException ie) {
-				}
-			}
-		}
-		return false;
+	    int maxAttempts = 3;
+	    for (int attempt = 1; attempt <= maxAttempts; attempt++) {
+	        try {
+	            // Step 1: Wait for page load (generic)
+	        	
+	            Pramod.waitForPageToLoad(driver, 30);
+	            
+	            // Step 2: Wait for SignIn text (page-specific)
+	            utils.waitForEle(signInText, "visible", "", 20);
+	            utils.waitForEle(CaptchaLoaded, "visible", "", 30);
+	            if (CaptchaLoaded.isDisplayed()) {
+	                // Validate Forgot Password link as well
+	                if (ForgotPassword.isDisplayed() && ForgotPassword.isEnabled() && CaptchaLoaded.isDisplayed()){
+	                    return true;
+	                } else {
+	                    throw new Exception("Forgot Password link not visible or disabled.");
+	                }
+	            } else {
+	                throw new Exception("Sign-in text not visible.");
+	            }
+
+	        } catch (Exception e) {
+	            exceptionDesc = "Attempt " + attempt + " failed: " + e.getMessage();
+
+	            if (attempt == maxAttempts) {
+	                return false; // stop retrying after last attempt
+	            }
+	        }
+	    }
+	    return false;
 	}
+
+
 
 	// 2ndTestCase
 	public boolean companyCodeErrorMsg() {
 		try {
 
-			utils.waitForEle(companyCodeErrorMsg, "visible", "", 10);
+			utils.waitForEle(companyCodeErrorMsg, "visible", "", 30);
 			companyCodeErrorMsg.isDisplayed();
 
 		} catch (Exception e) {
@@ -655,7 +704,7 @@ public class MeghLoginPage {
 	public boolean companyCodeValidationMsg() {
 		try {
 
-			utils.waitForEle(companyCodeValidationMsg, "visible", "", 10);
+			utils.waitForEle(companyCodeValidationMsg, "visible", "", 30);
 			companyCodeValidationMsg.isDisplayed();
 
 		} catch (Exception e) {
@@ -670,7 +719,7 @@ public class MeghLoginPage {
 	public boolean loginWithOTP() {
 		try {
 
-			utils.waitForEle(loginWithOTP, "visible", "", 10);
+			utils.waitForEle(loginWithOTP, "visible", "", 30);
 			loginWithOTP.isDisplayed();
 			loginWithOTP.click();
 
@@ -684,7 +733,7 @@ public class MeghLoginPage {
 	public boolean loginWithOtpUserName(String user) {
 		try {
 
-			utils.waitForEle(loginWithOtpUserName, "visible", "", 10);
+			utils.waitForEle(loginWithOtpUserName, "visible", "", 30);
 			loginWithOtpUserName.isDisplayed();
 			loginWithOtpUserName.sendKeys(user);
 
@@ -698,7 +747,7 @@ public class MeghLoginPage {
 	public boolean loginWithOtpCaptcha(String captcha) {
 		try {
 
-			utils.waitForEle(loginWithOtpCaptcha, "visible", "", 10);
+			utils.waitForEle(loginWithOtpCaptcha, "visible", "", 30);
 			loginWithOtpCaptcha.isDisplayed();
 			loginWithOtpCaptcha.sendKeys(captcha);
 
@@ -712,7 +761,7 @@ public class MeghLoginPage {
 	public boolean requestOTPButton() {
 		try {
 
-			utils.waitForEle(requestOTPButton, "visible", "", 10);
+			utils.waitForEle(requestOTPButton, "visible", "", 30);
 			requestOTPButton.isDisplayed();
 			requestOTPButton.click();
 
@@ -726,7 +775,7 @@ public class MeghLoginPage {
 	public boolean EnterOTPLogin(String loginWithOTP) {
 		try {
 
-			utils.waitForEle(EnterOTPLogin, "visible", "", 10);
+			utils.waitForEle(EnterOTPLogin, "visible", "", 30);
 			EnterOTPLogin.isDisplayed();
 			EnterOTPLogin.sendKeys(loginWithOTP);
 
@@ -740,7 +789,7 @@ public class MeghLoginPage {
 	public boolean EnterCaptchaOTPLogin(String captcha) {
 		try {
 
-			utils.waitForEle(EnterCaptchaOTPLogin, "visible", "", 10);
+			utils.waitForEle(EnterCaptchaOTPLogin, "visible", "", 30);
 			EnterCaptchaOTPLogin.isDisplayed();
 			EnterCaptchaOTPLogin.sendKeys(captcha);
 
@@ -754,23 +803,21 @@ public class MeghLoginPage {
 	public boolean VerifyAndLoginButtonOTP() {
 		try {
 
-			Thread.sleep(4000);
-			utils.waitForEle(VerifyAndLoginButtonOTP, "visible", "", 15);
-			
-			VerifyAndLoginButtonOTP.click();
+			Thread.sleep(2000);
+			return Utils.safeClick(driver, VerifyAndLoginButtonOTP);
+
 
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
 		}
-		return true;
 	}
 
 	// 8thTestCase
 	public boolean invalidMsg() {
 		try {
 
-			utils.waitForEle(InvalidMsg, "visible", "", 10);
+			utils.waitForEle(InvalidMsg, "visible", "", 30);
 			InvalidMsg.isDisplayed();
 
 		} catch (Exception e) {
@@ -784,7 +831,7 @@ public class MeghLoginPage {
 	public boolean InvalidPasswordValidation() {
 		try {
 
-			utils.waitForEle(InvalidPasswordValidation, "visible", "", 10);
+			utils.waitForEle(InvalidPasswordValidation, "visible", "", 30);
 			InvalidPasswordValidation.isDisplayed();
 
 		} catch (Exception e) {
@@ -799,7 +846,7 @@ public class MeghLoginPage {
 	public boolean NavigateBackToCompanyCode() {
 		try {
 
-			utils.waitForEle(NavigateBackToCompanyCode, "visible", "", 10);
+			utils.waitForEle(NavigateBackToCompanyCode, "visible", "", 30);
 			NavigateBackToCompanyCode.isDisplayed();
 
 		} catch (Exception e) {
@@ -813,7 +860,7 @@ public class MeghLoginPage {
 	public boolean ForgotPassword() {
 		try {
 
-			utils.waitForEle(ForgotPassword, "visible", "", 10);
+			utils.waitForEle(ForgotPassword, "visible", "", 30);
 			ForgotPassword.isDisplayed();
 			ForgotPassword.click();
 
@@ -827,7 +874,7 @@ public class MeghLoginPage {
 	public boolean TxtEmailID(String user) {
 		try {
 
-			utils.waitForEle(TxtEmailID, "visible", "", 10);
+			utils.waitForEle(TxtEmailID, "visible", "", 30);
 			TxtEmailID.isDisplayed();
 			TxtEmailID.sendKeys(user);
 
@@ -841,7 +888,7 @@ public class MeghLoginPage {
 	public boolean RequestOTPFP() {
 		try {
 
-			utils.waitForEle(RequestOTPFP, "visible", "", 10);
+			utils.waitForEle(RequestOTPFP, "visible", "", 30);
 			RequestOTPFP.isDisplayed();
 			RequestOTPFP.click();
 
@@ -855,7 +902,7 @@ public class MeghLoginPage {
 	public boolean OTPTextField(String OTP) {
 		try {
 
-			utils.waitForEle(OTPTextField, "visible", "", 10);
+			utils.waitForEle(OTPTextField, "visible", "", 30);
 			OTPTextField.isDisplayed();
 			OTPTextField.sendKeys(OTP);
 
@@ -880,7 +927,7 @@ public class MeghLoginPage {
 	public boolean ResendOTP() {
 		try {
 
-			utils.waitForEle(ResendOTP, "visible", "", 10);
+			utils.waitForEle(ResendOTP, "visible", "", 30);
 			ResendOTP.isDisplayed();
 			ResendOTP.click();
 
@@ -894,7 +941,7 @@ public class MeghLoginPage {
 	public boolean OTPSentSuccess() {
 		try {
 
-			utils.waitForEle(OTPSentSuccess, "visible", "", 10);
+			utils.waitForEle(OTPSentSuccess, "visible", "", 30);
 			OTPSentSuccess.isDisplayed();
 
 		} catch (Exception e) {
@@ -908,7 +955,7 @@ public class MeghLoginPage {
 	public boolean PasswordCriteria() {
 		try {
 
-			utils.waitForEle(PasswordCriteria, "visible", "", 10);
+			utils.waitForEle(PasswordCriteria, "visible", "", 30);
 			PasswordCriteria.isDisplayed();
 
 		} catch (Exception e) {
@@ -922,7 +969,7 @@ public class MeghLoginPage {
 	public boolean CreateAnAccount() {
 		try {
 			Thread.sleep(2000);
-			utils.waitForEle(CreateAnAccount, "visible", "", 10);
+			utils.waitForEle(CreateAnAccount, "visible", "", 30);
 
 			CreateAnAccount.click();
 
@@ -936,7 +983,7 @@ public class MeghLoginPage {
 	public boolean FirstName(String firstname) {
 		try {
 
-			utils.waitForEle(FirstName, "visible", "", 10);
+			utils.waitForEle(FirstName, "visible", "", 30);
 			FirstName.isDisplayed();
 			FirstName.sendKeys(firstname);
 
@@ -950,7 +997,7 @@ public class MeghLoginPage {
 	public boolean LastName(String lastname) {
 		try {
 
-			utils.waitForEle(LastName, "visible", "", 10);
+			utils.waitForEle(LastName, "visible", "", 30);
 			LastName.isDisplayed();
 			LastName.sendKeys(lastname);
 
@@ -964,7 +1011,7 @@ public class MeghLoginPage {
 	public boolean Email(String emailid) {
 		try {
 
-			utils.waitForEle(Email, "visible", "", 10);
+			utils.waitForEle(Email, "visible", "", 30);
 			Email.isDisplayed();
 			Email.sendKeys(emailid);
 
@@ -978,7 +1025,7 @@ public class MeghLoginPage {
 	public boolean PhoneNumber(String phonenumber) {
 		try {
 
-			utils.waitForEle(PhoneNumber, "visible", "", 10);
+			utils.waitForEle(PhoneNumber, "visible", "", 30);
 			PhoneNumber.isDisplayed();
 			PhoneNumber.sendKeys(phonenumber);
 
@@ -992,7 +1039,7 @@ public class MeghLoginPage {
 	public boolean CreatePassword(String createpassword) {
 		try {
 
-			utils.waitForEle(CreatePassword, "visible", "", 10);
+			utils.waitForEle(CreatePassword, "visible", "", 30);
 			CreatePassword.isDisplayed();
 			CreatePassword.sendKeys(createpassword);
 
@@ -1006,7 +1053,7 @@ public class MeghLoginPage {
 	public boolean ConfirmPassword(String confirmpassword) {
 		try {
 
-			utils.waitForEle(ConfirmPassword, "visible", "", 10);
+			utils.waitForEle(ConfirmPassword, "visible", "", 30);
 			ConfirmPassword.isDisplayed();
 			ConfirmPassword.sendKeys(confirmpassword);
 
@@ -1020,7 +1067,7 @@ public class MeghLoginPage {
 	public boolean SignUpButton() {
 		try {
 
-			utils.waitForEle(SignUpButton, "visible", "", 10);
+			utils.waitForEle(SignUpButton, "visible", "", 30);
 			SignUpButton.isDisplayed();
 			SignUpButton.click();
 
@@ -1034,7 +1081,7 @@ public class MeghLoginPage {
 	public boolean CompanyName(String companyname) {
 		try {
 
-			utils.waitForEle(CompanyName, "visible", "", 10);
+			utils.waitForEle(CompanyName, "visible", "", 30);
 			CompanyName.isDisplayed();
 			CompanyName.sendKeys(companyname);
 
@@ -1048,7 +1095,7 @@ public class MeghLoginPage {
 	public boolean CompanyCode(String companycodes) {
 		try {
 
-			utils.waitForEle(CompanyCode, "visible", "", 10);
+			utils.waitForEle(CompanyCode, "visible", "", 30);
 			CompanyCode.isDisplayed();
 			CompanyCode.sendKeys(companycodes);
 
@@ -1062,7 +1109,7 @@ public class MeghLoginPage {
 	public boolean selectCompanyHeadCount(String headcount) {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(CompanyHeadCount, "visible", "", 10);
+			utils.waitForEle(CompanyHeadCount, "visible", "", 30);
 			Select select = new Select(CompanyHeadCount);
 			select.selectByVisibleText(headcount);
 
@@ -1075,7 +1122,7 @@ public class MeghLoginPage {
 
 	public boolean IndustryType(String industrytype) {
 		try {
-			utils.waitForEle(IndustryType, "visible", "", 10);
+			utils.waitForEle(IndustryType, "visible", "", 30);
 			Select select = new Select(IndustryType);
 			select.selectByVisibleText(industrytype);
 
@@ -1088,7 +1135,7 @@ public class MeghLoginPage {
 
 	public boolean YourRole(String yourrole) {
 		try {
-			utils.waitForEle(YourRole, "visible", "", 10);
+			utils.waitForEle(YourRole, "visible", "", 30);
 			Select select = new Select(YourRole);
 			select.selectByVisibleText(yourrole);
 
@@ -1102,7 +1149,7 @@ public class MeghLoginPage {
 	public boolean CompleteButton() {
 		try {
 
-			utils.waitForEle(CompleteButton, "visible", "", 10);
+			utils.waitForEle(CompleteButton, "visible", "", 30);
 			CompleteButton.isDisplayed();
 			CompleteButton.click();
 
@@ -1116,7 +1163,7 @@ public class MeghLoginPage {
 	public boolean EnterOTPSignUp1() {
 		try {
 
-			utils.waitForEle(EnterOTPSignUp, "visible", "", 10);
+			utils.waitForEle(EnterOTPSignUp, "visible", "", 30);
 			EnterOTPSignUp.isDisplayed();
 
 		} catch (Exception e) {
@@ -1129,7 +1176,7 @@ public class MeghLoginPage {
 	public boolean EnterOTPSignUp(String OTP) {
 		try {
 
-			utils.waitForEle(EnterOTPSignUp, "visible", "", 10);
+			utils.waitForEle(EnterOTPSignUp, "visible", "", 30);
 			EnterOTPSignUp.isDisplayed();
 			EnterOTPSignUp.sendKeys(OTP);
 
@@ -1143,7 +1190,7 @@ public class MeghLoginPage {
 	public boolean EnterCaptchaSignUp(String captcha) {
 		try {
 
-			utils.waitForEle(EnterCaptchaSignUp, "visible", "", 10);
+			utils.waitForEle(EnterCaptchaSignUp, "visible", "", 30);
 			EnterCaptchaSignUp.isDisplayed();
 			EnterCaptchaSignUp.sendKeys(captcha);
 
@@ -1157,7 +1204,7 @@ public class MeghLoginPage {
 	public boolean VerifyAndLoginButton() {
 		try {
 
-			utils.waitForEle(VerifyAndLoginButton, "visible", "", 10);
+			utils.waitForEle(VerifyAndLoginButton, "visible", "", 30);
 			VerifyAndLoginButton.isDisplayed();
 			VerifyAndLoginButton.click();
 
@@ -1171,7 +1218,7 @@ public class MeghLoginPage {
 	public boolean VMSSelected() {
 		try {
 
-			utils.waitForEle(VMSSelected, "visible", "", 10);
+			utils.waitForEle(VMSSelected, "visible", "", 30);
 			VMSSelected.isDisplayed();
 			VMSSelected.click();
 
@@ -1185,7 +1232,7 @@ public class MeghLoginPage {
 	public boolean CMSSelected() {
 		try {
 
-			utils.waitForEle(CMSSelected, "visible", "", 10);
+			utils.waitForEle(CMSSelected, "visible", "", 30);
 			CMSSelected.isDisplayed();
 			CMSSelected.click();
 
@@ -1199,7 +1246,7 @@ public class MeghLoginPage {
 	public boolean SaveButton() {
 		try {
 
-			utils.waitForEle(SaveButton, "visible", "", 10);
+			utils.waitForEle(SaveButton, "visible", "", 30);
 			SaveButton.isDisplayed();
 			SaveButton.click();
 
@@ -1212,11 +1259,11 @@ public class MeghLoginPage {
 
 	public boolean PlanF() {
 		try {
-			Thread.sleep(4000);
+			Thread.sleep(2000);
 			JavascriptExecutor exe = (JavascriptExecutor) driver;
 			exe.executeScript("arguments[0].scrollIntoView(true);", PlanF);
 
-			utils.waitForEle(PlanF, "visible", "", 10);
+			utils.waitForEle(PlanF, "visible", "", 20);
 			PlanF.isDisplayed();
 			PlanF.click();
 
@@ -1229,8 +1276,8 @@ public class MeghLoginPage {
 
 	public boolean MakePaymentButton() {
 		try {
-			Thread.sleep(4000);
-			utils.waitForEle(MakePaymentButton, "visible", "", 10);
+			
+			utils.waitForEle(MakePaymentButton, "visible", "", 20);
 			MakePaymentButton.isDisplayed();
 			MakePaymentButton.click();
 
@@ -1243,8 +1290,8 @@ public class MeghLoginPage {
 
 	public boolean CardsCredit() {
 		try {
-			Thread.sleep(5000);
-			utils.waitForEle(CardsCredit, "visible", "", 30);
+			
+			utils.waitForEle(CardsCredit, "visible", "", 40);
 			
 			CardsCredit.click();
 
@@ -1258,7 +1305,7 @@ public class MeghLoginPage {
 	public boolean CardNumber(String cardnumber) {
 		try {
 
-			utils.waitForEle(CardNumber, "visible", "", 10);
+			utils.waitForEle(CardNumber, "visible", "", 30);
 			CardNumber.isDisplayed();
 			CardNumber.sendKeys(cardnumber);
 
@@ -1272,7 +1319,7 @@ public class MeghLoginPage {
 	public boolean CardExpiry(String cardexpiry) {
 		try {
 
-			utils.waitForEle(CardExpiry, "visible", "", 10);
+			utils.waitForEle(CardExpiry, "visible", "", 30);
 			CardExpiry.isDisplayed();
 			CardExpiry.sendKeys(cardexpiry);
 
@@ -1286,7 +1333,7 @@ public class MeghLoginPage {
 	public boolean CardCVV(String cardcvv) {
 		try {
 
-			utils.waitForEle(CardCVV, "visible", "", 10);
+			utils.waitForEle(CardCVV, "visible", "", 30);
 			CardCVV.isDisplayed();
 			CardCVV.sendKeys(cardcvv);
 
@@ -1300,7 +1347,7 @@ public class MeghLoginPage {
 	public boolean cardOwnerName(String cardownername) {
 		try {
 
-			utils.waitForEle(cardOwnerName, "visible", "", 10);
+			utils.waitForEle(cardOwnerName, "visible", "", 30);
 			cardOwnerName.isDisplayed();
 			cardOwnerName.sendKeys(cardownername);
 
@@ -1355,23 +1402,20 @@ public class MeghLoginPage {
 
 	public boolean BackToLoginButton() {
 		try {
-
-			utils.waitForEle(BackToLoginButton, "visible", "", 30);
-			BackToLoginButton.isDisplayed();
-			BackToLoginButton.click();
+			Thread.sleep(2000);
+			return Utils.safeClick(driver, BackToLoginButton);
 
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
 		}
-		return true;
 	}
 
 	public boolean CompanyDetails() {
 		try {
-
-			utils.waitForEle(CompanyDetails, "visible", "", 15);
-			CompanyDetails.isDisplayed();
+			Thread.sleep(2000);
+			utils.waitForEle(CompanyDetails, "visible", "", 30);
+		
 			CompanyDetails.click();
 
 		} catch (Exception e) {
@@ -1393,7 +1437,7 @@ public class MeghLoginPage {
 			File file = new File(imgpath);
 			String canonicalPath = file.getCanonicalPath();
 
-			utils.waitForEle(UploadButton, "visible", "", 10);
+			utils.waitForEle(UploadButton, "visible", "", 30);
 			UploadButton.sendKeys(canonicalPath);
 
 		} catch (Exception e) {
@@ -1406,7 +1450,7 @@ public class MeghLoginPage {
 	public boolean CompanyWebsite(String companywebsite) {
 		try {
 
-			utils.waitForEle(CompanyWebsite, "visible", "", 10);
+			utils.waitForEle(CompanyWebsite, "visible", "", 30);
 			CompanyWebsite.isDisplayed();
 			CompanyWebsite.sendKeys(companywebsite);
 
@@ -1420,7 +1464,7 @@ public class MeghLoginPage {
 	public boolean AddDetails() {
 		try {
 
-			utils.waitForEle(AddDetails, "visible", "", 10);
+			utils.waitForEle(AddDetails, "visible", "", 30);
 			AddDetails.isDisplayed();
 			AddDetails.click();
 
@@ -1434,7 +1478,7 @@ public class MeghLoginPage {
 	public boolean SuccessMsg() {
 		try {
 
-			utils.waitForEle(SuccessMsg, "visible", "", 10);
+			utils.waitForEle(SuccessMsg, "visible", "", 30);
 			SuccessMsg.isDisplayed();
 
 		} catch (Exception e) {
@@ -1447,7 +1491,7 @@ public class MeghLoginPage {
 	public boolean AddAddress() {
 		try {
 
-			utils.waitForEle(AddAddress, "visible", "", 10);
+			utils.waitForEle(AddAddress, "visible", "", 30);
 			AddAddress.isDisplayed();
 			AddAddress.click();
 
@@ -1460,7 +1504,7 @@ public class MeghLoginPage {
 
 	public boolean CountryIndiaSelected(String country) {
 		try {
-			utils.waitForEle(CountryIndiaSelected, "visible", "", 10);
+			utils.waitForEle(CountryIndiaSelected, "visible", "", 30);
 			Select select = new Select(CountryIndiaSelected);
 			select.selectByVisibleText(country);
 
@@ -1474,7 +1518,7 @@ public class MeghLoginPage {
 	public boolean StateDropdownSelected(String state) {
 		try {
 			Thread.sleep(4000);
-			utils.waitForEle(StateDropdownSelected, "visible", "", 10);
+			utils.waitForEle(StateDropdownSelected, "visible", "", 30);
 			Select select = new Select(StateDropdownSelected);
 			select.selectByVisibleText(state);
 
@@ -1487,8 +1531,8 @@ public class MeghLoginPage {
 
 	public boolean SelectCityDropdown() {
 		try {
-			Thread.sleep(3000);
-			utils.waitForEle(SelectCityDropdown, "visible", "", 10);
+			Thread.sleep(4000);
+			utils.waitForEle(SelectCityDropdown, "visible", "", 30);
 			Select select = new Select(SelectCityDropdown);
 			select.selectByIndex(1);
 
@@ -1502,7 +1546,7 @@ public class MeghLoginPage {
 	public boolean AddressTextfield(String companyaddress) {
 		try {
 
-			utils.waitForEle(AddressTextfield, "visible", "", 10);
+			utils.waitForEle(AddressTextfield, "visible", "", 30);
 			AddressTextfield.isDisplayed();
 			AddressTextfield.sendKeys(companyaddress);
 
@@ -1516,7 +1560,7 @@ public class MeghLoginPage {
 	public boolean PinCode(String zipcode) {
 		try {
 
-			utils.waitForEle(PinCode, "visible", "", 10);
+			utils.waitForEle(PinCode, "visible", "", 30);
 			PinCode.isDisplayed();
 			PinCode.sendKeys(zipcode);
 
@@ -1530,7 +1574,7 @@ public class MeghLoginPage {
 	public boolean AddAddressButton() {
 		try {
           Thread.sleep(4000);
-            utils.waitForEle(AddAddressButton, "visible", "", 10);
+            utils.waitForEle(AddAddressButton, "visible", "", 30);
 	
 			AddAddressButton.click();
 
@@ -1543,8 +1587,8 @@ public class MeghLoginPage {
 
 	public boolean ContactDetails() {
 		try {
-
-			utils.waitForEle(ContactDetails, "visible", "", 10);
+			Thread.sleep(4000);
+			utils.waitForEle(ContactDetails, "visible", "", 30);
 			ContactDetails.isDisplayed();
 			ContactDetails.click();
 
@@ -1558,7 +1602,7 @@ public class MeghLoginPage {
 	public boolean PrimaryContactName(String firstname) {
 		try {
 
-			utils.waitForEle(PrimaryContactName, "visible", "", 10);
+			utils.waitForEle(PrimaryContactName, "visible", "", 30);
 			PrimaryContactName.isDisplayed();
 			PrimaryContactName.sendKeys(firstname);
 
@@ -1572,7 +1616,7 @@ public class MeghLoginPage {
 	public boolean PrimaryContactNumber(String phonenumber) {
 		try {
 
-			utils.waitForEle(PrimaryContactNumber, "visible", "", 10);
+			utils.waitForEle(PrimaryContactNumber, "visible", "", 30);
 			PrimaryContactNumber.isDisplayed();
 			PrimaryContactNumber.sendKeys(phonenumber);
 
@@ -1586,7 +1630,7 @@ public class MeghLoginPage {
 	public boolean PrimaryContactEmail(String emailid) {
 		try {
 
-			utils.waitForEle(PrimaryContactEmail, "visible", "", 10);
+			utils.waitForEle(PrimaryContactEmail, "visible", "", 30);
 			PrimaryContactEmail.isDisplayed();
 			PrimaryContactEmail.sendKeys(emailid);
 
@@ -1600,7 +1644,7 @@ public class MeghLoginPage {
 	public boolean AddContactButton() {
 		try {
 
-			utils.waitForEle(AddContactButton, "visible", "", 10);
+			utils.waitForEle(AddContactButton, "visible", "", 30);
 			AddContactButton.isDisplayed();
 			AddContactButton.click();
 
@@ -1614,7 +1658,7 @@ public class MeghLoginPage {
 	public boolean OfficeSetup() {
 		try {
 
-			utils.waitForEle(OfficeSetup, "visible", "", 10);
+			utils.waitForEle(OfficeSetup, "visible", "", 30);
 			OfficeSetup.isDisplayed();
 			OfficeSetup.click();
 
@@ -1628,7 +1672,7 @@ public class MeghLoginPage {
 	public boolean AddOffice() {
 		try {
 
-			utils.waitForEle(AddOffice, "visible", "", 10);
+			utils.waitForEle(AddOffice, "visible", "", 30);
 			AddOffice.isDisplayed();
 			AddOffice.click();
 
@@ -1642,7 +1686,7 @@ public class MeghLoginPage {
 	public boolean OfficeName(String officename) {
 		try {
 
-			utils.waitForEle(OfficeName, "visible", "", 10);
+			utils.waitForEle(OfficeName, "visible", "", 30);
 			OfficeName.isDisplayed();
 			OfficeName.sendKeys(officename);
 
@@ -1655,7 +1699,7 @@ public class MeghLoginPage {
 
 	public boolean CompanyLocationOfficeType(String officetype) {
 		try {
-			utils.waitForEle(CompanyLocationOfficeType, "visible", "", 10);
+			utils.waitForEle(CompanyLocationOfficeType, "visible", "", 30);
 			Select select = new Select(CompanyLocationOfficeType);
 			select.selectByVisibleText(officetype);
 
@@ -1669,7 +1713,7 @@ public class MeghLoginPage {
 	public boolean OfficeAddress(String companyaddress) {
 		try {
 
-			utils.waitForEle(OfficeAddress, "visible", "", 10);
+			utils.waitForEle(OfficeAddress, "visible", "", 30);
 			OfficeAddress.isDisplayed();
 			OfficeAddress.sendKeys(companyaddress);
 
@@ -1682,7 +1726,7 @@ public class MeghLoginPage {
 
 	public boolean OfficeCountry(String country) {
 		try {
-			utils.waitForEle(OfficeCountry, "visible", "", 10);
+			utils.waitForEle(OfficeCountry, "visible", "", 30);
 			Select select = new Select(OfficeCountry);
 			select.selectByVisibleText(country);
 
@@ -1696,7 +1740,7 @@ public class MeghLoginPage {
 	public boolean OfficeState(String state) {
 		try {
 			Thread.sleep(4000);
-			utils.waitForEle(OfficeState, "visible", "", 10);
+			utils.waitForEle(OfficeState, "visible", "", 30);
 			Select select = new Select(OfficeState);
 			select.selectByVisibleText(state);
 
@@ -1710,7 +1754,7 @@ public class MeghLoginPage {
 	public boolean OfficeCity() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(OfficeCity, "visible", "", 10);
+			utils.waitForEle(OfficeCity, "visible", "", 30);
 			Select select = new Select(OfficeCity);
 			select.selectByIndex(1);
 
@@ -1724,7 +1768,7 @@ public class MeghLoginPage {
 	public boolean AddOfficeSave() {
 		try {
 
-			utils.waitForEle(AddOfficeSave, "visible", "", 10);
+			utils.waitForEle(AddOfficeSave, "visible", "", 30);
 			AddOfficeSave.isDisplayed();
 			AddOfficeSave.click();
 
@@ -1738,7 +1782,7 @@ public class MeghLoginPage {
 	public boolean AddDepartment() {
 		try {
 
-			utils.waitForEle(AddDepartment, "visible", "", 10);
+			utils.waitForEle(AddDepartment, "visible", "", 30);
 			AddDepartment.isDisplayed();
 			AddDepartment.click();
 
@@ -1752,7 +1796,7 @@ public class MeghLoginPage {
 	public boolean DepartmentName(String deptname) {
 		try {
 
-			utils.waitForEle(DepartmentName, "visible", "", 10);
+			utils.waitForEle(DepartmentName, "visible", "", 30);
 			DepartmentName.isDisplayed();
 			DepartmentName.sendKeys(deptname);
 
@@ -1766,7 +1810,7 @@ public class MeghLoginPage {
 	public boolean AssignOffice(String officename) {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(AssignOffice, "visible", "", 10);
+			utils.waitForEle(AssignOffice, "visible", "", 30);
 			Select select = new Select(AssignOffice);
 			select.selectByVisibleText(officename);
 
@@ -1780,7 +1824,7 @@ public class MeghLoginPage {
 	public boolean AddDeptSave() {
 		try {
 
-			utils.waitForEle(AddDeptSave, "visible", "", 10);
+			utils.waitForEle(AddDeptSave, "visible", "", 30);
 			AddDeptSave.isDisplayed();
 			AddDeptSave.click();
 
@@ -1794,7 +1838,7 @@ public class MeghLoginPage {
 	public boolean PoliciesButton() {
 		try {
 
-			utils.waitForEle(PoliciesButton, "visible", "", 10);
+			utils.waitForEle(PoliciesButton, "visible", "", 30);
 			PoliciesButton.isDisplayed();
 			PoliciesButton.click();
 
@@ -1812,7 +1856,7 @@ public class MeghLoginPage {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("arguments[0].scrollIntoView(true);", UseAsDefaultButton);
 			Thread.sleep(4000);
-			utils.waitForEle(UseAsDefaultButton, "visible", "", 10);
+			utils.waitForEle(UseAsDefaultButton, "visible", "", 30);
 			UseAsDefaultButton.isDisplayed();
 			UseAsDefaultButton.click();
 
@@ -1826,7 +1870,7 @@ public class MeghLoginPage {
 	public boolean GeneralSettings() {
 		try {
 
-			utils.waitForEle(GeneralSettings, "visible", "", 10);
+			utils.waitForEle(GeneralSettings, "visible", "", 30);
 			GeneralSettings.isDisplayed();
 			GeneralSettings.click();
 
@@ -1840,7 +1884,7 @@ public class MeghLoginPage {
 	public boolean TimeFormat() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(TimeFormat, "visible", "", 10);
+			utils.waitForEle(TimeFormat, "visible", "", 30);
 			Select select = new Select(TimeFormat);
 			select.selectByVisibleText("24 hours");
 
@@ -1854,9 +1898,9 @@ public class MeghLoginPage {
 	public boolean TimeZone() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(TimeZone, "visible", "", 10);
+			utils.waitForEle(TimeZone, "visible", "", 30);
 			Select select = new Select(TimeZone);
-			select.selectByVisibleText("UTC+05:30: Chennai, Kolkata, Mumbai");
+			select.selectByVisibleText("(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi (India Standard Time)");
 
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -1868,7 +1912,7 @@ public class MeghLoginPage {
 	public boolean TwoStepVerification() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(TwoStepVerification, "visible", "", 10);
+			utils.waitForEle(TwoStepVerification, "visible", "", 30);
 			Select select = new Select(TwoStepVerification);
 			select.selectByVisibleText("No");
 
@@ -1882,7 +1926,7 @@ public class MeghLoginPage {
 	public boolean DateFormat() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(DateFormat, "visible", "", 10);
+			utils.waitForEle(DateFormat, "visible", "", 30);
 			Select select = new Select(DateFormat);
 			select.selectByIndex(2);
 
@@ -1896,7 +1940,7 @@ public class MeghLoginPage {
 	public boolean FinancialYear() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(FinancialYear, "visible", "", 10);
+			utils.waitForEle(FinancialYear, "visible", "", 30);
 			Select select = new Select(FinancialYear);
 			select.selectByIndex(2);
 
@@ -1910,7 +1954,7 @@ public class MeghLoginPage {
 	public boolean GeneralSettingsSave() {
 		try {
 
-			utils.waitForEle(GeneralSettingsSave, "visible", "", 10);
+			utils.waitForEle(GeneralSettingsSave, "visible", "", 30);
 			GeneralSettingsSave.isDisplayed();
 			GeneralSettingsSave.click();
 
@@ -1924,7 +1968,7 @@ public class MeghLoginPage {
 	public boolean PersonalSetting() {
 		try {
 
-			utils.waitForEle(PersonalSetting, "visible", "", 10);
+			utils.waitForEle(PersonalSetting, "visible", "", 30);
 			PersonalSetting.isDisplayed();
 			PersonalSetting.click();
 
@@ -1938,7 +1982,7 @@ public class MeghLoginPage {
 	public boolean EmployeeIDDropdown() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(EmployeeIDDropdown, "visible", "", 10);
+			utils.waitForEle(EmployeeIDDropdown, "visible", "", 30);
 			Select select = new Select(EmployeeIDDropdown);
 			select.selectByVisibleText("No");
 
@@ -1952,7 +1996,7 @@ public class MeghLoginPage {
 	public boolean EmployeeID(String deptname) {
 		try {
 
-			utils.waitForEle(EmployeeID, "visible", "", 10);
+			utils.waitForEle(EmployeeID, "visible", "", 30);
 			EmployeeID.isDisplayed();
 			EmployeeID.sendKeys(deptname);
 
@@ -1966,7 +2010,7 @@ public class MeghLoginPage {
 	public boolean PersonalSettingSave() {
 		try {
 
-			utils.waitForEle(PersonalSettingSave, "visible", "", 10);
+			utils.waitForEle(PersonalSettingSave, "visible", "", 30);
 			PersonalSettingSave.isDisplayed();
 			PersonalSettingSave.click();
 
@@ -1979,20 +2023,20 @@ public class MeghLoginPage {
 
 	public boolean GoToDashBoard() {
 		try {
-			Thread.sleep(6000);
+			Thread.sleep(2000);
 
-			if (utils.waitForEle(GoToDashBoard, "visible", "", 10)) {
+			if (utils.waitForEle(GoToDashBoard, "visible", "", 30)) {
 				GoToDashBoard.click();
-				Thread.sleep(8000);
+				Thread.sleep(3000);
 			} else {
 				// GoToDashBoard not visible — perform alternate flow
-				utils.waitForEle(EmployeeEnroll, "clickable", "", 10);
+				utils.waitForEle(EmployeeEnroll, "clickable", "", 30);
 				EmployeeEnroll.click();
 
-				utils.waitForEle(GoToDashboardModule, "clickable", "", 10);
+				utils.waitForEle(GoToDashboardModule, "clickable", "", 30);
 				GoToDashboardModule.click();
 
-				Thread.sleep(8000);
+				Thread.sleep(3000);
 			}
 
 		} catch (Exception e) {
@@ -2005,7 +2049,7 @@ public class MeghLoginPage {
 	public boolean MailCheck() {
 		try {
 
-			utils.waitForEle(MailCheck, "visible", "", 10);
+			utils.waitForEle(MailCheck, "visible", "", 30);
 			MailCheck.isDisplayed();
 			MailCheck.click();
 
@@ -2019,7 +2063,7 @@ public class MeghLoginPage {
 	public boolean LoginHere() {
 		try {
 
-			utils.waitForEle(LoginHere, "visible", "", 10);
+			utils.waitForEle(LoginHere, "visible", "", 30);
 			LoginHere.isDisplayed();
 
 			LoginHere.click();
@@ -2033,7 +2077,7 @@ public class MeghLoginPage {
 	public boolean SendAnyWayButton() {
 		try {
 
-			utils.waitForEle(SendAnyWayButton, "visible", "", 10);
+			utils.waitForEle(SendAnyWayButton, "visible", "", 30);
 			SendAnyWayButton.isDisplayed();
 
 			SendAnyWayButton.click();
@@ -2048,7 +2092,7 @@ public class MeghLoginPage {
 	public boolean UserNameEmpty() {
 		try {
 
-			utils.waitForEle(UserNameEmpty, "visible", "", 10);
+			utils.waitForEle(UserNameEmpty, "visible", "", 30);
 			UserNameEmpty.isDisplayed();
 
 		} catch (Exception e) {
@@ -2062,7 +2106,7 @@ public class MeghLoginPage {
 	public boolean ForgotCompanyCode() {
 		try {
 
-			utils.waitForEle(ForgotCompanyCode, "visible", "", 10);
+			utils.waitForEle(ForgotCompanyCode, "visible", "", 30);
 			ForgotCompanyCode.isDisplayed();
 			ForgotCompanyCode.click();
 
@@ -2076,7 +2120,7 @@ public class MeghLoginPage {
 	public boolean ForgotCompanyEmailID(String user) {
 		try {
 
-			utils.waitForEle(ForgotCompanyEmailID, "visible", "", 10);
+			utils.waitForEle(ForgotCompanyEmailID, "visible", "", 30);
 			ForgotCompanyEmailID.isDisplayed();
 			ForgotCompanyEmailID.sendKeys(user);
 
@@ -2090,7 +2134,7 @@ public class MeghLoginPage {
 	public boolean RequestCompanyCode() {
 		try {
 
-			utils.waitForEle(RequestCompanyCode, "visible", "", 10);
+			utils.waitForEle(RequestCompanyCode, "visible", "", 30);
 			RequestCompanyCode.isDisplayed();
 			RequestCompanyCode.click();
 
@@ -2104,7 +2148,7 @@ public class MeghLoginPage {
 	public boolean InvalidUserName() {
 		try {
 
-			utils.waitForEle(InvalidUserName, "visible", "", 10);
+			utils.waitForEle(InvalidUserName, "visible", "", 30);
 			InvalidUserName.isDisplayed();
 
 		} catch (Exception e) {
@@ -2118,7 +2162,7 @@ public class MeghLoginPage {
 	public boolean InvalidCredentials() {
 		try {
 
-			utils.waitForEle(InvalidCredentials, "visible", "", 10);
+			utils.waitForEle(InvalidCredentials, "visible", "", 30);
 			InvalidCredentials.isDisplayed();
 
 		} catch (Exception e) {
@@ -2137,7 +2181,7 @@ public class MeghLoginPage {
 	public boolean NewPassword(String password) {
 		try {
 
-			utils.waitForEle(NewPassword, "visible", "", 10);
+			utils.waitForEle(NewPassword, "visible", "", 30);
 			NewPassword.isDisplayed();
 			NewPassword.sendKeys(password);
 
@@ -2151,7 +2195,7 @@ public class MeghLoginPage {
 	public boolean NewConfirmPassword(String password) {
 		try {
 
-			utils.waitForEle(NewConfirmPassword, "visible", "", 10);
+			utils.waitForEle(NewConfirmPassword, "visible", "", 30);
 			NewConfirmPassword.isDisplayed();
 			NewConfirmPassword.sendKeys(password);
 
@@ -2165,7 +2209,7 @@ public class MeghLoginPage {
 	public boolean PasswordSetButton() {
 		try {
 
-			utils.waitForEle(PasswordSetButton, "visible", "", 10);
+			utils.waitForEle(PasswordSetButton, "visible", "", 30);
 			PasswordSetButton.isDisplayed();
 			PasswordSetButton.click();
 
@@ -2178,7 +2222,7 @@ public class MeghLoginPage {
 
 	public boolean ContinueToLogin() {
 		try {
-			utils.waitForEle(ContinueToLogin, "visible", "", 10);
+			utils.waitForEle(ContinueToLogin, "visible", "", 30);
 			ContinueToLogin.isDisplayed();
 			ContinueToLogin.click();
 		} catch (Exception e) {
@@ -2242,18 +2286,32 @@ public class MeghLoginPage {
 	}
 
 	public boolean ApplicationLoaded() {
-		try {
-			utils.waitForEle(ApplicationLoaded, "visible", "", 30);
-			ApplicationLoaded.isDisplayed();
-		} catch (Exception e) {
-			exceptionDesc = e.getMessage().toString();
-			return false;
-		}
-		return true;
+	    int maxRetries = 2; // you can increase this if needed
+	    for (int attempt = 1; attempt <= maxRetries; attempt++) {
+	        try {
+	        	driver.navigate().refresh();
+	            utils.waitForEle(ApplicationLoaded, "visible", "", 30);
+	            
+	            return true; // element found, page loaded successfully
+	        } catch (Exception e) {
+	            exceptionDesc = e.getMessage();
+	            if (attempt < maxRetries) {
+	                System.out.println("Application not loaded, refreshing... (Attempt " + attempt + ")");
+	                driver.navigate().refresh();
+	                utils.waitForEle(ApplicationLoaded, "visible", "", 30);
+	            } else {
+	                System.out.println("Application failed to load after retries.");
+	                return false;
+	            }
+	        }
+	    }
+	    return false;
 	}
+
 
 	public boolean LoginWithOTPPageLoaded() {
 		try {
+			Thread.sleep(3000);
 			utils.waitForEle(LoginWithOTPPageLoaded, "visible", "", 30);
 			LoginWithOTPPageLoaded.isDisplayed();
 
@@ -2296,7 +2354,7 @@ public class MeghLoginPage {
 		try {
 			Thread.sleep(6000);
 
-			utils.waitForEle(InBoxTextField, "visible", "", 10);
+			utils.waitForEle(InBoxTextField, "visible", "", 30);
 
 			InBoxTextField.clear();
 			InBoxTextField.sendKeys(emailforyop);
@@ -2324,7 +2382,7 @@ public class MeghLoginPage {
 	public boolean FirstRecievedMailClick() {
 		try {
 			Thread.sleep(20000);
-			utils.waitForEle(FirstRecievedMailClick, "visible", "", 100);
+			utils.waitForEle(FirstRecievedMailClick, "visible", "", 300);
 			FirstRecievedMailClick.isDisplayed();
 			FirstRecievedMailClick.click();
 
@@ -2484,7 +2542,7 @@ public class MeghLoginPage {
 
 	// 21st TestCase
 
-	public boolean OTPForForgotPassword() throws InterruptedException {
+	public boolean OTPForForgotPassword()  {
 		int attempts = 0;
 
 		while (attempts < 2) {
@@ -2505,7 +2563,7 @@ public class MeghLoginPage {
 
 				if (attempts < 2) {
 					driver.navigate().refresh();
-					Thread.sleep(3000); // small wait after refresh
+					 // small wait after refresh
 				} else {
 					return false;
 				}
@@ -2539,11 +2597,13 @@ public class MeghLoginPage {
 		}
 	}
 
-	public boolean GetEmpID() {
+	public boolean GetEmpID()  {
+		
 		int attempts = 0;
 
 		while (attempts < 2) {
 			try {
+				Thread.sleep(3000);
 				utils.waitForEle(GetEmpID, "visible", "", 30);
 
 				if (GetEmpID.isDisplayed()) {
@@ -2628,7 +2688,7 @@ public class MeghLoginPage {
 				// If not clickable, try clicking it directly using XPath
 				WebElement fallbackDeleteBtn = driver
 						.findElement(By.xpath("//div[@id='email_pane']/div/div[2]/div[2]/div"));
-				utils.waitForEle(fallbackDeleteBtn, "clickable", "", 10);
+				utils.waitForEle(fallbackDeleteBtn, "clickable", "", 30);
 				fallbackDeleteBtn.click();
 
 				driver.navigate().back();
@@ -2708,8 +2768,8 @@ public class MeghLoginPage {
 			}
 
 			try {
-				Thread.sleep(4000);
-				utils.waitForEle(CompanyCode, "visible", "", 10);
+			
+				utils.waitForEle(CompanyCode, "visible", "", 30);
 				CompanyCode.sendKeys(cmpcode);
 				loglogin.createLogs("Y", "PASS", " Company code entered successfully." + cmpcode);
 			} catch (Exception e) {
@@ -2718,7 +2778,7 @@ public class MeghLoginPage {
 			}
 
 			try {
-				utils.waitForEle(loginWithPasswrdButton, "visible", "", 10);
+				utils.waitForEle(loginWithPasswrdButton, "visible", "", 30);
 				loginWithPasswrdButton.click();
 				loglogin.createLogs("Y", "PASS", "Clicked On 'Login with Password' successfully.");
 			} catch (Exception e) {
@@ -2730,7 +2790,7 @@ public class MeghLoginPage {
 			int signInAttempts = 0;
 			while (signInAttempts < 2) {
 				try {
-					Thread.sleep(4000);
+					Thread.sleep(2000);
 					utils.waitForEle(signInText, "visible", "", 20);
 					if (signInText.isDisplayed()) {
 						loglogin.createLogs("Y", "PASS", " Sign-in section appeared.");
@@ -2749,7 +2809,7 @@ public class MeghLoginPage {
 			}
 
 			try {
-				utils.waitForEle(userName, "visible", "", 10);
+				utils.waitForEle(userName, "visible", "", 20);
 				userName.sendKeys(user);
 				loglogin.createLogs("Y", "PASS", " Email Id entered." + user);
 			} catch (Exception e) {
@@ -2758,7 +2818,7 @@ public class MeghLoginPage {
 			}
 
 			try {
-				utils.waitForEle(Passords, "visible", "", 10);
+				utils.waitForEle(Passords, "visible", "", 30);
 				Passords.sendKeys(password);
 				loglogin.createLogs("Y", "PASS", " Password entered." + password);
 			} catch (Exception e) {
@@ -2767,7 +2827,7 @@ public class MeghLoginPage {
 			}
 
 			try {
-				utils.waitForEle(captchaTextField, "visible", "", 10);
+				utils.waitForEle(captchaTextField, "visible", "", 30);
 				captchaTextField.sendKeys(captcha);
 				loglogin.createLogs("Y", "PASS", " Captcha entered." + captcha);
 			} catch (Exception e) {
@@ -2776,7 +2836,7 @@ public class MeghLoginPage {
 			}
 
 			try {
-				utils.waitForEle(signinButton, "visible", "", 10);
+				utils.waitForEle(signinButton, "visible", "", 30);
 				signinButton.click();
 				loglogin.createLogs("Y", "PASS", " Sign-in button clicked.");
 			} catch (Exception e) {
@@ -2798,7 +2858,7 @@ public class MeghLoginPage {
 					loginAttempts++;
 					if (loginAttempts < 2) {
 						driver.navigate().refresh();
-						Thread.sleep(4000);
+						Thread.sleep(2000);
 					} else {
 						exceptionDesc = "Login failed after retry: " + e.getMessage();
 						return false;
@@ -2827,7 +2887,41 @@ public class MeghLoginPage {
 		return true;
 	}
 	
-	
+	public boolean MainLandingPage() {
+	    int maxRetries = 3;
+
+	    try {
+	        for (int attempt = 1; attempt <= maxRetries; attempt++) {
+
+	            driver.navigate().to("https://demo.meghpi.com/Dashboard");
+	            Thread.sleep(2000); // wait a bit for page to load
+
+	            try {
+	                // check element on dashboard page
+	                if (loginValidate.isDisplayed()) {
+	                    // element found → success
+	                    return true;
+	                }
+	            } catch (Exception e) {
+	                // element not present yet, ignore and retry
+	            }
+
+	            // Not loaded yet, refresh and try again
+	            driver.navigate().refresh();
+	            Thread.sleep(2000);
+	            System.out.println("Retry " + attempt + ": " + driver.getCurrentUrl());
+	        }
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        System.out.println("Exception: " + driver.getCurrentUrl());
+	        return false;
+	    }
+
+	    // after all retries still not landed
+	    return false;
+	}
+
+
 	
 	
 	
@@ -2848,8 +2942,7 @@ public class MeghLoginPage {
 		return this.exceptionDesc;
 	}
 
-	public void setExceptionDesc(String exceptionDesc) {
-		exceptionDesc = exceptionDesc;
+	public  void setExceptionDesc(String exceptionDesc) {  
+		exceptionDesc = this.exceptionDesc;
 	}
-
 }

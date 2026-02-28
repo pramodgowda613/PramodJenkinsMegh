@@ -22,7 +22,7 @@ import utils.Utils;
 public class MeghMasterFileTagPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String createdtag = "";
 	
@@ -216,7 +216,7 @@ public class MeghMasterFileTagPage {
 			utils.waitForEle(AddTagSaveButton, "visible", "", 10);
 			AddTagSaveButton.isDisplayed();
 			AddTagSaveButton.click();
-			
+			Thread.sleep(7000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -244,6 +244,7 @@ public class MeghMasterFileTagPage {
 	
 	public boolean UploadFileFromStorage(String Fileupload) {
 	    try {
+	    	Thread.sleep(2000);
 	        // Only set file detector if it's a real RemoteWebDriver instance
 	        if (driver instanceof RemoteWebDriver &&
 	            !(driver.getClass().getName().contains("ChromeDriver") || driver.getClass().getName().contains("ChromiumDriver"))) {
@@ -278,6 +279,7 @@ public class MeghMasterFileTagPage {
 	public boolean  FileTagDropdown()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(FileTagDropdown, "visible", "", 10);
 			FileTagDropdown.isDisplayed();
 			FileTagDropdown.click();
@@ -295,7 +297,7 @@ public class MeghMasterFileTagPage {
 			utils.waitForEle(FileTagSearchDropDown,  "visible", "", 10);
 			FileTagSearchDropDown.isDisplayed();
 			FileTagSearchDropDown.sendKeys(tagname);
-			
+			Thread.sleep(4000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -335,6 +337,7 @@ public class MeghMasterFileTagPage {
 	
 	public boolean CompanyFiless(String tagname) {
 	    try {
+	    	Thread.sleep(3000);
 	        boolean found = false;
 
 	        for (WebElement cmpfiletag : CompanyFiles) {
@@ -396,6 +399,7 @@ public class MeghMasterFileTagPage {
 	
 	public boolean OnlyCompanyFiles() {
 	    try {
+	    	Thread.sleep(3000);
 	        for (WebElement eachCmpFile : OnlyCompanyFiles) {
 	        	System.out.println("all are" + eachCmpFile.getText());
 	        	
@@ -505,6 +509,7 @@ public class MeghMasterFileTagPage {
 	
 	public boolean MovedValidation() {
 	    try {
+	    	Thread.sleep(4000);
 	        if (MovedValidation.getText().trim().equalsIgnoreCase("Files: 0")) {
 	            System.out.println(MovedValidation.getText() + " movedResult");
 	        } else {
@@ -653,7 +658,7 @@ public class MeghMasterFileTagPage {
 	      //  WebElement dateInput = driver.findElement(By.xpath("(//select[contains(@class,'flatpickr-monthDropdown-months')])[15]"));
 	     //   dateInput.click();
 
-	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	      //  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	        // Step 2: Wait for month dropdown to become visible & clickable
 	       
@@ -674,19 +679,29 @@ public class MeghMasterFileTagPage {
 
 	
 
-	public boolean  DaySelection()
-	{
-		try {
-			utils.waitForEle(DaySelection, "visible", "", 20);
-			
-			DaySelection.click();
-			
-		} catch (Exception e) {
-			exceptionDesc=	e.getMessage().toString();
-			return false;
-		}
-		return true;
+	public boolean DaySelection(String dayLabel) {
+	    try {
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+	        // ✅ Find the visible calendar (with "open" class)
+	        WebElement visibleCalendar = wait.until(ExpectedConditions.visibilityOfElementLocated(
+	            By.xpath("//div[contains(@class,'flatpickr-calendar') and contains(@class,'open')]")
+	        ));
+
+	        // ✅ Inside that visible calendar, locate the desired day by aria-label
+	        WebElement dayElement = visibleCalendar.findElement(By.xpath(".//span[@aria-label='" + dayLabel + "']"));
+
+	        wait.until(ExpectedConditions.elementToBeClickable(dayElement));
+	        dayElement.click();
+
+	        return true;
+
+	    } catch (Exception e) {
+	        exceptionDesc = "Error While Selecting Day: " + e.getMessage();
+	        return false;
+	    }
 	}
+
 	
 	
 	public boolean  DatePickerClick()
@@ -734,7 +749,7 @@ public class MeghMasterFileTagPage {
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 }

@@ -1,0 +1,33 @@
+[10:26:24] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-10-26-24-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[10:26:27] INFO  - PASS - Punch IN executed successfully at 2025-11-04 09:30:00
+[10:26:28] INFO  - PASS - Punch OUT executed successfully at 2025-11-04 18:35:00
+[10:26:30] INFO  - PASS - Application Loaded Successfully.
+[10:26:32] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[10:26:34] INFO  - PASS - Login With Password Button Is Clicked.
+[10:26:37] INFO  - PASS - Sign in Text Is Displayed.
+[10:26:39] INFO  - PASS - Username Is Entered In Username Text Field.AutoE151225091529@mailinator.com
+[10:26:41] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[10:26:43] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[10:26:46] INFO  - PASS - Clicked On Login Button.
+[10:26:48] INFO  - PASS - Login Done  And Validated Successfully.
+[10:26:50] INFO  - PASS - Login Done Successfully.
+[10:26:50] INFO  - PASS - UpdateAttendance API executed successfully for Emp053
+[10:27:43] INFO  - PASS - Application Loaded Successfully.
+[10:28:15] ERROR - FAIL - Error While Entering Companycode Name.no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='CompanyCode']"}
+  (Session info: chrome=143.0.7499.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc805e0fe919e2a60b729d1ce22457f, findElement {using=xpath, value=//input[@name='CompanyCode']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55573}, goog:processID: 4380, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55573/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc805e0fe919e2a60b729d1ce22457f
+[10:28:38] ERROR - FAIL - Error While Clicking On Login With Password Button.no such element: Unable to locate element: {"method":"css selector","selector":"#btnLoginWithPwd"}
+  (Session info: chrome=143.0.7499.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc805e0fe919e2a60b729d1ce22457f, findElement {using=id, value=btnLoginWithPwd}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55573}, goog:processID: 4380, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55573/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc805e0fe919e2a60b729d1ce22457f

@@ -1,0 +1,25 @@
+[18:39:53] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-18-39-53-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[18:39:58] INFO  - PASS - Application Loaded Successfully.
+[18:40:01] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[18:40:03] INFO  - PASS - Login With Password Button Is Clicked.
+[18:40:05] INFO  - PASS - Sign in Text Is Displayed.
+[18:40:07] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[18:40:09] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[18:40:12] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:40:14] INFO  - PASS - Clicked On Login Button.
+[18:40:16] INFO  - PASS - Login Done  And Validated Successfully.
+[18:40:19] INFO  - PASS - Login Done Successfully.
+[18:40:25] INFO  - PASS - Report Button Clicked Successfully.
+[18:40:27] INFO  - PASS - OverTime Button Clicked Successfully.
+[18:40:29] INFO  - PASS - OverTime Report Approved Tab button Clicked Successfully.
+[18:40:32] INFO  - PASS - Filter Button Clicked Successfully.
+[18:40:39] INFO  - PASS - Year Selected Successfully.2025
+[18:40:45] INFO  - PASS - Month Selected Successfully.November
+[18:40:47] INFO  - PASS - Filter Save Button Clicked Successfully.
+[18:40:50] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:40:52] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[18:40:54] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:40:56] INFO  - PASS - Emp ID Inputted Successfully.Emp053
+[18:40:59] ERROR - FAIL - Error While Validating  Emp Approved Record.Date mismatch. Expected: 03-11-2025 | Found: Fri, 28-11-2025
+[18:40:59] INFO  - Failed - MeghPIEmpOTRequestReportsTest-MPI_1805_EmpOTApproved_Reports_01-To verify this, check the functionalities of search feature by selecting each search option 
+[18:40:59] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

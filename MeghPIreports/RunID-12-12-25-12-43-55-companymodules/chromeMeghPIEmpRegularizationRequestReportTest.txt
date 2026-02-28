@@ -1,0 +1,35 @@
+[12:43:55] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-12-43-55-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[12:44:00] INFO  - PASS -  Application loaded successfully.
+[12:44:02] INFO  - PASS -  Company code entered successfully.AKWF
+[12:44:05] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[12:44:09] INFO  - PASS -  Sign-in section appeared.
+[12:44:11] INFO  - PASS -  Email Id entered.Emp052
+[12:44:13] INFO  - PASS -  Password entered.Emp052
+[12:44:15] INFO  - PASS -  Captcha entered.12345
+[12:44:18] INFO  - PASS -  Sign-in button clicked.
+[12:44:20] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[12:44:22] INFO  - PASS - Login Done Successfully As a Employee.
+[12:44:28] INFO  - PASS - Report Button Clicked Successfully.
+[12:44:33] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[12:44:35] INFO  - PASS - Pending Report Clicked Successfully.
+[12:44:37] INFO  - PASS - Filter Button Clicked Successfully.
+[12:44:44] INFO  - PASS - Year Selected Successfully.2025
+[12:44:51] INFO  - PASS - Month Selected Successfully.December
+[12:44:53] INFO  - PASS - Filter Save Button Clicked Successfully.
+[12:44:55] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:44:57] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[12:45:00] INFO  - PASS - Date Search Option Checkbox Selected Successfully.
+[12:45:02] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:45:04] INFO  - PASS - EmpID Inputted Successfully.Emp052
+[12:45:06] INFO  - PASS - Emp ID Displayed Successfully.Emp052
+[12:45:09] INFO  - PASS - Regularization Date Inputted Successfully.11-12-2025
+[12:45:11] INFO  - PASS - Regularization Date Record Displayed Successfully.2025-12-11
+[12:45:13] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:45:15] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[12:45:17] INFO  - PASS - Date Search Option Checkbox Selected Successfully.
+[12:45:20] INFO  - PASS - Status Search Option Checkbox Selected Successfully.
+[12:45:22] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:45:24] INFO  - PASS - EmpID Inputted Successfully.Pending
+[12:45:26] INFO  - PASS - Inputted Status Displayed Successfully.Pending
+[12:45:26] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1784_Emp_PendingRegularization_Reports_01-To verify this, check the functionality of search feature using each search option
+[12:45:26] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

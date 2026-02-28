@@ -1,0 +1,61 @@
+[12:26:21] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-12-26-20-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[12:26:36] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp054
+[12:26:36] INFO  - PASS - UpdateAttendance API executed successfully for Emp054
+[12:26:59] INFO  - PASS - Application Loaded Successfully.
+[12:27:01] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[12:27:03] INFO  - PASS - Login With Password Button Is Clicked.
+[12:27:05] INFO  - PASS - Sign in Text Is Displayed.
+[12:27:07] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[12:27:10] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[12:27:12] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[12:27:14] INFO  - PASS - Clicked On Login Button.
+[12:27:16] INFO  - PASS - Login Done  And Validated Successfully.
+[12:27:19] INFO  - PASS - Login Done Successfully.
+[12:27:23] INFO  - PASS - Leave Button Clicked Successfully Of Employee Account.
+[12:27:29] INFO  - PASS -  EmpLeaveRequestsTab Clicked Successfully Of Employee Account.
+[12:27:33] INFO  - PASS -  Apply Leave Button Clicked Successfully Of Employee Account.
+[12:27:36] INFO  - PASS -  LeaveTypeDropdown Clicked Successfully Of Employee Account.
+[12:27:38] INFO  - PASS -  SickLeave Selected  Successfully.
+[12:27:40] INFO  - PASS -  FromDateTextField Clicked Successfully .
+[12:27:45] INFO  - PASS -  FromDate Inputted Successfully .2025-11-03
+[12:27:51] INFO  - PASS -  LeaveDurationOne Clicked Successfully Of Employee Account.
+[12:27:53] INFO  - PASS -  FullDay DurationOne Selected  Successfully.
+[12:27:55] INFO  - PASS -  ToDateTextField Clicked Successfully .
+[12:28:00] INFO  - PASS -  ToDate Selected Inputted Successfully .2025-11-03
+[12:28:02] INFO  - PASS -  LeaveDurationTwo Clicked Successfully Of Employee Account.
+[12:28:05] INFO  - PASS -  FullDayDurationTwo Clicked Successfully Of Employee Account.
+[12:28:07] INFO  - PASS -  Reason Inputted  Successfully Of Employee Account.Emp Reports testing
+[12:28:13] INFO  - PASS - Leave Request Apply Button Clicked  Successfully Of Employee Account.
+[12:28:19] INFO  - PASS - Report Button Clicked Successfully.
+[12:28:24] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[12:28:26] INFO  - PASS - TotalLeavesTaken Report All Tab Clicked Successfully.
+[12:29:03] INFO  - PASS - TotalLeavesTaken Report Page Loaded Successfully.
+[12:29:05] INFO  - PASS - Filter Button Clicked Successfully.
+[12:29:13] INFO  - PASS - Year Selected Successfully.2025
+[12:29:19] INFO  - PASS - Month Selected Successfully.November
+[12:29:21] INFO  - PASS - Filter Save Button Clicked Successfully.
+[12:29:24] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:29:26] INFO  - PASS - LeaveType Checkbox Selected Successfully.
+[12:29:28] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:29:34] INFO  - PASS - Leave Name Inputted Successfully.Sick Leave
+[12:29:37] INFO  - PASS - Emp Applied Leave Validated Successfully.Sick Leave
+[12:29:39] INFO  - PASS - Emp Applied Leave TotalDays Validated Successfully.1
+[12:29:41] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:29:43] INFO  - PASS - LeaveType Checkbox Selected Successfully.
+[12:29:45] INFO  - PASS - Status CheckBox Selected Successfully.
+[12:29:48] INFO  - PASS - Leave Reason CheckBox Selected Successfully.
+[12:29:50] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:29:56] INFO  - PASS - Leave Status Inputted Successfully.Approved
+[12:30:29] ERROR - FAIL - Error While Validating Emp Applied Leave Status.no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='dtTotalLeaveReport']/tbody/tr[1]/td[7]"}
+  (Session info: chrome=143.0.7499.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d94945d13b8899f3e6e7c376044dcc63, findElement {using=xpath, value=//table[@id='dtTotalLeaveReport']/tbody/tr[1]/td[7]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58450}, goog:processID: 7360, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58450/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d94945d13b8899f3e6e7c376044dcc63
+[12:30:35] INFO  - PASS - Leave Reason Inputted Successfully.Emp Reports testing
+[12:30:38] INFO  - PASS - Emp Applied Leave Reason Validated Successfully.Emp Reports testing
+[12:30:38] INFO  - Failed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1819_EmpTotalLeaveTakenAllReports_01-To verify this, check the functionalities of search feature by selecting each search option.
+[12:30:38] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

@@ -1,0 +1,27 @@
+[12:11:46] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-12-11-45-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[12:11:51] INFO  - PASS -  Application loaded successfully.
+[12:11:54] INFO  - PASS -  Company code entered successfully.ACZO
+[12:11:56] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[12:12:00] INFO  - PASS -  Sign-in section appeared.
+[12:12:02] INFO  - PASS -  Email Id entered.Emp050
+[12:12:04] INFO  - PASS -  Password entered.Emp050
+[12:12:07] INFO  - PASS -  Captcha entered.12345
+[12:12:09] INFO  - PASS -  Sign-in button clicked.
+[12:12:11] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[12:12:13] INFO  - PASS - Login Done Successfully As a Employee.Pramod@1234
+[12:12:19] INFO  - PASS - Report Button Clicked Successfully.
+[12:12:23] INFO  - PASS - AttendanceReport Displayed Successfully .
+[12:12:26] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[12:12:28] INFO  - PASS - Filter Button Clicked Successfully.
+[12:12:35] INFO  - PASS - Year Selected Successfully.2025
+[12:12:42] INFO  - PASS - Month Selected Successfully.November
+[12:12:44] INFO  - PASS - Filter Save Button Clicked Successfully.
+[12:12:46] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:12:48] INFO  - PASS - Shift Search Option Checkbox Selected Successfully.
+[12:12:50] INFO  - PASS - SearchDropDown Clicked Successfully.
+[12:12:53] INFO  - PASS - Shift Name Inputted Successfully.General Shift
+[12:12:55] INFO  - PASS - Assigned Shift Record Displayed Successfully.General Shift
+[12:12:57] ERROR - FAIL - Error While Displaying Attendance Final Status Record.Expected text to contain 'Single punch' but was 'Single Punch'
+[12:12:59] INFO  - PASS - In Punch Validated Successfully.09:40:00
+[12:12:59] INFO  - Failed - MeghPIEmpAttendanceReportsTest-MPI_1744_MissingPunch_Reports_04-To verify this, Do single punch in last month and validate the missing punch record is displayed.
+[12:12:59] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

@@ -1,0 +1,49 @@
+[12:01:07] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-12-01-06-companymodules/chromeMeghPIEmpAttendanceDataRunTest.txt
+[12:01:14] INFO  - PASS - Application Loaded Successfully.
+[12:01:16] INFO  - PASS - Company Code Entered in Text Box.AAAO
+[12:01:19] INFO  - PASS - Login With Password Button Is Clicked.
+[12:01:21] INFO  - PASS - Sign in Text Is Displayed.
+[12:01:23] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[12:01:25] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[12:01:27] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[12:01:30] INFO  - PASS - Clicked On Login Button.
+[12:01:32] INFO  - PASS - Login Done  And Validated Successfully.
+[12:01:34] INFO  - PASS - Login Done Successfully.
+[12:01:40] INFO  - PASS - PolicyIcon Clicked Successfully.
+[12:01:43] INFO  - PASS - PolicyMaster Loaded Successfully.
+[12:01:45] INFO  - PASS - ShiftDropDown Clicked Successfully .
+[12:01:47] INFO  - PASS - ShiftButton Clicked Successfully .
+[12:01:49] INFO  - PASS - Shift Page Loaded Successfully .
+[12:01:52] INFO  - PASS - CreateShiftButton Clicked Successfully .
+[12:01:58] INFO  - PASS - Shift Name Inputted Successfully .Morning Shift
+[12:02:00] INFO  - PASS - Shift Code Inputted Successfully .Mo352
+[12:02:05] INFO  - PASS - Shift Start Time Clicked Successfully .
+[12:02:10] INFO  - PASS - Shift Start Time Inputted Successfully .06:00
+[12:02:16] INFO  - PASS - Shift Start Time Inputted Successfully .
+[12:02:18] INFO  - PASS - Shift End Time Inputted Successfully .14:00
+[12:02:22] INFO  - PASS - Shift Buffer Time Inputted Successfully .1:00
+[12:02:24] INFO  - PASS - Shift Buffer Time Inputted Successfully .1:00
+[12:02:29] INFO  - PASS - Shift Full Day Time Inputted Successfully .8:00
+[12:02:31] INFO  - PASS - Shift Full Day Time Inputted Successfully .8:00
+[12:02:35] INFO  - PASS - Shift Half Day Time Inputted Successfully .4:00
+[12:02:37] INFO  - PASS - Shift Half Day Time Inputted Successfully .4:00
+[12:02:39] INFO  - PASS - AddBreakButton Clicked Successfully .
+[12:02:42] INFO  - PASS - Break Name Inputted Successfully .AutoBNUJBVG
+[12:02:44] INFO  - PASS - BreakStartTime Clicked Successfully .
+[12:02:46] INFO  - PASS - BreakStartTime Inputted Successfully .11:00
+[12:02:48] INFO  - PASS - BreakEndTime Clicked Successfully .
+[12:02:50] INFO  - PASS - BreakEndTime Clicked Successfully .12:00
+[12:02:53] INFO  - PASS - Break Name Inputted Successfully .AutoBNUJBVG
+[12:02:59] INFO  - PASS - BreakBufferTime Clicked Successfully .
+[12:03:04] INFO  - PASS - BreakBufferTime Inputted Successfully .01:00
+[12:03:08] INFO  - PASS - Create Shift Save Button Clicked Successfully .
+[12:03:13] INFO  - PASS - ShiftPolicyTab Clicked Successfully .
+[12:03:17] INFO  - PASS - AddShiftPolicyButton Clicked Successfully .
+[12:03:19] INFO  - PASS - Shift PolicyName Inputted Successfully .Morning ShiftP
+[12:03:21] INFO  - PASS - AddShiftButton Clicked Successfully .
+[12:03:24] INFO  - PASS - Created Shift Selected Successfully .
+[12:03:26] INFO  - PASS - AddShiftSaveButton Clicked Successfully .
+[12:03:28] INFO  - PASS - CreatePolicySave Button Clicked Successfully .
+[12:03:30] INFO  - PASS - No Button Button Successfully .
+[12:03:30] INFO  - Passed - MeghPIEmpAttendanceDataRunTest-MPI_1542_MeghPi_Shift_32-To verify this, create morning shift and assigned the shift to new shift policy 
+[12:03:30] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

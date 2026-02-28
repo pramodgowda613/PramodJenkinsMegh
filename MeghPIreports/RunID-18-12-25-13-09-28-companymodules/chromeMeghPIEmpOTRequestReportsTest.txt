@@ -1,0 +1,55 @@
+[13:09:28] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-18-12-25-13-09-28-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[13:09:49] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp053
+[13:09:49] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:30:00
+[13:09:50] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:45:00
+[13:09:52] INFO  - PASS - Application Loaded Successfully.
+[13:09:54] INFO  - PASS - Company Code Entered in Text Box.ATQI
+[13:09:56] INFO  - PASS - Login With Password Button Is Clicked.
+[13:09:59] INFO  - PASS - Sign in Text Is Displayed.
+[13:10:01] INFO  - PASS - Username Is Entered In Username Text Field.AutoE181225092628@mailinator.com
+[13:10:03] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[13:10:05] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[13:10:07] INFO  - PASS - Clicked On Login Button.
+[13:10:22] INFO  - PASS - Login Done  And Validated Successfully.
+[13:10:24] INFO  - PASS - Login Done Successfully.
+[13:10:31] INFO  - PASS - PolicyIcon Clicked Successfully.
+[13:10:33] INFO  - PASS - PolicyMaster Loaded Successfully.
+[13:10:35] INFO  - PASS - AttendancePolicy Clicked Successfully .
+[13:10:37] INFO  - PASS - AttendancePolicy Page Loaded Successfully .
+[13:10:47] INFO  - PASS - On SearchTextField Policy Name Inputted Successfully .Attendane Policy 1
+[13:10:53] INFO  - PASS - Shift Policy Edit Button Clicked Successfully .
+[13:10:55] INFO  - PASS - Regulirization Upto 31days CheckBox Clicked Successfully .
+[13:10:59] INFO  - PASS - Regulirization Upto 31days Inputted  Successfully .31
+[13:11:01] INFO  - PASS - OverTime Eligibility DropDown Clicked Successfully .
+[13:11:04] INFO  - PASS - OT Allow CheckBox Clicked Successfully .
+[13:11:06] INFO  - PASS - OT MaxMinutes TextField Clicked Successfully .
+[13:11:11] INFO  - PASS - OT Max Minutess Inputted  Successfully .12
+[13:11:15] INFO  - PASS - CreatePolicyButton Button Successfully .
+[13:11:24] INFO  - PASS - YesButton Button Successfully .
+[13:11:24] INFO  - PASS - UpdateAttendance API executed successfully for Emp053
+[13:11:48] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[13:11:50] INFO  - PASS - OverTime Tab Clicked Successfully.
+[13:11:56] INFO  - PASS - Leave Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[13:11:58] INFO  - PASS - Emp Name Inputted Successfully.Empfiftythree
+[13:12:16] INFO  - PASS - Emp Approve Button Clicked Successfully.Empfiftythree 2025-11-03
+[13:12:18] INFO  - PASS - Approve Comments Inputted Successfully.Empfiftythree
+[13:12:20] INFO  - PASS - Approve Confirm Button Clicked Successfully.
+[13:12:26] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[13:12:39] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[13:12:41] INFO  - PASS - Application Loaded Successfully.
+[13:12:43] INFO  - PASS - Company Code Entered in Text Box.ATQI
+[13:12:45] INFO  - PASS - Login With Password Button Is Clicked.
+[13:12:47] INFO  - PASS - Sign in Text Is Displayed.
+[13:12:50] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[13:12:52] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[13:12:54] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[13:12:56] INFO  - PASS - Clicked On Login Button.
+[13:13:00] INFO  - PASS - Login Done  And Validated Successfully.
+[13:13:03] INFO  - PASS - Login Done Successfully.
+[13:13:09] INFO  - PASS - Report Button Clicked Successfully.
+[13:13:11] INFO  - PASS - OverTime Button Clicked Successfully.
+[13:13:13] INFO  - PASS - OverTime Report All Tab button Clicked Successfully.
+[13:13:16] INFO  - PASS - Filter Button Clicked Successfully.
+[13:13:22] INFO  - PASS - Year Selected Successfully.2025
+[13:13:28] INFO  - PASS - Month Selected Successfully.November
+[13:13:30] INFO  - PASS - Filter Save Button Clicked Successfully.

@@ -1,0 +1,8 @@
+[12:07:53] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-12-07-53-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[12:08:09] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[12:08:12] INFO  - PASS - Login With Password Button Is Clicked.
+[12:08:19] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[12:08:25] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[12:08:34] INFO  - PASS - Clicked On Login Button.
+[12:08:34] INFO  - Passed - MeghPIAttendAndroidShiftTest-MPI_1541_Android_Shift_10-To verify that when the admin approves a shift request, the approved status is correctly displayed in the employee’s Shift module.
+[12:08:34] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

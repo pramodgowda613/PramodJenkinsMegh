@@ -1,0 +1,64 @@
+[16:09:26] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-16-09-26-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[16:09:41] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp053
+[16:09:41] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:40:00
+[16:09:42] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:45:00
+[16:09:44] INFO  - PASS - Application Loaded Successfully.
+[16:09:46] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[16:09:48] INFO  - PASS - Login With Password Button Is Clicked.
+[16:09:51] INFO  - PASS - Sign in Text Is Displayed.
+[16:09:53] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[16:09:55] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[16:09:57] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[16:09:59] INFO  - PASS - Clicked On Login Button.
+[16:10:02] INFO  - PASS - Login Done  And Validated Successfully.
+[16:10:04] INFO  - PASS - Login Done Successfully.
+[16:10:10] INFO  - PASS - PolicyIcon Clicked Successfully.
+[16:10:12] INFO  - PASS - PolicyMaster Loaded Successfully.
+[16:10:14] INFO  - PASS - AttendancePolicy Clicked Successfully .
+[16:10:17] INFO  - PASS - AttendancePolicy Page Loaded Successfully .
+[16:10:26] INFO  - PASS - On SearchTextField Policy Name Inputted Successfully .Attendane Policy 1
+[16:10:32] INFO  - PASS - Shift Policy Edit Button Clicked Successfully .
+[16:10:34] INFO  - PASS - Regulirization Upto 31days CheckBox Clicked Successfully .
+[16:10:39] INFO  - PASS - Regulirization Upto 31days Inputted  Successfully .31
+[16:10:41] INFO  - PASS - OverTime Eligibility DropDown Clicked Successfully .
+[16:10:43] INFO  - PASS - OT Allow CheckBox Clicked Successfully .
+[16:10:45] INFO  - PASS - OT MaxMinutes TextField Clicked Successfully .
+[16:10:51] INFO  - PASS - OT Max Minutess Inputted  Successfully .12
+[16:10:55] INFO  - PASS - CreatePolicyButton Button Successfully .
+[16:11:03] INFO  - PASS - YesButton Button Successfully .
+[16:11:04] INFO  - PASS - UpdateAttendance API executed successfully for Emp053
+[16:11:29] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[16:11:32] INFO  - PASS - OverTime Tab Clicked Successfully.
+[16:11:38] INFO  - PASS - Leave Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[16:11:40] INFO  - PASS - Emp Name Inputted Successfully.Empfiftythree
+[16:11:58] INFO  - PASS - Emp Approve Button Clicked Successfully.Empfiftythree 2025-11-03
+[16:12:00] INFO  - PASS - Approve Comments Inputted Successfully.Empfiftythree
+[16:12:02] INFO  - PASS - Approve Confirm Button Clicked Successfully.
+[16:12:08] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[16:12:11] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[16:12:14] INFO  - PASS - Application Loaded Successfully.
+[16:12:16] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[16:12:18] INFO  - PASS - Login With Password Button Is Clicked.
+[16:12:20] INFO  - PASS - Sign in Text Is Displayed.
+[16:12:23] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[16:12:25] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[16:12:27] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[16:12:29] INFO  - PASS - Clicked On Login Button.
+[16:12:32] INFO  - PASS - Login Done  And Validated Successfully.
+[16:12:35] INFO  - PASS - Login Done Successfully.
+[16:12:41] INFO  - PASS - Report Button Clicked Successfully.
+[16:12:43] INFO  - PASS - OverTime Button Clicked Successfully.
+[16:12:45] INFO  - PASS - OverTime Report All Tab button Clicked Successfully.
+[16:12:47] INFO  - PASS - Filter Button Clicked Successfully.
+[16:12:55] INFO  - PASS - Year Selected Successfully.2025
+[16:13:01] INFO  - PASS - Month Selected Successfully.November
+[16:13:03] INFO  - PASS - Filter Save Button Clicked Successfully.
+[16:13:05] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:13:08] INFO  - PASS - Emp ID Search Option CheckBox Clicked Successfully.
+[16:13:10] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:13:12] INFO  - PASS - Emp ID Inputted Successfully.Emp053
+[16:13:14] INFO  - PASS - Emp ID Displayed Successfully.Emp053
+[16:13:17] INFO  - PASS - Emp Last Name Inputted Successfully.Empfiftythree
+[16:13:19] INFO  - PASS - Inputted Emp Last Name Record Displayed Successfully.Empfiftythree
+[16:13:19] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1801_EmpOTAllTab_Reports_01-To verify this, check the functionalities of search feature by selecting each search option.
+[16:13:19] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

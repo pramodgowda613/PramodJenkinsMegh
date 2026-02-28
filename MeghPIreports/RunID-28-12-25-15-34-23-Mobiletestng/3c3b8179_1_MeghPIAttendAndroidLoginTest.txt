@@ -1,0 +1,8 @@
+[15:34:24] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-28-12-25-15-34-23-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidLoginTest.txt
+[15:34:47] INFO  - PASS - Company Code Inputted Successfully.AGYV
+[15:34:50] INFO  - PASS - Login With Password Button Is Clicked.
+[15:34:59] INFO  - PASS - Username Is Entered In Username Text Field.AutoE281225073556@mailinator.com
+[15:35:07] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[15:35:19] INFO  - PASS - Clicked On Login Button.
+[15:35:20] INFO  - Passed - MeghPIAttendAndroidLoginTest-MPI_1376_Mobile_Login_01-Scenario.To verify that the user is able to successfully log in to the mobile application using valid credentials and company code.
+[15:35:20] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -1,0 +1,72 @@
+[10:14:45] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-10-14-44-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[10:14:48] INFO  - PASS - Punch IN executed successfully at 2025-11-04 09:10:00
+[10:14:48] INFO  - PASS - Punch OUT executed successfully at 2025-11-04 18:12:00
+[10:15:03] INFO  - PASS - UpdateAttendance API executed successfully for Emp051
+[10:15:31] INFO  - PASS -  Application loaded successfully.
+[10:15:33] INFO  - PASS -  Company code entered successfully.AKWF
+[10:15:35] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[10:15:39] INFO  - PASS -  Sign-in section appeared.
+[10:15:41] INFO  - PASS -  Email Id entered.Emp051
+[10:15:44] INFO  - PASS -  Password entered.Emp051
+[10:15:46] INFO  - PASS -  Captcha entered.12345
+[10:15:48] INFO  - PASS -  Sign-in button clicked.
+[10:15:50] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[10:15:52] INFO  - PASS - Login Done Successfully As a Employee.Pramod@1234
+[10:15:59] INFO  - PASS - Report Button Clicked Successfully.
+[10:16:05] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[10:16:07] INFO  - PASS - EarlyInTab Clicked Successfully.
+[10:16:09] INFO  - PASS - Filter Button Clicked Successfully.
+[10:16:17] INFO  - PASS - Year Selected Successfully.2025
+[10:16:23] INFO  - PASS - Month Selected Successfully.November
+[10:16:25] INFO  - PASS - Filter Save Button Clicked Successfully.
+[10:16:27] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:16:30] INFO  - PASS -  Date CheckBOx Successfully.
+[10:16:32] INFO  - PASS -  InTime CheckBOx Successfully.
+[10:16:34] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:16:36] INFO  - PASS - Date Inputted Successfully.04-11-2025
+[10:16:38] INFO  - PASS - Inputted Date Attendance Data Displayed Successfully.2025-11-04
+[10:16:41] INFO  - PASS - In Time Inputted Successfully.09:10
+[10:16:43] INFO  - PASS - Inputted Early In Time Attendance Data Displayed Successfully.09:10
+[10:16:45] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:16:47] INFO  - PASS -  Date CheckBOx Successfully.
+[10:16:49] INFO  - PASS -  InTime CheckBOx Successfully.
+[10:16:51] INFO  - PASS -  TotalHours CheckBOx Successfully.
+[10:16:54] INFO  - PASS -  In Hours CheckBOx Successfully.
+[10:16:56] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:16:58] INFO  - PASS - Totalhours Inputted Successfully.09:02
+[10:17:00] INFO  - PASS - Inputted Total Hours Attendance Data Displayed Successfully.09:02
+[10:17:03] INFO  - PASS - Late In Hours Inputted Successfully.
+[10:17:05] INFO  - PASS - Inputted Early In Hours Attendance Data Displayed Successfully.
+[10:17:07] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:17:09] INFO  - PASS -  TotalHours CheckBOx Successfully.
+[10:17:11] INFO  - PASS -  In Hours CheckBOx Successfully.
+[10:17:14] INFO  - PASS -  Shift CheckBOx Successfully.
+[10:17:16] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:17:18] INFO  - PASS - Shift Inputted Successfully.General Shift
+[10:17:20] INFO  - PASS - Inputted Shift Attendance Data Displayed Successfully.General Shift
+[10:17:20] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1768_Emp_Early_In_Reports_01-To verify this, check the functionality of search feature using each search option.
+[10:17:20] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1
+[10:17:23] INFO  - PASS - Punch IN executed successfully at 2025-11-27 09:10:00
+[10:17:23] INFO  - PASS - Punch OUT executed successfully at 2025-11-27 18:12:00
+[10:17:24] INFO  - PASS - UpdateAttendance API executed successfully for Emp051
+[10:17:46] INFO  - PASS - Application Loaded Successfully.
+[10:17:48] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[10:17:50] INFO  - PASS - Login With Password Button Is Clicked.
+[10:17:52] INFO  - PASS - Sign in Text Is Displayed.
+[10:17:55] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[10:17:57] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[10:17:59] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[10:18:01] INFO  - PASS - Clicked On Login Button.
+[10:18:03] INFO  - PASS - Login Done  And Validated Successfully.
+[10:18:05] INFO  - PASS - Login Done Successfully.
+[10:18:12] INFO  - PASS - Report Button Clicked Successfully.
+[10:18:18] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[10:18:20] INFO  - PASS - EarlyInTab Clicked Successfully.
+[10:18:22] INFO  - PASS - Filter Button Clicked Successfully.
+[10:18:30] INFO  - PASS - Year Selected Successfully.2025
+[10:18:36] INFO  - PASS - Month Selected Successfully.November
+[10:18:41] INFO  - PASS - Week selected successfully: 5
+[10:18:43] INFO  - PASS - Filter Save Button Clicked Successfully.
+[10:18:46] INFO  - PASS - Filtered Data Displayed Successfully.2025-11-27
+[10:18:46] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1772_Emp_Early_In_Reports_05-To verify this, Do early punch in as an employee during the last week of the previous month and then, in the early in reports, validate the filter functionality by selecting the last week. Ensure that the corresponding early punch in record is displayed.
+[10:18:46] INFO  - Total Pass : 2 Total Fail : 0  Total TC : 2

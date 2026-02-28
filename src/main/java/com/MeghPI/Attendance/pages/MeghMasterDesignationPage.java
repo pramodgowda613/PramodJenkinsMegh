@@ -11,7 +11,7 @@ public class MeghMasterDesignationPage {
 
 	
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String Designation1stRecordName = "";
 	public String SecondRowDesignationNames = "";
@@ -81,7 +81,7 @@ public class MeghMasterDesignationPage {
 	@FindBy(xpath = "(//div[contains(@id, 'divActionDesignation')])[1]/div/img")
 	private WebElement Designation3dots2ndRow;  //2nd TestCase
 	
-	@FindBy(xpath = "(//a[@data-bs-target='#phDesignationEditor'])[1]/..")
+	@FindBy(xpath = "(//div[contains(@id,'divActionDesignation')])[1]/ul/li")
 	private WebElement DesignationEdit2ndRow;  //2nd TestCase
 	
 	@FindBy(xpath = "//table[@id='dtDesignation']/tbody/tr[1]/td[1]")
@@ -392,6 +392,7 @@ public class MeghMasterDesignationPage {
 	public boolean Designation1stRowName()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(Designation1stRowName, "visible", "", 10);
 			Designation1stRowName.isDisplayed();
 	Designation1stRecordName =		Designation1stRowName.getText();
@@ -426,6 +427,7 @@ Thread.sleep(2000);
 	public boolean DesignationToggleSwitch()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(DesignationToggleSwitch, "visible", "", 10);
 			DesignationToggleSwitch.isDisplayed();
 			DesignationToggleSwitch.click();
@@ -455,6 +457,7 @@ Thread.sleep(2000);
 	public boolean DesignationPageLoaded()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(DesignationPageLoaded, "visible", "", 15);
 			DesignationPageLoaded.isDisplayed();
 		
@@ -475,8 +478,7 @@ Thread.sleep(2000);
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
-	
 	
 }

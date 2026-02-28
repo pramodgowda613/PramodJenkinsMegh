@@ -1,0 +1,26 @@
+[12:47:28] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-17-12-25-12-47-28-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidWeekOffTest.txt
+[12:48:03] INFO  - PASS - Company Code Inputted Successfully.AOJK
+[12:48:07] INFO  - PASS - Login With Password Button Is Clicked.
+[12:48:20] INFO  - PASS - Username Is Entered In Username Text Field.Emp024
+[12:48:31] INFO  - PASS - Password Is Entered In Password Text Field.Emp024
+[12:48:38] ERROR - FAIL - Error While Clicking On Login Button.Exception in LoginButton(): The element 'By.xpath: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.Button[2]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d4d0781e-7cb1-4446-946c-2dc99283ac7b, isElementDisplayed {id=00000000-0000-0011-0000-005900000000}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: ENU7N15A28011045, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 8.1.0, udid: ENU7N15A28011045}, appium:deviceApiLevel: 27, appium:deviceManufacturer: Huawei, appium:deviceModel: Nexus 6P, appium:deviceName: ENU7N15A28011045, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2560, appium:deviceUDID: ENU7N15A28011045, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 8.1.0, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: ENU7N15A28011045, appium:viewportRect: {height: 2476, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (d4d0781e-7cb1-4446-946c-2dc99283ac7b)] -> xpath: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.Button[2]]
+Session ID: d4d0781e-7cb1-4446-946c-2dc99283ac7b
+[12:48:43] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[12:48:47] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[12:48:53] INFO  - PASS - Clicked On OverTime Tab On Emp Attendance.
+[12:49:01] INFO  - PASS - Clicked On WeekOff Tab On Emp Attendance.
+[12:49:05] INFO  - PASS - Clicked On Quick Action On Emp Attendance.
+[12:49:10] INFO  - PASS - Clicked On Apply WeekOff Button On Quick Action.
+[12:49:19] INFO  - PASS - Clicked On WeekOff From Date TextField.
+[12:49:23] INFO  - PASS - Clicked On 2nd Saturday Date.13-12-2025
+[12:49:26] INFO  - PASS - WeekOff From Date Selected Successfully.
+[12:49:31] INFO  - PASS - Clicked On WeekOff To Date.
+[12:49:35] INFO  - PASS - Clicked On To Date.15-12-2025
+[12:49:40] INFO  - PASS - WeekOff To Date Selected Successfully.

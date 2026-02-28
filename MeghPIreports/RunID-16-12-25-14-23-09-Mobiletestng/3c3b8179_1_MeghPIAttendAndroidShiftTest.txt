@@ -1,0 +1,15 @@
+[14:23:10] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-14-23-09-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[14:23:25] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[14:23:29] INFO  - PASS - Login With Password Button Is Clicked.
+[14:23:35] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[14:23:41] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[14:23:50] INFO  - PASS - Clicked On Login Button.
+[14:23:53] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[14:23:57] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[14:24:03] INFO  - PASS - Clicked On OverTime Tab On Emp Attendance.
+[14:24:06] INFO  - PASS -  Shift Tab Clicked Successfully On Admin Account.
+[14:24:11] INFO  - PASS - Navigated To Shift Requested Data Month.2025-11-03
+[14:24:15] INFO  - PASS - Approved Shift Request Button Clicked Successfully On Admin Account.
+[14:24:18] INFO  - PASS - Approved Shift Request Validated Successfully On Emp Account.2025-11-03
+[14:24:18] INFO  - Passed - MeghPIAttendAndroidShiftTest-MPI_1541_Android_Shift_10-To verify that when the admin approves a shift request, the approved status is correctly displayed in the employee’s Shift module.
+[14:24:18] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

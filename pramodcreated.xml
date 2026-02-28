@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.MeghPI.Attendance.tests.MeghLeavePolicyTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidWeekOffTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidHolidayTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIRegularizationRequestTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidLoginTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPINightShiftAttendanceTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterFileTagTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghHolidayPolicyTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghWeekOffPolicyTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterOfficeTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPITotalLeavesTakenReportTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIMorningShiftAttendanceTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIDailyAttendanceReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterLeaveTypeTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidAttendanceTest"/>
+      <class name="androidpage.LoginBaseClass"/>
+      <class name="com.MeghPI.Attendance.tests.MeghAttendancePolicyTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIPolicyAttendanceTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIDeviceTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIOverTimeRequestTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidOverTimeTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPITimeLogReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIMusterRollReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterRolePermissionTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPILeaveBalanceSummaryReportTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIEmpRegularizationRequestReportTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidShiftTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIAttendanceEmployeeTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIOverTimeMonthlyReportTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghShiftPolicyTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidLeaveTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghShiftTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPINightShiftEmpDataRunTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIAttendanceReprocessTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterTeamtest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghLeaveTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterDepartmentTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIEmpTimeLogReportsTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIEmpAttendanceDataRunTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterDepartmentMappingTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIOverTimeReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIEmpTotalLeaveTakenReportsTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidRegularizationTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghEmployeeTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPINormalAttendanceTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPISandwichAttendanceTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIAttenAPITest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPILateArrivalReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIWeekOffRequestTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterAttendanceStatusTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterTeamMappingTest"/>
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAndroidNightShiftAttendanceTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterDesignationTest"/>
+      <class name="androidtest.MeghPILoginTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIShiftRequestTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIEmpAttendanceReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIEmpOTRequestReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIAttendanceReportsTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIRegularizationReportTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterEntityTypeTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPINoonShiftAttendanceTest"/>
+      <class name="com.MeghPI.Attendance.tests.Minops"/>
+      <class name="com.MeghPI.Attendance.tests.MeghLoginTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterGradeTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghMasterRoleTest"/>
+      <class name="com.MeghPI.Attendance.tests.MeghPIWeekOffReportTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

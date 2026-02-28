@@ -1,0 +1,11 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 13:24:54
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Target Month-Year: Nov 2025
+Current UI Month-Year: null
+Searching Emp: #Emp025 | Date: Monday - 03 Nov 2025

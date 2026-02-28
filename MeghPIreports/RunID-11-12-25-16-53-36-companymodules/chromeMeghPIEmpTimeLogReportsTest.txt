@@ -1,0 +1,45 @@
+[16:53:37] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-16-53-36-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[16:53:41] INFO  - PASS -  Application loaded successfully.
+[16:53:43] INFO  - PASS -  Company code entered successfully.ACZO
+[16:53:46] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[16:53:50] INFO  - PASS -  Sign-in section appeared.
+[16:53:52] INFO  - PASS -  Email Id entered.Emp051
+[16:53:54] INFO  - PASS -  Password entered.Emp051
+[16:53:56] INFO  - PASS -  Captcha entered.12345
+[16:53:59] INFO  - PASS -  Sign-in button clicked.
+[16:54:01] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[16:54:03] INFO  - PASS - Login Done Successfully As a Employee.Pramod@1234
+[16:54:09] INFO  - PASS - Report Button Clicked Successfully.
+[16:54:15] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[16:54:18] INFO  - PASS - LateInTab Clicked Successfully.
+[16:54:20] INFO  - PASS - Filter Button Clicked Successfully.
+[16:54:27] INFO  - PASS - Year Selected Successfully.2025
+[16:54:33] INFO  - PASS - Month Selected Successfully.November
+[16:54:36] INFO  - PASS - Filter Save Button Clicked Successfully.
+[16:54:38] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:54:40] INFO  - PASS -  Date CheckBOx Successfully.
+[16:54:42] INFO  - PASS -  InTime CheckBOx Successfully.
+[16:54:45] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:54:47] INFO  - PASS - Date Inputted Successfully.03-11-2025
+[16:54:49] INFO  - PASS - Inputted Date Attendance Data Displayed Successfully.2025-11-03
+[16:54:51] INFO  - PASS - In Time Inputted Successfully.09:40:00
+[16:54:57] ERROR - FAIL - Error While Displaying  Inputted Late In Time Data.null
+[16:54:59] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:55:01] INFO  - PASS -  Date CheckBOx Successfully.
+[16:55:03] INFO  - PASS -  InTime CheckBOx Successfully.
+[16:55:05] INFO  - PASS -  TotalHours CheckBOx Successfully.
+[16:55:08] INFO  - PASS -  In Hours CheckBOx Successfully.
+[16:55:10] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:55:12] INFO  - PASS - Totalhours Inputted Successfully.09:05
+[16:55:14] INFO  - PASS - Inputted Total Hours Attendance Data Displayed Successfully.09:05
+[16:55:16] INFO  - PASS - Late In Hours Inputted Successfully.
+[16:55:19] INFO  - PASS - Inputted Late In Hours Attendance Data Displayed Successfully.
+[16:55:21] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:55:23] INFO  - PASS -  TotalHours CheckBOx Successfully.
+[16:55:25] INFO  - PASS -  In Hours CheckBOx Successfully.
+[16:55:27] INFO  - PASS -  Shift CheckBOx Successfully.
+[16:55:30] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:55:32] INFO  - PASS - Shift Inputted Successfully.General Shift
+[16:55:34] INFO  - PASS - Inputted Shift Attendance Data Displayed Successfully.General Shift
+[16:55:34] INFO  - Failed - MeghPIEmpTimeLogReportsTest-MPI_1758_Emp_LateIn_Reports_01-To verify this, check the functionality of search feature using each search option.
+[16:55:34] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

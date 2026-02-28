@@ -1,4 +1,0 @@
-Sep 04, 2025 7:22:39 PM base.LogResults onlyLog
-INFO: Passed - MeghPINormalAttendanceTest-MPI_652_Normal_Attendance_24-Verify final attendance status after Punch IN/OUT
-Sep 04, 2025 7:22:39 PM base.LogResults onlyLog
-INFO: Total Pass : 1 Total Fail : 0  Total TC : 1

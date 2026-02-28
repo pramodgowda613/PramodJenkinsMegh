@@ -1,0 +1,27 @@
+[19:02:10] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-19-02-10-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[19:02:15] INFO  - PASS - Application Loaded Successfully.
+[19:02:18] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[19:02:20] INFO  - PASS - Login With Password Button Is Clicked.
+[19:02:22] INFO  - PASS - Sign in Text Is Displayed.
+[19:02:24] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[19:02:26] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[19:02:29] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[19:02:31] INFO  - PASS - Clicked On Login Button.
+[19:02:34] INFO  - PASS - Login Done  And Validated Successfully.
+[19:02:36] INFO  - PASS - Login Done Successfully.
+[19:02:43] INFO  - PASS - Report Button Clicked Successfully.
+[19:02:45] INFO  - PASS - OverTime Button Clicked Successfully.
+[19:02:49] INFO  - PASS - OverTime Report Approved Tab button Clicked Successfully.
+[19:02:57] INFO  - PASS - Filter Button Clicked Successfully.
+[19:03:04] INFO  - PASS - Year Selected Successfully.2025
+[19:03:11] INFO  - PASS - Month Selected Successfully.November
+[19:03:17] INFO  - PASS - Week Selected Successfully.
+[19:03:19] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[19:03:24] INFO  - PASS - From Date Selected Successfully.2025-11-03
+[19:03:27] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[19:03:32] INFO  - PASS - To Date Selected Successfully.2025-11-03
+[19:03:34] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[19:03:36] INFO  - PASS - Filter Save Button Clicked Successfully.
+[19:03:38] INFO  - PASS - Filtered Data Displayed Successfully.03-11-2025
+[19:03:39] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1807_EmpOTApproved_Reports_03-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date 
+[19:03:39] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

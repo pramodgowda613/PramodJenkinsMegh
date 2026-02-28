@@ -1,0 +1,36 @@
+[15:23:52] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-15-23-51-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[15:23:56] INFO  - PASS - Application Loaded Successfully.
+[15:23:58] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[15:24:00] INFO  - PASS - Login With Password Button Is Clicked.
+[15:24:03] INFO  - PASS - Sign in Text Is Displayed.
+[15:24:05] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[15:24:07] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[15:24:09] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:24:11] INFO  - PASS - Clicked On Login Button.
+[15:24:14] INFO  - PASS - Login Done  And Validated Successfully.
+[15:24:16] INFO  - PASS - Login Done Successfully.
+[15:24:22] INFO  - PASS - Report Button Clicked Successfully.
+[15:24:27] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[15:24:29] INFO  - PASS - TotalLeavesTaken Report Pending Tab Clicked Successfully.
+[15:24:32] INFO  - PASS - Filter Button Clicked Successfully.
+[15:24:39] INFO  - PASS - Year Selected Successfully.2025
+[15:24:45] INFO  - PASS - Month Selected Successfully.November
+[15:24:52] INFO  - PASS - Week Selected Successfully.
+[15:24:54] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:24:59] INFO  - PASS - From Date Selected Successfully.2025-11-04
+[15:25:01] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[15:25:06] INFO  - PASS - To Date Selected Successfully.2025-11-04
+[15:25:09] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:25:11] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:25:23] ERROR - FAIL - Error While Clicking On FromDate DropDown.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8dec91e0eb214b0dbf2f5ba9c593d456, clickElement {id=f.D2E802E829254534B3165C6FBEDAF4C5.d.96A425AEB0C86E8525BC778B2E3A45FE.e.971}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62275}, goog:processID: 15588, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62275/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8dec91e0eb214b0dbf2f5ba9c593d456)] -> xpath: //input[@id='drpReportFilterFromDate']/../input[2]]
+Session ID: 8dec91e0eb214b0dbf2f5ba9c593d456
+[15:25:25] INFO  - PASS - Filtered Record Displayed Successfully.2025-11-04
+[15:25:26] INFO  - Failed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1844_EmpTotalLeaveTakenPending_Reports_03-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date.
+[15:25:26] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

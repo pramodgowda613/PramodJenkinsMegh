@@ -1,0 +1,74 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 16:29:06
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Target Month-Year: Nov 2025
+⬅ Clicked Previous month... Attempt 1
+✅ Target month container visible now: Nov 2025
+Searching Emp: #Emp025 | Date: Tuesday - 04 Nov 2025
+✅ Matching card found:
+Emptwentyfive Morning shift
+#Emp025
+Tuesday - 04 Nov 2025
+Pending
+Assigned Shift Policy
+ - 
+Assigned Shift
+ - 
+Applied Shift
+Morning Shift
+Reason
+ - 
+✅ Found matching card:
+Emptwentyfive Morning shift
+#Emp025
+Tuesday - 04 Nov 2025
+Rejected
+Assigned Shift Policy
+ - 
+Assigned Shift
+ - 
+Applied Shift
+Morning Shift
+Reason
+Shift change request for Reject
+🔁 Attempt 1 to open Manage screen
+✅ Manage screen opened successfully on attempt 1
+✅ Attendance button clicked successfully.
+Target Month-Year: Nov 2025
+⬅ Clicked Previous month... Attempt 1
+✅ Target month container visible now: Nov 2025
+Searching for card with Date: Tuesday - 04 Nov 2025 | Status: Rejected
+✅ Matching card found:
+Tuesday - 04 Nov 2025
+Rejected
+Assigned Shift Policy
+ - 
+Assigned Shift
+ - 
+Applied Shift
+ - 
+Reason
+Shift change request for Reject
+Expected Month-Year: Nov 2025
+Current UI Month-Year: Dec 2025
+Current UI Month-Year: Nov 2025
+✅ Month matched
+Clicking calendar day: 4
+✅ Found day cell: 4
+P
+---------------------------------------------------------------
+MeghPIAttendAndroidShiftTestMPI_1532_Android_Shift_04
+---------------------------------------------------------------
+Test case took: 164.3983 seconds
+Total TC Time: 00:02:44
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+===============================================
+

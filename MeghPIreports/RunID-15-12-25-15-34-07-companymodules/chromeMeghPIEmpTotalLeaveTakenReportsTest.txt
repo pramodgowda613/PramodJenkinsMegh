@@ -1,0 +1,29 @@
+[15:34:07] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-15-34-07-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[15:34:12] INFO  - PASS - Application Loaded Successfully.
+[15:34:14] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[15:34:16] INFO  - PASS - Login With Password Button Is Clicked.
+[15:34:19] INFO  - PASS - Sign in Text Is Displayed.
+[15:34:21] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[15:34:23] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[15:34:25] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:34:27] INFO  - PASS - Clicked On Login Button.
+[15:34:31] INFO  - PASS - Login Done  And Validated Successfully.
+[15:34:33] INFO  - PASS - Login Done Successfully.
+[15:34:39] INFO  - PASS - Report Button Clicked Successfully.
+[15:34:44] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[15:34:46] INFO  - PASS - TotalLeavesTaken Report Pending Tab Clicked Successfully.
+[15:34:50] INFO  - PASS - Filter Button Clicked Successfully.
+[15:34:57] INFO  - PASS - Year Selected Successfully.2025
+[15:35:04] INFO  - PASS - Month Selected Successfully.November
+[15:35:10] INFO  - PASS - Week Selected Successfully.
+[15:35:12] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:35:17] INFO  - PASS - From Date Selected Successfully.2025-11-04
+[15:35:20] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[15:35:25] INFO  - PASS - To Date Selected Successfully.2025-11-04
+[15:35:27] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:35:29] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:35:31] INFO  - PASS - Filtered Record Displayed Successfully.2025-11-04
+[15:35:32] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1844_EmpTotalLeaveTakenPending_Reports_03-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date.
+[15:35:32] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1
+[15:35:33] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1845_EmpTotalLeaveTakenPending_Reports_04-To verify this, Apply leave during the last week of last month and  In the emp account leave taken pending Request Reports module, apply the filter for the last week of last month and ensure that the corresponding pending leave  request record is displayed..
+[15:35:33] INFO  - Total Pass : 2 Total Fail : 0  Total TC : 2

@@ -1,0 +1,47 @@
+[12:19:41] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-19-12-25-12-19-41-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidAttendanceTest.txt
+[12:19:56] INFO  - PASS - Company Code Inputted Successfully.AEWI
+[12:20:00] INFO  - PASS - Login With Password Button Is Clicked.
+[12:20:06] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[12:20:12] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[12:20:20] INFO  - PASS - Clicked On Login Button.
+[12:20:26] INFO  - PASS - Clicked On Attendance Module Button.
+[12:20:32] INFO  - PASS - Clicked On Regulirization Tab.
+[12:20:39] INFO  - PASS - Regulirization Request Applied Employee  Name Inputted Successfully. Emptwentyone
+[12:20:47] INFO  - PASS - Clicked On Regulirization Approve Button.Emp021 2025-12-18
+[12:20:53] INFO  - PASS - Clicked On Regulirization Approve Confirm Button.
+[12:20:56] INFO  - PASS - Back Button Clicked Successfully.
+[12:21:02] INFO  - PASS - Manage Profile Button Is Clicked.
+[12:21:05] INFO  - PASS - LogOut Button Is Clicked.
+[12:21:09] INFO  - PASS - Logout Confirm Button Is Clicked.
+[12:21:15] INFO  - PASS - Company Code Inputted Successfully.AEWI
+[12:21:19] INFO  - PASS - Login With Password Button Is Clicked.
+[12:21:25] INFO  - PASS - Username Is Entered In Username Text Field.Emp021
+[12:21:31] INFO  - PASS - Password Is Entered In Password Text Field.Emp021
+[12:22:25] ERROR - FAIL - Error While Clicking On Login Button.Exception in LoginButton(): An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d1e27f54-ed38-4fe7-a5aa-d4f2b084aad1, findElement {value=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.Button[2], using=xpath}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d1e27f54-ed38-4fe7-a5aa-d4f2b084aad1
+[12:22:48] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[12:23:21] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[12:23:27] ERROR - FAIL - Error While Displaying Attendance Page.An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d1e27f54-ed38-4fe7-a5aa-d4f2b084aad1, findElement {value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().className("android.view.View").descriptionContains("Monday - 01 Dec 2025"));, using=-android uiautomator}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d1e27f54-ed38-4fe7-a5aa-d4f2b084aad1
+[12:23:32] ERROR - FAIL - Error While Validating Emp Attendance Status.An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d1e27f54-ed38-4fe7-a5aa-d4f2b084aad1, findElement {value=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().descriptionContains("Monday - 01 Dec 2025"));, using=-android uiautomator}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d1e27f54-ed38-4fe7-a5aa-d4f2b084aad1
+[12:23:33] INFO  - Failed - MeghPIAttendAndroidAttendanceTest-MPI_1389_Attendance_Tab_02-To verify this, approve the regularization request and ensure that the employee’s regularization request date is marked as present.
+[12:23:33] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

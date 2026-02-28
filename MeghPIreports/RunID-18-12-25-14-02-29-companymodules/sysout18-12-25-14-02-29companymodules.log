@@ -1,0 +1,133 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-18 14:02:29
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Dec 18, 2025 2:02:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1758_Emp_LateIn_Reports_01
+---------------------------------------------------------------
+Test case took: 2.4134 seconds
+Total TC Time: 00:00:02
+Launching Driver... 2025-12-18 14:02:35
+Dec 18, 2025 2:02:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1759_Emp_LateIn_Reports_02
+---------------------------------------------------------------
+Test case took: 0.0494 seconds
+Total TC Time: 00:00:02
+showToastMessage : javascript error: Cannot read properties of null (reading 'appendChild')
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29b967d5c04c0c0aa8f7f909e79efd23, executeScript {script=var toast = document.createElement('div');toast.innerText = `Total Pass : 2 Total Fail : 0  Total TC : 2`;toast.style.position = 'fixed';toast.style.top = '50%';toast.style.left = '50%';toast.style.transform = 'translate(-50%, -50%)';toast.style.backgroundColor = '#17a2b8';toast.style.color = 'white';toast.style.padding = '20px 30px';toast.style.borderRadius = '8px';toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';toast.style.zIndex = '9999';toast.style.fontFamily = 'Arial, sans-serif';toast.style.fontSize = '16px';toast.style.textAlign = 'center';toast.style.opacity = '1';toast.style.transition = 'opacity 0.5s ease';document.body.appendChild(toast);setTimeout(function() { toast.style.opacity = '0'; }, 3500);setTimeout(function() { toast.remove(); }, 4000);, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60978}, goog:processID: 19092, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60978/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29b967d5c04c0c0aa8f7f909e79efd23
+Launching Driver... 2025-12-18 14:02:37
+Dec 18, 2025 2:02:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1761_Emp_LateIn_Reports_04
+---------------------------------------------------------------
+Test case took: 0.0442 seconds
+Total TC Time: 00:00:02
+showToastMessage : javascript error: Cannot read properties of null (reading 'appendChild')
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4910697e8ab236def197e4d889b323a7, executeScript {script=var toast = document.createElement('div');toast.innerText = `Total Pass : 3 Total Fail : 0  Total TC : 3`;toast.style.position = 'fixed';toast.style.top = '50%';toast.style.left = '50%';toast.style.transform = 'translate(-50%, -50%)';toast.style.backgroundColor = '#17a2b8';toast.style.color = 'white';toast.style.padding = '20px 30px';toast.style.borderRadius = '8px';toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';toast.style.zIndex = '9999';toast.style.fontFamily = 'Arial, sans-serif';toast.style.fontSize = '16px';toast.style.textAlign = 'center';toast.style.opacity = '1';toast.style.transition = 'opacity 0.5s ease';document.body.appendChild(toast);setTimeout(function() { toast.style.opacity = '0'; }, 3500);setTimeout(function() { toast.remove(); }, 4000);, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60993}, goog:processID: 17220, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60993/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4910697e8ab236def197e4d889b323a7
+Launching Driver... 2025-12-18 14:02:39
+Dec 18, 2025 2:02:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1762_Emp_LateIn_Reports_05
+---------------------------------------------------------------
+Test case took: 0.0468 seconds
+Total TC Time: 00:00:02
+showToastMessage : javascript error: Cannot read properties of null (reading 'appendChild')
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92478a030b7a87266846fe6b57af3c00, executeScript {script=var toast = document.createElement('div');toast.innerText = `Total Pass : 4 Total Fail : 0  Total TC : 4`;toast.style.position = 'fixed';toast.style.top = '50%';toast.style.left = '50%';toast.style.transform = 'translate(-50%, -50%)';toast.style.backgroundColor = '#17a2b8';toast.style.color = 'white';toast.style.padding = '20px 30px';toast.style.borderRadius = '8px';toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';toast.style.zIndex = '9999';toast.style.fontFamily = 'Arial, sans-serif';toast.style.fontSize = '16px';toast.style.textAlign = 'center';toast.style.opacity = '1';toast.style.transition = 'opacity 0.5s ease';document.body.appendChild(toast);setTimeout(function() { toast.style.opacity = '0'; }, 3500);setTimeout(function() { toast.remove(); }, 4000);, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61009}, goog:processID: 13736, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61009/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92478a030b7a87266846fe6b57af3c00
+Launching Driver... 2025-12-18 14:02:40
+Dec 18, 2025 2:02:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1763_Emp_LateOut_Reports_01
+---------------------------------------------------------------
+Test case took: 0.0192 seconds
+Total TC Time: 00:00:02
+showToastMessage : javascript error: Cannot read properties of null (reading 'appendChild')
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47753f09dc9acc755716f578b623f75e, executeScript {script=var toast = document.createElement('div');toast.innerText = `Total Pass : 5 Total Fail : 0  Total TC : 5`;toast.style.position = 'fixed';toast.style.top = '50%';toast.style.left = '50%';toast.style.transform = 'translate(-50%, -50%)';toast.style.backgroundColor = '#17a2b8';toast.style.color = 'white';toast.style.padding = '20px 30px';toast.style.borderRadius = '8px';toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';toast.style.zIndex = '9999';toast.style.fontFamily = 'Arial, sans-serif';toast.style.fontSize = '16px';toast.style.textAlign = 'center';toast.style.opacity = '1';toast.style.transition = 'opacity 0.5s ease';document.body.appendChild(toast);setTimeout(function() { toast.style.opacity = '0'; }, 3500);setTimeout(function() { toast.remove(); }, 4000);, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61022}, goog:processID: 9124, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61022/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47753f09dc9acc755716f578b623f75e
+Launching Driver... 2025-12-18 14:02:43
+Dec 18, 2025 2:02:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1764_Emp_LateOut_Reports_02
+---------------------------------------------------------------
+Test case took: 0.0477 seconds
+Total TC Time: 00:00:02
+Launching Driver... 2025-12-18 14:02:45
+Dec 18, 2025 2:02:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1766_Emp_LateOut_Reports_04
+---------------------------------------------------------------
+Test case took: 0.0174 seconds
+Total TC Time: 00:00:02
+showToastMessage : javascript error: Cannot read properties of null (reading 'appendChild')
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66ac72119cc01b7f643c2800cad85fdf, executeScript {script=var toast = document.createElement('div');toast.innerText = `Total Pass : 7 Total Fail : 0  Total TC : 7`;toast.style.position = 'fixed';toast.style.top = '50%';toast.style.left = '50%';toast.style.transform = 'translate(-50%, -50%)';toast.style.backgroundColor = '#17a2b8';toast.style.color = 'white';toast.style.padding = '20px 30px';toast.style.borderRadius = '8px';toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';toast.style.zIndex = '9999';toast.style.fontFamily = 'Arial, sans-serif';toast.style.fontSize = '16px';toast.style.textAlign = 'center';toast.style.opacity = '1';toast.style.transition = 'opacity 0.5s ease';document.body.appendChild(toast);setTimeout(function() { toast.style.opacity = '0'; }, 3500);setTimeout(function() { toast.remove(); }, 4000);, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61053}, goog:processID: 18944, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61053/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 66ac72119cc01b7f643c2800cad85fdf
+Launching Driver... 2025-12-18 14:02:47
+Dec 18, 2025 2:02:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-18-12-25-14-02-29-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1767_Emp_LateOut_Reports_05
+---------------------------------------------------------------
+Test case took: 0.0190 seconds
+Total TC Time: 00:00:02
+showToastMessage : javascript error: Cannot read properties of null (reading 'appendChild')
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e918ca1066f6837110ca3355a526a9f, executeScript {script=var toast = document.createElement('div');toast.innerText = `Total Pass : 8 Total Fail : 0  Total TC : 8`;toast.style.position = 'fixed';toast.style.top = '50%';toast.style.left = '50%';toast.style.transform = 'translate(-50%, -50%)';toast.style.backgroundColor = '#17a2b8';toast.style.color = 'white';toast.style.padding = '20px 30px';toast.style.borderRadius = '8px';toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';toast.style.zIndex = '9999';toast.style.fontFamily = 'Arial, sans-serif';toast.style.fontSize = '16px';toast.style.textAlign = 'center';toast.style.opacity = '1';toast.style.transition = 'opacity 0.5s ease';document.body.appendChild(toast);setTimeout(function() { toast.style.opacity = '0'; }, 3500);setTimeout(function() { toast.remove(); }, 4000);, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61069}, goog:processID: 13316, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61069/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e918ca1066f6837110ca3355a526a9f
+Launching Driver... 2025-12-18 14:02:48

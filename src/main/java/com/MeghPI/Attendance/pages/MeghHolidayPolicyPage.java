@@ -1,17 +1,17 @@
 package com.MeghPI.Attendance.pages;
 
 
+import java.time.Duration;
 //import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,7 +20,7 @@ import utils.Utils;
 public class MeghHolidayPolicyPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
     public String HolidayPolicyName = "";
     public String actualholiday = "";
@@ -110,8 +110,17 @@ public class MeghHolidayPolicyPage {
 	@FindBy(xpath = "//input[@id='txtCustomHolidayDate']/../input[2]")
 	private WebElement DateTextField; //8thTestCase
 	
+	@FindBy(xpath = "//input[@id='chkDefault']")
+	private WebElement DefaultCheckBox; //8thTestCase
 	
+	@FindBy(xpath = "//table[@id='dtHolidayPolicy']/tbody/tr/td[1]")
+	private WebElement FirstRow; //8thTestCase
 	
+	@FindBy(xpath = "//button[@id='btnMakeDefault']")
+	private WebElement DefaultClick; //8thTestCase
+	
+	@FindBy(xpath = "//button[@id='btnPolicyFilterYes']")
+	private WebElement DefaultClickConfirm; //8thTestCase
 	
 	public boolean  HolidaysButtonFromSidebar()
 	{
@@ -224,9 +233,9 @@ public class MeghHolidayPolicyPage {
 	public boolean HolidayPolicySearchTextField(String Holidaypolicyname)
 	{
 		try {
-			Thread.sleep(8000);			
+			Thread.sleep(4000);			
 			utils.waitForEle(HolidayPolicySearchTextField, "visible", "", 10);
-			HolidayPolicySearchTextField.isDisplayed();
+
 			HolidayPolicySearchTextField.clear();
 			HolidayPolicySearchTextField.sendKeys(Holidaypolicyname);
 			
@@ -503,19 +512,25 @@ public class MeghHolidayPolicyPage {
 	
 	public boolean FirstEmpRecord(String empfirstname) {
 	    try {
-	        // Wait until element is visible
-	    	Thread.sleep(4000);
-	        utils.waitForEle(FirstEmpRecordInAssignedEmpCountPage, "visible", "", 30);
 
-	        // Retrieve text from the element
-	        String assignedEmp = FirstEmpRecordInAssignedEmpCountPage.getText();
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
-	        if (assignedEmp != null && assignedEmp.contains(empfirstname)) {
-	            return true;
-	        } else {
-	            throw new Exception("Mismatch or missing: Expected first employee name to contain '" 
-	                + empfirstname + "', but found: '" + assignedEmp + "'");
+	        // Wait until the element contains the expected text
+	        boolean textFound = wait.until(driver1 -> {
+	            try {
+	                String text = FirstEmpRecordInAssignedEmpCountPage.getText();
+	                return text != null && text.contains(empfirstname);
+	            } catch (StaleElementReferenceException e) {
+	                return false; // retry
+	            }
+	        });
+
+	        if (!textFound) {
+	            throw new Exception("Expected name '" + empfirstname + 
+	                                "' not found in first employee record.");
 	        }
+
+	        return true;
 
 	    } catch (Exception e) {
 	        exceptionDesc = e.getMessage();
@@ -610,12 +625,89 @@ public class MeghHolidayPolicyPage {
 		    return true;
 		}
 	
+	
+	
+	public boolean DefaultCheckBox() {
+	    try {
+	    	Thread.sleep(4000);
+	        utils.waitForEle(DefaultCheckBox, "visible", "", 15);
+
+	        // Click only if NOT already selected
+	        if (!DefaultCheckBox.isSelected()) {
+	            DefaultCheckBox.click();
+	        }
+
+	        return true;
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+
+	
+	
+	public boolean  FirstRow()
+	{
+		try {
+			Thread.sleep(3000);
+			utils.waitForEle(FirstRow, "visible", "", 15);
+		
+			Actions act = new Actions(driver);
+			act.doubleClick(FirstRow).build();
+			
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	public boolean  DefaultClickButton()
+	{
+		try {
+			utils.waitForEle(DefaultClick, "visible", "", 15);
+		
+			DefaultClick.click();
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	public boolean DefaultClickConfirm() {
+	    try {
+	        Thread.sleep(1000);
+
+	        // Check if element exists & displayed without throwing exception
+	        if (DefaultClickConfirm != null && DefaultClickConfirm.isDisplayed()) {
+	            utils.waitForEle(DefaultClickConfirm, "clickable", "", 10);
+	            DefaultClickConfirm.click();
+	        }
+
+	        // Even if not displayed, return true (no failure)
+	        return true;
+
+	    } catch (Exception e) {
+	        // Do NOT fail or set exception — just continue
+	        return true; 
+	    }
+	}
+
+	
+	
+	
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 	

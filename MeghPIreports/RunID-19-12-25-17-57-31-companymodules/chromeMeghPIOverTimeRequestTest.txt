@@ -1,0 +1,556 @@
+[17:57:31] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-19-12-25-17-57-31-companymodules/chromeMeghPIOverTimeRequestTest.txt
+[17:57:56] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp043
+[17:57:57] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:00:00
+[17:57:57] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:30:00
+[17:58:13] INFO  - PASS - UpdateAttendance API executed successfully for Emp043
+[17:58:41] INFO  - PASS - Application Loaded Successfully.
+[17:58:44] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[17:58:46] INFO  - PASS - Login With Password Button Is Clicked.
+[17:58:48] INFO  - PASS - Sign in Text Is Displayed.
+[17:58:51] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[17:58:53] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[17:58:55] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:58:57] INFO  - PASS - Clicked On Login Button.
+[17:59:03] INFO  - PASS - Login Done  And Validated Successfully.
+[17:59:05] INFO  - PASS - Login Done Successfully.
+[17:59:11] INFO  - PASS - PolicyIcon Clicked Successfully.
+[17:59:13] INFO  - PASS - PolicyMaster Loaded Successfully.
+[17:59:15] INFO  - PASS - AttendancePolicy Clicked Successfully .
+[17:59:31] ERROR - FAIL - Attendance Policy Page Is Not Loaded Completely.null
+[17:59:40] INFO  - PASS - On SearchTextField Policy Name Inputted Successfully .Attendane Policy
+[17:59:47] INFO  - PASS - Shift Policy Edit Button Clicked Successfully .
+[17:59:49] INFO  - PASS - Regulirization Upto 31days CheckBox Clicked Successfully .
+[17:59:53] INFO  - PASS - Regulirization Upto 31days Inputted  Successfully .31
+[17:59:55] INFO  - PASS - OverTime Eligibility DropDown Clicked Successfully .
+[17:59:57] INFO  - PASS - OT Allow CheckBox Clicked Successfully .
+[18:00:00] INFO  - PASS - OT MaxMinutes TextField Clicked Successfully .
+[18:00:05] INFO  - PASS - OT Max Minutess Inputted  Successfully .12:00
+[18:00:09] INFO  - PASS - CreatePolicyButton Button Successfully .
+[18:00:17] INFO  - PASS - YesButton Button Successfully .
+[18:00:24] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[18:00:36] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[18:00:38] INFO  - PASS - Application Loaded Successfully.
+[18:00:41] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:00:43] INFO  - PASS - Login With Password Button Is Clicked.
+[18:00:45] INFO  - PASS - Sign in Text Is Displayed.
+[18:00:47] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:00:49] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:00:52] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:00:54] INFO  - PASS - Clicked On Login Button.
+[18:00:58] INFO  - PASS - Login Done  And Validated Successfully.
+[18:01:00] INFO  - PASS - Login Done Successfully.
+[18:01:04] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:01:06] INFO  - PASS - Employee Can Access His EmpOverTimeRequest Successfully.
+[18:01:12] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:01:18] INFO  - PASS - Employee Account OverTimeRequest Summary Clicked Successfully.
+[18:01:20] INFO  - PASS - Employee Account OverTimeRequest Pending Summary Clicked Successfully.
+[18:01:23] INFO  - PASS - On Employee Account OverTimeRequest Pending Summary Validated Successfully.2025-11-03 and status is Pending
+[18:01:25] INFO  - Failed - MeghPIOverTimeRequestTest-MPI_768_OverTImeRequest_01-To check that, as a employee do OT more than shift full day duration and ensure Overtime hours and record is displayed in the "my overtime request" tab.
+[18:01:25] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1
+[18:01:34] INFO  - PASS - Application Loaded Successfully.
+[18:01:36] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:01:38] INFO  - PASS - Login With Password Button Is Clicked.
+[18:01:40] INFO  - PASS - Sign in Text Is Displayed.
+[18:01:42] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:01:45] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:01:47] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:01:49] INFO  - PASS - Clicked On Login Button.
+[18:01:53] INFO  - PASS - Login Done  And Validated Successfully.
+[18:01:56] INFO  - PASS - Login Done Successfully.
+[18:01:59] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:02:01] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:02:07] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:02:13] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:02:16] INFO  - PASS - Admin Account OverTimeRequest Pending Summary Clicked Successfully.
+[18:02:18] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:02:35] INFO  - PASS - Emp OT Approve Button Clicked Successfully.Empfourtythree 2025-11-03
+[18:02:38] INFO  - PASS - Approve Comments Inputted Successfully.Empfourtythree
+[18:02:40] INFO  - PASS - Approve Confirm Button Clicked Successfully.
+[18:02:46] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:02:48] INFO  - PASS - Admin Account OverTimeRequest Approved Summary Clicked Successfully.
+[18:02:50] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:02:53] INFO  - PASS - On Employee Account OverTimeRequest Approved Summary Validated Successfully.2025-11-03 and status is Approved
+[18:02:59] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[18:03:11] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[18:03:14] INFO  - PASS - Application Loaded Successfully.
+[18:03:16] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:03:18] INFO  - PASS - Login With Password Button Is Clicked.
+[18:03:20] INFO  - PASS - Sign in Text Is Displayed.
+[18:03:23] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:03:25] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:03:27] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:03:29] INFO  - PASS - Clicked On Login Button.
+[18:03:33] INFO  - PASS - Login Done  And Validated Successfully.
+[18:03:35] INFO  - PASS - Login Done Successfully.
+[18:03:38] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:03:41] INFO  - PASS - Employee Can Access His EmpOverTimeRequest Successfully.
+[18:03:47] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:03:53] INFO  - PASS - Employee Account OverTimeRequest Summary Clicked Successfully.
+[18:03:55] INFO  - PASS - Employee Account OverTimeRequest Approved Summary Clicked Successfully.
+[18:03:57] INFO  - PASS - On Employee Account OverTimeRequest Approved Summary Validated Successfully.2025-11-03 and status is Approved
+[18:03:58] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_769_OverTImeRequest_02-To check that, as a admin approve the Overtime request and check the status in employee account .
+[18:03:58] INFO  - Total Pass : 1 Total Fail : 1  Total TC : 2
+[18:04:03] INFO  - PASS - Application Loaded Successfully.
+[18:04:05] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:04:07] INFO  - PASS - Login With Password Button Is Clicked.
+[18:04:09] INFO  - PASS - Sign in Text Is Displayed.
+[18:04:12] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:04:14] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:04:16] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:04:18] INFO  - PASS - Clicked On Login Button.
+[18:04:22] INFO  - PASS - Login Done  And Validated Successfully.
+[18:04:25] INFO  - PASS - Login Done Successfully.
+[18:04:27] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:04:29] INFO  - PASS - Employee Attendance Loaded Successfully.
+[18:04:36] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:04:38] INFO  - PASS - Emp Present Status,  OT Hours Count, Working Hours Count, InTime, OutTime Validated Successfully.Emp043 intime  09:00 And out time18:30 shift is General Shiftstatus isPresentworking hours is 9:30 OT is00:30
+[18:04:44] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[18:04:57] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[18:04:59] INFO  - PASS - Application Loaded Successfully.
+[18:05:01] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:05:03] INFO  - PASS - Login With Password Button Is Clicked.
+[18:05:05] INFO  - PASS - Sign in Text Is Displayed.
+[18:05:08] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:05:10] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:05:12] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:05:14] INFO  - PASS - Clicked On Login Button.
+[18:05:19] INFO  - PASS - Login Done  And Validated Successfully.
+[18:05:21] INFO  - PASS - Login Done Successfully.
+[18:05:24] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:05:31] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:05:33] INFO  - PASS -  Emp Name Inputted Successfully.Empfourtythree
+[18:05:35] INFO  - PASS - OT Hours Of Emp Record Displayed Successfully.00:30
+[18:05:35] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_770_OverTImeRequest_03-To verify, log in with the employee account, check the OT hours count in 'OT Hours' column under 'My Attendance' tab after OT is approved by admin.
+[18:05:35] INFO  - Total Pass : 2 Total Fail : 1  Total TC : 3
+[18:05:40] INFO  - PASS - This Test Case Already passed In MPI_771_OverTImeRequest_04 TestCase.
+[18:05:41] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_771_OverTImeRequest_04-To check that, Do OT hours and ensure in the admin "employee" tab each employee OT hour is displayed under OT hours column.
+[18:05:41] INFO  - Total Pass : 3 Total Fail : 1  Total TC : 4
+[18:05:44] INFO  - PASS - Punch IN executed successfully at 2025-11-11 09:00:00
+[18:05:45] INFO  - PASS - Punch OUT executed successfully at 2025-11-11 18:30:00
+[18:05:45] INFO  - PASS - UpdateAttendance API executed successfully for Emp043
+[18:05:47] INFO  - PASS - Application Loaded Successfully.
+[18:05:49] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:05:52] INFO  - PASS - Login With Password Button Is Clicked.
+[18:05:54] INFO  - PASS - Sign in Text Is Displayed.
+[18:05:56] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:05:58] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:06:00] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:06:03] INFO  - PASS - Clicked On Login Button.
+[18:06:08] INFO  - PASS - Login Done  And Validated Successfully.
+[18:06:10] INFO  - PASS - Login Done Successfully.
+[18:06:13] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:06:15] INFO  - PASS - Employee Can Access His EmpOverTimeRequest Successfully.
+[18:06:21] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-11
+[18:06:27] INFO  - PASS - Employee Account OverTimeRequest Summary Clicked Successfully.
+[18:06:30] INFO  - PASS - Employee Account OverTimeRequest Pending Summary Clicked Successfully.
+[18:06:32] INFO  - PASS - On Employee Account OverTimeRequest Pending Summary OverStay Count Validated Successfully.2025-11-11 and status is Pending overstay count is 00:30
+[18:06:32] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_772_OverTImeRequest_05-To check that, as a employee do Overtime and Validate the Over stay count on  employee account OT request tab.
+[18:06:32] INFO  - Total Pass : 4 Total Fail : 1  Total TC : 5
+[18:06:38] INFO  - PASS - Application Loaded Successfully.
+[18:06:40] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:06:42] INFO  - PASS - Login With Password Button Is Clicked.
+[18:06:45] INFO  - PASS - Sign in Text Is Displayed.
+[18:06:47] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:06:49] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:06:51] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:06:53] INFO  - PASS - Clicked On Login Button.
+[18:06:58] INFO  - PASS - Login Done  And Validated Successfully.
+[18:07:00] INFO  - PASS - Login Done Successfully.
+[18:07:03] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:07:05] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:07:12] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-11
+[18:07:18] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:07:20] INFO  - PASS - Admin Account OverTimeRequest Pending Summary Clicked Successfully.
+[18:07:22] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:07:35] INFO  - PASS -  OT Reject Button Clicked Successfully.Empfourtythree 2025-11-11
+[18:07:37] INFO  - PASS - Reject Comments Inputted Successfully.Empfourtythree
+[18:07:43] INFO  - PASS - Reject Confirm Button Clicked Successfully.
+[18:07:49] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:07:52] INFO  - PASS - Admin Account OverTimeRequest Rejected Summary Clicked Successfully.
+[18:07:54] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:07:56] INFO  - PASS - On Employee Account OverTimeRequest Rejected Summary Validated Successfully.2025-11-11 and status is Rejected
+[18:08:03] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[18:08:15] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[18:08:17] INFO  - PASS - Application Loaded Successfully.
+[18:08:20] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:08:22] INFO  - PASS - Login With Password Button Is Clicked.
+[18:08:24] INFO  - PASS - Sign in Text Is Displayed.
+[18:08:26] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:08:28] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:08:31] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:08:33] INFO  - PASS - Clicked On Login Button.
+[18:08:37] INFO  - PASS - Login Done  And Validated Successfully.
+[18:08:39] INFO  - PASS - Login Done Successfully.
+[18:08:42] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:08:44] INFO  - PASS - Employee Can Access His EmpOverTimeRequest Successfully.
+[18:08:50] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-11
+[18:08:57] INFO  - PASS - Employee Account OverTimeRequest Summary Clicked Successfully.
+[18:08:59] INFO  - PASS - Employee Account OverTimeRequest Rejected Summary Clicked Successfully.
+[18:09:01] INFO  - PASS - On Employee Account OverTimeRequest Rejected Summary Validated Successfully.2025-11-11 and status is Rejected
+[18:09:01] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_773_OverTImeRequest_06-To check that, as a admin reject the employee's OT request and ensure status is updated as "rejected" for the request on both employee and admin account.
+[18:09:01] INFO  - Total Pass : 5 Total Fail : 1  Total TC : 6
+[18:09:07] INFO  - PASS - Application Loaded Successfully.
+[18:09:09] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:09:11] INFO  - PASS - Login With Password Button Is Clicked.
+[18:09:13] INFO  - PASS - Sign in Text Is Displayed.
+[18:09:16] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:09:18] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:09:20] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:09:22] INFO  - PASS - Clicked On Login Button.
+[18:09:26] INFO  - PASS - Login Done  And Validated Successfully.
+[18:09:29] INFO  - PASS - Login Done Successfully.
+[18:09:32] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:09:34] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:09:40] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-11
+[18:09:42] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:09:45] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[18:09:47] INFO  - PASS - Approval Comments CheckBox Selected Successfully.
+[18:09:49] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:09:51] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp ID Inputted Successfully.Emp043
+[18:09:54] INFO  - PASS - On Admin Account OverTimeRequest Search Inputted Emp ID Validated Successfully.Emp043
+[18:09:56] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending  OT Approval Comments Inputted Successfully.Empfourtythree
+[18:09:58] INFO  - PASS - On Admin Account OverTimeRequest Search Inputted OT Approval Comments Validated Successfully.Empfourtythree
+[18:10:04] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[18:10:16] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[18:10:19] INFO  - PASS - Application Loaded Successfully.
+[18:10:21] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:10:23] INFO  - PASS - Login With Password Button Is Clicked.
+[18:10:25] INFO  - PASS - Sign in Text Is Displayed.
+[18:10:27] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:10:30] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:10:32] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:10:34] INFO  - PASS - Clicked On Login Button.
+[18:10:39] INFO  - PASS - Login Done  And Validated Successfully.
+[18:10:41] INFO  - PASS - Login Done Successfully.
+[18:10:43] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:10:46] INFO  - PASS - Employee Can Access His EmpOverTimeRequest Successfully.
+[18:10:52] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-11
+[18:10:54] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:10:56] INFO  - PASS - Approval Comments CheckBox Selected Successfully.
+[18:10:59] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:11:01] INFO  - PASS - On Emp Account OverTimeRequest Search Textfield Pending  OT Approval Comments Inputted Successfully.Empfourtythree
+[18:11:03] INFO  - PASS - On Emp Account OverTimeRequest Search Inputted OT Approval Comments Validated Successfully.Empfourtythree
+[18:11:03] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_774_OverTImeRequest_07-To check that, check the functionality of search feature by selecting each search option on admin account.
+[18:11:03] INFO  - Total Pass : 6 Total Fail : 1  Total TC : 7
+[18:11:07] INFO  - PASS - Punch IN executed successfully at 2025-11-30 09:00:00
+[18:11:07] INFO  - PASS - Punch OUT executed successfully at 2025-11-30 18:30:00
+[18:11:07] INFO  - PASS - UpdateAttendance API executed successfully for Emp043
+[18:11:10] INFO  - PASS - Application Loaded Successfully.
+[18:11:12] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:11:14] INFO  - PASS - Login With Password Button Is Clicked.
+[18:11:16] INFO  - PASS - Sign in Text Is Displayed.
+[18:11:19] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:11:21] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:11:23] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:11:25] INFO  - PASS - Clicked On Login Button.
+[18:11:29] INFO  - PASS - Login Done  And Validated Successfully.
+[18:11:32] INFO  - PASS - Login Done Successfully.
+[18:11:35] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:11:37] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:11:43] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-30
+[18:11:45] INFO  - PASS - Regularization Month Data Displayed Successfully.November
+[18:11:48] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:11:50] INFO  - PASS - Day Type Search CheckBox Selected Successfully.
+[18:11:52] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:11:54] INFO  - PASS - On Emp Account OverTimeRequest Search Textfield Pending  Day Type Inputted Successfully.PW
+[18:11:56] INFO  - PASS - On Emp Account OverTimeRequest Search Inputted DayType Validated Successfully.PW
+[18:11:56] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_775_OverTImeRequest_08-To verify this, perform OT on the last month's last Sunday (a week-off day), then log in as an admin, select the last month in the OT requests filter, and ensure that only last-month OT requests are displayed and the Day Type is shown as ‘W’..
+[18:11:56] INFO  - Total Pass : 7 Total Fail : 1  Total TC : 8
+[18:11:59] INFO  - PASS - Punch IN executed successfully at 2025-11-05 09:00:00
+[18:11:59] INFO  - PASS - Punch OUT executed successfully at 2025-11-05 18:30:00
+[18:12:00] INFO  - PASS - Punch IN executed successfully at 2025-11-06 09:00:00
+[18:12:00] INFO  - PASS - Punch OUT executed successfully at 2025-11-06 18:30:00
+[18:12:00] INFO  - PASS - UpdateAttendance API executed successfully for Emp043
+[18:12:03] INFO  - PASS - Application Loaded Successfully.
+[18:12:05] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:12:07] INFO  - PASS - Login With Password Button Is Clicked.
+[18:12:09] INFO  - PASS - Sign in Text Is Displayed.
+[18:12:11] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:12:14] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:12:16] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:12:18] INFO  - PASS - Clicked On Login Button.
+[18:12:22] INFO  - PASS - Login Done  And Validated Successfully.
+[18:12:24] INFO  - PASS - Login Done Successfully.
+[18:12:27] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:12:30] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:12:36] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-05
+[18:12:42] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:12:44] INFO  - PASS - Admin Account OverTimeRequest Pending Summary Clicked Successfully.
+[18:12:47] INFO  - PASS - Regularization request RejectAll Button Clicked Successfully.
+[18:12:49] INFO  - PASS - Regularization request Reject Reason Inputted Successfully.Reject All OT
+[18:12:53] INFO  - PASS - Regularization request RejectAll Confirm Button Clicked Successfully.
+[18:13:00] ERROR - FAIL - Error While Clicking On OT Summary Button On Admin.element click intercepted: Element <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">...</button> is not clickable at point (193, 71). Other element would receive the click: <div class="modal fade delete_model popup_info_model action-modal show" id="delete_all" aria-labelledby="exampleModalToggleLabel" tabindex="-1" style="display: block;" aria-modal="true" role="dialog">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074460f7ba04f82d9c67b6378e7afa37, clickElement {id=f.138605D8172C15E7C286F5529D4EE540.d.38E41AE7203FAFB74B4F8833A19FCF5D.e.1429}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60461}, goog:processID: 20160, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60461/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (074460f7ba04f82d9c67b6378e7afa37)] -> xpath: //button[contains(text(), 'Total Employee')]]
+Session ID: 074460f7ba04f82d9c67b6378e7afa37
+[18:13:23] ERROR - FAIL - Error While Clicking On Admin OverTimeRequest Rejected Summary Button.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074460f7ba04f82d9c67b6378e7afa37, clickElement {id=f.138605D8172C15E7C286F5529D4EE540.d.38E41AE7203FAFB74B4F8833A19FCF5D.e.1445}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60461}, goog:processID: 20160, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60461/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (074460f7ba04f82d9c67b6378e7afa37)] -> xpath: //p[@id='txtRejectedCount']]
+Session ID: 074460f7ba04f82d9c67b6378e7afa37
+[18:13:26] ERROR - FAIL - Error While Validating EmpOverTimeRequest Rejected Summary Count And Record.No matching OT record found for: Date=Wed, 05-11-2025, Status=Rejected, EmpID=#Emp043
+[18:13:26] INFO  - Failed - MeghPIOverTimeRequestTest-MPI_776_OverTImeRequest_09-To check that, Do OT from multiple employee's account and as a admin reject all request using "reject all" button feature and ensure all the OT requests are rejected 
+[18:13:26] INFO  - Total Pass : 7 Total Fail : 2  Total TC : 9
+[18:13:29] INFO  - PASS - Punch IN executed successfully at 2025-11-05 09:00:00
+[18:13:29] INFO  - PASS - Punch OUT executed successfully at 2025-11-05 18:30:00
+[18:13:30] INFO  - PASS - Punch IN executed successfully at 2025-11-06 09:00:00
+[18:13:30] INFO  - PASS - Punch OUT executed successfully at 2025-11-06 18:30:00
+[18:13:30] INFO  - PASS - UpdateAttendance API executed successfully for Emp043
+[18:13:32] INFO  - PASS - Application Loaded Successfully.
+[18:13:34] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:13:37] INFO  - PASS - Login With Password Button Is Clicked.
+[18:13:39] INFO  - PASS - Sign in Text Is Displayed.
+[18:13:41] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:13:43] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:13:46] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:13:48] INFO  - PASS - Clicked On Login Button.
+[18:13:52] INFO  - PASS - Login Done  And Validated Successfully.
+[18:13:54] INFO  - PASS - Login Done Successfully.
+[18:13:57] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:13:59] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:14:06] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-05
+[18:14:12] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:14:14] INFO  - PASS - Admin Account OverTimeRequest Pending Summary Clicked Successfully.
+[18:14:16] INFO  - PASS - Approve All Button Clicked On Admin Successfully.
+[18:14:19] INFO  - PASS - Regularization request Approve Reason Inputted Successfully.Approve All OT
+[18:14:21] INFO  - PASS - Approve All Confirm Button Clicked On Admin Successfully.
+[18:14:28] ERROR - FAIL - Error While Clicking On OT Summary Button On Admin.element click intercepted: Element <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">...</button> is not clickable at point (193, 71). Other element would receive the click: <div class="modal fade success_model popup_info_model action-modal show" id="aprrove_all" aria-labelledby="exampleModalToggleLabel" tabindex="-1" style="display: block;" aria-modal="true" role="dialog">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [826f0d980483ceb37522857cc32f2651, clickElement {id=f.C38E9607879BDBD042C1E99E50ABBEEB.d.B375722C44687DAA8D26894FF3CF76FE.e.1397}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60553}, goog:processID: 14712, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60553/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (826f0d980483ceb37522857cc32f2651)] -> xpath: //button[contains(text(), 'Total Employee')]]
+Session ID: 826f0d980483ceb37522857cc32f2651
+[18:14:51] ERROR - FAIL - Error While Clicking On Admin OverTimeRequest Approved Summary Button.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [826f0d980483ceb37522857cc32f2651, clickElement {id=f.C38E9607879BDBD042C1E99E50ABBEEB.d.B375722C44687DAA8D26894FF3CF76FE.e.1413}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60553}, goog:processID: 14712, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60553/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (826f0d980483ceb37522857cc32f2651)] -> xpath: //p[@id='txtApprovedCount']]
+Session ID: 826f0d980483ceb37522857cc32f2651
+[18:14:53] ERROR - FAIL - Error While Validating EmpOverTimeRequest Approved Summary Count And Record.No matching OT record found for: Date=Wed, 05-11-2025, Status=Approved, EmpID=#Emp043
+[18:14:53] INFO  - Failed - MeghPIOverTimeRequestTest-MPI_777_OverTImeRequest_10-To check that, Do OT from multiple employee's account and as a admin approve all requests using "approve all" button feature and ensure all the OT requests are approved. 
+[18:14:53] INFO  - Total Pass : 7 Total Fail : 3  Total TC : 10
+[18:15:01] INFO  - PASS - Application Loaded Successfully.
+[18:15:03] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:15:05] INFO  - PASS - Login With Password Button Is Clicked.
+[18:15:07] INFO  - PASS - Sign in Text Is Displayed.
+[18:15:10] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:15:12] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:15:14] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:15:16] INFO  - PASS - Clicked On Login Button.
+[18:15:20] INFO  - PASS - Login Done  And Validated Successfully.
+[18:15:23] INFO  - PASS - Login Done Successfully.
+[18:15:29] INFO  - PASS - PolicyIcon Clicked Successfully.
+[18:15:31] INFO  - PASS - PolicyMaster Loaded Successfully.
+[18:15:33] INFO  - PASS - AttendancePolicy Clicked Successfully .
+[18:15:35] INFO  - PASS - AttendancePolicy Page Loaded Successfully .
+[18:15:45] INFO  - PASS - On SearchTextField Policy Name Inputted Successfully .Attendane Policy 1
+[18:15:51] INFO  - PASS - Shift Policy Edit Button Clicked Successfully .
+[18:15:55] INFO  - PASS - CreatePolicyButton Button Successfully .
+[18:16:03] INFO  - PASS - YesButton Button Successfully .
+[18:16:04] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:00:00
+[18:16:05] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:30:00
+[18:16:05] INFO  - PASS - UpdateAttendance API executed successfully for autoEID2010
+[18:16:08] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:16:10] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:16:17] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:16:19] INFO  - PASS - Filter Button Clicked On Admin Successfully.
+[18:16:25] INFO  - PASS - Office Name Selected  Successfully .AutoON191225092625
+[18:16:27] INFO  - PASS - Successfully Clicked  Dept DropDown.
+[18:16:33] INFO  - PASS - Successfully Selected  Dept.
+[18:16:35] INFO  - PASS - Successfully Clicked On  Team  Dropdown.
+[18:16:40] INFO  - PASS - Successfully Selected  Team From Dropdown.
+[18:16:42] INFO  - PASS - Filter Apply Button Clicked On Admin Successfully.
+[18:16:45] ERROR - FAIL - Error While Validating  Filter Applied Record.null
+[18:16:45] INFO  - Failed - MeghPIOverTimeRequestTest-MPI_778_OverTImeRequest_11-To check that, check the functionality of filter feature by selecting office name, dept name, team and designation.
+[18:16:45] INFO  - Total Pass : 7 Total Fail : 4  Total TC : 11
+[18:16:49] INFO  - PASS - Application Loaded Successfully.
+[18:16:52] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:16:54] INFO  - PASS - Login With Password Button Is Clicked.
+[18:16:56] INFO  - PASS - Sign in Text Is Displayed.
+[18:16:58] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:17:00] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:17:03] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:17:05] INFO  - PASS - Clicked On Login Button.
+[18:17:09] INFO  - PASS - Login Done  And Validated Successfully.
+[18:17:11] INFO  - PASS - Login Done Successfully.
+[18:17:14] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:17:16] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:17:23] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:17:25] INFO  - PASS - Filter Button Clicked On Admin Successfully.
+[18:17:31] INFO  - PASS - Approved Option Selected From Filter Successfully.
+[18:17:34] INFO  - PASS - Filter Apply Button Clicked On Admin Successfully.
+[18:17:36] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:17:38] INFO  - PASS - Approved Filter Applied Emp Record Displayed Successfully.Empfourtythree Approved
+[18:17:40] INFO  - PASS - Filter Button Clicked On Admin Successfully.
+[18:17:47] INFO  - PASS - Pending Option Selected From Filter Successfully.Pending
+[18:17:49] INFO  - PASS - Filter Apply Button Clicked On Admin Successfully.
+[18:17:51] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:17:53] INFO  - PASS - Pending Filter Applied Emp Record Displayed Successfully.Empfourtythree Pending
+[18:17:55] INFO  - PASS - Filter Button Clicked On Admin Successfully.
+[18:18:02] INFO  - PASS - Rejected Option Selected From Filter Successfully.Rejected
+[18:18:04] INFO  - PASS - Filter Apply Button Clicked On Admin Successfully.
+[18:18:06] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:18:24] ERROR - FAIL - Error While Displaying Rejected Filter Record.no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='dtOverTime']/tbody/tr[1]/td[6]"}
+  (Session info: chrome=143.0.7499.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896be74c2b47f074fb35805f712436e8, findElement {using=xpath, value=//table[@id='dtOverTime']/tbody/tr[1]/td[6]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60745}, goog:processID: 18836, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60745/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 896be74c2b47f074fb35805f712436e8
+[18:18:24] INFO  - Failed - MeghPIOverTimeRequestTest-MPI_779_OverTImeRequest_12-To check that, select pending, Approved, rejected one by one  from filter feature and ensure respective status requests are displayed in the table.
+[18:18:24] INFO  - Total Pass : 7 Total Fail : 5  Total TC : 12
+[18:18:29] INFO  - PASS - Application Loaded Successfully.
+[18:18:31] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:18:33] INFO  - PASS - Login With Password Button Is Clicked.
+[18:18:36] INFO  - PASS - Sign in Text Is Displayed.
+[18:18:38] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:18:40] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:18:42] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:18:44] INFO  - PASS - Clicked On Login Button.
+[18:24:10] ERROR - FAIL - Error While Login Validation.Attempt 5: Login page still visible after refresh.
+[18:24:12] INFO  - PASS - Application Loaded Successfully.
+[18:24:15] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:24:17] INFO  - PASS - Login With Password Button Is Clicked.
+[18:24:19] INFO  - PASS - Sign in Text Is Displayed.
+[18:24:21] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:24:23] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:24:26] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:24:28] INFO  - PASS - Clicked On Login Button.
+[18:24:47] INFO  - PASS - Login Done  And Validated Successfully.
+[18:24:49] INFO  - PASS - Login Done Successfully.
+[18:24:52] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:24:55] INFO  - PASS - Employee Can Access His EmpOverTimeRequest Successfully.
+[18:25:01] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:25:07] INFO  - PASS - Employee Account OverTimeRequest Summary Clicked Successfully.
+[18:25:09] ERROR - FAIL - Error While Validating On EmpOverTimeRequest Approved OT Request Count.null
+[18:25:11] ERROR - FAIL - Error While Validating On EmpOverTimeRequest Pending OT Request Count.null
+[18:25:14] ERROR - FAIL - Error While Validating On EmpOverTimeRequest Rejected OT Request Count.null
+[18:25:14] INFO  - Failed - MeghPIOverTimeRequestTest-MPI_784_OverTImeRequest_17-To check that, check the Overtime statistics for pending, rejected, and for approved on employee account .
+[18:25:14] INFO  - Total Pass : 7 Total Fail : 6  Total TC : 13
+[18:25:34] INFO  - PASS - This Test Case Already passed In MPI_774_OverTImeRequest_07 TestCase.
+[18:25:34] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_786_OverTImeRequest_19-To check that, check the search feature in employee account .
+[18:25:34] INFO  - Total Pass : 8 Total Fail : 6  Total TC : 14
+[18:25:38] INFO  - PASS - Punch IN executed successfully at 2025-11-07 09:00:00
+[18:25:39] INFO  - PASS - Punch OUT executed successfully at 2025-11-07 18:30:00
+[18:25:40] INFO  - PASS - UpdateAttendance API executed successfully for Emp043
+[18:25:57] INFO  - PASS - Application Loaded Successfully.
+[18:25:59] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:26:01] INFO  - PASS - Login With Password Button Is Clicked.
+[18:26:03] INFO  - PASS - Sign in Text Is Displayed.
+[18:26:06] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:26:08] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:26:10] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:26:12] INFO  - PASS - Clicked On Login Button.
+[18:26:17] INFO  - PASS - Login Done  And Validated Successfully.
+[18:26:19] INFO  - PASS - Login Done Successfully.
+[18:26:22] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:26:24] INFO  - PASS - HrAccountOTRequestTab Clicked Successfully In HR Account.
+[18:26:30] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-07
+[18:26:37] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:26:39] INFO  - PASS - Admin Account OverTimeRequest Pending Summary Clicked Successfully.
+[18:26:41] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:26:58] INFO  - PASS - Emp OT Approve Button Clicked Successfully.Empfourtythree 2025-11-07
+[18:27:01] INFO  - PASS - Less OT Hours Inputted Successfully.00:15
+[18:27:03] INFO  - PASS - Approve Comments Inputted Successfully.Empfourtythree
+[18:27:05] INFO  - PASS - Approve Confirm Button Clicked Successfully.
+[18:27:11] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[18:27:14] INFO  - PASS - Admin Account OverTimeRequest Approved Summary Clicked Successfully.
+[18:27:16] INFO  - PASS - On Admin Account OverTimeRequest Search Textfield Pending OT Emp Name Inputted Successfully.
+[18:27:18] INFO  - PASS - On Employee Account OverTimeRequest Approved Summary Validated Successfully.2025-11-07 and Updated OT Is is 00:15
+[18:27:24] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[18:27:36] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[18:27:39] INFO  - PASS - Application Loaded Successfully.
+[18:27:41] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:27:43] INFO  - PASS - Login With Password Button Is Clicked.
+[18:27:46] INFO  - PASS - Sign in Text Is Displayed.
+[18:27:48] INFO  - PASS - Username Is Entered In Username Text Field.Emp043
+[18:27:50] INFO  - PASS - Password Is Entered In Password Text Field.Emp043
+[18:27:52] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:27:54] INFO  - PASS - Clicked On Login Button.
+[18:27:59] INFO  - PASS - Login Done  And Validated Successfully.
+[18:28:01] INFO  - PASS - Login Done Successfully.
+[18:28:04] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[18:28:06] INFO  - PASS - Employee Can Access His EmpOverTimeRequest Successfully.
+[18:28:12] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-07
+[18:28:18] INFO  - PASS - Employee Account OverTimeRequest Summary Clicked Successfully.
+[18:28:20] INFO  - PASS - Admin Account OverTimeRequest Approved Summary Clicked Successfully.
+[18:28:23] INFO  - PASS - On Employee Account OverTimeRequest Pending Summary OverStay Count Validated Successfully.2025-11-07 and status is Approved OT Approved count is 00:15
+[18:28:23] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_1575_OverTImeRequest_20-To verify this, approve OT for less hours and ensure both Overstay and Approved Overtime counts are displayed correctly.
+[18:28:23] INFO  - Total Pass : 9 Total Fail : 6  Total TC : 15
+[18:28:28] INFO  - PASS - Application Loaded Successfully.
+[18:28:30] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:28:33] INFO  - PASS - Login With Password Button Is Clicked.
+[18:28:35] INFO  - PASS - Sign in Text Is Displayed.
+[18:28:37] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:28:39] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:28:41] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:28:44] INFO  - PASS - Clicked On Login Button.
+[18:28:48] INFO  - PASS - Login Done  And Validated Successfully.
+[18:28:50] INFO  - PASS - Login Done Successfully.
+[18:28:56] INFO  - PASS - PolicyIcon Clicked Successfully.
+[18:28:58] INFO  - PASS - PolicyMaster Loaded Successfully.
+[18:29:01] INFO  - PASS - AttendancePolicy Clicked Successfully .
+[18:29:03] INFO  - PASS - AttendancePolicy Page Loaded Successfully .
+[18:29:12] INFO  - PASS - On SearchTextField Policy Name Inputted Successfully .AutoAttenPN191225092625
+[18:29:18] INFO  - PASS - Shift Policy Edit Button Clicked Successfully .
+[18:29:22] INFO  - PASS - CreatePolicyButton Button Successfully .
+[18:29:31] INFO  - PASS - YesButton Button Successfully .
+[18:29:34] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:29:36] INFO  - PASS - Hr Account Attendance Process Tab Clicked Successfully In HR Account.
+[18:29:38] INFO  - PASS - Hr Account Add Attendance Process Button Clicked Successfully In HR Account.
+[18:29:41] INFO  - PASS - Date TextField Clicked Successfully In HR Account.
+[18:29:43] INFO  - PASS - First Day Of the Month Selected Successfully .2025-11-01
+[18:29:45] INFO  - PASS - Add Attendance Process Apply Button Clicked Successfully In HR Account.
+[18:30:17] INFO  - PASS - Waiting For Attendance Process To Get Complete  Successfully In HR Account.
+[18:30:19] INFO  - PASS - Hr Account OT Approved Tab Clicked Successfully In HR Account.
+[18:30:26] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:30:28] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:30:30] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[18:30:32] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:30:35] INFO  - PASS - Hr Account OT Approved Tab EmpID Inputted On Search Text Field Successfully .autoEID2010
+[18:30:37] INFO  - PASS - Hr Account OT Approved Tab Emp OT Record Validated SuccessFully.autoEID2010
+[18:30:37] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_1638_OverTime_Approved_07-To verify this, ensure that the OT record generated by the "OT Approved by System" attendance policy is displayed under the Overtime Approved tab.
+[18:30:37] INFO  - Total Pass : 10 Total Fail : 6  Total TC : 16
+[18:30:41] INFO  - PASS - This Test Case Already passed In MPI_1638_OverTime_Approved_07 TestCase.
+[18:30:41] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_787_OverTime_Approved_01-To check that, check the functionality of search feature by selecting each search option on admin account.
+[18:30:41] INFO  - Total Pass : 11 Total Fail : 6  Total TC : 17
+[18:30:46] INFO  - PASS - Application Loaded Successfully.
+[18:30:49] INFO  - PASS - Company Code Entered in Text Box.AEWI
+[18:30:51] INFO  - PASS - Login With Password Button Is Clicked.
+[18:30:53] INFO  - PASS - Sign in Text Is Displayed.
+[18:30:55] INFO  - PASS - Username Is Entered In Username Text Field.AutoE191225092625@mailinator.com
+[18:30:57] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:31:00] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:31:02] INFO  - PASS - Clicked On Login Button.
+[18:31:06] INFO  - PASS - Login Done  And Validated Successfully.
+[18:31:08] INFO  - PASS - Login Done Successfully.
+[18:31:12] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:31:14] INFO  - PASS - Hr Account OT Approved Tab Clicked Successfully In HR Account.
+[18:31:20] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-11-03
+[18:31:22] INFO  - PASS - Filter Button Clicked On Admin Successfully.
+[18:31:29] INFO  - PASS - Office Name Selected  Successfully .AutoON191225092625
+[18:31:31] INFO  - PASS - Successfully Clicked  Dept DropDown.
+[18:31:36] INFO  - PASS - Successfully Selected  Dept.
+[18:31:38] INFO  - PASS - Successfully Clicked On  Team  Dropdown.
+[18:31:44] INFO  - PASS - Successfully Selected  Team From Dropdown.
+[18:31:46] INFO  - PASS - Filter Apply Button Clicked On Admin Successfully.
+[18:31:48] INFO  - PASS - Hr Account OT Approved Tab Emp OT Record Validated SuccessFully.autoEID2010
+[18:31:48] INFO  - Passed - MeghPIOverTimeRequestTest-MPI_790_OverTime_Approved_04-check the functionality of filter feature by inputting specific office, dept, team and designation.
+[18:31:48] INFO  - Total Pass : 12 Total Fail : 6  Total TC : 18

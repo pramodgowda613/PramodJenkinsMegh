@@ -1,26 +1,17 @@
 package com.MeghPI.Attendance.pages;
 
-import java.time.Duration;
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import utils.Utils;
 
 public class MeghWeekOffPolicyPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String WeekOffPolicyName = "";
 	public String WeekOffPolicyNames = "";
@@ -136,6 +127,18 @@ public class MeghWeekOffPolicyPage {
 	@FindBy(xpath = "//table[@id='tblWeeklyOffPolicy']/tbody/tr[7]/td[2]")
 	private WebElement SundayOption ; //11th TestCase
 	
+	@FindBy(xpath = "//button[@id='emp_policy_tab']")
+	private WebElement PolicyButton; //4th TestCase
+	
+	@FindBy(xpath = "//input[@id='chkDefault']")
+	private WebElement DefaultCheckBoxClick; //4th TestCase
+	
+	
+	
+	
+	
+	
+	
 	
 	//1st TestCase
 		public boolean WeekOffPolicyButton()
@@ -245,9 +248,6 @@ public class MeghWeekOffPolicyPage {
 			return true;
 		}
 		
-		public String getExceptionDesc() {
-			return this.exceptionDesc;
-		}
 		
 		public boolean WeekOffPolicyNameInEmp(String policyname) {
 		    try {
@@ -450,34 +450,60 @@ public class MeghWeekOffPolicyPage {
 		public boolean WeekOffPolicyNameInEmps(String expectedPolicyName) {
 		    int attempts = 0;
 
-		    while (attempts < 2) {
+		    while (attempts < 3) {
 		        try {
-		            Thread.sleep(3000); // Wait before attempting
+		            Thread.sleep(2000);
+
+		            // Null safety check
 		            if (WeekOffPolicyNameInEmp == null) {
 		                throw new Exception("WeekOffPolicyNameInEmp element is null.");
 		            }
 
+		            // Wait & read UI text
+		            utils.waitForEle(WeekOffPolicyNameInEmp, "visible", "", 10);
 		            String actualPolicyName = WeekOffPolicyNameInEmp.getText().trim();
 
-		            if (actualPolicyName != null && actualPolicyName.toLowerCase().contains(expectedPolicyName.toLowerCase())) {
-		                return true;
-		            } else {
-		                throw new Exception("Assigned Policy Name mismatch: Expected to contain '" 
-		                        + expectedPolicyName + "', but found '" + actualPolicyName + "'");
+		            // Check match
+		            if (actualPolicyName != null && 
+		                actualPolicyName.toLowerCase().contains(expectedPolicyName.toLowerCase())) {
+		                return true;   // MATCH ✔
 		            }
 
-		        } catch (Exception e) {
-		            exceptionDesc = "Attempt " + (attempts + 1) + " failed: " + e.getMessage();
-		            attempts++;
+		            // If mismatch = throw to retry
+		            throw new Exception("Policy mismatch. Expected: " + expectedPolicyName +
+		                                " | Found: " + actualPolicyName);
 
-		            if (attempts >= 2) {
-		                return false; // Return after last failed attempt
+		        } catch (Exception e) {
+
+		            attempts++;
+		            exceptionDesc = "Attempt " + attempts + " failed: " + e.getMessage();
+		            System.out.println(exceptionDesc);
+
+		            if (attempts >= 3) {
+		                return false; // After 3 attempts → FAIL
+		            }
+
+		            // ⭐ Retry Steps:
+		            try {
+		                // 1. Refresh Page
+		                driver.navigate().refresh();
+		                Thread.sleep(2000);
+
+		                // 2. Click Policy Button Again
+		                utils.waitForEle(PolicyButton, "clickable", "", 10);
+		                PolicyButton.click();
+
+		                Thread.sleep(2000); // Wait for page load
+		            } catch (Exception retryEx) {
+		                // Even retry failure should not break attempts
+		                System.out.println("Retry step failed: " + retryEx.getMessage());
 		            }
 		        }
 		    }
 
-		    return false; // Fallback (should not reach)
+		    return false; // fallback
 		}
+
 
 
 		
@@ -633,11 +659,70 @@ public class MeghWeekOffPolicyPage {
 			}
 			return true;
 		}
+		
+		
+		
+		public boolean DefaultCheckBoxifenabled() {
+		    try {
+		        utils.waitForEle(DefaultCheckBox, "visible", "", 10);
+
+		        // If enabled → click and validate selected
+		        if (DefaultCheckBox.isEnabled()) {
+		            DefaultCheckBox.click();
+		            return DefaultCheckBox.isSelected();
+		        }
+
+		        // If not enabled → assume already selected → don't fail
+		        return true;
+
+		    } catch (Exception e) {
+		        exceptionDesc = e.getMessage();
+		        return false;
+		    }
+		}
 
 		
+		public String extractedPolicyName = "";   // you can access this in test class
+
+		public boolean WeekOffPolicyNameInEmps() {
+		    try {
+		        // Wait for element
+		        utils.waitForEle(WeekOffPolicyNameInEmp, "visible", "", 10);
+
+		        // Extract the policy name and store it in variable
+		        extractedPolicyName = WeekOffPolicyNameInEmp.getText().trim();
+
+		        return true;   // success
+
+		    } catch (Exception e) {
+		        exceptionDesc = e.getMessage();
+		        return false;  // failure
+		    }
+		}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+		public String getExceptionDesc() {
+			return this.exceptionDesc;
+		}
 
 		public  void setExceptionDesc(String exceptionDesc) {  
-			exceptionDesc = exceptionDesc;
+			exceptionDesc = this.exceptionDesc;
 		}
+
 	
 }

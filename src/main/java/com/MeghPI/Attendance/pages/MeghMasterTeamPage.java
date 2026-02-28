@@ -11,7 +11,7 @@ import utils.Utils;
 public class MeghMasterTeamPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private  String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String FirstTeamRecord = "";
 	 
@@ -372,7 +372,7 @@ public class MeghMasterTeamPage {
 	
 	public boolean ManageProfileTeamDropdownSearchResult() {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(ManageProfileTeamDropdownSearchResult, "visible", "", 10);
 			ManageProfileTeamDropdownSearchResult.isDisplayed();
 		
@@ -387,7 +387,7 @@ public class MeghMasterTeamPage {
 	//2nd TestCase
 		public boolean Team3dots() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(Team3dots, "visible", "", 10);
 				Team3dots.isDisplayed();
 				Team3dots.click();
@@ -415,7 +415,7 @@ public class MeghMasterTeamPage {
 	
 		public boolean FirstTeamRecordName() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(FirstTeamRecordName, "visible", "", 10);
 				FirstTeamRecordName.isDisplayed();
 			FirstTeamRecord =	FirstTeamRecordName.getText();
@@ -447,7 +447,7 @@ public class MeghMasterTeamPage {
 	//4th TestCase
 		public boolean TeamToggleSwitch() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(TeamToggleSwitch, "visible", "", 10);
 				TeamToggleSwitch.isDisplayed();
 				TeamToggleSwitch.click();
@@ -461,7 +461,7 @@ public class MeghMasterTeamPage {
 	
 		public boolean NoResultFoundMsg() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(NoResultFoundMsg, "visible", "", 10);
 				NoResultFoundMsg.isDisplayed();	
 				
@@ -491,7 +491,7 @@ public class MeghMasterTeamPage {
 	//1st TestCase
 		public boolean TeamMappingButton() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(TeamMappingButton, "visible", "", 10);
 				TeamMappingButton.isDisplayed();
 				TeamMappingButton.click();
@@ -505,7 +505,7 @@ public class MeghMasterTeamPage {
 	
 		public boolean AddTeamMappingButton() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(AddTeamMappingButton, "visible", "", 10);
 				AddTeamMappingButton.isDisplayed();
 				AddTeamMappingButton.click();
@@ -519,7 +519,7 @@ public class MeghMasterTeamPage {
 	
 		public boolean TeamDropDowns() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(TeamDropDowns, "visible", "", 10);
 				TeamDropDowns.isDisplayed();
 				TeamDropDowns.click();
@@ -533,7 +533,7 @@ public class MeghMasterTeamPage {
 	
 		public boolean TeamDropDwonTextField(String teamname) {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(TeamDropDwonTextField,  "visible", "", 10);
 				TeamDropDwonTextField.isDisplayed();
 				TeamDropDwonTextField.sendKeys(teamname);
@@ -547,6 +547,7 @@ public class MeghMasterTeamPage {
 	
 		public boolean TeamSearchResult(String teamname) {
 		    try {
+		    	Thread.sleep(2000);
 		        utils.waitForEle(TeamSearchResult, "visible", "", 10);
 
 		        if (TeamSearchResult.isDisplayed()) {
@@ -585,7 +586,7 @@ public class MeghMasterTeamPage {
 		
 		public boolean TeamDropIcon() {
 			try {
-
+				Thread.sleep(2000);
 				utils.waitForEle(TeamDropIcon, "visible", "", 15);
 				TeamDropIcon.click();
 				
@@ -598,13 +599,14 @@ public class MeghMasterTeamPage {
 		}
 		
 	
-	public String getExceptionDesc() {
-		return this.exceptionDesc;
-	}
 
-	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
-	}
+		public String getExceptionDesc() {
+			return this.exceptionDesc;
+		}
+
+		public  void setExceptionDesc(String exceptionDesc) {  
+			exceptionDesc = this.exceptionDesc;
+		}
 	
 	
 	

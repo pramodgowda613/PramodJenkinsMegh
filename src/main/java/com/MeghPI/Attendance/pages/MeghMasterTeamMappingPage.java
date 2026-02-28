@@ -1,10 +1,7 @@
 package com.MeghPI.Attendance.pages;
 
-import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -15,7 +12,7 @@ public class MeghMasterTeamMappingPage {
 
 	
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String EmployeeName = "";
 	public String GetOfficeName = "";
@@ -106,7 +103,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean TeamDeptDropDown() {
 		try {
 
-			utils.waitForEle(TeamDeptDropDown, "visible", "", 10);
+			utils.waitForEle(TeamDeptDropDown, "visible", "", 30);
 			TeamDeptDropDown.isDisplayed();
 			TeamDeptDropDown.click();
 			
@@ -120,7 +117,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean TeamDeptSearchField(String deptname) {
 		try {
 
-			utils.waitForEle(TeamDeptSearchField,  "visible", "", 10);
+			utils.waitForEle(TeamDeptSearchField,  "visible", "", 30);
 			TeamDeptSearchField.isDisplayed();
 			TeamDeptSearchField.clear();
 			TeamDeptSearchField.sendKeys(deptname);
@@ -134,8 +131,8 @@ public class MeghMasterTeamMappingPage {
 	
 	public boolean TeamDeptSearchResult() {
 		try {
-
-			utils.waitForEle(TeamDeptSearchResult, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(TeamDeptSearchResult, "visible", "", 30);
 			TeamDeptSearchResult.isDisplayed();
 			TeamDeptSearchResult.click();
 			
@@ -149,10 +146,10 @@ public class MeghMasterTeamMappingPage {
 	public boolean AddTeamMappingSaveButton() {
 		try {
 
-			utils.waitForEle(AddTeamMappingSaveButton, "visible", "", 10);
+			utils.waitForEle(AddTeamMappingSaveButton, "visible", "", 30);
 			AddTeamMappingSaveButton.isDisplayed();
 			AddTeamMappingSaveButton.click();
-			
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -165,7 +162,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean TeamMappingSearchTextField(String teamname) {
 		try {
 
-			utils.waitForEle(TeamMappingSearchTextField,  "visible", "", 10);
+			utils.waitForEle(TeamMappingSearchTextField,  "visible", "", 30);
 			TeamMappingSearchTextField.isDisplayed();
 			TeamMappingSearchTextField.clear();
 			TeamMappingSearchTextField.sendKeys(teamname);
@@ -180,8 +177,8 @@ public class MeghMasterTeamMappingPage {
 	public boolean TeamMappingToggleSwitch() {
 		try {
 
-			utils.waitForEle(TeamMappingToggleSwitch, "visible", "", 10);
-			TeamMappingToggleSwitch.isDisplayed();
+			utils.waitForEle(TeamMappingToggleSwitch, "visible", "", 30);
+
 			TeamMappingToggleSwitch.click();
 			
 		} catch (Exception e) {
@@ -194,12 +191,11 @@ public class MeghMasterTeamMappingPage {
 	
 	public boolean DeptDropDownTextField(String deptname) {
 		try {
-
-			utils.waitForEle(DeptDropDownTextField,  "visible", "", 10);
-			DeptDropDownTextField.isDisplayed();
-			DeptDropDownTextField.clear();
-			DeptDropDownTextField.sendKeys(deptname);
+			Thread.sleep(2000);
+			utils.waitForEle(DeptDropDownTextField,  "visible", "", 30);
 			
+			DeptDropDownTextField.sendKeys(deptname);
+			Thread.sleep(1000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -209,9 +205,8 @@ public class MeghMasterTeamMappingPage {
 	
 	public boolean DeptSearchResult() {
 		try {
-
-			utils.waitForEle(DeptSearchResult, "visible", "", 10);
-			DeptSearchResult.isDisplayed();
+			Thread.sleep(3000);
+			utils.waitForEle(DeptSearchResult, "visible", "", 30);
 			DeptSearchResult.click();
 			
 		} catch (Exception e) {
@@ -226,7 +221,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean SearchDropDown() {
 		try {
 
-			utils.waitForEle(SearchDropDown, "visible", "", 10);
+			utils.waitForEle(SearchDropDown, "visible", "", 30);
 			SearchDropDown.isDisplayed();
 			SearchDropDown.click();
 			
@@ -240,7 +235,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean FirstNameCheckBox() {
 		try {
 
-			utils.waitForEle(FirstNameCheckBox, "visible", "", 10);
+			utils.waitForEle(FirstNameCheckBox, "visible", "", 30);
 			FirstNameCheckBox.isDisplayed();
 			FirstNameCheckBox.click();
 			
@@ -254,7 +249,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean LastNameCheckBox() {
 		try {
 
-			utils.waitForEle(LastNameCheckBox, "visible", "", 10);
+			utils.waitForEle(LastNameCheckBox, "visible", "", 30);
 			LastNameCheckBox.isDisplayed();
 			LastNameCheckBox.click();
 			
@@ -274,7 +269,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean SearchTextField(String teamname) {
 		try {
 
-			utils.waitForEle(SearchTextField,  "visible", "", 10);
+			utils.waitForEle(SearchTextField,  "visible", "", 30);
 			SearchTextField.isDisplayed();
 			SearchTextField.clear();
 			SearchTextField.sendKeys(teamname);
@@ -288,7 +283,8 @@ public class MeghMasterTeamMappingPage {
 	
 	public boolean TeamMappingFirstRecord(String teamname) {
 	    try {
-	        utils.waitForEle(TeamMappingFirstRecord,  "visible", "", 10);
+	    	Thread.sleep(2000);
+	        utils.waitForEle(TeamMappingFirstRecord,  "visible", "", 30);
 
 	        String actualText = TeamMappingFirstRecord.getText().trim();
 	        if (actualText.equalsIgnoreCase(teamname)) {
@@ -305,7 +301,7 @@ public class MeghMasterTeamMappingPage {
 	public boolean FirstRecord() {
 		try {
 
-			utils.waitForEle(TeamMappingFirstRecord, "visible", "", 10);
+			utils.waitForEle(TeamMappingFirstRecord, "visible", "", 30);
 			TeamMappingFirstRecord.isDisplayed();
 		Firstrow =	TeamMappingFirstRecord.getText();
 			
@@ -321,11 +317,12 @@ public class MeghMasterTeamMappingPage {
 	
 	
 	
+
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 }

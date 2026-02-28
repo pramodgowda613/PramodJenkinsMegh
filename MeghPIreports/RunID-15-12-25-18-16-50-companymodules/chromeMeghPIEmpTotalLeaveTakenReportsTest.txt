@@ -1,0 +1,58 @@
+[18:16:51] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-18-16-50-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[18:16:55] INFO  - PASS - Application Loaded Successfully.
+[18:16:58] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[18:17:00] INFO  - PASS - Login With Password Button Is Clicked.
+[18:17:02] INFO  - PASS - Sign in Text Is Displayed.
+[18:17:04] INFO  - PASS - Username Is Entered In Username Text Field.AutoE151225091529@mailinator.com
+[18:17:06] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[18:17:09] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:17:11] INFO  - PASS - Clicked On Login Button.
+[18:17:14] INFO  - PASS - Login Done  And Validated Successfully.
+[18:17:16] INFO  - PASS - Login Done Successfully.
+[18:17:20] INFO  - PASS -  Attendance Module Clicked Successfully.
+[18:17:22] INFO  - PASS - WeekOff  Button Clicked Successfully.
+[18:17:25] INFO  - PASS - Apply WeekOff  Button Clicked Successfully.
+[18:17:27] INFO  - PASS - Apply  WeekOff For Others  Button Clicked Successfully.
+[18:17:29] INFO  - PASS - Emp Drop Down Clicked Successfully.
+[18:17:31] INFO  - PASS - Emp Name Inputted Successfully.Empfiftyfour
+[18:17:34] INFO  - PASS - Emp Name Selected Successfully.
+[18:17:36] INFO  - PASS - Old WeekoffDate TextField Clicked Successfully.
+[18:17:41] INFO  - PASS - Old WeekoffDate Inputted Successfully.2025-11-02
+[18:17:43] INFO  - PASS - Emp Drop Down Clicked Successfully.
+[18:17:46] INFO  - PASS - New WeekoffDate TextField Clicked Successfully.
+[18:17:50] INFO  - PASS - New WeekoffDate Inputted Successfully.2025-11-03
+[18:17:52] INFO  - PASS -  Weekoff Reason Inputted Successfully.Weekoff To Test
+[18:17:54] INFO  - PASS -  Weekoff Reason Inputted Successfully.Weekoff To Test
+[18:17:56] INFO  - PASS - Weekoff Apply Clicked Successfully.
+[18:18:03] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[18:18:15] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[18:18:17] INFO  - PASS - Application Loaded Successfully.
+[18:18:19] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[18:18:22] INFO  - PASS - Login With Password Button Is Clicked.
+[18:18:24] INFO  - PASS - Sign in Text Is Displayed.
+[18:18:26] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[18:18:28] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[18:18:30] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:18:33] INFO  - PASS - Clicked On Login Button.
+[18:18:35] INFO  - PASS - Login Done  And Validated Successfully.
+[18:18:37] INFO  - PASS - Login Done Successfully.
+[18:18:43] INFO  - PASS - Report Button Clicked Successfully.
+[18:18:48] INFO  - PASS - WeekOff Report Button Clicked Successfully.
+[18:18:50] INFO  - PASS - WeekOff Report Page Loaded Successfully.
+[18:18:52] INFO  - PASS - Filter Button Clicked Successfully.
+[18:18:59] INFO  - PASS - Year Selected Successfully.2025
+[18:19:05] INFO  - PASS - Month Selected Successfully.November
+[18:19:11] INFO  - PASS - Week Selected Successfully.
+[18:19:13] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[18:19:18] INFO  - PASS - From Date Selected Successfully.2025-11-03
+[18:19:20] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[18:19:24] INFO  - PASS - To Date Selected Successfully.2025-11-03
+[18:19:26] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[18:19:28] INFO  - PASS - Filter Save Button Clicked Successfully.
+[18:19:31] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:19:34] INFO  - PASS - Date CheckBox Selected Successfully.
+[18:19:36] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:19:38] INFO  - PASS - Emp WeekOff Date Inputted Successfully.03-11-2025
+[18:19:40] INFO  - PASS - Emp WeekOff Date  Validated Successfully.2025-11-03
+[18:19:41] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1852_EmpWeeklyOffReports_03-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date of last month weekoff date (sunday date)
+[18:19:41] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

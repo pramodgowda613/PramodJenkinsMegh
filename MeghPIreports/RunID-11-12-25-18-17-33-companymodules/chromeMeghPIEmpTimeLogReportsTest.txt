@@ -1,0 +1,26 @@
+[18:17:33] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-18-17-33-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[18:17:38] INFO  - PASS - Application Loaded Successfully.
+[18:17:41] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[18:17:43] INFO  - PASS - Login With Password Button Is Clicked.
+[18:17:45] INFO  - PASS - Sign in Text Is Displayed.
+[18:17:47] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[18:17:49] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[18:17:52] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:17:54] INFO  - PASS - Clicked On Login Button.
+[18:17:56] INFO  - PASS - Login Done  And Validated Successfully.
+[18:17:58] INFO  - PASS - Login Done Successfully.
+[18:18:05] INFO  - PASS - Report Button Clicked Successfully.
+[18:18:11] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[18:18:13] INFO  - PASS - LateOutTab Clicked Successfully.
+[18:18:15] INFO  - PASS - Filter Button Clicked Successfully.
+[18:18:22] INFO  - PASS - Year Selected Successfully.2025
+[18:18:29] INFO  - PASS - Month Selected Successfully.November
+[18:18:31] INFO  - PASS - Filter Save Button Clicked Successfully.
+[18:18:33] INFO  - PASS - MailReportButton Clicked Successfully.
+[18:18:35] INFO  - PASS - Mail Subject Inputted Successfully.Late Out Check
+[18:18:38] INFO  - PASS - Mail CC Inputted Successfully.Empfiftyone@mailinator.com
+[18:18:40] INFO  - PASS - Mail BCC Inputted Successfully.Empfiftyone@mailinator.com
+[18:18:46] INFO  - PASS - Frequency Selected Successfully.
+[18:18:48] INFO  - PASS - MailSendSaveButton Clicked Successfully.
+[18:18:49] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1764_Emp_LateOut_Reports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email
+[18:18:49] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

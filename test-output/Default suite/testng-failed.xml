@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="androidtest.MeghPILoginTest">
+      <class name="com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidAttendanceTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="testLogin"/>
-          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="runOnce"/>
+          <include name="MPI_730_Normal_Attendance_58"/>
+          <include name="launchDriver"/>
+          <include name="Aftermethod"/>
         </methods>
-      </class> <!-- androidtest.MeghPILoginTest -->
+      </class> <!-- com.MeghPI.Attendance.Android.tests.MeghPIAttendAndroidAttendanceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

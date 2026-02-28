@@ -1,0 +1,37 @@
+[13:18:11] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-13-18-11-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[13:18:21] INFO  - PASS - Application Loaded Successfully.
+[13:18:23] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[13:18:25] INFO  - PASS - Login With Password Button Is Clicked.
+[13:18:27] INFO  - PASS - Sign in Text Is Displayed.
+[13:18:30] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[13:18:32] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[13:18:34] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[13:18:36] INFO  - PASS - Clicked On Login Button.
+[13:18:54] INFO  - PASS - Login Done  And Validated Successfully.
+[13:18:56] INFO  - PASS - Login Done Successfully.
+[13:19:00] INFO  - PASS - Leave Button Clicked Successfully Of Employee Account.
+[13:19:07] INFO  - PASS -  EmpLeaveRequestsTab Clicked Successfully Of Employee Account.
+[13:19:11] INFO  - PASS -  Apply Leave Button Clicked Successfully Of Employee Account.
+[13:19:13] INFO  - PASS -  LeaveTypeDropdown Clicked Successfully Of Employee Account.
+[13:19:15] INFO  - PASS -  SickLeave Selected  Successfully.
+[13:19:17] INFO  - PASS -  FromDateTextField Clicked Successfully .
+[13:19:23] INFO  - PASS -  FromDate Inputted Successfully .2025-11-28
+[13:19:28] INFO  - PASS -  LeaveDurationOne Clicked Successfully Of Employee Account.
+[13:19:30] INFO  - PASS -  FullDay DurationOne Selected  Successfully.
+[13:19:32] INFO  - PASS -  ToDateTextField Clicked Successfully .
+[13:19:37] INFO  - PASS -  ToDate Selected Inputted Successfully .2025-11-28
+[13:19:40] INFO  - PASS -  LeaveDurationTwo Clicked Successfully Of Employee Account.
+[13:19:42] INFO  - PASS -  FullDayDurationTwo Clicked Successfully Of Employee Account.
+[13:19:44] INFO  - PASS -  Reason Inputted  Successfully Of Employee Account.Emp Reports testing
+[13:19:50] INFO  - PASS - Leave Request Apply Button Clicked  Successfully Of Employee Account.
+[13:19:57] INFO  - PASS - Report Button Clicked Successfully.
+[13:20:01] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[13:20:03] INFO  - PASS - TotalLeavesTaken Report All Tab Clicked Successfully.
+[13:20:06] INFO  - PASS - Filter Button Clicked Successfully.
+[13:20:13] INFO  - PASS - Year Selected Successfully.2025
+[13:20:19] INFO  - PASS - Month Selected Successfully.November
+[13:20:25] INFO  - PASS - Week selected successfully: 5
+[13:20:27] INFO  - PASS - Filter Save Button Clicked Successfully.
+[13:20:29] INFO  - PASS - Filtered Record Displayed Successfully.2025-11-28
+[13:20:29] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1822_EmpTotalLeaveTakenAllReports_04-To verify this, Apply leave during the last week of last month. In the leave taken All Request Reports module, apply the filter for the last week of last month and ensure that the corresponding leave  request record is displayed..
+[13:20:29] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

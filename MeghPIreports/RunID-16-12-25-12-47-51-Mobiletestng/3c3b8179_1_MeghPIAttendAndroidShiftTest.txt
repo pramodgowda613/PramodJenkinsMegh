@@ -1,0 +1,9 @@
+[12:47:51] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-12-47-51-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[12:48:08] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[12:48:11] INFO  - PASS - Login With Password Button Is Clicked.
+[12:48:18] INFO  - PASS - Username Is Entered In Username Text Field.AutoE161225092624@mailinator.com
+[12:48:24] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[12:48:31] INFO  - PASS - Clicked On Login Button.
+[12:48:35] INFO  - PASS - Shift Button Clicked Successfully On Admin Account.
+[12:48:51] ERROR - FAIL - Error While Navigating To Shift Requested Month .Failed to navigate to target month: Nov 2025
+[12:48:55] INFO  - PASS - Pending Shift Request Button Clicked Successfully On Admin Account.

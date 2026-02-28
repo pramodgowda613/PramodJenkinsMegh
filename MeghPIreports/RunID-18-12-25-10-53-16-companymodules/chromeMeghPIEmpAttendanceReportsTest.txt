@@ -1,0 +1,5 @@
+[10:53:17] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-18-12-25-10-53-16-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[10:53:48] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp050
+[10:53:48] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:00:00
+[10:53:48] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:30:00
+[10:54:04] INFO  - PASS - UpdateAttendance API executed successfully for Emp050

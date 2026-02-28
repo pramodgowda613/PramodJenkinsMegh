@@ -1,0 +1,1 @@
+[18:58:48] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-18-58-48-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt

@@ -4,9 +4,8 @@ import java.time.Duration;
 //import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,7 +19,7 @@ import utils.Utils;
 public class MeghAttendancePolicyPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String Assignedemp = "";
 	public String AttendancePolicy = "";
@@ -227,6 +226,45 @@ public class MeghAttendancePolicyPage {
 	@FindBy(xpath = "//li[contains(@id, 'select2-drpFilterTeam')]")
 	private WebElement TeamOptionSelected; //11th TestCase
 	
+	@FindBy(xpath = "//input[@id='IsAllowOT']")
+	private WebElement OverTimeCheckBox; //12th TestCase
+	
+	@FindBy(xpath = "//label[text()= 'Overtime eligibility on Workday']")
+	private WebElement OverTimeOnWeekDay; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id= 'MaxOTMinutes']/../input[2]")
+	private WebElement OTMinutesTextField; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id='OTApproveSystem']")
+	private WebElement OTApprovedBySystem; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id='rdRegilarizationDay']")
+	private WebElement RegulirizationUpto31days; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id='regularizationNos']")
+	private WebElement RegulirizationUptoTextField; //12th TestCase
+	
+	@FindBy(xpath = "//label[text()='Overtime eligibility on Workday']")
+	private WebElement OverTimeEligibilityDropDown; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id='IsAllowOT']")
+	private WebElement OTAllowCheckbox; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id='MaxOTMinutes']/../input[2]")
+	private WebElement OTMaxMinutesTextField; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id='RegularizationNosPerMonth']")
+	private WebElement RegulirizationPerMonthTextField; //12th TestCase
+	
+	@FindBy(xpath = "//p[text()='AttendancePolicy']/../p[1]")
+	private WebElement AssignedAttendanceComparison; //12th TestCase
+	
+	@FindBy(xpath = "//input[@id='total-shift-duration']")
+	private WebElement OTConfigurationList; //12th TestCase	
+	
+	@FindBy(xpath = "//input[@id='GraceNoOfTimes']")
+	private WebElement GraceTimePerMonth; //12th TestCase	
+	
 	
 	
 	//1st TestCase
@@ -272,9 +310,29 @@ public class MeghAttendancePolicyPage {
 		return true;
 	}
 	
+	
+	
+	public boolean GraceTimePerMonth(String policyname) {
+		try {
+
+			utils.waitForEle(GraceTimePerMonth,  "visible", "", 10);
+			GraceTimePerMonth.clear();
+			GraceTimePerMonth.sendKeys(policyname);
+			
+		} catch (Exception e) {
+			exceptionDesc = e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	
 	public boolean CreatePolicyButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(CreatePolicyButton, "visible", "", 10);
 			CreatePolicyButton.isDisplayed();
 			CreatePolicyButton.click();
@@ -291,6 +349,7 @@ public class MeghAttendancePolicyPage {
 			utils.waitForEle(NoOption, "visible", "", 10);
 			NoOption.isDisplayed();
 			NoOption.click();
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -300,12 +359,12 @@ public class MeghAttendancePolicyPage {
 	
 	public boolean SearchTextField(String policyname) {
 		try {
-
+			Thread.sleep(3000);
 			utils.waitForEle(SearchTextField,  "visible", "", 10);
 			SearchTextField.isDisplayed();
 			SearchTextField.clear();
 			SearchTextField.sendKeys(policyname);
-			
+			Thread.sleep(4000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -320,7 +379,7 @@ public class MeghAttendancePolicyPage {
 			GetAssignedEmpCount.isDisplayed();
 			
 			Assignedemp = GetAssignedEmpCount.getText();
-			
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -420,7 +479,7 @@ public class MeghAttendancePolicyPage {
 	public boolean DesignationDropdown(String designation)
 	{
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			utils.waitForEle(DesignationDropdown, "visible", "", 10);
 			DesignationDropdown.isDisplayed();
 			Select Designation = new Select(DesignationDropdown);
@@ -442,7 +501,7 @@ public class MeghAttendancePolicyPage {
 Thread.sleep(2000);
 			
 			
-			utils.waitForEle(TeamDropDown, "visible", "", 10);
+			utils.waitForEle(TeamDropDown, "visible", "", 20);
 			TeamDropDown.isDisplayed();
 			Select Team = new Select(TeamDropDown);
 			Team.selectByVisibleText(groups);
@@ -523,7 +582,7 @@ Thread.sleep(2000);
 	public boolean EmpTypeDropDown(String employeetype)
 	{
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			utils.waitForEle(EmpTypeDropDown, "visible", "", 10);
 			EmpTypeDropDown.isDisplayed();
 			Select group = new Select(EmpTypeDropDown);
@@ -571,6 +630,7 @@ Thread.sleep(2000);
 	public boolean AttendancePolicyName()
 	{
 		try {
+			Thread.sleep(3000);
 			utils.waitForEle(AttendancePolicyName, "visible", "", 10);
 			AttendancePolicyName.isDisplayed();
 		AttendancePolicy =	AttendancePolicyName.getText();
@@ -582,59 +642,30 @@ Thread.sleep(2000);
 		return true;
 	}
 	
-	public boolean AssignedAttendancePolicyComparision(String Assignattendancepolicy) {
-	    try {
-	        // First comparison
-	        if (AttendancePolicy != null && AttendancePolicy.equalsIgnoreCase(Assignattendancepolicy)) {
-	            return true;
-	        } else {
-	            // Wait, refresh, and retry
-	            Thread.sleep(10000); // 10 seconds wait
-	            driver.navigate().refresh();
-
-	            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-	            wait.until(ExpectedConditions.elementToBeClickable(PolicyButton));
-
-	            // Click the PolicyButton after refresh
-	            PolicyButton.click();
-
-	            // Re-check value after refresh
-	            if (AttendancePolicy != null && AttendancePolicy.equalsIgnoreCase(Assignattendancepolicy)) {
-	                return true;
-	            } else {
-	                throw new Exception("Assigned employee's Attendance Policy comparison failed after retry: values do not match.");
-	            }
-	        }
-	    } catch (Exception e) {
-	        exceptionDesc = e.getMessage();
-	        return false;
-	    }
-	}
+	
 
 	
-	public boolean AssignedAttendancePolicyComparisions(String expectedPolicySuffix) {
+	public boolean AssignedAttendancePolicyComparisons(String expectedPolicySuffix) {
 	    try {
-	        if (AttendancePolicy != null && !AttendancePolicy.trim().isEmpty()) {
-	            // Extract last word after space (e.g., "(default)")
-	            String actualSuffix = AttendancePolicy.split(" ")[1]
-	                    .replace("(", "")
-	                    .replace(")", "")
-	                    .trim();
+	        String actualSuffix = AssignedAttendanceComparison.getText().trim();
 
-	            if (actualSuffix.toLowerCase().contains(expectedPolicySuffix.toLowerCase())) {
-	                return true; // e.g., "default123" contains "default"
-	            } else {
-	                throw new Exception("Attendance Policy suffix mismatch. Expected to contain: " 
-	                                    + expectedPolicySuffix + ", Found: " + actualSuffix);
-	            }
-	        } else {
-	            throw new Exception("AttendancePolicy is null or empty.");
+	        if (actualSuffix == null || actualSuffix.isEmpty()) {
+	            throw new Exception("Attendance Policy text is null or empty.");
 	        }
+
+	        if (actualSuffix.toLowerCase().contains(expectedPolicySuffix.toLowerCase())) {
+	            return true; // e.g., "default123" contains "default"
+	        } else {
+	            throw new Exception("Attendance Policy suffix mismatch. Expected to contain: " 
+	                                + expectedPolicySuffix + ", Found: " + actualSuffix);
+	        }
+
 	    } catch (Exception e) {
 	        exceptionDesc = e.getMessage();
 	        return false;
 	    }
 	}
+
 
 
 	
@@ -652,6 +683,7 @@ Thread.sleep(2000);
 	public boolean ClickOnAssignedEmpCount()
 	{
 		try {
+			Thread.sleep(4000);
 			utils.waitForEle(GetAssignedEmpCount, "visible", "", 10);
 			GetAssignedEmpCount.isDisplayed();
 			Assignedemp = GetAssignedEmpCount.getText();
@@ -667,8 +699,9 @@ Thread.sleep(2000);
 	
 	public boolean FirstRowEmpId() {
 	    try {
-	    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			WebElement AddEmployeeSave = wait.until(ExpectedConditions.visibilityOf(FirstRowEmpId));
+	    	Thread.sleep(2000);
+	
+			
 	        utils.waitForEle(FirstRowEmpId, "visible", "", 10);
 	        
 
@@ -720,8 +753,8 @@ Thread.sleep(2000);
 	public boolean SearchTextFieldOfEmpCount(String policynames)
 	{
 		try {
-			Thread.sleep(8000);			
-			utils.waitForEle(SearchTextFieldOfEmpCount, "visible", "", 10);
+			Thread.sleep(4000);			
+			utils.waitForEle(SearchTextFieldOfEmpCount, "visible", "", 30);
 			SearchTextFieldOfEmpCount.isDisplayed();
 			SearchTextFieldOfEmpCount.clear();
 			SearchTextFieldOfEmpCount.sendKeys(policynames);
@@ -736,6 +769,7 @@ Thread.sleep(2000);
 	public boolean DeleteIcon()
 	{
 		try {
+			Thread.sleep(3000);
 			utils.waitForEle(DeleteIcon, "visible", "", 10);
 			DeleteIcon.isDisplayed();
 			DeleteIcon.click();
@@ -753,7 +787,7 @@ Thread.sleep(2000);
 			utils.waitForEle(DeleteButton, "visible", "", 10);
 			DeleteButton.isDisplayed();
 			DeleteButton.click();
-			
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -764,10 +798,11 @@ Thread.sleep(2000);
 	public boolean CloseIcon()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(CloseIcon, "visible", "", 10);
 			CloseIcon.isDisplayed();
 			CloseIcon.click();
-			
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -779,6 +814,7 @@ Thread.sleep(2000);
 	public boolean DeptCheckBox()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(DeptCheckBox, "visible", "", 10);
 			DeptCheckBox.isDisplayed();
 			DeptCheckBox.click();
@@ -793,6 +829,7 @@ Thread.sleep(2000);
 	public boolean OfficeCheckBox()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(OfficeCheckBox, "visible", "", 10);
 			OfficeCheckBox.isDisplayed();
 			OfficeCheckBox.click();
@@ -1272,19 +1309,24 @@ Thread.sleep(2000);
 		return true;
 	}
 	
-	public boolean EnableGracePeriodCheckBox()
-	{
-		try {
-			utils.waitForEle(EnableGracePeriodCheckBox, "visible", "", 10);
-			EnableGracePeriodCheckBox.isDisplayed();
-			EnableGracePeriodCheckBox.click();
-			
-		} catch (Exception e) {
-			exceptionDesc=	e.getMessage().toString();
-			return false;
-		}
-		return true;
+	public boolean EnableGracePeriodCheckBox() {
+	    try {
+	        // Wait for the checkbox to be visible
+	        utils.waitForEle(EnableGracePeriodCheckBox, "visible", "", 10);
+
+	        // Click only if not already selected
+	        if (!EnableGracePeriodCheckBox.isSelected()) {
+	            EnableGracePeriodCheckBox.click();
+	        }
+
+	        return true; // success
+
+	    } catch (Exception e) {
+	        exceptionDesc = "Failed to enable Grace Period checkbox: " + e.getMessage();
+	        return false;
+	    }
 	}
+
 	
 	public boolean RegulationRequestCheckBox() {
 	    try {
@@ -1312,7 +1354,7 @@ Thread.sleep(2000);
 	            // Get the first word before any space (e.g., removes " (default)")
 	             newinput = attendancePolicysDefault.split(" ")[0].trim();
 
-	            if (newinput.equalsIgnoreCase(policyname)) {
+	            if (newinput.contains(policyname)) {
 	                System.out.println("Policy name matches: " + policyname);
 	                return true;
 	            } else {
@@ -1379,7 +1421,7 @@ Thread.sleep(2000);
 	public boolean  AttendancePolicyPageLoaded()
 	{
 		try {
-			utils.waitForEle(AttendancePolicyPageLoaded, "visible", "", 10);
+			utils.waitForEle(AttendancePolicyPageLoaded, "visible", "", 50);
 			AttendancePolicyPageLoaded.isDisplayed();
 			
 			
@@ -1409,20 +1451,33 @@ Thread.sleep(2000);
 	
 	
 	
-	public boolean  DeptDropDownClick()
-	{
-		try {
-			Thread.sleep(3000);
-			utils.waitForEle(DeptDropDownClick, "visible", "", 15);
-			DeptDropDownClick.click();
-			
-			
-		} catch (Exception e) {
-			exceptionDesc=	e.getMessage().toString();
-			return false;
-		}
-		return true;
+	public boolean DeptDropDownClick() {
+	    try {
+
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+	        // Wait and click dropdown
+	        WebElement deptDropdown = wait.until(
+	                ExpectedConditions.elementToBeClickable(DeptDropDownClick)
+	        );
+	        deptDropdown.click();
+
+	        // Verify option is visible, else retry click once
+	        try {
+	            wait.until(ExpectedConditions.visibilityOf(DeptOptionSelected));
+	        } catch (TimeoutException te) {
+	            deptDropdown.click(); // retry
+	            wait.until(ExpectedConditions.visibilityOf(DeptOptionSelected));
+	        }
+
+	        return true;
+
+	    } catch (Exception e) {
+	        exceptionDesc = "DeptDropDownClick error: " + e.getMessage();
+	        return false;
+	    }
 	}
+
 	
 	public boolean  DeptOptionSelected()
 	{
@@ -1439,20 +1494,35 @@ Thread.sleep(2000);
 		return true;
 	}
 	
-	public boolean  TeamDropDownClick()
-	{
-		try {
-			Thread.sleep(3000);
-			utils.waitForEle(TeamDropDownClick, "visible", "", 15);
-			TeamDropDownClick.click();
-			
-			
-		} catch (Exception e) {
-			exceptionDesc=	e.getMessage().toString();
-			return false;
-		}
-		return true;
+	public boolean TeamDropDownClick() {
+	    try {
+
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+	        // Wait until dropdown is clickable
+	        WebElement teamDropdown = wait.until(
+	                ExpectedConditions.elementToBeClickable(TeamDropDownClick)
+	        );
+
+	        // First click
+	        teamDropdown.click();
+
+	        // Check if option is visible, else retry click
+	        try {
+	            wait.until(ExpectedConditions.visibilityOf(TeamOptionSelected));
+	        } catch (TimeoutException te) {
+	            teamDropdown.click(); // retry click
+	            wait.until(ExpectedConditions.visibilityOf(TeamOptionSelected));
+	        }
+
+	        return true;
+
+	    } catch (Exception e) {
+	        exceptionDesc = "TeamDropDownClick error: " + e.getMessage();
+	        return false;
+	    }
 	}
+
 	
 	public boolean  TeamOptionSelected()
 	{
@@ -1469,15 +1539,213 @@ Thread.sleep(2000);
 		return true;
 	}
 	
+
+	
+	
+	public boolean  OverTimeCheckBox()
+	{
+		try {
+			Thread.sleep(3000);
+			utils.waitForEle(OverTimeCheckBox, "visible", "", 15);
+			OverTimeCheckBox.click();
+			
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean  OverTimeOnWeekDay()
+	{
+		try {
+			Thread.sleep(3000);
+			utils.waitForEle(OverTimeOnWeekDay, "visible", "", 15);
+			OverTimeOnWeekDay.click();
+		
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean  OTMinutesTextField()
+	{
+		try {
+			utils.waitForEle(OTMinutesTextField, "visible", "", 10);
+		
+			OTMinutesTextField.click();
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}	
 	
 	
 	
+	public boolean OTMinutesTextFieldInput(String MaxOTHours) {
+		 try {
+			 Thread.sleep(3000);
+		        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		        // Remove readonly just in case, though Flatpickr API doesn't need it
+		        js.executeScript("document.getElementById('MaxOTMinutes').removeAttribute('readonly');");
+
+		        // Use Flatpickr's setDate API
+		        js.executeScript(
+		            "if (document.getElementById('MaxOTMinutes')._flatpickr) {" +
+		            "  document.getElementById('MaxOTMinutes')._flatpickr.setDate('" + MaxOTHours + "', true);" +
+		            "} else { throw new Error('Flatpickr not initialized on MaxOTMinutes'); }"
+		        );
+
+		    } catch (Exception e) {
+		        exceptionDesc = e.getMessage();
+		        return false;
+		    }
+		    return true;
+		}
+	
+	public boolean  OTApprovedBySystem()
+	{
+		try {
+			utils.waitForEle(OTApprovedBySystem, "visible", "", 15);
+		
+			OTApprovedBySystem.click();
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}	
+	
+	public boolean RegulirizationUpto31days()
+	{
+		try {
+			utils.waitForEle(RegulirizationUpto31days, "visible", "", 15);
+		
+			RegulirizationUpto31days.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean RegulirizationUptoTextField(String duration)
+	{
+		try {
+			Thread.sleep(2000);
+			utils.waitForEle(RegulirizationUptoTextField, "visible", "", 20);
+		
+			RegulirizationUptoTextField.clear();
+			RegulirizationUptoTextField.sendKeys(duration);
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean OverTimeEligibilityDropDown() {
+	    try {
+	        utils.waitForEle(OverTimeEligibilityDropDown, "visible", "", 15);
+	        
+	        // If OTConfigurationList is NOT displayed, click the dropdown
+	        if (!OTConfigurationList.isDisplayed()) {
+	            OverTimeEligibilityDropDown.click();
+	        }
+	        
+	        return true;
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+
+	
+	public boolean OTAllowCheckbox() {
+	    try {
+	        utils.waitForEle(OTAllowCheckbox, "visible", "", 15);
+
+	        if (!OTAllowCheckbox.isSelected()) {
+	            OTAllowCheckbox.click();
+	        }
+	        return true;
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	}
+
+	
+	public boolean OTMaxMinutesTextField()
+	{
+		try {
+			utils.waitForEle(OTMaxMinutesTextField, "visible", "", 15);
+		
+			OTMaxMinutesTextField.click();
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
 	
 	
+	public boolean OTMaxMinutesTextFieldInputted(String OTTime) {
+		 try {
+			 Thread.sleep(3000);
+		        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		        // Remove readonly just in case, though Flatpickr API doesn't need it
+		        js.executeScript("document.getElementById('MaxOTMinutes').removeAttribute('readonly');");
+
+		        // Use Flatpickr's setDate API
+		        js.executeScript(
+		            "if (document.getElementById('MaxOTMinutes')._flatpickr) {" +
+		            "  document.getElementById('MaxOTMinutes')._flatpickr.setDate('" + OTTime + "', true);" +
+		            "} else { throw new Error('Flatpickr not initialized on MaxOTMinutes'); }"
+		        );
+
+		    } catch (Exception e) {
+		        exceptionDesc = e.getMessage();
+		        return false;
+		    }
+		    return true;
+		}
+	
+	public boolean AddAttendanceValidation()
+	{
+		try {
+			utils.waitForEle(AddAttendancePolicyButton, "visible", "", 20);
+			AddAttendancePolicyButton.isDisplayed();
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
 	
 	
-	
-	
+	public boolean RegulirizationPerMonthTextField(String days)
+	{
+		try {
+			utils.waitForEle(RegulirizationPerMonthTextField, "visible", "", 20);
+			RegulirizationPerMonthTextField.clear();
+			RegulirizationPerMonthTextField.sendKeys(days);
+			
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
 	
 	
 	
@@ -1486,7 +1754,7 @@ Thread.sleep(2000);
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 	

@@ -1,0 +1,23 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-17 12:47:04
+Command executed with exit code: 1
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 1
+Command executed with exit code: 1
+Command executed with exit code: 1
+✅ App stopped successfully.
+Issue loading driver, waiting for 10 seconds..:Could not start a new session. Response code 500. Message: Device R9ZY4076QZX was not in the list of connected devices 
+Host info: host: 'DMANTRASP10250', ip: '172.18.176.1'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:deviceName: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:newCommandTimeout: 600, appium:noReset: true, appium:platformVersion: 15, appium:udid: R9ZY4076QZX, platformName: ANDROID}]}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:deviceName: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:newCommandTimeout: 600, appium:noReset: true, appium:platformVersion: 15, appium:udid: R9ZY4076QZX, platformName: ANDROID}
+No Logs found to Generate Report.
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 0, Skips: 1
+Configuration Failures: 1, Skips: 0
+===============================================
+

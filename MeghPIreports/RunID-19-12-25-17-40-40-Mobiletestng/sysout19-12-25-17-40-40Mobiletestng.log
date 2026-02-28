@@ -1,0 +1,32 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-19 17:40:40
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+✅ Attendance button clicked successfully.
+🔍 Searching for attendance card with date: 18 Dec 2025 and status: Pending
+✅ Found matching attendance card:
+📄 Thursday - 18 Dec 2025
+Pending
+Day Type
+ - 
+In Time
+09:00 AM
+Out Time
+07:00 PM
+nonOffice
+Total HR
+10:00 Hrs
+Over Time
+ - 
+Reason
+Mobile emp
+---------------------------------------------------------------
+MeghPIAttendAndroidRegularizationTestMPI_1450_Mobile_Regularization_01
+---------------------------------------------------------------
+Test case took: 44.4752 seconds
+Total TC Time: 00:00:44
+Launching Driver... 2025-12-19 17:41:35

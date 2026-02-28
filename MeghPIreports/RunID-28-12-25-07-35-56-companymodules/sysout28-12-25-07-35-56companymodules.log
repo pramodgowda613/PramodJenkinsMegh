@@ -1,0 +1,45 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-28 07:35:58
+Dec 28, 2025 7:36:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1620, 920)
+Report Folder : http://192.168.6.201:8002/RunID-28-12-25-07-35-56-companymodules
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (3a7f6a9f909c18a11a7ccdee9ac35577)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: <div class="container">            <div class="date" style="margin-left: 517px ; font-size: 12px ; font-weight: bold">   </div> <p>Dear User,</p><p>Thank you for signing up! To complete your registration, please enter the following One-Time Password (OTP) on the sign-up page: <b>885067</b> <br></p><p>This OTP is valid for <b>10</b> minutes.</p><p>If you encounter any issues or have any further questions, feel free to contact at Admin/HR Department.</p><p>Thank you,</p>MeghPI<br>mantra@mantratec.com<br></div>    
+
+<br><p style="text-align: justify ; margin: 0px" class="">This email and any files
+transmitted with it are confidential and intended solely for the use of the
+individual or entity to whom they are addressed. If you are not the named
+addressee you should not disseminate, distribute or copy this e-mail. Please notify
+the sender immediately by e-mail if you have received this e-mail by mistake
+and delete this e-mail from your system.<br></p><div><b><i>?</i>?</b><br></div>
+<br><br><br><br><br><br><br>
+885067this is OTP
+5123456789012346
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (3a7f6a9f909c18a11a7ccdee9ac35577)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: TO : AutoE281225073556@mailinator.com<br>CC : <br>BCC : <br>                                                 <div class="container">            <div class="date" style="margin-left: 517px ; font-size: 12px ; font-weight: bold">   </div> <p>Dear, AutoCNKAHCR281225073556</p><p>Please click below link to activate your company:<br><b><a href="https://demo.meghpi.com/CompanyActivation?enc=qp4RK1BodgYDzM7ssN+bG5HyVCwNWK5HDdy2+sCPmPIVNBEpdtCOFukJQUHPv9SWHHXHNJmAPXGOAan0oyDedw@@" target="_other" rel="nofollow">ACTIVATION_LINK</a></b><br></p><p>If you encounter any issues or have any further questions, feel free to contact at Admin/HR Department.</p><p>Thank you,</p>MeghPI<br>mantra@mantratec.com<br></div>    
+
+<br><p style="text-align: justify ; margin: 0px" class="">This email and any files
+transmitted with it are confidential and intended solely for the use of the
+individual or entity to whom they are addressed. If you are not the named
+addressee you should not disseminate, distribute or copy this e-mail. Please notify
+the sender immediately by e-mail if you have received this e-mail by mistake
+and delete this e-mail from your system.<br></p><div><b><i>?</i>?</b><br></div>
+<br><br><br><br><br><br><br>
+Proxy element for: DefaultElementLocator 'By.xpath: //iframe[@id='html_msg_body']'
+[[ChromeDriver: chrome on windows (3a7f6a9f909c18a11a7ccdee9ac35577)] -> xpath: //body[1]/div[1]/p[2]]
+HTML content: We received a request to log in to your account. To proceed, please use the following One-Time Password (OTP) to verify your identity:<br><br>Your OTP: <b>295941</b><br>
+ this is OTP
+---------------------------------------------------------------
+MeghLoginTestMPI_4_Login_Page_04
+---------------------------------------------------------------
+Test case took: 522.5859 seconds
+Total TC Time: 00:08:42
+
+===============================================
+Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

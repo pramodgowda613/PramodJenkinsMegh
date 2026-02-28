@@ -1,0 +1,26 @@
+[17:04:01] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-17-04-00-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[17:04:05] INFO  - PASS -  Application loaded successfully.
+[17:04:07] INFO  - PASS -  Company code entered successfully.ACZO
+[17:04:10] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[17:04:14] INFO  - PASS -  Sign-in section appeared.
+[17:04:16] INFO  - PASS -  Email Id entered.Emp051
+[17:04:18] INFO  - PASS -  Password entered.Emp051
+[17:04:20] INFO  - PASS -  Captcha entered.12345
+[17:04:23] INFO  - PASS -  Sign-in button clicked.
+[17:04:25] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[17:04:27] INFO  - PASS - Login Done Successfully As a Employee.
+[17:04:33] INFO  - PASS - Report Button Clicked Successfully.
+[17:04:39] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[17:04:42] INFO  - PASS - LateInTab Clicked Successfully.
+[17:04:44] INFO  - PASS - Filter Button Clicked Successfully.
+[17:04:51] INFO  - PASS - Year Selected Successfully.2025
+[17:04:57] INFO  - PASS - Month Selected Successfully.November
+[17:05:00] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:05:02] INFO  - PASS - MailReportButton Clicked Successfully.
+[17:05:04] INFO  - PASS - Mail Subject Inputted Successfully.Late In Check
+[17:05:06] INFO  - PASS - Mail CC Inputted Successfully.Empfiftyone@mailinator.com
+[17:05:09] INFO  - PASS - Mail BCC Inputted Successfully.Empfiftyone@mailinator.com
+[17:05:15] INFO  - PASS - Frequency Selected Successfully.
+[17:05:17] INFO  - PASS - MailSendSaveButton Clicked Successfully.
+[17:05:17] INFO  - Passed - MeghPIEmpTimeLogReportsTest-MPI_1759_Emp_LateIn_Reports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email
+[17:05:17] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

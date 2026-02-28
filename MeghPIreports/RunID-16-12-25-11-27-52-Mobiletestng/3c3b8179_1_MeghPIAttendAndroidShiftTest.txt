@@ -1,0 +1,1 @@
+[11:27:53] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-11-27-52-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt

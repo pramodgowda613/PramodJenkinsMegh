@@ -1,0 +1,49 @@
+[11:27:45] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-11-27-45-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[11:27:58] INFO  - PASS - Enrollment executed successfully for Employee ID.Emp050
+[11:27:59] INFO  - PASS - Punch IN executed successfully at 2025-11-03 09:00:00
+[11:27:59] INFO  - PASS - Punch OUT executed successfully at 2025-11-03 18:30:00
+[11:28:15] INFO  - PASS - UpdateAttendance API executed successfully for Emp050
+[11:28:42] INFO  - PASS -  Application loaded successfully.
+[11:28:44] INFO  - PASS -  Company code entered successfully.ACZO
+[11:28:46] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[11:28:51] INFO  - PASS -  Sign-in section appeared.
+[11:28:53] INFO  - PASS -  Email Id entered.Emp050
+[11:28:55] INFO  - PASS -  Password entered.Emp050
+[11:28:57] INFO  - PASS -  Captcha entered.12345
+[11:29:00] INFO  - PASS -  Sign-in button clicked.
+[11:29:02] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[11:29:04] INFO  - PASS - Login Done Successfully As a Employee.Pramod@1234
+[11:29:10] INFO  - PASS - Report Button Clicked Successfully.
+[11:29:14] INFO  - PASS - AttendanceReport Displayed Successfully .
+[11:29:16] INFO  - PASS - PunchReport Clicked Successfully.
+[11:29:19] INFO  - PASS - Filter Button Clicked Successfully.
+[11:29:26] INFO  - PASS - Year Selected Successfully.2025
+[11:29:32] INFO  - PASS - Month Selected Successfully.November
+[11:29:34] INFO  - PASS - Filter Save Button Clicked Successfully.
+[11:29:37] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:29:39] INFO  - PASS - PunchTime Search Option Checkbox Selected Successfully.
+[11:29:41] INFO  - PASS - Punch Mode Search Option Checkbox Selected Successfully.
+[11:29:43] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:29:46] INFO  - PASS - Punch In Time Inputted Successfully.09:00:00
+[11:29:48] INFO  - PASS - Punch In Record Displayed Successfully.09:00:00
+[11:29:50] INFO  - PASS - Punch Mode Inputted Successfully.OUT
+[11:29:52] INFO  - PASS - Punch Mode Record Displayed Successfully.OUT
+[11:29:54] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:29:57] INFO  - PASS - PunchTime Search Option Checkbox Selected Successfully.
+[11:29:59] INFO  - PASS - Punch Mode Search Option Checkbox Selected Successfully.
+[11:30:01] INFO  - PASS - Device Name Search Option Checkbox Selected Successfully.
+[11:30:03] INFO  - PASS - Company Location Name Search Option Checkbox Selected Successfully.
+[11:30:05] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:30:08] INFO  - PASS - Device Name Inputted Successfully.AutoDeviceNameBIPW
+[11:30:10] INFO  - PASS - Device Name Record Displayed Successfully.AutoDeviceNameBIPW
+[11:30:12] INFO  - PASS - Office Name Inputted Successfully.AutoON111225093016
+[11:30:14] INFO  - PASS - Office Name Record Displayed Successfully.AutoON111225093016
+[11:30:16] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:30:19] INFO  - PASS - Device Name Search Option Checkbox Selected Successfully.
+[11:30:21] INFO  - PASS - Company Location Name Search Option Checkbox Selected Successfully.
+[11:30:23] INFO  - PASS - Entity Type Search Option Checkbox Selected Successfully.
+[11:30:25] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:30:27] INFO  - PASS - Entity Type Name Inputted Successfully.AutoEN111225093016
+[11:30:30] INFO  - PASS - Entity Type Name Record Displayed Successfully.AutoEN111225093016
+[11:30:30] INFO  - Passed - MeghPIEmpAttendanceReportsTest-MPI_1713_Punch_Reports_01-To verify that the search functionality works correctly and ensure that employees can search their punch records using all available search options.
+[11:30:30] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

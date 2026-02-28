@@ -1,0 +1,27 @@
+[15:18:26] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-15-18-26-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[15:18:32] INFO  - PASS - Application Loaded Successfully.
+[15:18:34] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[15:18:36] INFO  - PASS - Login With Password Button Is Clicked.
+[15:18:38] INFO  - PASS - Sign in Text Is Displayed.
+[15:18:40] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[15:18:43] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[15:18:45] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:18:47] INFO  - PASS - Clicked On Login Button.
+[15:18:49] INFO  - PASS - Login Done  And Validated Successfully.
+[15:18:51] INFO  - PASS - Login Done Successfully.
+[15:18:58] INFO  - PASS - Report Button Clicked Successfully.
+[15:19:02] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[15:19:04] INFO  - PASS - TotalLeavesTaken Report Pending Tab Clicked Successfully.
+[15:19:41] INFO  - PASS - TotalLeavesTaken Report Page Loaded Successfully.
+[15:19:43] INFO  - PASS - Filter Button Clicked Successfully.
+[15:19:51] INFO  - PASS - Year Selected Successfully.2025
+[15:19:57] INFO  - PASS - Month Selected Successfully.November
+[15:19:59] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:20:02] INFO  - PASS - MailReportButton Clicked Successfully.
+[15:20:04] INFO  - PASS - Mail Subject Inputted Successfully.Leave Request Pending Tab Reports
+[15:20:06] INFO  - PASS - Mail CC Inputted Successfully.Empfiftyfour@mailinator.com
+[15:20:08] INFO  - PASS - Mail BCC Inputted Successfully.Empfiftyfour@mailinator.com
+[15:20:15] INFO  - PASS - Frequency Selected Successfully.
+[15:20:17] INFO  - PASS - MailSendSaveButton Clicked Successfully.
+[15:20:17] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1843_EmpTotalLeaveTakenPending_Reports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email.
+[15:20:17] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -1,30 +1,18 @@
 package com.MeghPI.Attendance.pages;
 
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import utils.Utils;
 
 public class MeghShiftPolicyPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String firstrowshiftname = "";
 	public String createdshiftname = "";
@@ -198,6 +186,7 @@ public class MeghShiftPolicyPage {
 	public boolean AddShiftPolicyButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(AddShiftPolicyButton, "visible", "", 10);
 			AddShiftPolicyButton.isDisplayed();
 			AddShiftPolicyButton.click();
@@ -271,9 +260,9 @@ public class MeghShiftPolicyPage {
 	
 	public boolean ShiftSearchTextField(String policyname) {
 		try {
-			Thread.sleep(8000);
+			Thread.sleep(4000);
 
-			utils.waitForEle(ShiftSearchTextField, "visible", "", 10);
+			utils.waitForEle(ShiftSearchTextField, "visible", "", 30);
 			ShiftSearchTextField.isDisplayed();
 			ShiftSearchTextField.clear();
 			ShiftSearchTextField.sendKeys(policyname);
@@ -288,6 +277,7 @@ public class MeghShiftPolicyPage {
 	public boolean FirstRowShiftName()
 	{
 		try {
+			Thread.sleep(3000);
 			utils.waitForEle(FirstRowShiftName, "visible", "", 10);
 			FirstRowShiftName.isDisplayed();
 		firstrowshiftname =	FirstRowShiftName.getText();
@@ -360,19 +350,28 @@ public class MeghShiftPolicyPage {
 	}
 	
 	public boolean ShiftCodeTextField(String shiftcode) {
-		try {
+	    try {
+	        // Scroll into view properly
+	        JavascriptExecutor jse = (JavascriptExecutor) driver;
+	        jse.executeScript("arguments[0].scrollIntoView(true);", ShiftCodeTextField);
 
-			utils.waitForEle(ShiftCodeTextField,  "visible", "", 10);
-			ShiftCodeTextField.isDisplayed();
-			ShiftCodeTextField.clear();
-			ShiftCodeTextField.sendKeys(shiftcode);
-			
-		} catch (Exception e) {
-			exceptionDesc = e.getMessage().toString();
-			return false;
-		}
-		return true;
+	        // Wait for element to be visible
+	        utils.waitForEle(ShiftCodeTextField, "visible", "", 20);
+
+	        if (ShiftCodeTextField.isDisplayed()) {
+	            ShiftCodeTextField.clear();
+	            ShiftCodeTextField.sendKeys(shiftcode);
+	        } else {
+	            throw new Exception("Shift Code text field is not displayed on the page.");
+	        }
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
+	    return true;
 	}
+
 	
 	public boolean ShiftStartTimeClick()
 	{
@@ -391,6 +390,7 @@ public class MeghShiftPolicyPage {
 
 	public boolean ShiftStartTime(String shiftstarttime) {
 	    try {
+	    	Thread.sleep(2000);
 	        JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	        // Remove readonly just in case, though Flatpickr API doesn't need it
@@ -451,6 +451,7 @@ public class MeghShiftPolicyPage {
 	public boolean BufferAllTimeClick()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(BufferAllTime, "visible", "", 10);
 			BufferAllTime.isDisplayed();
 			BufferAllTime.click();
@@ -556,6 +557,7 @@ public class MeghShiftPolicyPage {
 	public boolean FullDayTimeClick()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(FullDayTime, "visible", "", 10);
 			FullDayTime.isDisplayed();
 			FullDayTime.click();
@@ -591,6 +593,7 @@ public class MeghShiftPolicyPage {
 	public boolean HalfDayTimeClick()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(HalfDayTime, "visible", "", 10);
 			HalfDayTime.isDisplayed();
 			HalfDayTime.click();
@@ -627,7 +630,8 @@ public class MeghShiftPolicyPage {
 	public boolean CreateShiftSaveButton()
 	{
 		try {
-			utils.waitForEle(CreateShiftSaveButton, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(CreateShiftSaveButton, "visible", "", 15);
 
 			CreateShiftSaveButton.click();
 			
@@ -641,6 +645,7 @@ public class MeghShiftPolicyPage {
 	public boolean BrowserRefresh()
 	{
 		try {
+			Thread.sleep(4000);
 			driver.navigate().refresh();
 			
 		} catch (Exception e) {
@@ -670,6 +675,7 @@ public class MeghShiftPolicyPage {
 	public boolean ShiftSearchResult()
 	{
 		try {
+			Thread.sleep(3000);
 			utils.waitForEle(ShiftSearchResult, "visible", "", 10);
 			ShiftSearchResult.isDisplayed();
 		createdshiftname =	ShiftSearchResult.getText();
@@ -714,8 +720,8 @@ public class MeghShiftPolicyPage {
 	public boolean AssignedEmpLinkedCount()
 	{
 		try {
-			Thread.sleep(8000);
-			utils.waitForEle(AssignedEmpLinkedCount, "visible", "", 10);
+			Thread.sleep(5000);
+			utils.waitForEle(AssignedEmpLinkedCount, "visible", "", 20);
 			AssignedEmpLinkedCount.isDisplayed();
 			AssignedEmpLinkedCount.click();
 			
@@ -728,6 +734,7 @@ public class MeghShiftPolicyPage {
 	
 	public boolean FirstEmpName(String expectedFirstName) {
 	    try {
+	    	Thread.sleep(2000);
 	        utils.waitForEle(FirstEmpName, "visible", "", 10);
 
 	        if (FirstEmpName.isDisplayed()) {
@@ -796,6 +803,7 @@ public class MeghShiftPolicyPage {
 	
 	public boolean AssignedEmpLinkedCounts(String expectedCount) {
 	    try {
+	    	Thread.sleep(2000);
 	        utils.waitForEle(AssignedEmpLinkedCount, "visible", "", 10);
 
 	        if (AssignedEmpLinkedCount.isDisplayed()) {
@@ -1166,12 +1174,13 @@ CheckBox.selectByIndex(2);
 	
 	
 	
+
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 	

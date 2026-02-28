@@ -1,0 +1,26 @@
+[11:33:18] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-11-33-18-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[11:33:23] INFO  - PASS - Application Loaded Successfully.
+[11:33:25] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[11:33:27] INFO  - PASS - Login With Password Button Is Clicked.
+[11:33:30] INFO  - PASS - Sign in Text Is Displayed.
+[11:33:32] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[11:33:34] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[11:33:36] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[11:33:38] INFO  - PASS - Clicked On Login Button.
+[11:33:41] INFO  - PASS - Login Done  And Validated Successfully.
+[11:33:43] INFO  - PASS - Login Done Successfully.
+[11:33:49] INFO  - PASS - Report Button Clicked Successfully.
+[11:33:51] INFO  - PASS - OverTime Button Clicked Successfully.
+[11:33:53] INFO  - PASS - OverTime Report Rejected Tab button Clicked Successfully.
+[11:33:56] INFO  - PASS - Filter Button Clicked Successfully.
+[11:34:03] INFO  - PASS - Year Selected Successfully.2025
+[11:34:09] INFO  - PASS - Month Selected Successfully.November
+[11:34:12] INFO  - PASS - Filter Save Button Clicked Successfully.
+[11:34:14] INFO  - PASS - MailReportButton Clicked Successfully.
+[11:34:16] INFO  - PASS - Mail Subject Inputted Successfully.EmpOT Rejected Tab Checking
+[11:34:18] INFO  - PASS - Mail CC Inputted Successfully.Empfiftythree@mailinator.com
+[11:34:21] INFO  - PASS - Mail BCC Inputted Successfully.Empfiftythree@mailinator.com
+[11:34:27] INFO  - PASS - Frequency Selected Successfully.
+[11:34:29] INFO  - PASS - MailSendSaveButton Clicked Successfully.
+[11:34:29] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1815_EmpRejectedOT_Reports_02-To verify this, check the functionality of Schedule Report by adding email and selecting frequency as "daily"  and ensure report is delivered to inputted email
+[11:34:29] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

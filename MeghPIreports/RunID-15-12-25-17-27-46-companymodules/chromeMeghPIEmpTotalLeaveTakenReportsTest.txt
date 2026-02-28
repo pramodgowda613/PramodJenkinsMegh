@@ -1,0 +1,31 @@
+[17:27:47] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-17-27-46-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[17:27:51] INFO  - PASS -  Application loaded successfully.
+[17:27:53] INFO  - PASS -  Company code entered successfully.ARAK
+[17:27:55] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[17:27:59] INFO  - PASS -  Sign-in section appeared.
+[17:28:02] INFO  - PASS -  Email Id entered.Emp054
+[17:28:04] INFO  - PASS -  Password entered.Emp054
+[17:28:06] INFO  - PASS -  Captcha entered.12345
+[17:28:08] INFO  - PASS -  Sign-in button clicked.
+[17:28:11] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[17:28:13] INFO  - PASS - Login Done Successfully.
+[17:28:19] INFO  - PASS - Report Button Clicked Successfully.
+[17:28:24] INFO  - PASS - WeekOff Report Button Clicked Successfully.
+[17:28:26] INFO  - PASS - WeekOff Report Page Loaded Successfully.
+[17:28:28] INFO  - PASS - Filter Button Clicked Successfully.
+[17:28:34] INFO  - PASS - Year Selected Successfully.2025
+[17:28:40] INFO  - PASS - Month Selected Successfully.November
+[17:28:43] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:28:45] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:28:48] INFO  - PASS - Date CheckBox Selected Successfully.
+[17:28:50] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:28:53] INFO  - PASS - Emp WeekOff Date Inputted Successfully.02-11-2025
+[17:28:55] INFO  - PASS - Emp WeekOff Date  Validated Successfully.2025-11-02
+[17:28:57] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:29:00] INFO  - PASS - Date CheckBox Selected Successfully.
+[17:29:02] INFO  - PASS - Cmp Location CheckBox Selected Successfully.
+[17:29:05] INFO  - PASS - SearchDropDown Clicked Successfully.
+[17:29:07] INFO  - PASS - Emp Assigned Office Name Inputted Successfully.AutoON151225091529
+[17:29:09] INFO  - PASS - Emp Assigned Office Name Validated Successfully.AutoON151225091529
+[17:29:09] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1850_EmpWeeklyOffReports_01-To verify this, Check the functionality of search feature by selecting each search option.
+[17:29:09] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

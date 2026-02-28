@@ -1,0 +1,9 @@
+[11:39:41] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-11-39-41-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[11:39:58] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[11:40:02] INFO  - PASS - Login With Password Button Is Clicked.
+[11:40:08] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[11:40:14] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[11:40:21] INFO  - PASS - Clicked On Login Button.
+[11:40:24] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[11:40:31] INFO  - PASS - Emp Shift Button On DashBoard Clicked Successfully.
+[11:40:35] ERROR - FAIL - Error While Navigating To Punch In Did Month .null

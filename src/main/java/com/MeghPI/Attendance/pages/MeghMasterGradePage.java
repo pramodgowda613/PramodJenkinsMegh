@@ -14,7 +14,7 @@ public class MeghMasterGradePage {
 
 
 	 WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 public String firstgradename = "";
 	
@@ -93,8 +93,8 @@ public String firstgradename = "";
 	public boolean GradeButton()
 	{
 		try {
-			utils.waitForEle(GradeButton, "visible", "", 10);
-			GradeButton.isDisplayed();
+			utils.waitForEle(GradeButton, "visible", "", 20);
+		
 			GradeButton.click();
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
@@ -107,6 +107,7 @@ public String firstgradename = "";
 	public boolean AddGradeButton()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(AddGradeButton, "visible", "", 10);
 			AddGradeButton.isDisplayed();
 			AddGradeButton.click();
@@ -252,9 +253,9 @@ public String firstgradename = "";
 	
 	public boolean ManageProfileGradeSearchField(String gradename) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(ManageProfileGradeSearchField,  "visible", "", 10);
-			ManageProfileGradeSearchField.isDisplayed();
+		
 			ManageProfileGradeSearchField.clear();
 			ManageProfileGradeSearchField.sendKeys(gradename);
 			
@@ -269,6 +270,7 @@ public String firstgradename = "";
 	public boolean  ManageProfileGradeSearchResult()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(ManageProfileGradeSearchResult, "visible", "", 10);
 			ManageProfileGradeSearchResult.isDisplayed();
 		} catch (Exception e) {
@@ -282,6 +284,7 @@ public String firstgradename = "";
 	public boolean  Grade3Dots()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(Grade3Dots, "visible", "", 10);
 			Grade3Dots.isDisplayed();
 			Grade3Dots.click();
@@ -296,8 +299,9 @@ public String firstgradename = "";
 	public boolean  GradeEditIcon()
 	{
 		try {
-			utils.waitForEle(GradeEditIcon, "visible", "", 10);
-			GradeEditIcon.isDisplayed();
+			Thread.sleep(2000);
+			utils.waitForEle(GradeEditIcon, "visible", "", 20);
+		
 			GradeEditIcon.click();
 			
 		} catch (Exception e) {
@@ -309,7 +313,7 @@ public String firstgradename = "";
 	
 	public boolean GradeSearchField(String gradename) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(GradeSearchField,  "visible", "", 10);
 			GradeSearchField.isDisplayed();
 			GradeSearchField.clear();
@@ -325,6 +329,7 @@ public String firstgradename = "";
 	public boolean  GradeSearchResultsOrFirstRecord()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(GradeSearchResultsOrFirstRecord, "visible", "", 10);
 			GradeSearchResultsOrFirstRecord.isDisplayed();
 		firstgradename	= GradeSearchResultsOrFirstRecord.getText();
@@ -341,6 +346,7 @@ public String firstgradename = "";
 	public boolean  GradeToggleSwitch()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(GradeToggleSwitch, "visible", "", 10);
 			GradeToggleSwitch.isDisplayed();
 			GradeToggleSwitch.click();
@@ -385,8 +391,8 @@ public String firstgradename = "";
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
-	}	
+		exceptionDesc = this.exceptionDesc;
+	}
 	
 	
 }

@@ -1,0 +1,139 @@
+[07:35:57] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-28-12-25-07-35-56-companymodules/chromeMeghLoginTest.txt
+[07:36:14] INFO  - PASS - Application Loaded Successfully.
+[07:36:18] INFO  - PASS - Create An Account Button Is Clicked.
+[07:36:21] INFO  - PASS - First Name Entered in Text Box.AutoAFNIVC
+[07:36:23] INFO  - PASS - Last Name Entered in Text Box.AutoLNNCBQ
+[07:36:26] INFO  - PASS - Email  Entered in Text Box.AutoE281225073556@mailinator.com
+[07:36:28] INFO  - PASS - Phone Number Entered in Text Box.8217067672
+[07:36:31] INFO  - PASS - Create Password Entered in Text Box.Pramod@1234
+[07:36:33] INFO  - PASS - Confirm Password Entered in Text Box.Pramod@1234
+[07:36:35] INFO  - PASS - Successfully Cliked On SignUp Button.
+[07:36:38] INFO  - PASS - Company Name Entered in Text Box.AutoCNKAHCR
+[07:36:40] INFO  - PASS - Company Code Entered in Text Box.AGYV
+[07:36:46] INFO  - PASS - Company HeadCount Selected In the Dropdown.51 To 100
+[07:36:48] INFO  - PASS - Industry Type Selected In the Dropdown.Software Industry
+[07:36:51] INFO  - PASS - Your Role Selected In the Dropdown.Admin
+[07:36:53] INFO  - PASS - Your Role Selected In the Dropdown.
+[07:37:00] INFO  - PASS - OTP Sent To YOP Mail.
+[07:37:04] INFO  - PASS - Successfully Open The New Tab And URL Is Passed.
+[07:37:07] INFO  - PASS - Successfully Clicked On GetFreeTrailButton.
+[07:37:09] INFO  - PASS - Successfully Clicked On PopupCloseButton.
+[07:37:18] INFO  - PASS - Successfully Inputted Emp Name.AutoE281225073556
+[07:37:20] INFO  - PASS - Successfully Clicked On SearchButtonOfMailinator.
+[07:37:22] INFO  - PASS - Successfully Clicked On SignUp OTP Mail.
+[07:37:29] INFO  - PASS - Successfully Navigated To IFrame.
+[07:37:31] INFO  - PASS - Successfully Extracted The OTP.885067
+[07:37:33] INFO  - PASS - Successfully Navigated Back To Application.
+[07:37:35] INFO  - PASS - OTP Sent To YOP Mail.885067
+[07:37:38] INFO  - PASS - Successfully Entered The Captcha.12345
+[07:37:40] INFO  - PASS - Successfully Clicked On VerifyAndLoginButton.
+[07:37:51] INFO  - PASS - Successfully Selected VMS.
+[07:37:53] INFO  - PASS - Successfully Selected CMS.
+[07:37:56] INFO  - PASS - Successfully Clicked On SaveButton.
+[07:38:00] INFO  - PASS - Successfully Clicked On PlanF.
+[07:38:02] INFO  - PASS - Successfully Clicked On MakePaymentButton.
+[07:38:15] INFO  - PASS - Successfully Clicked On Cards For Payment.
+[07:38:18] INFO  - PASS - Successfully Entered The Card Number.5123456789012346
+[07:38:20] INFO  - PASS - Successfully Entered The Card ExpiryDate.1225
+[07:38:22] INFO  - PASS - Successfully Entered The Card CVV.123
+[07:38:24] INFO  - PASS - Successfully Entered The Card OwnerName.Test
+[07:38:27] INFO  - PASS - Successfully Clicked On ProccedButton.
+[07:38:29] INFO  - PASS - Successfully Clicked On Continue Without Saving Button.
+[07:38:35] INFO  - PASS - Successfully Entered The Payment OTP.123456
+[07:38:37] INFO  - PASS - Successfully Clicked On OTPConfirmButton.
+[07:38:42] INFO  - PASS - Successfully Clicked On BackToLoginButton.
+[07:38:44] INFO  - PASS - Application Loaded Successfully.
+[07:38:47] INFO  - PASS - Company Code Entered in Text Box.AGYV
+[07:38:49] INFO  - PASS - Login With Password Button Is Clicked.
+[07:38:51] INFO  - PASS - Sign in Text Is Displayed.
+[07:38:54] INFO  - PASS - Username Is Entered In Username Text Field.AutoE281225073556@mailinator.com
+[07:38:56] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[07:38:58] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[07:39:01] INFO  - PASS - Clicked On Login Button.
+[07:39:03] INFO  - PASS - Clicked On MailCheck Button.
+[07:39:07] INFO  - PASS - Successfully Open The New Tab And URL Is Passed.
+[07:39:10] INFO  - PASS - Successfully Clicked On GetFreeTrailButton.
+[07:39:12] INFO  - PASS - Successfully Clicked On PopupCloseButton.
+[07:39:21] INFO  - PASS - Successfully Inputted Emp Name.AutoE281225073556
+[07:39:23] INFO  - PASS - Successfully Clicked On SearchButtonOfMailinator.
+[07:39:25] INFO  - PASS - Except Application All Other Tabs Are Closed Successfully.
+[07:39:27] INFO  - PASS - Successfully Clicked On Activation Mail Link.
+[07:39:34] INFO  - PASS - Successfully Navigated To IFrame.
+[07:39:36] INFO  - PASS - Successfully Clicked On ActivationLink.
+[07:39:43] INFO  - PASS - Successfully Navigated Back To Application.
+[07:39:45] INFO  - PASS - Clicked On LoginHere Button.
+[07:39:47] INFO  - PASS - Company Code Entered in Text Box.AGYV
+[07:39:50] INFO  - PASS - Login With Password Button Is Clicked.
+[07:39:52] INFO  - PASS - Sign in Text Is Displayed.
+[07:39:54] INFO  - PASS - Username Is Entered In Username Text Field.AutoE281225073556@mailinator.com
+[07:39:57] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[07:39:59] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[07:40:02] INFO  - PASS - Clicked On Login Button.
+[07:40:06] INFO  - PASS - Clicked On CompanyDetails.
+[07:40:09] INFO  - PASS - Industry Type Selected In the Dropdown.Software Industry
+[07:40:45] INFO  - PASS - Image Is Selected As Logo../data/images/Testing.jpg
+[07:40:47] INFO  - PASS - Entered CompanyWebsite Successfully.https://demo.meghpi.com/
+[07:40:49] INFO  - PASS - AddDetails Button Clicked Successfully.
+[07:40:52] INFO  - PASS - Successfully Clicked On Add AddreessButton.
+[07:40:54] INFO  - PASS - Successfully Selected Country From CountryDropdown.India
+[07:41:01] INFO  - PASS - Successfully Selected State From StateDropdown.Gujarat
+[07:41:03] INFO  - PASS - Successfully Enter The Company Address.#47, 5th cross, park view, shapath hexa, gujarat highcourt
+[07:41:06] INFO  - PASS - Successfully Enter The Company Address Zipcode.560091
+[07:41:12] INFO  - PASS - Successfully Clicked On AddAddress Button.
+[07:41:18] INFO  - PASS - Successfully Clicked On ContactDetails.
+[07:41:21] INFO  - PASS - Contact Name Entered in Text Box.AutoAFNIVC
+[07:41:23] INFO  - PASS - Phone Number Entered in Text Box.8217067672
+[07:41:25] INFO  - PASS - Email Id Entered in Text Box.AutoE281225073556@mailinator.com
+[07:41:28] INFO  - PASS - Successfully Clicked On AddContactButton.
+[07:41:30] INFO  - PASS - Successfully Clicked On OfficeSetup.
+[07:41:32] INFO  - PASS - Successfully Clicked On AddOffice.
+[07:41:35] INFO  - PASS - Office Name Entered in Text Box.AutoONDELUQAVL
+[07:41:37] INFO  - PASS - Company OfficeType Selected In the Dropdown.Head Quarter
+[07:41:40] INFO  - PASS - Office Address Entered in Text Box.#47, 5th cross, park view, shapath hexa, gujarat highcourt
+[07:41:42] INFO  - PASS - Company's Country Selected In the Dropdown.India
+[07:41:49] INFO  - PASS - Company's State Selected In the Dropdown.Gujarat
+[07:41:51] INFO  - PASS - Successfully Clicked On AddOfficeSave.
+[07:41:53] INFO  - PASS - Successfully Clicked On AddDept.
+[07:41:56] INFO  - PASS - Dept Name Entered in Text Box.AutoDNPRRA
+[07:42:01] INFO  - PASS - Company's Assign Office Selected In the Dropdown.AutoONDELUQAVL
+[07:42:03] INFO  - PASS - Successfully Clicked On AddDeptSave.
+[07:42:06] INFO  - PASS - Successfully Clicked On Policy Button.
+[07:42:16] INFO  - PASS - Successfully Clicked On UseAsDefaultButton Button.
+[07:42:19] INFO  - PASS - Successfully Clicked On GeneralSettings Button.
+[07:42:24] INFO  - PASS - TimeFormat Selected In the Dropdown.
+[07:42:30] INFO  - PASS -  TimeZone Selected In the Dropdown.
+[07:42:35] INFO  - PASS - TwoStepVerification Selected In the Dropdown.
+[07:42:40] INFO  - PASS - DateFormat Selected In the Dropdown.
+[07:42:46] INFO  - PASS - FinancialYear Selected In the Dropdown.
+[07:42:48] INFO  - PASS - Successfully Clicked On GeneralSettingsSave.
+[07:42:51] INFO  - PASS - Successfully Clicked On PersonalSetting.
+[07:42:56] INFO  - PASS - EmployeeIDDropdown Selected In the Dropdown.
+[07:42:59] INFO  - PASS - Employee id Entered In The Text Field.AutoDNPRRA
+[07:43:01] INFO  - PASS - Successfully Clicked On PersonalSettingSave.
+[07:43:08] INFO  - PASS - Successfully Clicked On GoToDashBoard.
+[07:43:11] INFO  - PASS - Login Done  And Validated Successfully.
+[07:43:18] INFO  - PASS - Error Message is Clicked.
+[07:43:25] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[07:43:27] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[07:43:30] INFO  - PASS - Except Application All Other Tabs Are Closed Successfully.
+[07:43:32] INFO  - PASS - Application Loaded Successfully.
+[07:43:34] INFO  - PASS - Company Code Entered in Text Box.AGYV
+[07:43:37] INFO  - PASS - Successfully Clicked On Login With OTP Button.
+[07:43:42] INFO  - PASS - Successfully Loaded LoginWithOTPPage.
+[07:43:44] INFO  - PASS - Successfully Entered The Username.AutoE281225073556@mailinator.com
+[07:43:47] INFO  - PASS - Successfully Entered The Captcha.12345
+[07:43:49] INFO  - PASS - Successfully Clicked on RequestOTP Button.
+[07:43:54] INFO  - PASS - Successfully Open The New Tab And URL Is Passed.
+[07:43:56] INFO  - PASS - Successfully Clicked On GetFreeTrailButton.
+[07:43:58] INFO  - PASS - Successfully Clicked On PopupCloseButton.
+[07:44:07] INFO  - PASS - Successfully Inputted Emp Name.AutoE281225073556
+[07:44:09] INFO  - PASS - Successfully Clicked On SearchButtonOfMailinator.
+[07:44:31] INFO  - PASS - Successfully Clicked On FirstRecievedMailClick.
+[07:44:38] INFO  - PASS - Successfully Navigated To IFrame.
+[07:44:40] INFO  - PASS - Successfully Fetch The OTP From Mail.
+[07:44:42] INFO  - PASS - Successfully Navigated Back To Application.
+[07:44:44] INFO  - PASS - OTP Entered In The Enter OTP Text Field.295941
+[07:44:46] INFO  - PASS - Captcha Entered In The Enter Captcha Text Field.12345
+[07:44:52] INFO  - PASS - Successfully Clicked on VerifyAndLoginButtonOTP Button.
+[07:44:53] INFO  - Passed - MeghLoginTest-MPI_4_Login_Page_04-Verify that upon entering a valid company code and clicking the Login with OTP button, the user is redirected to the Login with OTP page and an OTP is sent to the provided email address.
+[07:44:53] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

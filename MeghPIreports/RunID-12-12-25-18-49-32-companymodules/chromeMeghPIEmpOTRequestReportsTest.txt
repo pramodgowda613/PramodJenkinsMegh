@@ -1,0 +1,25 @@
+[18:49:33] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-18-49-32-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[18:49:37] INFO  - PASS - Application Loaded Successfully.
+[18:49:39] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[18:49:41] INFO  - PASS - Login With Password Button Is Clicked.
+[18:49:44] INFO  - PASS - Sign in Text Is Displayed.
+[18:49:46] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[18:49:48] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[18:49:50] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[18:49:53] INFO  - PASS - Clicked On Login Button.
+[18:49:55] INFO  - PASS - Login Done  And Validated Successfully.
+[18:49:57] INFO  - PASS - Login Done Successfully.
+[18:50:03] INFO  - PASS - Report Button Clicked Successfully.
+[18:50:05] INFO  - PASS - OverTime Button Clicked Successfully.
+[18:50:08] INFO  - PASS - OverTime Report Approved Tab button Clicked Successfully.
+[18:50:10] INFO  - PASS - Filter Button Clicked Successfully.
+[18:50:17] INFO  - PASS - Year Selected Successfully.2025
+[18:50:24] INFO  - PASS - Month Selected Successfully.November
+[18:50:26] INFO  - PASS - Filter Save Button Clicked Successfully.
+[18:50:28] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:50:30] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[18:50:32] INFO  - PASS - SearchDropDown Clicked Successfully.
+[18:50:35] INFO  - PASS - Emp ID Inputted Successfully.Emp053
+[18:50:37] INFO  - PASS - Emp Regulirization Apporved Record Validated Successfully.Empfiftythree
+[18:50:37] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1805_EmpOTApproved_Reports_01-To verify this, check the functionalities of search feature by selecting each search option 
+[18:50:37] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

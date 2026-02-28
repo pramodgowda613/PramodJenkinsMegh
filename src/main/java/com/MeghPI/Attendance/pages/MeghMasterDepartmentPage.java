@@ -1,6 +1,7 @@
 package com.MeghPI.Attendance.pages;
 
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -12,7 +13,7 @@ import utils.Utils;
 public class MeghMasterDepartmentPage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String EmployeeName = "";
 	public String GetOfficeName = "";
@@ -143,6 +144,15 @@ public class MeghMasterDepartmentPage {
 	@FindBy(xpath = "(//div[text()='Department Name'])[2]")
 	private WebElement DepartmentMappingPageLoaded; //1st TestCase
 	
+	@FindBy(xpath = "//select[@id='drpCompanyLocation']")
+	private WebElement CompanyLocationSelected; //1st TestCase
+	
+	@FindBy(xpath = "//input[@id='txtDateofJoining']/../input[2]")
+	private WebElement ManageProfileDateField; //1st TestCase
+	
+	
+	
+	
 	//1st TestCase
 	public boolean DepartmentButton()
 	{
@@ -162,7 +172,7 @@ public class MeghMasterDepartmentPage {
 	public boolean AddDepartmentButton()
 	{
 		try {
-			utils.waitForEle(AddDepartmentButton, "visible", "", 10);
+			utils.waitForEle(AddDepartmentButton, "visible", "", 30);
 			AddDepartmentButton.isDisplayed();
 			AddDepartmentButton.click();
 		} catch (Exception e) {
@@ -177,7 +187,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentName(String deptname) {
 		try {
 
-			utils.waitForEle(DepartmentName,  "visible", "", 10);
+			utils.waitForEle(DepartmentName,  "visible", "", 30);
 			DepartmentName.isDisplayed();
 			DepartmentName.clear();
 			DepartmentName.sendKeys(deptname);
@@ -193,7 +203,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentDescription(String deptdescription) {
 		try {
 
-			utils.waitForEle(DepartmentDescription,  "visible", "", 10);
+			utils.waitForEle(DepartmentDescription,  "visible", "", 30);
 			DepartmentDescription.isDisplayed();
 			DepartmentDescription.sendKeys(deptdescription);
 			
@@ -209,7 +219,7 @@ public class MeghMasterDepartmentPage {
 	public boolean AssignOfficeDropdown() {
 	    try {
 	    	Thread.sleep(3000);
-	    	utils.waitForEle(AssignOfficeDropdown, "visible", "", 10);
+	    	utils.waitForEle(AssignOfficeDropdown, "visible", "", 30);
 	     Select select = new Select(AssignOfficeDropdown);
 	        select.selectByIndex(1);
 	       
@@ -224,7 +234,7 @@ public class MeghMasterDepartmentPage {
 	public boolean HeadOfDepartmentDropdownicon()
 	{
 		try {
-			utils.waitForEle(HeadOfDepartmentDropdownicon, "visible", "", 10);
+			utils.waitForEle(HeadOfDepartmentDropdownicon, "visible", "", 30);
 			HeadOfDepartmentDropdownicon.isDisplayed();
 			HeadOfDepartmentDropdownicon.click();
 		} catch (Exception e) {
@@ -251,7 +261,7 @@ public class MeghMasterDepartmentPage {
 	public boolean HeadOfDepartmentDropdownSearchResult()
 	{
 		try {
-			utils.waitForEle(HeadOfDepartmentDropdownSearchResult, "visible", "", 10);
+			utils.waitForEle(HeadOfDepartmentDropdownSearchResult, "visible", "", 30);
 			HeadOfDepartmentDropdownSearchResult.isDisplayed();
 			HeadOfDepartmentDropdownSearchResult.click();
 		} catch (Exception e) {
@@ -264,7 +274,7 @@ public class MeghMasterDepartmentPage {
 	public boolean AddDepartmentSaveButton()
 	{
 		try {
-			utils.waitForEle(AddDepartmentSaveButton, "visible", "", 10);
+			utils.waitForEle(AddDepartmentSaveButton, "visible", "", 30);
 			AddDepartmentSaveButton.isDisplayed();
 			AddDepartmentSaveButton.click();
 		} catch (Exception e) {
@@ -277,7 +287,8 @@ public class MeghMasterDepartmentPage {
 	public boolean Employee3dotsFirstRecord()
 	{
 		try {
-			utils.waitForEle(Employee3dotsFirstRecord, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(Employee3dotsFirstRecord, "visible", "", 30);
 			Employee3dotsFirstRecord.isDisplayed();
 			Employee3dotsFirstRecord.click();
 		} catch (Exception e) {
@@ -290,8 +301,8 @@ public class MeghMasterDepartmentPage {
 	public boolean ManageProfileButton()
 	{
 		try {
-			utils.waitForEle(ManageProfileButton, "visible", "", 10);
-			ManageProfileButton.isDisplayed();
+			utils.waitForEle(ManageProfileButton, "visible", "", 30);
+
 			ManageProfileButton.click();
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
@@ -302,10 +313,10 @@ public class MeghMasterDepartmentPage {
 	
 	public boolean EditIcon() {
 	    try {
-	        Thread.sleep(4000);
+	        Thread.sleep(3000);
 	        Actions act = new Actions(driver);
 	        act.moveToElement(EditIcon).perform();
-	        utils.waitForEle(EditIcon, "visible", "", 10);
+	        utils.waitForEle(EditIcon, "visible", "", 30);
 	        Thread.sleep(2000);
 
 	        if (EditIcon.isDisplayed()) {
@@ -318,7 +329,7 @@ public class MeghMasterDepartmentPage {
 	            Thread.sleep(4000);
 	            Actions act = new Actions(driver);
 	            act.moveToElement(EditIcon).perform();
-	            utils.waitForEle(EditIcon, "visible", "", 10);
+	            utils.waitForEle(EditIcon, "visible", "", 30);
 	            Thread.sleep(2000);
 
 	            if (EditIcon.isDisplayed()) {
@@ -337,7 +348,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentDropdown()
 	{
 		try {
-			utils.waitForEle(DepartmentDropdown, "visible", "", 10);
+			utils.waitForEle(DepartmentDropdown, "visible", "", 30);
 			DepartmentDropdown.isDisplayed();
 			DepartmentDropdown.click();
 		} catch (Exception e) {
@@ -349,8 +360,8 @@ public class MeghMasterDepartmentPage {
 	
 	public boolean DepartmentDropdownSearchTextField(String deptname) {
 		try {
-
-			utils.waitForEle(DepartmentDropdownSearchTextField,  "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(DepartmentDropdownSearchTextField,  "visible", "", 30);
 			DepartmentDropdownSearchTextField.isDisplayed();
 			DepartmentDropdownSearchTextField.sendKeys(deptname);
 			
@@ -364,7 +375,8 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentDropdownSearchResult()
 	{
 		try {
-			utils.waitForEle(DepartmentDropdownSearchResult, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(DepartmentDropdownSearchResult, "visible", "", 30);
 			DepartmentDropdownSearchResult.isDisplayed();
 			
 		} catch (Exception e) {
@@ -378,7 +390,7 @@ public class MeghMasterDepartmentPage {
 	public boolean Department3DotsIcon()
 	{
 		try {
-			utils.waitForEle(Department3DotsIcon, "visible", "", 10);
+			utils.waitForEle(Department3DotsIcon, "visible", "", 30);
 			Department3DotsIcon.isDisplayed();
 			Department3DotsIcon.click();
 		} catch (Exception e) {
@@ -392,7 +404,7 @@ public class MeghMasterDepartmentPage {
 	{
 		try {
 			Thread.sleep(4000);
-			utils.waitForEle(DepartmentEditIcon, "visible", "", 10);
+			utils.waitForEle(DepartmentEditIcon, "visible", "", 30);
 			DepartmentEditIcon.isDisplayed();
 			DepartmentEditIcon.click();
 		} catch (Exception e) {
@@ -406,8 +418,8 @@ public class MeghMasterDepartmentPage {
 		try {
 			
 			
-
-			utils.waitForEle(DepartmentSearchIcon,  "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(DepartmentSearchIcon,  "visible", "", 30);
 			DepartmentSearchIcon.isDisplayed();
 			DepartmentSearchIcon.clear();
 			DepartmentSearchIcon.sendKeys(deptname);
@@ -424,7 +436,8 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentFirstRecord()
 	{
 		try {
-			utils.waitForEle(DepartmentFirstRecord, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(DepartmentFirstRecord, "visible", "", 30);
 			DepartmentFirstRecord.isDisplayed();
 			Firstrecorddepartmentname =	DepartmentFirstRecord.getText();
 		} catch (Exception e) {
@@ -439,7 +452,8 @@ public class MeghMasterDepartmentPage {
 	public boolean SearchDropDown()
 	{
 		try {
-			utils.waitForEle(SearchDropDown, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(SearchDropDown, "visible", "", 30);
 			SearchDropDown.isDisplayed();
 			SearchDropDown.click();
 		} catch (Exception e) {
@@ -452,7 +466,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentSearchOfficeNameOption()
 	{
 		try {
-			utils.waitForEle(DepartmentSearchOfficeNameOption, "visible", "", 10);
+			utils.waitForEle(DepartmentSearchOfficeNameOption, "visible", "", 30);
 			DepartmentSearchOfficeNameOption.isDisplayed();
 			DepartmentSearchOfficeNameOption.click();
 		} catch (Exception e) {
@@ -467,7 +481,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentNameValidation()
 	{
 		try {
-			utils.waitForEle(DepartmentNameValidation, "visible", "", 10);
+			utils.waitForEle(DepartmentNameValidation, "visible", "", 30);
 			DepartmentNameValidation.isDisplayed();
 		
 		} catch (Exception e) {
@@ -482,7 +496,7 @@ public class MeghMasterDepartmentPage {
 	public boolean HODDropdownIcon()
 	{
 		try {
-			utils.waitForEle(HODDropdownIcon, "visible", "", 10);
+			utils.waitForEle(HODDropdownIcon, "visible", "", 30);
 			HODDropdownIcon.isDisplayed();
 			HODDropdownIcon.click();
 		} catch (Exception e) {
@@ -495,7 +509,7 @@ public class MeghMasterDepartmentPage {
 	public boolean HODDropdownSearchTextField(String officename) {
 		try {
 
-			utils.waitForEle(HODDropdownSearchTextField,  "visible", "", 10);
+			utils.waitForEle(HODDropdownSearchTextField,  "visible", "", 30);
 			HODDropdownSearchTextField.isDisplayed();
 			HODDropdownSearchTextField.sendKeys(officename);
 			
@@ -509,7 +523,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DropDownErrorMsg()
 	{
 		try {
-			utils.waitForEle(DropDownErrorMsg, "visible", "", 10);
+			utils.waitForEle(DropDownErrorMsg, "visible", "", 30);
 			DropDownErrorMsg.isDisplayed();
 		
 		} catch (Exception e) {
@@ -524,7 +538,7 @@ public class MeghMasterDepartmentPage {
 	public boolean HODSearchResult()
 	{
 		try {
-			utils.waitForEle(HODSearchResult, "visible", "", 10);
+			utils.waitForEle(HODSearchResult, "visible", "", 30);
 			HODSearchResult.isDisplayed();
 			HODSearchResult.click();
 		} catch (Exception e) {
@@ -539,7 +553,7 @@ public class MeghMasterDepartmentPage {
 	public boolean EmployeeFirstRecord()
 	{
 		try {
-			utils.waitForEle(EmployeeFirstRecord, "visible", "", 10);
+			utils.waitForEle(EmployeeFirstRecord, "visible", "", 30);
 			
 			EmployeeFirstRecord.isDisplayed();
 		EmployeeName =	EmployeeFirstRecord.getText();
@@ -554,7 +568,7 @@ public class MeghMasterDepartmentPage {
 	public boolean EmployeeAssignedOfficeName()
 	{
 		try {
-			utils.waitForEle(EmployeeAssignedOfficeName, "visible", "", 10);
+			utils.waitForEle(EmployeeAssignedOfficeName, "visible", "", 30);
 			
 			EmployeeAssignedOfficeName.isDisplayed();
 		GetOfficeName =	EmployeeAssignedOfficeName.getText();
@@ -571,7 +585,7 @@ public class MeghMasterDepartmentPage {
 	{
 		try {
 			Thread.sleep(4000);
-			utils.waitForEle(DepartmentToggleSwitch, "visible", "", 10);
+			utils.waitForEle(DepartmentToggleSwitch, "visible", "", 30);
 		
 		
 			Actions act = new Actions(driver);
@@ -588,9 +602,11 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentToggleSwitchConfirmButton()
 	{
 		try {
-			utils.waitForEle(DepartmentToggleSwitchConfirmButton, "visible", "", 10);
+			Thread.sleep(3000);
+			utils.waitForEle(DepartmentToggleSwitchConfirmButton, "visible", "", 30);
 			
 			DepartmentToggleSwitchConfirmButton.click();
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -601,7 +617,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentNoResultFoundMsg()
 	{
 		try {
-			utils.waitForEle(DepartmentNoResultFoundMsg, "visible", "", 10);
+			utils.waitForEle(DepartmentNoResultFoundMsg, "visible", "", 30);
 			DepartmentNoResultFoundMsg.isDisplayed();
 			
 		} catch (Exception e) {
@@ -616,7 +632,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentMappingButton()
 	{
 		try {
-			utils.waitForEle(DepartmentMappingButton, "visible", "", 10);
+			utils.waitForEle(DepartmentMappingButton, "visible", "", 30);
 			DepartmentMappingButton.isDisplayed();
 			DepartmentMappingButton.click();
 		} catch (Exception e) {
@@ -629,7 +645,7 @@ public class MeghMasterDepartmentPage {
 	public boolean AddDepartmentMappingButton()
 	{
 		try {
-			utils.waitForEle(AddDepartmentMappingButton, "visible", "", 10);
+			utils.waitForEle(AddDepartmentMappingButton, "visible", "", 30);
 			AddDepartmentMappingButton.isDisplayed();
 			AddDepartmentMappingButton.click();
 		} catch (Exception e) {
@@ -642,9 +658,10 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentDropDown()
 	{
 		try {
-			utils.waitForEle(DepartmentDropDown, "visible", "", 10);
-			DepartmentDropDown.isDisplayed();
+			Thread.sleep(2000);
+			utils.waitForEle(DepartmentDropDown, "visible", "", 30);
 			DepartmentDropDown.click();
+			Thread.sleep(1000);
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
 			return false;
@@ -655,8 +672,7 @@ public class MeghMasterDepartmentPage {
 	public boolean  DepartmentDropDownTextField(String deptname) {
 		try {
 
-			utils.waitForEle(DepartmentDropDownTextField,  "visible", "", 10);
-			DepartmentDropDownTextField.isDisplayed();
+			utils.waitForEle(DepartmentDropDownTextField,  "visible", "", 30);
 			DepartmentDropDownTextField.sendKeys(deptname);
 			
 		} catch (Exception e) {
@@ -668,7 +684,7 @@ public class MeghMasterDepartmentPage {
 	
 	public boolean DepartmentDropDownSearchResult(String deptname) {
 	    try {
-	        utils.waitForEle(DepartmentDropDownSearchResult, "visible", "", 10);
+	        utils.waitForEle(DepartmentDropDownSearchResult, "visible", "", 30);
 	        
 	        if (DepartmentDropDownSearchResult.isDisplayed()) {
 	            String actualDeptName = DepartmentDropDownSearchResult.getText().trim();
@@ -693,6 +709,7 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentPageLoaded()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(DepartmentPageLoaded, "visible", "", 15);
 			DepartmentPageLoaded.isDisplayed();
 		
@@ -708,9 +725,40 @@ public class MeghMasterDepartmentPage {
 	public boolean DepartmentDropIcon()
 	{
 		try {
+			Thread.sleep(3000);
 			utils.waitForEle(DepartmentDropIcon, "visible", "", 15);
 			DepartmentDropIcon.click();
 			Thread.sleep(2000);			
+		
+		} catch (Exception e) {
+			exceptionDesc=	e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean CompanyLocationSelected(String office) {
+	    try {
+	    	Thread.sleep(4000);
+	    	utils.waitForEle(CompanyLocationSelected, "visible", "", 20);
+	     Select select = new Select(CompanyLocationSelected);
+	        select.selectByVisibleText(office);
+	       
+	    } catch (Exception e) {
+	    	exceptionDesc = e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	public boolean ManageProfileDateField()
+	{
+		try {
+	
+			utils.waitForEle(ManageProfileDateField, "visible", "", 15);
+			ManageProfileDateField.click();
+			
 		
 		} catch (Exception e) {
 			exceptionDesc=	e.getMessage().toString();
@@ -729,12 +777,39 @@ public class MeghMasterDepartmentPage {
 	
 	
 	
+	public boolean FirstDateSelection(String Date) {
+		
+		 try {
+			 Thread.sleep(2000);
+		        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		        // Remove readonly just in case, though Flatpickr API doesn't need it
+		        js.executeScript("document.getElementById('txtDateofJoining').removeAttribute('readonly');");
+
+		        // Use Flatpickr's setDate API
+		        js.executeScript(
+		            "if (document.getElementById('txtDateofJoining')._flatpickr) {" +
+		            "  document.getElementById('txtDateofJoining')._flatpickr.setDate('" + Date + "', true);" +
+		            "} else { throw new Error('Flatpickr not initialized on txtDateofJoining'); }"
+		        );
+
+		    } catch (Exception e) {
+		        exceptionDesc = e.getMessage();
+		        return false;
+		    }
+		    return true;
+		}
+	
+	
+	
+	
+	
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
 	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
+		exceptionDesc = this.exceptionDesc;
 	}
 	
 	

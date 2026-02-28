@@ -1,0 +1,3 @@
+[18:16:17] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-18-16-17-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[18:16:20] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1852_EmpWeeklyOffReports_03-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date of last month weekoff date (sunday date)
+[18:16:20] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

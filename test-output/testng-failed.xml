@@ -6,26 +6,20 @@
   <test thread-count="5" name="Chrome(failed)">
     <parameter name="device" value="21"/>
     <classes>
-      <class name="com.MeghPI.Attendance.tests.MeghMasterOfficeTest">
+      <class name="com.MeghPI.Attendance.tests.MeghPIOverTimeRequestTest">
         <methods>
-          <include name="MPI_180_Office_02"/>
-          <include name="launchDriver"/>
-          <include name="MPI_198_Office_12"/>
-          <include name="MPI_200_Office_14"/>
-          <include name="MPI_182_Office_04"/>
-          <include name="MPI_196_Office_10"/>
-          <include name="runOnce"/>
-          <include name="MPI_186_Office_08"/>
-          <include name="MPI_161_Office_01"/>
-          <include name="MPI_181_Office_03"/>
-          <include name="MPI_201_Office_15"/>
+          <include name="MPI_779_OverTImeRequest_12"/>
           <include name="cleanUp"/>
           <include name="Aftermethod"/>
-          <include name="MPI_184_Office_06"/>
-          <include name="MPI_197_Office_11"/>
-          <include name="MPI_187_Office_09"/>
+          <include name="MPI_778_OverTImeRequest_11"/>
+          <include name="MPI_777_OverTImeRequest_10"/>
+          <include name="MPI_776_OverTImeRequest_09"/>
+          <include name="runOnce"/>
+          <include name="MPI_768_OverTImeRequest_01"/>
+          <include name="MPI_784_OverTImeRequest_17"/>
+          <include name="launchDriver"/>
         </methods>
-      </class> <!-- com.MeghPI.Attendance.tests.MeghMasterOfficeTest -->
+      </class> <!-- com.MeghPI.Attendance.tests.MeghPIOverTimeRequestTest -->
     </classes>
   </test> <!-- Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,63 @@
+[15:38:53] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-15-38-53-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[15:38:57] INFO  - PASS - Application Loaded Successfully.
+[15:39:00] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[15:39:02] INFO  - PASS - Login With Password Button Is Clicked.
+[15:39:04] INFO  - PASS - Sign in Text Is Displayed.
+[15:39:06] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[15:39:08] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[15:39:11] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:39:13] INFO  - PASS - Clicked On Login Button.
+[15:39:15] INFO  - PASS - Login Done  And Validated Successfully.
+[15:39:17] INFO  - PASS - Login Done Successfully.
+[15:39:24] INFO  - PASS - Report Button Clicked Successfully.
+[15:39:28] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[15:39:30] INFO  - PASS - TotalLeavesTaken Report Pending Tab Clicked Successfully.
+[15:39:33] INFO  - PASS - Filter Button Clicked Successfully.
+[15:39:40] INFO  - PASS - Year Selected Successfully.2025
+[15:39:46] INFO  - PASS - Month Selected Successfully.November
+[15:39:52] INFO  - PASS - Week Selected Successfully.
+[15:39:55] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:40:00] INFO  - PASS - From Date Selected Successfully.2025-11-04
+[15:40:02] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[15:40:07] INFO  - PASS - To Date Selected Successfully.2025-11-04
+[15:40:10] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:40:12] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:40:14] INFO  - PASS - Filtered Record Displayed Successfully.2025-11-04
+[15:40:14] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1844_EmpTotalLeaveTakenPending_Reports_03-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date.
+[15:40:14] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1
+[15:40:19] INFO  - PASS - Application Loaded Successfully.
+[15:40:21] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[15:40:24] INFO  - PASS - Login With Password Button Is Clicked.
+[15:40:26] INFO  - PASS - Sign in Text Is Displayed.
+[15:40:28] INFO  - PASS - Username Is Entered In Username Text Field.Emp054
+[15:40:30] INFO  - PASS - Password Is Entered In Password Text Field.Emp054
+[15:40:33] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:40:35] INFO  - PASS - Clicked On Login Button.
+[15:40:37] INFO  - PASS - Login Done  And Validated Successfully.
+[15:40:39] INFO  - PASS - Login Done Successfully.
+[15:40:43] INFO  - PASS - Leave Button Clicked Successfully Of Employee Account.
+[15:40:50] INFO  - PASS -  EmpLeaveRequestsTab Clicked Successfully Of Employee Account.
+[15:40:54] INFO  - PASS -  Apply Leave Button Clicked Successfully Of Employee Account.
+[15:40:56] INFO  - PASS -  LeaveTypeDropdown Clicked Successfully Of Employee Account.
+[15:40:58] INFO  - PASS -  SickLeave Selected  Successfully.
+[15:41:01] INFO  - PASS -  FromDateTextField Clicked Successfully .
+[15:41:06] INFO  - PASS -  FromDate Inputted Successfully .2025-11-27
+[15:41:11] INFO  - PASS -  LeaveDurationOne Clicked Successfully Of Employee Account.
+[15:41:13] INFO  - PASS -  FullDay DurationOne Selected  Successfully.
+[15:41:15] INFO  - PASS -  ToDateTextField Clicked Successfully .
+[15:41:20] INFO  - PASS -  ToDate Selected Inputted Successfully .2025-11-27
+[15:41:23] INFO  - PASS -  LeaveDurationTwo Clicked Successfully Of Employee Account.
+[15:41:25] INFO  - PASS -  FullDayDurationTwo Clicked Successfully Of Employee Account.
+[15:41:27] INFO  - PASS -  Reason Inputted  Successfully Of Employee Account.Emp Reports testing
+[15:41:33] INFO  - PASS - Leave Request Apply Button Clicked  Successfully Of Employee Account.
+[15:41:40] INFO  - PASS - Report Button Clicked Successfully.
+[15:41:44] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[15:41:47] INFO  - PASS - TotalLeavesTaken Report Pending Tab Clicked Successfully.
+[15:41:49] INFO  - PASS - Filter Button Clicked Successfully.
+[15:41:56] INFO  - PASS - Year Selected Successfully.2025
+[15:42:02] INFO  - PASS - Month Selected Successfully.November
+[15:42:08] INFO  - PASS - Week selected successfully: 5
+[15:42:10] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:42:12] INFO  - PASS - Filtered Record Displayed Successfully.2025-11-27
+[15:42:12] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1845_EmpTotalLeaveTakenPending_Reports_04-To verify this, Apply leave during the last week of last month and  In the emp account leave taken pending Request Reports module, apply the filter for the last week of last month and ensure that the corresponding pending leave  request record is displayed..
+[15:42:12] INFO  - Total Pass : 2 Total Fail : 0  Total TC : 2

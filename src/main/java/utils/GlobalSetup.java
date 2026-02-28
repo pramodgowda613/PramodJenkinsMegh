@@ -3,8 +3,8 @@ package utils;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -23,6 +23,8 @@ import base.LogResults;
 import base.initBase;
 import org.w3c.dom.*;
 import java.lang.reflect.Method;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import org.testng.annotations.Test;
 
 /**
@@ -34,48 +36,77 @@ import org.testng.annotations.Test;
 public class GlobalSetup {
 	WebDriver driver;
 	// Declare all the ThrSafe Var here.
-	private static final ThreadLocal<String> reportTime = new ThreadLocal<>();
-	private static boolean showStatus=false;
+//	private static final ThreadLocal<String> reportTime = new ThreadLocal<>();
+	private static String reportTime;
+	private static boolean showStatus = false;
+	private static final ThreadLocal<String> execSuiteName = new ThreadLocal<>();
 
 	//
 	@BeforeSuite(alwaysRun = true)
 	@Parameters({ "projName", "ReportName" })
 	void beforeSuite(String projName, @Optional("") String ReportName, ITestContext context) {
-		initBase.readSettingsExcel(projName);
-		if (!ReportName.isEmpty()) {
-			initBase.reportName = ReportName;
-		}
-		setReportTime(new SimpleDateFormat("dd-MM-yy_HH_mm_ss").format(new Date()));
-		if (!"N".equals(initBase.holdNewData)) { // Verify if new or continue with existing master data till threshold
-			Utils.getExecutionID();
-		}
-		Utils.enableDualLogging(); // Analyze all test plans inside suite
-		XmlSuite suite1 = context.getSuite().getXmlSuite();
-		String suiteName = suite1.getName();
-		List<String> fileNames = suite1.getFileName() != null ? List.of(suite1.getFileName()) : List.of();
+		try {
+			initBase.readSettingsExcel(projName);
+//			initBase.jenSendEmail="N";
+			if (!ReportName.isEmpty()) {
+				initBase.reportName = ReportName;
+			}
+			String ts = java.time.ZonedDateTime.now()
+					.format(java.time.format.DateTimeFormatter.ofPattern("dd-MM-yy-HH-mm-ss"));
+			setReportTime(ts);
+			if (!"N".equals(initBase.holdNewData)) { // Verify if new or continue with existing master data till
+														// threshold
+				Utils.getExecutionID();
+			} else {// The below line is to forcefully delete addmaster if holdnewdata=N
+				Files.deleteIfExists(Path.of("data", "addmaster.properties"));
+			} // Reason being in code direct calls are made to check the availability of
+				// required masters
+			XmlSuite suite1 = context.getSuite().getXmlSuite();
+			String suiteName = suite1.getName();
+			
+			List<String> fileNames = suite1.getFileName() != null ? List.of(suite1.getFileName()) : List.of();
+			ISuite suite = context.getSuite();
+			File file = new File(suite1.getFileName());
+			String fileName = file.getName();
+			initBase.allmapPubVar.put("suiteName", fileName.split("\\.")[0]);
+			Utils.enableDualLogging(); // Analyze all test plans inside suite
+			XmlSuite xmlSuite = suite.getXmlSuite();
+			String parallelMode = xmlSuite.getParallel().toString(); // Retrieves the parallel mode
+			int threadCount = xmlSuite.getThreadCount(); // Retrieves the thread-count
+			if (threadCount > 1 && parallelMode.equals("tests")) {
+				initBase.bParallel = true;
+			}
+			String temp = Utils.getConfigValue("config.properties", "showStatus");
+			if (temp.equals("true")) {
+				showStatus = true;
+			}
+			if (showStatus) {
+				System.out.println("🧾 Suite name: " + suiteName);
+				System.out.println("📄 Parsed file: " + fileNames);
+				temp = fileNames.toString().replace("[", "");
+				temp = temp.replace("]", "");
+				analyzeTestNGXml(temp);
+			}
 
-		ISuite suite = context.getSuite();
-		XmlSuite xmlSuite = suite.getXmlSuite();
-		String parallelMode = xmlSuite.getParallel().toString(); // Retrieves the parallel mode
-		int threadCount = xmlSuite.getThreadCount(); // Retrieves the thread-count
-		if (threadCount > 1 && parallelMode.equals("tests")) {
-			initBase.bParallel = true;
+			Utils utils = new Utils(driver);
+			utils.cleanReports();
+			String fullPath = suite1.getFileName();
+			suiteName = fullPath.substring(fullPath.lastIndexOf(File.separator) + 1);
+			execSuiteName.set(suiteName);
+			String jenrerun = System.getenv("jenrerun") == null ? "" : System.getenv("jenrerun");
+			context.setAttribute("rerun", false);
+			if (jenrerun.equalsIgnoreCase("NotRunTC")) {
+				context.getSuite().setAttribute("reportFolder",
+						Utils.getConfigValue("data\\TS_Executed.properties", GlobalSetup.getSuitName()));
+				initBase.jenRerun = "NotRunTC";
+				context.setAttribute("rerun", true);
+			} else {
+				Utils.writeToPropsFile("data\\TS_Executed.properties", suiteName, initBase.reportFld + reportTime +  "-"+ initBase.allmapPubVar.get("suiteName"));
+				context.getSuite().setAttribute("reportFolder", initBase.reportFld + reportTime +  "-"+initBase.allmapPubVar.get("suiteName"));
+			}
+		} catch (Exception e) {
+			System.err.println("❌ Error in Before Suite: " + e.getMessage());
 		}
-		String temp=Utils.getConfigValue("config.properties", "showStatus");
-		if (temp.equals("true")) {
-			showStatus=true;
-		}
-		if (showStatus) {
-			System.out.println("🧾 Suite name: " + suiteName);
-			System.out.println("📄 Parsed file: " + fileNames);
-			temp = fileNames.toString().replace("[", "");
-			temp = temp.replace("]", "");
-			analyzeTestNGXml(temp);
-		}
-
-		Utils utils = new Utils(driver);
-		LoadDriver.lockDevice();
-		utils.cleanReports();
 	}
 
 	@AfterSuite(alwaysRun = true)
@@ -91,27 +122,53 @@ public class GlobalSetup {
 		}
 		logResults.generateSummaryReport();
 		CleanUp();
+		if (initBase.jenRerun.equalsIgnoreCase("Y")) {
+			Utils.writeToPropsFile("data\\TS_Executed.properties", execSuiteName.get(),
+					initBase.reportFld + reportTime +  "-"+initBase.allmapPubVar.get("suiteName"));
+		}
 	}
 
 	/**
-	 * Tapan Aug 25 wrote this to support multiple XMLS in a single suite. 
+	 * Tapan Aug 25 wrote this to support multiple XMLS in a single suite.
 	 */
 	private void CleanUp() {
 		initBase.totalPass = 0;
 		initBase.totalFail = 0;
 		initBase.mapModuleResults.clear();
 		initBase.mapMethodResults.clear();
+		initBase.atotalPass = new AtomicInteger(0);
+		initBase.atotalFail = new AtomicInteger(0);
+		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+			try {
+				if (driver != null) {
+					driver.quit();
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}));
+
 	}
 
 	/**
 	 * Tapan Jul 25, This method will be use for all glb var across tests
 	 */
 	public static void setReportTime(String value) {
-		reportTime.set(value);
+		if (reportTime == null) { // guard against accidental overwrite
+			reportTime = value;
+		}
 	}
 
 	public static String getReportTime() {
-		return reportTime.get();
+		return reportTime;
+	}
+
+	public static void setSuitName(String value) {
+		execSuiteName.set(value);
+	}
+
+	public static String getSuitName() {
+		return execSuiteName.get();
 	}
 
 	public static void analyzeTestNGXml(String xmlName) {

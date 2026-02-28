@@ -1,6 +1,0 @@
-Sep 04, 2025 7:17:36 PM base.LogResults createLogs
-INFO: FAIL - ❌ Failed to fetch final status. API Response: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"":["The supplied value is invalid."],"request":["The request field is required."]},"traceId":"00-3271d018b58c43e7c8812aad0de3e082-816a70585b19e21f-00"}
-Sep 04, 2025 7:17:36 PM base.LogResults onlyLog
-INFO: Failed - MeghPINormalAttendanceTest-MPI_652_Normal_Attendance_24-Verify final attendance status after Punch IN/OUT
-Sep 04, 2025 7:17:36 PM base.LogResults onlyLog
-INFO: Total Pass : 0 Total Fail : 1  Total TC : 1

@@ -10,6 +10,8 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.security.SecureRandom;
 import java.sql.Connection;
@@ -32,8 +34,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.NoSuchElementException;
+import java.util.Objects;
 import java.util.Properties;
-
+import java.net.HttpURLConnection;
+import java.net.URL;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -59,6 +63,9 @@ import com.google.common.base.Function;
 import com.mysql.cj.jdbc.CallableStatement;
 
 import base.initBase;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.ScreenOrientation;
 
 /**
  * Tapan Gandhi 12/12/2021
@@ -66,7 +73,6 @@ import base.initBase;
 public class Utils {
 	// MySQL Variables should be here
 	private String dbURL = initBase.mySQLString;
-	private String mySQLQry = "";
 	private Connection connection;
 	private Connection con_obj;
 	private Statement st_obj;
@@ -162,9 +168,7 @@ public class Utils {
 						LocalDateTime fileDateTime = LocalDateTime.ofInstant(fileTime, ZoneId.systemDefault());
 						LocalDateTime cutoffDate = LocalDateTime.now().minus(days, ChronoUnit.DAYS);
 						if (fileDateTime.isBefore(cutoffDate) || days == 0) {
-							if (file.delete()) {
-								System.out.println("Deleted: " + file.getAbsolutePath());
-							} else {
+							if (!file.delete()) {
 								System.out.println("Failed to delete: " + file.getAbsolutePath());
 							}
 						}
@@ -380,7 +384,8 @@ public class Utils {
 				}
 			}
 			// Wait for the process to complete
-			process.waitFor();
+			int exitCode = process.waitFor();
+			System.out.println("Command executed with exit code: " + exitCode);
 		} catch (Exception e) {
 			System.out.println("Error while running ADB command prompt: " + e.getMessage());
 		}
@@ -598,7 +603,6 @@ public class Utils {
 
 	public void writeAllChildNodes(Node childNode, Row dataRow) {
 		try {
-			String s;
 			int childAny = childNode.getChildNodes().getLength();
 			if (childAny > 0) { // That means this node has children so do again a loop;
 				childNode = childNode.getChildNodes().item(0);
@@ -717,40 +721,40 @@ public class Utils {
 
 	public static void showToastMessage(WebDriver driver, String message, String type) {
 		String bgColor;
-		if (driver == null) {
-			return;
-		}
-		// Determine background color based on message type
-		switch (type.toLowerCase()) {
-		case "Passed":
-			bgColor = "#28a745"; // Green
-			break;
-		case "Failed":
-			bgColor = "#dc3545"; // Red
-			break;
-		case "warning":
-			bgColor = "#ffc107"; // Yellow
-			break;
-		case "info":
-		default:
-			bgColor = "#17a2b8"; // Blue
-			break;
-		}
-		// JavaScript to inject a toast message
-		String script = "var toast = document.createElement('div');" + "toast.innerText = `" + message + "`;"
-				+ "toast.style.position = 'fixed';" + "toast.style.top = '50%';" + "toast.style.left = '50%';"
-				+ "toast.style.transform = 'translate(-50%, -50%)';" + "toast.style.backgroundColor = '" + bgColor
-				+ "';" + "toast.style.color = 'white';" + "toast.style.padding = '20px 30px';"
-				+ "toast.style.borderRadius = '8px';" + "toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';"
-				+ "toast.style.zIndex = '9999';" + "toast.style.fontFamily = 'Arial, sans-serif';"
-				+ "toast.style.fontSize = '16px';" + "toast.style.textAlign = 'center';" + "toast.style.opacity = '1';"
-				+ "toast.style.transition = 'opacity 0.5s ease';" + "document.body.appendChild(toast);"
-				+ "setTimeout(function() { toast.style.opacity = '0'; }, 3500);"
-				+ "setTimeout(function() { toast.remove(); }, 4000);";
-		((JavascriptExecutor) driver).executeScript(script);
 		try {
+			String url = driver.getCurrentUrl();
+			// Determine background color based on message type
+			switch (type.toLowerCase()) {
+			case "Passed":
+				bgColor = "#28a745"; // Green
+				break;
+			case "Failed":
+				bgColor = "#dc3545"; // Red
+				break;
+			case "warning":
+				bgColor = "#ffc107"; // Yellow
+				break;
+			case "info":
+			default:
+				bgColor = "#17a2b8"; // Blue
+				break;
+			}
+			// JavaScript to inject a toast message
+			String script = "var toast = document.createElement('div');" + "toast.innerText = `" + message + "`;"
+					+ "toast.style.position = 'fixed';" + "toast.style.top = '50%';" + "toast.style.left = '50%';"
+					+ "toast.style.transform = 'translate(-50%, -50%)';" + "toast.style.backgroundColor = '" + bgColor
+					+ "';" + "toast.style.color = 'white';" + "toast.style.padding = '20px 30px';"
+					+ "toast.style.borderRadius = '8px';" + "toast.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';"
+					+ "toast.style.zIndex = '9999';" + "toast.style.fontFamily = 'Arial, sans-serif';"
+					+ "toast.style.fontSize = '16px';" + "toast.style.textAlign = 'center';"
+					+ "toast.style.opacity = '1';" + "toast.style.transition = 'opacity 0.5s ease';"
+					+ "document.body.appendChild(toast);"
+					+ "setTimeout(function() { toast.style.opacity = '0'; }, 3500);"
+					+ "setTimeout(function() { toast.remove(); }, 4000);";
+			((JavascriptExecutor) driver).executeScript(script);
 			Thread.sleep(1000);
 		} catch (Exception e) {
+			System.out.println("showToastMessage : " + e.getMessage());
 		}
 	}
 
@@ -771,7 +775,8 @@ public class Utils {
 			if (file.exists()) {
 				try (FileInputStream fRead = new FileInputStream(file)) {
 					props.load(fRead);
-				} catch (IOException e) {
+				} catch (Exception e) {
+					System.out.println("Error loading existing props: " + e.getMessage());
 					return "Error loading existing props: " + e.getMessage();
 				}
 			} else {
@@ -782,10 +787,10 @@ public class Utils {
 			try (FileOutputStream fWrite = new FileOutputStream(file)) { // Write the properties to file (create or
 																			// overwrite)
 				props.store(fWrite, null);
-			} catch (IOException e) {
+			} catch (Exception e) {
+				System.out.println("Error saving props: " + e.getMessage());
 				return "Error saving props: " + e.getMessage();
 			}
-
 			return "true"; // success
 		}
 
@@ -793,11 +798,11 @@ public class Utils {
 			if (!file.exists()) {
 				return "";
 			}
-
 			try (FileInputStream fRead = new FileInputStream(file)) {
 				props.load(fRead);
 				return props.getProperty(keyWord, ""); // return value or empty string
-			} catch (IOException e) {
+			} catch (Exception e) {
+				System.out.println("Error reading props: " + e.getMessage());
 				return "Error reading props: " + e.getMessage();
 			}
 		}
@@ -812,27 +817,46 @@ public class Utils {
 	 */
 	public static String getExecutionID() {
 		String uniq = Utils.propsReadWrite("data/addmaster.properties", "get", "executionID", "");
-		if (uniq.length() == 12) {
-			String date1 = initBase.executionRunTime.substring(0, 6);
-			String date2 = uniq.substring(0, 6);
-			long days = 0;
-			try {
-				days = getDateDifference(date1, date2);
-			} catch (Exception e) {
-			}
-			int nthresld = Integer.parseInt(initBase.holdNewData);
-			if (days <= nthresld) {
-				initBase.executionRunTime = uniq;
-				initBase.stopNewData = true;
-				System.out.println("Continuing with Existing Master Data due to threshold value:" + date1 + "-" + date2
-						+ "-ThreSld->" + nthresld);
+		try {
+			if (uniq.length() == 12) {
+				String date1 = initBase.executionRunTime.substring(0, 6);
+				String date2 = uniq.substring(0, 6);
+				long days = 0;
+				try {
+					days = getDateDifference(date1, date2);
+				} catch (Exception e) {
+				}
+				int nthresld = Integer.parseInt(initBase.holdNewData);
+				if (days <= nthresld) {
+					initBase.executionRunTime = uniq;
+					initBase.stopNewData = true;
+					System.out.println("Continuing with Existing Master Data due to threshold value: " + date1 + " - "
+							+ date2 + " - Threshold : " + nthresld + ", with Exec. ID: " + initBase.executionRunTime);
+				} else {
+					try {
+						boolean deleted = Files.deleteIfExists(Path.of("data", "addmaster.properties"));
+						if (deleted) {
+							System.out.println("Deleted successfully");
+						} else {
+							System.out.println("File not found");
+						}
+					} catch (IOException e) {
+						System.err.println("Deletion failed: " + e.getMessage());
+					}
+
+					uniq = new SimpleDateFormat("ddMMyyHHmmss").format(new Date());
+					initBase.executionRunTime = uniq;
+					Utils.propsReadWrite("data/addmaster.properties", "set", "executionID", uniq);
+					System.out.println("Created NEW EXEC ID IN data/addmaster.properties as Exceeds Threshold value: "
+							+ date1 + " - " + date2 + " - ThreSld: " + nthresld + ", new Exec. ID: "
+							+ initBase.executionRunTime);
+				}
 			} else {
-				new File("data/addmaster.properties").delete();
-				uniq = new SimpleDateFormat("ddMMyyHHmmss").format(new Date());
-				Utils.propsReadWrite("data/addmaster.properties", "set", "executionID", uniq);
-				System.out.println("Created NEW EXEC ID IN data/addmaster.properties as Exceeds Threshold value" + date1
-						+ "-" + date2 + "-ThreSld->" + nthresld);
+				Files.deleteIfExists(Path.of("data", "addmaster.properties"));
+				System.out.println("Deleted data\\addmaster.properties file.");
 			}
+		} catch (Exception e) {
+			System.out.println("Error while getExecutionID :" + e.getMessage());
 		}
 		return uniq;
 	}
@@ -880,12 +904,12 @@ public class Utils {
 		try {
 			String repTime = (GlobalSetup.getReportTime());
 			// Create data directory if it doesn't exist
-			File logDir = new File(initBase.reportFld + repTime);
+			File logDir = new File(initBase.reportFld + repTime + "-" + initBase.allmapPubVar.get("suiteName"));
 			if (!logDir.exists()) {
 				logDir.mkdirs();
 			}
 			// Define log file
-			File logFile = new File(logDir, "sysout" + repTime + ".log");
+			File logFile = new File(logDir, "sysout" + repTime + initBase.allmapPubVar.get("suiteName") + ".log");
 			FileOutputStream fos = new FileOutputStream(logFile, true); // append mode
 
 			// Create custom OutputStream that writes to both console and file
@@ -919,37 +943,200 @@ public class Utils {
 			System.out.println("Issue while creating sysout to dual mode.");
 		}
 	}
-	
- 
 
+	/**
+	 * this method reads a value from a properties file. Author: Tapan Gandhi
+	 * 
+	 * @param fileName
+	 * @param key
+	 * @return
+	 */
+	public static String getConfigValue(String fileName, String key) {
+		File configFile = new File(fileName);
+		String value = "";
+		if (!configFile.exists()) {
+			return "";
+		}
+		try (FileInputStream fis = new FileInputStream(configFile)) {
+			Properties props = new Properties();
+			props.load(fis);
+			value = props.getProperty(key);
+			if (value == null) {
+				return "";
+			}
+		} catch (Exception e) {
+			return "";
+		}
+		return value;
+	}
 
-	  
-	    /** this method reads a value from a properties file.
-	     * Author: Tapan Gandhi
-	     * @param fileName
-	     * @param key
-	     * @return
-	     */
-	    public static String getConfigValue(String fileName, String key) {
-	        File configFile = new File(fileName);
-	        String value ="";
-	        if (!configFile.exists()) {
-	            return "";
-	        }
-	        try (FileInputStream fis = new FileInputStream(configFile)) {
-	            Properties props = new Properties();
-	            props.load(fis);
-	            value = props.getProperty(key);
-	            if (value == null) {
-					return "";
+	/**
+	 * This method writes or updates a key-value pair in a properties file. If the
+	 * file doesn't exist, it will be created. If the key already exists, its value
+	 * will be updated.
+	 */
+	public static void writeToPropsFile(String filePath, String key, String value) {
+		Properties props = new Properties();
+		File file = new File(filePath);
+
+		try { // If file exists, load existing properties
+			if (file.exists()) {
+				try (FileInputStream fis = new FileInputStream(file)) {
+					props.load(fis);
 				}
-	        } catch (Exception e) {
-	            return "";
-	        }
-	        return value;
-	    }
+			} else { // Ensure parent directory exists
+				file.getParentFile().mkdirs();
+				file.createNewFile();
+			} // Set / update property
+			props.setProperty(key, value);
+			// Store back
+			try (FileOutputStream fos = new FileOutputStream(file)) {
+				props.store(fos, new Date().toString());
+			}
+		} catch (Exception e) {
+			System.out.println("writeToPropsFile Error: " + e.getMessage());
+		}
+	}
 
-	
-	//
-}
-// END of Utils class
+	/**
+	 * Builds a full path by combining two or more directory or file parts. Example:
+	 * buildPath("C:\\base", "run123", "allure-report"); Tapan Oct 25
+	 * 
+	 * @param pathParts One or more parts of the path (must include at least one)
+	 * @return Combined Path object
+	 * @throws IllegalArgumentException if no parts are provided
+	 */
+	public static Path getAbsolutePath(String... pathParts) {
+		if (pathParts == null || pathParts.length == 0) {
+			throw new IllegalArgumentException("At least one path part must be provided");
+		}
+		// Ensure no null elements
+		for (String part : pathParts) {
+			Objects.requireNonNull(part, "Path part cannot be null");
+		}
+		return Paths.get(pathParts[0], java.util.Arrays.copyOfRange(pathParts, 1, pathParts.length));
+	}
+
+	/**
+	 * Kill HUB & NODE if stuck
+	 */
+	public static void killHUBNODE(String HubIP) {
+//		powershell.exe -Command "Invoke-Command -ComputerName desktop-1tbu5i -Credential (New-Object System.Management.Automation.PSCredential('.\Administrator', (ConvertTo-SecureString 'Mantra@123@123' -AsPlainText -Force))) -ScriptBlock { cmd.exe /c 'C:\sw\SeleniumGrid\CloseOrphanCmds.bat > C:\sw\temp.log 2>&1' }"
+		List<String> command = new ArrayList<>();
+		command.add("powershell.exe");
+		command.add("-Command");
+		if (HubIP.contains(".82")) {
+			command.add(
+					"Invoke-Command -ComputerName desktop-1tbu5i -Credential (New-Object System.Management.Automation.PSCredential('.\\Administrator', (ConvertTo-SecureString 'Mantra@123' -AsPlainText -Force))) -ScriptBlock { cmd.exe /c 'C:\\sw\\SeleniumGrid\\CloseOrphanCmds.bat > C:\\sw\\temp.log 2>&1' }");
+		} else if (HubIP.contains(".231")) {
+			command.add(
+					"Invoke-Command -ComputerName vm-225 -Credential (New-Object System.Management.Automation.PSCredential('.\\Administrator', (ConvertTo-SecureString 'Mantra@123' -AsPlainText -Force))) -ScriptBlock { cmd.exe /c 'C:\\sw\\SeleniumGrid\\CloseOrphanCmds.bat > C:\\sw\\temp.log 2>&1' }");
+		} else if (HubIP.contains(".243")) {
+			command.add(
+					"Invoke-Command -ComputerName admin -Credential (New-Object System.Management.Automation.PSCredential('.\\Administrator', (ConvertTo-SecureString 'Mantra@123' -AsPlainText -Force))) -ScriptBlock { cmd.exe /c 'C:\\sw\\SeleniumGrid\\CloseOrphanCmds.bat > C:\\sw\\temp.log 2>&1' }");
+		}
+		Utils.runCommandPrompt(command, "");
+		command.clear();
+		command.add("powershell.exe");
+		command.add("-Command");
+		if (HubIP.contains(".82")) {
+			command.add(
+					"Invoke-Command -ComputerName desktop-1tbu5i -Credential (New-Object System.Management.Automation.PSCredential('.\\Administrator', (ConvertTo-SecureString 'Mantra@123' -AsPlainText -Force))) -ScriptBlock { cmd.exe /c 'C:\\sw\\SeleniumGrid\\Hub-NodeStart.bat > C:\\sw\\temp.log 2>&1' }");
+		} else if (HubIP.contains(".231")) {
+			command.add(
+					"Invoke-Command -ComputerName vm-225 -Credential (New-Object System.Management.Automation.PSCredential('.\\Administrator', (ConvertTo-SecureString 'Mantra@123' -AsPlainText -Force))) -ScriptBlock { cmd.exe /c 'C:\\sw\\SeleniumGrid\\Hub-NodeStart.bat > C:\\sw\\temp.log 2>&1' }");
+		} else if (HubIP.contains(".243")) {
+			command.add(
+					"Invoke-Command -ComputerName admin -Credential (New-Object System.Management.Automation.PSCredential('.\\Administrator', (ConvertTo-SecureString 'Mantra@123' -AsPlainText -Force))) -ScriptBlock { cmd.exe /c 'C:\\sw\\SeleniumGrid\\Hub-NodeStart.bat > C:\\sw\\temp.log 2>&1' }");
+		}
+		Utils.runCommandPrompt(command, "");
+	}
+
+	/**
+	 * Check if a Selenium Grid node is ready by querying its /status endpoint.
+	 * 
+	 * @param hubNodeIP The IP address or URL of the Selenium Grid node (e.g.,
+	 */
+	public static boolean isHubNodeReady(String hubNodeIP, int timeoutSeconds) {
+		String statusUrl = hubNodeIP.replace("/wd/hub", "") + "/status";
+		long endTime = System.currentTimeMillis() + (timeoutSeconds * 1000);
+
+		while (System.currentTimeMillis() < endTime) {
+			try {
+				URL url = new URL(statusUrl);
+				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+				conn.setConnectTimeout(3000); // 3 seconds timeout for each attempt
+				conn.setReadTimeout(3000);
+				conn.setRequestMethod("GET");
+
+				int responseCode = conn.getResponseCode();
+				if (responseCode == 200) {
+					BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+					String inputLine;
+					StringBuilder response = new StringBuilder();
+					while ((inputLine = in.readLine()) != null) {
+						response.append(inputLine);
+					}
+					in.close();
+					if (response.toString().contains("Selenium Grid ready")) {
+						return true;
+					}
+					System.out.println("Node not ready yet, response: " + response);
+				}
+			} catch (Exception e) {
+				// Optionally log the retry here
+			}
+			try {
+				Thread.sleep(1000); // Wait 1 second before retrying
+			} catch (InterruptedException e) {
+				// Ignore
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * Hides the keyboard on Android devices if the driver is an instance of
+	 * AndroidDriver.
+	 * 
+	 * @param driver The WebDriver instance to check and hide the keyboard on.
+	 */
+	public void hideKeyboardIfAndroid(WebDriver driver) {
+		if (driver instanceof AndroidDriver) {
+			try {
+				((AndroidDriver) driver).hideKeyboard();
+			} catch (Exception e) {
+			}
+		}
+	}
+
+	/**
+	 * Sets the device orientation to Portrait or Landscape. Works for both Android
+	 * and iOS drivers.
+	 *
+	 * @param driver The active AppiumDriver or WebDriver instance
+	 * @param mode   Either "portrait" or "landscape" (case-insensitive)
+	 */
+	public static void setDeviceOrientation(AppiumDriver driver, String mode) {
+		if (driver == null) {
+			System.out.println("⚠️ Driver is null, cannot change orientation.");
+			return;
+		}
+		try {
+			ScreenOrientation orientation;
+			switch (mode.toLowerCase()) {
+			case "landscape":
+				orientation = ScreenOrientation.LANDSCAPE;
+				break;
+			case "portrait":
+				orientation = ScreenOrientation.PORTRAIT;
+				break;
+			default:
+				System.out.println("⚠️ Invalid orientation mode: " + mode + ". Use 'portrait' or 'landscape'.");
+				return;
+			}
+		} catch (Exception e) {
+			System.out.println("setDeviceOrientation: " + e.getMessage());
+		}
+	}
+}// END of Utils class

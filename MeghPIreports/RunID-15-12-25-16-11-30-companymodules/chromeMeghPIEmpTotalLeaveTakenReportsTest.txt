@@ -1,0 +1,35 @@
+[16:11:30] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-16-11-30-companymodules/chromeMeghPIEmpTotalLeaveTakenReportsTest.txt
+[16:11:34] INFO  - PASS -  Application loaded successfully.
+[16:11:36] INFO  - PASS -  Company code entered successfully.ARAK
+[16:11:39] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[16:11:43] INFO  - PASS -  Sign-in section appeared.
+[16:11:45] INFO  - PASS -  Email Id entered.Emp054
+[16:11:47] INFO  - PASS -  Password entered.Emp054
+[16:11:49] INFO  - PASS -  Captcha entered.12345
+[16:11:52] INFO  - PASS -  Sign-in button clicked.
+[16:11:54] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[16:11:56] INFO  - PASS - Login Done Successfully.
+[16:12:02] INFO  - PASS - Report Button Clicked Successfully.
+[16:12:07] INFO  - PASS - TotalLeavesTaken Report Button Clicked Successfully.
+[16:12:09] INFO  - PASS - TotalLeavesTaken Report Rejected Tab Clicked Successfully.
+[16:12:11] INFO  - PASS - Filter Button Clicked Successfully.
+[16:12:19] INFO  - PASS - Year Selected Successfully.2025
+[16:12:25] INFO  - PASS - Month Selected Successfully.November
+[16:12:27] INFO  - PASS - Filter Save Button Clicked Successfully.
+[16:12:29] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:12:32] INFO  - PASS - LeaveType Checkbox Selected Successfully.
+[16:12:34] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:12:40] INFO  - PASS - Leave Name Inputted Successfully.Sick Leave
+[16:12:42] INFO  - PASS - Emp Applied Leave Validated Successfully.Sick Leave
+[16:12:44] INFO  - PASS - Emp Applied Leave TotalDays Validated Successfully.1
+[16:12:47] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:12:49] INFO  - PASS - LeaveType Checkbox Selected Successfully.
+[16:12:51] INFO  - PASS - Status CheckBox Selected Successfully.
+[16:12:53] INFO  - PASS - Leave Reason CheckBox Selected Successfully.
+[16:12:55] INFO  - PASS - SearchDropDown Clicked Successfully.
+[16:13:02] INFO  - PASS - Leave Status Inputted Successfully.Rejected
+[16:13:04] INFO  - PASS - Emp Applied Leave Status Validated Successfully.Rejected
+[16:13:10] INFO  - PASS - Leave Reason Inputted Successfully.Emp Reports testing
+[16:13:12] INFO  - PASS - Emp Applied Leave Reason Validated Successfully.Emp Reports testing
+[16:13:13] INFO  - Passed - MeghPIEmpTotalLeaveTakenReportsTest-MPI_1846_EmpTotalLeaveTakenRejected_Reports_01-To verify this, Check the functionality of search feature by selecting each search option.
+[16:13:13] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

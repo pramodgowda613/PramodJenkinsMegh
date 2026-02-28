@@ -1,0 +1,41 @@
+[11:52:34] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-11-52-34-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[11:52:39] INFO  - PASS - Application Loaded Successfully.
+[11:52:41] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[11:52:43] INFO  - PASS - Login With Password Button Is Clicked.
+[11:52:45] INFO  - PASS - Sign in Text Is Displayed.
+[11:52:48] INFO  - PASS - Username Is Entered In Username Text Field.AutoE151225091529@mailinator.com
+[11:52:50] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[11:52:52] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[11:52:54] INFO  - PASS - Clicked On Login Button.
+[11:52:56] INFO  - PASS - Login Done  And Validated Successfully.
+[11:52:59] INFO  - PASS - Login Done Successfully.
+[11:53:02] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[11:53:04] INFO  - PASS - OverTime Tab Clicked Successfully.
+[11:53:10] INFO  - PASS - Leave Request Applied Month Selected  Successfully Of Employee Account.2025-11-27
+[11:53:12] INFO  - PASS - Emp Name Inputted Successfully.Empfiftythree
+[11:53:25] INFO  - PASS -  OT Reject Button Clicked Successfully.Empfiftythree 2025-11-27
+[11:53:27] INFO  - PASS - Reject Comments Inputted Successfully.Empfiftythree
+[11:53:33] INFO  - PASS - Reject Confirm Button Clicked Successfully.
+[11:53:40] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[11:53:52] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[11:53:54] INFO  - PASS - Application Loaded Successfully.
+[11:53:56] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[11:53:58] INFO  - PASS - Login With Password Button Is Clicked.
+[11:54:01] INFO  - PASS - Sign in Text Is Displayed.
+[11:54:03] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[11:54:05] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[11:54:07] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[11:54:10] INFO  - PASS - Clicked On Login Button.
+[11:54:12] INFO  - PASS - Login Done  And Validated Successfully.
+[11:54:14] INFO  - PASS - Login Done Successfully.
+[11:54:20] INFO  - PASS - Report Button Clicked Successfully.
+[11:54:22] INFO  - PASS - OverTime Button Clicked Successfully.
+[11:54:25] INFO  - PASS - OverTime Report Rejected Tab button Clicked Successfully.
+[11:54:27] INFO  - PASS - Filter Button Clicked Successfully.
+[11:54:34] INFO  - PASS - Year Selected Successfully.2025
+[11:54:41] INFO  - PASS - Month Selected Successfully.November
+[11:54:46] INFO  - PASS - Week selected successfully: 5
+[11:54:48] INFO  - PASS - Filter Save Button Clicked Successfully.
+[11:54:50] INFO  - PASS - Filtered Data Displayed Successfully.27-11-2025
+[11:54:50] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1817_EmpRejectedOT_Reports_04-To verify this, perform an OT request during the last week of the previous month. Log in as an admin and reject the OT request. Then, log in as the employee and navigate to Reports → OT Rejected Request Reports. Apply the filter for the last week of the previous month and verify that the corresponding rejected OT request record is displayed.
+[11:54:50] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

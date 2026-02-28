@@ -1,0 +1,31 @@
+[17:10:00] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-17-10-00-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[17:10:04] INFO  - PASS -  Application loaded successfully.
+[17:10:06] INFO  - PASS -  Company code entered successfully.ACZO
+[17:10:09] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[17:10:13] INFO  - PASS -  Sign-in section appeared.
+[17:10:15] INFO  - PASS -  Email Id entered.Emp051
+[17:10:17] INFO  - PASS -  Password entered.Emp051
+[17:10:19] INFO  - PASS -  Captcha entered.12345
+[17:10:22] INFO  - PASS -  Sign-in button clicked.
+[17:10:24] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[17:10:26] INFO  - PASS - Login Done Successfully As a Employee.
+[17:10:32] INFO  - PASS - Report Button Clicked Successfully.
+[17:10:39] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[17:10:41] INFO  - PASS - LateInTab Clicked Successfully.
+[17:10:43] INFO  - PASS - Filter Button Clicked Successfully.
+[17:10:50] INFO  - PASS - Year Selected Successfully.2025
+[17:10:57] INFO  - PASS - Month Selected Successfully.November
+[17:11:03] INFO  - PASS - Week Selected Successfully.
+[17:11:05] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[17:11:10] INFO  - PASS - From Date Selected Successfully.2025-11-03
+[17:11:13] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[17:11:18] INFO  - PASS - To Date Selected Successfully.2025-11-03
+[17:11:21] ERROR - FAIL - Error While Clicking On Filter Save Button.element click intercepted: Element <button id="btnFilterReport" type="button" class="btn btn-submit">...</button> is not clickable at point (1295, 561). Other element would receive the click: <span class="flatpickr-day nextMonthDay" aria-label="December ..., 2025" tabindex="-1">5</span>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e70d55d0a3892fddfc66fb3866cf3505, clickElement {id=f.1879629288E76C47AB4FD793F0EA2A1E.d.983E38B475B95120C1487996B870391E.e.1130}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57740}, goog:processID: 13924, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57740/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e70d55d0a3892fddfc66fb3866cf3505)] -> xpath: //button[@id='btnFilterReport']]
+Session ID: e70d55d0a3892fddfc66fb3866cf3505

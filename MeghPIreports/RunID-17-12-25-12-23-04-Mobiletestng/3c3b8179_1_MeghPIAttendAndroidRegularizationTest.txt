@@ -1,0 +1,28 @@
+[12:23:05] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-17-12-25-12-23-04-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidRegularizationTest.txt
+[12:23:20] INFO  - PASS - Company Code Inputted Successfully.AOJK
+[12:23:23] INFO  - PASS - Login With Password Button Is Clicked.
+[12:23:29] INFO  - PASS - Username Is Entered In Username Text Field.Emp022
+[12:23:35] INFO  - PASS - Password Is Entered In Password Text Field.Emp022
+[12:23:46] INFO  - PASS - Clicked On Login Button.
+[12:23:49] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[12:23:53] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[12:23:58] INFO  - PASS - Clicked On Regulirization Tab On Emp Attendance.
+[12:24:02] INFO  - PASS - Clicked On Quick Action On Emp Attendance.
+[12:24:06] INFO  - PASS - Clicked On Apply Regulirization Button On Quick Action.
+[12:24:14] INFO  - PASS - Clicked On Regulirization From Date.
+[12:24:17] INFO  - PASS - Clicked On 2nd Date.2025-12-02
+[12:24:21] INFO  - PASS - Regulirization From Date Selected Successfully.
+[12:24:30] INFO  - PASS - Clicked On Regulirization From Time TextField.
+[12:24:33] INFO  - PASS - Regulirization From Time Keyboard Enabled Successfully.
+[12:24:39] INFO  - PASS - Regulirization From Time And Min Inputted Successfully.09 00
+[12:24:43] INFO  - PASS - Regulirization From Time Selected Successfully.
+[12:24:51] INFO  - PASS - Clicked On Regulirization To Date.
+[12:24:54] INFO  - PASS - Clicked On To Date.2025-12-02
+[12:24:57] INFO  - PASS - Regulirization To Date Selected Successfully.
+[12:25:06] INFO  - PASS - Clicked On Regulirization To Time TextField.
+[12:25:09] INFO  - PASS - Regulirization To Time Keyboard Enabled Successfully.
+[12:25:15] INFO  - PASS - Regulirization To Time And Min Inputted Successfully.19 00
+[12:25:19] INFO  - PASS - Regulirization To Time Selected Successfully.
+[12:25:28] INFO  - PASS - Regularization Type Clicked Successfully.
+[12:25:31] INFO  - PASS - Regularization Type Selected Successfully.
+[12:25:35] INFO  - PASS - Regularization Reason Inputted Successfully.Mobile emp 2nd request

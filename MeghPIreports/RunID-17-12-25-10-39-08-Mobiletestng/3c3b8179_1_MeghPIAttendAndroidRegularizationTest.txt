@@ -1,0 +1,27 @@
+[10:39:10] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-17-12-25-10-39-08-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidRegularizationTest.txt
+[10:39:23] INFO  - PASS - ✅ Enrollment successful for Employee ID: Emp022
+[10:39:24] INFO  - PASS - UpdateAttendance API executed successfully for Emp022
+[10:39:30] INFO  - PASS - Company Code Inputted Successfully.AOJK
+[10:39:34] INFO  - PASS - Login With Password Button Is Clicked.
+[10:39:40] INFO  - PASS - Username Is Entered In Username Text Field.Emp022
+[10:39:47] INFO  - PASS - Password Is Entered In Password Text Field.Emp022
+[10:39:56] INFO  - PASS - Clicked On Login Button.
+[10:39:59] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[10:40:33] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[10:41:09] ERROR - FAIL - Error While Clicking On Regulirization Tab On Emp Attendance.An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3a441e4f-e526-4888-b8e1-86bf3ca34df0, findElement {value=//android.view.View[contains(@content-desc,'Regularization') and contains(@content-desc,'Tab 2 of 4')], using=xpath}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 3a441e4f-e526-4888-b8e1-86bf3ca34df0
+[10:41:13] INFO  - PASS - Clicked On Quick Action On Emp Attendance.
+[10:41:36] ERROR - FAIL - Error While Clicking On Apply Regulirization Button On Quick Action.An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3a441e4f-e526-4888-b8e1-86bf3ca34df0, findElement {value=//android.widget.Button[@content-desc="Apply Regularization"], using=xpath}]
+Capabilities {appium:adbExecTimeout: 10000, appium:appActivity: com.mantra.praveshsaas.Main..., appium:appPackage: com.mantra.praveshsaas, appium:appWaitActivity: *, appium:appWaitForLaunch: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 10000, appActivity: com.mantra.praveshsaas.Main..., appPackage: com.mantra.praveshsaas, appWaitActivity: *, appWaitForLaunch: true, automationName: UiAutomator2, deviceName: R9ZY4076QZX, dontStopAppOnReset: false, ensureWebviewsHavePages: true, fullReset: false, newCommandTimeout: 600, noReset: true, platformName: ANDROID, platformVersion: 15, udid: R9ZY4076QZX}, appium:deviceApiLevel: 35, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M066B, appium:deviceName: R9ZY4076QZX, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: R9ZY4076QZX, appium:dontStopAppOnReset: false, appium:ensureWebviewsHavePages: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 600, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 15, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:udid: R9ZY4076QZX, appium:viewportRect: {height: 1529, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 3a441e4f-e526-4888-b8e1-86bf3ca34df0

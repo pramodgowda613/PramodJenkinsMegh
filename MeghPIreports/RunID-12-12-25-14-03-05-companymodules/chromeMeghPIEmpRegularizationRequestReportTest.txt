@@ -1,0 +1,53 @@
+[14:03:05] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-14-03-05-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[14:03:10] INFO  - PASS - Application Loaded Successfully.
+[14:03:12] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[14:03:14] INFO  - PASS - Login With Password Button Is Clicked.
+[14:03:16] INFO  - PASS - Sign in Text Is Displayed.
+[14:03:19] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[14:03:21] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[14:03:23] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[14:03:25] INFO  - PASS - Clicked On Login Button.
+[14:03:28] INFO  - PASS - Login Done  And Validated Successfully.
+[14:03:30] INFO  - PASS - Login Done Successfully.
+[14:03:33] INFO  - PASS -  Attendance Module Clicked Successfully.
+[14:03:37] INFO  - PASS - Regularization Rquest Tab Displayed Successfully.
+[14:03:39] INFO  - PASS - Regularization Month Data Displayed Successfully.December
+[14:03:41] INFO  - PASS - Regularization Emp Name Inputted Successfully.Empfiftytwo
+[14:03:56] INFO  - PASS - Admin Approved To Regulirization Request Successfully.
+[14:03:58] INFO  - PASS -  Approved Button Clicked Successfully.
+[14:04:04] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[14:04:16] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[14:04:19] INFO  - PASS - Application Loaded Successfully.
+[14:04:21] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[14:04:23] INFO  - PASS - Login With Password Button Is Clicked.
+[14:04:25] INFO  - PASS - Sign in Text Is Displayed.
+[14:04:28] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[14:04:30] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[14:04:32] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[14:04:34] INFO  - PASS - Clicked On Login Button.
+[14:04:36] INFO  - PASS - Login Done  And Validated Successfully.
+[14:04:38] INFO  - PASS - Login Done Successfully.
+[14:04:45] INFO  - PASS - Report Button Clicked Successfully.
+[14:04:49] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[14:04:51] INFO  - PASS - Approved Report Tab Clicked Successfully.
+[14:04:53] INFO  - PASS - Filter Button Clicked Successfully.
+[14:05:01] INFO  - PASS - Year Selected Successfully.2025
+[14:05:07] INFO  - PASS - Month Selected Successfully.December
+[14:05:09] INFO  - PASS - Filter Save Button Clicked Successfully.
+[14:05:12] INFO  - PASS - SearchDropDown Clicked Successfully.
+[14:05:14] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[14:05:16] INFO  - PASS - Date Search Option Checkbox Selected Successfully.
+[14:05:18] INFO  - PASS - SearchDropDown Clicked Successfully.
+[14:05:20] INFO  - PASS - EmpID Inputted Successfully.Emp052
+[14:05:23] INFO  - PASS - Emp ID Displayed Successfully.Emp052
+[14:05:25] INFO  - PASS - Regularization Date Inputted Successfully.11-12-2025
+[14:05:27] INFO  - PASS - Regularization Date Record Displayed Successfully.2025-12-11
+[14:05:29] INFO  - PASS - SearchDropDown Clicked Successfully.
+[14:05:31] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[14:05:34] INFO  - PASS - Date Search Option Checkbox Selected Successfully.
+[14:05:36] INFO  - PASS - Status Search Option Checkbox Selected Successfully.
+[14:05:38] INFO  - PASS - SearchDropDown Clicked Successfully.
+[14:05:40] INFO  - PASS - EmpID Inputted Successfully.Approved
+[14:05:42] INFO  - PASS - Inputted Status Displayed Successfully.Approved
+[14:05:43] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1790_Emp_ApprovedRegularization_Reports_01-To verify this, check the functionality of search feature using each search option
+[14:05:43] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

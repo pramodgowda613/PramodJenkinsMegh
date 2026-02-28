@@ -1,0 +1,27 @@
+[15:11:24] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-15-11-24-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[15:11:29] INFO  - PASS - Application Loaded Successfully.
+[15:11:31] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[15:11:33] INFO  - PASS - Login With Password Button Is Clicked.
+[15:11:36] INFO  - PASS - Sign in Text Is Displayed.
+[15:11:38] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[15:11:40] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[15:11:42] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:11:44] INFO  - PASS - Clicked On Login Button.
+[15:11:47] INFO  - PASS - Login Done  And Validated Successfully.
+[15:11:49] INFO  - PASS - Login Done Successfully.
+[15:11:55] INFO  - PASS - Report Button Clicked Successfully.
+[15:11:59] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[15:12:01] INFO  - PASS - Rejected Report Tab Clicked Successfully.
+[15:12:04] INFO  - PASS - Filter Button Clicked Successfully.
+[15:12:11] INFO  - PASS - Year Selected Successfully.2025
+[15:12:17] INFO  - PASS - Month Selected Successfully.December
+[15:12:24] INFO  - PASS - Week Selected Successfully.
+[15:12:26] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:12:31] INFO  - PASS - From Date Selected Successfully.2025-12-10
+[15:12:33] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[15:12:38] INFO  - PASS - To Date Selected Successfully.2025-12-10
+[15:12:41] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[15:12:43] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:12:45] INFO  - PASS - Filtered Data Displayed Successfully.10-12-2025
+[15:12:45] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1796_Emp_RejectedRegularization_Reports_03-To verify this, reject the employee’s regularization request. Then, in the emp Rejected Regularization Request Reports module, apply the filter by selecting the 1st week and setting the From Date and To Date. Ensure that the rejected regularization request record is displayed.
+[15:12:45] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

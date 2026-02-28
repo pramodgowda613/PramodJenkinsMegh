@@ -1,0 +1,29 @@
+[12:33:44] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-12-33-44-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[12:33:48] INFO  - PASS -  Application loaded successfully.
+[12:33:50] INFO  - PASS -  Company code entered successfully.ACZO
+[12:33:53] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[12:33:57] INFO  - PASS -  Sign-in section appeared.
+[12:33:59] INFO  - PASS -  Email Id entered.Emp050
+[12:34:01] INFO  - PASS -  Password entered.Emp050
+[12:34:03] INFO  - PASS -  Captcha entered.12345
+[12:34:06] INFO  - PASS -  Sign-in button clicked.
+[12:34:08] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[12:34:10] INFO  - PASS - Login Done Successfully As a Employee.
+[12:34:16] INFO  - PASS - Report Button Clicked Successfully.
+[12:34:20] INFO  - PASS - AttendanceReport Displayed Successfully .
+[12:34:23] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[12:34:25] INFO  - PASS - Filter Button Clicked Successfully.
+[12:34:32] INFO  - PASS - Year Selected Successfully.2025
+[12:34:38] INFO  - PASS - Month Selected Successfully.December
+[12:34:41] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[12:34:46] INFO  - PASS - From Date Selected Successfully.2025-12-11
+[12:34:48] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[12:34:53] INFO  - PASS - To Date Selected Successfully.2025-12-11
+[12:34:55] INFO  - PASS - From Time TextField Clicked Successfully.
+[12:34:58] INFO  - PASS - Filter Save Button Clicked Successfully.
+[12:35:00] INFO  - PASS - Edit Column Button Clicked Successfully.
+[12:35:05] INFO  - PASS - InPunchFrom Checkbox Selected Successfully.
+[12:35:07] INFO  - PASS - Save Changes Button Clicked Successfully.
+[12:35:09] ERROR - FAIL - Error While Displaying  In Punch From Column Data.null
+[12:35:09] INFO  - Failed - MeghPIEmpAttendanceReportsTest-MPI_1746_MissingPunch_Reports_06-To verify this, do punch in from web and ensure "in punch from" displaying as "web" 
+[12:35:09] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

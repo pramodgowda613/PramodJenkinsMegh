@@ -1,0 +1,32 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-11 11:21:26
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Dec 11, 2025 11:21:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-11-12-25-11-21-26-companymodules
+Expected Month: November 2025
+UI Month: December 2025
+UI Month: November 2025
+🔄 Attempt: 1/5
+Expected Status: P
+Actual Status:   P
+✅ Status matched successfully
+🔄 Attempt: 1/5
+Expected Present: 1 | Actual: 1
+Expected Absent : 19 | Actual: 19
+Expected Leave  : 0 | Actual: 0
+Expected OTHr   : 00:00 | Actual: 00:00
+✅ Header values matched successfully.
+---------------------------------------------------------------
+MeghPIAttendanceEmployeeTestMPI_1546_Attendance_Employee_01
+---------------------------------------------------------------
+Test case took: 45.5961 seconds
+Total TC Time: 00:00:45
+Launching Driver... 2025-12-11 11:22:14
+Dec 11, 2025 11:22:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-11-12-25-11-21-26-companymodules

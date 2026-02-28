@@ -1,13 +1,11 @@
 package com.MeghPI.Attendance.pages;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,7 +17,7 @@ import utils.Utils;
 public class MeghMasterLeaveTypePage {
 
 	 WebDriver driver;
-		private static String exceptionDesc;
+		private String exceptionDesc;
 		Utils utils = new Utils(driver);
 		public String firstrowleavename = "";
 		public String firstrowleaveCode = "";
@@ -127,6 +125,9 @@ public class MeghMasterLeaveTypePage {
 		
 		@FindBy(xpath = "//div[text()='Code']")
 		private WebElement LeaveTypePageLoaded; //7th TestCase
+		
+		@FindBy(xpath = "//input[@id='rdUnPaid']")
+		private WebElement UnpaidRadioButton; //7th TestCase
 		
 		
 		public boolean  LeaveTypeButton()
@@ -248,7 +249,7 @@ public class MeghMasterLeaveTypePage {
 		public boolean  ApplyLeaveButton()
 		{
 			try {
-				utils.waitForEle(ApplyLeaveButton, "visible", "", 10);
+				utils.waitForEle(ApplyLeaveButton, "visible", "", 20);
 				ApplyLeaveButton.isDisplayed();
 				ApplyLeaveButton.click();
 				
@@ -276,7 +277,7 @@ public class MeghMasterLeaveTypePage {
 		public boolean  LeaveTypeDropDown()
 		{
 			try {
-				utils.waitForEle(LeaveTypeDropDown, "visible", "", 10);
+				utils.waitForEle(LeaveTypeDropDown, "visible", "", 20);
 				LeaveTypeDropDown.isDisplayed();
 				LeaveTypeDropDown.click();
 				
@@ -290,8 +291,8 @@ public class MeghMasterLeaveTypePage {
 		public boolean LeaveTypeDropDownSearchField(String leavename) {
 			try {
 
-				utils.waitForEle(LeaveTypeDropDownSearchField,  "visible", "", 10);
-				LeaveTypeDropDownSearchField.isDisplayed();
+				utils.waitForEle(LeaveTypeDropDownSearchField,  "visible", "", 20);
+			
 				LeaveTypeDropDownSearchField.clear();
 				LeaveTypeDropDownSearchField.sendKeys(leavename);
 				
@@ -318,6 +319,7 @@ public class MeghMasterLeaveTypePage {
 		
 		public boolean LeaveTypeDropDownSearchResults(String leavename) {
 		    try {
+		    	Thread.sleep(2000);
 		        utils.waitForEle(LeaveTypeDropDownSearchResult, "visible", "", 10);
 
 		        String fullText = LeaveTypeDropDownSearchResult.getText().trim();
@@ -348,6 +350,7 @@ public class MeghMasterLeaveTypePage {
 		public boolean  LeaveType3Dots()
 		{
 			try {
+				Thread.sleep(3000);
 				utils.waitForEle(LeaveType3Dots, "visible", "", 10);
 				LeaveType3Dots.isDisplayed();
 				LeaveType3Dots.click();
@@ -375,8 +378,8 @@ public class MeghMasterLeaveTypePage {
 		
 		public boolean LeaveTypeSearchField(String leavename) {
 			try {
-
-				utils.waitForEle(LeaveTypeSearchField,  "visible", "", 10);
+				Thread.sleep(2000);
+				utils.waitForEle(LeaveTypeSearchField,  "visible", "", 20);
 				LeaveTypeSearchField.isDisplayed();
 				LeaveTypeSearchField.clear();
 				LeaveTypeSearchField.sendKeys(leavename);
@@ -423,7 +426,7 @@ public class MeghMasterLeaveTypePage {
 		public boolean  LeaveCodeRow()
 		{
 			try {
-				utils.waitForEle(LeaveCodeRow, "visible", "", 10);
+				utils.waitForEle(LeaveCodeRow, "visible", "", 20);
 				LeaveCodeRow.isDisplayed();
 			firstrowleaveCode =	LeaveCodeRow.getText();
 				
@@ -453,6 +456,7 @@ public class MeghMasterLeaveTypePage {
 		public boolean  LeaveTypeToggleSwitch()
 		{
 			try {
+				Thread.sleep(2000);
 				utils.waitForEle(LeaveTypeToggleSwitch, "visible", "", 10);
 				LeaveTypeToggleSwitch.isDisplayed();
 				LeaveTypeToggleSwitch.click();
@@ -470,7 +474,8 @@ public class MeghMasterLeaveTypePage {
 		public boolean  LeaveButtonFromRightSideBar()
 		{
 			try {
-				utils.waitForEle(LeaveButtonFromRightSideBar, "visible", "", 10);
+				
+				utils.waitForEle(LeaveButtonFromRightSideBar, "visible", "", 20);
 				LeaveButtonFromRightSideBar.isDisplayed();
 				LeaveButtonFromRightSideBar.click();
 				
@@ -501,6 +506,7 @@ public class MeghMasterLeaveTypePage {
 		public boolean  SelectLeavePolicyButton()
 		{
 			try {
+				Thread.sleep(2000);
 				utils.waitForEle(SelectLeavePolicyButton, "visible", "", 10);
 				SelectLeavePolicyButton.isDisplayed();
 				SelectLeavePolicyButton.click();
@@ -627,7 +633,19 @@ public class MeghMasterLeaveTypePage {
 		}
 		
 		
-		
+		public boolean  UnpaidRadioButton()
+		{
+			try {
+				utils.waitForEle(UnpaidRadioButton, "visible", "", 20);
+				UnpaidRadioButton.click();
+			
+				
+			} catch (Exception e) {
+				exceptionDesc=	e.getMessage().toString();
+				return false;
+			}
+			return true;
+		}
 		
 		
 		
@@ -640,7 +658,7 @@ public class MeghMasterLeaveTypePage {
 		}
 
 		public  void setExceptionDesc(String exceptionDesc) {  
-			exceptionDesc = exceptionDesc;
-		}	
+			exceptionDesc = this.exceptionDesc;
+		}
 	
 }

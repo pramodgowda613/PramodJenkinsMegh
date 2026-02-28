@@ -1,0 +1,38 @@
+[16:44:54] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-18-12-25-16-44-53-companymodules/chromeMeghPIRegularizationReportTest.txt
+[16:45:05] INFO  - PASS - Application Loaded Successfully.
+[16:45:08] INFO  - PASS - Company Code Entered in Text Box.ATQI
+[16:45:10] INFO  - PASS - Login With Password Button Is Clicked.
+[16:45:12] INFO  - PASS - Sign in Text Is Displayed.
+[16:45:14] INFO  - PASS - Username Is Entered In Username Text Field.AutoE181225092628@mailinator.com
+[16:45:17] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[16:45:19] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[16:45:21] INFO  - PASS - Clicked On Login Button.
+[16:45:42] INFO  - PASS - Login Done  And Validated Successfully.
+[16:45:44] INFO  - PASS - Login Done Successfully.
+[16:45:47] INFO  - PASS -  Attendance Module Clicked Successfully.
+[16:45:52] INFO  - PASS - Regularization Rquest Tab Displayed Successfully.
+[16:45:54] INFO  - PASS - Apply Regularization Button Clicked Successfully.
+[16:45:56] INFO  - PASS - Apply Regularization For Others Button Clicked Successfully.
+[16:45:58] INFO  - PASS - Emp Selection DropDown Clicked Successfully.
+[16:46:02] INFO  - PASS - Emp Name Inputted Successfully.AutoEmpQPLINA
+[16:46:05] INFO  - PASS - Emp Name Selected Successfully.AutoEmpQPLINA
+[16:46:07] INFO  - PASS - Regularization FromDate Clicked Successfully.
+[16:46:12] INFO  - PASS - Regularization FromDate Inputted Successfully.2025-12-12
+[16:46:14] INFO  - PASS - Regularization From Time Clicked Successfully.
+[16:46:19] INFO  - PASS - Regularization From Time Inputted Successfully.09:00
+[16:46:22] INFO  - PASS - Regularization To Date Clicked Successfully.
+[16:46:27] INFO  - PASS - Regularization To Date Inputted Successfully.2025-12-12
+[16:46:33] INFO  - PASS - Regularization To Time Clicked Successfully.AutoEmpQPLINA
+[16:46:38] INFO  - PASS - Regularization End Time Inputted Successfully.18:30
+[16:46:45] INFO  - PASS - Regularization Type Selected Successfully.
+[16:46:47] INFO  - PASS - Regularization Reason Inputted Successfully.Report Testing
+[16:46:49] INFO  - PASS - Regularization Apply Button Clicked Successfully.
+[16:46:56] ERROR - FAIL - Error While Clicking On Report Button.element click intercepted: Element <div class="nav-icon navigation-icon report-nicon"></div> is not clickable at point (37, 476). Other element would receive the click: <div class="modal fade right-align drawer my_model Select_leave_type_modal show" id="phEmpQuickRegularizationOtherEditor" tabindex="-1" data-bs-backdrop="true" data-keyword="true" aria-modal="true" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79cd5978c2a31c900524084ba1ac2d97, clickElement {id=f.195151FFD406D8B1B39A8552FD16CE3A.d.EFE5210DE83D72011BEFEE3D9E5F3F71.e.1334}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51119}, goog:processID: 3284, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51119/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (79cd5978c2a31c900524084ba1ac2d97)] -> xpath: //div[@class='nav-icon navigation-icon report-nicon']]
+Session ID: 79cd5978c2a31c900524084ba1ac2d97

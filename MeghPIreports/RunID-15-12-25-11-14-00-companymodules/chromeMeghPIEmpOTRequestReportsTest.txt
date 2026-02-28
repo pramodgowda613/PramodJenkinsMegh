@@ -1,0 +1,25 @@
+[11:14:00] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-11-14-00-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[11:14:05] INFO  - PASS - Application Loaded Successfully.
+[11:14:07] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[11:14:10] INFO  - PASS - Login With Password Button Is Clicked.
+[11:14:12] INFO  - PASS - Sign in Text Is Displayed.
+[11:14:14] INFO  - PASS - Username Is Entered In Username Text Field.AutoE151225091529@mailinator.com
+[11:14:16] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[11:14:18] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[11:14:21] INFO  - PASS - Clicked On Login Button.
+[11:14:23] INFO  - PASS - Login Done  And Validated Successfully.
+[11:14:25] INFO  - PASS - Login Done Successfully.
+[11:14:28] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[11:14:30] INFO  - PASS - OverTime Tab Clicked Successfully.
+[11:14:37] INFO  - PASS - Leave Request Applied Month Selected  Successfully Of Employee Account.2025-11-04
+[11:14:39] INFO  - PASS - Emp Name Inputted Successfully.Empfiftythree
+[11:14:41] ERROR - FAIL - Error While Clicking On  Emp OT Reject Button.Employee or Date not matched. UI Name: Empfiftythree General Shift | UI Date: Mon, 03-11-2025 | Expected Date: Tue, 04-11-2025
+[11:15:04] ERROR - FAIL - Error While Inputting Reject Comments.element not interactable
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2896229340e08376a096d6ff32cdb4b9, clearElement {id=f.92CDD914FFD945DFDB6A21BAD13A1189.d.0A08A88F96F0CE3BD1148963947C3C3E.e.964}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56258}, goog:processID: 1508, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56258/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2896229340e08376a096d6ff32cdb4b9)] -> xpath: //input[@id='txtRejectReason']]
+Session ID: 2896229340e08376a096d6ff32cdb4b9

@@ -1,0 +1,46 @@
+[17:40:57] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-17-40-57-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[17:41:02] INFO  - PASS - Punch IN executed successfully at 2025-11-28 09:40:00
+[17:41:02] INFO  - PASS - Punch OUT executed successfully at 2025-11-28 18:45:00
+[17:41:04] INFO  - PASS - Application Loaded Successfully.
+[17:41:07] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[17:41:09] INFO  - PASS - Login With Password Button Is Clicked.
+[17:41:11] INFO  - PASS - Sign in Text Is Displayed.
+[17:41:13] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[17:41:15] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[17:41:18] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:41:20] INFO  - PASS - Clicked On Login Button.
+[17:41:23] INFO  - PASS - Login Done  And Validated Successfully.
+[17:41:25] INFO  - PASS - Login Done Successfully.
+[17:41:26] INFO  - PASS - UpdateAttendance API executed successfully for Emp053
+[17:41:49] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[17:41:51] INFO  - PASS - OverTime Tab Clicked Successfully.
+[17:41:57] INFO  - PASS - Leave Request Applied Month Selected  Successfully Of Employee Account.2025-11-28
+[17:42:04] INFO  - PASS - OT Summary Clicked Successfully On Admin.
+[17:42:06] INFO  - PASS - Admin Account OverTimeRequest Pending Summary Clicked Successfully.
+[17:42:08] INFO  - PASS - Emp Name Inputted Successfully.Empfiftythree
+[17:42:25] INFO  - PASS - Emp Approve Button Clicked Successfully.Empfiftythree 2025-11-28
+[17:42:28] INFO  - PASS - Approve Comments Inputted Successfully.Empfiftythree
+[17:42:30] INFO  - PASS - Approve Confirm Button Clicked Successfully.
+[17:42:36] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[17:42:48] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[17:42:51] INFO  - PASS - Application Loaded Successfully.
+[17:42:53] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[17:42:55] INFO  - PASS - Login With Password Button Is Clicked.
+[17:42:57] INFO  - PASS - Sign in Text Is Displayed.
+[17:43:00] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[17:43:02] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[17:43:04] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[17:43:06] INFO  - PASS - Clicked On Login Button.
+[17:43:09] INFO  - PASS - Login Done  And Validated Successfully.
+[17:43:11] INFO  - PASS - Login Done Successfully.
+[17:43:17] INFO  - PASS - Report Button Clicked Successfully.
+[17:43:20] INFO  - PASS - OverTime Button Clicked Successfully.
+[17:43:22] INFO  - PASS - OverTime Report All Tab button Clicked Successfully.
+[17:43:24] INFO  - PASS - Filter Button Clicked Successfully.
+[17:43:31] INFO  - PASS - Year Selected Successfully.2025
+[17:43:38] INFO  - PASS - Month Selected Successfully.November
+[17:43:43] INFO  - PASS - Week selected successfully: 5
+[17:43:45] INFO  - PASS - Filter Save Button Clicked Successfully.
+[17:43:47] INFO  - PASS - Filtered Data Displayed Successfully.28-11-2025
+[17:43:47] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1804_EmpOTAllTab_Reports_04-To verify this, do OT during the last week of last month. In the OT All Request Reports module, apply the filter for the last week of last month and ensure that the corresponding OT request record is displayed.
+[17:43:47] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

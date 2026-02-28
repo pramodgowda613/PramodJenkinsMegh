@@ -1,0 +1,99 @@
+[14:57:49] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-14-57-49-companymodules/chromeMeghPIEmpRegularizationRequestReportTest.txt
+[14:57:54] INFO  - PASS -  Application loaded successfully.
+[14:57:56] INFO  - PASS -  Company code entered successfully.AKWF
+[14:57:58] INFO  - PASS - Clicked On 'Login with Password' successfully.
+[14:58:03] INFO  - PASS -  Sign-in section appeared.
+[14:58:05] INFO  - PASS -  Email Id entered.Emp052
+[14:58:07] INFO  - PASS -  Password entered.Emp052
+[14:58:09] INFO  - PASS -  Captcha entered.12345
+[14:58:11] INFO  - PASS -  Sign-in button clicked.
+[14:58:22] INFO  - PASS -  Login validated successfully And Good Text Is Displayed.
+[14:58:24] INFO  - PASS - Login Done Successfully As a Employee.
+[14:58:27] INFO  - PASS - Employee Attendance Module Clicked Successfully.
+[14:58:31] INFO  - PASS - Employee Can Access His EmpRegulationRequest Successfully.
+[14:58:33] INFO  - PASS - Apply Regularization Button Clicked Successfully.
+[14:58:35] INFO  - PASS - From Date TextField Clicked Successfully.
+[14:58:40] INFO  - PASS - From Date Inputted Successfully.2025-12-10
+[14:58:43] INFO  - PASS - From Time TextField Clicked Successfully.
+[14:58:48] INFO  - PASS - In Time Inputted Successfully.09:00
+[14:58:50] INFO  - PASS - To Date TextField Clicked Successfully.
+[14:58:52] INFO  - PASS - To Date Inputted Successfully.2025-12-10
+[14:58:54] INFO  - PASS - To Date Inputted Successfully.2025-12-10
+[14:58:57] INFO  - PASS - Out Time TextField Clicked Successfully.
+[14:58:59] INFO  - PASS - Out Time Inputted Successfully.18:30
+[14:59:01] INFO  - PASS - Out Time Inputted Successfully.18:30
+[14:59:07] INFO  - PASS - Regularization Type Selected Successfully.
+[14:59:09] INFO  - PASS - Regularization Reason Inputted Successfully.Emp Rejected Regularization Testing
+[14:59:16] INFO  - PASS - Regularization Apply Save Button Clicked Successfully.
+[14:59:20] INFO  - PASS - Employee Can Access His EmpRegulationRequest Successfully.
+[14:59:22] INFO  - PASS - Apply Regularization Button Clicked Successfully.
+[14:59:24] INFO  - PASS - From Date TextField Clicked Successfully.
+[14:59:29] INFO  - PASS - From Date Inputted Successfully.2025-12-02
+[14:59:32] INFO  - PASS - From Time TextField Clicked Successfully.
+[14:59:37] INFO  - PASS - In Time Inputted Successfully.09:00
+[14:59:39] INFO  - PASS - To Date TextField Clicked Successfully.
+[14:59:41] INFO  - PASS - To Date Inputted Successfully.2025-12-02
+[14:59:43] INFO  - PASS - To Date Inputted Successfully.2025-12-10
+[14:59:46] INFO  - PASS - Out Time TextField Clicked Successfully.
+[14:59:48] INFO  - PASS - Out Time Inputted Successfully.18:30
+[14:59:50] INFO  - PASS - Out Time Inputted Successfully.18:30
+[14:59:56] INFO  - PASS - Regularization Type Selected Successfully.
+[14:59:58] INFO  - PASS - Regularization Reason Inputted Successfully.Emp Rejected Regularization Testing
+[15:00:05] INFO  - PASS - Regularization Apply Save Button Clicked Successfully.
+[15:00:11] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[15:00:23] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[15:00:26] INFO  - PASS - Application Loaded Successfully.
+[15:00:28] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[15:00:30] INFO  - PASS - Login With Password Button Is Clicked.
+[15:00:32] INFO  - PASS - Sign in Text Is Displayed.
+[15:00:34] INFO  - PASS - Username Is Entered In Username Text Field.AutoE121225092628@mailinator.com
+[15:00:37] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[15:00:39] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:00:41] INFO  - PASS - Clicked On Login Button.
+[15:00:43] INFO  - PASS - Login Done  And Validated Successfully.
+[15:00:45] INFO  - PASS - Login Done Successfully.
+[15:00:48] INFO  - PASS -  Attendance Module Clicked Successfully.
+[15:00:53] INFO  - PASS - Regularization Rquest Tab Displayed Successfully.
+[15:00:59] INFO  - PASS - Week Off Request Applied Month Selected  Successfully Of Employee Account.2025-12-10
+[15:01:05] INFO  - PASS - Regularization Summary Clicked Successfully On Admin.
+[15:01:07] INFO  - PASS - Pending Tab Clicked On Admin Successfully.
+[15:01:09] INFO  - PASS - Regularization Emp Name Inputted Successfully.Empfiftytwo
+[15:01:24] INFO  - PASS - Admin Rejected To Regulirization Request Successfully.Empfiftytwo 10-12-2025
+[15:01:26] INFO  - PASS -  Reject Reason Inputted Successfully.Reject report test
+[15:01:28] INFO  - PASS -  Reject Button Clicked Successfully.
+[15:01:34] INFO  - PASS - Admin Manage Button Clicked Successfully.
+[15:01:47] INFO  - PASS - Admin Logout Button Clicked Successfully.
+[15:01:49] INFO  - PASS - Application Loaded Successfully.
+[15:01:51] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[15:01:53] INFO  - PASS - Login With Password Button Is Clicked.
+[15:01:56] INFO  - PASS - Sign in Text Is Displayed.
+[15:01:58] INFO  - PASS - Username Is Entered In Username Text Field.Emp052
+[15:02:00] INFO  - PASS - Password Is Entered In Password Text Field.Emp052
+[15:02:02] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[15:02:04] INFO  - PASS - Clicked On Login Button.
+[15:02:06] INFO  - PASS - Login Done  And Validated Successfully.
+[15:02:09] INFO  - PASS - Login Done Successfully.
+[15:02:15] INFO  - PASS - Report Button Clicked Successfully.
+[15:02:19] INFO  - PASS - Regularization Report Button Clicked Successfully .
+[15:02:21] INFO  - PASS - Rejected Report Tab Clicked Successfully.
+[15:02:24] INFO  - PASS - Filter Button Clicked Successfully.
+[15:02:31] INFO  - PASS - Year Selected Successfully.2025
+[15:02:37] INFO  - PASS - Month Selected Successfully.December
+[15:02:39] INFO  - PASS - Filter Save Button Clicked Successfully.
+[15:02:42] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:02:44] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[15:02:46] INFO  - PASS - Date Search Option Checkbox Selected Successfully.
+[15:02:48] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:02:50] INFO  - PASS - EmpID Inputted Successfully.Emp052
+[15:02:53] INFO  - PASS - Emp ID Displayed Successfully.Emp052
+[15:02:55] INFO  - PASS - Regularization Date Inputted Successfully.10-12-2025
+[15:02:57] INFO  - PASS - Regularization Date Record Displayed Successfully.2025-12-10
+[15:02:59] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:03:01] INFO  - PASS - Emp Id Search Option Checkbox Selected Successfully.
+[15:03:04] INFO  - PASS - Date Search Option Checkbox Selected Successfully.
+[15:03:06] INFO  - PASS - Status Search Option Checkbox Selected Successfully.
+[15:03:08] INFO  - PASS - SearchDropDown Clicked Successfully.
+[15:03:10] INFO  - PASS - EmpID Inputted Successfully.Rejected
+[15:03:12] INFO  - PASS - Inputted Status Displayed Successfully.Rejected
+[15:03:13] INFO  - Passed - MeghPIEmpRegularizationRequestReportTest-MPI_1794_Emp_RejectedRegularization_Reports_01-To verify this, check the functionality of search feature using each search option.
+[15:03:13] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

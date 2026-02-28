@@ -1,0 +1,19 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-16 11:48:13
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device R9ZY4076QZX
+Command executed with exit code: 0
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+Error while reading excel column: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue()" because the return value of "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" is null
+No values found in Excel Data for column : qc_totalothour
+✅ Shift button clicked successfully.
+Target Month-Year: Nov 2025
+🔍 Searching Shift Date: Nov 03
+↕️ Scrolling... Attempt: 1
+↕️ Scrolling... Attempt: 2
+↕️ Scrolling... Attempt: 3
+↕️ Scrolling... Attempt: 4
+↕️ Scrolling... Attempt: 5
+↕️ Scrolling... Attempt: 6

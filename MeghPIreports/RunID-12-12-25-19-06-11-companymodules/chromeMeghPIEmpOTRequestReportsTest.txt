@@ -1,0 +1,22 @@
+[19:06:11] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-19-06-11-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[19:06:16] INFO  - PASS - Application Loaded Successfully.
+[19:06:18] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[19:06:20] INFO  - PASS - Login With Password Button Is Clicked.
+[19:06:23] INFO  - PASS - Sign in Text Is Displayed.
+[19:06:25] INFO  - PASS - Username Is Entered In Username Text Field.Emp053
+[19:06:27] INFO  - PASS - Password Is Entered In Password Text Field.Emp053
+[19:06:29] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[19:06:31] INFO  - PASS - Clicked On Login Button.
+[19:06:34] INFO  - PASS - Login Done  And Validated Successfully.
+[19:06:36] INFO  - PASS - Login Done Successfully.
+[19:06:42] INFO  - PASS - Report Button Clicked Successfully.
+[19:06:44] INFO  - PASS - OverTime Button Clicked Successfully.
+[19:06:47] INFO  - PASS - OverTime Report Approved Tab button Clicked Successfully.
+[19:06:49] INFO  - PASS - Filter Button Clicked Successfully.
+[19:06:56] INFO  - PASS - Year Selected Successfully.2025
+[19:07:02] INFO  - PASS - Month Selected Successfully.November
+[19:07:08] INFO  - PASS - Week selected successfully: 5
+[19:07:10] INFO  - PASS - Filter Save Button Clicked Successfully.
+[19:07:12] INFO  - PASS - Filtered Data Displayed Successfully.28-11-2025
+[19:07:12] INFO  - Passed - MeghPIEmpOTRequestReportsTest-MPI_1808_EmpOTApproved_Reports_04-To verify this, do OT during the last week of last month and as a admin approve it. login as employee In the OT Approved Request Reports module, apply the filter for the last week of last month and ensure that the corresponding Approved OT request record is displayed.
+[19:07:12] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

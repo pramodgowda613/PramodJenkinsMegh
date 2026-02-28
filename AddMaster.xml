@@ -14,11 +14,11 @@
 			<class name="utils.GlobalSetup" />
 			
 		 	
-	<!-- 		
+		
   	
- 	 <class name="com.MeghPI.Attendance.tests.MeghLoginTest" />   
+ 	 <class name="com.MeghPI.Attendance.tests.MeghEmployeeTest" />   
 
--->
+
 
 	<class name="com.MeghPI.Attendance.tests.MeghMasterEntityTypeTest" />   
 		<class name="com.MeghPI.Attendance.tests.MeghMasterDesignationTest" />

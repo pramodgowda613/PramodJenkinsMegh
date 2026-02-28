@@ -2,18 +2,12 @@ package com.MeghPI.Attendance.tests;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-
-import java.io.File;
-import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import org.openqa.selenium.WebDriver;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -21,7 +15,7 @@ import com.MeghPI.Attendance.pages.MeghLoginPage;
 import com.MeghPI.Attendance.pages.MeghMasterEmployeePage;
 import com.MeghPI.Attendance.pages.MeghMasterFileTagPage;
 import com.MeghPI.Attendance.pages.MeghMasterRolePermissionPage;
-import com.MeghPI.Attendance.pages.MeghShiftPage;
+
 
 import base.LoadDriver;
 import base.LogResults;
@@ -40,21 +34,22 @@ public class MeghMasterFileTagTest {
 	private String cmpcode = "";
 	private String Emailid = "";
 
-	@Parameters({ "device" })
+	@Parameters({ "device", "hubnodeip" })
 	@BeforeMethod(alwaysRun = true)
-	public void launchDriver(int device) { // String param1
+	public void launchDriver(int device, @Optional String hubnodeip) { // String param1
 		initBase.browser = "chrome";
-		driver = loadDriver.getDriver(device);
+		//driver = loadDriver.getDriver(device, hubnodeip);
 
 		logResults.setDriver(driver);
 		logResults.setScenarioName("");
 	}
 
-	@Parameters({ "device" })
+	@Parameters({ "device", "hubnodeip" })
 	@BeforeClass(alwaysRun = true)
-	void runOnce(int device) {
+	void runOnce(int device, @Optional String hubnodeip) {
 		logResults.createReport(device);
 		logResults.setTestMethodErrorCount(0);
+		driver = loadDriver.getDriver(device, hubnodeip);
 		cmpcode = Utils.propsReadWrite("data/addmaster.properties", "get", "cmpcode", "");
 		Emailid = "AutoE" + initBase.executionRunTime + "@mailinator.com";
 		
@@ -62,7 +57,7 @@ public class MeghMasterFileTagTest {
 
 	// MPI_331_FileTags_01
 	@Test(enabled = true, priority = 1, groups = { "Smoke" })
-	public void MPI_331_FileTags_01() throws InterruptedException, IOException {
+	public void MPI_331_FileTags_01()  {
 		String currTC = Thread.currentThread().getStackTrace()[1].getMethodName();
 		logResults.createExtentReport(currTC);
 		logResults.setScenarioName(
@@ -71,7 +66,6 @@ public class MeghMasterFileTagTest {
 		ArrayList<String> data = initBase.loadExcelData("company_filetag", currTC,
 				"password,captcha,tagname,uploadfile");
 
-		MeghShiftPage ShiftPage = new MeghShiftPage(driver);
 		MeghMasterEmployeePage EmployeePage = new MeghMasterEmployeePage(driver);
 		MeghMasterFileTagPage FileTagPage = new MeghMasterFileTagPage(driver);
 
@@ -90,685 +84,654 @@ public class MeghMasterFileTagTest {
 MeghLoginTest meghlogintest = new MeghLoginTest();
 		
 		if (meghlogintest.verifyCompanyLogin(cmpcode, Emailid, password, captcha, logResults, driver)) {
-			logResults.createLogs("Y", "PASS", "Login Done Successfully: ");
+			logResults.createLogs("Y", "PASS", "Login Done Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Login Is Failed: " + MeghLoginPage.getExceptionDesc());
+					"Login Is Failed." + MeghLoginPage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryButton()) {
-			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Directery Button: " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Directery Button." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Directory Page Isn't Loaded Completely: " + EmployeePage.getExceptionDesc());
+					"Directory Page Isn't Loaded Completely." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.CompanyTab()) {
-			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Company Tab : " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Company Tab ." + EmployeePage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagButton()) {
-			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On FileTag Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On FileTag Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully.");
 		} else {
-			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.CreateTagButton()) {
-			logResults.createLogs("Y", "PASS", "CreateTag Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "CreateTag Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On CreateTag Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On CreateTag Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.TagNameTextField(tagname)) {
-			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully: " + tagname);
+			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully." + tagname);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error while Inputting Tag Name : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error while Inputting Tag Name ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.EmployeeFilesRadioButton()) {
-			logResults.createLogs("Y", "PASS", "EmployeeFilesRadioButton  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "EmployeeFilesRadioButton  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Employee Files Radio Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On Employee Files Radio Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.ColorPicker()) {
-			logResults.createLogs("Y", "PASS", "ColorPicker  Selected Successfully: ");
+			logResults.createLogs("Y", "PASS", "ColorPicker  Selected Successfully.");
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error while Selecting ColorPicker : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error while Selecting ColorPicker ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.AddTagSaveButton()) {
-			logResults.createLogs("Y", "PASS", "AddTagSaveButton  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "AddTagSaveButton  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On AddTagSaveButton : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On AddTagSaveButton ." + FileTagPage.getExceptionDesc());
 		}
-		Thread.sleep(7000);
+		
 
 		if (RolePermissionpage.FileButton()) {
 
-			logResults.createLogs("Y", "PASS", "FileButton Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileButton Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On FileButton: " + RolePermissionpage.getExceptionDesc());
+					"Error While Clicking On FileButton." + RolePermissionpage.getExceptionDesc());
 		}
 
 		if (FileTagPage.UploadFileButton()) {
 
-			logResults.createLogs("Y", "PASS", "UploadFile Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "UploadFile Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On UploadFile Button: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On UploadFile Button." + FileTagPage.getExceptionDesc());
 		}
-		Thread.sleep(2000);
+		
 
 		if (FileTagPage.UploadFileFromStorage(uploadfile)) {
 
-			logResults.createLogs("Y", "PASS", "File Selected Successfully: " + uploadfile);
+			logResults.createLogs("Y", "PASS", "File Selected Successfully." + uploadfile);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error While Selecting File : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error While Selecting File ." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(2000);
+		
 
 		if (FileTagPage.FileTagDropdown()) {
 
-			logResults.createLogs("Y", "PASS", "FileTagDropdown Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTagDropdown Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On FileTagDropdown: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On FileTagDropdown." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagSearchDropDown(tagname)) {
 
-			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully: " + tagname);
+			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully." + tagname);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error While Inputting Tag Name: " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error While Inputting Tag Name." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(4000);
+		
 
 		if (FileTagPage.FileTagSearchResult()) {
 			resulttag = FileTagPage.createdtag;
-			logResults.createLogs("Y", "PASS", "Tag Name Displayed Successfully: " + tagname + "=" + resulttag);
+			logResults.createLogs("Y", "PASS", "Tag Name Displayed Successfully." + tagname + "=" + resulttag);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error While Displaying Tag Name: " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error While Displaying Tag Name." + FileTagPage.getExceptionDesc());
 		}
 
 	}
 
 	// MPI_332_FileTags_02
 	@Test(enabled = true, priority = 2, groups = { "Smoke" })
-	public void MPI_332_FileTags_02() throws InterruptedException, IOException {
+	public void MPI_332_FileTags_02()  {
 		String currTC = Thread.currentThread().getStackTrace()[1].getMethodName();
 		logResults.createExtentReport(currTC);
 		logResults.setScenarioName(
 				"To verify this, create a file tag by selecting 'Company Files' as the section type and ensure the added file tag is displayed under the 'Company Files' section type");
 
 		ArrayList<String> data = initBase.loadExcelData("company_filetag", currTC,
-				"password,captcha,tagname");
+				"tagname");
 
-		MeghShiftPage ShiftPage = new MeghShiftPage(driver);
 		MeghMasterEmployeePage EmployeePage = new MeghMasterEmployeePage(driver);
 		MeghMasterFileTagPage FileTagPage = new MeghMasterFileTagPage(driver);
 
-		
-		String password = data.get(0);
-		String captcha = data.get(1);
 	
-		String tagname = data.get(2) + initBase.executionRunTime;
+		String tagname = data.get(0) + initBase.executionRunTime;
 
-	
-		MeghLoginPage MeghLoginPage = new MeghLoginPage(driver);
+ MeghLoginPage meghloginpage = new MeghLoginPage(driver);
 
-MeghLoginTest meghlogintest = new MeghLoginTest();
-		
-		if (meghlogintest.verifyCompanyLogin(cmpcode, Emailid, password, captcha, logResults, driver)) {
-			logResults.createLogs("Y", "PASS", "Login Done Successfully: ");
+
+		if (meghloginpage.MainLandingPage()) {
+			logResults.createLogs("Y", "PASS", "Dashboard Page Displayed Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Login Is Failed: " + MeghLoginPage.getExceptionDesc());
+					"Dashboard Page Not Displayed." + meghloginpage.getExceptionDesc());
 		}
 		
 		if (EmployeePage.DirectoryButton()) {
-			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Directery Button: " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Directery Button." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Directory Page Isn't Loaded Completely: " + EmployeePage.getExceptionDesc());
+					"Directory Page Isn't Loaded Completely." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.CompanyTab()) {
-			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Company Tab : " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Company Tab ." + EmployeePage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagButton()) {
-			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On FileTag Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On FileTag Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully.");
 		} else {
-			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.CreateTagButton()) {
-			logResults.createLogs("Y", "PASS", "CreateTag Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "CreateTag Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On CreateTag Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On CreateTag Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.TagNameTextField(tagname)) {
-			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully: " + tagname);
+			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully." + tagname);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error while Inputting Tag Name : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error while Inputting Tag Name ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.CompanyFileRadioButton()) {
-			logResults.createLogs("Y", "PASS", "CompanyFileRadioButton  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "CompanyFileRadioButton  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Company Files Radio Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On Company Files Radio Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.ColorPicker()) {
-			logResults.createLogs("Y", "PASS", "ColorPicker  Selected Successfully: ");
+			logResults.createLogs("Y", "PASS", "ColorPicker  Selected Successfully.");
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error while Selecting ColorPicker : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error while Selecting ColorPicker ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.AddTagSaveButton()) {
-			logResults.createLogs("Y", "PASS", "AddTagSaveButton  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "AddTagSaveButton  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On AddTagSaveButton : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On AddTagSaveButton ." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(3000);
+		
 
 		if (FileTagPage.CompanyFiless(tagname)) {
-			logResults.createLogs("Y", "PASS", "Created Tag Displayed Successfully: " + tagname);
+			logResults.createLogs("Y", "PASS", "Created Tag Displayed Successfully." + tagname);
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Validating Created Company File Tag : " + FileTagPage.getExceptionDesc());
+					"Error while Validating Created Company File Tag ." + FileTagPage.getExceptionDesc());
 		}
-		Thread.sleep(3000);
+
 
 	}
 
 	// MPI_333_FileTags_03
 	@Test(enabled = true, priority = 3, groups = { "Smoke" })
-	public void MPI_333_FileTags_03() throws InterruptedException, IOException {
+	public void MPI_333_FileTags_03()  {
 		String currTC = Thread.currentThread().getStackTrace()[1].getMethodName();
 		logResults.createExtentReport(currTC);
 		logResults
 				.setScenarioName("To verify this, edit the tag and ensure the tag is updated according to the changes");
 
 		ArrayList<String> data = initBase.loadExcelData("company_filetag", currTC,
-				"password,captcha,tagname");
+				"tagname");
 
-		MeghShiftPage ShiftPage = new MeghShiftPage(driver);
 		MeghMasterEmployeePage EmployeePage = new MeghMasterEmployeePage(driver);
 		MeghMasterFileTagPage FileTagPage = new MeghMasterFileTagPage(driver);
 
-		
-		String password = data.get(0);
-		String captcha = data.get(1);
+		String tagname = data.get(0) + initBase.executionRunTime + Pramod.generateRandomAlpha(3);
 
-		String tagname = data.get(2) + initBase.executionRunTime + Pramod.generateRandomAlpha(3);
 
-		
-		MeghLoginPage MeghLoginPage = new MeghLoginPage(driver);
+		 MeghLoginPage meghloginpage = new MeghLoginPage(driver);
 
-MeghLoginTest meghlogintest = new MeghLoginTest();
-		
-		if (meghlogintest.verifyCompanyLogin(cmpcode, Emailid, password, captcha, logResults, driver)) {
-			logResults.createLogs("Y", "PASS", "Login Done Successfully: ");
+
+		if (meghloginpage.MainLandingPage()) {
+			logResults.createLogs("Y", "PASS", "Dashboard Page Displayed Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Login Is Failed: " + MeghLoginPage.getExceptionDesc());
+					"Dashboard Page Not Displayed." + meghloginpage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryButton()) {
-			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Directery Button: " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Directery Button." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Directory Page Isn't Loaded Completely: " + EmployeePage.getExceptionDesc());
+					"Directory Page Isn't Loaded Completely." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.CompanyTab()) {
-			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Company Tab : " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Company Tab ." + EmployeePage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagButton()) {
-			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On FileTag Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On FileTag Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully.");
 		} else {
-			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagEditIcon4thRecord()) {
-			logResults.createLogs("Y", "PASS", "5th Created Tag Edit Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "5th Created Tag Edit Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On CreateTag Edit Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On CreateTag Edit Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.TagNameTextField(tagname)) {
-			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully: " + tagname);
+			logResults.createLogs("Y", "PASS", "Tag Name Inputted Successfully." + tagname);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error while Inputting Tag Name : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error while Inputting Tag Name ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.CompanyFileRadioButton()) {
-			logResults.createLogs("Y", "PASS", "CompanyFileRadioButton  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "CompanyFileRadioButton  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Company Files Radio Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On Company Files Radio Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.AddTagSaveButton()) {
-			logResults.createLogs("Y", "PASS", "AddTagSaveButton  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "AddTagSaveButton  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On AddTagSaveButton : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On AddTagSaveButton ." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(3000);
+		
 
 		if (FileTagPage.CompanyFiless(tagname)) {
-			logResults.createLogs("Y", "PASS", "Created Tag Displayed Successfully: " + tagname);
+			logResults.createLogs("Y", "PASS", "Created Tag Displayed Successfully." + tagname);
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Validating Created Company File Tag : " + FileTagPage.getExceptionDesc());
+					"Error while Validating Created Company File Tag ." + FileTagPage.getExceptionDesc());
 		}
-		Thread.sleep(3000);
+	
 
 	}
 
 	// MPI_341_FileTags_11
 	@Test(enabled = true, priority = 4, groups = { "Smoke" })
-	public void MPI_341_FileTags_11() throws InterruptedException, IOException {
+	public void MPI_341_FileTags_11()  {
 		String currTC = Thread.currentThread().getStackTrace()[1].getMethodName();
 		logResults.createExtentReport(currTC);
 		logResults.setScenarioName(
 				"To verify this, select 'Company Files' from the filter dropdown and ensure that only file tags with the section type 'Company Files' are filtered and displayed.");
 
 		ArrayList<String> data = initBase.loadExcelData("company_filetag", currTC,
-				"password,captcha,tagtype");
+				"tagtype");
 
-		MeghShiftPage ShiftPage = new MeghShiftPage(driver);
 		MeghMasterEmployeePage EmployeePage = new MeghMasterEmployeePage(driver);
 		MeghMasterFileTagPage FileTagPage = new MeghMasterFileTagPage(driver);
 
-		
-		String password = data.get(0);
-		String captcha = data.get(1);
-		
-		String tagtype = data.get(2);
+		String tagtype = data.get(0);
 
-		
-		MeghLoginPage MeghLoginPage = new MeghLoginPage(driver);
+		 MeghLoginPage meghloginpage = new MeghLoginPage(driver);
 
-MeghLoginTest meghlogintest = new MeghLoginTest();
-		
-		if (meghlogintest.verifyCompanyLogin(cmpcode, Emailid, password, captcha, logResults, driver)) {
-			logResults.createLogs("Y", "PASS", "Login Done Successfully: ");
+
+		if (meghloginpage.MainLandingPage()) {
+			logResults.createLogs("Y", "PASS", "Dashboard Page Displayed Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Login Is Failed: " + MeghLoginPage.getExceptionDesc());
+					"Dashboard Page Not Displayed." + meghloginpage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryButton()) {
-			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Directery Button: " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Directery Button." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Directory Page Isn't Loaded Completely: " + EmployeePage.getExceptionDesc());
+					"Directory Page Isn't Loaded Completely." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.CompanyTab()) {
-			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Company Tab : " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Company Tab ." + EmployeePage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagButton()) {
-			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On FileTag Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On FileTag Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully.");
 		} else {
-			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.SelectSectionTypeDropDown(tagtype)) {
-			logResults.createLogs("Y", "PASS", "Company FileTag Selected Successfully: " + tagtype);
+			logResults.createLogs("Y", "PASS", "Company FileTag Selected Successfully." + tagtype);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error while Selecting FileTag  : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error while Selecting FileTag  ." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(3000);
+		
 
 		if (FileTagPage.OnlyCompanyFiles()) {
-			logResults.createLogs("Y", "PASS", "Only Company FileTag Displayed Successfully: ");
+			logResults.createLogs("Y", "PASS", "Only Company FileTag Displayed Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Displaying Only Company FileTag  : " + FileTagPage.getExceptionDesc());
+					"Error while Displaying Only Company FileTag  ." + FileTagPage.getExceptionDesc());
 		}
 
 	}
 
 	// MPI_342_FileTags_12
 	@Test(enabled = true, priority = 5, groups = { "Smoke" })
-	public void MPI_342_FileTags_12() throws InterruptedException, IOException {
+	public void MPI_342_FileTags_12()  {
 		String currTC = Thread.currentThread().getStackTrace()[1].getMethodName();
 		logResults.createExtentReport(currTC);
 		logResults.setScenarioName(
-				"To verify this, upload two files in the File module — select the 'Company' file tag for one file and the 'Employee' file tag for the other. After uploading, go to the File Tag module and move the file tagged under the Company section type to the Employee section type. Ensure the file  is moved successfully from compay to employee filetag");
+				"To verify this, upload two files in the File module â€” select the 'Company' file tag for one file and the 'Employee' file tag for the other. After uploading, go to the File Tag module and move the file tagged under the Company section type to the Employee section type. Ensure the file Â is moved successfully from compay to employee filetag");
 
 		ArrayList<String> data = initBase.loadExcelData("company_filetag", currTC,
-				"password,captcha,uploadfile,fromtagname,totagname,date");
+				"uploadfile,fromtagname,totagname,date");
 
 		MeghMasterEmployeePage EmployeePage = new MeghMasterEmployeePage(driver);
 		MeghMasterFileTagPage FileTagPage = new MeghMasterFileTagPage(driver);
 
-	
-		String password = data.get(0);
-		String captcha = data.get(1);
-		
+		String uploadfile = data.get(0);
 
-		
-		String uploadfile = data.get(2);
-
-		String fromtagname = data.get(3);
-		String totagname = data.get(4);
-		String date = data.get(5);
-	
+		String fromtagname = data.get(1);
+		String totagname = data.get(2);
 
 		MeghMasterRolePermissionPage RolePermissionpage = new MeghMasterRolePermissionPage(driver);
-		MeghLoginPage MeghLoginPage = new MeghLoginPage(driver);
+		 MeghLoginPage meghloginpage = new MeghLoginPage(driver);
 
-MeghLoginTest meghlogintest = new MeghLoginTest();
-		
-		if (meghlogintest.verifyCompanyLogin(cmpcode, Emailid, password, captcha, logResults, driver)) {
-			logResults.createLogs("Y", "PASS", "Login Done Successfully: ");
+
+		if (meghloginpage.MainLandingPage()) {
+			logResults.createLogs("Y", "PASS", "Dashboard Page Displayed Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Login Is Failed: " + MeghLoginPage.getExceptionDesc());
+					"Dashboard Page Not Displayed." + meghloginpage.getExceptionDesc());
 		}
 
-		Thread.sleep(3000);
+		
 
 		if (RolePermissionpage.FileButton()) {
 
-			logResults.createLogs("Y", "PASS", "FileButton Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileButton Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On FileButton: " + RolePermissionpage.getExceptionDesc());
+					"Error While Clicking On FileButton." + RolePermissionpage.getExceptionDesc());
 		}
 
 		if (FileTagPage.UploadFileButton()) {
 
-			logResults.createLogs("Y", "PASS", "UploadFile Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "UploadFile Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On UploadFile Button: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On UploadFile Button." + FileTagPage.getExceptionDesc());
 		}
-		Thread.sleep(2000);
+		
 
 		if (FileTagPage.UploadFileFromStorage(uploadfile)) {
 
-			logResults.createLogs("Y", "PASS", "File Selected Successfully: " + uploadfile);
+			logResults.createLogs("Y", "PASS", "File Selected Successfully." + uploadfile);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error While Selecting File : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error While Selecting File ." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(2000);
 
 		if (FileTagPage.FileTagSelectDropDown(fromtagname)) {
 
-			logResults.createLogs("Y", "PASS", "Company FileTag Selected Successfully: " + fromtagname);
+			logResults.createLogs("Y", "PASS", "Company FileTag Selected Successfully." + fromtagname);
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Selecting Company FileTag From Dropdown: " + FileTagPage.getExceptionDesc());
+					"Error While Selecting Company FileTag From Dropdown." + FileTagPage.getExceptionDesc());
 		}
 		
 		if (FileTagPage.Date()) {
 
-			logResults.createLogs("Y", "PASS", "Date TextField Is Clicked Successfully: " );
+			logResults.createLogs("Y", "PASS", "Date TextField Is Clicked Successfully." );
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On Date TextField: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On Date TextField." + FileTagPage.getExceptionDesc());
 		}
 		
 		if (FileTagPage.MonthSelection("December")) {
 
-			logResults.createLogs("Y", "PASS", "Month Selected Successfully: " );
+			logResults.createLogs("Y", "PASS", "Month Selected Successfully." );
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Selecting Month : " + FileTagPage.getExceptionDesc());
+					"Error While Selecting Month ." + FileTagPage.getExceptionDesc());
 		}
 		
-		if (FileTagPage.DaySelection()) {
+		if (FileTagPage.DaySelection("December 1, 2025")) {
 
-			logResults.createLogs("Y", "PASS", "Day Selected Successfully: " );
+			logResults.createLogs("Y", "PASS", "Day Selected Successfully." );
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Selecting Day : " + FileTagPage.getExceptionDesc());
+					"Error While Selecting Day ." + FileTagPage.getExceptionDesc());
 		}
 		
 
 		if (FileTagPage.UploadFilesSaveButton()) {
 
-			logResults.createLogs("Y", "PASS", "Upload FileSave Button Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Upload FileSave Button Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On UploadFilesSaveButton: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On UploadFilesSaveButton." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(2000);
+		
 
 		if (FileTagPage.UploadButton2ndRow()) {
 
-			logResults.createLogs("Y", "PASS", "UploadFile Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "UploadFile Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On UploadFile Button: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On UploadFile Button." + FileTagPage.getExceptionDesc());
 		}
-		Thread.sleep(2000);
+		
 
 		if (FileTagPage.UploadFileFromStorage(uploadfile)) {
 
-			logResults.createLogs("Y", "PASS", "File Selected Successfully: " + uploadfile);
+			logResults.createLogs("Y", "PASS", "File Selected Successfully." + uploadfile);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error While Selecting File : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error While Selecting File ." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(2000);
+		
 
 		if (FileTagPage.FileTagSelectDropDown(totagname)) {
 
-			logResults.createLogs("Y", "PASS", "Company FileTag Selected Successfully: " + totagname);
+			logResults.createLogs("Y", "PASS", "Company FileTag Selected Successfully." + totagname);
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Selecting Company FileTag From Dropdown: " + FileTagPage.getExceptionDesc());
+					"Error While Selecting Company FileTag From Dropdown." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.Date()) {
 
-			logResults.createLogs("Y", "PASS", "Date TextField Is Clicked Successfully: " );
+			logResults.createLogs("Y", "PASS", "Date TextField Is Clicked Successfully." );
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On Date TextField: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On Date TextField." + FileTagPage.getExceptionDesc());
 		}
 		
 		if (FileTagPage.MonthSelection("December")) {
 
-			logResults.createLogs("Y", "PASS", "Month Selected Successfully: " );
+			logResults.createLogs("Y", "PASS", "Month Selected Successfully." );
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Selecting Month : " + FileTagPage.getExceptionDesc());
+					"Error While Selecting Month ." + FileTagPage.getExceptionDesc());
 		}
 		
-		if (FileTagPage.DaySelection()) {
+		if (FileTagPage.DaySelection("December 1, 2025")) {
 
-			logResults.createLogs("Y", "PASS", "Day Selected Successfully: " );
+			logResults.createLogs("Y", "PASS", "Day Selected Successfully." );
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Selecting Day : " + FileTagPage.getExceptionDesc());
+					"Error While Selecting Day ." + FileTagPage.getExceptionDesc());
 		}
 
 		
 
 		if (FileTagPage.UploadFilesSaveButton()) {
 
-			logResults.createLogs("Y", "PASS", "Upload FileSave Button Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Upload FileSave Button Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error While Clicking On UploadFilesSaveButton: " + FileTagPage.getExceptionDesc());
+					"Error While Clicking On UploadFilesSaveButton." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(4000);
+		
 
 		if (EmployeePage.DirectoryButton()) {
-			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Button Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Directery Button: " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Directery Button." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.DirectoryPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "Directory Page Loaded Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Directory Page Isn't Loaded Completely: " + EmployeePage.getExceptionDesc());
+					"Directory Page Isn't Loaded Completely." + EmployeePage.getExceptionDesc());
 		}
 
 		if (EmployeePage.CompanyTab()) {
-			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "Company Tab  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On Company Tab : " + EmployeePage.getExceptionDesc());
+					"Error while Clicking On Company Tab ." + EmployeePage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagButton()) {
-			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Button  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On FileTag Button : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On FileTag Button ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FileTagPageLoaded()) {
-			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully: ");
+			logResults.createLogs("Y", "PASS", "FileTag Page Loaded Successfully.");
 		} else {
-			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Page Is Not Loaded Completely ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.MoveFileDropDown()) {
-			logResults.createLogs("Y", "PASS", "MoveFileDropDown  Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "MoveFileDropDown  Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On MoveFileDropDown : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On MoveFileDropDown ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.FromDropDown(fromtagname)) {
-			logResults.createLogs("Y", "PASS", "From Tag Name Selected Successfully: " + fromtagname);
+			logResults.createLogs("Y", "PASS", "From Tag Name Selected Successfully." + fromtagname);
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Selecting From Tagname : " + FileTagPage.getExceptionDesc());
+					"Error while Selecting From Tagname ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.ToDropDown(totagname)) {
-			logResults.createLogs("Y", "PASS", "To Tag Name Selected Successfully: " + totagname);
+			logResults.createLogs("Y", "PASS", "To Tag Name Selected Successfully." + totagname);
 		} else {
-			logResults.createLogs("Y", "FAIL", "Error while Selecting To Tagname : " + FileTagPage.getExceptionDesc());
+			logResults.createLogs("Y", "FAIL", "Error while Selecting To Tagname ." + FileTagPage.getExceptionDesc());
 		}
 
 		if (FileTagPage.MoveSaveButton()) {
-			logResults.createLogs("Y", "PASS", "MoveSaveButton Clicked Successfully: ");
+			logResults.createLogs("Y", "PASS", "MoveSaveButton Clicked Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Clicking On MoveSaveButton : " + FileTagPage.getExceptionDesc());
+					"Error while Clicking On MoveSaveButton ." + FileTagPage.getExceptionDesc());
 		}
 
-		Thread.sleep(5000);
+		
 
 		if (FileTagPage.MovedValidation()) {
-			logResults.createLogs("Y", "PASS", "Moved Validation Done Successfully: ");
+			logResults.createLogs("Y", "PASS", "Moved Validation Done Successfully.");
 		} else {
 			logResults.createLogs("Y", "FAIL",
-					"Error while Validating Moved Files From One Tag To Another : " + FileTagPage.getExceptionDesc());
+					"Error while Validating Moved Files From One Tag To Another ." + FileTagPage.getExceptionDesc());
 		}
-		Thread.sleep(4000);
+
 
 	}
 
 	@AfterMethod(alwaysRun = true)
 	void Aftermethod() {
 		logResults.onlyLog();
-		if (driver != null) {
-			driver.quit();
-		}
+		
 	}
 
 	@AfterClass(alwaysRun = true)
@@ -779,3 +742,4 @@ MeghLoginTest meghlogintest = new MeghLoginTest();
 	}
 
 }
+

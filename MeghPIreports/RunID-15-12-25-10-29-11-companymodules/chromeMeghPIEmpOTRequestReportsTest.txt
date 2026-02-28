@@ -1,0 +1,28 @@
+[10:29:11] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-15-12-25-10-29-11-companymodules/chromeMeghPIEmpOTRequestReportsTest.txt
+[10:29:15] INFO  - PASS - Punch IN executed successfully at 2025-11-04 09:30:00
+[10:29:15] INFO  - PASS - Punch OUT executed successfully at 2025-11-04 18:35:00
+[10:29:18] INFO  - PASS - Application Loaded Successfully.
+[10:29:20] INFO  - PASS - Company Code Entered in Text Box.ARAK
+[10:29:22] INFO  - PASS - Login With Password Button Is Clicked.
+[10:29:24] INFO  - PASS - Sign in Text Is Displayed.
+[10:29:27] INFO  - PASS - Username Is Entered In Username Text Field.AutoE151225091529@mailinator.com
+[10:29:29] INFO  - PASS - Password Is Entered In Password Text Field.Pramod@1234
+[10:29:31] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[10:29:33] INFO  - PASS - Clicked On Login Button.
+[10:29:36] INFO  - PASS - Login Done  And Validated Successfully.
+[10:29:38] INFO  - PASS - Login Done Successfully.
+[10:29:38] INFO  - PASS - UpdateAttendance API executed successfully for Emp053
+[10:30:04] INFO  - PASS - Report Button Clicked Successfully.
+[10:30:08] INFO  - PASS - OverTime Button Clicked Successfully.
+[10:30:13] INFO  - PASS - OverTime Report Pending Tab button Clicked Successfully.
+[10:30:23] INFO  - PASS - Filter Button Clicked Successfully.
+[10:30:30] INFO  - PASS - Year Selected Successfully.2025
+[10:30:36] INFO  - PASS - Month Selected Successfully.November
+[10:30:38] INFO  - PASS - Filter Save Button Clicked Successfully.
+[10:30:41] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:30:43] INFO  - PASS - Emp ID Search Option CheckBox Clicked Successfully.
+[10:30:45] INFO  - PASS - Emp LastName Search Option CheckBox Clicked Successfully.
+[10:30:47] INFO  - PASS - SearchDropDown Clicked Successfully.
+[10:30:50] INFO  - PASS - Emp ID Inputted Successfully.Emp053
+[10:30:52] INFO  - PASS - Emp ID Displayed Successfully.Emp053
+[10:30:54] INFO  - PASS - Emp Last Name Inputted Successfully.Empfiftythree

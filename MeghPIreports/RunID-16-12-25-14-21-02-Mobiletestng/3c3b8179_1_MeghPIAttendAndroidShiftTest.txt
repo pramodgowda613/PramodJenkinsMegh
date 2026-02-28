@@ -1,0 +1,15 @@
+[14:21:02] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-14-21-02-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[14:21:18] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[14:21:21] INFO  - PASS - Login With Password Button Is Clicked.
+[14:21:28] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[14:21:34] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[14:21:42] INFO  - PASS - Clicked On Login Button.
+[14:21:45] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[14:21:49] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[14:21:55] INFO  - PASS - Clicked On OverTime Tab On Emp Attendance.
+[14:21:58] INFO  - PASS -  Shift Tab Clicked Successfully On Admin Account.
+[14:22:02] INFO  - PASS - Navigated To Shift Requested Data Month.2025-11-03
+[14:22:06] INFO  - PASS - Approved Shift Request Button Clicked Successfully On Admin Account.
+[14:22:09] ERROR - FAIL - Error While Validating On Approved Shift Request On Emp Account .Error while validating shift card: Text 'Emp025' could not be parsed at index 0
+[14:22:09] INFO  - Failed - MeghPIAttendAndroidShiftTest-MPI_1541_Android_Shift_10-To verify that when the admin approves a shift request, the approved status is correctly displayed in the employee’s Shift module.
+[14:22:09] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

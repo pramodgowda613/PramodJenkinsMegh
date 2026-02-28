@@ -1,0 +1,42 @@
+[10:42:55] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-12-12-25-10-42-55-companymodules/chromeMeghPIEmpTimeLogReportsTest.txt
+[10:42:59] INFO  - PASS - Application Loaded Successfully.
+[10:43:02] INFO  - PASS - Company Code Entered in Text Box.AKWF
+[10:43:04] INFO  - PASS - Login With Password Button Is Clicked.
+[10:43:06] INFO  - PASS - Sign in Text Is Displayed.
+[10:43:08] INFO  - PASS - Username Is Entered In Username Text Field.Emp051
+[10:43:10] INFO  - PASS - Password Is Entered In Password Text Field.Emp051
+[10:43:13] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[10:43:15] INFO  - PASS - Clicked On Login Button.
+[10:43:17] INFO  - PASS - Login Done  And Validated Successfully.
+[10:43:19] INFO  - PASS - Login Done Successfully.
+[10:43:26] INFO  - PASS - Report Button Clicked Successfully.
+[10:43:32] INFO  - PASS - TimeLogReport Button Clicked Successfully .
+[10:43:34] INFO  - PASS - EarlyOutTab Clicked Successfully.
+[10:43:36] INFO  - PASS - Filter Button Clicked Successfully.
+[10:43:43] INFO  - PASS - Year Selected Successfully.2025
+[10:43:50] INFO  - PASS - Month Selected Successfully.November
+[10:43:56] INFO  - PASS - Week Selected Successfully.
+[10:43:58] INFO  - PASS - FromDate DropDown Clicked Successfully.
+[10:44:03] INFO  - PASS - From Date Selected Successfully.2025-11-04
+[10:44:06] INFO  - PASS - ToDate DropDown Clicked Successfully.
+[10:44:11] INFO  - PASS - To Date Selected Successfully.2025-11-04
+[10:44:14] ERROR - FAIL - Error While Clicking On Filter Save Button.element click intercepted: Element <button id="btnFilterReport" type="button" class="btn btn-submit">...</button> is not clickable at point (1295, 561). Other element would receive the click: <span class="flatpickr-day nextMonthDay" aria-label="December ..., 2025" tabindex="-1">5</span>
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76492c402d8ef52a5ed109cf9e2da742, clickElement {id=f.B732ED21A756F6A1EB90C8E480AFE7EA.d.995A013E0B750297A8B3F4E28245C126.e.1128}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65311}, goog:processID: 304, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65311/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (76492c402d8ef52a5ed109cf9e2da742)] -> xpath: //button[@id='btnFilterReport']]
+Session ID: 76492c402d8ef52a5ed109cf9e2da742
+[10:44:32] ERROR - FAIL - Error While Displaying  Filtered Data.no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='dtEarlyOutReport']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=143.0.7499.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76492c402d8ef52a5ed109cf9e2da742, findElement {using=xpath, value=//table[@id='dtEarlyOutReport']/tbody/tr[1]/td[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65311}, goog:processID: 304, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65311/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76492c402d8ef52a5ed109cf9e2da742
+[10:44:32] INFO  - Failed - MeghPIEmpTimeLogReportsTest-MPI_1777_Emp_EarlyOut_Reports_04-To verify this, check the functionality of filter feature by selecting 1st week and select from date and to date  
+[10:44:32] INFO  - Total Pass : 0 Total Fail : 1  Total TC : 1

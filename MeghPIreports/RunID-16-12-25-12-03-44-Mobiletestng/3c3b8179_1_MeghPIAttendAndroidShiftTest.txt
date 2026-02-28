@@ -1,0 +1,18 @@
+[12:03:45] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-16-12-25-12-03-44-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidShiftTest.txt
+[12:04:01] INFO  - PASS - Company Code Inputted Successfully.AAAO
+[12:04:04] INFO  - PASS - Login With Password Button Is Clicked.
+[12:04:10] INFO  - PASS - Username Is Entered In Username Text Field.Emp025
+[12:04:17] INFO  - PASS - Password Is Entered In Password Text Field.Emp025
+[12:04:25] INFO  - PASS - Clicked On Login Button.
+[12:04:29] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[12:04:35] INFO  - PASS - Emp Shift Button On DashBoard Clicked Successfully.
+[12:04:39] INFO  - PASS - Navigated To Punch In Data Month.2025-11-03
+[12:04:42] INFO  - PASS - Clicked On First Working Date  Successfully.2025-11-03
+[12:04:46] INFO  - PASS - Shift Policy DropDown Clicked Successfully.
+[12:04:49] INFO  - PASS - Shift Policy  Selected Successfully.
+[12:04:52] INFO  - PASS - Shift  DropDown Clicked Successfully.
+[12:04:55] INFO  - PASS - Morning Shift  Selected Successfully.
+[12:04:59] INFO  - PASS - Regularization Reason Inputted Successfully.Shift change request
+[12:05:03] INFO  - PASS - Regulirization Apply Button Clicked Successfully.
+[12:05:03] INFO  - Passed - MeghPIAttendAndroidShiftTest-MPI_1540_Android_Shift_09-To verify that when a shift request is applied from the Shift module for the present date, the shift request is successfully created.
+[12:05:03] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

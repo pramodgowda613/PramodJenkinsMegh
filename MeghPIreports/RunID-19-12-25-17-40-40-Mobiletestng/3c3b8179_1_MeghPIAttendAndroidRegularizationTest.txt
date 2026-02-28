@@ -1,0 +1,12 @@
+[17:40:40] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-19-12-25-17-40-40-Mobiletestng/3c3b8179_1_MeghPIAttendAndroidRegularizationTest.txt
+[17:40:57] INFO  - PASS - Company Code Inputted Successfully.AEWI
+[17:41:00] INFO  - PASS - Login With Password Button Is Clicked.
+[17:41:06] INFO  - PASS - Username Is Entered In Username Text Field.Emp022
+[17:41:12] INFO  - PASS - Password Is Entered In Password Text Field.Emp022
+[17:41:17] INFO  - PASS - Clicked On Login Button.
+[17:41:20] INFO  - PASS - Emp Attendance DashBoard Loaded Successfully.
+[17:41:25] INFO  - PASS - Clicked On Attendance Button On Emp DashBoard.
+[17:41:31] INFO  - PASS - Clicked On Regulirization Tab On Emp Attendance.
+[17:41:34] INFO  - PASS - Applied Regulirization Request Displayed In Employee Account.2025-12-18 Pending
+[17:41:34] INFO  - Passed - MeghPIAttendAndroidRegularizationTest-MPI_1450_Mobile_Regularization_01-To verify this, create regularization from employee account and ensure request  is created.
+[17:41:34] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -1,0 +1,33 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-15 15:34:07
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Dec 15, 2025 3:34:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-15-12-25-15-34-07-companymodules
+The total TS are : 12
+---------------------------------------------------------------
+MeghPIEmpTotalLeaveTakenReportsTestMPI_1844_EmpTotalLeaveTakenPending_Reports_03
+---------------------------------------------------------------
+Test case took: 82.2796 seconds
+Total TC Time: 00:01:22
+Application not loaded, refreshing... (Attempt 1)
+---------------------------------------------------------------
+MeghPIEmpTotalLeaveTakenReportsTestMPI_1845_EmpTotalLeaveTakenPending_Reports_04
+---------------------------------------------------------------
+Test case took: 0.0314 seconds
+Total TC Time: 00:01:22
+Toast error : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\Pramod.C\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62743}, goog:processID: 10628, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62743/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+
+===============================================
+Suite
+Total tests run: 2, Passes: 1, Failures: 1, Skips: 0
+===============================================
+

@@ -1,0 +1,756 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 12, 2025 10:14:46 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MPI_1768_Emp_Early_In_Reports_01</p>
+            <p class="text-sm">
+              <span>10:14:46</span> / <span>00:02:34:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MPI_1768_Emp_Early_In_Reports_01</h5>
+<span class='badge badge-success'>12.12.2025 10:14:46</span>
+<span class='badge badge-danger'>12.12.2025 10:17:20</span>
+<span class='badge badge-default'>00:02:34:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Punch IN executed successfully at 2025-11-04 09:10:00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Punch OUT executed successfully at 2025-11-04 18:12:00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          UpdateAttendance API executed successfully for Emp051
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Application loaded successfully. <a href='screenshot/12-12-2025-101528-867.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Company code entered successfully.AKWF <a href='screenshot/12-12-2025-101531-099.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Clicked On 'Login with Password' successfully. <a href='screenshot/12-12-2025-101533-316.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Sign-in section appeared. <a href='screenshot/12-12-2025-101537-522.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Email Id entered.Emp051 <a href='screenshot/12-12-2025-101539-705.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Password entered.Emp051 <a href='screenshot/12-12-2025-101541-926.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Captcha entered.12345 <a href='screenshot/12-12-2025-101544-173.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Sign-in button clicked. <a href='screenshot/12-12-2025-101546-365.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Login validated successfully And Good Text Is Displayed. <a href='screenshot/12-12-2025-101548-547.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Login Done Successfully As a Employee.Pramod@1234 <a href='screenshot/12-12-2025-101550-703.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Report Button Clicked Successfully. <a href='screenshot/12-12-2025-101556-999.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          TimeLogReport Button Clicked Successfully . <a href='screenshot/12-12-2025-101603-225.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          EarlyInTab Clicked Successfully. <a href='screenshot/12-12-2025-101605-416.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Filter Button Clicked Successfully. <a href='screenshot/12-12-2025-101607-644.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Year Selected Successfully.2025 <a href='screenshot/12-12-2025-101614-904.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Month Selected Successfully.November <a href='screenshot/12-12-2025-101621-252.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Filter Save Button Clicked Successfully. <a href='screenshot/12-12-2025-101623-451.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          SearchDropDown Clicked Successfully. <a href='screenshot/12-12-2025-101625-660.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Date CheckBOx Successfully. <a href='screenshot/12-12-2025-101627-877.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           InTime CheckBOx Successfully. <a href='screenshot/12-12-2025-101630-100.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          SearchDropDown Clicked Successfully. <a href='screenshot/12-12-2025-101632-306.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Date Inputted Successfully.04-11-2025 <a href='screenshot/12-12-2025-101634-539.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Inputted Date Attendance Data Displayed Successfully.2025-11-04 <a href='screenshot/12-12-2025-101636-690.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          In Time Inputted Successfully.09:10 <a href='screenshot/12-12-2025-101638-888.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Inputted Early In Time Attendance Data Displayed Successfully.09:10 <a href='screenshot/12-12-2025-101641-067.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          SearchDropDown Clicked Successfully. <a href='screenshot/12-12-2025-101643-261.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Date CheckBOx Successfully. <a href='screenshot/12-12-2025-101645-447.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           InTime CheckBOx Successfully. <a href='screenshot/12-12-2025-101647-638.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           TotalHours CheckBOx Successfully. <a href='screenshot/12-12-2025-101649-837.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           In Hours CheckBOx Successfully. <a href='screenshot/12-12-2025-101652-067.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          SearchDropDown Clicked Successfully. <a href='screenshot/12-12-2025-101654-288.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Totalhours Inputted Successfully.09:02 <a href='screenshot/12-12-2025-101656-503.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Inputted Total Hours Attendance Data Displayed Successfully.09:02 <a href='screenshot/12-12-2025-101658-677.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Late In Hours Inputted Successfully. <a href='screenshot/12-12-2025-101700-915.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Inputted Early In Hours Attendance Data Displayed Successfully. <a href='screenshot/12-12-2025-101703-084.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          SearchDropDown Clicked Successfully. <a href='screenshot/12-12-2025-101705-290.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           TotalHours CheckBOx Successfully. <a href='screenshot/12-12-2025-101707-490.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           In Hours CheckBOx Successfully. <a href='screenshot/12-12-2025-101709-696.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+           Shift CheckBOx Successfully. <a href='screenshot/12-12-2025-101711-916.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          SearchDropDown Clicked Successfully. <a href='screenshot/12-12-2025-101714-139.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Shift Inputted Successfully.General Shift <a href='screenshot/12-12-2025-101716-383.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Inputted Shift Attendance Data Displayed Successfully.General Shift <a href='screenshot/12-12-2025-101718-564.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          To verify this, check the functionality of search feature using each search option. :- Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MPI_1772_Emp_Early_In_Reports_05</p>
+            <p class="text-sm">
+              <span>10:17:23</span> / <span>00:01:23:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MPI_1772_Emp_Early_In_Reports_05</h5>
+<span class='badge badge-success'>12.12.2025 10:17:23</span>
+<span class='badge badge-danger'>12.12.2025 10:18:46</span>
+<span class='badge badge-default'>00:01:23:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Punch IN executed successfully at 2025-11-27 09:10:00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Punch OUT executed successfully at 2025-11-27 18:12:00
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          UpdateAttendance API executed successfully for Emp051
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Application Loaded Successfully. <a href='screenshot/12-12-2025-101744-149.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Company Code Entered in Text Box.AKWF <a href='screenshot/12-12-2025-101746-315.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Login With Password Button Is Clicked. <a href='screenshot/12-12-2025-101748-510.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Sign in Text Is Displayed. <a href='screenshot/12-12-2025-101750-721.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Username Is Entered In Username Text Field.Emp051 <a href='screenshot/12-12-2025-101752-902.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Password Is Entered In Password Text Field.Emp051 <a href='screenshot/12-12-2025-101755-096.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Captcha Entered On Captcha Text Field.12345 <a href='screenshot/12-12-2025-101757-294.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Clicked On Login Button. <a href='screenshot/12-12-2025-101759-515.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Login Done  And Validated Successfully. <a href='screenshot/12-12-2025-101801-697.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Login Done Successfully. <a href='screenshot/12-12-2025-101803-843.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Report Button Clicked Successfully. <a href='screenshot/12-12-2025-101810-107.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          TimeLogReport Button Clicked Successfully . <a href='screenshot/12-12-2025-101816-331.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          EarlyInTab Clicked Successfully. <a href='screenshot/12-12-2025-101818-544.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Filter Button Clicked Successfully. <a href='screenshot/12-12-2025-101820-731.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Year Selected Successfully.2025 <a href='screenshot/12-12-2025-101828-004.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Month Selected Successfully.November <a href='screenshot/12-12-2025-101834-293.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Week selected successfully: 5 <a href='screenshot/12-12-2025-101839-535.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Filter Save Button Clicked Successfully. <a href='screenshot/12-12-2025-101841-758.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          Filtered Data Displayed Successfully.2025-11-27 <a href='screenshot/12-12-2025-101843-920.png' target='_blank'>ScreenShot</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18:47</td>
+        <td>
+          To verify this, Do early punch in as an employee during the last week of the previous month and then, in the early in reports, validate the filter functionality by selecting the last week. Ensure that the corresponding early punch in record is displayed. :- Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 12, 2025 10:14:46 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 12, 2025 10:18:46 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>69</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"MPI_1768_Emp_Early_In_Reports_01":154,"MPI_1772_Emp_Early_In_Reports_05":83
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 69,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

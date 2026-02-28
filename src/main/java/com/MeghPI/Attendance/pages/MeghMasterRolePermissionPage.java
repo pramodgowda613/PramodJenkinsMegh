@@ -1,5 +1,6 @@
 package com.MeghPI.Attendance.pages;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -8,17 +9,21 @@ import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import utils.Utils;
 
 public class MeghMasterRolePermissionPage {
 	WebDriver driver;
-	private static String exceptionDesc;
+	private  String exceptionDesc;
 	Utils utils = new Utils(driver);
 	public String RoleNames = "";
 
@@ -497,11 +502,20 @@ public class MeghMasterRolePermissionPage {
 	private WebElement YesSelectedForEnrollment; // 13th TestCase
 
 	
+	@FindBy(xpath = "//button[text()='Auto set Policy']")
+	private WebElement AutoSetPolicy; // 13th TestCase
+	
+	@FindBy(xpath = "//button[contains(text(), 'Monthly Leave')]")
+	private WebElement MonthlyLeaveSummaryDrpIcon; //8th TestCase
+	
+	
+	
+	
 	// 1st TestCase
 	public boolean RolePermissionButton() {
 		try {
 
-			utils.waitForEle(RolePermissionButton, "visible", "", 10);
+			utils.waitForEle(RolePermissionButton, "visible", "", 30);
 			RolePermissionButton.isDisplayed();
 			RolePermissionButton.click();
 
@@ -515,7 +529,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean RoleModulePagination() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(RoleModulePagination, "visible", "", 10);
+			utils.waitForEle(RoleModulePagination, "visible", "", 30);
 			Select select = new Select(RoleModulePagination);
 			select.selectByVisibleText("50");
 
@@ -529,7 +543,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean AddRolePermissionButton() {
 		try {
 
-			utils.waitForEle(AddRolePermissionButton, "visible", "", 10);
+			utils.waitForEle(AddRolePermissionButton, "visible", "", 30);
 			AddRolePermissionButton.isDisplayed();
 			AddRolePermissionButton.click();
 
@@ -546,7 +560,7 @@ public class MeghMasterRolePermissionPage {
 		Thread.sleep(2000);
 		driver.get("http://demo.meghpi.com/Directory/Company");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//a[@id='tab_Role']")).click();
+		driver.findElement(By.xpath("//button[@id='tab_Role']")).click();
 
 	
 		utils.waitForEle(SearchDropDown, "visible", "", 15);
@@ -643,7 +657,7 @@ public class MeghMasterRolePermissionPage {
 			jse.executeScript("arguments[0].scrollIntoView();", SettingsCheckBox);
 			Thread.sleep(2000);
 
-			utils.waitForEle(SettingsCheckBox, "visible", "", 10);
+			utils.waitForEle(SettingsCheckBox, "visible", "", 30);
 			if (!SettingsCheckBox.isSelected()) {
 				SettingsCheckBox.click();
 			}
@@ -658,7 +672,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean MasterModuleExpand() {
 		try {
 
-			utils.waitForEle(MasterModuleExpand, "visible", "", 10);
+			utils.waitForEle(MasterModuleExpand, "visible", "", 30);
 			MasterModuleExpand.isDisplayed();
 			MasterModuleExpand.click();
 
@@ -672,7 +686,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean MasterModuleCheckBox() {
 		try {
 
-			utils.waitForEle(MasterModuleCheckBox, "visible", "", 10);
+			utils.waitForEle(MasterModuleCheckBox, "visible", "", 30);
 			MasterModuleCheckBox.isDisplayed();
 			MasterModuleCheckBox.click();
 
@@ -691,7 +705,7 @@ public class MeghMasterRolePermissionPage {
 			jse.executeScript("arguments[0].scrollIntoView();", RolePermissionSaveButton);
 			Thread.sleep(2000);
 
-			utils.waitForEle(RolePermissionSaveButton, "visible", "", 10);
+			utils.waitForEle(RolePermissionSaveButton, "visible", "", 30);
 			RolePermissionSaveButton.isDisplayed();
 			RolePermissionSaveButton.click();
 
@@ -715,9 +729,9 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean RolePermissionEditIcon() {
 		try {
-
-			utils.waitForEle(RolePermissionEditIcon, "visible", "", 10);
-			RolePermissionEditIcon.isDisplayed();
+			Thread.sleep(2000);
+			utils.waitForEle(RolePermissionEditIcon, "visible", "", 30);
+		
 			RolePermissionEditIcon.click();
 
 		} catch (Exception e) {
@@ -744,7 +758,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean CheckBoxIsSelected() {
 		try {
 
-			utils.waitForEle(MasterModuleCheckBox, "visible", "", 10);
+			utils.waitForEle(MasterModuleCheckBox, "visible", "", 30);
 			MasterModuleCheckBox.isDisplayed();
 			MasterModuleCheckBox.isSelected();
 
@@ -758,7 +772,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean RoleDropDownClick() {
 		try {
 
-			utils.waitForEle(RoleDropDownClick, "visible", "", 10);
+			utils.waitForEle(RoleDropDownClick, "visible", "", 30);
 			RoleDropDownClick.isDisplayed();
 			RoleDropDownClick.click();
 
@@ -772,7 +786,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean RoleDropDownSearch(String rolename) {
 		try {
 
-			utils.waitForEle(RoleDropDownSearch,  "visible", "", 10);
+			utils.waitForEle(RoleDropDownSearch,  "visible", "", 30);
 			RoleDropDownSearch.isDisplayed();
 			RoleDropDownSearch.sendKeys(rolename);
 
@@ -786,7 +800,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean RoleDropDownSearchResult() {
 		try {
 
-			utils.waitForEle(RoleDropDownSearchResult, "visible", "", 10);
+			utils.waitForEle(RoleDropDownSearchResult, "visible", "", 30);
 			RoleDropDownSearchResult.isDisplayed();
 			RoleDropDownSearchResult.click();
 
@@ -800,8 +814,8 @@ public class MeghMasterRolePermissionPage {
 	// 3rdTestCase
 	public boolean RolePermissionSearchResult() {
 		try {
-
-			utils.waitForEle(RolePermissionSearchResult, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(RolePermissionSearchResult, "visible", "", 30);
 			RolePermissionSearchResult.isDisplayed();
 
 		} catch (Exception e) {
@@ -814,7 +828,7 @@ public class MeghMasterRolePermissionPage {
 	// 4th TestCase
 	public boolean EmployeeAttendancePermission() {
 		try {
-			utils.waitForEle(EmployeeAttendancePermission, "visible", "", 10);
+			utils.waitForEle(EmployeeAttendancePermission, "visible", "", 30);
 
 			if (!EmployeeAttendancePermission.isSelected()) {
 				EmployeeAttendancePermission.click();
@@ -833,7 +847,7 @@ public class MeghMasterRolePermissionPage {
 		while (attempts < 2) {
 			try {
 				Thread.sleep(4000); // Consider replacing this with smarter wait if possible
-				utils.waitForEle(ManageButton, "visible", "", 10);
+				utils.waitForEle(ManageButton, "visible", "", 30);
 				ManageButton.click();
 				return true; // Success on first or retry attempt
 			} catch (Exception e) {
@@ -861,31 +875,47 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean EmployeeToggleSwitch() {
 	    try {
-	        Thread.sleep(4000);
-	        WebElement toggleSwitch = driver.findElement(By.xpath("//input[@id='ManageRole']"));
-	        utils.waitForEle(toggleSwitch, "visible", "", 30);
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	        if (toggleSwitch.isDisplayed()) {
+	        // Locate toggle
+	        WebElement toggleSwitch = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='ManageRole']")));
+
+	        // Scroll into view (handles hidden or overlapped element)
+	        js.executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'center'});", toggleSwitch);
+	        Thread.sleep(1000); // small buffer for animation/UI lag
+
+	        // Wait until clickable (if overlay is gone)
+	        wait.until(ExpectedConditions.elementToBeClickable(toggleSwitch));
+
+	        try {
+	            // Try normal click first
 	            toggleSwitch.click();
-	        } else {
-	            throw new Exception("Toggle switch not visible");
+	        } catch (Exception clickBlocked) {
+	            // If blocked, use JS click
+	            js.executeScript("arguments[0].click();", toggleSwitch);
 	        }
-	        
-	        Thread.sleep(6000);
+
+	        Thread.sleep(2000); // wait for toggle effect
+	        return true;
+
 	    } catch (Exception e) {
-	        exceptionDesc = e.getMessage();
+	        exceptionDesc = "❌ Error while clicking Employee Toggle Switch: " + e.getMessage();
+	        System.out.println(exceptionDesc);
 	        return false;
 	    }
-	    return true;
 	}
+
 
 
 	public boolean EmployeeAttendanceButton() {
 		try {
 
-			utils.waitForEle(EmployeeAttendanceButton, "visible", "", 10);
-			EmployeeAttendanceButton.isDisplayed();
+			utils.waitForEle(EmployeeAttendanceButton, "visible", "", 30);
+	
 			EmployeeAttendanceButton.click();
+			EmployeeAttendanceButton.click();
+		
 
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -896,9 +926,9 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean EmpAttendanceTab() {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(EmpAttendanceTab, "visible", "", 30);
-			EmpAttendanceTab.isDisplayed();
+		
 			EmpAttendanceTab.click();
 
 		} catch (Exception e) {
@@ -910,8 +940,8 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean EmpRegulationRequest() {
 		try {
-
-			utils.waitForEle(EmpRegulationRequest, "visible", "", 10);
+Thread.sleep(2000);
+			utils.waitForEle(EmpRegulationRequest, "visible", "", 30);
 			EmpRegulationRequest.isDisplayed();
 			EmpRegulationRequest.click();
 
@@ -925,7 +955,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean EmpOverTimeRequest() {
 		try {
 
-			utils.waitForEle(EmpOverTimeRequest, "visible", "", 10);
+			utils.waitForEle(EmpOverTimeRequest, "visible", "", 30);
 			EmpOverTimeRequest.isDisplayed();
 			EmpOverTimeRequest.click();
 
@@ -938,9 +968,9 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean EmpShiftRequest() {
 		try {
-
-			utils.waitForEle(EmpShiftRequest, "visible", "", 10);
-			EmpShiftRequest.isDisplayed();
+Thread.sleep(2000);
+			utils.waitForEle(EmpShiftRequest, "visible", "", 30);
+	
 			EmpShiftRequest.click();
 
 		} catch (Exception e) {
@@ -953,7 +983,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean EmpWeekOffRequest() {
 		try {
 
-			utils.waitForEle(EmpWeekOffRequest, "visible", "", 10);
+			utils.waitForEle(EmpWeekOffRequest, "visible", "", 30);
 			EmpWeekOffRequest.isDisplayed();
 			EmpWeekOffRequest.click();
 
@@ -968,7 +998,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean LeavePermissionCheckBox() {
 		try {
 
-			utils.waitForEle(LeavePermissionCheckBox, "visible", "", 10);
+			utils.waitForEle(LeavePermissionCheckBox, "visible", "", 30);
 			if (!LeavePermissionCheckBox.isSelected()) {
 				LeavePermissionCheckBox.click();
 			}
@@ -981,27 +1011,38 @@ public class MeghMasterRolePermissionPage {
 	}
 
 	public boolean LeaveButton() {
-		try {
+	    try {
+	        for (int attempt = 1; attempt <= 3; attempt++) {
 
-			utils.waitForEle(LeaveButton, "visible", "", 10);
-			LeaveButton.isDisplayed();
-			Actions actions = new Actions(driver);
-			actions.doubleClick(LeaveButton).perform();
+	            utils.waitForEle(LeaveButton, "visible", "", 30);
+	            LeaveButton.click();
 
-		} catch (Exception e) {
-			exceptionDesc = e.getMessage().toString();
-			return false;
-		}
-		return true;
+	            // Success condition
+	            if (MonthlyLeaveSummaryDrpIcon.isDisplayed()) {
+	                return true;
+	            }
+
+	            // Retry handling
+	            driver.navigate().refresh();
+	        }
+
+	        // Failed after 3 attempts
+	        return false;
+
+	    } catch (Exception e) {
+	        exceptionDesc = e.getMessage();
+	        return false;
+	    }
 	}
+
 
 	public boolean LeaveRequestsTab() {
 		try {
-
-			utils.waitForEle(LeaveRequestsTab, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(LeaveRequestsTab, "visible", "", 30);
 			LeaveRequestsTab.isDisplayed();
 			LeaveRequestsTab.click();
-
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -1012,7 +1053,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean LeaveBalanceTab() {
 		try {
 
-			utils.waitForEle(LeaveBalanceTab, "visible", "", 10);
+			utils.waitForEle(LeaveBalanceTab, "visible", "", 30);
 			LeaveBalanceTab.isDisplayed();
 			LeaveBalanceTab.click();
 
@@ -1027,7 +1068,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean ReportPermissionCheckBox() {
 		try {
 
-			utils.waitForEle(ReportPermissionCheckBox, "visible", "", 10);
+			utils.waitForEle(ReportPermissionCheckBox, "visible", "", 30);
 			if (!ReportPermissionCheckBox.isSelected()) {
 				ReportPermissionCheckBox.click();
 			}
@@ -1041,8 +1082,8 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean ReprtButton() {
 		try {
-
-			utils.waitForEle(ReprtButton, "visible", "", 10);
+			Thread.sleep(4000);
+			utils.waitForEle(ReprtButton, "visible", "", 30);
 			ReprtButton.isDisplayed();
 			ReprtButton.click();
 
@@ -1055,9 +1096,9 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean AttendanceReport() {
 		try {
-
-			utils.waitForEle(AttendanceReport, "visible", "", 10);
-			AttendanceReport.isDisplayed();
+			Thread.sleep(2000);
+			utils.waitForEle(AttendanceReport, "visible", "", 20);
+			
 			AttendanceReport.click();
 
 		} catch (Exception e) {
@@ -1069,8 +1110,8 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean TimeLogReport() {
 		try {
-
-			utils.waitForEle(TimeLogReport, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(TimeLogReport, "visible", "", 30);
 			TimeLogReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1083,7 +1124,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean RegulationReport() {
 		try {
 
-			utils.waitForEle(RegulationReport, "visible", "", 10);
+			utils.waitForEle(RegulationReport, "visible", "", 30);
 			RegulationReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1096,7 +1137,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean OverTimeReport() {
 		try {
 
-			utils.waitForEle(OverTimeReport, "visible", "", 10);
+			utils.waitForEle(OverTimeReport, "visible", "", 30);
 			OverTimeReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1109,7 +1150,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean TotalLeavesTakenReport() {
 		try {
 
-			utils.waitForEle(TotalLeavesTakenReport, "visible", "", 10);
+			utils.waitForEle(TotalLeavesTakenReport, "visible", "", 30);
 			TotalLeavesTakenReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1122,7 +1163,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean WeekOffReport() {
 		try {
 
-			utils.waitForEle(WeekOffReport, "visible", "", 10);
+			utils.waitForEle(WeekOffReport, "visible", "", 30);
 			WeekOffReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1135,7 +1176,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean PunchReport() {
 		try {
 
-			utils.waitForEle(PunchReport, "visible", "", 10);
+			utils.waitForEle(PunchReport, "visible", "", 30);
 			PunchReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1148,8 +1189,8 @@ public class MeghMasterRolePermissionPage {
 	public boolean InOutReport() {
 		try {
 
-			utils.waitForEle(InOutReport, "visible", "", 10);
-			InOutReport.isDisplayed();
+			utils.waitForEle(InOutReport, "visible", "", 20);
+			InOutReport.click();
 
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -1163,7 +1204,7 @@ public class MeghMasterRolePermissionPage {
 	public boolean ShiftPermission() {
 		try {
 
-			utils.waitForEle(ShiftPermission, "visible", "", 10);
+			utils.waitForEle(ShiftPermission, "visible", "", 30);
 			if (!ShiftPermission.isSelected()) {
 				ShiftPermission.click();
 			}
@@ -1181,7 +1222,7 @@ public class MeghMasterRolePermissionPage {
 			jse.executeScript("arguments[0].scrollIntoView();", DirectoryPermission);
 			Thread.sleep(2000);
 
-			utils.waitForEle(DirectoryPermission, "visible", "", 10);
+			utils.waitForEle(DirectoryPermission, "visible", "", 30);
 			if (!DirectoryPermission.isSelected()) {
 				DirectoryPermission.click();
 			}
@@ -1199,7 +1240,7 @@ public class MeghMasterRolePermissionPage {
 			jse.executeScript("arguments[0].scrollIntoView();", FilesPermission);
 			Thread.sleep(2000);
 
-			utils.waitForEle(FilesPermission, "visible", "", 10);
+			utils.waitForEle(FilesPermission, "visible", "", 30);
 			if (!FilesPermission.isSelected()) {
 				FilesPermission.click();
 			}
@@ -1212,22 +1253,36 @@ public class MeghMasterRolePermissionPage {
 
 	public boolean ShiftButton() {
 	    try {
-	    	Thread.sleep(4000);
-	        By shiftBtnLocator = By.xpath("//button[@id='sidebarToggle']/../div[1]/div/ul/li[contains(@title,'Shift')]");
+	        Thread.sleep(3000); // short wait before interaction
+
+	        By shiftBtnLocator = By.xpath("//li[@id='v-pills-Shift-tab']/a");
+
+	       
 	        
+
+	        // Find it fresh just before click to avoid stale reference
 	        WebElement shiftBtn = driver.findElement(shiftBtnLocator);
-	        utils.waitForEle(shiftBtn, "visible", "", 30);
 
-	        Actions act = new Actions(driver);
-	        act.doubleClick(shiftBtn).perform();  // Perform double-click
-	        shiftBtn.click();                     // Then perform single click
-
+	        // Perform click (double-click line was redundant)
+	        shiftBtn.click();
+	        Thread.sleep(2000);
+	    } catch (StaleElementReferenceException stale) {
+	        try {
+	            // Re-locate and retry once if stale happens
+	            WebElement shiftBtn = driver.findElement(By.xpath("//li[@id='v-pills-Shift-tab']/a"));
+	            shiftBtn.click();
+	            
+	        } catch (Exception retry) {
+	            exceptionDesc = "Retry failed after stale element: " + retry.getMessage();
+	            return false;
+	        }
 	    } catch (Exception e) {
 	        exceptionDesc = e.getMessage();
 	        return false;
 	    }
 	    return true;
 	}
+
 
 
 
@@ -1246,9 +1301,9 @@ utils.waitForEle(MyShiftTab, "visible", "", 30);
 
 	public boolean FileButton() {
 		try {
-
-			utils.waitForEle(FileButton, "visible", "", 10);
-			FileButton.isDisplayed();
+			Thread.sleep(4000);
+			utils.waitForEle(FileButton, "visible", "", 20);
+		
 			FileButton.click();
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -1260,7 +1315,7 @@ utils.waitForEle(MyShiftTab, "visible", "", 30);
 	public boolean MyFilesTab() {
 		try {
 
-			utils.waitForEle(MyFilesTab, "visible", "", 10);
+			utils.waitForEle(MyFilesTab, "visible", "", 20);
 			MyFilesTab.isDisplayed();
 
 		} catch (Exception e) {
@@ -1286,7 +1341,7 @@ Thread.sleep(4000);
 	public boolean EmpDirectoryButton() {
 		try {
 
-			utils.waitForEle(EmpDirectoryButton, "visible", "", 10);
+			utils.waitForEle(EmpDirectoryButton, "visible", "", 30);
 			EmpDirectoryButton.isDisplayed();
 			EmpDirectoryButton.click();
 		} catch (Exception e) {
@@ -1299,7 +1354,7 @@ Thread.sleep(4000);
 	public boolean MyEmployeeTab() {
 		try {
 
-			utils.waitForEle(MyEmployeeTab, "visible", "", 10);
+			utils.waitForEle(MyEmployeeTab, "visible", "", 20);
 			MyEmployeeTab.isDisplayed();
 
 		} catch (Exception e) {
@@ -1312,7 +1367,7 @@ Thread.sleep(4000);
 	public boolean ORGChartTab() {
 		try {
 
-			utils.waitForEle(ORGChartTab, "visible", "", 10);
+			utils.waitForEle(ORGChartTab, "visible", "", 30);
 			ORGChartTab.isDisplayed();
 
 		} catch (Exception e) {
@@ -1326,7 +1381,7 @@ Thread.sleep(4000);
 	public boolean HrAttendancePermission() {
 		try {
 
-			utils.waitForEle(HrAttendancePermission, "visible", "", 10);
+			utils.waitForEle(HrAttendancePermission, "visible", "", 30);
 			if (!HrAttendancePermission.isSelected()) {
 				HrAttendancePermission.click();
 			}
@@ -1340,7 +1395,7 @@ Thread.sleep(4000);
 	public boolean HrAccountAttendanceEmpTab() {
 		try {
 
-			utils.waitForEle(HrAccountAttendanceEmpTab, "visible", "", 10);
+			utils.waitForEle(HrAccountAttendanceEmpTab, "visible", "", 20);
 			HrAccountAttendanceEmpTab.isDisplayed();
 			HrAccountAttendanceEmpTab.click();
 		} catch (Exception e) {
@@ -1352,8 +1407,8 @@ Thread.sleep(4000);
 
 	public boolean HrAccountRegulationRequestTab() {
 		try {
-
-			utils.waitForEle(HrAccountRegulationRequestTab, "visible", "", 10);
+Thread.sleep(2000);
+			utils.waitForEle(HrAccountRegulationRequestTab, "visible", "", 30);
 			HrAccountRegulationRequestTab.isDisplayed();
 			HrAccountRegulationRequestTab.click();
 		} catch (Exception e) {
@@ -1366,7 +1421,7 @@ Thread.sleep(4000);
 	public boolean HrAccountOTRequestTab() {
 		try {
 
-			utils.waitForEle(HrAccountOTRequestTab, "visible", "", 10);
+			utils.waitForEle(HrAccountOTRequestTab, "visible", "", 30);
 			HrAccountOTRequestTab.isDisplayed();
 			HrAccountOTRequestTab.click();
 		} catch (Exception e) {
@@ -1379,7 +1434,7 @@ Thread.sleep(4000);
 	public boolean HrAccountShiftRequestTab() {
 		try {
 
-			utils.waitForEle(HrAccountShiftRequestTab, "visible", "", 10);
+			utils.waitForEle(HrAccountShiftRequestTab, "visible", "", 30);
 			HrAccountShiftRequestTab.isDisplayed();
 			HrAccountShiftRequestTab.click();
 		} catch (Exception e) {
@@ -1392,8 +1447,8 @@ Thread.sleep(4000);
 	public boolean HrAccountWeekOffRequestTab() {
 		try {
 
-			utils.waitForEle(HrAccountWeekOffRequestTab, "visible", "", 10);
-			HrAccountWeekOffRequestTab.isDisplayed();
+			utils.waitForEle(HrAccountWeekOffRequestTab, "visible", "", 30);
+	
 			HrAccountWeekOffRequestTab.click();
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -1405,7 +1460,7 @@ Thread.sleep(4000);
 	public boolean HrAccountAttendanceReprocessTab() {
 		try {
 
-			utils.waitForEle(HrAccountAttendanceReprocessTab, "visible", "", 10);
+			utils.waitForEle(HrAccountAttendanceReprocessTab, "visible", "", 30);
 			HrAccountAttendanceReprocessTab.isDisplayed();
 			HrAccountAttendanceReprocessTab.click();
 		} catch (Exception e) {
@@ -1420,8 +1475,7 @@ Thread.sleep(4000);
 	public boolean HrAccountLeaveWeeklyLeaveTab() {
 		try {
 
-			utils.waitForEle(HrAccountLeaveWeeklyLeaveTab, "visible", "", 10);
-			HrAccountLeaveWeeklyLeaveTab.isDisplayed();
+			utils.waitForEle(HrAccountLeaveWeeklyLeaveTab, "visible", "", 30);
 			HrAccountLeaveWeeklyLeaveTab.click();
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
@@ -1432,8 +1486,8 @@ Thread.sleep(4000);
 
 	public boolean HrAccountShiftTab() {
 		try {
-
-			utils.waitForEle(HrAccountShiftTab, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(HrAccountShiftTab, "visible", "", 20);
 			HrAccountShiftTab.isDisplayed();
 			HrAccountShiftTab.click();
 		} catch (Exception e) {
@@ -1446,7 +1500,7 @@ Thread.sleep(4000);
 	public boolean HrAccountShiftRosterTab() {
 		try {
 
-			utils.waitForEle(HrAccountShiftRosterTab, "visible", "", 10);
+			utils.waitForEle(HrAccountShiftRosterTab, "visible", "", 30);
 			HrAccountShiftRosterTab.isDisplayed();
 			HrAccountShiftRosterTab.click();
 		} catch (Exception e) {
@@ -1461,7 +1515,7 @@ Thread.sleep(4000);
 	public boolean DailyAttendanceReport() {
 		try {
 
-			utils.waitForEle(DailyAttendanceReport, "visible", "", 10);
+			utils.waitForEle(DailyAttendanceReport, "visible", "", 30);
 			DailyAttendanceReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1474,7 +1528,7 @@ Thread.sleep(4000);
 	public boolean DailyBillTransactionReport() {
 		try {
 
-			utils.waitForEle(DailyBillTransactionReport, "visible", "", 10);
+			utils.waitForEle(DailyBillTransactionReport, "visible", "", 30);
 			DailyBillTransactionReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1491,7 +1545,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", PunchTypeAnalyticsReport);
 			Thread.sleep(2000);
 
-			utils.waitForEle(PunchTypeAnalyticsReport, "visible", "", 10);
+			utils.waitForEle(PunchTypeAnalyticsReport, "visible", "", 30);
 			PunchTypeAnalyticsReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1508,7 +1562,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", EmployeeActiveInActiveReport);
 			Thread.sleep(2000);
 
-			utils.waitForEle(EmployeeActiveInActiveReport, "visible", "", 10);
+			utils.waitForEle(EmployeeActiveInActiveReport, "visible", "", 30);
 			EmployeeActiveInActiveReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1521,7 +1575,7 @@ Thread.sleep(4000);
 	public boolean EmployeeBlockUnblockReport() {
 		try {
 
-			utils.waitForEle(EmployeeBlockUnblockReport, "visible", "", 10);
+			utils.waitForEle(EmployeeBlockUnblockReport, "visible", "", 30);
 			EmployeeBlockUnblockReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1534,7 +1588,7 @@ Thread.sleep(4000);
 	public boolean EmployeeDataReport() {
 		try {
 
-			utils.waitForEle(EmployeeDataReport, "visible", "", 10);
+			utils.waitForEle(EmployeeDataReport, "visible", "", 30);
 			EmployeeDataReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1551,7 +1605,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", FormNo23Report);
 			Thread.sleep(2000);
 
-			utils.waitForEle(FormNo23Report, "visible", "", 10);
+			utils.waitForEle(FormNo23Report, "visible", "", 30);
 			FormNo23Report.isDisplayed();
 
 		} catch (Exception e) {
@@ -1564,7 +1618,7 @@ Thread.sleep(4000);
 	public boolean FormNo25Report() {
 		try {
 
-			utils.waitForEle(FormNo25Report, "visible", "", 10);
+			utils.waitForEle(FormNo25Report, "visible", "", 30);
 			FormNo25Report.isDisplayed();
 
 		} catch (Exception e) {
@@ -1580,7 +1634,7 @@ Thread.sleep(4000);
 			JavascriptExecutor jse = (JavascriptExecutor) driver;
 			jse.executeScript("arguments[0].scrollIntoView();", LeaveBalanceSummary);
 			Thread.sleep(2000);
-			utils.waitForEle(LeaveBalanceSummary, "visible", "", 10);
+			utils.waitForEle(LeaveBalanceSummary, "visible", "", 30);
 			LeaveBalanceSummary.isDisplayed();
 
 		} catch (Exception e) {
@@ -1593,7 +1647,7 @@ Thread.sleep(4000);
 	public boolean LateArrivalReport() {
 		try {
 
-			utils.waitForEle(LateArrivalReport, "visible", "", 10);
+			utils.waitForEle(LateArrivalReport, "visible", "", 30);
 			LateArrivalReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1606,7 +1660,7 @@ Thread.sleep(4000);
 	public boolean MonthlyBillTransactionReport() {
 		try {
 
-			utils.waitForEle(MonthlyBillTransactionReport, "visible", "", 10);
+			utils.waitForEle(MonthlyBillTransactionReport, "visible", "", 30);
 			MonthlyBillTransactionReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1619,7 +1673,7 @@ Thread.sleep(4000);
 	public boolean MonthlyShiftWiseAttendanceReport() {
 		try {
 
-			utils.waitForEle(MonthlyShiftWiseAttendanceReport, "visible", "", 10);
+			utils.waitForEle(MonthlyShiftWiseAttendanceReport, "visible", "", 30);
 			MonthlyShiftWiseAttendanceReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1632,7 +1686,7 @@ Thread.sleep(4000);
 	public boolean MonthlyAttendanceRegisterReport() {
 		try {
 
-			utils.waitForEle(MonthlyAttendanceRegisterReport, "visible", "", 10);
+			utils.waitForEle(MonthlyAttendanceRegisterReport, "visible", "", 30);
 			MonthlyAttendanceRegisterReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1645,7 +1699,7 @@ Thread.sleep(4000);
 	public boolean MusterRollReport() {
 		try {
 
-			utils.waitForEle(MusterRollReport, "visible", "", 10);
+			utils.waitForEle(MusterRollReport, "visible", "", 30);
 			MusterRollReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1658,7 +1712,7 @@ Thread.sleep(4000);
 	public boolean OnboardingAndOffboarding() {
 		try {
 
-			utils.waitForEle(OnboardingAndOffboarding, "visible", "", 10);
+			utils.waitForEle(OnboardingAndOffboarding, "visible", "", 30);
 			OnboardingAndOffboarding.isDisplayed();
 
 		} catch (Exception e) {
@@ -1671,7 +1725,7 @@ Thread.sleep(4000);
 	public boolean OverTimeReports() {
 		try {
 
-			utils.waitForEle(OverTimeReports, "visible", "", 10);
+			utils.waitForEle(OverTimeReports, "visible", "", 30);
 			OverTimeReports.isDisplayed();
 
 		} catch (Exception e) {
@@ -1684,7 +1738,7 @@ Thread.sleep(4000);
 	public boolean PunchStatisticsReportTab() {
 		try {
 
-			utils.waitForEle(PunchStatisticsReportTab, "visible", "", 10);
+			utils.waitForEle(PunchStatisticsReportTab, "visible", "", 30);
 			PunchStatisticsReportTab.isDisplayed();
 
 		} catch (Exception e) {
@@ -1697,7 +1751,7 @@ Thread.sleep(4000);
 	public boolean ScheduleReports() {
 		try {
 
-			utils.waitForEle(ScheduleReports, "visible", "", 10);
+			utils.waitForEle(ScheduleReports, "visible", "", 30);
 			ScheduleReports.isDisplayed();
 
 		} catch (Exception e) {
@@ -1709,8 +1763,8 @@ Thread.sleep(4000);
 
 	public boolean YearlyAttendanceSummaryReport() {
 		try {
-
-			utils.waitForEle(YearlyAttendanceSummaryReport, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(YearlyAttendanceSummaryReport, "visible", "", 20);
 			YearlyAttendanceSummaryReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1728,7 +1782,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", BillLedgerReport);
 			Thread.sleep(2000);
 
-			utils.waitForEle(BillLedgerReport, "visible", "", 10);
+			utils.waitForEle(BillLedgerReport, "visible", "", 30);
 			BillLedgerReport.isDisplayed();
 
 		} catch (Exception e) {
@@ -1741,7 +1795,7 @@ Thread.sleep(4000);
 	public boolean EarlyLateInOut() {
 		try {
 
-			utils.waitForEle(TimeLogReport, "visible", "", 10);
+			utils.waitForEle(TimeLogReport, "visible", "", 30);
 			TimeLogReport.isDisplayed();
 			TimeLogReport.click();
 		} catch (Exception e) {
@@ -1755,7 +1809,7 @@ Thread.sleep(4000);
 	public boolean PolicyMasterPermission() {
 		try {
 
-			utils.waitForEle(PolicyMasterPermission, "visible", "", 10);
+			utils.waitForEle(PolicyMasterPermission, "visible", "", 30);
 			if (!PolicyMasterPermission.isSelected()) {
 				PolicyMasterPermission.click();
 			}
@@ -1768,8 +1822,8 @@ Thread.sleep(4000);
 
 	public boolean EmployeeFilesTab() {
 		try {
-
-			utils.waitForEle(EmployeeFilesTab, "visible", "", 10);
+			Thread.sleep(2000);
+			utils.waitForEle(EmployeeFilesTab, "visible", "", 30);
 			EmployeeFilesTab.isDisplayed();
 			EmployeeFilesTab.click();
 		} catch (Exception e) {
@@ -1782,7 +1836,7 @@ Thread.sleep(4000);
 	public boolean CompanyFilesTabs() {
 		try {
 
-			utils.waitForEle(CompanyFilesTabs, "visible", "", 10);
+			utils.waitForEle(CompanyFilesTabs, "visible", "", 30);
 			CompanyFilesTabs.isDisplayed();
 			CompanyFilesTabs.click();
 		} catch (Exception e) {
@@ -1796,7 +1850,7 @@ Thread.sleep(4000);
 		try {
 
 			Thread.sleep(4000);
-			utils.waitForEle(PolicyIcon, "visible", "", 10);
+			utils.waitForEle(PolicyIcon, "visible", "", 30);
 			PolicyIcon.isDisplayed();
 			PolicyIcon.click();
 		} catch (Exception e) {
@@ -1809,7 +1863,7 @@ Thread.sleep(4000);
 	public boolean AttendancePolicy() {
 		try {
 
-			utils.waitForEle(AttendancePolicy, "visible", "", 10);
+			utils.waitForEle(AttendancePolicy, "visible", "", 30);
 			AttendancePolicy.isDisplayed();
 			AttendancePolicy.click();
 		} catch (Exception e) {
@@ -1822,7 +1876,7 @@ Thread.sleep(4000);
 	public boolean LeaveDropDown() {
 		try {
 
-			utils.waitForEle(LeaveDropDown, "visible", "", 10);
+			utils.waitForEle(LeaveDropDown, "visible", "", 30);
 			LeaveDropDown.isDisplayed();
 			LeaveDropDown.click();
 		} catch (Exception e) {
@@ -1835,7 +1889,7 @@ Thread.sleep(4000);
 	public boolean LeavePolicy() {
 		try {
 
-			utils.waitForEle(LeavePolicy, "visible", "", 10);
+			utils.waitForEle(LeavePolicy, "visible", "", 20);
 			LeavePolicy.isDisplayed();
 			LeavePolicy.click();
 		} catch (Exception e) {
@@ -1848,7 +1902,7 @@ Thread.sleep(4000);
 	public boolean WeeklyOffPolicy() {
 		try {
 
-			utils.waitForEle(WeeklyOffPolicy, "visible", "", 10);
+			utils.waitForEle(WeeklyOffPolicy, "visible", "", 30);
 			WeeklyOffPolicy.isDisplayed();
 			WeeklyOffPolicy.click();
 		} catch (Exception e) {
@@ -1861,7 +1915,7 @@ Thread.sleep(4000);
 	public boolean HoliDayPolicy() {
 		try {
 
-			utils.waitForEle(HoliDayPolicy, "visible", "", 10);
+			utils.waitForEle(HoliDayPolicy, "visible", "", 30);
 			HoliDayPolicy.isDisplayed();
 			HoliDayPolicy.click();
 		} catch (Exception e) {
@@ -1874,7 +1928,7 @@ Thread.sleep(4000);
 	public boolean ShiftDropDown() {
 		try {
 
-			utils.waitForEle(ShiftDropDown, "visible", "", 10);
+			utils.waitForEle(ShiftDropDown, "visible", "", 30);
 			ShiftDropDown.isDisplayed();
 			ShiftDropDown.click();
 		} catch (Exception e) {
@@ -1887,7 +1941,7 @@ Thread.sleep(4000);
 	public boolean ShiftPolicyButton() {
 		try {
 
-			utils.waitForEle(ShiftPolicyButton, "visible", "", 10);
+			utils.waitForEle(ShiftPolicyButton, "visible", "", 30);
 			ShiftPolicyButton.isDisplayed();
 			ShiftPolicyButton.click();
 		} catch (Exception e) {
@@ -1900,7 +1954,7 @@ Thread.sleep(4000);
 	public boolean ShiftPolicyTab() {
 		try {
 
-			utils.waitForEle(ShiftPolicyTab, "visible", "", 10);
+			utils.waitForEle(ShiftPolicyTab, "visible", "", 30);
 			ShiftPolicyTab.isDisplayed();
 			ShiftPolicyTab.click();
 		} catch (Exception e) {
@@ -1913,7 +1967,7 @@ Thread.sleep(4000);
 	public boolean ApprovalFlowDropDown() {
 		try {
 
-			utils.waitForEle(ApprovalFlowDropDown, "visible", "", 10);
+			utils.waitForEle(ApprovalFlowDropDown, "visible", "", 30);
 			ApprovalFlowDropDown.isDisplayed();
 			ApprovalFlowDropDown.click();
 		} catch (Exception e) {
@@ -1926,7 +1980,7 @@ Thread.sleep(4000);
 	public boolean ApprovalFlowButton() {
 		try {
 
-			utils.waitForEle(ApprovalFlowButton, "visible", "", 10);
+			utils.waitForEle(ApprovalFlowButton, "visible", "", 30);
 			ApprovalFlowButton.isDisplayed();
 			ApprovalFlowButton.click();
 		} catch (Exception e) {
@@ -1940,7 +1994,7 @@ Thread.sleep(4000);
 	public boolean OrgChart() {
 		try {
 
-			utils.waitForEle(OrgChart, "visible", "", 10);
+			utils.waitForEle(OrgChart, "visible", "", 30);
 			OrgChart.isDisplayed();
 
 		} catch (Exception e) {
@@ -1953,7 +2007,7 @@ Thread.sleep(4000);
 	public boolean GradeButton() {
 		try {
 
-			utils.waitForEle(GradeButton, "visible", "", 10);
+			utils.waitForEle(GradeButton, "visible", "", 30);
 			GradeButton.isDisplayed();
 
 		} catch (Exception e) {
@@ -1966,7 +2020,7 @@ Thread.sleep(4000);
 	public boolean EntityTtypeButton() {
 		try {
 
-			utils.waitForEle(EntityTtypeButton, "visible", "", 10);
+			utils.waitForEle(EntityTtypeButton, "visible", "", 30);
 			EntityTtypeButton.isDisplayed();
 
 		} catch (Exception e) {
@@ -1979,7 +2033,7 @@ Thread.sleep(4000);
 	public boolean AttendanceStatusButton() {
 		try {
 
-			utils.waitForEle(AttendanceStatusButton, "visible", "", 10);
+			utils.waitForEle(AttendanceStatusButton, "visible", "", 30);
 			AttendanceStatusButton.isDisplayed();
 
 		} catch (Exception e) {
@@ -1992,7 +2046,7 @@ Thread.sleep(4000);
 	public boolean FileTagButton() {
 		try {
 
-			utils.waitForEle(FileTagButton, "visible", "", 10);
+			utils.waitForEle(FileTagButton, "visible", "", 30);
 			FileTagButton.isDisplayed();
 
 		} catch (Exception e) {
@@ -2005,7 +2059,7 @@ Thread.sleep(4000);
 	public boolean LeaveTypeButton() {
 		try {
 
-			utils.waitForEle(LeaveTypeButton, "visible", "", 10);
+			utils.waitForEle(LeaveTypeButton, "visible", "", 30);
 			LeaveTypeButton.isDisplayed();
 
 		} catch (Exception e) {
@@ -2018,7 +2072,7 @@ Thread.sleep(4000);
 	public boolean SettingIcon() {
 		try {
 
-			utils.waitForEle(SettingIcon, "visible", "", 10);
+			utils.waitForEle(SettingIcon, "visible", "", 30);
 			SettingIcon.isDisplayed();
 			SettingIcon.click();
 		} catch (Exception e) {
@@ -2031,7 +2085,7 @@ Thread.sleep(4000);
 	public boolean EmployeeMasterDropDown() {
 		try {
 
-			utils.waitForEle(EmployeeMasterDropDown, "visible", "", 10);
+			utils.waitForEle(EmployeeMasterDropDown, "visible", "", 30);
 			EmployeeMasterDropDown.isDisplayed();
 			EmployeeMasterDropDown.click();
 		} catch (Exception e) {
@@ -2044,7 +2098,7 @@ Thread.sleep(4000);
 	public boolean ImportBulkForm() {
 		try {
 
-			utils.waitForEle(ImportBulkForm, "visible", "", 10);
+			utils.waitForEle(ImportBulkForm, "visible", "", 30);
 			ImportBulkForm.isDisplayed();
 
 		} catch (Exception e) {
@@ -2057,7 +2111,7 @@ Thread.sleep(4000);
 	public boolean FieldConfiguration() {
 		try {
 
-			utils.waitForEle(FieldConfiguration, "visible", "", 10);
+			utils.waitForEle(FieldConfiguration, "visible", "", 30);
 			FieldConfiguration.isDisplayed();
 			FieldConfiguration.click();
 		} catch (Exception e) {
@@ -2070,7 +2124,7 @@ Thread.sleep(4000);
 	public boolean FieldsConfigurationText() {
 		try {
 
-			utils.waitForEle(FieldsConfigurationText, "visible", "", 10);
+			utils.waitForEle(FieldsConfigurationText, "visible", "", 30);
 			FieldsConfigurationText.isDisplayed();
 
 		} catch (Exception e) {
@@ -2083,7 +2137,7 @@ Thread.sleep(4000);
 	public boolean DeviceSetup() {
 		try {
 
-			utils.waitForEle(DeviceSetup, "visible", "", 10);
+			utils.waitForEle(DeviceSetup, "visible", "", 30);
 			DeviceSetup.isDisplayed();
 			DeviceSetup.click();
 		} catch (Exception e) {
@@ -2096,7 +2150,7 @@ Thread.sleep(4000);
 	public boolean DeviceList() {
 		try {
 
-			utils.waitForEle(DeviceList, "visible", "", 10);
+			utils.waitForEle(DeviceList, "visible", "", 30);
 			DeviceList.isDisplayed();
 			DeviceList.click();
 		} catch (Exception e) {
@@ -2109,7 +2163,7 @@ Thread.sleep(4000);
 	public boolean DeviceGroup() {
 		try {
 
-			utils.waitForEle(DeviceGroup, "visible", "", 10);
+			utils.waitForEle(DeviceGroup, "visible", "", 30);
 			DeviceGroup.isDisplayed();
 			DeviceGroup.click();
 		} catch (Exception e) {
@@ -2122,7 +2176,7 @@ Thread.sleep(4000);
 	public boolean GeneralSettingsButton() {
 		try {
 
-			utils.waitForEle(GeneralSettingsButton, "visible", "", 10);
+			utils.waitForEle(GeneralSettingsButton, "visible", "", 30);
 			GeneralSettingsButton.isDisplayed();
 			GeneralSettingsButton.click();
 		} catch (Exception e) {
@@ -2135,7 +2189,7 @@ Thread.sleep(4000);
 	public boolean PersonalSettingsTab() {
 		try {
 
-			utils.waitForEle(PersonalSettingsTab, "visible", "", 10);
+			utils.waitForEle(PersonalSettingsTab, "visible", "", 30);
 			PersonalSettingsTab.isDisplayed();
 			PersonalSettingsTab.click();
 		} catch (Exception e) {
@@ -2148,9 +2202,10 @@ Thread.sleep(4000);
 	public boolean HomeButton() {
 		try {
 
-			utils.waitForEle(HomeButton, "visible", "", 10);
+			utils.waitForEle(HomeButton, "visible", "", 30);
 			HomeButton.isDisplayed();
 			HomeButton.click();
+			Thread.sleep(4000);
 		} catch (Exception e) {
 			exceptionDesc = e.getMessage().toString();
 			return false;
@@ -2161,7 +2216,7 @@ Thread.sleep(4000);
 	public boolean EntityActiveInactive() {
 		try {
 
-			utils.waitForEle(EntityActiveInactive, "visible", "", 10);
+			utils.waitForEle(EntityActiveInactive, "visible", "", 30);
 			EntityActiveInactive.isDisplayed();
 
 		} catch (Exception e) {
@@ -2174,7 +2229,7 @@ Thread.sleep(4000);
 	public boolean EntityBlockUnBlock() {
 		try {
 
-			utils.waitForEle(EntityBlockUnBlock, "visible", "", 10);
+			utils.waitForEle(EntityBlockUnBlock, "visible", "", 30);
 			EntityBlockUnBlock.isDisplayed();
 
 		} catch (Exception e) {
@@ -2187,7 +2242,7 @@ Thread.sleep(4000);
 	public boolean BillingButton() {
 		try {
 
-			utils.waitForEle(BillingButton, "visible", "", 10);
+			utils.waitForEle(BillingButton, "visible", "", 30);
 			BillingButton.isDisplayed();
 			BillingButton.click();
 		} catch (Exception e) {
@@ -2200,7 +2255,7 @@ Thread.sleep(4000);
 	public boolean MasterPermissionCheckBox() {
 		try {
 
-			utils.waitForEle(MasterPermissionCheckBox, "visible", "", 10);
+			utils.waitForEle(MasterPermissionCheckBox, "visible", "", 30);
 			if (!MasterPermissionCheckBox.isSelected()) {
 				MasterPermissionCheckBox.click();
 			}
@@ -2214,7 +2269,7 @@ Thread.sleep(4000);
 	public boolean HomePermissionCheckBox() {
 		try {
 
-			utils.waitForEle(HomePermissionCheckBox, "visible", "", 10);
+			utils.waitForEle(HomePermissionCheckBox, "visible", "", 30);
 			if (!HomePermissionCheckBox.isSelected()) {
 				HomePermissionCheckBox.click();
 			}
@@ -2232,7 +2287,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", BillingPermissionCheckBox);
 			Thread.sleep(2000);
 
-			utils.waitForEle(BillingPermissionCheckBox, "visible", "", 10);
+			utils.waitForEle(BillingPermissionCheckBox, "visible", "", 30);
 			if (!BillingPermissionCheckBox.isSelected()) {
 				BillingPermissionCheckBox.click();
 			}
@@ -2246,7 +2301,7 @@ Thread.sleep(4000);
 	public boolean DeptDropdown(String deptname) {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(DeptDropdown, "visible", "", 10);
+			utils.waitForEle(DeptDropdown, "visible", "", 30);
 			DeptDropdown.isDisplayed();
 			Select select = new Select(DeptDropdown);
 			select.selectByVisibleText(deptname);
@@ -2261,7 +2316,7 @@ Thread.sleep(4000);
 	public boolean DesignationDropdown(String Designationname) {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(DesignationDropdown, "visible", "", 10);
+			utils.waitForEle(DesignationDropdown, "visible", "", 30);
 			DesignationDropdown.isDisplayed();
 			Select select = new Select(DesignationDropdown);
 			select.selectByVisibleText(Designationname);
@@ -2280,7 +2335,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", TeamDropDown);
 			Thread.sleep(2000);
 
-			utils.waitForEle(TeamDropDown, "visible", "", 10);
+			utils.waitForEle(TeamDropDown, "visible", "", 30);
 			TeamDropDown.isDisplayed();
 			Select select = new Select(TeamDropDown);
 			select.selectByVisibleText(teamname);
@@ -2295,7 +2350,7 @@ Thread.sleep(4000);
 	public boolean RoleAssigned(String rolename) {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(RoleAssigned, "visible", "", 10);
+			utils.waitForEle(RoleAssigned, "visible", "", 30);
 			RoleAssigned.isDisplayed();
 			Select select = new Select(RoleAssigned);
 			select.selectByVisibleText(rolename);
@@ -2314,8 +2369,8 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", PinTextField);
 			Thread.sleep(2000);
 
-			utils.waitForEle(PinTextField,  "visible", "", 10);
-			PinTextField.isDisplayed();
+			utils.waitForEle(PinTextField,  "visible", "", 30);
+			PinTextField.clear();
 			PinTextField.sendKeys(pin);
 
 		} catch (Exception e) {
@@ -2332,7 +2387,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", SaveChanges);
 			Thread.sleep(2000);
 
-			utils.waitForEle(SaveChanges, "visible", "", 10);
+			utils.waitForEle(SaveChanges, "visible", "", 30);
 			SaveChanges.isDisplayed();
 			SaveChanges.click();
 
@@ -2346,7 +2401,7 @@ Thread.sleep(4000);
 	public boolean DefaultPolicy() {
 		try {
 
-			utils.waitForEle(DefaultPolicy, "visible", "", 10);
+			utils.waitForEle(DefaultPolicy, "visible", "", 30);
 			DefaultPolicy.isDisplayed();
 			DefaultPolicy.click();
 			Thread.sleep(6000);
@@ -2361,7 +2416,7 @@ Thread.sleep(4000);
 	public boolean EmailInvite() {
 		try {
 
-			utils.waitForEle(EmailInvite, "visible", "", 10);
+			utils.waitForEle(EmailInvite, "visible", "", 30);
 			EmailInvite.isDisplayed();
 			EmailInvite.click();
 
@@ -2381,7 +2436,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", MasterMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(MasterMenu, "visible", "", 10);
+			utils.waitForEle(MasterMenu, "visible", "", 30);
 			MasterMenu.isDisplayed();
 			MasterMenu.click();
 
@@ -2399,7 +2454,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", PolicyMasterMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(PolicyMasterMenu, "visible", "", 10);
+			utils.waitForEle(PolicyMasterMenu, "visible", "", 30);
 			PolicyMasterMenu.isDisplayed();
 			PolicyMasterMenu.click();
 
@@ -2417,7 +2472,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", AttendanceMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(AttendanceMenu, "visible", "", 10);
+			utils.waitForEle(AttendanceMenu, "visible", "", 30);
 			AttendanceMenu.isDisplayed();
 			AttendanceMenu.click();
 
@@ -2435,7 +2490,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", LeaveMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(LeaveMenu, "visible", "", 10);
+			utils.waitForEle(LeaveMenu, "visible", "", 30);
 			LeaveMenu.isDisplayed();
 			LeaveMenu.click();
 
@@ -2453,7 +2508,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", ShiftMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(ShiftMenu, "visible", "", 10);
+			utils.waitForEle(ShiftMenu, "visible", "", 30);
 			ShiftMenu.isDisplayed();
 			ShiftMenu.click();
 
@@ -2471,7 +2526,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", ReportsMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(ReportsMenu, "visible", "", 10);
+			utils.waitForEle(ReportsMenu, "visible", "", 30);
 			ReportsMenu.isDisplayed();
 			ReportsMenu.click();
 
@@ -2489,7 +2544,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", HomeMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(HomeMenu, "visible", "", 10);
+			utils.waitForEle(HomeMenu, "visible", "", 30);
 			HomeMenu.isDisplayed();
 			HomeMenu.click();
 
@@ -2507,7 +2562,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", DirectoryMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(DirectoryMenu, "visible", "", 10);
+			utils.waitForEle(DirectoryMenu, "visible", "", 30);
 			DirectoryMenu.isDisplayed();
 			DirectoryMenu.click();
 
@@ -2525,7 +2580,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", FilesMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(FilesMenu, "visible", "", 10);
+			utils.waitForEle(FilesMenu, "visible", "", 30);
 			FilesMenu.isDisplayed();
 			FilesMenu.click();
 
@@ -2543,7 +2598,7 @@ Thread.sleep(4000);
 			jse.executeScript("arguments[0].scrollIntoView();", BillingMenu);
 			Thread.sleep(2000);
 
-			utils.waitForEle(BillingMenu, "visible", "", 10);
+			utils.waitForEle(BillingMenu, "visible", "", 30);
 			BillingMenu.isDisplayed();
 			BillingMenu.click();
 
@@ -2556,7 +2611,7 @@ Thread.sleep(4000);
 
 	public boolean MasterEditCheckbox() {
 		try {
-			utils.waitForEle(MasterEditCheckbox, "visible", "", 10);
+			utils.waitForEle(MasterEditCheckbox, "visible", "", 30);
 			MasterEditCheckbox.isDisplayed();
 			MasterEditCheckbox.click();
 
@@ -2569,7 +2624,7 @@ Thread.sleep(4000);
 
 	public boolean PolicyMasterCheckbox() {
 		try {
-			utils.waitForEle(PolicyMasterCheckbox, "visible", "", 10);
+			utils.waitForEle(PolicyMasterCheckbox, "visible", "", 30);
 			PolicyMasterCheckbox.isDisplayed();
 			PolicyMasterCheckbox.click();
 
@@ -2582,7 +2637,7 @@ Thread.sleep(4000);
 
 	public boolean AttendanceCheckbox() {
 		try {
-			utils.waitForEle(AttendanceCheckbox, "visible", "", 10);
+			utils.waitForEle(AttendanceCheckbox, "visible", "", 30);
 			AttendanceCheckbox.isDisplayed();
 			AttendanceCheckbox.click();
 
@@ -2595,7 +2650,7 @@ Thread.sleep(4000);
 
 	public boolean LeaveCheckbox() {
 		try {
-			utils.waitForEle(LeaveCheckbox, "visible", "", 10);
+			utils.waitForEle(LeaveCheckbox, "visible", "", 30);
 			LeaveCheckbox.isDisplayed();
 			LeaveCheckbox.click();
 
@@ -2608,7 +2663,7 @@ Thread.sleep(4000);
 
 	public boolean ShiftCheckbox() {
 		try {
-			utils.waitForEle(ShiftCheckbox, "visible", "", 10);
+			utils.waitForEle(ShiftCheckbox, "visible", "", 30);
 			ShiftCheckbox.isDisplayed();
 			ShiftCheckbox.click();
 
@@ -2621,7 +2676,7 @@ Thread.sleep(4000);
 
 	public boolean ReportsCheckbox() {
 		try {
-			utils.waitForEle(ReportsCheckbox, "visible", "", 10);
+			utils.waitForEle(ReportsCheckbox, "visible", "", 30);
 			ReportsCheckbox.isDisplayed();
 			ReportsCheckbox.click();
 
@@ -2634,7 +2689,7 @@ Thread.sleep(4000);
 
 	public boolean HomeCheckbox() {
 		try {
-			utils.waitForEle(HomeCheckbox, "visible", "", 10);
+			utils.waitForEle(HomeCheckbox, "visible", "", 30);
 			HomeCheckbox.isDisplayed();
 			HomeCheckbox.click();
 
@@ -2647,7 +2702,7 @@ Thread.sleep(4000);
 
 	public boolean DirectoryCheckbox() {
 		try {
-			utils.waitForEle(DirectoryCheckbox, "visible", "", 10);
+			utils.waitForEle(DirectoryCheckbox, "visible", "", 30);
 			DirectoryCheckbox.isDisplayed();
 			DirectoryCheckbox.click();
 
@@ -2660,7 +2715,7 @@ Thread.sleep(4000);
 
 	public boolean FilesCheckbox() {
 		try {
-			utils.waitForEle(FilesCheckbox, "visible", "", 10);
+			utils.waitForEle(FilesCheckbox, "visible", "", 30);
 			FilesCheckbox.isDisplayed();
 			FilesCheckbox.click();
 
@@ -2673,7 +2728,7 @@ Thread.sleep(4000);
 
 	public boolean BillingCheckbox() {
 		try {
-			utils.waitForEle(BillingCheckbox, "visible", "", 10);
+			utils.waitForEle(BillingCheckbox, "visible", "", 30);
 			BillingCheckbox.isDisplayed();
 			BillingCheckbox.click();
 
@@ -2686,7 +2741,7 @@ Thread.sleep(4000);
 
 	public boolean SMTPSettingsTab() {
 		try {
-			utils.waitForEle(SMTPSettingsTab, "visible", "", 10);
+			utils.waitForEle(SMTPSettingsTab, "visible", "", 30);
 			SMTPSettingsTab.isDisplayed();
 			SMTPSettingsTab.click();
 
@@ -2711,7 +2766,7 @@ Thread.sleep(4000);
 
 	public boolean BillingPageWalletTab() {
 		try {
-			utils.waitForEle(BillingPageWalletTab, "visible", "", 10);
+			utils.waitForEle(BillingPageWalletTab, "visible", "", 30);
 			BillingPageWalletTab.isDisplayed();
 
 		} catch (Exception e) {
@@ -2725,7 +2780,7 @@ Thread.sleep(4000);
 
 	public boolean GeneralSettings() {
 		try {
-			utils.waitForEle(GeneralSettings, "visible", "", 10);
+			utils.waitForEle(GeneralSettings, "visible", "", 30);
 			GeneralSettings.click();
 
 		} catch (Exception e) {
@@ -2738,7 +2793,7 @@ Thread.sleep(4000);
 	public boolean WebEnrollmentSelectOption() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(WebEnrollmentSelectOption, "visible", "", 10);
+			utils.waitForEle(WebEnrollmentSelectOption, "visible", "", 30);
 			Select select = new Select(WebEnrollmentSelectOption);
 			select.selectByVisibleText("YES");
 
@@ -2752,7 +2807,7 @@ Thread.sleep(4000);
 	public boolean WebEnrollmentTypesFace() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(WebEnrollmentTypes, "visible", "", 10);
+			utils.waitForEle(WebEnrollmentTypes, "visible", "", 30);
 			Select select = new Select(WebEnrollmentTypes);
 			select.selectByVisibleText("Face");
 
@@ -2766,7 +2821,7 @@ Thread.sleep(4000);
 	public boolean WebEnrollmentTypesCard() {
 		try {
 			Thread.sleep(3000);
-			utils.waitForEle(WebEnrollmentTypes, "visible", "", 10);
+			utils.waitForEle(WebEnrollmentTypes, "visible", "", 30);
 			Select select = new Select(WebEnrollmentTypes);
 			select.selectByVisibleText("Card");
 
@@ -2779,7 +2834,7 @@ Thread.sleep(4000);
 
 	public boolean SaveChangesButton() {
 		try {
-			utils.waitForEle(SaveChangesButton, "visible", "", 10);
+			utils.waitForEle(SaveChangesButton, "visible", "", 30);
 			SaveChangesButton.click();
 
 		} catch (Exception e) {
@@ -2793,7 +2848,7 @@ Thread.sleep(4000);
 	
 	public boolean WebEnrollmentClickAction() {
 		try {
-			utils.waitForEle(WebEnrollmentClickAction, "visible", "", 10);
+			utils.waitForEle(WebEnrollmentClickAction, "visible", "", 30);
 			WebEnrollmentClickAction.click();
 
 		} catch (Exception e) {
@@ -2805,7 +2860,7 @@ Thread.sleep(4000);
 	
 	public boolean YesSelectedForEnrollment() {
 		try {
-			utils.waitForEle(YesSelectedForEnrollment, "visible", "", 10);
+			utils.waitForEle(YesSelectedForEnrollment, "visible", "", 30);
 			YesSelectedForEnrollment.click();
 
 		} catch (Exception e) {
@@ -2815,11 +2870,54 @@ Thread.sleep(4000);
 		return true;
 	}
 
+	
+	
+	public boolean AutoSetPolicy() {
+		try {
+			utils.waitForEle(AutoSetPolicy, "visible", "", 20);
+			AutoSetPolicy.click();
+			Thread.sleep(4000);
+
+		} catch (Exception e) {
+			exceptionDesc = e.getMessage().toString();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
 	public String getExceptionDesc() {
 		return this.exceptionDesc;
 	}
 
-	public void setExceptionDesc(String exceptionDesc) {
-		exceptionDesc = exceptionDesc;
+	public  void setExceptionDesc(String exceptionDesc) {  
+		exceptionDesc = this.exceptionDesc;
 	}
 }

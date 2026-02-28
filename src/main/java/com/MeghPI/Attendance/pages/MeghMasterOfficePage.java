@@ -12,7 +12,7 @@ import utils.Utils;
 public class MeghMasterOfficePage {
 
 	WebDriver driver;
-	private static String exceptionDesc;
+	private  String exceptionDesc;
 	Utils utils = new Utils(driver);
 	
 	 public String OfficeName = "";
@@ -120,6 +120,7 @@ public class MeghMasterOfficePage {
 	public boolean OfficeEdit3dots()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(OfficeEdit3dots, "visible", "", 30);
 			OfficeEdit3dots.isDisplayed();
 			OfficeEdit3dots.click();
@@ -177,7 +178,7 @@ public class MeghMasterOfficePage {
 	
 	public boolean CompanyLocationTextField(String officenames) {
 		try {
-
+			Thread.sleep(2000);
 			utils.waitForEle(CompanyLocationTextField,  "visible", "", 10);
 			CompanyLocationTextField.isDisplayed();
 			CompanyLocationTextField.sendKeys(officenames);
@@ -192,6 +193,7 @@ public class MeghMasterOfficePage {
 	public boolean SearchResultErrorMsg()
 	{
 		try {
+			Thread.sleep(2000);
 			utils.waitForEle(SearchResultErrorMsg, "visible", "", 10);
 			SearchResultErrorMsg.isDisplayed();
 		
@@ -208,6 +210,7 @@ public class MeghMasterOfficePage {
 	    public boolean FirstCompanyRecordToggleSwitch()
 		{
 			try {
+				Thread.sleep(4000);
 				utils.waitForEle(FirstCompanyRecordToggleSwitch, "visible", "", 10);
 				FirstCompanyRecordToggleSwitch.isDisplayed();
 				FirstCompanyRecordToggleSwitch.click();
@@ -221,10 +224,11 @@ public class MeghMasterOfficePage {
 	    public boolean ConfirmButton()
 		{
 			try {
+				Thread.sleep(2000);
 				utils.waitForEle(ConfirmButton, "visible", "", 10);
 				ConfirmButton.isDisplayed();
 				ConfirmButton.click();
-				
+				Thread.sleep(2000);
 			} catch (Exception e) {
 				exceptionDesc=	e.getMessage().toString();
 				return false;
@@ -442,13 +446,14 @@ Thread.sleep(4000);
 	
 	
 	
-	public String getExceptionDesc() {
-		return this.exceptionDesc;
-	}
 
-	public  void setExceptionDesc(String exceptionDesc) {  
-		exceptionDesc = exceptionDesc;
-	}
+		public String getExceptionDesc() {
+			return this.exceptionDesc;
+		}
+
+		public  void setExceptionDesc(String exceptionDesc) {  
+			exceptionDesc = this.exceptionDesc;
+		}
 	
 	
 }

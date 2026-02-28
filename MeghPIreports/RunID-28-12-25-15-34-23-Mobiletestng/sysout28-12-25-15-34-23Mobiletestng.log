@@ -1,0 +1,20 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-28 15:34:24
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device 3c3b8179
+Command executed with exit code: 255
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.
+---------------------------------------------------------------
+MeghPIAttendAndroidLoginTestMPI_1376_Mobile_Login_01
+---------------------------------------------------------------
+Test case took: 43.3175 seconds
+Total TC Time: 00:00:43
+Launching Driver... 2025-12-28 15:35:20
+Command executed with exit code: 0
+🧹 Clearing and killing app: com.mantra.praveshsaas on device 3c3b8179
+Command executed with exit code: 255
+Command executed with exit code: 0
+Command executed with exit code: 1
+✅ App stopped successfully.

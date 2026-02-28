@@ -1,9 +1,0 @@
->> Console logging redirected to data/console.log
-Error while reading excel : APIdata-Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.LinkedHashMap.get(Object)" is null
-No Logs found to Generate Report.
-
-===============================================
-Suite
-Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
-===============================================
-

@@ -1,0 +1,24 @@
+[11:35:38] INFO  - Initialized Log4j2 for test: MeghPIreports/RunID-11-12-25-11-35-38-companymodules/chromeMeghPIEmpAttendanceReportsTest.txt
+[11:35:42] INFO  - PASS - Application Loaded Successfully.
+[11:35:44] INFO  - PASS - Company Code Entered in Text Box.ACZO
+[11:35:47] INFO  - PASS - Login With Password Button Is Clicked.
+[11:35:49] INFO  - PASS - Sign in Text Is Displayed.
+[11:35:51] INFO  - PASS - Username Is Entered In Username Text Field.Emp050
+[11:35:53] INFO  - PASS - Password Is Entered In Password Text Field.Emp050
+[11:35:55] INFO  - PASS - Captcha Entered On Captcha Text Field.12345
+[11:35:58] INFO  - PASS - Clicked On Login Button.
+[11:36:00] INFO  - PASS - Login Done  And Validated Successfully.
+[11:36:02] INFO  - PASS - Login Done Successfully.
+[11:36:08] INFO  - PASS - Report Button Clicked Successfully.
+[11:36:13] INFO  - PASS - AttendanceReport Displayed Successfully .
+[11:36:15] INFO  - PASS - MissingPunchTab Displayed Successfully.
+[11:36:17] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:36:19] INFO  - PASS - Shift Search Option Checkbox Selected Successfully.
+[11:36:22] INFO  - PASS - Final Status Search Option Checkbox Selected Successfully:
+[11:36:24] INFO  - PASS - SearchDropDown Clicked Successfully.
+[11:36:26] INFO  - PASS - Shift Name Inputted Successfully.Unknown Shift
+[11:36:28] INFO  - PASS - Assigned Shift Record Displayed Successfully.Unknown Shift
+[11:36:30] INFO  - PASS - Status Name Inputted Successfully.Absent
+[11:36:33] INFO  - PASS - Final Status Record Displayed Successfully.Absent
+[11:36:33] INFO  - Passed - MeghPIEmpAttendanceReportsTest-MPI_1741_MissingPunch_Reports_01-To verify that the search functionality works correctly and ensure that employees can search their punch records using all available search options.
+[11:36:33] INFO  - Total Pass : 1 Total Fail : 0  Total TC : 1

@@ -1,0 +1,20 @@
+>> Console logging redirected to data/console.log
+Launching Driver... 2025-12-12 10:42:55
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Dec 12, 2025 10:42:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 143
+(1386, 788)
+Report Folder : http://192.168.6.201:8002/RunID-12-12-25-10-42-55-companymodules
+---------------------------------------------------------------
+MeghPIEmpTimeLogReportsTestMPI_1777_Emp_EarlyOut_Reports_04
+---------------------------------------------------------------
+Test case took: 94.8912 seconds
+Total TC Time: 00:01:34
+
+===============================================
+Suite
+Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+===============================================
+
